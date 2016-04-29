@@ -1,2 +1,2 @@
-# bioconda-test-all
+# bioconda-tests
 A repository to periodically test all recipes.
