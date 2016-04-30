@@ -8,5 +8,5 @@ then
 else
     export PATH=/anaconda/bin:$PATH
     # build packages
-    scripts/build-packages.py --testonly --repository bioconda-recipes --env-matrix bioconda-recipes/scripts/env_matrix.yml
+    bioconda-recipes/scripts/build-packages.py --testonly --repository bioconda-recipes --env-matrix bioconda-recipes/scripts/env_matrix.yml
 fi
