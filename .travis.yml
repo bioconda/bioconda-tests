@@ -5,7 +5,9 @@ language: c
 sudo: required
 services:
 - docker
-install: bioconda-recipes/scripts/travis-setup.sh
+install:
+- git submodule update --remote
+- bioconda-recipes/scripts/travis-setup.sh
 script: travis_wait 50 scripts/travis-run.sh
 env:
   global:
