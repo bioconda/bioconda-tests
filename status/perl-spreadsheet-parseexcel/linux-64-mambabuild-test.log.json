@@ -1,0 +1,135 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-spreadsheet-parseexcel-0.65-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpq2nex_vl/info/recipe/conda_build_config.yaml
+  Package                         Version  Build            Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                     0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex                     4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                      11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                        11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libstdcxx-ng                   11.1.0  h56837e0_8       conda-forge/linux-64                    Cached
+  + perl                           5.26.2  h36c2ea0_1008    conda-forge/linux-64                    Cached
+  + perl-crypt-rc4                   2.02  pl526_1          bioconda/linux-64                         8 KB
+  + perl-digest-perl-md5              1.9  pl526_1          bioconda/linux-64                        11 KB
+  + perl-io-stringy                 2.111  pl526_1          bioconda/linux-64                        35 KB
+  + perl-jcode                       2.07  pl526_2          bioconda/linux-64                        24 KB
+  + perl-ole-storage_lite            0.19  pl526_3          bioconda/linux-64                        18 KB
+  + perl-parse-recdescent        1.967015  pl526_0          bioconda/linux-64                        71 KB
+  + perl-spreadsheet-parseexcel      0.65  pl526_2          /home/vsts/conda/conda-bld/linux-64      63 KB
+  + perl-spreadsheet-writeexcel      2.40  pl526_2          bioconda/linux-64                       259 KB
+  + perl-unicode-map                0.112  pl526h6bb024c_3  bioconda/linux-64                       254 KB
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 743 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-spreadsheet-parseexcel_1630451034982/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:               0.1-conda_forge       conda-forge
+    _openmp_mutex:               4.5-1_gnu             conda-forge
+    libgcc-ng:                   11.1.0-hc902ee8_8     conda-forge
+    libgomp:                     11.1.0-hc902ee8_8     conda-forge
+    libstdcxx-ng:                11.1.0-h56837e0_8     conda-forge
+    perl:                        5.26.2-h36c2ea0_1008  conda-forge
+    perl-crypt-rc4:              2.02-pl526_1          bioconda   
+    perl-digest-perl-md5:        1.9-pl526_1           bioconda   
+    perl-io-stringy:             2.111-pl526_1         bioconda   
+    perl-jcode:                  2.07-pl526_2          bioconda   
+    perl-ole-storage_lite:       0.19-pl526_3          bioconda   
+    perl-parse-recdescent:       1.967015-pl526_0      bioconda   
+    perl-spreadsheet-parseexcel: 0.65-pl526_2          local      
+    perl-spreadsheet-writeexcel: 2.40-pl526_2          bioconda   
+    perl-unicode-map:            0.112-pl526h6bb024c_3 bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-spreadsheet-parseexcel_1630451034982/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-spreadsheet-parseexcel_1630451034982/test_tmp
+import: Spreadsheet::ParseExcel
+	using version 0.65
+import: Spreadsheet::ParseExcel::Cell
+	using version 0.65
+import: Spreadsheet::ParseExcel::Dump
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtDefault
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtJapan
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtJapan2
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtUnicode
+	using version 0.65
+import: Spreadsheet::ParseExcel::Font
+	using version 0.65
+import: Spreadsheet::ParseExcel::Format
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser::Workbook
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser::Worksheet
+	using version 0.65
+import: Spreadsheet::ParseExcel::Utility
+	using version 0.65
+import: Spreadsheet::ParseExcel::Workbook
+	using version 0.65
+import: Spreadsheet::ParseExcel::Worksheet
+	using version 0.65
+import: Spreadsheet::ParseExcel
+	using version 0.65
+import: Spreadsheet::ParseExcel::Cell
+	using version 0.65
+import: Spreadsheet::ParseExcel::Dump
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtDefault
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtJapan
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtJapan2
+	using version 0.65
+import: Spreadsheet::ParseExcel::FmtUnicode
+	using version 0.65
+import: Spreadsheet::ParseExcel::Font
+	using version 0.65
+import: Spreadsheet::ParseExcel::Format
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser::Workbook
+	using version 0.65
+import: Spreadsheet::ParseExcel::SaveParser::Worksheet
+	using version 0.65
+import: Spreadsheet::ParseExcel::Utility
+	using version 0.65
+import: Spreadsheet::ParseExcel::Workbook
+	using version 0.65
+import: Spreadsheet::ParseExcel::Worksheet
+	using version 0.65
+
+Resource usage statistics from testing perl-spreadsheet-parseexcel:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 28B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-spreadsheet-parseexcel-0.65-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
