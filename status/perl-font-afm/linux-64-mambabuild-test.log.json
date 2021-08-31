@@ -1,0 +1,85 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-font-afm-1.20-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpuk0oc372/info/recipe/conda_build_config.yaml
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl            5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + perl-font-afm     1.20  pl526_2        /home/vsts/conda/conda-bld/linux-64      14 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 14 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-font-afm_1630448729584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    perl:          5.26.2-h36c2ea0_1008 conda-forge
+    perl-font-afm: 1.20-pl526_2         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-font-afm_1630448729584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-font-afm_1630448729584/test_tmp
+import: Font::AFM
+	using version 1.20
+import: Font::Metrics::Courier
+import: Font::Metrics::CourierBold
+import: Font::Metrics::CourierBoldOblique
+import: Font::Metrics::CourierOblique
+import: Font::Metrics::Helvetica
+import: Font::Metrics::HelveticaBold
+import: Font::Metrics::HelveticaBoldOblique
+import: Font::Metrics::HelveticaOblique
+import: Font::Metrics::TimesBold
+import: Font::Metrics::TimesBoldItalic
+import: Font::Metrics::TimesItalic
+import: Font::Metrics::TimesRoman
+import: Font::AFM
+	using version 1.20
+import: Font::Metrics::Courier
+import: Font::Metrics::CourierBold
+import: Font::Metrics::CourierBoldOblique
+import: Font::Metrics::CourierOblique
+import: Font::Metrics::Helvetica
+import: Font::Metrics::HelveticaBold
+import: Font::Metrics::HelveticaBoldOblique
+import: Font::Metrics::HelveticaOblique
+import: Font::Metrics::TimesBold
+import: Font::Metrics::TimesBoldItalic
+import: Font::Metrics::TimesItalic
+import: Font::Metrics::TimesRoman
+
+Resource usage statistics from testing perl-font-afm:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-font-afm-1.20-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
