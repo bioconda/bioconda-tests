@@ -1,0 +1,54 @@
+  Package     Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + k8          0.2.5  h87af4ef_1     bioconda/osx-64                            1 MB
+  + libcxx     12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + minimap2     2.22  h188c3c3_0     /Users/runner/conda/conda-bld/osx-64     147 KB
+  + zlib       1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 2 MB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: minimap2-2.22-h188c3c3_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/minimap2_1630435842254/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    k8:       0.2.5-h87af4ef_1     bioconda   
+    libcxx:   12.0.1-habf9029_0    conda-forge
+    minimap2: 2.22-h188c3c3_0      local      
+    zlib:     1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/minimap2_1630435842254/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/minimap2_1630435842254/test_tmp
+Usage: minimap2 [options] <target.fa>|<target.idx> [query.fa] [...]
+2.22-r1101
+Usage: sdust [-w 64] [-t 20] <in.fa>
+
+Resource usage statistics from testing minimap2:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: minimap2-2.22-h188c3c3_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
