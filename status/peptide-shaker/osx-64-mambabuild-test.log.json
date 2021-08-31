@@ -1,0 +1,229 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk           11.0.9.1  hcf210ce_1          conda-forge/osx-64                       169 MB
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + peptide-shaker      2.0.33  hb4d813b_0          /Users/runner/conda/conda-bld/osx-64     144 MB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 312 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: peptide-shaker-2.0.33-hb4d813b_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/peptide-shaker_1630442593851/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openjdk:         11.0.9.1-hcf210ce_1      conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    peptide-shaker:  2.0.33-hb4d813b_0        local      
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/peptide-shaker_1630442593851/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/peptide-shaker_1630442593851/test_tmp
+
+Mandatory parameters not specified.
+
+
+==============================
+PeptideShaker - Command Line
+==============================
+
+The PeptideShaker command line takes identification files from search engines and creates a PeptideShaker project saved as psdb file. Various exports can be generated from the project.
+
+For further help see https://compomics.github.io/projects/peptide-shaker.html and https://compomics.github.io/projects/peptide-shaker/wiki/PeptideshakerCLI.html.
+
+Or contact the developers at https://groups.google.com/group/peptide-shaker.
+
+----------------------
+OPTIONS
+----------------------
+
+Mandatory Parameters:
+
+-reference                           The reference/name for the project.
+-identification_files                Identification files, comma separated list or an entire folder.
+
+
+Optional Input Parametera:
+
+-spectrum_files                      Spectrum files, comma separated list or an entire folder.
+-fasta_file                          The complete path to the FASTA file.
+-id_params                           The identification parameters file to use.
+
+
+Optional Output Parameter:
+
+-out                                 PeptideShaker output file. Note: if file exists it will be overwritten.
+
+
+Optional Processing Parameters:
+
+-gui                                 Use a dialog to display the progress (1: true, 0: false, default is '0').
+-threads                             The number of threads to use. Defaults to the number of available CPUs.
+
+
+Optional Export Parameters:
+
+-zip                                 Exports the entire project as a zip file in the file specified.
+-output_mgf                          When using zipped output, exports mgf file(s) out of the zip file into the same folder in addition (0: no, 1: yes, default is '0').
+
+
+Optional Log Folder:
+
+-log                                 Folder where the log files are written.
+-use_log_folder                      Use the log folder. 0: write to standard output, 1: use the log folder. Default: 1.
+
+
+Optional Temporary Folder:
+
+-temp_folder                         A folder for temporary file storage. Use only if you encounter problems with the default configuration.
+
+
+For identification parameters options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.IdentificationParametersCLI
+
+
+For follow up export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.FollowUpCLI
+
+
+For report export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.ReportCLI
+
+For mzid export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.MzidCLI
+
+For path setting options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.PathSettingsCLI
+
+Mandatory parameters not specified.
+
+
+==============================
+PeptideShaker - Command Line
+==============================
+
+The PeptideShaker command line takes identification files from search engines and creates a PeptideShaker project saved as psdb file. Various exports can be generated from the project.
+
+For further help see https://compomics.github.io/projects/peptide-shaker.html and https://compomics.github.io/projects/peptide-shaker/wiki/PeptideshakerCLI.html.
+
+Or contact the developers at https://groups.google.com/group/peptide-shaker.
+
+----------------------
+OPTIONS
+----------------------
+
+Mandatory Parameters:
+
+-reference                           The reference/name for the project.
+-identification_files                Identification files, comma separated list or an entire folder.
+
+
+Optional Input Parametera:
+
+-spectrum_files                      Spectrum files, comma separated list or an entire folder.
+-fasta_file                          The complete path to the FASTA file.
+-id_params                           The identification parameters file to use.
+
+
+Optional Output Parameter:
+
+-out                                 PeptideShaker output file. Note: if file exists it will be overwritten.
+
+
+Optional Processing Parameters:
+
+-gui                                 Use a dialog to display the progress (1: true, 0: false, default is '0').
+-threads                             The number of threads to use. Defaults to the number of available CPUs.
+
+
+Optional Export Parameters:
+
+-zip                                 Exports the entire project as a zip file in the file specified.
+-output_mgf                          When using zipped output, exports mgf file(s) out of the zip file into the same folder in addition (0: no, 1: yes, default is '0').
+
+
+Optional Log Folder:
+
+-log                                 Folder where the log files are written.
+-use_log_folder                      Use the log folder. 0: write to standard output, 1: use the log folder. Default: 1.
+
+
+Optional Temporary Folder:
+
+-temp_folder                         A folder for temporary file storage. Use only if you encounter problems with the default configuration.
+
+
+For identification parameters options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.IdentificationParametersCLI
+
+
+For follow up export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.FollowUpCLI
+
+
+For report export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.ReportCLI
+
+For mzid export options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.MzidCLI
+
+For path setting options:
+Replace eu.isas.peptideshaker.cmd.PeptideShakerCLI with eu.isas.peptideshaker.cmd.PathSettingsCLI
+
+Resource usage statistics from testing peptide-shaker:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 27.8M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: peptide-shaker-2.0.33-hb4d813b_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

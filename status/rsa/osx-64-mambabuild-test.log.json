@@ -1,0 +1,160 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pyasn1               0.4.8  py_0                conda-forge/noarch                        53 KB
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + rsa                  4.7.2  pyh44b312d_0        /Users/runner/conda/conda-bld/osx-64      28 KB
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 81 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rsa-4.7.2-pyh44b312d_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rsa_1630442519436/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    pyasn1:          0.4.8-py_0               conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    rsa:             4.7.2-pyh44b312d_0       local      
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rsa_1630442519436/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/rsa_1630442519436/test_tmp
+import: 'rsa'
+import: 'rsa'
+No broken requirements found.
+Usage: pyrsa-priv2pub [options]
+
+Reads a private key and outputs the corresponding public key. Both private and
+public keys use the format described in PKCS#1 v1.5
+
+Options:
+  -h, --help            show this help message and exit
+  -i INFILENAME, --input=INFILENAME
+                        Input filename. Reads from stdin if not specified
+  -o OUTFILENAME, --output=OUTFILENAME
+                        Output filename. Writes to stdout of not specified
+  --inform=INFORM       key format of input - default PEM
+  --outform=OUTFORM     key format of output - default PEM
+Usage: pyrsa-keygen [options] keysize
+
+Generates a new RSA keypair of "keysize" bits.
+
+Options:
+  -h, --help         show this help message and exit
+  --pubout=PUBOUT    Output filename for the public key. The public key is not
+                     saved if this option is not present. You can use pyrsa-
+                     priv2pub to create the public key file later.
+  -o OUT, --out=OUT  Output filename for the private key. The key is written
+                     to stdout if this option is not present.
+  --form=FORM        key format of the private and public keys - default PEM
+Usage: pyrsa-encrypt [options] public_key
+
+Encrypts a file. The file must be shorter than the key length in order to be
+encrypted.
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT
+                        Name of the file to encrypt. Reads from stdin if not
+                        specified.
+  -o OUTPUT, --output=OUTPUT
+                        Name of the file to write the encrypted file to.
+                        Written to stdout if this option is not present.
+  --keyform=KEYFORM     Key format of the public key - default PEM
+Usage: pyrsa-decrypt [options] private_key
+
+Decrypts a file. The original file must be shorter than the key length in
+order to have been encrypted.
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT
+                        Name of the file to decrypt. Reads from stdin if not
+                        specified.
+  -o OUTPUT, --output=OUTPUT
+                        Name of the file to write the decrypted file to.
+                        Written to stdout if this option is not present.
+  --keyform=KEYFORM     Key format of the private key - default PEM
+Usage: pyrsa-sign [options] private_key hash_method
+
+Signs a file, outputs the signature. Choose the hash method from MD5, SHA-1,
+SHA-224, SHA-256, SHA-384, SHA-512, SHA3-256, SHA3-384, SHA3-512
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT
+                        Name of the file to sign. Reads from stdin if not
+                        specified.
+  -o OUTPUT, --output=OUTPUT
+                        Name of the file to write the signature to. Written to
+                        stdout if this option is not present.
+  --keyform=KEYFORM     Key format of the private key - default PEM
+Usage: pyrsa-verify [options] public_key signature_file
+
+Verifies a signature, exits with status 0 upon success, prints an error
+message and exits with status 1 upon error.
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT
+                        Name of the file to verify. Reads from stdin if not
+                        specified.
+  --keyform=KEYFORM     Key format of the public key - default PEM
+
+Resource usage statistics from testing rsa:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.3
+   Memory: 45.1M
+   Disk usage: 24B
+   Time elapsed: 0:00:06.5
+
+
+TEST END: rsa-4.7.2-pyh44b312d_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
