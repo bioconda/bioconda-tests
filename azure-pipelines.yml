@@ -1,0 +1,187 @@
+trigger:
+- main
+
+schedules:
+- cron: '0 * * * *'
+  branches:
+    include:
+    - main
+  always: true
+
+stages:
+- stage: prepare
+  jobs:
+  - job: prepare
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - bash: |
+        set -xeuo pipefail
+        tag="$(
+          git ls-remote --tags https://github.com/bioconda/bioconda-repodata-archive | \
+            grep -oE '2\.[0-9]+\.[0-9]+\.[0-9]{4}\.[0-9]{2}\.[0-9]{2}\.[0-9]{2}\.[0-9]{2}\.[0-9]{2}$' | \
+            tail -n1
+        )"
+        echo "##vso[task.setvariable variable=REPODATA;isOutput=true]${tag}"
+      name: select_repodata_archive
+    - bash: |
+        set -xeuo pipefail
+        pip install ntplib
+        PYTHONPATH="$( pwd )/src" \
+          python -m select_packages.select_packages \
+          --num-packages=10 \
+          --output-dir='$(Pipeline.Workspace)/selected_packages'
+      name: select_packages
+    - task: InstallSSHKey@0
+      inputs:
+        knownHostsEntry: github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+        sshPublicKey: $(BiocondaBot_deploy_bioconda_tests)
+        sshKeySecureFile: BiocondaBot-deploy-bioconda-tests
+      name: install_deploy_key
+    - bash: |
+        set -xeuo pipefail
+        git checkout main
+        git remote get-url origin \
+          | sed \
+            -e 's|^https://github.com|git@github.com:|' \
+            -e 's|$|.git|' \
+          | xargs git remote set-url origin
+        git pull
+        ntp_time="$(
+          PYTHONPATH=$(pwd)/src \
+            python -c \
+              'import select_packages.ntp_time as t; print(t.format_utc_time(t.get_ntp_time()))'
+        )"
+        results_dir=./status
+        mkdir -p "${results_dir}"
+        cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
+          | sort -u \
+          | while read package ; do
+            mkdir -p "${results_dir}/${package}"
+            printf '{"state":"running","started_at":"'"${ntp_time}"'"}' \
+              > "${results_dir}/${package}/status.json"
+            git add "${results_dir}/${package}/status.json"
+          done
+
+        git config --global user.email "47040946+BiocondaBot@users.noreply.github.com"
+        git config --global user.name "BiocondaBot"
+        git commit -m \
+        "Set state=running at ${ntp_time} ***NO_CI***
+
+        $( cat '$(Pipeline.Workspace)/selected_packages/'*.txt | sort -u )
+        "
+        git push
+      name: mark_as_running
+    - publish: $(Pipeline.Workspace)/selected_packages
+      artifact: selected_packages
+
+
+- stage: test
+  dependsOn: prepare
+  variables:
+    REPODATA: $[ stageDependencies.prepare.prepare.outputs['select_repodata_archive.REPODATA'] ]
+    MICROMAMBA_VERSION: 0.15.2
+  jobs:
+  - job: linux
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - bash: |
+        set -xeuo pipefail
+        SUBDIR=linux-64 REPODATA="$(REPODATA)" bash setup-conda.sh
+        . "${HOME}/conda/etc/profile.d/conda.sh"
+        conda activate base
+        conda info -a
+        conda config --show-sources
+      name: setup_conda
+    - download: current
+      artifact: selected_packages
+      name: download_selected_packages
+    - bash: |
+        set -xeuo pipefail
+        . "${HOME}/conda/etc/profile.d/conda.sh"
+        conda activate base
+        src/test_packages '$(Pipeline.Workspace)' linux-64 noarch
+      name: test_packages
+    - publish: $(Pipeline.Workspace)/linux-64
+      artifact: linux-64
+
+  - job: macos
+    pool:
+      vmImage: 'macOS-latest'
+    steps:
+    - bash: |
+        set -xeuo pipefail
+        SUBDIR=osx-64 REPODATA="$(REPODATA)" bash setup-conda.sh
+        . "${HOME}/conda/etc/profile.d/conda.sh"
+        conda activate base
+        conda info -a
+        conda config --show-sources
+      name: setup_conda
+    - download: current
+      artifact: selected_packages
+      name: download_selected_packages
+    - bash: |
+        set -xeuo pipefail
+        . "${HOME}/conda/etc/profile.d/conda.sh"
+        conda activate base
+        src/test_packages '$(Pipeline.Workspace)' osx-64 noarch
+      name: test_packages
+    - publish: $(Pipeline.Workspace)/osx-64
+      artifact: osx-64
+
+  # - job: windows
+  # pool:
+  #   vmImage: 'windows-latest'
+  # bash:
+  # - script: |
+  #     ...
+  #   name: ...
+
+
+- stage: gather
+  dependsOn: test
+  condition: succeededOrFailed()
+  jobs:
+  - job: gather
+    pool:
+      vmImage: 'ubuntu-latest'
+    steps:
+    - download: current
+    - task: InstallSSHKey@0
+      inputs:
+        knownHostsEntry: github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
+        sshPublicKey: $(BiocondaBot_deploy_bioconda_tests)
+        sshKeySecureFile: BiocondaBot-deploy-bioconda-tests
+      name: install_deploy_key
+    - bash: |
+        set -xeuo pipefail
+        git checkout main
+        git remote get-url origin \
+          | sed \
+            -e 's|^https://github.com|git@github.com:|' \
+            -e 's|$|.git|' \
+          | xargs git remote set-url origin
+        git pull
+        results_dir=./status
+        cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
+          | sort -u \
+          | while read package ; do
+            sed 's/"running"/"completed"/' "${results_dir}/${package}/status.json"
+            find "${results_dir}/${package}" -mindepth 1 -maxdepth 1 -type f \! -name 'status.json' -exec git rm {} +
+            mkdir -p "${results_dir}/${package}"
+            for subdir in linux-64 osx-64 ; do
+              for file in '$(Pipeline.Workspace)/'"${subdir}/${package}/"* ; do
+                cp -f "${file}" "${results_dir}/${package}/${subdir}-${file##*/}"
+              done
+            done
+            git add "${results_dir}/${package}/"*
+          done
+        git config --global user.email "47040946+BiocondaBot@users.noreply.github.com"
+        git config --global user.name "BiocondaBot"
+        git commit -m \
+        "Commit status ***NO_CI***
+
+        $( cat '$(Pipeline.Workspace)/selected_packages/'*.txt | sort -u )
+        "
+        git push
