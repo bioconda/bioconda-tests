@@ -1,0 +1,65 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-exporter-tiny-1.002001-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp06pnazm9/info/recipe/conda_build_config.yaml
+  Package                Version  Build          Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex            4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng             11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp               11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl                  5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + perl-exporter-tiny  1.002001  pl526_0        /home/vsts/conda/conda-bld/linux-64     Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 0  B
+
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-exporter-tiny_1630428774193/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:      0.1-conda_forge      conda-forge
+    _openmp_mutex:      4.5-1_gnu            conda-forge
+    libgcc-ng:          11.1.0-hc902ee8_8    conda-forge
+    libgomp:            11.1.0-hc902ee8_8    conda-forge
+    perl:               5.26.2-h36c2ea0_1008 conda-forge
+    perl-exporter-tiny: 1.002001-pl526_0     local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-exporter-tiny_1630428774193/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-exporter-tiny_1630428774193/test_tmp
+import: Exporter::Shiny
+	using version 1.002001
+import: Exporter::Tiny
+	using version 1.002001
+import: Exporter::Shiny
+	using version 1.002001
+import: Exporter::Tiny
+	using version 1.002001
+
+Resource usage statistics from testing perl-exporter-tiny:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-exporter-tiny-1.002001-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
