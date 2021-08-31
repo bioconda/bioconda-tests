@@ -167,7 +167,8 @@ stages:
         cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
           | sort -u \
           | while read package ; do
-            sed 's/"running"/"completed"/' "${results_dir}/${package}/status.json"
+            sed -i 's/"running"/"completed"/' "${results_dir}/${package}/status.json"
+            git add "${results_dir}/${package}/status.json"
             find "${results_dir}/${package}" -mindepth 1 -maxdepth 1 -type f \! -name 'status.json' -exec git rm {} +
             mkdir -p "${results_dir}/${package}"
             for subdir in linux-64 osx-64 ; do
