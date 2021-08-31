@@ -1,0 +1,109 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + stringtie            2.1.7  hf1f7dee_0          /Users/runner/conda/conda-bld/osx-64     425 KB
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 425 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: stringtie-2.1.7-hf1f7dee_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/stringtie_1630444705318/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    stringtie:       2.1.7-hf1f7dee_0         local      
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/stringtie_1630444705318/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/stringtie_1630444705318/test_tmp
+Assemble RNA-Seq alignments into potential transcripts.
+Usage: prepDE.py [options]
+
+Generates two CSV files containing the count matrices for genes and
+transcripts, using the coverage values found in the output of `stringtie -e`
+
+Options:
+  -h, --help            show this help message and exit
+  -i INPUT, --input=INPUT, --in=INPUT
+                        a folder containing all sample sub-directories, or a
+                        text file with sample ID and path to its GTF file on
+                        each line [default: ./]
+  -g G                  where to output the gene count matrix [default:
+                        gene_count_matrix.csv
+  -t T                  where to output the transcript count matrix [default:
+                        transcript_count_matrix.csv]
+  -l LENGTH, --length=LENGTH
+                        the average read length [default: 75]
+  -p PATTERN, --pattern=PATTERN
+                        a regular expression that selects the sample
+                        subdirectories
+  -c, --cluster         whether to cluster genes that overlap with different
+                        gene IDs, ignoring ones with geneID pattern (see
+                        below)
+  -s STRING, --string=STRING
+                        if a different prefix is used for geneIDs assigned by
+                        StringTie [default: MSTRG]
+  -k KEY, --key=KEY     if clustering, what prefix to use for geneIDs assigned
+                        by this script [default: prepG]
+  -v                    enable verbose processing
+  --legend=LEGEND       if clustering, where to output the legend file mapping
+                        transcripts to assigned geneIDs [default: legend.csv]
+
+Resource usage statistics from testing stringtie:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: stringtie-2.1.7-hf1f7dee_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
