@@ -1,0 +1,61 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-apache-test-1.40-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpqtf79hp1/info/recipe/conda_build_config.yaml
+  Package                    Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                      5.26.2  hbcb3906_1008    conda-forge/osx-64                       Cached
+  + perl-apache-test            1.40  pl526_1          /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-carp                   1.38  pl526_3          bioconda/osx-64                          Cached
+  + perl-exporter               5.72  pl526_1          bioconda/osx-64                          Cached
+  + perl-extutils-makemaker     7.36  pl526_1          bioconda/osx-64                          Cached
+  + perl-pathtools              3.75  pl526h1de35cc_1  bioconda/osx-64                          Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 0  B
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-apache-test_1630453216332/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-apache-test:        1.40-pl526_1         local      
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-pathtools:          3.75-pl526h1de35cc_1 bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-apache-test_1630453216332/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-apache-test_1630453216332/test_tmp
+import: Apache::Test
+	using version 1.40
+import: Apache::Test
+	using version 1.40
+
+Resource usage statistics from testing perl-apache-test:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-apache-test-1.40-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
