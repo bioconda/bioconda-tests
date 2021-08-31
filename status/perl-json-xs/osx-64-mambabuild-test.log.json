@@ -1,0 +1,57 @@
+  Package                  Version  Build            Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx                  12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + perl                    5.26.2  hbcb3906_1008    conda-forge/osx-64                       Cached
+  + perl-common-sense         3.74  pl526_2          bioconda/osx-64                           15 KB
+  + perl-json-xs              4.02  pl526h04f5b5a_2  /Users/runner/conda/conda-bld/osx-64      69 KB
+  + perl-types-serialiser      1.0  pl526_2          bioconda/osx-64                           10 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 95 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-json-xs-4.02-pl526h04f5b5a_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-json-xs_1630432630165/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:                12.0.1-habf9029_0    conda-forge
+    perl:                  5.26.2-hbcb3906_1008 conda-forge
+    perl-common-sense:     3.74-pl526_2         bioconda   
+    perl-json-xs:          4.02-pl526h04f5b5a_2 local      
+    perl-types-serialiser: 1.0-pl526_2          bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-json-xs_1630432630165/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-json-xs_1630432630165/test_tmp
+import: JSON::XS
+	using version 4.02
+import: JSON::XS
+	using version 4.02
+
+Resource usage statistics from testing perl-json-xs:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-json-xs-4.02-pl526h04f5b5a_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

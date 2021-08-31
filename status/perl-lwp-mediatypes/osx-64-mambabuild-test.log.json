@@ -1,0 +1,59 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-lwp-mediatypes-6.04-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpjwdj3ez1/info/recipe/conda_build_config.yaml
+  Package                    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                      5.26.2  hbcb3906_1008  conda-forge/osx-64                       Cached
+  + perl-carp                   1.38  pl526_3        bioconda/osx-64                          Cached
+  + perl-exporter               5.72  pl526_1        bioconda/osx-64                          Cached
+  + perl-extutils-makemaker     7.36  pl526_1        bioconda/osx-64                          Cached
+  + perl-lwp-mediatypes         6.04  pl526_0        /Users/runner/conda/conda-bld/osx-64      22 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 22 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-lwp-mediatypes_1630432679725/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-lwp-mediatypes:     6.04-pl526_0         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-lwp-mediatypes_1630432679725/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-lwp-mediatypes_1630432679725/test_tmp
+import: LWP::MediaTypes
+	using version 6.04
+import: LWP::MediaTypes
+	using version 6.04
+
+Resource usage statistics from testing perl-lwp-mediatypes:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-lwp-mediatypes-6.04-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
