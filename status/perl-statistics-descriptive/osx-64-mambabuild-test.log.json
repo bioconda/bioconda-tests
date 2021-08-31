@@ -1,0 +1,73 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-statistics-descriptive-3.0702-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpgs6kc0qk/info/recipe/conda_build_config.yaml
+  Package                         Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                           5.26.2  hbcb3906_1008  conda-forge/osx-64                       14 MB
+  + perl-exporter-tiny           1.002001  pl526_0        bioconda/osx-64                          23 KB
+  + perl-list-moreutils             0.428  pl526_1        bioconda/osx-64                          28 KB
+  + perl-list-moreutils-xs          0.428  pl526_0        bioconda/osx-64                          40 KB
+  + perl-statistics-descriptive    3.0702  pl526_0        /Users/runner/conda/conda-bld/osx-64     32 KB
+  + perl-xsloader                    0.24  pl526_0        bioconda/osx-64                           8 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 14 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-statistics-descriptive_1630442897050/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                        5.26.2-hbcb3906_1008 conda-forge
+    perl-exporter-tiny:          1.002001-pl526_0     bioconda   
+    perl-list-moreutils:         0.428-pl526_1        bioconda   
+    perl-list-moreutils-xs:      0.428-pl526_0        bioconda   
+    perl-statistics-descriptive: 3.0702-pl526_0       local      
+    perl-xsloader:               0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-statistics-descriptive_1630442897050/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-statistics-descriptive_1630442897050/test_tmp
+import: Statistics::Descriptive
+	using version 3.0702
+import: Statistics::Descriptive::Smoother
+	using version 3.0702
+import: Statistics::Descriptive::Smoother::Exponential
+	using version 3.0702
+import: Statistics::Descriptive::Smoother::Weightedexponential
+	using version 3.0702
+import: Statistics::Descriptive
+	using version 3.0702
+import: Statistics::Descriptive::Smoother
+	using version 3.0702
+import: Statistics::Descriptive::Smoother::Exponential
+	using version 3.0702
+import: Statistics::Descriptive::Smoother::Weightedexponential
+	using version 3.0702
+
+Resource usage statistics from testing perl-statistics-descriptive:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-statistics-descriptive-3.0702-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
