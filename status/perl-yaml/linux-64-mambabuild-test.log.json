@@ -1,0 +1,85 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-yaml-1.29-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmppllbk1md/info/recipe/conda_build_config.yaml
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl            5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + perl-yaml         1.29  pl526_0        /home/vsts/conda/conda-bld/linux-64      41 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 41 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-yaml_1630437807517/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    perl:          5.26.2-h36c2ea0_1008 conda-forge
+    perl-yaml:     1.29-pl526_0         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-yaml_1630437807517/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-yaml_1630437807517/test_tmp
+import: YAML
+	using version 1.29
+import: YAML::Any
+	using version 1.29
+import: YAML::Dumper
+import: YAML::Dumper::Base
+import: YAML::Error
+import: YAML::Loader
+import: YAML::Loader::Base
+import: YAML::Marshall
+import: YAML::Mo
+import: YAML::Node
+import: YAML::Tag
+import: YAML::Types
+import: YAML
+	using version 1.29
+import: YAML::Any
+	using version 1.29
+import: YAML::Dumper
+import: YAML::Dumper::Base
+import: YAML::Error
+import: YAML::Loader
+import: YAML::Loader::Base
+import: YAML::Marshall
+import: YAML::Mo
+import: YAML::Node
+import: YAML::Tag
+import: YAML::Types
+
+Resource usage statistics from testing perl-yaml:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-yaml-1.29-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
