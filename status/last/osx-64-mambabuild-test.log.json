@@ -1,0 +1,635 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + freetype            2.10.4  h4cff582_1          conda-forge/osx-64                       Cached
+  + jbig                   2.1  h0d85af4_2003       conda-forge/osx-64                        42 KB
+  + jpeg                    9d  hbcb3906_0          conda-forge/osx-64                       250 KB
+  + last                  1256  hfd59bb5_0          /Users/runner/conda/conda-bld/osx-64       1 MB
+  + lcms2                 2.12  h577c468_0          conda-forge/osx-64                       404 KB
+  + lerc                 2.2.1  h046ec9c_0          conda-forge/osx-64                       164 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libdeflate             1.7  h35c211d_5          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libpng              1.6.37  h7cec526_2          conda-forge/osx-64                       Cached
+  + libtiff              4.3.0  h1167814_1          conda-forge/osx-64                       621 KB
+  + libwebp-base         1.2.1  h0d85af4_0          conda-forge/osx-64                       692 KB
+  + lz4-c                1.9.3  he49afe7_1          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + olefile               0.46  pyh9f0ad1d_1        conda-forge/noarch                        32 KB
+  + openjpeg             2.4.0  h6e7aa92_1          conda-forge/osx-64                       374 KB
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + parallel          20210822  h694c41f_0          conda-forge/osx-64                         2 MB
+  + perl                5.32.1  0_h0d85af4_perl5    conda-forge/osx-64                        13 MB
+  + pillow               8.3.1  py39he9bb72f_0      conda-forge/osx-64                       660 KB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+  + zstd                 1.5.0  h582d3a0_0          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 20 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: last-1256-hfd59bb5_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/last_1630440537305/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    freetype:        2.10.4-h4cff582_1        conda-forge
+    jbig:            2.1-h0d85af4_2003        conda-forge
+    jpeg:            9d-hbcb3906_0            conda-forge
+    last:            1256-hfd59bb5_0          local      
+    lcms2:           2.12-h577c468_0          conda-forge
+    lerc:            2.2.1-h046ec9c_0         conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libdeflate:      1.7-h35c211d_5           conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libpng:          1.6.37-h7cec526_2        conda-forge
+    libtiff:         4.3.0-h1167814_1         conda-forge
+    libwebp-base:    1.2.1-h0d85af4_0         conda-forge
+    lz4-c:           1.9.3-he49afe7_1         conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    olefile:         0.46-pyh9f0ad1d_1        conda-forge
+    openjpeg:        2.4.0-h6e7aa92_1         conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    parallel:        20210822-h694c41f_0      conda-forge
+    perl:            5.32.1-0_h0d85af4_perl5  conda-forge
+    pillow:          8.3.1-py39he9bb72f_0     conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+    zstd:            1.5.0-h582d3a0_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/last_1630440537305/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/last_1630440537305/test_tmp
+Usage: lastal [options] lastdb-name fasta-sequence-file(s)
+Find and align similar sequences.
+
+Cosmetic options:
+-h, --help: show all options and their default settings, and exit
+-V, --version: show version information, and exit
+-v: be verbose: write messages about what lastal is doing
+-f: output format: TAB, MAF, BlastTab, BlastTab+ (default=MAF)
+
+E-value options (default settings):
+-D: query letters per random alignment (1e+06)
+-E: maximum expected alignments per square giga (1e+18/D/refSize/numOfStrands)
+
+Score options (default settings):
+-r: match score   (2 if -M, else  6 if 1<=Q<=4, else 1 if DNA)
+-q: mismatch cost (3 if -M, else 18 if 1<=Q<=4, else 1 if DNA)
+-p: match/mismatch score matrix (protein-protein: BL62, DNA-protein: BL80)
+-X: N/X is ambiguous in: 0=neither sequence, 1=reference, 2=query, 3=both (0)
+-a: gap existence cost (DNA: 7, protein: 11, 1<=Q<=4: 21)
+-b: gap extension cost (DNA: 1, protein:  2, 1<=Q<=4:  9)
+-A: insertion existence cost (a)
+-B: insertion extension cost (b)
+-c: unaligned residue pair cost (off)
+-F: frameshift cost(s) (off)
+-x: maximum score drop for preliminary gapped alignments (z)
+-y: maximum score drop for gapless alignments (min[t*10, x])
+-z: maximum score drop for final gapped alignments (e-1)
+-d: minimum score for gapless alignments (min[e, 2500/n query letters per hit])
+-e: minimum score for gapped alignments
+
+Initial-match options (default settings):
+-m: maximum initial matches per query position (10)
+-l: minimum length for initial matches (1)
+-L: maximum length for initial matches (infinity)
+-k: use initial matches starting at every k-th position in each query (1)
+-W: use "minimum" positions in sliding windows of W consecutive positions
+
+Miscellaneous options (default settings):
+-s: strand: 0=reverse, 1=forward, 2=both (2 for DNA, 1 for protein)
+-S: score matrix applies to forward strand of: 0=reference, 1=query (0)
+-K: omit alignments whose query range lies in >= K others with > score (off)
+-C: omit gapless alignments in >= C others with > score-per-length (off)
+-P: number of parallel threads (1)
+-i: query batch size (8 KiB, unless there is > 1 thread or lastdb volume)
+-M: find minimum-difference alignments (faster but cruder)
+-T: type of alignment: 0=local, 1=overlap (0)
+-n: maximum gapless alignments per query position (infinity if m=0, else m)
+-N: stop after the first N alignments per query strand
+-R: lowercase & simple-sequence options (the same as was used by lastdb)
+-u: mask lowercase during extensions: 0=never, 1=gapless,
+    2=gapless+postmask, 3=always (2 if lastdb -c and Q!=pssm, else 0)
+-w: suppress repeats inside exact matches, offset by <= this distance (1000)
+-G: genetic code (1)
+-t: 'temperature' for calculating probabilities (1/lambda)
+-g: 'gamma' parameter for gamma-centroid and LAMA (1)
+-j: output type: 0=match counts, 1=gapless, 2=redundant gapped, 3=gapped,
+                 4=column ambiguity estimates, 5=gamma-centroid, 6=LAMA,
+                 7=expected counts (3)
+-J: score type: 0=ordinary, 1=full (1 for new-style frameshifts, else 0)
+-Q: input format: fastx, keep, sanger, solexa, illumina, prb, pssm
+                  (default=fasta)
+Usage: lastdb [options] output-name fasta-sequence-file(s)
+Prepare sequences for subsequent alignment with lastal.
+
+Main Options:
+-h, --help: show all options and their default settings, and exit
+-p: interpret the sequences as proteins
+-c: soft-mask lowercase letters (in reference *and* query sequences)
+-u: seeding scheme (default: YASS for DNA, else exact-match seeds)
+-P: number of parallel threads (default: 1)
+
+Advanced Options (default settings):
+-R: lowercase & simple-sequence options (default: 03 for -q, else 01)
+-w: use initial matches starting at every w-th position in each sequence (1)
+-W: use "minimum" positions in sliding windows of W consecutive positions (1)
+-S: strand: 0=reverse, 1=forward, 2=both (1)
+-s: volume size (unlimited)
+-Q: input format: fastx, keep, sanger, solexa, illumina (default=fasta)
+-q: interpret the sequences as proteins and append */STOP
+-m: seed patterns (1=match, 0=anything, @=transition)
+-d: DNA seed patterns (N=match, n=anything, R=purine match, etc.)
+-a: user-defined alphabet
+-i: minimum limit on initial matches per query position (0)
+-b: maximum length for buckets
+-B: use max bucket length with memory <= (memory for stored positions) / B (4)
+-C: child table type: 0=none, 1=byte-size, 2=short-size, 3=full (0)
+-x: just count sequences and letters
+-D: print all sequences in lastdb files
+-v: be verbose: write messages about what lastdb is doing
+-V, --version: show version information, and exit
+Usage: lastal5 [options] lastdb-name fasta-sequence-file(s)
+Find and align similar sequences.
+
+Cosmetic options:
+-h, --help: show all options and their default settings, and exit
+-V, --version: show version information, and exit
+-v: be verbose: write messages about what lastal is doing
+-f: output format: TAB, MAF, BlastTab, BlastTab+ (default=MAF)
+
+E-value options (default settings):
+-D: query letters per random alignment (1e+06)
+-E: maximum expected alignments per square giga (1e+18/D/refSize/numOfStrands)
+
+Score options (default settings):
+-r: match score   (2 if -M, else  6 if 1<=Q<=4, else 1 if DNA)
+-q: mismatch cost (3 if -M, else 18 if 1<=Q<=4, else 1 if DNA)
+-p: match/mismatch score matrix (protein-protein: BL62, DNA-protein: BL80)
+-X: N/X is ambiguous in: 0=neither sequence, 1=reference, 2=query, 3=both (0)
+-a: gap existence cost (DNA: 7, protein: 11, 1<=Q<=4: 21)
+-b: gap extension cost (DNA: 1, protein:  2, 1<=Q<=4:  9)
+-A: insertion existence cost (a)
+-B: insertion extension cost (b)
+-c: unaligned residue pair cost (off)
+-F: frameshift cost(s) (off)
+-x: maximum score drop for preliminary gapped alignments (z)
+-y: maximum score drop for gapless alignments (min[t*10, x])
+-z: maximum score drop for final gapped alignments (e-1)
+-d: minimum score for gapless alignments (min[e, 2500/n query letters per hit])
+-e: minimum score for gapped alignments
+
+Initial-match options (default settings):
+-m: maximum initial matches per query position (10)
+-l: minimum length for initial matches (1)
+-L: maximum length for initial matches (infinity)
+-k: use initial matches starting at every k-th position in each query (1)
+-W: use "minimum" positions in sliding windows of W consecutive positions
+
+Miscellaneous options (default settings):
+-s: strand: 0=reverse, 1=forward, 2=both (2 for DNA, 1 for protein)
+-S: score matrix applies to forward strand of: 0=reference, 1=query (0)
+-K: omit alignments whose query range lies in >= K others with > score (off)
+-C: omit gapless alignments in >= C others with > score-per-length (off)
+-P: number of parallel threads (1)
+-i: query batch size (8 KiB, unless there is > 1 thread or lastdb volume)
+-M: find minimum-difference alignments (faster but cruder)
+-T: type of alignment: 0=local, 1=overlap (0)
+-n: maximum gapless alignments per query position (infinity if m=0, else m)
+-N: stop after the first N alignments per query strand
+-R: lowercase & simple-sequence options (the same as was used by lastdb)
+-u: mask lowercase during extensions: 0=never, 1=gapless,
+    2=gapless+postmask, 3=always (2 if lastdb -c and Q!=pssm, else 0)
+-w: suppress repeats inside exact matches, offset by <= this distance (1000)
+-G: genetic code (1)
+-t: 'temperature' for calculating probabilities (1/lambda)
+-g: 'gamma' parameter for gamma-centroid and LAMA (1)
+-j: output type: 0=match counts, 1=gapless, 2=redundant gapped, 3=gapped,
+                 4=column ambiguity estimates, 5=gamma-centroid, 6=LAMA,
+                 7=expected counts (3)
+-J: score type: 0=ordinary, 1=full (1 for new-style frameshifts, else 0)
+-Q: input format: fastx, keep, sanger, solexa, illumina, prb, pssm
+                  (default=fasta)
+Usage: lastdb5 [options] output-name fasta-sequence-file(s)
+Prepare sequences for subsequent alignment with lastal.
+
+Main Options:
+-h, --help: show all options and their default settings, and exit
+-p: interpret the sequences as proteins
+-c: soft-mask lowercase letters (in reference *and* query sequences)
+-u: seeding scheme (default: YASS for DNA, else exact-match seeds)
+-P: number of parallel threads (default: 1)
+
+Advanced Options (default settings):
+-R: lowercase & simple-sequence options (default: 03 for -q, else 01)
+-w: use initial matches starting at every w-th position in each sequence (1)
+-W: use "minimum" positions in sliding windows of W consecutive positions (1)
+-S: strand: 0=reverse, 1=forward, 2=both (1)
+-s: volume size (unlimited)
+-Q: input format: fastx, keep, sanger, solexa, illumina (default=fasta)
+-q: interpret the sequences as proteins and append */STOP
+-m: seed patterns (1=match, 0=anything, @=transition)
+-d: DNA seed patterns (N=match, n=anything, R=purine match, etc.)
+-a: user-defined alphabet
+-i: minimum limit on initial matches per query position (0)
+-b: maximum length for buckets
+-B: use max bucket length with memory <= (memory for stored positions) / B (4)
+-C: child table type: 0=none, 1=byte-size, 2=short-size, 3=full (0)
+-x: just count sequences and letters
+-D: print all sequences in lastdb files
+-v: be verbose: write messages about what lastdb is doing
+-V, --version: show version information, and exit
+Usage: last-split [options] LAST-alignments.maf
+
+Read alignments of query sequences to a genome, and estimate the genomic
+source of each part of each query, allowing different parts of one query to
+come from different parts of the genome.
+
+Options:
+ -h, --help         show this help message and exit
+ -f, --format=FMT   output format: MAF, MAF+ (default: depends on input)
+ -r, --reverse      reverse the roles of the 2 sequences in each alignment
+ -g, --genome=NAME  lastdb genome name
+ -d, --direction=D  RNA direction: 0=reverse, 1=forward, 2=mixed (default=1)
+ -c, --cis=PROB     cis-splice probability per base (default=0.004)
+ -t, --trans=PROB   trans-splice probability per base (default=1e-05)
+ -M, --mean=MEAN    mean of ln[intron length] (default=7)
+ -S, --sdev=SDEV    standard deviation of ln[intron length] (default=1.7)
+ -m, --mismap=PROB  maximum mismap probability (default=1)
+ -s, --score=INT    minimum alignment score (default=e OR e+t*ln[100])
+ -n, --no-split     write original, not split, alignments
+ -b, --bytes=B      maximum memory (default=8T for split, 8G for spliced)
+ -v, --verbose      be verbose
+ -V, --version      show version information and exit
+Usage: last-merge-batches files
+
+Read files of lastal output, merge corresponding batches, and write them.
+
+Options:
+ -h, --help         show this help message and exit
+ -V, --version      show version information and exit
+Usage: 
+  maf-convert --help
+  maf-convert axt mafFile(s)
+  maf-convert blast mafFile(s)
+  maf-convert blasttab mafFile(s)
+  maf-convert chain mafFile(s)
+  maf-convert gff mafFile(s)
+  maf-convert html mafFile(s)
+  maf-convert psl mafFile(s)
+  maf-convert sam mafFile(s)
+  maf-convert tab mafFile(s)
+
+Read MAF-format alignments & write them in another format.
+
+Options:
+  -h, --help            show this help message and exit
+  -p, --protein         assume protein alignments, for psl match counts
+  -j N, --join=N        join consecutive co-linear alignments separated by <=
+                        N letters
+  -J N, --Join=N        join nearest co-linear alignments separated by <= N
+                        letters
+  -n, --noheader        omit any header lines from the output
+  -d, --dictionary      include dictionary of sequence lengths in sam format
+  -f DICTFILE, --dictfile=DICTFILE
+                        get sequence dictionary from DICTFILE
+  -r READGROUP, --readgroup=READGROUP
+                        read group info for sam format
+  -l LINESIZE, --linesize=LINESIZE
+                        line length for blast and html formats (default: 60)
+Usage: last-dotplot --help
+   or: last-dotplot [options] maf-or-tab-alignments dotplot.png
+   or: last-dotplot [options] maf-or-tab-alignments dotplot.gif
+   or: ...
+
+Draw a dotplot of pair-wise sequence alignments in MAF or tabular format.
+
+Options:
+  -h, --help            show this help message and exit
+  -v, --verbose         show progress messages & data about the plot
+  -x INT, --width=INT   maximum width in pixels (default: 1000)
+  -y INT, --height=INT  maximum height in pixels (default: 1000)
+  -m M, --maxseqs=M     maximum number of horizontal or vertical sequences
+                        (default=100)
+  -1 PATTERN, --seq1=PATTERN
+                        which sequences to show from the 1st genome
+  -2 PATTERN, --seq2=PATTERN
+                        which sequences to show from the 2nd genome
+  --alignments=FILE     secondary alignments
+  --sort1=N             genome1 sequence order: 0=input order, 1=name order,
+                        2=length order, 3=alignment order (default=1)
+  --sort2=N             genome2 sequence order: 0=input order, 1=name order,
+                        2=length order, 3=alignment order (default=1)
+  --strands1=N          genome1 sequence orientation: 0=forward orientation,
+                        1=alignment orientation (default=0)
+  --strands2=N          genome2 sequence orientation: 0=forward orientation,
+                        1=alignment orientation (default=0)
+  --max-gap1=FRAC       maximum unaligned (end,mid) gap in genome1: fraction
+                        of aligned length (default=0.5,2)
+  --max-gap2=FRAC       maximum unaligned (end,mid) gap in genome2: fraction
+                        of aligned length (default=0.5,2)
+  --pad=FRAC            pad length when cutting unaligned gaps: fraction of
+                        aligned length (default=0.04)
+  -j N, --join=N        join: 0=nothing, 1=alignments adjacent in genome1,
+                        2=alignments adjacent in genome2 (default=0)
+  --border-pixels=INT   number of pixels between sequences (default=1)
+  -a FILE, --bed1=FILE, --rmsk1=FILE, --genePred1=FILE, --gap1=FILE
+                        read genome1 annotations
+  -b FILE, --bed2=FILE, --rmsk2=FILE, --genePred2=FILE, --gap2=FILE
+                        read genome2 annotations
+
+  Text options:
+    -f FILE, --fontfile=FILE
+                        TrueType or OpenType font file
+    -s SIZE, --fontsize=SIZE
+                        TrueType or OpenType font size (default: 14)
+    --labels1=N         genome1 labels: 0=name, 1=name:length,
+                        2=name:start:length, 3=name:start-end (default=0)
+    --labels2=N         genome2 labels: 0=name, 1=name:length,
+                        2=name:start:length, 3=name:start-end (default=0)
+    --rot1=ROT          text rotation for the 1st genome (default=h)
+    --rot2=ROT          text rotation for the 2nd genome (default=v)
+
+  Color options:
+    -c COLOR, --forwardcolor=COLOR
+                        color for forward alignments (default: red)
+    -r COLOR, --reversecolor=COLOR
+                        color for reverse alignments (default: blue)
+    --border-color=COLOR
+                        color for pixels between sequences (default=black)
+    --margin-color=COLOR
+                        margin color
+    --exon-color=COLOR  color for exons (default=PaleGreen)
+    --cds-color=COLOR   color for protein-coding regions (default=LimeGreen)
+    --bridged-color=COLOR
+                        color for bridged gaps (default: yellow)
+    --unbridged-color=COLOR
+                        color for unbridged gaps (default: orange)
+Usage: 
+  last-map-probs --help
+  last-map-probs [options] lastal-alignments
+
+Calculate a mismap probability for each alignment.  This is the probability
+that the alignment does not reflect the origin of the query sequence, assuming
+that one reported alignment does reflect the origin of each query.
+
+Options:
+  -h, --help        show this help message and exit
+  -m M, --mismap=M  don't write alignments with mismap probability > M
+                    (default: 0.01)
+  -s S, --score=S   don't write alignments with score < S (default:
+                    e+t*ln[1000])
+Usage: last-split5 [options] LAST-alignments.maf
+
+Read alignments of query sequences to a genome, and estimate the genomic
+source of each part of each query, allowing different parts of one query to
+come from different parts of the genome.
+
+Options:
+ -h, --help         show this help message and exit
+ -f, --format=FMT   output format: MAF, MAF+ (default: depends on input)
+ -r, --reverse      reverse the roles of the 2 sequences in each alignment
+ -g, --genome=NAME  lastdb genome name
+ -d, --direction=D  RNA direction: 0=reverse, 1=forward, 2=mixed (default=1)
+ -c, --cis=PROB     cis-splice probability per base (default=0.004)
+ -t, --trans=PROB   trans-splice probability per base (default=1e-05)
+ -M, --mean=MEAN    mean of ln[intron length] (default=7)
+ -S, --sdev=SDEV    standard deviation of ln[intron length] (default=1.7)
+ -m, --mismap=PROB  maximum mismap probability (default=1)
+ -s, --score=INT    minimum alignment score (default=e OR e+t*ln[100])
+ -n, --no-split     write original, not split, alignments
+ -b, --bytes=B      maximum memory (default=8T for split, 8G for spliced)
+ -v, --verbose      be verbose
+ -V, --version      show version information and exit
+Usage: last-train [options] lastdb-name sequence-file(s)
+
+Try to find suitable score parameters for aligning the given sequences.
+
+Options:
+  -h, --help           show this help message and exit
+  -v, --verbose        show more details of intermediate steps
+
+  Training options:
+    --revsym           force reverse-complement symmetry
+    --matsym           force symmetric substitution matrix
+    --gapsym           force insertion/deletion symmetry
+    --pid=PID          skip alignments with > PID% identity (default: 100)
+    --postmask=NUMBER  skip mostly-lowercase alignments (default=1)
+    --sample-number=N  number of random sequence samples (default: 20000 if
+                       --codon else 500)
+    --sample-length=L  length of each sample (default: 2000)
+    --scale=S          output scores in units of 1/S bits
+    --codon            DNA queries & protein reference, with frameshifts
+
+  Initial parameter options:
+    -r SCORE           match score (default: 6 if Q>=1, else 5)
+    -q COST            mismatch cost (default: 18 if Q>=1, else 5)
+    -p NAME            match/mismatch score matrix
+    -a COST            gap existence cost (default: 21 if Q>=1, else 15)
+    -b COST            gap extension cost (default: 9 if Q>=1, else 3)
+    -A COST            insertion existence cost
+    -B COST            insertion extension cost
+    -F LIST            frameshift probabilities: del-1,del-2,ins+1,ins+2
+                       (default: 1-b,1-b,1-B,1-B)
+
+  Alignment options:
+    -D LENGTH          query letters per random alignment (default: 1e6)
+    -E EG2             maximum expected alignments per square giga
+    -s STRAND          0=reverse, 1=forward, 2=both (default: 2 if DNA, else
+                       1)
+    -S NUMBER          score matrix applies to forward strand of: 0=reference,
+                       1=query (default: 1)
+    -C COUNT           omit gapless alignments in COUNT others with > score-
+                       per-length
+    -T NUMBER          type of alignment: 0=local, 1=overlap (default: 0)
+    -R DIGITS          lowercase & simple-sequence options
+    -m COUNT           maximum initial matches per query position (default:
+                       10)
+    -k STEP            use initial matches starting at every STEP-th position
+                       in each query (default: 1)
+    -P THREADS         number of parallel threads
+    -X NUMBER          N/X is ambiguous in: 0=neither sequence, 1=reference,
+                       2=query, 3=both (default=0)
+    -Q NAME            input format: fastx, sanger (default=fasta)
+Usage:
+  last-pair-probs --help
+  last-pair-probs [options] interleaved-alignments
+  last-pair-probs [options] alignments1 alignments2
+
+Read alignments of paired DNA reads to a genome, and: (1) estimate the
+distribution of distances between paired reads, (2) estimate the probability
+that each alignment represents the genomic source of the read.
+
+Options:
+  -h, --help            show this help message and exit
+  -r, --rna             assume the reads are from potentially-spliced RNA
+  -e, --estdist         just estimate the distribution of distances
+  -m M, --mismap=M      don't write alignments with mismap probability > M
+                        (default: 0.01)
+  -f BP, --fraglen=BP   mean distance in bp
+  -s BP, --sdev=BP      standard deviation of distance
+  -d PROB, --disjoint=PROB
+                        prior probability of disjoint mapping (default: 0.02
+                        if -r, else 0.01)
+  -c CHROM, --circular=CHROM
+                        specifies that chromosome CHROM is circular (default:
+                        chrM)
+  -V, --version         show program's version number and exit
+Usage: $PREFIX/bin/fastq-interleave x.fastq y.fastq
+or:    $PREFIX/bin/fastq-interleave x.fastq.gz y.fastq.gz
+
+Read 2 fastq files, and write them interleaved.  Keep just the first
+word of header lines, and append "/1" and "/2" if they are otherwise
+identical.  Assumes 1 fastq per 4 lines, i.e. no line wrapping.
+Usage: last-postmask in.maf > out.maf
+
+Get alignments that have a segment with score >= threshold, with gentle
+masking of lowercase letters.
+
+Options:
+  -h, --help  show this help message and exit
+Usage: maf-cut chrN:start-end alignments.maf
+
+Get parts of MAF-format alignments.
+
+Options:
+  -h, --help  show this help message and exit
+Usage: maf-join sorted-file1.maf sorted-file2.maf ...
+
+Options:
+  -h, --help  show this help message and exit
+Usage: maf-sort [options] my-alignments.maf
+
+Options:
+  -h  show this help message and exit
+  -d  only print duplicate alignments
+  -n  sort by the n-th sequence (default: 1)
+Usage: maf-swap [options] my-alignments.maf
+
+Change the order of sequences in MAF-format alignments.
+
+Options:
+  -h, --help  show this help message and exit
+  -n N        move the Nth sequence to the top (default: 2)
+Usage:
+
+parallel [options] [command [arguments]] < list_of_arguments
+parallel [options] [command [arguments]] (::: arguments|:::: argfile(s))...
+cat ... | parallel --pipe [options] [command [arguments]]
+
+-j n            Run n jobs in parallel
+-k              Keep same order
+-X              Multiple arguments with context replace
+--colsep regexp Split input on regexp for positional replacements
+{} {.} {/} {/.} {#} {%} {= perl code =} Replacement strings
+{3} {3.} {3/} {3/.} {=3 perl code =}    Positional replacement strings
+With --plus:    {} = {+/}/{/} = {.}.{+.} = {+/}/{/.}.{+.} = {..}.{+..} =
+                {+/}/{/..}.{+..} = {...}.{+...} = {+/}/{/...}.{+...}
+
+-S sshlogin     Example: foo@server.example.com
+--slf ..        Use ~/.parallel/sshloginfile as the list of sshlogins
+--trc {}.bar    Shorthand for --transfer --return {}.bar --cleanup
+--onall         Run the given command with argument on all sshlogins
+--nonall        Run the given command with no arguments on all sshlogins
+
+--pipe          Split stdin (standard input) to multiple jobs.
+--recend str    Record end separator for --pipe.
+--recstart str  Record start separator for --pipe.
+
+GNU Parallel can do much more. See 'man parallel' for details
+
+Academic tradition requires you to cite works you base your article on.
+If you use programs that use GNU Parallel to process data for an article in a
+scientific publication, please cite:
+
+  Tange, O. (2021, August 22). GNU Parallel 20210822 ('Kabul').
+  Zenodo. https://doi.org/10.5281/zenodo.5233953
+
+This helps funding further development; AND IT WON'T COST YOU A CENT.
+If you pay 10000 EUR you should feel free to use GNU Parallel without citing.
+
+Usage:
+
+parallel [options] [command [arguments]] < list_of_arguments
+parallel [options] [command [arguments]] (::: arguments|:::: argfile(s))...
+cat ... | parallel --pipe [options] [command [arguments]]
+
+-j n            Run n jobs in parallel
+-k              Keep same order
+-X              Multiple arguments with context replace
+--colsep regexp Split input on regexp for positional replacements
+{} {.} {/} {/.} {#} {%} {= perl code =} Replacement strings
+{3} {3.} {3/} {3/.} {=3 perl code =}    Positional replacement strings
+With --plus:    {} = {+/}/{/} = {.}.{+.} = {+/}/{/.}.{+.} = {..}.{+..} =
+                {+/}/{/..}.{+..} = {...}.{+...} = {+/}/{/...}.{+...}
+
+-S sshlogin     Example: foo@server.example.com
+--slf ..        Use ~/.parallel/sshloginfile as the list of sshlogins
+--trc {}.bar    Shorthand for --transfer --return {}.bar --cleanup
+--onall         Run the given command with argument on all sshlogins
+--nonall        Run the given command with no arguments on all sshlogins
+
+--pipe          Split stdin (standard input) to multiple jobs.
+--recend str    Record end separator for --pipe.
+--recstart str  Record start separator for --pipe.
+
+GNU Parallel can do much more. See 'man parallel' for details
+
+Academic tradition requires you to cite works you base your article on.
+If you use programs that use GNU Parallel to process data for an article in a
+scientific publication, please cite:
+
+  Tange, O. (2021, August 22). GNU Parallel 20210822 ('Kabul').
+  Zenodo. https://doi.org/10.5281/zenodo.5233953
+
+This helps funding further development; AND IT WON'T COST YOU A CENT.
+If you pay 10000 EUR you should feel free to use GNU Parallel without citing.
+
+
+Resource usage statistics from testing last:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 24.8M
+   Disk usage: 12B
+   Time elapsed: 0:00:06.1
+
+
+TEST END: last-1256-hfd59bb5_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
