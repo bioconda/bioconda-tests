@@ -1,0 +1,125 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "habf9029_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "libcxx-12.0.1-habf9029_0.tar.bz2",
+        "license": "Apache-2.0 WITH LLVM-exception",
+        "name": "libcxx",
+        "sha256": "1c671f293fee0e680a728f77b31189316456ba8b9e57e35218ce02b371f2a7f0",
+        "size": 1104124,
+        "subdir": "",
+        "timestamp": 1626161047000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/libcxx-12.0.1-habf9029_0.tar.bz2",
+        "version": "12.0.1"
+      },
+      {
+        "build": "h0d85af4_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "ca-certificates"
+        ],
+        "fn": "openssl-1.1.1k-h0d85af4_1.tar.bz2",
+        "license": "OpenSSL",
+        "name": "openssl",
+        "sha256": "eb2685d86b8594ac2ef60cae193b28818977f35b2001e777d50c0d3c5f8b0a14",
+        "size": 1994862,
+        "subdir": "",
+        "timestamp": 1629119580000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1k-h0d85af4_1.tar.bz2",
+        "version": "1.1.1k"
+      },
+      {
+        "build": "h0f02589_1007",
+        "build_number": 1007,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=10.0.1",
+          "openssl >=1.1.1h,<1.1.2a"
+        ],
+        "fn": "mysql-connector-c-6.1.11-h0f02589_1007.tar.bz2",
+        "license": "GPL-2.0-only",
+        "name": "mysql-connector-c",
+        "sha256": "168503cbc687157473c1cf0a031848c0bd9494ee6e703fc404fb3f6938120ed7",
+        "size": 4565114,
+        "subdir": "",
+        "timestamp": 1603183345000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/mysql-connector-c-6.1.11-h0f02589_1007.tar.bz2",
+        "version": "6.1.11"
+      },
+      {
+        "build": "h033912b_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "ca-certificates-2021.5.30-h033912b_0.tar.bz2",
+        "license": "ISC",
+        "name": "ca-certificates",
+        "sha256": "a6178ffc2295a0b05b065b40cee4a7187793c9f54cdae9957360aebdec92bfb2",
+        "size": 139088,
+        "subdir": "",
+        "timestamp": 1622399252000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/ca-certificates-2021.5.30-h033912b_0.tar.bz2",
+        "version": "2021.5.30"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h033912b_0",
+        "channel": "conda-forge",
+        "dist_name": "ca-certificates-2021.5.30-h033912b_0",
+        "name": "ca-certificates",
+        "platform": "",
+        "version": "2021.5.30"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "habf9029_0",
+        "channel": "conda-forge",
+        "dist_name": "libcxx-12.0.1-habf9029_0",
+        "name": "libcxx",
+        "platform": "",
+        "version": "12.0.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "h0d85af4_1",
+        "channel": "conda-forge",
+        "dist_name": "openssl-1.1.1k-h0d85af4_1",
+        "name": "openssl",
+        "platform": "",
+        "version": "1.1.1k"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.08.31.00.33.52/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1007,
+        "build_string": "h0f02589_1007",
+        "channel": "conda-forge",
+        "dist_name": "mysql-connector-c-6.1.11-h0f02589_1007",
+        "name": "mysql-connector-c",
+        "platform": "",
+        "version": "6.1.11"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}
