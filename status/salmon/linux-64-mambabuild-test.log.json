@@ -1,0 +1,99 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + boost-cpp       1.74.0  h312852a_4     conda-forge/linux-64                     16 MB
+  + bzip2            1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + icu               68.1  h58526e2_0     conda-forge/linux-64                    Cached
+  + jemalloc         5.2.1  h9c3ff4c_5     conda-forge/linux-64                      2 MB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + lz4-c            1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + salmon           1.5.2  h84f40af_0     /home/vsts/conda/conda-bld/linux-64       6 MB
+  + tbb             2020.2  h4bd325d_4     conda-forge/linux-64                      1 MB
+  + xz               5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd             1.5.0  ha95c52a_0     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 25 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: salmon-1.5.2-h84f40af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/salmon_1630435102932/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    boost-cpp:     1.74.0-h312852a_4    conda-forge
+    bzip2:         1.0.8-h7f98852_4     conda-forge
+    icu:           68.1-h58526e2_0      conda-forge
+    jemalloc:      5.2.1-h9c3ff4c_5     conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    lz4-c:         1.9.3-h9c3ff4c_1     conda-forge
+    salmon:        1.5.2-h84f40af_0     local      
+    tbb:           2020.2-h4bd325d_4    conda-forge
+    xz:            5.2.5-h516909a_1     conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+    zstd:          1.5.0-ha95c52a_0     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/salmon_1630435102932/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/salmon_1630435102932/test_tmp
+Threads = 2
+Vertex length = 31
+Hash functions = 5
+Filter size = 1048576
+Capacity = 2
+Files: 
+salmon_index/ref_k31_fixed.fa
+--------------------------------------------------------------------------------
+Round 0, 0:1048576
+Pass	Filling	Filtering
+1	0	0	
+2	0	0
+True junctions count = 14
+False junctions count = 17
+Hash table size = 31
+Candidate marks count = 54
+--------------------------------------------------------------------------------
+Reallocating bifurcations time: 0
+True marks count: 51
+Edges construction time: 0
+--------------------------------------------------------------------------------
+Distinct junctions = 14
+
+for info, total work write each  : 2.331    total work inram from level 3 : 4.322  total work raw : 25.000 
+Bitarray          105024  bits (100.00 %)   (array + ranks )
+final hash             0  bits (0.00 %) (nb in final hash 0)
+
+Resource usage statistics from testing salmon:
+   Process count: 3
+   CPU time: Sys=0:00:00.3, User=0:00:00.3
+   Memory: 589.9M
+   Disk usage: 4.6K
+   Time elapsed: 0:00:04.2
+
+
+TEST END: salmon-1.5.2-h84f40af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,178 @@
+  Package           Version  Build          Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu          conda-forge/linux-64                    Cached
+  + gdk-pixbuf       2.42.6  h04a7f16_0     /home/vsts/conda/conda-bld/linux-64     609 KB
+  + gettext        0.19.8.1  h0b5b191_1005  conda-forge/linux-64                    Cached
+  + jbig                2.1  h7f98852_2003  conda-forge/linux-64                    Cached
+  + jpeg                 9d  h36c2ea0_0     conda-forge/linux-64                    Cached
+  + lerc              2.2.1  h9c3ff4c_0     conda-forge/linux-64                    Cached
+  + libdeflate          1.7  h7f98852_5     conda-forge/linux-64                    Cached
+  + libffi              3.3  h58526e2_2     conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libglib          2.68.4  h3e27bee_0     conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libiconv           1.16  h516909a_0     conda-forge/linux-64                    Cached
+  + libpng           1.6.37  h21135ba_2     conda-forge/linux-64                    Cached
+  + libstdcxx-ng     11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + libtiff           4.3.0  hf544144_1     conda-forge/linux-64                    Cached
+  + libwebp-base      1.2.1  h7f98852_0     conda-forge/linux-64                    Cached
+  + lz4-c             1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + pcre               8.45  h9c3ff4c_0     conda-forge/linux-64                    Cached
+  + pkg-config       0.29.2  h36c2ea0_1008  conda-forge/linux-64                    120 KB
+  + xz                5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib             1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd              1.5.0  ha95c52a_0     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 23 packages
+
+  Total download: 730 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: gdk-pixbuf-2.42.6-h04a7f16_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/gdk-pixbuf_1630435160191/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge        conda-forge
+    _openmp_mutex: 4.5-1_gnu              conda-forge
+    gdk-pixbuf:    2.42.6-h04a7f16_0      local      
+    gettext:       0.19.8.1-h0b5b191_1005 conda-forge
+    jbig:          2.1-h7f98852_2003      conda-forge
+    jpeg:          9d-h36c2ea0_0          conda-forge
+    lerc:          2.2.1-h9c3ff4c_0       conda-forge
+    libdeflate:    1.7-h7f98852_5         conda-forge
+    libffi:        3.3-h58526e2_2         conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8      conda-forge
+    libglib:       2.68.4-h3e27bee_0      conda-forge
+    libgomp:       11.1.0-hc902ee8_8      conda-forge
+    libiconv:      1.16-h516909a_0        conda-forge
+    libpng:        1.6.37-h21135ba_2      conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8      conda-forge
+    libtiff:       4.3.0-hf544144_1       conda-forge
+    libwebp-base:  1.2.1-h7f98852_0       conda-forge
+    lz4-c:         1.9.3-h9c3ff4c_1       conda-forge
+    pcre:          8.45-h9c3ff4c_0        conda-forge
+    pkg-config:    0.29.2-h36c2ea0_1008   conda-forge
+    xz:            5.2.5-h516909a_1       conda-forge
+    zlib:          1.2.11-h516909a_1010   conda-forge
+    zstd:          1.5.0-ha95c52a_0       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+done
+export PREFIX=/home/vsts/conda/conda-bld/gdk-pixbuf_1630435160191/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/gdk-pixbuf_1630435160191/test_tmp
+# GdkPixbuf Image Loader Modules file
+# Automatically generated file, do not edit
+# Created by gdk-pixbuf-query-loaders from gdk-pixbuf-2.42.6
+#
+# LoaderDir = $PREFIX/lib/gdk-pixbuf-2.0/2.10.0/loaders
+#
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ani.so"
+"ani" 4 "gdk-pixbuf" "Windows animated cursor" "LGPL"
+"application/x-navi-animation" ""
+"ani" ""
+"RIFF    ACON" "    xxxx    " 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-bmp.so"
+"bmp" 5 "gdk-pixbuf" "BMP" "LGPL"
+"image/bmp" "image/x-bmp" "image/x-MS-bmp" ""
+"bmp" ""
+"BM" "" 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-gif.so"
+"gif" 4 "gdk-pixbuf" "GIF" "LGPL"
+"image/gif" ""
+"gif" ""
+"GIF8" "" 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-icns.so"
+"icns" 4 "gdk-pixbuf" "MacOS X icon" "GPL"
+"image/x-icns" ""
+"icns" ""
+"icns" "" 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-ico.so"
+"ico" 5 "gdk-pixbuf" "Windows icon" "LGPL"
+"image/x-icon" "image/x-ico" "image/x-win-bitmap" "image/vnd.microsoft.icon" "application/ico" "image/ico" "image/icon" "text/ico" ""
+"ico" "cur" ""
+"  \001   " "zz znz" 100
+"  \002   " "zz znz" 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-pnm.so"
+"pnm" 4 "gdk-pixbuf" "PNM/PBM/PGM/PPM" "LGPL"
+"image/x-portable-anymap" "image/x-portable-bitmap" "image/x-portable-graymap" "image/x-portable-pixmap" ""
+"pnm" "pbm" "pgm" "ppm" ""
+"P1" "" 100
+"P2" "" 100
+"P3" "" 100
+"P4" "" 100
+"P5" "" 100
+"P6" "" 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-qtif.so"
+"qtif" 4 "gdk-pixbuf" "QuickTime" "LGPL"
+"image/x-quicktime" "image/qtif" ""
+"qtif" "qif" ""
+"abcdidsc" "xxxx    " 100
+"abcdidat" "xxxx    " 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tga.so"
+"tga" 4 "gdk-pixbuf" "Targa" "LGPL"
+"image/x-tga" ""
+"tga" "targa" ""
+" \001\001" "x  " 100
+" \001\t" "x  " 100
+"  \002" "xz " 99
+"  \003" "xz " 100
+"  \n" "xz " 100
+"  \v" "xz " 100
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-tiff.so"
+"tiff" 5 "gdk-pixbuf" "TIFF" "LGPL"
+"image/tiff" ""
+"tiff" "tif" ""
+"MM *" "  z " 100
+"II* " "   z" 100
+"II* \020   CR\002 " "   z zzz   z" 0
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xbm.so"
+"xbm" 4 "gdk-pixbuf" "XBM" "LGPL"
+"image/x-xbitmap" ""
+"xbm" ""
+"#define " "" 100
+"/*" "" 50
+
+"lib/gdk-pixbuf-2.0/2.10.0/loaders/libpixbufloader-xpm.so"
+"xpm" 4 "gdk-pixbuf" "XPM" "LGPL"
+"image/x-xpixmap" ""
+"xpm" ""
+"/* XPM */" "" 100
+
+
+
+Resource usage statistics from testing gdk-pixbuf:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: gdk-pixbuf-2.42.6-h04a7f16_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,81 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-archive-tar-2.32-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp37ozj_bk/info/recipe/conda_build_config.yaml
+  Package                    Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx                    12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + perl                      5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-archive-tar            2.32  pl526_0          /Users/runner/conda/conda-bld/osx-64      31 KB
+  + perl-carp                   1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-compress-raw-bzip2    2.087  pl526h6de7cb9_0  bioconda/osx-64                           47 KB
+  + perl-compress-raw-zlib     2.087  pl526h770b8ee_0  bioconda/osx-64                           71 KB
+  + perl-exporter               5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker     7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-io-compress           2.087  pl526h6de7cb9_0  bioconda/osx-64                           81 KB
+  + perl-io-zlib                1.10  pl526_2          bioconda/osx-64                            9 KB
+  + perl-pathtools              3.75  pl526h1de35cc_1  bioconda/osx-64                           39 KB
+  + perl-scalar-list-utils      1.52  pl526h01d97ff_0  bioconda/osx-64                           35 KB
+
+  Summary:
+
+  Install: 12 packages
+
+  Total download: 15 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-archive-tar_1630434785455/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:                  12.0.1-habf9029_0     conda-forge
+    perl:                    5.26.2-hbcb3906_1008  conda-forge
+    perl-archive-tar:        2.32-pl526_0          local      
+    perl-carp:               1.38-pl526_3          bioconda   
+    perl-compress-raw-bzip2: 2.087-pl526h6de7cb9_0 bioconda   
+    perl-compress-raw-zlib:  2.087-pl526h770b8ee_0 bioconda   
+    perl-exporter:           5.72-pl526_1          bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1          bioconda   
+    perl-io-compress:        2.087-pl526h6de7cb9_0 bioconda   
+    perl-io-zlib:            1.10-pl526_2          bioconda   
+    perl-pathtools:          3.75-pl526h1de35cc_1  bioconda   
+    perl-scalar-list-utils:  1.52-pl526h01d97ff_0  bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-archive-tar_1630434785455/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-archive-tar_1630434785455/test_tmp
+import: Archive::Tar
+	using version 2.32
+import: Archive::Tar::Constant
+	using version 2.32
+import: Archive::Tar::File
+	using version 2.32
+import: Archive::Tar
+	using version 2.32
+import: Archive::Tar::Constant
+	using version 2.32
+import: Archive::Tar::File
+	using version 2.32
+
+Resource usage statistics from testing perl-archive-tar:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-archive-tar-2.32-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
