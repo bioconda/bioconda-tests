@@ -1,0 +1,93 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-xml-sax-1.02-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpf6kwhxw0/info/recipe/conda_build_config.yaml
+  Package                      Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                        5.26.2  hbcb3906_1008  conda-forge/osx-64                       Cached
+  + perl-app-cpanminus          1.7044  pl526_1        bioconda/osx-64                          235 KB
+  + perl-carp                     1.38  pl526_3        bioconda/osx-64                           15 KB
+  + perl-constant                 1.33  pl526_1        /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-exporter                 5.72  pl526_1        bioconda/osx-64                          Cached
+  + perl-extutils-makemaker       7.36  pl526_1        bioconda/osx-64                          153 KB
+  + perl-file-path                2.16  pl526_0        /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-file-temp              0.2304  pl526_2        bioconda/osx-64                           26 KB
+  + perl-parent                  0.236  pl526_1        bioconda/osx-64                          Cached
+  + perl-xml-namespacesupport     1.12  pl526_0        /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-xml-sax                  1.02  pl526_0        /Users/runner/conda/conda-bld/osx-64      36 KB
+  + perl-xml-sax-base             1.09  pl526_0        /Users/runner/conda/conda-bld/osx-64     Cached
+
+  Summary:
+
+  Install: 12 packages
+
+  Total download: 464 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-xml-sax_1630431808680/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                      5.26.2-hbcb3906_1008 conda-forge
+    perl-app-cpanminus:        1.7044-pl526_1       bioconda   
+    perl-carp:                 1.38-pl526_3         bioconda   
+    perl-constant:             1.33-pl526_1         local      
+    perl-exporter:             5.72-pl526_1         bioconda   
+    perl-extutils-makemaker:   7.36-pl526_1         bioconda   
+    perl-file-path:            2.16-pl526_0         local      
+    perl-file-temp:            0.2304-pl526_2       bioconda   
+    perl-parent:               0.236-pl526_1        bioconda   
+    perl-xml-namespacesupport: 1.12-pl526_0         local      
+    perl-xml-sax:              1.02-pl526_0         local      
+    perl-xml-sax-base:         1.09-pl526_0         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-xml-sax_1630431808680/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-xml-sax_1630431808680/test_tmp
+import: XML::SAX
+	using version 1.02
+import: XML::SAX::DocumentLocator
+import: XML::SAX::PurePerl
+	using version 1.02
+import: XML::SAX::PurePerl::DebugHandler
+import: XML::SAX::PurePerl::Exception
+import: XML::SAX::PurePerl::Productions
+import: XML::SAX::PurePerl::Reader
+import: XML::SAX::PurePerl::Reader::Stream
+import: XML::SAX::PurePerl::Reader::String
+import: XML::SAX::PurePerl::Reader::URI
+import: XML::SAX
+	using version 1.02
+import: XML::SAX::DocumentLocator
+import: XML::SAX::PurePerl
+	using version 1.02
+import: XML::SAX::PurePerl::DebugHandler
+import: XML::SAX::PurePerl::Exception
+import: XML::SAX::PurePerl::Productions
+import: XML::SAX::PurePerl::Reader
+import: XML::SAX::PurePerl::Reader::Stream
+import: XML::SAX::PurePerl::Reader::String
+import: XML::SAX::PurePerl::Reader::URI
+
+Resource usage statistics from testing perl-xml-sax:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-xml-sax-1.02-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

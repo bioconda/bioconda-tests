@@ -1,0 +1,101 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-xml-sax-1.02-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp29i8y6ns/info/recipe/conda_build_config.yaml
+  Package                      Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                  0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex                  4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng                   11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                     11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl                        5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + perl-app-cpanminus          1.7044  pl526_1        bioconda/linux-64                       234 KB
+  + perl-carp                     1.38  pl526_3        bioconda/linux-64                        15 KB
+  + perl-constant                 1.33  pl526_1        /home/vsts/conda/conda-bld/linux-64     Cached
+  + perl-exporter                 5.72  pl526_1        bioconda/linux-64                       Cached
+  + perl-extutils-makemaker       7.36  pl526_1        bioconda/linux-64                       153 KB
+  + perl-file-path                2.16  pl526_0        /home/vsts/conda/conda-bld/linux-64     Cached
+  + perl-file-temp              0.2304  pl526_2        bioconda/linux-64                        26 KB
+  + perl-parent                  0.236  pl526_1        bioconda/linux-64                       Cached
+  + perl-xml-namespacesupport     1.12  pl526_0        /home/vsts/conda/conda-bld/linux-64     Cached
+  + perl-xml-sax                  1.02  pl526_0        /home/vsts/conda/conda-bld/linux-64      36 KB
+  + perl-xml-sax-base             1.09  pl526_0        /home/vsts/conda/conda-bld/linux-64     Cached
+
+  Summary:
+
+  Install: 16 packages
+
+  Total download: 464 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-xml-sax_1630431541919/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:             0.1-conda_forge      conda-forge
+    _openmp_mutex:             4.5-1_gnu            conda-forge
+    libgcc-ng:                 11.1.0-hc902ee8_8    conda-forge
+    libgomp:                   11.1.0-hc902ee8_8    conda-forge
+    perl:                      5.26.2-h36c2ea0_1008 conda-forge
+    perl-app-cpanminus:        1.7044-pl526_1       bioconda   
+    perl-carp:                 1.38-pl526_3         bioconda   
+    perl-constant:             1.33-pl526_1         local      
+    perl-exporter:             5.72-pl526_1         bioconda   
+    perl-extutils-makemaker:   7.36-pl526_1         bioconda   
+    perl-file-path:            2.16-pl526_0         local      
+    perl-file-temp:            0.2304-pl526_2       bioconda   
+    perl-parent:               0.236-pl526_1        bioconda   
+    perl-xml-namespacesupport: 1.12-pl526_0         local      
+    perl-xml-sax:              1.02-pl526_0         local      
+    perl-xml-sax-base:         1.09-pl526_0         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-xml-sax_1630431541919/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-xml-sax_1630431541919/test_tmp
+import: XML::SAX
+	using version 1.02
+import: XML::SAX::DocumentLocator
+import: XML::SAX::PurePerl
+	using version 1.02
+import: XML::SAX::PurePerl::DebugHandler
+import: XML::SAX::PurePerl::Exception
+import: XML::SAX::PurePerl::Productions
+import: XML::SAX::PurePerl::Reader
+import: XML::SAX::PurePerl::Reader::Stream
+import: XML::SAX::PurePerl::Reader::String
+import: XML::SAX::PurePerl::Reader::URI
+import: XML::SAX
+	using version 1.02
+import: XML::SAX::DocumentLocator
+import: XML::SAX::PurePerl
+	using version 1.02
+import: XML::SAX::PurePerl::DebugHandler
+import: XML::SAX::PurePerl::Exception
+import: XML::SAX::PurePerl::Productions
+import: XML::SAX::PurePerl::Reader
+import: XML::SAX::PurePerl::Reader::Stream
+import: XML::SAX::PurePerl::Reader::String
+import: XML::SAX::PurePerl::Reader::URI
+
+Resource usage statistics from testing perl-xml-sax:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-xml-sax-1.02-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

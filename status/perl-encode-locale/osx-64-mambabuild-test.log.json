@@ -1,0 +1,59 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-encode-locale-1.05-pl526_6.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp11xewcn1/info/recipe/conda_build_config.yaml
+  Package               Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                 5.26.2  hbcb3906_1008  conda-forge/osx-64                       Cached
+  + perl-encode            2.88  pl526_1        bioconda/osx-64                            1 MB
+  + perl-encode-locale     1.05  pl526_6        /Users/runner/conda/conda-bld/osx-64      11 KB
+  + perl-exporter          5.72  pl526_1        bioconda/osx-64                          Cached
+  + perl-parent           0.236  pl526_1        bioconda/osx-64                            6 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 1 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-encode-locale_1630431681584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:               5.26.2-hbcb3906_1008 conda-forge
+    perl-encode:        2.88-pl526_1         bioconda   
+    perl-encode-locale: 1.05-pl526_6         local      
+    perl-exporter:      5.72-pl526_1         bioconda   
+    perl-parent:        0.236-pl526_1        bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-encode-locale_1630431681584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-encode-locale_1630431681584/test_tmp
+import: Encode::Locale
+	using version 1.05
+import: Encode::Locale
+	using version 1.05
+
+Resource usage statistics from testing perl-encode-locale:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-encode-locale-1.05-pl526_6.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
