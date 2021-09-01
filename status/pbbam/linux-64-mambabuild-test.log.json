@@ -1,0 +1,202 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + htslib                   1.12  h9093b5e_1     bioconda/linux-64                         2 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.7  h7f98852_5     conda-forge/linux-64                    Cached
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1k  h7f98852_1     conda-forge/linux-64                    Cached
+  + pbbam                   1.6.0  h058f120_1     /home/vsts/conda/conda-bld/linux-64       3 MB
+  + tk                     8.6.11  h21135ba_0     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 5 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: pbbam-1.6.0-h058f120_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/pbbam_1630488151777/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    htslib:          1.12-h9093b5e_1         bioconda   
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.7-h7f98852_5          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1k-h7f98852_1       conda-forge
+    pbbam:           1.6.0-h058f120_1        local      
+    tk:              8.6.11-h21135ba_0       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+##############################################################################
+#                                                                            #
+# PacBio(R) tools distributed via Bioconda are: pre-release versions, not    #
+# necessarily ISO compliant, intended for Research Use Only and not for use  #
+# in diagnostic procedures, intended only for command-line users, and        #
+# possibly newer than the currently available SMRT(R) Analysis builds. While #
+# efforts have been made to ensure that releases on Bioconda live up to the  #
+# quality that PacBio strives for, we make no warranty regarding any         #
+# Bioconda release.                                                          #
+#                                                                            #
+# As PacBio tools distributed via Bioconda are not covered by any service    #
+# level agreement or the like, please *do not* contact a PacBio Field        #
+# Applications Scientist or PacBio Customer Service for assistance with any  #
+# Bioconda release. We instead provide an issue tracker for you to report    #
+# issues to us at:                                                           #
+#                                                                            #
+#   https://github.com/PacificBiosciences/pbbioconda                         #
+#                                                                            #
+# We make no warranty that any such issue will be addressed,                 #
+# to any extent or within any time frame.                                    #
+#                                                                            #
+# BSD 3-Clause Clear License                                                 #
+#                                                                            #
+# Please see https://github.com/PacificBiosciences/pbbioconda for            #
+# information on License, Copyright and Disclaimer                           #
+#                                                                            #
+##############################################################################
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/pbbam_1630488151777/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/pbbam_1630488151777/test_tmp
+bam2sam - bam2sam converts a BAM file to SAM. It is essentially a stripped-down 'samtools view', mostly useful for
+          testing/debugging without requiring samtools. Input BAM file is read from a file or stdin, and SAM output is
+          written to stdout.
+
+Usage:
+  bam2sam [options] [IN.bam]
+
+  IN.bam         FILE  Input BAM file. If not provided, stdin will be used as input.
+
+Options:
+  --no-header          Omit header from output.
+  --header-only        Print only the header (no records).
+
+  -h,--help            Show this help and exit.
+  --version            Show application version and exit.
+
+pbbamify - pbbamify converts an arbitray aligned BAM file to a PacBio-compatible BAM file.Input BAM file is read from a
+           file or stdin, the raw-reads PacBio BAM is givenas a parameter, and BAM output is written to stdout.
+
+Usage:
+  pbbamify [options] <ref.fa> <IN.bam>
+
+  ref.fa           FILE  Reference used to align the input.
+  IN.bam           FILE  Input file(s). Maybe one of: DataSetXML, BAM file(s), or FOFN
+
+  --input          FILE  The aligned non-PacBio BAM file. If not provided, stdin will be used as input.
+  --output         FILE  Path to the output BAM file. If not specified, output will be to the stdout.
+  --verbose-level  INT   Specifies the level of info which will be output produced on stderr. 0 turns all output off, 1
+                         outputs only warnings, while levels 2 and above outputs a status message every 1000000 (2),
+                         100000 (3), 1000 (4), 100 (5), 10 (6) and 1 (7) reads. [3]
+
+  -h,--help              Show this help and exit.
+  --version              Show application version and exit.
+  --log-level      STR   Set log level. Valid choices: (TRACE, DEBUG, INFO, WARN, FATAL). [INFO]
+  --log-file       FILE  Log to a file, instead of stderr.
+
+pbindex - pbindex creates a index file that enables random-access to PacBio-specific data in BAM files. Generated index
+          filename will be the same as input BAM plus .pbi suffix.
+
+Usage:
+  pbindex [options] <IN.bam>
+
+  IN.bam     FILE  Input BAM file
+
+Options:
+  -h,--help        Show this help and exit.
+  --version        Show application version and exit.
+
+pbindexdump - pbindexdump prints a human-readable view of PBI data to stdout.
+
+Usage:
+  pbindexdump [options] [input.bam.pbi]
+
+  input.bam.pbi        FILE  Input PBI file. If not provided, stdin will be used as input.
+
+Output Options:
+  --format             STR   Output format. Valid choices: (json, cpp). [json]
+  --json-indent-level  INT   JSON indent level. [4]
+  --json-raw                 Print fields in a layout that more closely reflects the PBI file format (per-field
+                             columns, not per-record objects.
+
+  -h,--help                  Show this help and exit.
+  --version                  Show application version and exit.
+
+Supported output formats:
+  json: 'pretty-printed' JSON
+  cpp:  copy/paste-able C++ code that can be used to construct the
+        equivalent BAM::PbiRawData object.
+pbmerge - pbmerge merges PacBio BAM files. If the input is DataSetXML, any filters will be applied.
+
+Usage:
+  pbmerge [options] <INPUT>
+
+  INPUT      FILE  Input file(s). Maybe one of: DataSetXML, BAM file(s), or FOFN
+
+Input/Output:
+  -o         STR   Output BAM filename. Writes to stdout if not provided.
+  --no-pbi         Disables creation of PBI index file. PBI always disabled when writing to stdout.
+
+  -h,--help        Show this help and exit.
+  --version        Show application version and exit.
+
+Examples:
+    $ pbmerge -o merged.bam data.subreadset.xml
+    $ pbmerge -o merged.bam data_1.bam data_2.bam data_3.bam
+    $ pbmerge -o merged.bam data_bams.fofn
+
+Resource usage statistics from testing pbbam:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: pbbam-1.6.0-h058f120_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
