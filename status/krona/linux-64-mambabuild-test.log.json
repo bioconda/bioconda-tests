@@ -1,0 +1,206 @@
+  Package                 Version  Build             Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge       conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu             conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0        conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0        conda-forge/linux-64                    Cached
+  + curl                   7.78.0  hea6ffbf_0        conda-forge/linux-64                    148 KB
+  + krb5                   1.19.2  hcc1bbae_0        conda-forge/linux-64                    Cached
+  + krona                     2.8  pl5262hdfd78af_2  /home/vsts/conda/conda-bld/linux-64     154 KB
+  + libcurl                7.78.0  h2574ce0_0        conda-forge/linux-64                    Cached
+  + libedit          3.1.20191231  he28a2e2_2        conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1        conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0        conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0        conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8        conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4        conda-forge/linux-64                    Cached
+  + openssl                1.1.1k  h7f98852_1        conda-forge/linux-64                    Cached
+  + perl                   5.26.2  h36c2ea0_1008     conda-forge/linux-64                     15 MB
+  + tk                     8.6.11  h21135ba_0        conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 20 packages
+
+  Total download: 16 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: krona-2.8-pl5262hdfd78af_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/krona_1630464729029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    curl:            7.78.0-hea6ffbf_0       conda-forge
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    krona:           2.8-pl5262hdfd78af_2    local      
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1k-h7f98852_1       conda-forge
+    perl:            5.26.2-h36c2ea0_1008    conda-forge
+    tk:              8.6.11-h21135ba_0       conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+Krona installed.  You still need to manually update the taxonomy
+databases before Krona can generate taxonomic reports.  The update
+script is ktUpdateTaxonomy.sh.  The default location for storing
+taxonomic databases is /home/vsts/conda/conda-bld/krona_1630464729029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/opt/krona/taxonomy
+
+If you would like the taxonomic data stored elsewhere, simply replace
+this directory with a symlink.  For example:
+
+rm -rf /home/vsts/conda/conda-bld/krona_1630464729029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/opt/krona/taxonomy
+mkdir /path/on/big/disk/taxonomy
+ln -s /path/on/big/disk/taxonomy /home/vsts/conda/conda-bld/krona_1630464729029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh/opt/krona/taxonomy
+ktUpdateTaxonomy.sh
+
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/krona_1630464729029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/krona_1630464729029/test_tmp
+                                       _____________________________________
+______________________________________/ KronaTools 2.7.1 - ktImportTaxonomy \___
+
+Creates a Krona chart based on taxonomy IDs and, optionally, magnitudes and
+scores. Taxonomy IDs corresponding to a rank of "no rank" in the database will
+be assigned to their parents to make the hierarchy less cluttered (e.g.
+"Cellular organisms" will be assigned to "root").
+                                                                     _______
+____________________________________________________________________/ Usage \___
+
+ktImportTaxonomy \
+   [options] \
+   taxonomy_1[:magnitudes_1][,name_1] \
+   [taxonomy_2[:magnitudes_2][,name_2]] \
+   ...
+
+   taxonomy    Tab-delimited file with taxonomy IDs and (optionally) query
+               IDs, magnitudes and scores. By default, query IDs, taxonomy IDs
+               and scores will be taken from columns 1, 2 and 3, respectively
+               (see -q, -t, -s, and -m). Lines beginning with "#" will be
+               ignored. By default, separate datasets will be created for each
+               input (see [-c]).
+
+   magnitudes  Optional file listing query IDs with magnitudes, separated by
+               tabs. This can be used to account for read length or contig
+               depth to obtain a more accurate representation of abundance. By
+               default, query sequences without specified magnitudes will be
+               assigned a magnitude of 1. Magnitude files for assemblies in ACE
+               format can be created with ktGetContigMagnitudes.
+
+   name        A name to show in the list of datasets in the Krona chart (if
+               multiple input files are present and [-c] is not specified). By
+               default, the basename of the file will be used.
+                                                                   _________
+__________________________________________________________________/ Options \___
+
+   [-o <string>]    Output file name. [Default: 'taxonomy.krona.html']
+
+   [-n <string>]    Name of the highest level. [Default: 'Root']
+
+   [-i]             Include a wedge for queries with no hits.
+
+   [-c]             Combine data from each file, rather than creating separate
+                    datasets within the chart.
+
+   [-q <integer>]   Column of input files to use as query ID. Required if
+                    magnitude files are specified. [Default: '1']
+
+   [-t <integer>]   Column of input files to use as taxonomy ID. [Default:
+                    '2']
+
+   [-s <integer>]   Column of input files to use as score. [Default: '3']
+
+   [-m <integer>]   Column of input files to use as magnitude. If magnitude
+                    files are specified, their magnitudes will override those
+                    in this column.
+
+   [-d <integer>]   Maximum depth of wedges to include in the chart.
+
+   [-k]             Show the "cellular organisms" taxon (collapsed by
+                    default).
+
+   [-K]             Collapse assignments to taxa with ranks labeled "no rank"
+                    by moving up to parent.
+
+   [-x <integer>]   Hue (0-360) for "bad" scores. [Default: '0']
+
+   [-y <integer>]   Hue (0-360) for "good" scores. [Default: '120']
+
+   [-u <string>]    URL of Krona resources to use instead of bundling them
+                    with the chart (e.g. "http://krona.sourceforge.net").
+                    Reduces size of charts and allows updates, though charts
+                    will not work without access to this URL.
+
+   [-qp <string>]   Url to send query IDs to (instead of listing them) for
+                    each wedge. The query IDs will be sent as a comma separated
+                    list in the POST variable "queries", with the current
+                    dataset index (from 0) in the POST variable "dataset". The
+                    url can include additional variables encoded via GET.
+
+   [-tax <string>]  Path to directory containing a taxonomy database to use.
+                    [Default:
+                    '$PREFIX/opt/krona/taxonomy']
+
+                                            ________________________________
+___________________________________________/ KronaTools 2.7.1 - ktImportXML \___
+
+Creates a Krona chart from xml data describing each node and how the chart
+should look.
+                                                                     _______
+____________________________________________________________________/ Usage \___
+
+ktImportXML [options] <XML_file>
+
+   XML_file  A file containing XML tags that specify chart attributes and
+             describe the node hierarchy. An XML header is not necessary. For a
+             complete description of XML tags, see:
+             https://sourceforge.net/p/krona/wiki/KronaTools/
+                                                                   _________
+__________________________________________________________________/ Options \___
+
+   [-o <string>]  Output file name. [Default: 'xml.krona.html']
+
+   [-u <string>]  URL of Krona resources to use instead of bundling them with
+                  the chart (e.g. "http://krona.sourceforge.net"). Reduces size
+                  of charts and allows updates, though charts will not work
+                  without access to this URL.
+
+
+Resource usage statistics from testing krona:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: krona-2.8-pl5262hdfd78af_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
