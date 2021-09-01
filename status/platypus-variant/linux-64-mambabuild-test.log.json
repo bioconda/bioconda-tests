@@ -1,0 +1,287 @@
+  Package                  Version  Build                  Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + bzip2                    1.0.8  h7f98852_4             conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0             conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi             2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + htslib                    1.12  h9093b5e_1             bioconda/linux-64                         2 MB
+  + krb5                    1.19.2  hcc1bbae_0             conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0             conda-forge/linux-64                    Cached
+  + libdeflate                 1.7  h7f98852_5             conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2             conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1             conda-forge/linux-64                    Cached
+  + libffi                   3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng               11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0             conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0             conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                    6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + openssl                 1.1.1k  h7f98852_1             conda-forge/linux-64                    Cached
+  + pip                     20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + platypus-variant       0.8.1.2  py27h4a7f997_2         /home/vsts/conda/conda-bld/linux-64       4 MB
+  + python                  2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi                 2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                   8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + setuptools              44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                  3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h21135ba_0             conda-forge/linux-64                    Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1             conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 32 packages
+
+  Total download: 20 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: platypus-variant-0.8.1.2-py27h4a7f997_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/platypus-variant_1630513188272/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    bzip2:            1.0.8-h7f98852_4             conda-forge
+    c-ares:           1.17.2-h7f98852_0            conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    htslib:           1.12-h9093b5e_1              bioconda   
+    krb5:             1.19.2-hcc1bbae_0            conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libcurl:          7.78.0-h2574ce0_0            conda-forge
+    libdeflate:       1.7-h7f98852_5               conda-forge
+    libedit:          3.1.20191231-he28a2e2_2      conda-forge
+    libev:            4.33-h516909a_1              conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    libnghttp2:       1.43.0-h812cca2_0            conda-forge
+    libssh2:          1.10.0-ha56f1ee_0            conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    ncurses:          6.2-h58526e2_4               conda-forge
+    openssl:          1.1.1k-h7f98852_1            conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    platypus-variant: 0.8.1.2-py27h4a7f997_2       local      
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    setuptools:       44.0.0-py27_0                conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h21135ba_0            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    xz:               5.2.5-h516909a_1             conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/platypus-variant_1630513188272/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/platypus-variant_1630513188272/test_tmp
+Usage: Platypus.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output=OUTPUT
+                        Output SNP data file
+  --refFile=REFFILE     (Required) Fasta file of reference. Index must be in
+                        same directory
+  --regions=REGIONS     region as comma-separated list of chr:start-end, or
+                        just list of chr, or nothing
+  --skipRegionsFile=SKIPREGIONSFILE
+                        region as comma-separated list of chr:start-end, or
+                        just list of chr, or nothing
+  --bamFiles=BAMFILES   (Required) Comma-delimited list of bam or cram file
+                        names
+  --bufferSize=BUFFERSIZE
+                        Data will be buffered in regions of this size
+  --minReads=MINREADS   Minimum number of supporting reads required before a
+                        variant candidate will be considered.
+  --maxReads=MAXREADS   Maximium coverage in window
+  --verbosity=VERBOSITY
+                        Level of logging
+  --maxReadLength=RLEN  Maximum read length
+  --logFileName=LOGFILENAME
+                        Name of log file
+  --source=SOURCEFILE   vcf file(s) to get candidates from
+  --nCPU=NCPU           Number of processors to use
+  --parseNCBI=PARSENCBI
+  --longHaps=LONGHAPS   If this is set to 1, then don't trim replacement
+                        variants from input VCFs.
+  --alignScoreFile=ALIGNSCOREFILE
+                        If this is set to a string, then alignment scores of
+                        reads to haplotypes will be writen to this file. This
+                        only work when --HLATyping flag is on
+  --HLATyping=HLATYPING
+                        If this is set to 1, then run HLA genotyping mode
+                        which require a source file containing HLA haplotypes
+  --compressReads=COMPRESSREADS
+                        If this is set to 1, then all reads will be
+                        compressed, and decompressd on demand. This will slow
+                        things down, but reduce memory usage.
+  --qualBinSize=QUALBINSIZE
+                        This sets the granularity used when compressing
+                        quality scores. If > 1 then quality compression is
+                        lossy
+  --fileCaching=FILECACHING
+                        Sets file caching level. 0: BAM/CRAM files cached. 1:
+                        CRAM files cached. 2: No file caching.
+  --maxSize=MAXSIZE     Largest variant to consider
+  --largeWindows=LARGEWINDOWS
+                        If set to 1, window size can be up to 'maxSize'
+  --maxVariants=MAXVARIANTS
+                        Maximium variants to consider in a given window
+  --coverageSamplingLevel=COVERAGESAMPLINGLEVEL
+                        Downsample to this level of coverage when filtering
+                        haplotypes in divergent regions.
+  --maxHaplotypes=MAXHAPLOTYPES
+                        Maximium haplotypes to consider in a given window
+  --skipDifficultWindows=SKIPDIFFICULTWINDOWS
+                        If set to 1, skip windows with > maxVariants
+                        candidates
+  --getVariantsFromBAMs=GETVARIANTSFROMBAMS
+                        If set to TRUE (default), variant candidates will be
+                        generated from BAMs as well as any other inputs
+  --genSNPs=GENSNPS     If set to TRUE (default), SNP candidates will be
+                        considered
+  --genIndels=GENINDELS
+                        If set to TRUE (default), Indel candidates will be
+                        considered
+  --mergeClusteredVariants=MERGECLUSTEREDVARIANTS
+                        If set to 1, variant-containing windows which are
+                        close together will be merged, resulting in slower,
+                        more accurate variant calls in diverse regions
+  --minFlank=MINFLANK   Ignore base-changes closer than minFlank bases to the
+                        end of reads. Also, merge SNPs within this distance
+                        into MNPs or complex replacements
+  --trimReadFlank=TRIMREADFLANK
+                        Set base-qualities to 0 within 'trimReadFlank' bases
+                        of the end of reads
+  --filterVarsByCoverage=FILTERVARSBYCOVERAGE
+                        If 1, Platypus filters variants in difficult regions
+                        by the number of times each variant is seen.
+  --filteredReadsFrac=FILTEREDREADSFRAC
+                        If > this fraction of reads are filtered in a given
+                        window, the 'badReads filter is triggered.
+  --maxVarDist=MAXVARDIST
+                        Max distance between variants to be considered in the
+                        same window
+  --minVarDist=MINVARDIST
+                        Min distance allowed between windows
+  --useEMLikelihoods=USEEMLIKELIHOODS
+                        If 1, likelihoods computed from EM algorithm will be
+                        used to call genotypes for each sample, otherwise
+                        likelihoods from individual sample will be used.
+  --countOnlyExactIndelMatches=COUNTONLYEXACTINDELMATCHES
+                        If 1, only exactly matching indels will be counted in
+                        the NV field
+  --calculateFlankScore=CALCULATEFLANKSCORE
+                        If 1, an additional alignment routine is used to
+                        calculate scores from flanks outside windows
+                        (EXPERIMENTAL).
+  --assemble=ASSEMBLE   If 1, Cortex will be used to assemble variant
+                        candidates for Platypus to call.
+  --assembleAll=ASSEMBLEALL
+                        If 1 then Platypus will assemble all regions.'.
+  --assemblyRegionSize=ASSEMBLYREGIONSIZE
+                        Size of region to assemble with Cortex
+  --assembleBadReads=ASSEMBLEBADREADS
+                        If 1, then use filtered 'bad' reads for local assembly
+  --assemblerKmerSize=ASSEMBLERKMERSIZE
+                        Kmer size to use for cortex assembly'.
+  --assembleBrokenPairs=ASSEMBLEBROKENPAIRS
+                        If 1, then use broken read pairs for local assembly
+  --noCycles=NOCYCLES   If 1, then don't allow cycles in the graph
+  --minMapQual=MINMAPQUAL
+                        Minimum mapping quality of read. Any reads with map
+                        qual below this are ignored
+  --minBaseQual=MINBASEQUAL
+                        Minimum allowed base-calling quality. Any bases with
+                        qual below this are ignored in SNP-calling
+  --minGoodQualBases=MINGOODQUALBASES
+                        Min bases per read that must have base-quality >= 20.
+  --filterDuplicates=FILTERDUPLICATES
+                        If set to 1, duplicate reads will be removed based on
+                        the read-pair start and end
+  --filterReadsWithUnmappedMates=FILTERREADSWITHUNMAPPEDMATES
+                        If set to 1, reads with un-mapped mates will be
+                        removed
+  --filterReadsWithDistantMates=FILTERREADSWITHDISTANTMATES
+                        If set to 1, reads with mates mapped far away will be
+                        removed
+  --filterReadPairsWithSmallInserts=FILTERREADPAIRSWITHSMALLINSERTS
+                        If set to 1, read pairs with insert sizes < one read
+                        length will be removed
+  --trimOverlapping=TRIMOVERLAPPING
+                        If set to 1, overlapping paired reads have overlap set
+                        to qual 0
+  --trimAdapter=TRIMADAPTER
+                        If set to 1, then sets to qual 0 any part of read
+                        which exceeds the mapped fragment length. This is
+                        mainly useful for trimming adapter sequences
+  --trimSoftClipped=TRIMSOFTCLIPPED
+                        If set to 1, then sets to qual 0 any soft clipped
+                        parts of the read.
+  --maxGOF=MAXGOF       Max allowed value for goodness-of-fit test. Higher
+                        than this triggers GOF filter (Phred-scaled).
+  --minPosterior=MINPOSTERIOR
+                        Only variants with posterior >= this will be outpu to
+                        the VCF. Value is a Phred-score.
+  --sbThreshold=SBTHRESHOLD
+                        P-value for strand-bias filtering..
+  --scThreshold=SCTHRESHOLD
+                        Cut-off for SC filter.
+  --abThreshold=ABTHRESHOLD
+                        P-value for allele-bias filtering..
+  --minVarFreq=MINVARFREQ
+                        Variants below this frequency will be flagged as
+                        allele-biased
+  --badReadsWindow=BADREADSWINDOW
+                        Size of window around variant to look for low-quality
+                        bases.
+  --badReadsThreshold=BADREADSTHRESHOLD
+                        Variants where the median minimum quality in a window
+                        of badReadsWindow around the variant position falls
+                        below this value will be filtered with the flag
+                        'badReads'.
+  --rmsmqThreshold=RMSMQTHRESHOLD
+                        RMSMQ filter triggers when root-mean-square mapping
+                        quality across region containing variant is below
+                        this.
+  --qdThreshold=QDTHRESHOLD
+                        QD filter triggers quality/depth for variant is below
+                        this.
+  --hapScoreThreshold=HAPSCORETHRESHOLD
+                        HapScore filter triggers HapScore for variant is above
+                        this.
+  --outputRefCalls=OUTPUTREFCALLS
+                        If 1, output block reference calls.
+  --refCallBlockSize=REFCALLBLOCKSIZE
+                        Max size of reference call block.
+
+Resource usage statistics from testing platypus-variant:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: platypus-variant-0.8.1.2-py27h4a7f997_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
