@@ -1,0 +1,91 @@
+  Package              Version  Build              Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + blis                 0.8.1  h0d85af4_1         conda-forge/osx-64                         4 MB
+  + bzip2                1.0.8  h0d85af4_4         conda-forge/osx-64                       Cached
+  + ca-certificates  2021.5.30  h033912b_0         conda-forge/osx-64                       Cached
+  + gsl                    2.6  h71c5fe9_2         conda-forge/osx-64                         3 MB
+  + libblas              3.9.0  11_osx64_openblas  conda-forge/osx-64                       Cached
+  + libcblas             3.9.0  11_osx64_openblas  conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran          5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5         9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + libopenblas         0.3.17  openmp_h3351f45_1  conda-forge/osx-64                       Cached
+  + llvm-openmp         12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + openssl             1.1.1k  h0d85af4_1         conda-forge/osx-64                       Cached
+  + varlociraptor        2.3.0  h24717ff_0         /Users/runner/conda/conda-bld/osx-64       2 MB
+  + xz                   5.2.5  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 9 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: varlociraptor-2.3.0-h24717ff_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/varlociraptor_1630472034757/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    blis:            0.8.1-h0d85af4_1         conda-forge
+    bzip2:           1.0.8-h0d85af4_4         conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    gsl:             2.6-h71c5fe9_2           conda-forge
+    libblas:         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:        3.9.0-11_osx64_openblas  conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1 conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    varlociraptor:   2.3.0-h24717ff_0         local      
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/varlociraptor_1630472034757/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/varlociraptor_1630472034757/test_tmp
+varlociraptor 2.3.0
+A caller for SNVs and indels in tumor-normal pairs.
+
+USAGE:
+    varlociraptor <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+SUBCOMMANDS:
+    call            Call variants.
+    decode-phred    Decode PHRED-scaled values to human readable probabilities.
+    estimate        Perform estimations.
+    filter-calls    Filter calls by either controlling the false discovery rate (FDR) at given level, or by
+                    posterior odds against the given events.
+    help            Prints this message or the help of the given subcommand(s)
+    preprocess      Preprocess variants
+
+Resource usage statistics from testing varlociraptor:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: varlociraptor-2.3.0-h24717ff_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
