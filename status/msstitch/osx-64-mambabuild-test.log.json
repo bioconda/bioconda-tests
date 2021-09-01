@@ -1,0 +1,164 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: msstitch-3.7-py_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp547ro401/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + biopython             1.79  py39h89e85a6_0      conda-forge/osx-64                         3 MB
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + icu                   68.1  h74dc148_0          conda-forge/osx-64                       Cached
+  + libblas              3.9.0  11_osx64_openblas   conda-forge/osx-64                        12 KB
+  + libcblas             3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgfortran          5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                        19 KB
+  + libgfortran5         9.3.0  h6c81a4c_23         conda-forge/osx-64                         2 MB
+  + libiconv              1.16  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + liblapack            3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libopenblas         0.3.17  openmp_h3351f45_1   conda-forge/osx-64                         9 MB
+  + libxml2             2.9.12  h93ec3fd_0          conda-forge/osx-64                       Cached
+  + libxslt             1.1.33  h5739fc3_2          conda-forge/osx-64                       488 KB
+  + llvm-openmp         12.0.1  hda6cdc1_1          conda-forge/osx-64                       Cached
+  + lxml                 4.6.3  py39hf41e7f8_0      conda-forge/osx-64                         1 MB
+  + msstitch               3.7  py_0                /Users/runner/conda/conda-bld/osx-64      64 KB
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + numpy               1.21.2  py39h7eed0ac_0      conda-forge/osx-64                         6 MB
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 21 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/msstitch_1630480495099/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    biopython:       1.79-py39h89e85a6_0      conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    icu:             68.1-h74dc148_0          conda-forge
+    libblas:         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:        3.9.0-11_osx64_openblas  conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge
+    libiconv:        1.16-haf1e3a3_0          conda-forge
+    liblapack:       3.9.0-11_osx64_openblas  conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1 conda-forge
+    libxml2:         2.9.12-h93ec3fd_0        conda-forge
+    libxslt:         1.1.33-h5739fc3_2        conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge
+    lxml:            4.6.3-py39hf41e7f8_0     conda-forge
+    msstitch:        3.7-py_0                 local      
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    numpy:           1.21.2-py39h7eed0ac_0    conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/msstitch_1630480495099/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/msstitch_1630480495099/test_tmp
+import: 'app'
+import: 'app.actions'
+import: 'app.actions.lookups'
+import: 'app.actions.psmtable'
+import: 'app.actions.percolator'
+import: 'app.dataformats'
+import: 'app.drivers'
+import: 'app.lookups'
+import: 'app.lookups.sqlite'
+import: 'app.readers'
+import: 'app.writers'
+import: 'app'
+import: 'app.actions'
+import: 'app.actions.lookups'
+import: 'app.actions.percolator'
+import: 'app.actions.psmtable'
+import: 'app.dataformats'
+import: 'app.drivers'
+import: 'app.lookups'
+import: 'app.lookups.sqlite'
+import: 'app.readers'
+import: 'app.writers'
+usage: msstitch [-h] [--version]
+                {storespectra,storequant,storeseq,makedecoy,trypsinize,concat,split,perco2psm,conffilt,psmtable,isosummarize,deletesets,filterperco,splitperco,peptides,proteins,genes,ensg,merge}
+                ...
+
+positional arguments:
+  {storespectra,storequant,storeseq,makedecoy,trypsinize,concat,split,perco2psm,conffilt,psmtable,isosummarize,deletesets,filterperco,splitperco,peptides,proteins,genes,ensg,merge}
+    storespectra        Create lookup of spectra in mzML format. Requires passing mzML files to --spectra. Biological set names for each file should be specified using --setnames
+    storequant          Create lookup of isobaric quant data in OpenMS consensusXML format. Use requires matched files passed to --spectra, --ms1, --isobaric parameters, and --dbfile with an sqlite lookup of already stored spectra.Creates lookup of precursor quant data in OpenMS featureXML, or Kronik output formats. Use requires --spectra, --dbfile with an sqlite lookup of spectra, --quanttype to determine quant output, --mztol, --rttol, --mztoltype for tolerance specification, and passing a featureXML or kronik file to -i.
+    storeseq            Create a lookup DB from a FASTA file. Sequences are
+                            either stored as 1-aa-shifted overlapping peptides for full-length-protein 
+                            matching, or as trypsinized peptides.
+    makedecoy           Create a decoy database from a FASTA file.
+                            tryp_rev reverses tryptic peptides
+                            prot_rev reverses full protein
+                            Both make sure no decoys are accidentally identical to a target sequence,
+                            unless --ignore-target-hits is passed
+    trypsinize          Trypsinize a FASTA file
+    concat              Merges multiple TSV tables of MSGF+ output.Make sure headers are same in all files.
+    split               Splits an MSGF TSV PSM table into multiple new tables
+    perco2psm           Calculates FDR from percolator output and adds FDR and percolator  to the corresponding TSV PSM tables. FDR calculation method is TD-competition.
+    conffilt            Filters PSMs by their confidence level. 
+    psmtable            Add columns to mzidtsv with genes, quantification, protein groups, etc. which are stored in a lookup specified with --dbfile
+    isosummarize        Produce isobaric summarized data from a PSM table containing raw intensities.
+    deletesets          Remove sample sets from an existing PSM table and its lookup file
+    filterperco         Filters out peptides that match to a protein in a FASTA file. Needs a lookup to match peptides to quickly.
+    splitperco          Splits input XML into multiple files depending based on the protein headers specified. Each header class gets its own output file
+    peptides            Create peptide table from PSM TSV input, uses best scoring PSM for each peptide and strips PSM isobaric quant information. Retains MS1 quant info if specified, by taking the highest precursor quant value for a peptide. Optionally add isobaric quant and  modeled q-values
+    proteins            Create a protein table from peptides
+    genes               Create a gene table from peptides
+    ensg                Create an ENSG table from peptides
+    merge               Create merged gene/protein/peptide tables from multiple sample set tables
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Resource usage statistics from testing msstitch:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.3
+   Memory: 45.0M
+   Disk usage: 20B
+   Time elapsed: 0:00:08.3
+
+
+TEST END: msstitch-3.7-py_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
