@@ -1,0 +1,145 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-test-deep-1.128-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp28o3mc4i/info/recipe/conda_build_config.yaml
+  Package           Version  Build          Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl             5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + perl-test-deep    1.128  pl526_1        /home/vsts/conda/conda-bld/linux-64      36 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 36 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-test-deep_1630461971526/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:  0.1-conda_forge      conda-forge
+    _openmp_mutex:  4.5-1_gnu            conda-forge
+    libgcc-ng:      11.1.0-hc902ee8_8    conda-forge
+    libgomp:        11.1.0-hc902ee8_8    conda-forge
+    perl:           5.26.2-h36c2ea0_1008 conda-forge
+    perl-test-deep: 1.128-pl526_1        local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-test-deep_1630461971526/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-test-deep_1630461971526/test_tmp
+import: Test::Deep
+	using version 1.128
+import: Test::Deep::All
+import: Test::Deep::Any
+import: Test::Deep::Array
+import: Test::Deep::ArrayEach
+import: Test::Deep::ArrayElementsOnly
+import: Test::Deep::ArrayLength
+import: Test::Deep::ArrayLengthOnly
+import: Test::Deep::Blessed
+import: Test::Deep::Boolean
+import: Test::Deep::Cache
+import: Test::Deep::Cache::Simple
+import: Test::Deep::Class
+import: Test::Deep::Cmp
+import: Test::Deep::Code
+import: Test::Deep::Hash
+import: Test::Deep::HashEach
+import: Test::Deep::HashElements
+import: Test::Deep::HashKeys
+import: Test::Deep::HashKeysOnly
+import: Test::Deep::Ignore
+import: Test::Deep::Isa
+import: Test::Deep::ListMethods
+import: Test::Deep::MM
+import: Test::Deep::Methods
+import: Test::Deep::NoTest
+import: Test::Deep::None
+import: Test::Deep::Number
+import: Test::Deep::Obj
+import: Test::Deep::Ref
+import: Test::Deep::RefType
+import: Test::Deep::Regexp
+import: Test::Deep::RegexpMatches
+import: Test::Deep::RegexpOnly
+import: Test::Deep::RegexpRef
+import: Test::Deep::RegexpRefOnly
+import: Test::Deep::RegexpVersion
+import: Test::Deep::ScalarRef
+import: Test::Deep::ScalarRefOnly
+import: Test::Deep::Set
+import: Test::Deep::Shallow
+import: Test::Deep::Stack
+import: Test::Deep::String
+import: Test::Deep
+	using version 1.128
+import: Test::Deep::All
+import: Test::Deep::Any
+import: Test::Deep::Array
+import: Test::Deep::ArrayEach
+import: Test::Deep::ArrayElementsOnly
+import: Test::Deep::ArrayLength
+import: Test::Deep::ArrayLengthOnly
+import: Test::Deep::Blessed
+import: Test::Deep::Boolean
+import: Test::Deep::Cache
+import: Test::Deep::Cache::Simple
+import: Test::Deep::Class
+import: Test::Deep::Cmp
+import: Test::Deep::Code
+import: Test::Deep::Hash
+import: Test::Deep::HashEach
+import: Test::Deep::HashElements
+import: Test::Deep::HashKeys
+import: Test::Deep::HashKeysOnly
+import: Test::Deep::Ignore
+import: Test::Deep::Isa
+import: Test::Deep::ListMethods
+import: Test::Deep::MM
+import: Test::Deep::Methods
+import: Test::Deep::NoTest
+import: Test::Deep::None
+import: Test::Deep::Number
+import: Test::Deep::Obj
+import: Test::Deep::Ref
+import: Test::Deep::RefType
+import: Test::Deep::Regexp
+import: Test::Deep::RegexpMatches
+import: Test::Deep::RegexpOnly
+import: Test::Deep::RegexpRef
+import: Test::Deep::RegexpRefOnly
+import: Test::Deep::RegexpVersion
+import: Test::Deep::ScalarRef
+import: Test::Deep::ScalarRefOnly
+import: Test::Deep::Set
+import: Test::Deep::Shallow
+import: Test::Deep::Stack
+import: Test::Deep::String
+
+Resource usage statistics from testing perl-test-deep:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 48B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-test-deep-1.128-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

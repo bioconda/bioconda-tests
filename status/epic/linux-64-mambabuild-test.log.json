@@ -1,0 +1,244 @@
+  Package                  Version  Build                Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                conda-forge/linux-64                    Cached
+  + bedtools                2.30.0  h7d7f7ad_2           bioconda/linux-64                        18 MB
+  + bzip2                    1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + docopt                   0.6.2  py36_0               conda-forge/linux-64                     20 KB
+  + epic                    0.2.12  py36h4f025d9_6       /home/vsts/conda/conda-bld/linux-64       8 MB
+  + joblib                   1.0.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + krb5                    1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                  3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                 3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng          11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5            11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas             0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + natsort                  7.1.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + ncurses                    6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                   1.19.5  py36hfc0c790_2       conda-forge/linux-64                      5 MB
+  + openssl                 1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + pandas                   1.1.5  py36h284efc9_0       conda-forge/linux-64                     11 MB
+  + pip                     21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pybigwig                0.3.18  py36h0c3496a_1       bioconda/linux-64                        79 KB
+  + pyfaidx                  0.6.2  pyh5e36f6f_0         bioconda/noarch                          29 KB
+  + python                  3.6.13  hffdb5ce_0_cpython   conda-forge/linux-64                     38 MB
+  + python-dateutil          2.8.2  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python_abi                 3.6  2_cp36m              conda-forge/linux-64                      4 KB
+  + pytz                    2021.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + readline                   8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + scipy                    1.5.3  py36h81d768a_1       conda-forge/linux-64                     19 MB
+  + setuptools              57.4.0  py36h5fab9bb_0       conda-forge/linux-64                    933 KB
+  + six                     1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite                  3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h21135ba_0           conda-forge/linux-64                    Cached
+  + typing                3.10.0.0  pyhd8ed1ab_0         conda-forge/noarch                        7 KB
+  + wheel                   0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 48 packages
+
+  Total download: 101 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: epic-0.2.12-py36h4f025d9_6.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/epic_1630462259296/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    bedtools:         2.30.0-h7d7f7ad_2          bioconda   
+    bzip2:            1.0.8-h7f98852_4           conda-forge
+    c-ares:           1.17.2-h7f98852_0          conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    docopt:           0.6.2-py36_0               conda-forge
+    epic:             0.2.12-py36h4f025d9_6      local      
+    joblib:           1.0.1-pyhd8ed1ab_0         conda-forge
+    krb5:             1.19.2-hcc1bbae_0          conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libcurl:          7.78.0-h2574ce0_0          conda-forge
+    libedit:          3.1.20191231-he28a2e2_2    conda-forge
+    libev:            4.33-h516909a_1            conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libnghttp2:       1.43.0-h812cca2_0          conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libssh2:          1.10.0-ha56f1ee_0          conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    natsort:          7.1.1-pyhd8ed1ab_0         conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.19.5-py36hfc0c790_2      conda-forge
+    openssl:          1.1.1k-h7f98852_1          conda-forge
+    pandas:           1.1.5-py36h284efc9_0       conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    pybigwig:         0.3.18-py36h0c3496a_1      bioconda   
+    pyfaidx:          0.6.2-pyh5e36f6f_0         bioconda   
+    python:           3.6.13-hffdb5ce_0_cpython  conda-forge
+    python-dateutil:  2.8.2-pyhd8ed1ab_0         conda-forge
+    python_abi:       3.6-2_cp36m                conda-forge
+    pytz:             2021.1-pyhd8ed1ab_0        conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    scipy:            1.5.3-py36h81d768a_1       conda-forge
+    setuptools:       57.4.0-py36h5fab9bb_0      conda-forge
+    six:              1.16.0-pyh6c4a22f_0        conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h21135ba_0          conda-forge
+    typing:           3.10.0.0-pyhd8ed1ab_0      conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/epic_1630462259296/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/epic_1630462259296/test_tmp
+import: 'epic'
+import: 'epic.config'
+import: 'epic.run'
+import: 'epic.scripts'
+import: 'epic.statistics'
+import: 'epic.utils'
+import: 'epic.windows'
+import: 'epic.windows.cluster'
+import: 'epic.windows.count'
+import: 'epic'
+import: 'epic.config'
+import: 'epic.run'
+import: 'epic.scripts'
+import: 'epic.statistics'
+import: 'epic.utils'
+import: 'epic.windows'
+import: 'epic.windows.cluster'
+import: 'epic.windows.count'
+usage: epic [-h] --treatment TREATMENT [TREATMENT ...] --control CONTROL
+            [CONTROL ...] [--number-cores NUMBER_CORES] [--genome GENOME]
+            [--keep-duplicates] [--window-size WINDOW_SIZE]
+            [--gaps-allowed GAPS_ALLOWED] [--fragment-size FRAGMENT_SIZE]
+            [--false-discovery-rate-cutoff FALSE_DISCOVERY_RATE_CUTOFF]
+            [--effective-genome-fraction EFFECTIVE_GENOME_FRACTION]
+            [--chromsizes CHROMSIZES] [--store-matrix STORE_MATRIX]
+            [--bigwig BIGWIG]
+            [--individual-log2fc-bigwigs INDIVIDUAL_LOG2FC_BIGWIGS]
+            [--chip-bigwig CHIP_BIGWIG] [--input-bigwig INPUT_BIGWIG]
+            [--log2fc-bigwig LOG2FC_BIGWIG] [--bed BED] [--log LOG]
+            [--outfile OUTFILE] [--version]
+
+Diffuse domain ChIP-Seq caller based on SICER. (Visit github.com/endrebak/epic
+for examples and help.)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --treatment TREATMENT [TREATMENT ...], -t TREATMENT [TREATMENT ...]
+                        Treatment (pull-down) file(s) in (b/gzipped) bed/bedpe
+                        format.
+  --control CONTROL [CONTROL ...], -c CONTROL [CONTROL ...]
+                        Control (input) file(s) in (b/gzipped) bed/bedpe
+                        format.
+  --number-cores NUMBER_CORES, -cpu NUMBER_CORES
+                        Number of cpus to use. Can use at most one per
+                        chromosome. Default: 1.
+  --genome GENOME, -gn GENOME
+                        Which genome to analyze. Default: hg19. If
+                        --chromsizes flag is given, --genome is not required.
+  --keep-duplicates, -k
+                        Keep reads mapping to the same position on the same
+                        strand within a library. Default is to remove all but
+                        the first duplicate.
+  --window-size WINDOW_SIZE, -w WINDOW_SIZE
+                        Size of the windows to scan the genome. WINDOW_SIZE is
+                        the smallest possible island. Default 200.
+  --gaps-allowed GAPS_ALLOWED, -g GAPS_ALLOWED
+                        This number is multiplied by the window size to
+                        determine the gap size. Must be an integer. Default:
+                        3.
+  --fragment-size FRAGMENT_SIZE, -fs FRAGMENT_SIZE
+                        (Single end reads only) Size of the sequenced
+                        fragment. The center of the the fragment will be taken
+                        as half the fragment size. Default 150.
+  --false-discovery-rate-cutoff FALSE_DISCOVERY_RATE_CUTOFF, -fdr FALSE_DISCOVERY_RATE_CUTOFF
+                        Remove all islands with an FDR below cutoff. Default
+                        0.05.
+  --effective-genome-fraction EFFECTIVE_GENOME_FRACTION, -egf EFFECTIVE_GENOME_FRACTION
+                        Use a different effective genome fraction than the one
+                        included in epic. The default value depends on the
+                        genome and readlength, but is a number between 0 and
+                        1.
+  --chromsizes CHROMSIZES, -cs CHROMSIZES
+                        Set the chromosome lengths yourself in a file with two
+                        columns: chromosome names and sizes. Useful to analyze
+                        custom genomes, assemblies or simulated data. Only
+                        chromosomes included in the file will be analyzed.
+  --store-matrix STORE_MATRIX, -sm STORE_MATRIX
+                        Store the matrix of counts per bin for ChIP and input
+                        to gzipped file <STORE_MATRIX>.
+  --bigwig BIGWIG, -bw BIGWIG
+                        For each file, store a bigwig of both enriched and
+                        non-enriched regions to folder <BIGWIG>. Requires
+                        different basenames for each file.
+  --individual-log2fc-bigwigs INDIVIDUAL_LOG2FC_BIGWIGS, -i2bw INDIVIDUAL_LOG2FC_BIGWIGS
+                        For each file, store a bigwig of the log2fc of
+                        ChIP/(Sum Input) to folder <INDIVIDUAL-LOG2FC-
+                        BIGWIGS>. Requires different basenames for each file.
+  --chip-bigwig CHIP_BIGWIG, -cbw CHIP_BIGWIG
+                        Store an RPKM-normalized summed bigwig for all ChIP
+                        files in file <CHIP-BIGWIG>.
+  --input-bigwig INPUT_BIGWIG, -ibw INPUT_BIGWIG
+                        Store an RPKM-normalized summed bigwig for all Input
+                        files in file <INPUT-BIGWIG>.
+  --log2fc-bigwig LOG2FC_BIGWIG, -2bw LOG2FC_BIGWIG
+                        Store an log2(ChIP/Input) bigwig in file <LOG2FC-
+                        BIGWIG>. (Both ChIP and Input are RPKM-normalized
+                        before dividing.)
+  --bed BED, -b BED     A summary bed file of all regions for display in the
+                        UCSC genome browser or downstream analyses with e.g.
+                        bedtools. The score field is log2(#ChIP/#Input) * 100
+                        capped at a 1000.
+  --log LOG, -l LOG     File to write log messages to.
+  --outfile OUTFILE, -o OUTFILE
+                        File to write results to. By default sent to stdout.
+  --version, -v         show program's version number and exit
+
+Resource usage statistics from testing epic:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: epic-0.2.12-py36h4f025d9_6.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
