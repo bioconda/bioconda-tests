@@ -1,0 +1,193 @@
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + openssl              1.1.1k  h0d85af4_1             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + pytoml               0.1.21  py_0                   conda-forge/noarch                        10 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tardis               1.0.19  py27h917cbba_1         /Users/runner/conda/conda-bld/osx-64     102 KB
+  + tk                   8.6.11  hd798d34_0             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 14 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: tardis-1.0.19-py27h917cbba_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/tardis_1630517799705/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    openssl:         1.1.1k-h0d85af4_1            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python_abi:      2.7-1_cp27m                  conda-forge
+    pytoml:          0.1.21-py_0                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    setuptools:      44.0.0-py27_0                conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tardis:          1.0.19-py27h917cbba_1        local      
+    tk:              8.6.11-hd798d34_0            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/tardis_1630517799705/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/tardis_1630517799705/test_tmp
+import: 'tardis'
+import: 'tardis'
+usage: tardis [-h] [-w] [-c N] [--from N] [--to N] [-s RATE] [-d DIR]
+              [--dry-run] [-k] [--job-file FILE] [--templatedir DIR]
+              [--job-template-name NAME] [--hpctype HPCTYPE]
+              [--batonfile FILE] [--shell-include-file FILE] [-q]
+              [--userconfig FILE] [--no-sysconfig]
+              command ...
+
+Condition a command for execution on a cluster.
+
+positional arguments:
+  command               command to run
+  arg                   command arguments
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -w, --in-workflow     Run the command as part of a workflow. After launching
+                        all of the jobs, tardis waits for all outputs, which
+                        are then collated and merged into a single output
+                        file, as specified by the output file path in the
+                        original command; all of the temporary input files
+                        (for example chunks of uncompressed fastq) are deleted
+                        provided all prior steps completed without error (if
+                        there was an error they are left there to assist with
+                        debugging). Without this option, the program exits
+                        immediately after launching all of the jobs, and
+                        output is left un-collated in the scratch folder
+                        created by this script, and no cleanup is done.
+  -c N, --chunksize N   When conditioning the input file(s), split into files
+                        each containing N logical records. (A logical record
+                        for a sequence file is a complete sequence. For a text
+                        file it is a line of text). (If the -s option is used
+                        to sample the inputs, the chunksize relates to the
+                        full un-sampled file . so the same chunk-size can be
+                        used whether random sampling or not. For example a
+                        chunksize of 1,000,000 is specified in combination
+                        with a sampling rate of .0001, then each chunk would
+                        contain 100 sequences . i.e. you should not adjust the
+                        chunk-size, for the sampling rate. Note that to avoid
+                        a race-condition that could be caused by a very small
+                        chunk-size resulting in launching a very large number
+                        of jobs, tardis will throw an exception if the chunk-
+                        size used would result in launching more than
+                        MAX_DIMENSION jobs (currently 5000) )
+  --from N, --from-record N
+                        When conditioning the input file(s), only use records
+                        from the input file after or including N (where that
+                        is logical record number . e.g. in a fastq file, start
+                        from record number N means start from sequence N). By
+                        combining this option with -to, you can process slices
+                        of a file. Note that this option has no affect when
+                        processing a list-file.
+  --to N, --to-record N
+                        When conditioning the input file(s), only use records
+                        up to and including the record N (where that is
+                        logical record number . e.g. in a fastq file, process
+                        up to record number N means process up to and
+                        including sequence N). By combining this option with
+                        -from, you can process slices of a file. Note that
+                        this option has no affect when processing a list-file.
+  -s RATE               Rather than process the entire input file(s), a random
+                        sample of the records is processed. RATE is the
+                        probability that a given record will be sampled. For
+                        example -s .001 will result in roughly 1 in every 1000
+                        logical records being sampled. When the -s option is
+                        specified, tardis does not clean up the conditioned
+                        input and output . e.g. all of the uncompressed fastq
+                        sample fragments would be retained. These are retained
+                        to assist with the Q/C work that is normally
+                        associated with a sampled run. Paired fastq input
+                        files are sampled in lock-step, provided the paired
+                        fastq conditioning directive is used for both files.
+  -d DIR, --rootdir DIR
+                        create the tardis working folder under DIR. If no
+                        working root is specified, a default location is used.
+  --dry-run             validate the run by doing a dry run. This means that
+                        the chunks, job scripts and job files etc. are all
+                        generated but the jobs are not launched. The user can
+                        start then kill (CTRL-C) the run, inspect the script
+                        and job files that were generated to check that their
+                        command has been conditioned as envisaged.
+  -k, --keep-conditioned-data
+                        keep the conditioned input and output - i.e. the input
+                        and output fragments. Normally in workflow mode these
+                        are deleted after the output is successfully
+                        "unconditioned" - i.e. joined back together
+  --job-file FILE       optionally supply a job template - tardis will read
+                        the contents of FILE and use this as the job template.
+  --templatedir DIR     template directory
+  --job-template-name NAME
+                        job template name, resolved in template directory
+  --hpctype HPCTYPE     indicate the hpc environment. Currently the only
+                        supported values are: condor which results in tardis
+                        attempting to set up and launch condor jobs; local
+                        which results in each job being launched by tardis
+                        itself on the local machine, using the native python
+                        sub-process API. The maximum number of processes it
+                        will run at a time is controlled by a global variable
+                        in the script MAX_PROCESSES, which is initially 10;
+                        slurm which results in tardis attempting to set up and
+                        launch slurm jobs.
+  --batonfile FILE      if you supply a "baton file" FILE, tardis will write
+                        the process exit code to this file after all
+                        processing has completed. This can be useful to
+                        preserve synchronous execution of a workflow, even if
+                        tardis is started in the background - the workflow can
+                        test the existence of the batonfile - if it exists
+                        then the corresponding tardis processing step has
+                        completed (i.e. another way of each step in a workflow
+                        "passing the baton" to the next step)
+  --shell-include-file FILE, --runtimeconfigsourcefile FILE
+                        shell script fragment included in jobs
+  -q, --quiet           run quietly
+  --userconfig FILE     user configuration file
+  --no-sysconfig        ignore the system configuration file
+
+Resource usage statistics from testing tardis:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: tardis-1.0.19-py27h917cbba_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

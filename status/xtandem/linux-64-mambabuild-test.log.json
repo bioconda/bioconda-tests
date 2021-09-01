@@ -1,0 +1,60 @@
+  Package             Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex         0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex         4.5  1_gnu          conda-forge/linux-64                    Cached
+  + expat              2.2.10  h9c3ff4c_0     conda-forge/linux-64                    164 KB
+  + libgcc-ng          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp            11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng       11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + xtandem        15.12.15.2  ha8569cc_4     /home/vsts/conda/conda-bld/linux-64     251 KB
+  + zlib               1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 415 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: xtandem-15.12.15.2-ha8569cc_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/xtandem_1630517979780/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge       conda-forge
+    _openmp_mutex: 4.5-1_gnu             conda-forge
+    expat:         2.2.10-h9c3ff4c_0     conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8     conda-forge
+    libgomp:       11.1.0-hc902ee8_8     conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8     conda-forge
+    xtandem:       15.12.15.2-ha8569cc_4 local      
+    zlib:          1.2.11-h516909a_1010  conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/xtandem_1630517979780/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/xtandem_1630517979780/test_tmp
+X! TANDEM Vengeance (2015.12.15.2)
+
+Resource usage statistics from testing xtandem:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: xtandem-15.12.15.2-ha8569cc_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
