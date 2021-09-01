@@ -1,0 +1,307 @@
+  Package                 Version  Build                Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu                conda-forge/linux-64                    Cached
+  + attrs                  21.2.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + ca-certificates     2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + demes                   0.1.2  pyhd8ed1ab_0         conda-forge/noarch                       32 KB
+  + gsl                       2.7  he838d99_0           conda-forge/linux-64                      3 MB
+  + importlib-metadata      4.8.1  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + jsonschema              3.2.0  pyhd8ed1ab_3         conda-forge/noarch                      Cached
+  + ld_impl_linux-64       2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                 3.9.0  11_linux64_openblas  conda-forge/linux-64                     12 KB
+  + libcblas                3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libffi                    3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng         11.1.0  h69a702a_8           conda-forge/linux-64                     19 KB
+  + libgfortran5           11.1.0  h6c583b3_8           conda-forge/linux-64                      2 MB
+  + libgomp                11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack               3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libopenblas            0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                      9 MB
+  + libstdcxx-ng           11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + msprime                 1.0.2  py39hb70cca0_2       /home/vsts/conda/conda-bld/linux-64     380 KB
+  + ncurses                   6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                  1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + pip                    21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pyparsing               2.4.7  pyh9f0ad1d_0         conda-forge/noarch                       60 KB
+  + pyrsistent             0.17.3  py39h3811e60_2       conda-forge/linux-64                    Cached
+  + python                  3.9.6  h49503c6_1_cpython   conda-forge/linux-64                    Cached
+  + python_abi                3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                  8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + ruamel.yaml           0.17.16  py39h3811e60_0       conda-forge/linux-64                    Cached
+  + ruamel.yaml.clib        0.2.2  py39h3811e60_2       conda-forge/linux-64                    Cached
+  + setuptools             57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + six                    1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite                 3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + svgwrite                1.4.1  pyhd8ed1ab_0         conda-forge/noarch                       51 KB
+  + tk                     8.6.11  h21135ba_0           conda-forge/linux-64                    Cached
+  + tskit                   0.3.7  py39hce5d2b2_1       conda-forge/linux-64                    437 KB
+  + tzdata                  2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                      5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zipp                    3.5.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + zlib                   1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 42 packages
+
+  Total download: 21 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: msprime-1.0.2-py39hb70cca0_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/msprime_1630474442331/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:      0.1-conda_forge            conda-forge
+    _openmp_mutex:      4.5-1_gnu                  conda-forge
+    attrs:              21.2.0-pyhd8ed1ab_0        conda-forge
+    ca-certificates:    2021.5.30-ha878542_0       conda-forge
+    demes:              0.1.2-pyhd8ed1ab_0         conda-forge
+    gsl:                2.7-he838d99_0             conda-forge
+    importlib-metadata: 4.8.1-py39hf3d152e_0       conda-forge
+    jsonschema:         3.2.0-pyhd8ed1ab_3         conda-forge
+    ld_impl_linux-64:   2.36.1-hea4e1c9_2          conda-forge
+    libblas:            3.9.0-11_linux64_openblas  conda-forge
+    libcblas:           3.9.0-11_linux64_openblas  conda-forge
+    libffi:             3.3-h58526e2_2             conda-forge
+    libgcc-ng:          11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:     11.1.0-h69a702a_8          conda-forge
+    libgfortran5:       11.1.0-h6c583b3_8          conda-forge
+    libgomp:            11.1.0-hc902ee8_8          conda-forge
+    liblapack:          3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:        0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:       11.1.0-h56837e0_8          conda-forge
+    msprime:            1.0.2-py39hb70cca0_2       local      
+    ncurses:            6.2-h58526e2_4             conda-forge
+    numpy:              1.21.2-py39hdbf815f_0      conda-forge
+    openssl:            1.1.1k-h7f98852_1          conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0        conda-forge
+    pyparsing:          2.4.7-pyh9f0ad1d_0         conda-forge
+    pyrsistent:         0.17.3-py39h3811e60_2      conda-forge
+    python:             3.9.6-h49503c6_1_cpython   conda-forge
+    python_abi:         3.9-2_cp39                 conda-forge
+    readline:           8.1-h46c0cb4_0             conda-forge
+    ruamel.yaml:        0.17.16-py39h3811e60_0     conda-forge
+    ruamel.yaml.clib:   0.2.2-py39h3811e60_2       conda-forge
+    setuptools:         57.4.0-py39hf3d152e_0      conda-forge
+    six:                1.16.0-pyh6c4a22f_0        conda-forge
+    sqlite:             3.36.0-h9cd32fc_0          conda-forge
+    svgwrite:           1.4.1-pyhd8ed1ab_0         conda-forge
+    tk:                 8.6.11-h21135ba_0          conda-forge
+    tskit:              0.3.7-py39hce5d2b2_1       conda-forge
+    tzdata:             2021a-he74cb21_1           conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:                 5.2.5-h516909a_1           conda-forge
+    zipp:               3.5.0-pyhd8ed1ab_0         conda-forge
+    zlib:               1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/msprime_1630474442331/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/msprime_1630474442331/test_tmp
+import: 'msprime'
+import: 'msprime'
+usage: mspms [-h] [--mutation-rate theta] [--trees]
+             [--recombination rho num_loci]
+             [--gene-conversion gc_recomb_ratio tract_length]
+             [--hotspots HOTSPOTS [HOTSPOTS ...]]
+             [--structure value [value ...]]
+             [--migration-matrix-entry i j rate]
+             [--migration-matrix entry [entry ...]]
+             [--migration-rate-change t x]
+             [--migration-matrix-entry-change time i j rate]
+             [--migration-matrix-change entry [entry ...]]
+             [--growth-rate alpha]
+             [--population-growth-rate population_id alpha]
+             [--population-size population_id size]
+             [--growth-rate-change t alpha]
+             [--population-growth-rate-change t population_id alpha]
+             [--size-change t x] [--population-size-change t population_id x]
+             [--population-split t i j]
+             [--admixture t population_id proportion]
+             [--random-seeds x1 x2 x3] [--precision PRECISION] [-V]
+             [-f FILENAME]
+             sample_size num_replicates
+
+mspms is an ms-compatible interface to the msprime library. It simulates the
+coalescent with recombination for a variety of demographic models and outputs
+the results in a text-based format. It supports a subset of the functionality
+available in ms and aims for full compatibility. WARNING: due to quirks in
+Python's argparse module, negative growth rates written in exponential form
+(e.g. `-eG 1.0 -1e-5`) are not recognised as an option argument. To work
+around this, specify the argument using quotes and a leading space, e.g. `-eG
+1.0 ' -1e-5'`, or avoid scientific notation, e.g. `-eG 1.0 -0.00001`.
+
+positional arguments:
+  sample_size           The number of genomes in the sample
+  num_replicates        Number of independent replicates
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+  -f FILENAME, --filename FILENAME
+                        Insert commands from a file at this point in the
+                        command line.
+
+Behaviour:
+  --mutation-rate theta, -t theta
+                        Mutation rate theta=4*N0*mu
+  --trees, -T           Print out trees in Newick format
+  --recombination rho num_loci, -r rho num_loci
+                        Recombination at rate rho=4*N0*r where r is the rate
+                        of recombination between the ends of the region being
+                        simulated; num_loci is the number of sites between
+                        which recombination can occur
+  --gene-conversion gc_recomb_ratio tract_length, -c gc_recomb_ratio tract_length
+                        Gene conversion at rate gamma where gamma depends on
+                        the defined recombination rate rho=4*N0*r. If rho > 0,
+                        gc_recomb_ratio defines the ratio g/r, where r is the
+                        probability per generation of crossing-over and g the
+                        corresponding gene conversion probability. Gene
+                        conversions are initiated at rate
+                        gamma=rho*gc_recomb_ratio = 4*N0*r*gc_recomb_ratio. If
+                        rho = 0 the gene conversion rate is given by
+                        gamma=gc_recomb_ratio=4*N0*c where c is the rate of
+                        gene conversion initiation between the ends of the
+                        simulated region of length num_loci. If the
+                        recombination rate is not specified, standard
+                        parameters are used, i.e. rho = 0 and num_loci = 1.
+                        The length of the gene conversion tracts is
+                        geometrically distributed with mean tract_length. The
+                        mean tract_length needs to be larger than or equal to
+                        1 for discrete genomes and larger than 0 for
+                        continuous genomes.
+  --hotspots HOTSPOTS [HOTSPOTS ...], -v HOTSPOTS [HOTSPOTS ...]
+                        Recombination hotspots defined according to the msHOT
+                        format. This is defined as a sequence: n (start stop
+                        scale)+ where n is the number of hotspots and each
+                        hotspot spans [start, stop) where the recombination
+                        rate is the background recombination rate times scale.
+                        Adjacent hotspots may stop and start at the same
+                        position but must otherwise be non-overlapping and
+                        specified in ascending order.
+
+Structure and migration:
+  --structure value [value ...], -I value [value ...]
+                        Sample from populations with the specified deme
+                        structure. The arguments are of the form
+                        'num_populations n1 n2 ... [4N0m]', specifying the
+                        number of populations, the sample configuration, and
+                        optionally, the migration rate for a symmetric island
+                        model
+  --migration-matrix-entry i j rate, -m i j rate
+                        Sets an entry M[i, j] in the migration matrix to the
+                        specified rate. i and j are (1-indexed) population
+                        IDs. Multiple options can be specified.
+  --migration-matrix entry [entry ...], -ma entry [entry ...]
+                        Sets the migration matrix to the specified value. The
+                        entries are in the order M[1,1], M[1, 2], ..., M[2,
+                        1],M[2, 2], ..., M[N, N], where N is the number of
+                        populations.
+  --migration-rate-change t x, -eM t x
+                        Set the symmetric island model migration rate to x /
+                        (npop - 1) at time t
+  --migration-matrix-entry-change time i j rate, -em time i j rate
+                        Sets an entry M[i, j] in the migration matrix to the
+                        specified rate at the specified time. i and j are
+                        (1-indexed) population IDs.
+  --migration-matrix-change entry [entry ...], -ema entry [entry ...]
+                        Sets the migration matrix to the specified value at
+                        time t.The entries are in the order M[1,1], M[1, 2],
+                        ..., M[2, 1],M[2, 2], ..., M[N, N], where N is the
+                        number of populations.
+
+Demography:
+  --growth-rate alpha, -G alpha
+                        Set the growth rate to alpha for all populations. See
+                        warning above about negative growth rates.
+  --population-growth-rate population_id alpha, -g population_id alpha
+                        Set the growth rate to alpha for a specific
+                        population. See warning above about negative growth
+                        rates.
+  --population-size population_id size, -n population_id size
+                        Set the size of a specific population to size*N0.
+  --growth-rate-change t alpha, -eG t alpha
+                        Set the growth rate for all populations to alpha at
+                        time t. See warning above about negative growth rates.
+  --population-growth-rate-change t population_id alpha, -eg t population_id alpha
+                        Set the growth rate for a specific population to alpha
+                        at time t. See warning above about negative growth
+                        rates.
+  --size-change t x, -eN t x
+                        Set the population size for all populations to x * N0
+                        at time t
+  --population-size-change t population_id x, -en t population_id x
+                        Set the population size for a specific population to x
+                        * N0 at time t
+  --population-split t i j, -ej t i j
+                        Move all lineages in population i to j at time t.
+                        Forwards in time, this corresponds to a population
+                        split in which lineages in j split into i. All
+                        migration rates for population i are set to zero.
+  --admixture t population_id proportion, -es t population_id proportion
+                        Split the specified population into a new population,
+                        such that the specified proportion of lineages remains
+                        in the population population_id. Forwards in time this
+                        corresponds to an admixture event. The new population
+                        has ID num_populations + 1. Migration rates to and
+                        from the new population are set to 0, and growth rate
+                        is 0 and the population size for the new population is
+                        N0.
+
+Miscellaneous:
+  --random-seeds x1 x2 x3, -seeds x1 x2 x3
+                        Random seeds (must be three integers)
+  --precision PRECISION, -p PRECISION
+                        Number of values after decimal place to print
+
+If you use msprime in your work, please cite the following paper: Jerome
+Kelleher, Alison M Etheridge and Gilean McVean (2016), "Efficient Coalescent
+Simulation and Genealogical Analysis for Large Sample Sizes", PLoS Comput Biol
+12(5): e1004842. doi: 10.1371/journal.pcbi.1004842
+usage: msp [-h] [-V] {ancestry,mutations,simulate} ...
+
+Command line interface for msprime.
+
+positional arguments:
+  {ancestry,mutations,simulate}
+    ancestry            Simulate an ancestral history and output as a tskit
+                        tree sequence.
+    mutations           Simulate mutations on a tree sequence.
+    simulate            Run a simulation. DEPRECATED - please use `msp
+                        ancestry` and `msp mutations` instead
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -V, --version         show program's version number and exit
+
+If you use msprime in your work, please cite the following paper: Jerome
+Kelleher, Alison M Etheridge and Gilean McVean (2016), "Efficient Coalescent
+Simulation and Genealogical Analysis for Large Sample Sizes", PLoS Comput Biol
+12(5): e1004842. doi: 10.1371/journal.pcbi.1004842
+
+Resource usage statistics from testing msprime:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: msprime-1.0.2-py39hb70cca0_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

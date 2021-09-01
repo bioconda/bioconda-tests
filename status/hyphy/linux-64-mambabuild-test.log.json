@@ -1,0 +1,217 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + hyphy                  2.5.32  h48c199c_0     /home/vsts/conda/conda-bld/linux-64      13 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgfortran-ng         11.1.0  h69a702a_8     conda-forge/linux-64                    Cached
+  + libgfortran5           11.1.0  h6c583b3_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + mpi                       1.0  openmpi        conda-forge/linux-64                      4 KB
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openmpi                 4.1.1  hbfc84c5_0     conda-forge/linux-64                      4 MB
+  + openssl                1.1.1k  h7f98852_1     conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h21135ba_0     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 17 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: hyphy-2.5.32-h48c199c_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/hyphy_1630474688135/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    hyphy:           2.5.32-h48c199c_0       local      
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgfortran-ng:  11.1.0-h69a702a_8       conda-forge
+    libgfortran5:    11.1.0-h6c583b3_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    mpi:             1.0-openmpi             conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openmpi:         4.1.1-hbfc84c5_0        conda-forge
+    openssl:         1.1.1k-h7f98852_1       conda-forge
+    tk:              8.6.11-h21135ba_0       conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...  
+For Linux 64, Open MPI is built with CUDA awareness but this support is disabled by default.
+To enable it, please set the environment variable OMPI_MCA_opal_cuda_support=true before
+launching your MPI processes. Equivalently, you can set the MCA parameter in the command line:
+mpiexec --mca opal_cuda_support 1 ...
+ 
+In addition, the UCX support is also built but disabled by default.
+To enable it, first install UCX (conda install -c conda-forge ucx). Then, set the environment
+variables OMPI_MCA_pml="ucx" OMPI_MCA_osc="ucx" before launching your MPI processes.
+Equivalently, you can set the MCA parameters in the command line:
+mpiexec --mca pml ucx --mca osc ucx ...
+Note that you might also need to set UCX_MEMTYPE_CACHE=n for CUDA awareness via UCX.
+Please consult UCX's documentation for detail.
+ 
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/hyphy_1630474688135/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/hyphy_1630474688135/test_tmp
+usage: hyphy or HYPHYMPI [-h] [--help][-c] [-d] [-i] [-p] [BASEPATH=directory path] [CPU=integer] [LIBPATH=library path] [USEPATH=library path] [<standard analysis name> or <path to hyphy batch file>] [--keyword value ...] [positional arguments ...]
+
+Execute a HyPhy analysis, either interactively, or in batch mode
+optional flags:
+  -h --help                show this help message and exit
+  -c                       calculator mode; causes HyPhy to drop into an expression evaluation until 'exit' is typed
+  -d                       debug mode; causes HyPhy to drop into an expression evaluation mode upon script error
+  -i                       interactive mode; causes HyPhy to always prompt the user for analysis options, even when defaults are available
+  -m                       write diagnostic messages to messages.log
+optional global arguments:
+  BASEPATH=directory path  defines the base directory for all path operations (default is pwd)
+  CPU=integer              if compiled with OpenMP multithreading support, requests this many threads; HyPhy could use fewer than this
+                           but never more; default is the number of CPU cores (as computed by OpenMP) on the system
+  LIBPATH=directory path   defines the directory where HyPhy library files are located (default installed location is /usr/local/lib/hyphy
+                           or as configured during CMake installation
+  USEPATH=directory path   specifies the optional working and relative path directory (default is BASEPATH)
+
+  ENV=expression           set HBL environment variables via explicit statements
+                           for example ENV='DEBUG_MESSAGES=1;WRITE_LOGS=1'
+  batch file to run        if specified, execute this file, otherwise drop into an interactive mode
+  analysis arguments       if batch file is present, all remaining positional arguments are interpreted as inputs to analysis prompts
+
+optional keyword arguments (can appear anywhere); will be consumed by the requested analysis
+  --keyword value          will be passed to the analysis (which uses KeywordArgument directives)
+                           multiple values for the same keywords are treated as an array of values for multiple selectors
+
+usage examples:
+
+Select a standard analysis from the list : 
+	hyphy -i 
+Run a standard analysis with default options and one required user argument; 
+	hyphy busted --alignment path/to/file
+Run a standard analysis with additional keyword arguments 
+	hyphy busted --alignment path/to/file --srv No
+See which arguments are understood by a standard analysis 
+	hyphy busted --help
+Run a custom analysis and pass it some arguments 
+	hyphy path/to/hyphy.script argument1 'argument 2' 
+Available standard keyword analyses (located in $PREFIX/share/hyphy/)
+	meme 	[MEME] Test for episodic site-level selection using MEME (Mixed Effects Model of Evolution).
+	mh 	Merge two datafiles by combining sites (horizontal merge).
+	mv 	Merge two datafiles by combining sequences (vertical merge).
+	mcc 	Compare mean within-clade branch length or pairwise divergence between two or more non-nested cladesd in a tree
+	mclk 	Test for the presence of a global molecular clock on the tree using its root (the resulting clock tree is unrooted, but one of the root branches can be divided in such a way as to enforce the clock).
+	mgvsgy 	Compare the fits of MG94 and GY94 models (crossed with an arbitrary nucleotide bias) on codon data.
+	mt 	Select an evolutionary model for nucleotide data, using the methods of 'ModelTest' - a program by David Posada and Keith Crandall.
+	fel 	[FEL] Test for pervasive site-level selection using FEL (Fixed Effects Likelihood).
+	fubar 	[FUBAR] Test for pervasive site-level selection using FUBAR (Fast Unconstrained Bayesian AppRoximation for inferring selection).
+	fade 	[FADE] Test a protein alignment for directional selection towards specific amino acids along a specified set of test branches using FADE (a FUBAR Approach to Directional Evolution).
+	faa 	Fit a multiple fitness class model to amino acid data.
+	fmm 	 "Fit a model that permits double (and triple) instantaneous nucleotide substitutions"
+	fst 	Compute various measures of F_ST and (optionally) perform permutation tests.
+	slac 	[SLAC] Test for pervasive site-level selection using SLAC (Single Likelihood Ancestor Counting).
+	sm 	Peform a classic and structured Slatkin-Maddison test for the number migrations.
+	sns 	Parse a codon alignment for ambiguous codons and output a complete list/resolutions/syn and ns counts by sequence/position
+	sw 	Perform a sliding window analysis of sequence data.
+	sa 	Perform a phylogeny reconstuction for nucleotide, protein or codon data with user-selectable models using the method of sequential addition.
+	sbl 	Search an alignment for a single breakpoint.
+	spl 	Plot genetic distances (similarity) of one sequence against all others in an alignment, using a sliding window. Optionally, determine NJ-based clustering and bootstrap support in every window. This is a HyPhy adaptation of the excellent (but Windows only tool) SimPlot (and/or VarPlot) written by Stuart Ray (http://sray.med.som.jhmi.edu/SCRoftware/simplot/)
+	busted 	[BUSTED] Test for episodic gene-wide selection using BUSTED (Branch-site Unrestricted Statistical Test of Episodic Diversification).
+	bgm 	[BGM] Apply Bayesian Graphical Model inference to substitution histories at individual sites.
+	bva 	Run a selection analysis using a general discrete bivariate (dN AND dS) distribution; the appropriate number of rate classes is determined automatically.
+	brp 	Interpret bivariate codon rate analysis results.
+	bsel 	Split a tree into two clades (compartments) and a separating branch and test for equality of dN/dS between compartments and for selection along the separating branch using a series of Likelihood Ratio Tests.
+	bst 	Use the improved branch-site REL method of Yang and Nielsen (2005) to look for episodic selection in sequences.
+	bt 	Test whether a branch (or branches) in the tree evolves under different dN and dS than the rest of the tree.
+	absrel 	[aBSREL] Test for lineage-specific evolution using the branch-site method aBS-REL (Adaptive Branch-Site Random Effects Likelihood).
+	acd 	Analyse codon data with a variery of standard models using given tree.
+	ad 	Analyse nucleotide or aminoacid data with a variery of standard models using given tree.
+	adn 	Analyse di-nucleotide data with a variery of standard models using given tree.
+	afd 	Analyse nucleotide data with a variery of standard models using given tree, estimating equilibrium frequencies as parameters
+	ana 	Run a selection analysis.
+	ai 	Peter Simmonds' Association Index (AI).
+	relax 	[RELAX] Test for relaxation of selection pressure along a specified set of test branches using RELAX (a random effects test of selection relaxation).
+	red 	Replace sufficiently close sequence with their MRCA
+	rpc 	Interpret analysis results.
+	rmv 	Remove sequences with stop codons from the data.
+	rble 	Use a series of random effects branch-site models to perform robust model-averaged branch length estimation under a codon model with episodic selection.
+	rclk 	Test for the presence of a global molecular clock on the tree. The tree is rooted at every possible branch.
+	rr 	Use relative rate test on three species and a variety of standard models
+	rrt 	Use relative ratio test on 2 datasets and a variety of standard models
+	prime 	[PRIME] 
+	protein 	Compare the fit of several amino-acid substitution models to an alignment using AIC and c-AIC.
+	prr 	Using the model and the outgroup provided by the user, perform relative rate tests with all possible pair of species from the data file. 
+	prrti 	Given a list of files (and optionally genetic code tables), perform relative ratio tests on all possible pair of the data files.
+	pdf 	Read sequence data, select a contiguous subset of sites and save it to another datafile.
+	phb 	Run an example file from our book chapter in 'The Phylogentic Handbook' (2nd edition).
+	psm 	Test for positive selection using the approach of Nielsen and Yang, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1. Multiple subsets of one data set with shared dN/dS.
+	parris 	A PARtitioning approach for Robust Inference of Selection (written by K. Scheffler)
+	contrast-fel 	[Contrast-FEL] "Perform a site-level test for differences in selective pressures between predetermined sets of branches."
+	conv 	Translate an in-frame codon alignment to proteins.
+	corr 	Assess the correlation between phylogenetic and compartment segregation using generalized correlation coefficients and permutation tests.
+	cod 	Compare all 203 reversible nucleotide models composed with MG94 to extend them to codon data, and perform LRT and AIC model selection.
+	cmp 	Use a series of LR tests to decide if dN and dS rate distributions are the same or different between two codon alignments.
+	caln 	Align coding sequences to reference (assuming star topology) using a codon-based dynamic programming algorithm (good for fixing multiple frameshifts). Designed with within-patient HIV sequences in mind.
+	clg 	Remove 'gappy' sites from alignments based on a user-specified gap threshold.
+	cln 	Convert sequence names to HyPhy valid identifiers if needed and replace stop codons with gaps in codon data if any are present.
+	clsr 	Partition sequences into clusters based on a distance matrix.
+	clst 	Apply clustering methods for phylogeny reconstruction (UPGMA,WPGMA,complete or minimal linkage) to nucleotide, protein and codon data, using MLE of pairwise distances with user-selectable models. These methods produce trees with global molecular clock.
+	leisr 	Infer relative evolutionary rates on a nucleotide or protein alignment, in a spirit similar to Rate4Site (PMID: 12169533).
+	lz 	Compute Lempel-Ziv complexity and entropy of (possibly unaligned) sequences
+	lclk 	Test for the presence of a local molecular clock. Every subtree of the given tree is subjected to the clock constraint, while the remainder of the tree is free of the clock constraint.
+	lht 	A Likelihood Ratio Test to detect conflicting phylogenetic signal Huelsenbeck and Bull, 1996. [Contributed by Olivier Fedrigo].
+	tc 	Test whether a group of sequences in a sample cluster together
+	ts 	Perform an exhaustive tree space search for nucleotide or protein data with user-selectable models. Should only be used for data sets with less than 10 taxa!
+	dtr 	Read sequence data (#,PHYLIP,NEXUS) and convert to a different format
+	deps 	Analyze Directional Evolution in Protein Sequences (DEPS)
+	dist 	Generate a pairwise sequence distance matrix in PHYLIP format.
+	kh 	Perform a Kishino-Hasegawa test on two competing phylogenies
+	ub 	Obtain an upper bound on the likelihood score of a dataset.
+	nuc 	Compare all 203 reversible nucleotide models and perform LRT and AIC model selection.
+	nj 	Perform a phylogeny reconstuction for nucleotide, protein or codon data with user-selectable models using the method of neighbor joining.
+	ny 	Test for positive selection using the approach of Nielsen and Yabg, by sampling global dN/dS from an array of distributions, and using Bayesian posterior to identify the sites with dN/dS>1.
+	gard 	[GARD] Screen an alignment using GARD (requires an MPI environment).
+
+
+Resource usage statistics from testing hyphy:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: hyphy-2.5.32-h48c199c_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
