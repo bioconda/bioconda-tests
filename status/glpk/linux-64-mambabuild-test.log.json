@@ -1,0 +1,149 @@
+  Package                      Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                  0.1  conda_forge         conda-forge/linux-64                     Cached
+  + _openmp_mutex                  4.5  1_gnu               conda-forge/linux-64                     Cached
+  + binutils_impl_linux-64      2.36.1  h193b22a_2          conda-forge/linux-64                     Cached
+  + binutils_linux-64             2.36  hf3e587d_0          conda-forge/linux-64                     Cached
+  + ca-certificates          2021.5.30  ha878542_0          conda-forge/linux-64                     Cached
+  + cython                     0.29.24  py39he80948d_0      conda-forge/linux-64                       2 MB
+  + gcc_impl_linux-64            9.4.0  h03d3576_8          conda-forge/linux-64                     Cached
+  + gcc_linux-64                 9.4.0  h391b98a_0          conda-forge/linux-64                     Cached
+  + glpk                           5.0  h445213a_0          /home/vsts/conda/conda-bld/linux-64     1023 KB
+  + gmp                          6.2.1  h58526e2_0          conda-forge/linux-64                     806 KB
+  + kernel-headers_linux-64     2.6.32  he073ed8_14         conda-forge/noarch                       Cached
+  + ld_impl_linux-64            2.36.1  hea4e1c9_2          conda-forge/linux-64                     Cached
+  + libffi                         3.3  h58526e2_2          conda-forge/linux-64                     Cached
+  + libgcc-devel_linux-64        9.4.0  hd854feb_8          conda-forge/linux-64                     Cached
+  + libgcc-ng                   11.1.0  hc902ee8_8          conda-forge/linux-64                     Cached
+  + libgomp                     11.1.0  hc902ee8_8          conda-forge/linux-64                     Cached
+  + libsanitizer                 9.4.0  h79bfe98_8          conda-forge/linux-64                     Cached
+  + libstdcxx-ng                11.1.0  h56837e0_8          conda-forge/linux-64                     Cached
+  + ncurses                        6.2  h58526e2_4          conda-forge/linux-64                     Cached
+  + openssl                     1.1.1k  h7f98852_1          conda-forge/linux-64                     Cached
+  + pip                         21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python                       3.9.6  h49503c6_1_cpython  conda-forge/linux-64                     Cached
+  + python_abi                     3.9  2_cp39              conda-forge/linux-64                     Cached
+  + readline                       8.1  h46c0cb4_0          conda-forge/linux-64                     Cached
+  + setuptools                  57.4.0  py39hf3d152e_0      conda-forge/linux-64                     Cached
+  + sqlite                      3.36.0  h9cd32fc_0          conda-forge/linux-64                     Cached
+  + sysroot_linux-64              2.12  he073ed8_14         conda-forge/noarch                       Cached
+  + tk                          8.6.11  h21135ba_0          conda-forge/linux-64                     Cached
+  + tzdata                       2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                       0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                           5.2.5  h516909a_1          conda-forge/linux-64                     Cached
+  + zlib                        1.2.11  h516909a_1010       conda-forge/linux-64                     Cached
+
+  Summary:
+
+  Install: 32 packages
+
+  Total download: 4 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: glpk-5.0-h445213a_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/glpk_1630533328931/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge          conda-forge
+    _openmp_mutex:           4.5-1_gnu                conda-forge
+    binutils_impl_linux-64:  2.36.1-h193b22a_2        conda-forge
+    binutils_linux-64:       2.36-hf3e587d_0          conda-forge
+    ca-certificates:         2021.5.30-ha878542_0     conda-forge
+    cython:                  0.29.24-py39he80948d_0   conda-forge
+    gcc_impl_linux-64:       9.4.0-h03d3576_8         conda-forge
+    gcc_linux-64:            9.4.0-h391b98a_0         conda-forge
+    glpk:                    5.0-h445213a_0           local      
+    gmp:                     6.2.1-h58526e2_0         conda-forge
+    kernel-headers_linux-64: 2.6.32-he073ed8_14       conda-forge
+    ld_impl_linux-64:        2.36.1-hea4e1c9_2        conda-forge
+    libffi:                  3.3-h58526e2_2           conda-forge
+    libgcc-devel_linux-64:   9.4.0-hd854feb_8         conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8        conda-forge
+    libgomp:                 11.1.0-hc902ee8_8        conda-forge
+    libsanitizer:            9.4.0-h79bfe98_8         conda-forge
+    libstdcxx-ng:            11.1.0-h56837e0_8        conda-forge
+    ncurses:                 6.2-h58526e2_4           conda-forge
+    openssl:                 1.1.1k-h7f98852_1        conda-forge
+    pip:                     21.2.4-pyhd8ed1ab_0      conda-forge
+    python:                  3.9.6-h49503c6_1_cpython conda-forge
+    python_abi:              3.9-2_cp39               conda-forge
+    readline:                8.1-h46c0cb4_0           conda-forge
+    setuptools:              57.4.0-py39hf3d152e_0    conda-forge
+    sqlite:                  3.36.0-h9cd32fc_0        conda-forge
+    sysroot_linux-64:        2.12-he073ed8_14         conda-forge
+    tk:                      8.6.11-h21135ba_0        conda-forge
+    tzdata:                  2021a-he74cb21_1         conda-forge
+    wheel:                   0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                      5.2.5-h516909a_1         conda-forge
+    zlib:                    1.2.11-h516909a_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/glpk_1630533328931/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/glpk_1630533328931/test_tmp
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
++AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
++AS=$PREFIX/bin/x86_64-conda-linux-gnu-as
++CXXFILT=$PREFIX/bin/x86_64-conda-linux-gnu-c++filt
++ELFEDIT=$PREFIX/bin/x86_64-conda-linux-gnu-elfedit
++GPROF=$PREFIX/bin/x86_64-conda-linux-gnu-gprof
++LD=$PREFIX/bin/x86_64-conda-linux-gnu-ld
++LD_GOLD=$PREFIX/bin/x86_64-conda-linux-gnu-ld.gold
++NM=$PREFIX/bin/x86_64-conda-linux-gnu-nm
++OBJCOPY=$PREFIX/bin/x86_64-conda-linux-gnu-objcopy
++OBJDUMP=$PREFIX/bin/x86_64-conda-linux-gnu-objdump
++RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib
++READELF=$PREFIX/bin/x86_64-conda-linux-gnu-readelf
++SIZE=$PREFIX/bin/x86_64-conda-linux-gnu-size
++STRINGS=$PREFIX/bin/x86_64-conda-linux-gnu-strings
++STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++BUILD=x86_64-conda-linux-gnu
++CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
++CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/glpk-5.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/glpk_1630533328931/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
++CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
++CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
++CONDA_TOOLCHAIN_HOST=x86_64-conda-linux-gnu
++CPP=$PREFIX/bin/x86_64-conda-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem $PREFIX/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/glpk-5.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem $PREFIX/include
++GCC=$PREFIX/bin/x86_64-conda-linux-gnu-gcc
++GCC_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar
++GCC_NM=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-nm
++GCC_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib
++HOST=x86_64-conda-linux-gnu
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,$PREFIX/lib -Wl,-rpath-link,$PREFIX/lib -L$PREFIX/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
++build_alias=x86_64-conda-linux-gnu
++host_alias=x86_64-conda-linux-gnu
+-BUILD=x86_64-conda_cos6-linux-gnu
+GLPK version 5.0
+
+Resource usage statistics from testing glpk:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 56B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: glpk-5.0-h445213a_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
