@@ -1,0 +1,865 @@
+  Package                                 Version  Build               Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + augustus                                3.4.0  pl5262h64cdd90_2    /Users/runner/conda/conda-bld/osx-64      29 MB
+  + bamtools                                2.5.1  h87af4ef_9          bioconda/osx-64                          801 KB
+  + biopython                                1.79  py39h89e85a6_0      conda-forge/osx-64                         3 MB
+  + boost-cpp                              1.74.0  hff03dee_4          conda-forge/osx-64                        16 MB
+  + bzip2                                   1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + c-ares                                 1.17.2  h0d85af4_0          conda-forge/osx-64                       Cached
+  + ca-certificates                     2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + cdbtools                                 0.99  h87af4ef_6          bioconda/osx-64                           68 KB
+  + diamond                                2.0.11  h4de6764_0          bioconda/osx-64                            2 MB
+  + gmp                                     6.2.1  h2e338ed_0          conda-forge/osx-64                       774 KB
+  + gsl                                       2.6  h71c5fe9_2          conda-forge/osx-64                         3 MB
+  + htslib                                   1.12  hc38c3fb_1          bioconda/osx-64                            2 MB
+  + icu                                      68.1  h74dc148_0          conda-forge/osx-64                       Cached
+  + krb5                                   1.19.2  hcfbf3a7_0          conda-forge/osx-64                       Cached
+  + libblas                                 3.9.0  11_osx64_openblas   conda-forge/osx-64                        12 KB
+  + libcblas                                3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libcurl                                7.78.0  hf45b732_0          conda-forge/osx-64                       Cached
+  + libcxx                                 12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libdeflate                                1.7  h35c211d_5          conda-forge/osx-64                       Cached
+  + libedit                          3.1.20191231  h0678c8f_2          conda-forge/osx-64                       Cached
+  + libev                                    4.33  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + libffi                                    3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgfortran                             5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                        19 KB
+  + libgfortran5                            9.3.0  h6c81a4c_23         conda-forge/osx-64                         2 MB
+  + libiconv                                 1.16  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + liblapack                               3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libnghttp2                             1.43.0  h07e645a_0          conda-forge/osx-64                       Cached
+  + libopenblas                            0.3.17  openmp_h3351f45_1   conda-forge/osx-64                         9 MB
+  + libpng                                 1.6.37  h7cec526_2          conda-forge/osx-64                       Cached
+  + libssh2                                1.10.0  h52ee1ee_0          conda-forge/osx-64                       Cached
+  + libuuid                                2.32.1  h35c211d_1000       conda-forge/osx-64                        23 KB
+  + llvm-openmp                            12.0.1  hda6cdc1_1          conda-forge/osx-64                       287 KB
+  + lp_solve                              5.5.2.5  h1de35cc_1001       conda-forge/osx-64                       391 KB
+  + lz4-c                                   1.9.3  he49afe7_1          conda-forge/osx-64                       Cached
+  + metis                                   5.1.0  h2e338ed_1006       conda-forge/osx-64                         4 MB
+  + mpfr                                    4.1.0  h0f52abe_1          conda-forge/osx-64                       400 KB
+  + mysql-connector-c                      6.1.11  h0f02589_1007       conda-forge/osx-64                         4 MB
+  + ncurses                                   6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + numpy                                  1.21.2  py39h7eed0ac_0      conda-forge/osx-64                         6 MB
+  + openssl                                1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + perl                                   5.26.2  hbcb3906_1008       conda-forge/osx-64                       Cached
+  + perl-apache-test                         1.40  pl526_1             bioconda/osx-64                          Cached
+  + perl-app-cpanminus                     1.7044  pl526_1             bioconda/osx-64                          Cached
+  + perl-base                                2.23  pl526_1             bioconda/osx-64                          Cached
+  + perl-carp                                1.38  pl526_3             bioconda/osx-64                          Cached
+  + perl-class-load                          0.25  pl526_0             /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-class-load-xs                       0.10  pl526h04f5b5a_2     bioconda/osx-64                           11 KB
+  + perl-class-method-modifiers              2.12  pl526_0             bioconda/osx-64                           13 KB
+  + perl-constant                            1.33  pl526_1             bioconda/osx-64                          Cached
+  + perl-cpan-meta                       2.150010  pl526_0             bioconda/osx-64                            4 KB
+  + perl-cpan-meta-requirements             2.140  pl526_0             bioconda/osx-64                           12 KB
+  + perl-cpan-meta-yaml                     0.018  pl526_0             bioconda/osx-64                           12 KB
+  + perl-data-dumper                        2.173  pl526_0             bioconda/osx-64                           34 KB
+  + perl-data-optlist                       0.110  pl526_2             bioconda/osx-64                          Cached
+  + perl-dbi                                1.642  pl526_0             bioconda/osx-64                          543 KB
+  + perl-devel-globaldestruction             0.14  pl526_0             bioconda/osx-64                            7 KB
+  + perl-devel-overloadinfo                 0.005  pl526_0             bioconda/osx-64                            8 KB
+  + perl-devel-stacktrace                    2.04  pl526_0             bioconda/noarch                          Cached
+  + perl-dist-checkconflicts                 0.11  pl526_2             /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-encode                              2.88  pl526_1             bioconda/osx-64                            1 MB
+  + perl-eval-closure                        0.14  pl526h04f5b5a_4     /Users/runner/conda/conda-bld/osx-64     Cached
+  + perl-exporter                            5.72  pl526_1             bioconda/osx-64                          Cached
+  + perl-extutils-cbuilder               0.280230  pl526_1             bioconda/osx-64                           21 KB
+  + perl-extutils-makemaker                  7.36  pl526_1             bioconda/osx-64                          Cached
+  + perl-extutils-manifest                   1.72  pl526_0             bioconda/osx-64                           13 KB
+  + perl-extutils-parsexs                    3.35  pl526_0             bioconda/osx-64                           39 KB
+  + perl-file-path                           2.16  pl526_0             bioconda/osx-64                           17 KB
+  + perl-file-temp                         0.2304  pl526_2             bioconda/osx-64                           26 KB
+  + perl-file-which                          1.23  pl526_0             bioconda/osx-64                           12 KB
+  + perl-getopt-long                         2.50  pl526_1             bioconda/osx-64                          Cached
+  + perl-ipc-cmd                             1.02  pl526_0             bioconda/osx-64                           22 KB
+  + perl-json-pp                             4.04  pl526_0             bioconda/noarch                           30 KB
+  + perl-locale-maketext-simple              0.21  pl526_2             bioconda/osx-64                            9 KB
+  + perl-module-build                      0.4224  pl526_3             bioconda/osx-64                          126 KB
+  + perl-module-corelist               5.20190524  pl526_0             bioconda/osx-64                           57 KB
+  + perl-module-implementation               0.09  pl526_2             bioconda/osx-64                          Cached
+  + perl-module-load                         0.32  pl526_1             bioconda/osx-64                            4 KB
+  + perl-module-load-conditional             0.68  pl526_2             bioconda/osx-64                           10 KB
+  + perl-module-metadata                 1.000036  pl526_0             bioconda/osx-64                           15 KB
+  + perl-module-runtime                     0.016  pl526_1             bioconda/osx-64                          Cached
+  + perl-module-runtime-conflicts           0.003  pl526_0             bioconda/osx-64                            7 KB
+  + perl-moo                             2.003004  pl526_0             bioconda/osx-64                           38 KB
+  + perl-moose                             2.2011  pl526h0a44026_1     bioconda/osx-64                          442 KB
+  + perl-mro-compat                          0.13  pl526_0             bioconda/osx-64                           10 KB
+  + perl-package-deprecationmanager          0.17  pl526_0             bioconda/osx-64                           10 KB
+  + perl-package-stash                       0.38  pl526h0a44026_1     bioconda/osx-64                          Cached
+  + perl-package-stash-xs                    0.28  pl526h0a44026_1     bioconda/osx-64                          Cached
+  + perl-parallel-forkmanager                2.02  pl526_0             bioconda/osx-64                           20 KB
+  + perl-params-check                        0.38  pl526_1             bioconda/osx-64                            4 KB
+  + perl-params-util                         1.07  pl526h04f5b5a_4     bioconda/osx-64                          Cached
+  + perl-parent                             0.236  pl526_1             bioconda/osx-64                            6 KB
+  + perl-pathtools                           3.75  pl526h1de35cc_1     bioconda/osx-64                          Cached
+  + perl-perl-ostype                        1.010  pl526_1             bioconda/osx-64                            6 KB
+  + perl-role-tiny                       2.000008  pl526_0             bioconda/noarch                           15 KB
+  + perl-scalar-list-utils                   1.52  pl526h01d97ff_0     bioconda/osx-64                          Cached
+  + perl-storable                            3.15  pl526h1de35cc_0     bioconda/osx-64                           56 KB
+  + perl-sub-exporter                       0.987  pl526_2             bioconda/osx-64                           30 KB
+  + perl-sub-exporter-progressive        0.001013  pl526_0             bioconda/osx-64                            8 KB
+  + perl-sub-identify                        0.14  pl526h1de35cc_0     bioconda/osx-64                           11 KB
+  + perl-sub-install                        0.928  pl526_2             bioconda/osx-64                          Cached
+  + perl-sub-name                            0.21  pl526_1             bioconda/osx-64                           12 KB
+  + perl-sub-quote                       2.006003  pl526_1             bioconda/osx-64                           17 KB
+  + perl-text-abbrev                         1.02  pl526_0             bioconda/osx-64                            5 KB
+  + perl-text-parsewords                     3.30  pl526_0             bioconda/osx-64                            8 KB
+  + perl-try-tiny                            0.30  pl526_1             bioconda/osx-64                          Cached
+  + perl-version                           0.9924  pl526_0             bioconda/osx-64                           32 KB
+  + perl-xsloader                            0.24  pl526_0             bioconda/osx-64                          Cached
+  + perl-yaml                                1.29  pl526_0             bioconda/noarch                           41 KB
+  + pip                                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python                                  3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi                                3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline                                  8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools                             57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite                                 3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + suitesparse                            5.10.1  h7aff33d_1          conda-forge/osx-64                         2 MB
+  + tar                                      1.34  hbb58dfb_0          conda-forge/osx-64                       435 KB
+  + tbb                                  2021.3.0  h940c156_0          conda-forge/osx-64                       162 KB
+  + tk                                     8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata                                  2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + ucsc-fatotwobit                           377  h516baf0_3          bioconda/osx-64                          310 KB
+  + ucsc-twobitinfo                           377  h516baf0_1          bioconda/osx-64                          305 KB
+  + wheel                                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                                      5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                                   1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+  + zstd                                    1.5.0  h582d3a0_0          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 125 packages
+
+  Total download: 88 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: augustus-3.4.0-pl5262h64cdd90_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/augustus_1630455311833/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    augustus:                        3.4.0-pl5262h64cdd90_2   local      
+    bamtools:                        2.5.1-h87af4ef_9         bioconda   
+    biopython:                       1.79-py39h89e85a6_0      conda-forge
+    boost-cpp:                       1.74.0-hff03dee_4        conda-forge
+    bzip2:                           1.0.8-h0d85af4_4         conda-forge
+    c-ares:                          1.17.2-h0d85af4_0        conda-forge
+    ca-certificates:                 2021.5.30-h033912b_0     conda-forge
+    cdbtools:                        0.99-h87af4ef_6          bioconda   
+    diamond:                         2.0.11-h4de6764_0        bioconda   
+    gmp:                             6.2.1-h2e338ed_0         conda-forge
+    gsl:                             2.6-h71c5fe9_2           conda-forge
+    htslib:                          1.12-hc38c3fb_1          bioconda   
+    icu:                             68.1-h74dc148_0          conda-forge
+    krb5:                            1.19.2-hcfbf3a7_0        conda-forge
+    libblas:                         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:                        3.9.0-11_osx64_openblas  conda-forge
+    libcurl:                         7.78.0-hf45b732_0        conda-forge
+    libcxx:                          12.0.1-habf9029_0        conda-forge
+    libdeflate:                      1.7-h35c211d_5           conda-forge
+    libedit:                         3.1.20191231-h0678c8f_2  conda-forge
+    libev:                           4.33-haf1e3a3_1          conda-forge
+    libffi:                          3.3-h046ec9c_2           conda-forge
+    libgfortran:                     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:                    9.3.0-h6c81a4c_23        conda-forge
+    libiconv:                        1.16-haf1e3a3_0          conda-forge
+    liblapack:                       3.9.0-11_osx64_openblas  conda-forge
+    libnghttp2:                      1.43.0-h07e645a_0        conda-forge
+    libopenblas:                     0.3.17-openmp_h3351f45_1 conda-forge
+    libpng:                          1.6.37-h7cec526_2        conda-forge
+    libssh2:                         1.10.0-h52ee1ee_0        conda-forge
+    libuuid:                         2.32.1-h35c211d_1000     conda-forge
+    llvm-openmp:                     12.0.1-hda6cdc1_1        conda-forge
+    lp_solve:                        5.5.2.5-h1de35cc_1001    conda-forge
+    lz4-c:                           1.9.3-he49afe7_1         conda-forge
+    metis:                           5.1.0-h2e338ed_1006      conda-forge
+    mpfr:                            4.1.0-h0f52abe_1         conda-forge
+    mysql-connector-c:               6.1.11-h0f02589_1007     conda-forge
+    ncurses:                         6.2-h2e338ed_4           conda-forge
+    numpy:                           1.21.2-py39h7eed0ac_0    conda-forge
+    openssl:                         1.1.1k-h0d85af4_1        conda-forge
+    perl:                            5.26.2-hbcb3906_1008     conda-forge
+    perl-apache-test:                1.40-pl526_1             bioconda   
+    perl-app-cpanminus:              1.7044-pl526_1           bioconda   
+    perl-base:                       2.23-pl526_1             bioconda   
+    perl-carp:                       1.38-pl526_3             bioconda   
+    perl-class-load:                 0.25-pl526_0             local      
+    perl-class-load-xs:              0.10-pl526h04f5b5a_2     bioconda   
+    perl-class-method-modifiers:     2.12-pl526_0             bioconda   
+    perl-constant:                   1.33-pl526_1             bioconda   
+    perl-cpan-meta:                  2.150010-pl526_0         bioconda   
+    perl-cpan-meta-requirements:     2.140-pl526_0            bioconda   
+    perl-cpan-meta-yaml:             0.018-pl526_0            bioconda   
+    perl-data-dumper:                2.173-pl526_0            bioconda   
+    perl-data-optlist:               0.110-pl526_2            bioconda   
+    perl-dbi:                        1.642-pl526_0            bioconda   
+    perl-devel-globaldestruction:    0.14-pl526_0             bioconda   
+    perl-devel-overloadinfo:         0.005-pl526_0            bioconda   
+    perl-devel-stacktrace:           2.04-pl526_0             bioconda   
+    perl-dist-checkconflicts:        0.11-pl526_2             local      
+    perl-encode:                     2.88-pl526_1             bioconda   
+    perl-eval-closure:               0.14-pl526h04f5b5a_4     local      
+    perl-exporter:                   5.72-pl526_1             bioconda   
+    perl-extutils-cbuilder:          0.280230-pl526_1         bioconda   
+    perl-extutils-makemaker:         7.36-pl526_1             bioconda   
+    perl-extutils-manifest:          1.72-pl526_0             bioconda   
+    perl-extutils-parsexs:           3.35-pl526_0             bioconda   
+    perl-file-path:                  2.16-pl526_0             bioconda   
+    perl-file-temp:                  0.2304-pl526_2           bioconda   
+    perl-file-which:                 1.23-pl526_0             bioconda   
+    perl-getopt-long:                2.50-pl526_1             bioconda   
+    perl-ipc-cmd:                    1.02-pl526_0             bioconda   
+    perl-json-pp:                    4.04-pl526_0             bioconda   
+    perl-locale-maketext-simple:     0.21-pl526_2             bioconda   
+    perl-module-build:               0.4224-pl526_3           bioconda   
+    perl-module-corelist:            5.20190524-pl526_0       bioconda   
+    perl-module-implementation:      0.09-pl526_2             bioconda   
+    perl-module-load:                0.32-pl526_1             bioconda   
+    perl-module-load-conditional:    0.68-pl526_2             bioconda   
+    perl-module-metadata:            1.000036-pl526_0         bioconda   
+    perl-module-runtime:             0.016-pl526_1            bioconda   
+    perl-module-runtime-conflicts:   0.003-pl526_0            bioconda   
+    perl-moo:                        2.003004-pl526_0         bioconda   
+    perl-moose:                      2.2011-pl526h0a44026_1   bioconda   
+    perl-mro-compat:                 0.13-pl526_0             bioconda   
+    perl-package-deprecationmanager: 0.17-pl526_0             bioconda   
+    perl-package-stash:              0.38-pl526h0a44026_1     bioconda   
+    perl-package-stash-xs:           0.28-pl526h0a44026_1     bioconda   
+    perl-parallel-forkmanager:       2.02-pl526_0             bioconda   
+    perl-params-check:               0.38-pl526_1             bioconda   
+    perl-params-util:                1.07-pl526h04f5b5a_4     bioconda   
+    perl-parent:                     0.236-pl526_1            bioconda   
+    perl-pathtools:                  3.75-pl526h1de35cc_1     bioconda   
+    perl-perl-ostype:                1.010-pl526_1            bioconda   
+    perl-role-tiny:                  2.000008-pl526_0         bioconda   
+    perl-scalar-list-utils:          1.52-pl526h01d97ff_0     bioconda   
+    perl-storable:                   3.15-pl526h1de35cc_0     bioconda   
+    perl-sub-exporter:               0.987-pl526_2            bioconda   
+    perl-sub-exporter-progressive:   0.001013-pl526_0         bioconda   
+    perl-sub-identify:               0.14-pl526h1de35cc_0     bioconda   
+    perl-sub-install:                0.928-pl526_2            bioconda   
+    perl-sub-name:                   0.21-pl526_1             bioconda   
+    perl-sub-quote:                  2.006003-pl526_1         bioconda   
+    perl-text-abbrev:                1.02-pl526_0             bioconda   
+    perl-text-parsewords:            3.30-pl526_0             bioconda   
+    perl-try-tiny:                   0.30-pl526_1             bioconda   
+    perl-version:                    0.9924-pl526_0           bioconda   
+    perl-xsloader:                   0.24-pl526_0             bioconda   
+    perl-yaml:                       1.29-pl526_0             bioconda   
+    pip:                             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:                          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:                      3.9-2_cp39               conda-forge
+    readline:                        8.1-h05e3726_0           conda-forge
+    setuptools:                      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:                          3.36.0-h23a322b_0        conda-forge
+    suitesparse:                     5.10.1-h7aff33d_1        conda-forge
+    tar:                             1.34-hbb58dfb_0          conda-forge
+    tbb:                             2021.3.0-h940c156_0      conda-forge
+    tk:                              8.6.11-hd798d34_0        conda-forge
+    tzdata:                          2021a-he74cb21_1         conda-forge
+    ucsc-fatotwobit:                 377-h516baf0_3           bioconda   
+    ucsc-twobitinfo:                 377-h516baf0_1           bioconda   
+    wheel:                           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                              5.2.5-haf1e3a3_1         conda-forge
+    zlib:                            1.2.11-h7795811_1010     conda-forge
+    zstd:                            1.5.0-h582d3a0_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/augustus_1630455311833/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/augustus_1630455311833/test_tmp
+
+Function: train AUGUSTUS and run AUGUSTUS completely and automatically
+
+Usage:
+
+autoAug.pl [OPTIONS] --species=sname --genome=genome.fa --cdna=cdna.fa --trainingset=genesfile
+autoAug.pl [OPTIONS] --species=sname --genome=genome.fa --cdna=cdna.fa --pasa --useGMAPforPASA
+autoAug.pl [OPTIONS] --species=sname --genome=genome.fa --trainingset=genesfile [--estali=cdna.psl] [--hints=hints.gff]
+
+--genome=fasta                      fasta file with DNA sequences for training
+--trainingset=genesfile             genesfile contains training genes in Genbank, GFF or protein FASTA format
+--species=sname                     species name as used by AUGUSTUS
+--hints=hints.gff                   hints for gene predictions with AUGUSTUS
+--estali=cdna.psl                   cDNA alignments in PSL format (as generated by BLAT and GMAP) are used to construct UTRs
+--pasa                              use PASA to construct a training set
+--cdna=cdna.fa                      a fasta file with cDNA sequences (ESTs, mRNA)
+--pasapolyAhints                    use PASA polyA hints as hints for the prediction
+
+options:
+--useexisting                       use and change the present config and parameter files if they exist for 'species'
+--verbose                           print more status info. Cumulative option, e.g. use -v -v -v to make this script very verbose
+--webaugustus                       run in WebAUGUSTUS - adapt error messages to this webservice
+--noutr                             do not train and predict UTRs.
+--workingdir=/path/to/wd/           In the working directory results and temporary files are stored.
+                                    Default: current working directory
+--singleCPU                         run the complete program sequentially instead of parallel execution of jobs on a cluster
+--cpus=n                            n is the number of CPUs to use (default: 1), if cpus > 1 install pblat (parallelized blat) for better performance
+--noninteractive                    bypass all manual interaction when using a SGE cluster
+--cname=yourClusterName             cluster name, only use it when "noninteractive" default:fe
+--index=i                           step index, default:0 
+--optrounds=n                       optimization rounds - each meta parameter is optimized this often (default 1)
+--maxIntronLen=n                    maximal length of an intron as used by PASA and BLAT, not by AUGUSTUS (default 100000)
+--useGMAPforPASA                    use GMAP instead of BLAT in the PASA run
+--help                              print this usage information
+
+
+
+Name: autoAugPred.pl
+
+Function: predict genes with AUGUSTUS on genomes
+
+Usage:
+
+autoAugPred.pl [OPTIONS] --genome=genome.fa --species=sname
+autoAugPred.pl [OPTIONS] --genome=genome.fa --species=sname --hints=hintsfile 
+
+options:
+--genome=genome.fa             fasta file with DNA sequences for training
+--species=sname                species name as used by AUGUSTUS
+--continue                     after cluster jobs are finished, continue to compile prediction sets
+--useexisting                  use and change the present config and parameter files if they exist for 'species'
+--singleCPU                    run sequentially on a single CPU instead of parallel jobs on a cluster
+--cpus=n                       n is the number of CPUs to use (default: 1), if cpus > 1 install Parallel::ForkManager for better performance
+--noninteractive               for Sun Grid Engine users, who have configurated an openssh key
+                               with this option AUGUSTUS is executed automatically on the SGE cluster
+--workingdir=/path/to/wd/      in the working directory results and temporary files are stored.
+--utr                          switch it on to run AUGUSTUS with untranslated regions. Off by default
+--hints=hintsfile              run AUGUSTUS using extrinsic information from hintsfile
+--extrinsiccfg=hintcfgfile     configuration file with parameters (boni/mali) for hints.
+                               default $AUGUSTUS_CONFIG_PATH/config/extrinsic/extrinsic.cfg
+--verbose                      the verbosity level
+--remote=clustername           specify the SGE cluster name for noninteractive, default "fe"
+--AUGUSTUS_CONFIG_PATH=path    path to augustus/config directory. default: use environment variable
+--augustusoptions=options      options to run AUGUSTUS with, the options --utr, --hints and --extrinsiccfg must not be specified
+--predictionresultsdir=dir     the directory were the prediction results are stored, if not set a default folder is used depending on utr and hints settings
+--help                         print this usage info
+bam2hints -- Convert mRNA-to-genome alignments in BAM format into a hint file for AUGUSTUS in gff format.
+
+Usage:   bam2hints --in=example.bam --out=hints.gff
+  PREREQUISITE: input BAM file must be sorted by target (=genome) sequence names
+                and within the sequences by begin coordinates
+
+  Options:
+  --priority=n       -p   priority of hint group (set to 4)
+  --maxgaplen=n      -g   gaps at most this length are simply closed (set to 14)
+  --minintronlen=n   -m   alignments with gaps shorter than this and longer than maxgaplen are discarded (set to 32)
+  --maxintronlen=n   -M   alignments with longer gaps are discarded (set to 350000)
+  --MinEndBlockLen=n -b   minimum length of a 'dangling' exon (set to 8)
+  --maxQgaplen=n     -q   maximum length of gap in query (cDNA) sequence (set to 5)
+  --exonhints        -x   compute exonpart, exon and splice site hints in addition to intron hints (set to 0=Off)
+                          You should generate exonpart hints from RNA-Seq using wiggle (.wig) input to wig2hints.
+  --ep_cutoff=n      -e   this many bp are cut off of each exonpart hint at end of alignment (set to 10)
+  --source=s         -s   source identifier (set to 'E')
+  --intronsonly      -I   only retrieve intron hints (e.g. because the exon(part) hints are retrieved by converting to a wig track, set to 1=On)
+                          deprecated as this is the default now
+  --nomult           -n   do not summarize multiple identical intron hints to a single one (set to 0=Off)
+  --remove_redundant -r   only keep the strongest hint for a region (set to 0=Off)
+  --maxcoverage=n    -C   maximal number of hints at a given position (0: filtering deactivated). A high value causes long running time of
+                          AUGUSTUS in regions with thousands of cDNA alignments. (set to 0)
+  --ssOn             -S   include splice site (dss, ass) hints in output (set to 0=Off)
+  --trunkSS          -T   include splice sites hints from the ends of a truncated alignment (contig too short, set to 0=Off)
+  --score=f          -s   fill this number in in the score column (set to 0)
+  --maxgenelen=n     -G   alignments of the same clone are considered to be of the same gene if not separated by more than this (set to 400000)
+                          Alignments that span more than this are ignored, but better filter long introns through an alignment program.
+  --help             -h   show this help text
+
+USAGE:
+	bedgraph2wig.pl --bedgraphfile=<filename> [Output is STDOUT]
+	bedgraph2wig.pl --bedgraphfile=<filename> --outputfile=<filename>
+
+
+Parameters:
+	--bedgraphfile: The path to the bedgraphffile
+	--outputfile: The file where the output should be saved. If not supplied, the output is printed to STDOUT
+	--span: Use span notation (see http://genome.ucsc.edu/goldenPath/help/wiggle.html
+
+$PREFIX/bin/blat2hints.pl -- convert blat file with mRNA or EST alignments to hints file for AUGUSTUS
+
+Usage: $PREFIX/bin/blat2hints.pl --in=blatfile --out=hintsfile
+  PREREQUISITE: input psl file must be sorted by target (=genome) sequence names
+  and should be sorted within the sequences by begin coordinates for efficiency
+  e.g. do
+  cat blat.psl | sort -n -k 16,16 | sort -s -k 14,14 > blat.sorted.psl
+  for output from the UCSC table browser do:
+  cat blat.psl | sort -n -k 17,17 | sort -s -k 15,15 > blat.sorted.psl
+  when the 17th field is the begin coordinate and the 15th field is the sequence name
+
+  options:
+  --priority=n       priority of hint group (default 4)
+  --maxgaplen=n      gaps at most this length are simply closed (default 14)
+  --minintronlen=n   alignments with gaps shorter than this and longer than maxgaplen are discarded (default 41)
+  --maxintronlen=n   alignments with longer gaps are discarded (default 350000)
+  --maxQgaplen=n     maximum length of gap in query (cDNA) sequence (default 5)
+  --ep_cutoff=n      this many bp are cut off of each exonpart hint at end of alignment (default 10)
+  --source=s         source identifier (default 'E')
+  --intronsonly      only retrieve intron hints (e.g. because the exon(part) hints are retrieved by converting to a wig track, default: off)
+  --nomult           do not summarize multiple identical intron hints to a single one
+  --remove_redundant only keep the strongest hint for a region (default false)
+  --maxcoverage=n    maximal number of hints at a given position. A high value causes long running time of
+                     AUGUSTUS in regions with thousands of cDNA alignments. (default 3000)
+  --ssOn             include splice site (dss, ass) hints in output (default false)
+  --trunkSS          include splice sites hints from the ends of a truncated alignment (contig too short)
+  --coloffset=n      column offset, 0 for direct blat output, 1 for psl format from UCSC database (default 0)
+  --score=f          fill this number in in the score column (default 0)
+  --clonefile=s      provide a file with clone names so close alignments from the same clone can be grouped.
+                     AUGUSTUS will try to put those hints into a single transcripts even if different ends of
+                     the clones were sequenced. File format (tab delimited):
+                     cloneA	read1	read2
+                     cloneA	read3
+                     cloneB	read4	read5
+  --terminusfile=s   provide a file with EST terminus information to infer tss/tts hints.
+                     AUGUSTUS will use tss/tts hints to predict transcription start/termination sites
+                     File format (tab delimited):
+                     # ESTname    EstDir    Type FrontTerminus  EndTerminus
+                     CACW5781.b1     5       A2      5TSS       Unknown
+                     CACW6759.g1     3       F23     5TNS       3TNS
+                     CACW14459.g2    3       D2      Unknown    3TNS
+                     CACW21662.g1    3       C2      5TNS       Unknown
+                     CACW25491.g1    3       F21     5TNS       3TNS-NP
+                     
+                     cloneB	read4	read5
+  --maxgenelen=n     alignments of the same clone are considered to be of the same gene if not separated by more than this (400000)
+                     Alignments that span more than this are ignored, but better filter long introns through alignment program.
+checkParamArchive.pl param-archive.tar.gz projectDir > utrPossible 2> errors
+cleanDOSfasta.pl inFile > outFile
+$PREFIX/bin/clusterAndSplitGenes.pl -- read in a file with inter-gene dependencies and create clusters without
+inter-cluster dependencies. Optionally split transcript-based files to smaller chunks
+
+Usage: $PREFIX/bin/clusterAndSplitGenes.pl < commonfile
+Options
+ --verbose  
+   -t                     threshold: minimal number of dependencies between two genes
+                          in order to force them into same cluster (default: 10)
+   --txformat             commonfile holds transcript ids instead of gene ids
+                          the mapping given by the --genes file is used to map transcript ids to gene ids
+   --chunksize=n          number of genes per chunk (default: 3000)
+   --genes=genes.gtf      gene set in GTF format that is split accoring to clustering
+   --genesprefix=s        prefix for GTF output, can include directory (default: value of --genes)
+   --filtermap=ali.psl  
+   --mapprefix=s          prefix for short alignment output (default: value of --filtermap)
+   --clusters=s           output file with clusters 
+   --maxclustersize=n     maximal size of cluster (default: 50)
+$PREFIX/bin/createAugustusJoblist.pl -- Create a joblist with sequence chunks from multiple fasta files.
+
+Usage: $PREFIX/bin/createAugustusJoblist.pl
+
+parameters:
+--sequences seqs.lst input sequences, format: each line contains one sequence including the full path and its size, e.g.
+                     /cluster/data/panTro2/1/chr1.fa	1	229974691
+                     /cluster/data/panTro2/1/chr1_random	1	9420409
+                     /cluster/data/panTro2/2/chr2a	1	114460064
+                     or
+                     /cluster/data/panTro2/1/chr1_random	/hints/chr1_random	1	9420409
+                     /cluster/data/panTro2/2/chr2a	/hints/chr2a	1	114460064
+--outputdir s        directory, in which later the AUGUSTUS output will be written.
+--command s          AUGUSTUS command, e.g. "augustus --species=human --maxDNAPieceSize=600000".
+--joblist job.lst    filename with list of jobs as given to parasol.
+--chunksize n        chunk size. Each sequence is (imaginarily) cut into chunks of this size
+
+options:
+--overlap n          overlap. Neighboring chunks overlap by this number of bases.
+--padding n          padding on both sides (default 0).
+--errordir errdir    directory, in which later the AUGUSTUS error messages will be written.
+--check              insert parasol input/output checks.
+--wrap=s             have each job in a separate file, preceded by command s.
+--jobprefix=s        prefix of job name (default: "job.")
+--partitionHints     partition hints files according to genomic locus of single augustus runs,
+                     add a command to the augustus job that will create and delete this hints file
+                     in the output directory of the augustus job. This option also will automatically
+                     delete empty error files of augustus.
+
+evalCGP.pl      evaluates a prediction in GTF format against an annotation
+                using the external evaluation package Eval by Evan Keibler and Michael R. Brent
+                and returns accuracy values (SN and SP on gene, exon and nucleotide level)
+                evalCGP only compares gene features on given genomic intervals that
+                are parsed from the prediction files.
+
+USAGE
+
+evalCGP.pl --anno=annotation.gtf --pred=prediction.gtf
+
+      annotation.gtf           Annotation file in GTF format.
+      prediction.gtf           Prediction file in GTF format.
+
+OPTIONS
+
+    --eval_exec_dir=d          Directory that contains the executable evaluate_gtf.pl from the eval package.
+                               If not specified it must be in \$PATH environment variable.
+    --joingenes=1              Use this option to merge genes in the prediction set and filter out duplicates (default: 0)
+    --wholeGenome=1            If this flag is set evaluation is on the whole genome. Per default, evaluation
+                               is restricted to the gene ranges
+    --alternatives=1           Parameter of joingenes. If this flag is set, joingenes keeps alternative splice forms of a gene, otherwise
+                               it only keeps the best splicing form. Per definition, alternative splice forms are either transcripts
+                               with the same gene ID or the same coding start AND end coordinates (default: 0).
+    --noselection=1            Parameter of joingenes. If this flag is set, joingenes does NOT select a single best transcripts
+                               among multiple conflicting transcripts. Two transcripts are confliciting if they overlap
+                               each other and are no alternative splice forms.
+                               considered as conflicting.
+    --nojoin=1                 Parameter of joingenes. If this flag is set, joingenes does NOT create new
+                               transcripts by merging input transcripts, f.i. it does NOT combine two
+                               incomplete transcripts to a single complete transcript, where possible.
+                               
+
+
+perl module Statistics::R not installed.
+Please install, e.g. via CPAN. On command line, type:
+
+perl -MCPAN -e 'install Statistics::R'
+either an input directory (option --d) or input file (option --f) is required.
+eval_dualdecomp.pl    evaluate the effectivness of dual decomposition either on a single
+                      AUGUSTUS output file or a directory of AUGUSTUS output files.
+SYNOPSIS
+
+eval_dualdecomp.pl [ --f=input_file | --d=input_directory ]
+
+    --f=<file>                          intput AUGUSTUS file 
+    --d=<dir>                           directory of input AUGUSTUS files (recognized by .out file extension)
+
+OPTIONS
+
+    --help                              output this help message
+    --hist_iterations=<out.pdf>         output histogram of iterations to out.pdf
+    --hist_errors=<out.pdf>             output histogram of error estimates to out.pdf for all cases, where
+                                        no convergence is achieved.
+    --err_per_iter=<out.pdf>            plots the average percentage of initial error against the iterations to out.pdf.
+                                        If after a certain number of iterations the error no further drops, 
+                                        early stopping is recommended, i.e. in the next run, the number of 
+                                        DD iterations can be restricted to this number of iterations.
+    --t=<foat>                          threshold for percentage of initial error. For all cases with an estimated
+                                        error higher than this threshold, the evolution of primal an dual values
+                                        are plotted against the iterations. This helps debugging cases with a
+                                        high error estimate. The threshold is between [0-100] (default: 5)
+    --outdir=<dir>                      put all plots in this output directory
+
+
+DESCRIPTION
+      
+  Example:
+
+    eval_dualdecomp.pl --d=augouts --hist_iterations=iterations.pdf --hist_errors=errors.pdf
+    eval_dualdecomp.pl --d=augouts --hist_iterations=iterations.pdf --hist_errors=errors.pdf --err_per_iter=error_per_iter.pdf --outdir=out
+    eval_dualdecomp.pl --f=aug.out --t=0
+
+$PREFIX/bin/exonerate2hints.pl -- convert exonerate output file to hints file for AUGUSTUS
+
+Usage: $PREFIX/bin/exonerate2hints.pl --in=exfile --out=hintsfile
+  Exonerate run like this: exonerate --model protein2genome --showtargetgff T ... > exfile
+  options:
+  --priority=n       priority of hint group (default 4)
+  --minintronlen=n   alignments with gaps shorter than this and longer than maxgaplen are discarded (default 41)
+  --maxintronlen=n   alignments with longer gaps are discarded (default 350000
+  --CDSpart_cutoff=n this many bp are cut off of each CDSpart hint w.r.t. the exonerate cds (default 9)
+  --source=s         source identifier (default 'P')
+usage: filterGenesIn_mRNAname.pl gtffile dbfile
+
+gtffile         genes to be kept in genbank file in gtf format
+dbfile          genbank file
+
+Only the the first of identically named RNA loci is kept
+usage: filterGenesIn.pl namefile dbfile
+names of the loci to be kept come from
+the first parameter. Only the the first of identical loci is kept
+usage:filterGenes namefile dbfile
+names of the mRNAs to be discarded from
+the first parameter.
+usage:filterGenes.pl namefile dbfile
+names of the genes to be filtered out come from
+the first parameter.filterInFrameStopCodons.pl protein.fa > no-stop.lst
+Consider running AUGUSTUS with the option --noInFrameStop=true if you want to avoid stop codons in the first place.
+$PREFIX/bin/filterPSL.pl -- filter a psl file (e.g. BLAT or GMAP)
+
+Usage: $PREFIX/bin/filterPSL.pl <in.psl >out.f.psl
+  PREREQUISITE: input psl file must be sorted by query name (standard with BLAT and GMAP)
+                Do a sort -k 10,10 but be aware: LC_ALL may have to be set to C because sort ignores characters like ":"
+  if option 'paired' is used then it expects .f,.r or /1,/2 suffixes of mate pairs
+  
+  options:
+  --pairbed=s        file name of pairedness coverage:
+                     a .bed format file in which for each position the number of filtered
+                     read pairs is reported that contain the position in or between the reads
+  --minId=n          minimal percentage of identity (default 92)
+  --minCover=n       minimal percentage of coverage of the query read (default 80)
+  --uniq             take only best match and only, when second best is much worse (default false)
+  --uniqthresh       threshold % for uniq, second best must be at most this fraction of best (default .96)
+  --best             output all best matches that satisfy minId and minCover
+  --commongenefile=s file name in which to write cases where one read maps to several different genes
+  --nointrons        do not allow longer gaps (for RNA-RNA alignments)
+  --paired           require that paired reads are on opposite strands of same target(default false)
+  --maxintronlen=n   maximal separation of paired reads (default 500000
+  --verbose          output debugging info (default false)
+$PREFIX/bin/filterShrimp.pl -- filter a SHRIMP format file
+
+Usage: $PREFIX/bin/filterShrimp.pl <in.psl >out.f.psl
+  PREREQUISITE: input file must be sorted by query name
+  
+  options:
+  --minScore=n       minimal percentage of identity (default 300)
+  --uniq             take only best match and only, when second best is much worse (default false)
+  --uniqthresh=f     the best alignment is considered uniquen when the second best has a score at most this much fraction of the best (default 0.9)
+  --best             take (all) best alignment(s) if they pass the minScore filter.
+  --commongenefile=s file name in which to write cases where one read maps to several different genes
+  --verbose          output debugging info (default false)
+filterSpliceHints.pl genome.fa hints.gff splice-pattern> out.gff
+
+The most typical splice pattern should be GTAG! Sometimes, GCAG is also used.
+getAnnoFasta.pl augustus.gff
+   Makes a fasta file with protein sequences (augustus.aa)
+   and one with coding sequences (augustus.codingseq)
+   from the sequences provided in the comments of the AUGUSTUS output.
+   These sequence comments are turned on with --protein=on and --codingseq=on, respectively
+Options:
+   --seqfile=s  Input a fasta file with the genomic sequences that AUGUSTUS was run on.
+                When this option is given, an additional file with the individual
+                coding exon sequences (augustus.cdsexons) is output.
+                and a file with the complete mRNA including UTRs (augustus.mrna) is output.
+   --chop_cds   for incomplete transcripts: cut off bases before first codon.
+                This flag only takes effect if coding sequence is not included in the
+                AUGUSTUS output.
+cat genes.gff | gffGetmRNA.pl --genome=s --mrna=s
+   Makes a fasta file with mRMA sequences
+   --genome=s   Input a fasta file with the genomic sequences.
+   --mrna=s     Output fasta file with mRNA sequences.
+maskNregions.pl genome.fa > out.file
+moveParameters.pl parameterdir newid copytodir
+$PREFIX/bin/new_species.pl -- create the parameter files necessary for training AUGUSTUS for a new species.
+Usage:
+$PREFIX/bin/new_species.pl --species=myspecies
+myspecies                  species name, prefix of the parameter files
+options:
+--AUGUSTUS_CONFIG_PATH=dir full path to augustus/config directory
+--silent                   suppress help messages
+--ignore                   don't do anything if species already exists (default: off)
+--prokaryotic              use prokaryotic template instead of eukaryotic template
+optimize_augustus.pl    train augustus and automatically optimize the meta parameters.
+                        Beside the conventional training of parameters subject to a single
+                        genome (USAGE 1), this script can also be used for training of cgp
+                        (comparative gene prediction) parameters (USAGE 2).
+                        The cgp parameter optimization requires the installation of the
+                        external program Eval for the calculation of accuracy values.
+                        For download and installation instructions, see section 9 of README-cgp.txt
+
+USAGE 1 --- single species parameter training and optimization (main usage for most users)
+
+optimize_augustus.pl --species=myspecies train.gb
+
+      myspecies                prefix of the species name
+      train.gb                 genbank file for training with bona fide gene structures
+
+OPTIONS
+
+    --metapars=metapars.cfg    metapars.cfg contains the names and their ranges of the
+                               meta parameters that are subject to optimization.
+                               (default: generic_metapars.cfg)
+    --rounds=r                 r is the number of rounds (default: 5)
+    --cpus=n                   n is the number of CPUs to use (default: 1)
+    --onlytrain=onlytrain.gb   an optional genbank file that is used in addition to train.gb
+                               but only for etrain not for intermediate evaluation of accuracy.
+                               These genes may e.g. be incomplete.
+    --kfold=k                  Make a k-fold cross validation (default: 8)
+    --pstep=p                  For integer and floating parameters start with p tests equidistributed
+                               in the allowed range of values (default: 5)
+    --AUGUSTUS_CONFIG_PATH=d   Specify the config directory d if not set as environment variable
+    --opt_trans_matrix=s       Optimize the transition matrix file s. s must be the transition file used.
+                               e.g. ../species/nt/generic/generic_trans_shadow_partial.pbl
+    --matrix_constraints=s     A file with try list, normed list and bindings.
+    --UTR=on                   Turn untranslated region model on for training and prediction.
+    --aug_exec_dir=d           Path to augustus and etraining executable. If not specified
+                               it must be in \$PATH environment variable.
+    --trainOnlyUtr=1           Use this option, if the exon, intron and intergenic models need not be trained. (default: 0)
+    --noTrainPars=1            Use this option, if the parameters to optimize do not affect training. The training step (etraining) is omitted completely. (default: 0)
+    --sens_spec_bias=f         increase sensitivity weight by factor f. (default: 1)
+    --nice=1                   execute all time consuming system calls with bash nice (default nice level)
+                               Default value for execution of optmize_augustus.pl is --nice=0.
+    --cleanup=1                Delete tmp_opt_* folder after optimization (default: 0)
+
+USAGE 2 --- optimizing cgp (comparative gene prediction) parameters ---
+
+optimize_augustus.pl --species=myspecies --treefile=tree.nwk --alnfile=aln.file --speciesfilenames=genomes.tbl eval.gtf
+
+   myspecies                    prefix of the model species
+   tree.nwk                     a phylogenetic tree of the species in NEWICK format
+   aln.maf                      an alignment of the genomes in MAF format
+   genomes.tbl                  a text file containing the locations of the genomes. Each line starts with the species identifier
+                                followed by the location of the corresponding genome file, e.g.
+                                hg19 /path/to/human/genome.fa
+                                mm9  /path/to/mouse/genome.fa
+                                ...
+   eval.gtf                     annotation file in GTF format. Accuracy values are computed by comparing the predictions against this reference set.
+
+OPTIONS
+
+    --stopCodonExcludedFromCDS=1 Use this option, if the stop codons are excluded from the CDS features in 'eval.gtf' (default: 0).
+    --eval_exec_dir=d            Directory that contains the executable evaluate_gtf.pl from the eval package.
+                                 If not specified it must be in \$PATH environment variable.
+    --eval_against=s             s is the species identifier to which 'eval.gtf' belongs to. Caution, if not specified, the
+                                 reference species in the alignment (first s-line in Maf block) is assumed.
+    --chunksize=n                when more than 1 CPU is used, the alignment is split into multiple smaller alignments each approximately covering a
+                                 sequence range of length n (in the reference genome). The prediction step is executed in parallel on these chunks (default: 5000000).
+    --dbaccess=db                retrieve genomes either from a MySQL or from an SQLITE database. In the SQLITE case, 'db' is a database file
+                                 with extension .db, e.g. --dbaccess=vertebrates.db. In the MySQL case, 'db' is a string that contains the connection
+                                 information, e.g. --dbaccess=dbname,host,user,passwd (the parameter --speciesfilenames is not required, here).
+    --jg=1                       Use this option, if you want to filter out duplicates from the prediction with the external tool 'joingenes' (default: 0,
+                                 however --jg=1 is recommended). The tool 'joingenes' is part of the augustus package and can be found in the 'auxprogs' folder.
+    --jg_exec_dir=d              Directory that contains the exectuable 'joingenes' (only required when --jg=1)
+    --metapars=metapars.cgp.cfg  see usage 1 above (default: generic_metapars.cgp.cfg)
+    --cpus=n                     see usage 1 above
+    --pstep=p                    see usage 1 above
+    --AUGUSTUS_CONFIG_PATH=d     see usage 1 above
+    --aug_exec_dir=d             see usage 1 above
+    --sens_spec_bias=f           see usage 1 above
+
+$PREFIX/bin/polyA2hints.pl -- polyA/polyT table to tts hints for AUGUSTUS
+
+Usage: $PREFIX/bin/polyA2hints.pl --in=polyA.txt --out=hintsfile
+  options:
+  hintradius=n       a 3' transcript end at position p gives rise to a tts hint from p-n to p+n (default 10)
+  format=new|newer   new: input file in newer format with 12 columns
+                     newer: input file in format with these 13 columns
+                     SeqName EstDir  Chromsome  ChrStrand ChrStart ChrEnd  EstStrand EstStart EstEnd  EstMapLen ChrSite Type PolyLen PolyStr
+  swapstrand         swap strand, currently use this for polyT files
+$PREFIX/bin/randomSplit.pl: randomly split a genbank file in two subsets of given sizes
+usage: randomSplit dbfile size
+
+$PREFIX/bin/samMap.pl -- Map a sam file that was created by aligning against an exon-exon junction file back to genome level
+
+Usage: $PREFIX/bin/samMap.pl exex.sam map.psl [flank] > out.sam
+
+exex.sam was created e.g. with GSNAP in the following way:
+gmap_build -d exex_db exex.fa
+gsnap --format=sam --nofails -d exex_db rnaseq.fastq > exex.sam
+
+map.psl was created in the following way:
+intron2exex.pl --introns=introns.lst --seq=genome.masked.fa --exex=exex.fa --map=map.psl
+
+Please note that mapSam.pl assumes that the flanking region of introns is 75+75 bp! Specify other value if needed.
+$PREFIX/bin/splitMfasta.pl -- split a multiple fasta file in smaller multiple fasta files.
+
+Usage: $PREFIX/bin/splitMfasta.pl input.fa
+
+parameters:
+--minsize=n       each split output fasta file total to at least this man base pairs.
+                  set this to 0 to split the input in single sequence files.
+--outputpath=s    prefix to output path. Output files are
+                  s/input.split.1.fa
+                  s/input.split.2.fa
+                  s/input.split.3.fa
+                  ... 
+
+split_wiggle.pl in.wig outputPath prefix
+$PREFIX/bin/transMap2hints.pl -- convert transmap alignments to hints file
+  include only transmap hints from the list of ids in idfile
+  alignment file format:
+  name	chrom	strand	txStart	txEnd	cdsStart	cdsEnd	exonCount	exonStarts	exonEnds
+  this script is quicker when you sort the input file by chromosomes and by gene position, e.g. with
+  cat transmap.gp | sort -n -k 4,4 | sort -s -k 2,2 > transmap.sorted.gp
+
+Usage: $PREFIX/bin/transMap2hints.pl --in=transmapfile.psl --out=hints.gff
+  Options:
+  --keepids=idfile       If idfile is given, then only those genes are used.
+  --priority=n           larger number = higher priority (default 4)
+  --ep_cutoff=n          (default 1)
+  --ep_margin=n          (default 18)
+                         each exon suggested by the input yields 3 exonpart hints:
+                          |             exon as suggested by transmap          |
+                                     |  ep   |    ep       |   ep  |
+                          |ep_cutoff |       |   exon      |       | ep_cutoff |
+                          |    ep_margin     |   exon      |    ep_margin      |
+  --ip_cutoff=n          the end of the intronpart interval are shorter by n bp than the intron (default 0)
+  --utrend_cutoff=n      UTRpart hint are cut off at the end by n bp (default 15)
+  --min_intron_len=n     minimal intron len (default 50)
+  --min_intron_len_utr=n a gap in the utr must be at least this long to be counted as an intron (default 80)
+  --start_stop_radius=n  (start and stop codon hint interval size)/2 (default 15)
+  --tss_tts_radius=n     (tss and tts interval size)/2 (default 100)
+  --source=s             source identifier in output (default 'T')
+
+utrrnaseq - A tool for identifying UTRs of annotated genes on the basis of RNA-Seq data.
+            Starting from known start/stop codons of genes, coverage with RNA-Seq data in
+            potential UTRs is monitored for a drastic drop, and such points are defined as
+	     ends of UTRs. Spliced alignments are incorported as introns into UTRs. Drops
+            in coverage due to repeat masking are not reported as UTR endpoints. Only UTR
+            models with evidence from RNA-Seq coverage are reported.
+
+Obligatory arguments are
+
+--long option  			-short option   data type       description
+--in-scaffold-file		-G		s      		scaffold file in FASTA-format. Required.
+--in-coding-region-file		-C		s      		file with start and stop features in GTF/GFF format. Required.
+--in-intron-file		-I		s      		intron file in GTF/GFF format. Required.
+--in-wiggle-file		-W		s      		wiggle file in WIG-format. Required.
+
+Optional arguments are:
+
+--long option			-short option	data type	description
+--in-repeat-file		-R		s      		repeat file in GTF/GFF format.
+--out-file-name	 		-o		s		output filename. Optional. Default Value: 'UTRs.gff'
+--smoothing-window-size		-w		i		smoothing window size. Optional. Default Value: 150
+--read-length	 		-r		i		read length of RNA-Seq data. Optional. Default Value: 150
+--limit	 			-l		i		maximal distance from computation start. Optional. Default Value: 5000
+--drop-window-size		-v		i		window size after UTR end. Optional. Default Value: 50
+--minimum-length		-n		i		minimal UTR length. Optional. Default Value: 2
+--minimum-average-coverage	-c		i		minimal average UTR coverage. Optional. Default Value: 10
+--percent-window		-p		d		percentage of window coverage after UTR. Optional. Default Value: 0.6
+--percent-intron		-i		d		percentage of coverage in introns. Optional. Default Value: 0.5
+--percent-multiplicity		-m		d		percentage of multiplicity of introns. Optional. Default Value: 0.1
+--splices-sites			-s		s 		accepted splice sites. If 'all' is chosen, no splice site filtering is done.Optional. Default Value: GT_AG
+--zero-coverage	 		-z		none		Determination of UTRs based on zero coverage. Optional. Default Value: false
+--format-examples		-f		none		Only print format examples of input files. Optional. Default Value: false
+--help	 			-h		none		Produce help message. Optional. Default Value: false
+$PREFIX/bin/wigchoose.pl -- choose an interval from each target with good coverage
+
+Usage: cat in.wig | [perl] $PREFIX/bin/wigchoose.pl > out.bed
+Options:
+  --mincov=n     minimal coverage for each position of the interval (default: 1)
+  --minrelcov=f  minimal relative coverage (0 <= f <= 1, default: 0)
+  --maxgap=n     coverage gaps of maximal this length each are allowed (default: 0)
+Number of args 0
+writeResultsPage.pl ID species-name submission_date grails-out www-out AugustusConfigPath AugustusScriptsPath final-flag
+usage: getAnnoFastaFromJoingenes.py [-h] -g GENOME -o OUT
+                                    [-t TRANSLATION_TABLE] [-s FILTER] [-p]
+                                    (-f GTF | -3 GFF3)
+
+Generate *.codingseq and *.aa FASTA-format files from genes in a GTF-file
+produced by AUGUSTUS auxprogs tool joingenes and a corresponding genomic
+FASTA-file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -g GENOME, --genome GENOME
+                        genome sequence file (FASTA-format)
+  -o OUT, --out OUT     name stem pf output file with coding sequences and
+                        protein sequences (FASTA-format); will be extended by
+                        .codingseq/.aa
+  -t TRANSLATION_TABLE, --table TRANSLATION_TABLE
+                        Translational code table number (INT)
+  -s FILTER, --filter_out_invalid_stops FILTER
+                        Suppress output of protein sequences that contain
+                        internal stop codons.
+  -p, --print_format_examples
+                        Print gtf/gff3 input format examples, do not perform
+                        analysis
+  -f GTF, --gtf GTF     file with CDS coordinates (GTF-format)
+  -3 GFF3, --gff3 GFF3  file with CDS coordinates (GFF3 format)
+
+Resource usage statistics from testing augustus:
+   Process count: 5
+   CPU time: Sys=0:00:00.2, User=0:00:00.3
+   Memory: 32.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:22.7
+
+
+TEST END: augustus-3.4.0-pl5262h64cdd90_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
