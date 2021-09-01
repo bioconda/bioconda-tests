@@ -1,0 +1,168 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + racon               1.4.20  h87af4ef_1          /Users/runner/conda/conda-bld/osx-64     157 KB
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  hd798d34_0          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 157 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: racon-1.4.20-h87af4ef_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/racon_1630461223927/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    racon:           1.4.20-h87af4ef_1        local      
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/racon_1630461223927/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/racon_1630461223927/test_tmp
+v1.4.20
+usage: rampler [options ...] <mode>
+
+  <mode>
+    subsample <sequences> <reference length> <coverage> [<coverage> ...]
+
+      <sequences>
+        input file in FASTA/FASTQ format (can be compressed with gzip)
+      <reference length>
+        integer denoting length of the reference genome (or assembly)
+      <coverage>
+        integer denoting desired coverage of the subsampled sequences
+
+    split <sequences> <chunk size>
+
+      <sequences>
+        input file in FASTA/FASTQ format (can be compressed with gzip)
+      <chunk size>
+        integer denoting the desired chunk size in bytes
+
+  options:
+    -o, --out-directory <string>
+      default: current directory
+      path in which sampled files will be created
+    --version
+      prints the version number
+    -h, --help
+      prints the usage
+usage: racon_wrapper [-h] [--split SPLIT] [--subsample SUBSAMPLE SUBSAMPLE]
+                     [-u] [-f] [-w WINDOW_LENGTH] [-q QUALITY_THRESHOLD]
+                     [-e ERROR_THRESHOLD] [-m MATCH] [-x MISMATCH] [-g GAP]
+                     [-t THREADS] [--cudaaligner-batches CUDAALIGNER_BATCHES]
+                     [-c CUDAPOA_BATCHES] [-b]
+                     sequences overlaps target_sequences
+
+Racon_wrapper encapsulates racon and adds two additional features from the
+outside to enable easier usage to the end-user. Sequences can now be
+subsampled to decrease the total execution time (accuracy might be lower)
+while target sequences can be split into smaller chunks and run sequentially
+to decrease memory consumption. Both features can be run at the same time as
+well! The usage equals the one of racon.
+
+positional arguments:
+  sequences             input file in FASTA/FASTQ format (can be compressed
+                        with gzip) containing sequences used for correction
+  overlaps              input file in MHAP/PAF/SAM format (can be compressed
+                        with gzip) containing overlaps between sequences and
+                        target sequences
+  target_sequences      input file in FASTA/FASTQ format (can be compressed
+                        with gzip) containing sequences which will be
+                        corrected
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --split SPLIT         split target sequences into chunks of desired size in
+                        bytes (default: None)
+  --subsample SUBSAMPLE SUBSAMPLE
+                        subsample sequences to desired coverage (2nd argument)
+                        given the reference length (1st argument) (default:
+                        None)
+  -u, --include-unpolished
+                        output unpolished target sequences (default: False)
+  -f, --fragment-correction
+                        perform fragment correction instead of contig
+                        polishing (overlaps file should contain dual/self
+                        overlaps!) (default: False)
+  -w WINDOW_LENGTH, --window-length WINDOW_LENGTH
+                        size of window on which POA is performed (default:
+                        500)
+  -q QUALITY_THRESHOLD, --quality-threshold QUALITY_THRESHOLD
+                        threshold for average base quality of windows used in
+                        POA (default: 10.0)
+  -e ERROR_THRESHOLD, --error-threshold ERROR_THRESHOLD
+                        maximum allowed error rate used for filtering overlaps
+                        (default: 0.3)
+  -m MATCH, --match MATCH
+                        score for matching bases (default: 5)
+  -x MISMATCH, --mismatch MISMATCH
+                        score for mismatching bases (default: -4)
+  -g GAP, --gap GAP     gap penalty (must be negative) (default: -8)
+  -t THREADS, --threads THREADS
+                        number of threads (default: 1)
+  --cudaaligner-batches CUDAALIGNER_BATCHES
+                        number of batches for CUDA accelerated alignment
+                        (default: 0)
+  -c CUDAPOA_BATCHES, --cudapoa-batches CUDAPOA_BATCHES
+                        number of batches for CUDA accelerated polishing
+                        (default: 0)
+  -b, --cuda-banded-alignment
+                        use banding approximation for polishing on GPU. Only
+                        applicable when -c is used. (default: False)
+
+Resource usage statistics from testing racon:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: racon-1.4.20-h87af4ef_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
