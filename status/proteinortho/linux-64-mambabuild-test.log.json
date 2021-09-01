@@ -1,0 +1,181 @@
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + boost-cpp            1.74.0  h312852a_4           conda-forge/linux-64                     16 MB
+  + bzip2                 1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + diamond              2.0.11  hdcc8f71_0           bioconda/linux-64                         2 MB
+  + icu                    68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + liblapacke            3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + lz4-c                 1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + openssl              1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + perl                 5.32.1  0_h7f98852_perl5     conda-forge/linux-64                     14 MB
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + proteinortho         6.0.31  hb0e25da_0           /home/vsts/conda/conda-bld/linux-64     187 KB
+  + python                3.9.6  h49503c6_1_cpython   conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h21135ba_0           conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                  1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 36 packages
+
+  Total download: 33 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: proteinortho-6.0.31-hb0e25da_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/proteinortho_1630473850624/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    boost-cpp:        1.74.0-h312852a_4          conda-forge
+    bzip2:            1.0.8-h7f98852_4           conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    diamond:          2.0.11-hdcc8f71_0          bioconda   
+    icu:              68.1-h58526e2_0            conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    liblapacke:       3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    lz4-c:            1.9.3-h9c3ff4c_1           conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    openssl:          1.1.1k-h7f98852_1          conda-forge
+    perl:             5.32.1-0_h7f98852_perl5    conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    proteinortho:     6.0.31-hb0e25da_0          local      
+    python:           3.9.6-h49503c6_1_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h21135ba_0          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+    zstd:             1.5.0-ha95c52a_0           conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/proteinortho_1630473850624/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/proteinortho_1630473850624/test_tmp
+6.0.31
+All necessary proteinortho_* binaries are found.
+proteinortho_grab_proteins.pl        greps all genes/proteins of a given fasta file
+ 
+SYNOPSIS
+ 
+proteinortho_grab_proteins.pl (options) QUERY FASTA1 (FASTA2 ...)
+
+	QUERY	proteinortho.tsv FILE or search STRING or '-' for STDIN:
+		a)	proteinortho output file (.tsv). This uses by default the -exact option.
+		b)	string of one identifier e.g. 'tr|asd3|asd' OR multiple identifier separated by ',' (-F=)
+	FASTA*	fasta file(s) (database)
+
+	(options):
+		-tofiles, -t  print everything to files instead of stdout files are called OrthoGroup.fasta for a proteinortho.tsv file
+		-tofiles=DIR  additionally specifies a output directory for the OrthoGroup files
+		-E            enables regex matching otherwise the string is escaped (e.g. | -> \|)
+		-exact        search patters are extended with a \b, that indicates end of word.
+		-cpus=INT     the number of parallel open files for reading, this is strictly limited by the I/O bandwith (default:1).
+		              for fast SSD drives, you can increase this to gain speed.
+		-minprot=X    if you give a proteinortho.tsv file, this filters out groups with less than X proteins (default:0).
+		-source, -s   adds the filename (FASTA1,...) to the found gene-name
+		-F=s          char delimiter for multiple identifier if QUERY is a string input (default: ',')
+		-isoform      if you use proteinortho with --isoform option, then you need to set this option here too. 
+
+DESCRIPTION
+ 
+	This script finds and extract all given identifier of a list of fasta files. 
+	The identifier can be provided as a simple string 'BDNF1', regex string 'BDNF*' 
+	or in form of a proteinortho output file (myproject.proteinortho.tsv).
+       
+	Example:
+ 
+ 	# 1. most simple call:
+
+	perl proteinortho_grab_proteins.pl 'BDNF1' *.faa
+
+		STDOUT:
+			>BDNF1 Brain derived neurotrophic factor OS=human(...)
+			MNNGGPTEMYYQQHMQSAGQPQQPQTVTSGPMSHYPPAQPPLLQPGQPYSHGAPSPYQYG
+			>BDNF15 Brain derived neurotrophic factor OS=human(...)
+			MAFPLHFSREPAHAIPSMKAPFSRHEVPFGRSPSMAIPNSETHDDVPPPLPPPRHPPCTN
+
+	    The second hit BDNF15 is reported since it also contains 'BDNF1' as a substring. 
+	    To prevent such a behaviour use proteinortho_grab_proteins.pl -E 'BDNF1\b'. 
+	    The \b marks the end of a word and -E enables regex expressions.
+
+	    Or simply add -exact: perl proteinortho_grab_proteins.pl -exact 'BDNF1' *.faa
+
+ 	# 2. multiple ids:
+
+	perl proteinortho_grab_proteins.pl 'BDNF1,BDNF2,BDNF3' *.faa
+
+ 	# 3. more complex regex search:
+
+	perl proteinortho_grab_proteins.pl -E 'B?DNF[0-3]3+' *.faa
+
+		This finds: BDNF13, BDNF23, DNF13, DNF033, ... 
+
+ 	# 4. proteinortho tsv file and write output to files:
+
+	proteinortho_grab_proteins.pl -tofiles myproject.proteinortho.tsv test/*.faa
+
+		This will produce the files: OrthoGroup0.fasta, OrthoGroup1.fasta, OrthoGroup2.fasta, ...
+		Each fasta file contains all genes of one orthology group (one line in myproject.proteinortho.tsv)
+ 
+
+Resource usage statistics from testing proteinortho:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: proteinortho-6.0.31-hb0e25da_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
