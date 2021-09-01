@@ -1,0 +1,112 @@
+  Package                 Version  Build             Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bwa                    0.7.17  h188c3c3_8        bioconda/osx-64                          208 KB
+  + bwakit            0.7.17.dev1  hdfd78af_1        /Users/runner/conda/conda-bld/osx-64      43 MB
+  + bzip2                   1.0.8  h0d85af4_4        conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0        conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0        conda-forge/osx-64                       Cached
+  + fermi2                   r170  h188c3c3_1        bioconda/osx-64                           94 KB
+  + htsbox                   r315  h188c3c3_1        bioconda/osx-64                          112 KB
+  + htslib                   1.13  hc38c3fb_0        bioconda/osx-64                            2 MB
+  + k8                      0.2.5  h87af4ef_1        bioconda/osx-64                            1 MB
+  + krb5                   1.19.2  hcfbf3a7_0        conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0        conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0        conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5        conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2        conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1        conda-forge/osx-64                       Cached
+  + libgcc                  4.8.5  hdbeacc1_10       conda-forge/osx-64                       302 KB
+  + libgfortran             3.0.1  0                 conda-forge/osx-64                       495 KB
+  + libnghttp2             1.43.0  h07e645a_0        conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0        conda-forge/osx-64                       Cached
+  + make                      4.3  h22f3db7_1        conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4        conda-forge/osx-64                       Cached
+  + openssl                1.1.1k  h0d85af4_1        conda-forge/osx-64                       Cached
+  + perl                   5.32.1  0_h0d85af4_perl5  conda-forge/osx-64                        13 MB
+  + ropebwt2                 r187  h188c3c3_5        bioconda/osx-64                           37 KB
+  + samblaster             0.1.20  hb280591_1        bioconda/osx-64                           21 KB
+  + samtools                 1.13  h7596a89_0        bioconda/osx-64                          404 KB
+  + seqtk                     r82  1                 bioconda/osx-64                           30 KB
+  + tk                     8.6.11  hd798d34_0        conda-forge/osx-64                       Cached
+  + trimadap                   r2  h188c3c3_1        bioconda/osx-64                           15 KB
+  + xz                      5.2.5  haf1e3a3_1        conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010     conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 62 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: bwakit-0.7.17.dev1-hdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/bwakit_1630507822418/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    bwa:             0.7.17-h188c3c3_8       bioconda   
+    bwakit:          0.7.17.dev1-hdfd78af_1  local      
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    fermi2:          r170-h188c3c3_1         bioconda   
+    htsbox:          r315-h188c3c3_1         bioconda   
+    htslib:          1.13-hc38c3fb_0         bioconda   
+    k8:              0.2.5-h87af4ef_1        bioconda   
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libgcc:          4.8.5-hdbeacc1_10       conda-forge
+    libgfortran:     3.0.1-0                 conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    make:            4.3-h22f3db7_1          conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    openssl:         1.1.1k-h0d85af4_1       conda-forge
+    perl:            5.32.1-0_h0d85af4_perl5 conda-forge
+    ropebwt2:        r187-h188c3c3_5         bioconda   
+    samblaster:      0.1.20-hb280591_1       bioconda   
+    samtools:        1.13-h7596a89_0         bioconda   
+    seqtk:           r82-1                   bioconda   
+    tk:              8.6.11-hd798d34_0       conda-forge
+    trimadap:        r2-h188c3c3_1           bioconda   
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/bwakit_1630507822418/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/bwakit_1630507822418/test_tmp
+Usage:   run-bwamem [options] <idxbase> <file1> [file2]
+Usage: $PREFIX/bin/run-gen-ref <hs38|hs38a|hs38DH|hs37|hs37d5>
+Usage: $PREFIX/bin/run-HLA <prefix>
+Usage: $PREFIX/bin/typeHLA.sh [-A] <prefix> <gene>
+Usage:   k8 bwa-postalt.js [options] <alt.sam> [aln.sam]
+Usage:   k8 typeHLA.js [options] <exon-to-contig.sam>
+Usage: k8 selctg.js <HLA-gene> <HLA-ALT-exons.bed> <ctg-to-ALT.sam> [min_ovlp=30]
+
+Resource usage statistics from testing bwakit:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: bwakit-0.7.17.dev1-hdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
