@@ -1,0 +1,99 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + curl                   7.78.0  hb861fe1_0     conda-forge/osx-64                       137 KB
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + novoalign             3.09.00  h7311fa2_2     /Users/runner/conda/conda-bld/osx-64      12 MB
+  + openssl                1.1.1k  h0d85af4_1     conda-forge/osx-64                       Cached
+  + tk                     8.6.11  hd798d34_0     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 12 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: novoalign-3.09.00-h7311fa2_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/novoalign_1630467311244/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    curl:            7.78.0-hb861fe1_0       conda-forge
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    novoalign:       3.09.00-h7311fa2_2      local      
+    openssl:         1.1.1k-h0d85af4_1       conda-forge
+    tk:              8.6.11-hd798d34_0       conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+========================= Novoalign information ===========================================
+Novoalign is installed. Documentation installed in
+/Users/runner/conda/conda-bld/novoalign_1630467311244/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/share/doc/novoalign
+
+Commercial use requires a license; contact sales@novocraft.com.
+License also adds multi-threading and other features.
+Once you have a license file, run novoalign-license-register to install it.
+
+Licensing information from Novocraft website:
+--------------------------------------------------------------------------------------------
+Novoalign with some limitations is free for use by non-profit organisations. 
+Commercial users should contact sales@novocraft.com to purchase a license.
+A license enables 
+* Multi-threading
+* Gzipped input files
+* Amplicon mode
+and much more.
+You must include a copy of this license if you share any Novocraft programs.
+======================== End of novoalign information ======================================
+
+done
+export PREFIX=/Users/runner/conda/conda-bld/novoalign_1630467311244/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/novoalign_1630467311244/test_tmp
+V3.09.00
+V3.09.00
+V1.05.00
+V1.07
+Usage: novo2maq [-s off] [-r] <out.map> <in.list> <in.novo>
+
+Resource usage statistics from testing novoalign:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: novoalign-3.09.00-h7311fa2_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
