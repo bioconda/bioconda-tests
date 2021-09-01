@@ -1,0 +1,118 @@
+  Package              Version  Build              Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0         conda-forge/osx-64                       Cached
+  + gsl                    2.6  h71c5fe9_2         conda-forge/osx-64                         3 MB
+  + libblas              3.9.0  11_osx64_openblas  conda-forge/osx-64                        12 KB
+  + libcblas             3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + libcxx              12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran          5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                        19 KB
+  + libgfortran5         9.3.0  h6c81a4c_23        conda-forge/osx-64                         2 MB
+  + libopenblas         0.3.17  openmp_h3351f45_1  conda-forge/osx-64                         9 MB
+  + llvm-openmp         12.0.1  hda6cdc1_1         conda-forge/osx-64                       287 KB
+  + openssl             1.1.1k  h0d85af4_1         conda-forge/osx-64                       Cached
+  + rust-bio-tools      0.27.0  hca69bca_0         /Users/runner/conda/conda-bld/osx-64       6 MB
+  + starcode               1.4  hb4d813b_1         bioconda/osx-64                           30 KB
+
+  Summary:
+
+  Install: 12 packages
+
+  Total download: 20 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rust-bio-tools-0.27.0-hca69bca_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rust-bio-tools_1630457348583/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    gsl:             2.6-h71c5fe9_2           conda-forge
+    libblas:         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:        3.9.0-11_osx64_openblas  conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1 conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    rust-bio-tools:  0.27.0-hca69bca_0        local      
+    starcode:        1.4-hb4d813b_1           bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rust-bio-tools_1630457348583/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/rust-bio-tools_1630457348583/test_tmp
+Rust-Bio-Tools 0.27.0
+Johannes Köster <johannes.koester@tu-dortmund.de>
+A set of ultra-fast command line utilities for bioinformatics tasks based on Rust-Bio.
+
+USAGE:
+    rbt [FLAGS] <SUBCOMMAND>
+
+FLAGS:
+    -h, --help       
+            Prints help information
+
+    -V, --version    
+            Prints version information
+
+    -v, --verbose    
+            Verbose output.
+
+
+SUBCOMMANDS:
+    bam-depth                      Print depth of BAM or CRAM file at given positions from STDIN (tab separated:
+                                   chrom, pos)
+    collapse-reads-to-fragments    Tool to predict maximum likelihood fragment sequence from FASTQ or BAM files
+    csv-report                     Creates report from a given csv file containing a table with the given data
+                                   Examples: With current directory as default ouput path: rbt csv-report
+                                   path/to/table.csv --rows-per-page 100 --sort-column "p-value" --sort-order
+                                   ascending
+    fastq-filter                   Remove records from a FASTQ file (from STDIN), output to STDOUT
+    fastq-split                    Split FASTQ file from STDIN into N chunks
+    help                           Prints this message or the help of the given subcommand(s)
+    plot-bam                       Creates a html file with a vega visualization of the given bam region Example:
+                                   rbt plot-bam -b input.bam -g 2:132424-132924 -r input.fa > plot.html
+    sequence-stats                 Tool to compute stats on sequence file (from STDIN), output is in YAML with
+                                   fields: - min: length of shortest sequence - max: length of longest sequence -
+                                   average: average length of sequence - median: median length of sequence -
+                                   nb_reads: number of reads - nb_bases: number of bases - n50: N50 of sequences
+    vcf-annotate-dgidb             Looks for interacting drugs in DGIdb and annotates them for every gene in every
+                                   record
+    vcf-baf                        Annotate b-allele frequency for each single nucleotide variant and sample
+    vcf-fix-iupac-alleles          Convert any IUPAC codes in alleles into Ns (in order to comply with VCF 4 specs).
+                                   Reads VCF/BCF from STDIN and writes BCF to STDOUT
+    vcf-match                      Annotate for each variant in a VCF/BCF at STDIN whether it is contained in a
+                                   given second VCF/BCF. The matching is fuzzy for indels and exact for SNVs.
+                                   Results are printed as BCF to STDOUT, with an additional INFO tag MATCHING. The
+                                   two vcfs do not have to be sorted
+    vcf-report                     Creates report from a given VCF file including a visual plot for every variant
+                                   with the given BAM and FASTA file. The VCF file has to be annotated with VEP,
+                                   using the options --hgvs and --hgvsg
+    vcf-split                      Split a given VCF/BCF file into N chunks of approximately the same size.
+                                   Breakends are kept together. Output type is always BCF
+    vcf-to-txt                     Convert VCF/BCF file from STDIN to tab-separated TXT file at STDOUT. INFO and
+                                   FORMAT tags have to be selected explicitly
+
+Resource usage statistics from testing rust-bio-tools:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.3
+
+
+TEST END: rust-bio-tools-0.27.0-hca69bca_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
