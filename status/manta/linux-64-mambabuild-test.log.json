@@ -1,0 +1,137 @@
+  Package                Version  Build                  Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex            4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + ca-certificates    2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi           2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + ld_impl_linux-64      2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libffi                 3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng             11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgomp               11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libstdcxx-ng          11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + manta                  1.6.0  h9ee0642_1             /home/vsts/conda/conda-bld/linux-64      18 MB
+  + ncurses                  6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + openssl               1.1.1k  h7f98852_1             conda-forge/linux-64                    Cached
+  + pip                   20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + python                2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi               2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                 8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + setuptools            44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                    8.6.11  h21135ba_0             conda-forge/linux-64                    Cached
+  + wheel                 0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + zlib                  1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 32 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: manta-1.6.0-h9ee0642_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/manta_1630460035943/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    manta:            1.6.0-h9ee0642_1             local      
+    ncurses:          6.2-h58526e2_4               conda-forge
+    openssl:          1.1.1k-h7f98852_1            conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    setuptools:       44.0.0-py27_0                conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h21135ba_0            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/manta_1630460035943/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/manta_1630460035943/test_tmp
+Usage: configManta.py [options]
+
+Version: 1.6.0
+
+This script configures the Manta SV analysis pipeline.
+You must specify a BAM or CRAM file for at least one sample.
+
+Configuration will produce a workflow run script which
+can execute the workflow on a single node or through
+sge and resume any interrupted execution.
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  --config=FILE         provide a configuration file to override defaults in
+                        global config file (/home/vsts/conda/conda-bld/manta_1
+                        630460035943/_test_env_placehold_placehold_placehold_p
+                        lacehold_placehold_placehold_placehold_placehold_place
+                        hold_placehold_placehold_placehold_placehold_placehold
+                        _placehold_placehold_placehold_placehold_placehold_pla
+                        ceh/share/manta-1.6.0-1/bin/configManta.py.ini)
+  --allHelp             show all extended/hidden options
+
+  Workflow options:
+    --bam=FILE, --normalBam=FILE
+                        Normal sample BAM or CRAM file. May be specified more
+                        than once, multiple inputs will be treated as each BAM
+                        file representing a different sample. [optional] (no
+                        default)
+    --tumorBam=FILE, --tumourBam=FILE
+                        Tumor sample BAM or CRAM file. Only up to one tumor
+                        bam file accepted. [optional] (no default)
+    --exome             Set options for WES input: turn off depth filters
+    --rna               Set options for RNA-Seq input. Must specify exactly
+                        one bam input file
+    --unstrandedRNA     Set if RNA-Seq input is unstranded: Allows splice-
+                        junctions on either strand
+    --referenceFasta=FILE
+                        samtools-indexed reference fasta file [required]
+    --runDir=DIR        Name of directory to be created where all workflow
+                        scripts and output will be written. Each analysis
+                        requires a separate directory. (default:
+                        MantaWorkflow)
+    --callRegions=FILE  Optionally provide a bgzip-compressed/tabix-indexed
+                        BED file containing the set of regions to call. No VCF
+                        output will be provided outside of these regions. The
+                        full genome will still be used to estimate statistics
+                        from the input (such as expected fragment size
+                        distribution). Only one BED file may be specified.
+                        (default: call the entire genome)
+
+  Extended options (hidden):
+
+Resource usage statistics from testing manta:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: manta-1.6.0-h9ee0642_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
