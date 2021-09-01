@@ -1,0 +1,61 @@
+  Package                Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates    2021.5.30  h033912b_0       conda-forge/osx-64                       Cached
+  + libcxx                12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + mysql-connector-c     6.1.11  h0f02589_1007    conda-forge/osx-64                         4 MB
+  + openssl               1.1.1k  h0d85af4_1       conda-forge/osx-64                       Cached
+  + perl                  5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-dbd-mysql         4.046  pl526h04f5b5a_1  /Users/runner/conda/conda-bld/osx-64      92 KB
+  + perl-dbi               1.642  pl526_0          bioconda/osx-64                          543 KB
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 19 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-dbd-mysql-4.046-pl526h04f5b5a_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-dbd-mysql_1630468090713/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates:   2021.5.30-h033912b_0  conda-forge
+    libcxx:            12.0.1-habf9029_0     conda-forge
+    mysql-connector-c: 6.1.11-h0f02589_1007  conda-forge
+    openssl:           1.1.1k-h0d85af4_1     conda-forge
+    perl:              5.26.2-hbcb3906_1008  conda-forge
+    perl-dbd-mysql:    4.046-pl526h04f5b5a_1 local      
+    perl-dbi:          1.642-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-dbd-mysql_1630468090713/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-dbd-mysql_1630468090713/test_tmp
+import: DBD::mysql
+	using version 4.046
+import: DBD::mysql
+	using version 4.046
+
+Resource usage statistics from testing perl-dbd-mysql:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-dbd-mysql-4.046-pl526h04f5b5a_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,109 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-gdgraph-1.54-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpbcg2fq5b/info/recipe/conda_build_config.yaml
+  Package            Version  Build            Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex        0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex        4.5  1_gnu            conda-forge/linux-64                    Cached
+  + expat              2.4.1  h9c3ff4c_0       conda-forge/linux-64                    Cached
+  + fontconfig        2.13.1  hba837de_1005    conda-forge/linux-64                    Cached
+  + freetype          2.10.4  h0708190_1       conda-forge/linux-64                    Cached
+  + giflib             5.2.1  h36c2ea0_2       conda-forge/linux-64                    Cached
+  + icu                 67.1  he1b5a44_0       conda-forge/linux-64                    Cached
+  + jbig                 2.1  h7f98852_2003    conda-forge/linux-64                    Cached
+  + jpeg                  9d  h36c2ea0_0       conda-forge/linux-64                    Cached
+  + lerc               2.2.1  h9c3ff4c_0       conda-forge/linux-64                    Cached
+  + libdeflate           1.7  h7f98852_5       conda-forge/linux-64                    Cached
+  + libgcc-ng         11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgd              2.2.5  h6e6070c_1008    conda-forge/linux-64                    Cached
+  + libgomp           11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libiconv            1.16  h516909a_0       conda-forge/linux-64                    Cached
+  + libpng            1.6.37  h21135ba_2       conda-forge/linux-64                    Cached
+  + libstdcxx-ng      11.1.0  h56837e0_8       conda-forge/linux-64                    Cached
+  + libtiff            4.3.0  hf544144_1       conda-forge/linux-64                    Cached
+  + libuuid           2.32.1  h7f98852_1000    conda-forge/linux-64                    Cached
+  + libwebp            1.2.1  h3452ae3_0       conda-forge/linux-64                    Cached
+  + libwebp-base       1.2.1  h7f98852_0       conda-forge/linux-64                    Cached
+  + libxml2           2.9.10  h68273f3_2       conda-forge/linux-64                    Cached
+  + lz4-c              1.9.3  h9c3ff4c_1       conda-forge/linux-64                    Cached
+  + perl              5.26.2  h36c2ea0_1008    conda-forge/linux-64                    Cached
+  + perl-gd             2.71  pl526he860b03_0  bioconda/linux-64                       Cached
+  + perl-gdgraph        1.54  pl526_0          /home/vsts/conda/conda-bld/linux-64      61 KB
+  + perl-gdtextutil     0.86  pl526h14c3975_5  bioconda/linux-64                        21 KB
+  + xz                 5.2.5  h516909a_1       conda-forge/linux-64                    Cached
+  + zlib              1.2.11  h516909a_1010    conda-forge/linux-64                    Cached
+  + zstd               1.5.0  ha95c52a_0       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 30 packages
+
+  Total download: 82 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-gdgraph_1630468434680/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge      conda-forge
+    _openmp_mutex:   4.5-1_gnu            conda-forge
+    expat:           2.4.1-h9c3ff4c_0     conda-forge
+    fontconfig:      2.13.1-hba837de_1005 conda-forge
+    freetype:        2.10.4-h0708190_1    conda-forge
+    giflib:          5.2.1-h36c2ea0_2     conda-forge
+    icu:             67.1-he1b5a44_0      conda-forge
+    jbig:            2.1-h7f98852_2003    conda-forge
+    jpeg:            9d-h36c2ea0_0        conda-forge
+    lerc:            2.2.1-h9c3ff4c_0     conda-forge
+    libdeflate:      1.7-h7f98852_5       conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8    conda-forge
+    libgd:           2.2.5-h6e6070c_1008  conda-forge
+    libgomp:         11.1.0-hc902ee8_8    conda-forge
+    libiconv:        1.16-h516909a_0      conda-forge
+    libpng:          1.6.37-h21135ba_2    conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8    conda-forge
+    libtiff:         4.3.0-hf544144_1     conda-forge
+    libuuid:         2.32.1-h7f98852_1000 conda-forge
+    libwebp:         1.2.1-h3452ae3_0     conda-forge
+    libwebp-base:    1.2.1-h7f98852_0     conda-forge
+    libxml2:         2.9.10-h68273f3_2    conda-forge
+    lz4-c:           1.9.3-h9c3ff4c_1     conda-forge
+    perl:            5.26.2-h36c2ea0_1008 conda-forge
+    perl-gd:         2.71-pl526he860b03_0 bioconda   
+    perl-gdgraph:    1.54-pl526_0         local      
+    perl-gdtextutil: 0.86-pl526h14c3975_5 bioconda   
+    xz:              5.2.5-h516909a_1     conda-forge
+    zlib:            1.2.11-h516909a_1010 conda-forge
+    zstd:            1.5.0-ha95c52a_0     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-gdgraph_1630468434680/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-gdgraph_1630468434680/test_tmp
+import: GD::Graph
+	using version 1.54
+import: GD::Graph
+	using version 1.54
+
+Resource usage statistics from testing perl-gdgraph:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-gdgraph-1.54-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
