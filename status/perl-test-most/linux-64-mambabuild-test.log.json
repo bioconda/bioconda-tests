@@ -1,0 +1,87 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-test-most-0.35-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpgsbv1p9o/info/recipe/conda_build_config.yaml
+  Package                        Version  Build            Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                    0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex                    4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                     11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                       11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + perl                          5.26.2  h36c2ea0_1008    conda-forge/linux-64                    Cached
+  + perl-algorithm-diff           1.1903  pl526_2          bioconda/linux-64                       Cached
+  + perl-capture-tiny               0.48  pl526_0          bioconda/linux-64                        17 KB
+  + perl-class-data-inheritable     0.08  pl526_1          /home/vsts/conda/conda-bld/linux-64     Cached
+  + perl-devel-stacktrace           2.04  pl526_0          bioconda/noarch                          16 KB
+  + perl-exception-class            1.44  pl526_0          bioconda/linux-64                        19 KB
+  + perl-sub-uplevel              0.2800  pl526h14c3975_2  bioconda/linux-64                       Cached
+  + perl-test-deep                 1.128  pl526_1          bioconda/linux-64                        36 KB
+  + perl-test-differences           0.67  pl526_0          bioconda/noarch                          15 KB
+  + perl-test-exception             0.43  pl526_2          bioconda/linux-64                        12 KB
+  + perl-test-most                  0.35  pl526_0          /home/vsts/conda/conda-bld/linux-64      18 KB
+  + perl-test-warn                  0.36  pl526_1          /home/vsts/conda/conda-bld/linux-64     Cached
+  + perl-text-diff                  1.45  pl526_0          /home/vsts/conda/conda-bld/linux-64     Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 132 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-test-most_1630455797924/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:               0.1-conda_forge        conda-forge
+    _openmp_mutex:               4.5-1_gnu              conda-forge
+    libgcc-ng:                   11.1.0-hc902ee8_8      conda-forge
+    libgomp:                     11.1.0-hc902ee8_8      conda-forge
+    perl:                        5.26.2-h36c2ea0_1008   conda-forge
+    perl-algorithm-diff:         1.1903-pl526_2         bioconda   
+    perl-capture-tiny:           0.48-pl526_0           bioconda   
+    perl-class-data-inheritable: 0.08-pl526_1           local      
+    perl-devel-stacktrace:       2.04-pl526_0           bioconda   
+    perl-exception-class:        1.44-pl526_0           bioconda   
+    perl-sub-uplevel:            0.2800-pl526h14c3975_2 bioconda   
+    perl-test-deep:              1.128-pl526_1          bioconda   
+    perl-test-differences:       0.67-pl526_0           bioconda   
+    perl-test-exception:         0.43-pl526_2           bioconda   
+    perl-test-most:              0.35-pl526_0           local      
+    perl-test-warn:              0.36-pl526_1           local      
+    perl-text-diff:              1.45-pl526_0           local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-test-most_1630455797924/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-test-most_1630455797924/test_tmp
+import: Test::Most
+	using version 0.35
+import: Test::Most::Exception
+	using version 0.35
+import: Test::Most
+	using version 0.35
+import: Test::Most::Exception
+	using version 0.35
+
+Resource usage statistics from testing perl-test-most:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-test-most-0.35-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

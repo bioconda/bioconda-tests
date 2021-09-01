@@ -1,0 +1,63 @@
+  Package                  Version  Build            Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8       conda-forge/linux-64                    Cached
+  + perl                    5.26.2  h36c2ea0_1008    conda-forge/linux-64                    Cached
+  + perl-package-stash-xs     0.28  pl526hf484d3e_1  /home/vsts/conda/conda-bld/linux-64      21 KB
+  + perl-xsloader             0.24  pl526_0          bioconda/linux-64                         8 KB
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 29 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-package-stash-xs-0.28-pl526hf484d3e_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-package-stash-xs_1630455631240/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:         0.1-conda_forge      conda-forge
+    _openmp_mutex:         4.5-1_gnu            conda-forge
+    libgcc-ng:             11.1.0-hc902ee8_8    conda-forge
+    libgomp:               11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:          11.1.0-h56837e0_8    conda-forge
+    perl:                  5.26.2-h36c2ea0_1008 conda-forge
+    perl-package-stash-xs: 0.28-pl526hf484d3e_1 local      
+    perl-xsloader:         0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-package-stash-xs_1630455631240/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-package-stash-xs_1630455631240/test_tmp
+import: Package::Stash::XS
+	using version 0.28
+import: Package::Stash::XS
+	using version 0.28
+
+Resource usage statistics from testing perl-package-stash-xs:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-package-stash-xs-0.28-pl526hf484d3e_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

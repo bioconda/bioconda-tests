@@ -1,0 +1,129 @@
+  Package                 Version  Build               Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu               conda-forge/linux-64                    Cached
+  + argcomplete            1.12.3  pyhd8ed1ab_2        conda-forge/noarch                       34 KB
+  + argh                   0.26.2  py38_1001           conda-forge/linux-64                     34 KB
+  + ca-certificates     2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + gffutils               0.10.1  pyh864c0ab_1        /home/vsts/conda/conda-bld/linux-64       1 MB
+  + importlib-metadata      4.8.1  py38h578d9bd_0      conda-forge/linux-64                     32 KB
+  + importlib_metadata      4.8.1  hd8ed1ab_0          conda-forge/noarch                        4 KB
+  + ld_impl_linux-64       2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                    3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                1.1.1k  h7f98852_1          conda-forge/linux-64                    Cached
+  + pip                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pyfaidx                 0.6.2  pyh5e36f6f_0        bioconda/noarch                          29 KB
+  + python                 3.8.10  h49503c6_1_cpython  conda-forge/linux-64                     26 MB
+  + python_abi                3.8  2_cp38              conda-forge/linux-64                      4 KB
+  + readline                  8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools             57.4.0  py38h578d9bd_0      conda-forge/linux-64                    934 KB
+  + simplejson             3.17.5  py38h497a2fe_0      conda-forge/linux-64                    104 KB
+  + six                    1.16.0  pyh6c4a22f_0        conda-forge/noarch                      Cached
+  + sqlite                 3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h21135ba_0          conda-forge/linux-64                    Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                      5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zipp                    3.5.0  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + zlib                   1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 29 packages
+
+  Total download: 29 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: gffutils-0.10.1-pyh864c0ab_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/gffutils_1630456028650/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:      0.1-conda_forge           conda-forge
+    _openmp_mutex:      4.5-1_gnu                 conda-forge
+    argcomplete:        1.12.3-pyhd8ed1ab_2       conda-forge
+    argh:               0.26.2-py38_1001          conda-forge
+    ca-certificates:    2021.5.30-ha878542_0      conda-forge
+    gffutils:           0.10.1-pyh864c0ab_1       local      
+    importlib-metadata: 4.8.1-py38h578d9bd_0      conda-forge
+    importlib_metadata: 4.8.1-hd8ed1ab_0          conda-forge
+    ld_impl_linux-64:   2.36.1-hea4e1c9_2         conda-forge
+    libffi:             3.3-h58526e2_2            conda-forge
+    libgcc-ng:          11.1.0-hc902ee8_8         conda-forge
+    libgomp:            11.1.0-hc902ee8_8         conda-forge
+    libstdcxx-ng:       11.1.0-h56837e0_8         conda-forge
+    ncurses:            6.2-h58526e2_4            conda-forge
+    openssl:            1.1.1k-h7f98852_1         conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0       conda-forge
+    pyfaidx:            0.6.2-pyh5e36f6f_0        bioconda   
+    python:             3.8.10-h49503c6_1_cpython conda-forge
+    python_abi:         3.8-2_cp38                conda-forge
+    readline:           8.1-h46c0cb4_0            conda-forge
+    setuptools:         57.4.0-py38h578d9bd_0     conda-forge
+    simplejson:         3.17.5-py38h497a2fe_0     conda-forge
+    six:                1.16.0-pyh6c4a22f_0       conda-forge
+    sqlite:             3.36.0-h9cd32fc_0         conda-forge
+    tk:                 8.6.11-h21135ba_0         conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:                 5.2.5-h516909a_1          conda-forge
+    zipp:               3.5.0-pyhd8ed1ab_0        conda-forge
+    zlib:               1.2.11-h516909a_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/gffutils_1630456028650/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/gffutils_1630456028650/test_tmp
+import: 'gffutils'
+import: 'gffutils'
+usage: gffutils-cli [-h]
+                    {fetch,children,parents,region,create,common,clean,search,sanitize,rmdups}
+                    ...
+
+positional arguments:
+  {fetch,children,parents,region,create,common,clean,search,sanitize,rmdups}
+    fetch               Fetch IDs.
+    children            Fetch children from the database according to ID.
+    parents             Fetch parents from the database according to ID.
+    region              Returns features within provided genomic coordinates.
+    create              Create a database.
+    common              Identify child features in common (e.g., common exons
+                        across multiple isoforms)
+    clean               Perform various QC operations to clean a GFF or GTF
+                        file.
+    search              Search the attributes.
+    sanitize            Sanitize a GFF file. Might get merged with clean
+                        feature later. Cleans and adds useful annotations to a
+                        GFF file: - Ensures that start > end in all entries -
+                        Adds an entry id (eid) to each entry to make files
+                        grep-able Outputs result to stdout unless asked to
+                        sanitize in place.
+    rmdups              Remove duplicates from a GFF file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+Resource usage statistics from testing gffutils:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: gffutils-0.10.1-pyh864c0ab_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
