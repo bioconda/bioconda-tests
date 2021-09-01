@@ -1,0 +1,100 @@
+  Package              Version  Build              Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx              12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran          5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5         9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + llvm-openmp         12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + mpi                    1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openmpi              4.1.1  hd3cd54c_0         conda-forge/osx-64                         3 MB
+  + phyml         3.3.20200621  h1ed0f4f_1         /Users/runner/conda/conda-bld/osx-64       2 MB
+  + zlib                1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 5 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: phyml-3.3.20200621-h1ed0f4f_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/phyml_1630509261977/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:       12.0.1-habf9029_0       conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1       conda-forge
+    mpi:          1.0-openmpi             conda-forge
+    openmpi:      4.1.1-hd3cd54c_0        conda-forge
+    phyml:        3.3.20200621-h1ed0f4f_1 local      
+    zlib:         1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/phyml_1630509261977/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/phyml_1630509261977/test_tmp
+/Users/runner/conda/condabin/conda
+phyml
+-----
+
+openmpi-4.1.1-hd3cd54c_0:
+    libmpi.40.dylib (lib/libmpi.40.dylib)
+
+system:
+    libSystem.B.dylib (/usr/lib/libSystem.B.dylib)
+
+not found:
+
+
+/Users/runner/conda/condabin/conda
+phyml
+-----
+
+bin/phyml
+  filetype: EXECUTE
+  rpath: @loader_path/../lib/
+
+
+bin/phyml-mpi
+  filetype: EXECUTE
+  rpath: @loader_path/../lib/
+
+
+bin/phyrex
+  filetype: EXECUTE
+  rpath: @loader_path/../lib/
+
+
+bin/phytime
+  filetype: EXECUTE
+  rpath: @loader_path/../lib/
+
+
+
+[00;00m	- PhyML 3.3.20200621 - 
+[00;00m	- PhyML 3.3.20200621 - 
+[00;00m	- PhyTime 3.3.20200621 - 
+
+Resource usage statistics from testing phyml:
+   Process count: 8
+   CPU time: Sys=0:00:01.1, User=0:00:01.3
+   Memory: 149.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:16.7
+
+
+TEST END: phyml-3.3.20200621-h1ed0f4f_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,162 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: samsift-0.2.5-py37_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpw84srxvm/info/recipe/conda_build_config.yaml
+  Package                  Version  Build                 Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge           conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                 conda-forge/linux-64                    Cached
+  + bzip2                    1.0.8  h7f98852_4            conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0            conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0            conda-forge/linux-64                    Cached
+  + krb5                    1.19.2  hcc1bbae_0            conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2            conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0            conda-forge/linux-64                    Cached
+  + libdeflate                 1.7  h7f98852_5            conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2            conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1            conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2            conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8            conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8            conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0            conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0            conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8            conda-forge/linux-64                    Cached
+  + ncurses                    6.2  h58526e2_4            conda-forge/linux-64                    Cached
+  + openssl                 1.1.1k  h7f98852_1            conda-forge/linux-64                    Cached
+  + pip                     21.2.4  pyhd8ed1ab_0          conda-forge/noarch                      Cached
+  + pysam                 0.16.0.1  py37h45aed0b_3        bioconda/linux-64                         3 MB
+  + python                  3.7.10  hffdb5ce_100_cpython  conda-forge/linux-64                     57 MB
+  + python-dateutil          2.8.2  pyhd8ed1ab_0          conda-forge/noarch                      240 KB
+  + python_abi                 3.7  2_cp37m               conda-forge/linux-64                      4 KB
+  + readline                   8.1  h46c0cb4_0            conda-forge/linux-64                    Cached
+  + samsift                  0.2.5  py37_2                /home/vsts/conda/conda-bld/linux-64      20 KB
+  + setuptools              57.4.0  py37h89c1867_0        conda-forge/linux-64                    938 KB
+  + six                     1.16.0  pyh6c4a22f_0          conda-forge/noarch                      Cached
+  + sqlite                  3.36.0  h9cd32fc_0            conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h21135ba_0            conda-forge/linux-64                    Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1          conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1            conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010         conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 61 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/samsift_1630509179576/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge             conda-forge
+    _openmp_mutex:    4.5-1_gnu                   conda-forge
+    bzip2:            1.0.8-h7f98852_4            conda-forge
+    c-ares:           1.17.2-h7f98852_0           conda-forge
+    ca-certificates:  2021.5.30-ha878542_0        conda-forge
+    krb5:             1.19.2-hcc1bbae_0           conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2           conda-forge
+    libcurl:          7.78.0-h2574ce0_0           conda-forge
+    libdeflate:       1.7-h7f98852_5              conda-forge
+    libedit:          3.1.20191231-he28a2e2_2     conda-forge
+    libev:            4.33-h516909a_1             conda-forge
+    libffi:           3.3-h58526e2_2              conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8           conda-forge
+    libgomp:          11.1.0-hc902ee8_8           conda-forge
+    libnghttp2:       1.43.0-h812cca2_0           conda-forge
+    libssh2:          1.10.0-ha56f1ee_0           conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8           conda-forge
+    ncurses:          6.2-h58526e2_4              conda-forge
+    openssl:          1.1.1k-h7f98852_1           conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0         conda-forge
+    pysam:            0.16.0.1-py37h45aed0b_3     bioconda   
+    python:           3.7.10-hffdb5ce_100_cpython conda-forge
+    python-dateutil:  2.8.2-pyhd8ed1ab_0          conda-forge
+    python_abi:       3.7-2_cp37m                 conda-forge
+    readline:         8.1-h46c0cb4_0              conda-forge
+    samsift:          0.2.5-py37_2                local      
+    setuptools:       57.4.0-py37h89c1867_0       conda-forge
+    six:              1.16.0-pyh6c4a22f_0         conda-forge
+    sqlite:           3.36.0-h9cd32fc_0           conda-forge
+    tk:               8.6.11-h21135ba_0           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:               5.2.5-h516909a_1            conda-forge
+    zlib:             1.2.11-h516909a_1010        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/samsift_1630509179576/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/samsift_1630509179576/test_tmp
+samsift 0.2.5 (using pysam 0.16.0.1)
+ 
+Program: samsift (advanced filtering and tagging of SAM/BAM alignments using Python expressions)
+Version: 0.2.5
+Author:  Karel Brinda <kbrinda@hsph.harvard.edu>
+
+Usage:   samsift [-i FILE] [-o FILE] [-f PY_EXPR] [-c PY_CODE] [-m STR] 
+                    [-0 PY_CODE] [-d PY_EXPR] [-t PY_EXPR]
+
+Basic options:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  -i FILE               input SAM/BAM file [-]
+  -o FILE               output SAM/BAM file [-]
+  -f PY_EXPR            filtering expression [True]
+  -c PY_CODE            code to be executed (e.g., assigning new tags) [None]
+  -m STR                mode: strict (stop on first error)
+                              nonstop-keep (keep alignments causing errors)
+                              nonstop-remove (remove alignments causing errors) [strict]
+
+Advanced options:
+  -0 PY_CODE            initialization [None]
+  -d PY_EXPR            debugging expression to print [None]
+  -t PY_EXPR            debugging trigger [True]
+
+ 
+Program: samsift-norm-sam (normalize SAM in order to faciliate SAM files comparison)
+Version: 0.2.5
+Author:  Karel Brinda <kbrinda@hsph.harvard.edu>
+
+Usage:   samsift-norm-sam [-i FILE] [-o FILE] [-T [TAG [TAG ...]]] [-H]
+
+Options:
+  -h, --help          show this help message and exit
+  -v, --version       show program's version number and exit
+  -i FILE             input SAM/BAM file [-]
+  -o FILE             output SAM/BAM file [-]
+  -T [TAG [TAG ...]]  ignored tags
+  -H                  skip SAM headers
+
+@SQ	SN:gi|561108321|ref|NC_018143.2|	LN:4411709
+r00001	0	gi|561108321|ref|NC_018143.2|	2798553	60	100M	*	0	0	AAAGGAATGCATCACCAATCTCGTCGGCGAGGCTTCGTGCCTCCTCGCCCGGCGCGCGGGTCGCGCCCGGGTCACTCTCGCCGGCGAACCCGACATAGGC	2/454483235524234201022/1252422523223533243212222421513222236220215432131222242315235121223130142647	NM:i:2	MD:Z:51C23C24	AS:i:90	XS:i:0
+r00002	0	gi|561108321|ref|NC_018143.2|	445039	60	100M	*	0	0	TCATCGGCAGATGCCCCCCGAGCGCAGCTTCCACGCGGCGCCGCGACGCCGTGTGCTGGTTCGTCACCGCCCGACCGACGCGGGCCCAGTGGTCGAGCTG	11/242522323122622254122142322321121236232321205072426233223223204322022022633343113212322232-462422	NM:i:2	MD:Z:17G45A36	AS:i:90	XS:i:0
+r00003	0	gi|561108321|ref|NC_018143.2|	2014256	60	100M	*	0	0	GGCAGCCCCGATGGGGGACCAGATCGGCCCCTGGGCCGCCTCGCTCACCGCGAGGCTCGCGAGGAGTCCGACCAGCGCGGCGCCCACGGCCACAATCACG	2220242203322212123344242421/2-0042322131152322232426231022262222244315/353/227312462213575444122223	NM:i:2	MD:Z:19G50G29	AS:i:90	XS:i:0
+r00004	0	gi|561108321|ref|NC_018143.2|	3675128	60	100M	*	0	0	GTTGGGCGGGGTGGAATTCATCCATTTCATTCAGTGCCCGTTGCGAATCCCCAAGCTACCCCGACGGCGACCAGAGGATGTCGATGGGGACGGCGGCGAG	28542253205043252212122151202.212332342342273312355423123122235524002520/2421/242130/623202/22221632	NM:i:0	MD:Z:100	AS:i:100	XS:i:0
+r00005	0	gi|561108321|ref|NC_018143.2|	1622793	60	100M	*	0	0	TCAATGCGGGCGAGAATTTGTTCCGGCCTCTGTTGCTGCGGGTGACATCGGAAGGTGTGGGGACAGGGATCAGCCCGAGATCATGCAATCACTGTCCTGC	222112522331421427632224324323225122651242242/423423422222522430212723545/331522025543365/3422221242	NM:i:4	MD:Z:35A25T1A35A0	AS:i:84	XS:i:0
+r00006	16	gi|561108321|ref|NC_018143.2|	3625422	60	100M	*	0	0	CCAGCAACTCGATACCCGCCTCCTCGGCCAGGTGGCCCACATTGCCGAGCGCGTTGTTGACCGTTGTGCGCAAGTCGACCGCCTCAAACGACAACTCGGC	5102650324303230122042406020//22242254134302/4225132201343264233465222111342525354/2452222113,542204	NM:i:2	MD:Z:16G70C12	AS:i:90	XS:i:0
+r00007	0	gi|561108321|ref|NC_018143.2|	4211791	60	100M	*	0	0	GCACAACCACATCGGGCCGCTGGCGGCGGGCCGCCGCAATCGCCGACGATCCGTCACCGGCGGTGGTGATGTTCCAACCTTCATACCGCAATGCCAGGGA	423422233223252122313420321/1035013262413442/2422121542/.322222223202234124232342.220131262221113112	NM:i:1	MD:Z:96T3	AS:i:96	XS:i:0
+r00008	0	gi|561108321|ref|NC_018143.2|	3766207	60	100M	*	0	0	CTGCCCGTCCCCGCATTACCGACGCCGGTGTTGTAATTACCCGAGTTGAACACCCCGAAGTTCCCGGTCCCCGAATTGAAGAACCCCACATTCCCGGTGC	226312132135034333332573.42226224-23/30242232647123433023342321432222.236624143324112235322120224220	NM:i:2	MD:Z:3G19A76	AS:i:91	XS:i:52
+r00009	16	gi|561108321|ref|NC_018143.2|	2626290	0	100M	*	0	0	GCGAACCAGCCCGTCACGCACCCCGTGCAGCATGTTCACGATGATGCGAAACGCCTGATTCAACTGGGCCATGGTGTCTAGCGAGGTCGCCTCGGCCATG	2/35303431+2132326023221141010224244613225532532005140222/1252222763242222201423/1333672201216544351	NM:i:2	MD:Z:43T18T37	AS:i:90	XS:i:90	XA:Z:gi|561108321|ref|NC_018143.2|,+1340805,100M,2;gi|561108321|ref|NC_018143.2|,-4060531,100M,3;gi|561108321|ref|NC_018143.2|,-1160916,100M,3;gi|561108321|ref|NC_018143.2|,+2030494,100M,4;
+r0000a	16	gi|561108321|ref|NC_018143.2|	2556229	60	100M	*	0	0	CACGATCAACGCATATAGGCCGCTGGCGCGCAACGGATTCGCTTCGCTGTGGTCGTGGTTTATTGGCCTGGTGGTTACCGAGTTTCCGTTACCGACGCTG	333422402043/221160023222234525304051215103232534255212/3443422244012223552/400252320223106350240302	NM:i:1	MD:Z:42A57	AS:i:95	XS:i:0
+
+Resource usage statistics from testing samsift:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: samsift-0.2.5-py37_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
