@@ -1,0 +1,61 @@
+  Package         Version  Build       Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────
+
+  + abundancebin    1.0.1  hb280591_3  /Users/runner/conda/conda-bld/osx-64      30 KB
+  + libcxx         12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 30 KB
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: abundancebin-1.0.1-hb280591_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/abundancebin_1630463204163/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    abundancebin: 1.0.1-hb280591_3  local      
+    libcxx:       12.0.1-habf9029_0 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/abundancebin_1630463204163/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/abundancebin_1630463204163/test_tmp
+$PREFIX/bin/abundancebin
+Please supply input FASTA file.
+Usage: ./abundancebin -input (input filename)
+		[-kmer_len (composition len, default 20)]
+		[-output (output file, default inputfile.log)]
+		[-exclude (count)]
+		[-exclude_max (count)]
+		[-OUTPUT_FASTA]
+
+		(if the bin number is known)
+		-bin_num (bin number)
+
+		(or undergo recursive classification)
+		-RECURSIVE_CLASSIFICATION]
+
+Resource usage statistics from testing abundancebin:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: abundancebin-1.0.1-hb280591_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
