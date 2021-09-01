@@ -1,0 +1,136 @@
+  Package               Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu               conda-forge/linux-64                    Cached
+  + basic                 1.5.1  pyh864c0ab_1        /home/vsts/conda/conda-bld/linux-64       3 MB
+  + bowtie2               2.4.4  py39hbb4e92a_0      bioconda/linux-64                        15 MB
+  + ca-certificates   2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + lz4-c                 1.9.3  h9c3ff4c_1          conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl              1.1.1k  h7f98852_1          conda-forge/linux-64                    Cached
+  + perl                 5.32.1  0_h7f98852_perl5    conda-forge/linux-64                     14 MB
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + python                3.9.6  h49503c6_1_cpython  conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39              conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tbb                  2020.2  h4bd325d_4          conda-forge/linux-64                      1 MB
+  + tk                   8.6.11  h21135ba_0          conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+  + zstd                  1.4.9  ha95c52a_0          conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 27 packages
+
+  Total download: 34 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: basic-1.5.1-pyh864c0ab_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/basic_1630485702051/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge          conda-forge
+    _openmp_mutex:    4.5-1_gnu                conda-forge
+    basic:            1.5.1-pyh864c0ab_1       local      
+    bowtie2:          2.4.4-py39hbb4e92a_0     bioconda   
+    ca-certificates:  2021.5.30-ha878542_0     conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2        conda-forge
+    libffi:           3.3-h58526e2_2           conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8        conda-forge
+    libgomp:          11.1.0-hc902ee8_8        conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8        conda-forge
+    lz4-c:            1.9.3-h9c3ff4c_1         conda-forge
+    ncurses:          6.2-h58526e2_4           conda-forge
+    openssl:          1.1.1k-h7f98852_1        conda-forge
+    perl:             5.32.1-0_h7f98852_perl5  conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0      conda-forge
+    python:           3.9.6-h49503c6_1_cpython conda-forge
+    python_abi:       3.9-2_cp39               conda-forge
+    readline:         8.1-h46c0cb4_0           conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0    conda-forge
+    sqlite:           3.36.0-h9cd32fc_0        conda-forge
+    tbb:              2020.2-h4bd325d_4        conda-forge
+    tk:               8.6.11-h21135ba_0        conda-forge
+    tzdata:           2021a-he74cb21_1         conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:               5.2.5-h516909a_1         conda-forge
+    zlib:             1.2.11-h516909a_1010     conda-forge
+    zstd:             1.4.9-ha95c52a_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/basic_1630485702051/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/basic_1630485702051/test_tmp
+usage: BASIC.py [-h] [-i TYPE] [-p NUM_THREADS] [-n NAME] [-SE FASTQ]
+                [-PE_1 LEFT] [-PE_2 RIGHT] [-g GENOME] [-b BOWTIE] [-t TMPDIR]
+                [-o OUTPUT_LOCATION] [-a] [-v] [-d DATABASE_PATH]
+                [--subsample SUBSAMPLE] [--version]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i TYPE               Type of receptor. Choices: "BCR" or "TCR" (default:
+                        BCR)
+  -p NUM_THREADS        Launch p > 2 threads that will run on separate
+                        processors/cores (default: 2)
+  -n NAME               Name of output file. Note: a ".fasta" extension will
+                        be added (default: result.fasta)
+  -SE FASTQ             Single end FASTQ file (optionally gzipped). (example:
+                        se.fastq)
+  -PE_1 LEFT            Paired end (left) FASTQ file (optionally gzipped).
+                        -PE_2 is required and pairs must match order.
+                        (example: pe_1.fastq)
+  -PE_2 RIGHT           Paired end (right) FASTQ file (optionally gzipped).
+                        (example: pe_2.fastq)
+  -g GENOME             Options: "human" or "mouse" (default: human). Note:
+                        other species are possible by adding the appropriate
+                        Bowtie2 indices and following the existing db/
+                        directory structure
+  -b BOWTIE             Absolute path to bowtie2 executable or directory
+                        containing it
+  -t TMPDIR             Path to directory for writing intermediate files.
+                        (default: current working directory)
+  -o OUTPUT_LOCATION    Output directory (default: current working directory)
+  -a                    Allow for partial reconstruction i.e. do not terminate
+                        if one or both chains do not assemble.
+  -v                    Turns on verbosity for more details.
+  -d DATABASE_PATH      Path to database directory. Defaults to <path of
+                        BASIC.py>/db
+  --subsample SUBSAMPLE
+                        Use the first <int> number of reads of the input.
+                        Default: no limit
+  --version             show program's version number and exit
+Done. Total run time: 0.46840786933898926 seconds
+
+Resource usage statistics from testing basic:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: basic-1.5.1-pyh864c0ab_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
