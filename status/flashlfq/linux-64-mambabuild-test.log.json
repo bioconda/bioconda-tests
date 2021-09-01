@@ -1,0 +1,90 @@
+  Package            Version  Build          Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex        0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex        4.5  1_gnu          conda-forge/linux-64                    Cached
+  + flashlfq           1.1.1  hdfd78af_1     /home/vsts/conda/conda-bld/linux-64       2 MB
+  + libgcc-ng         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp           11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng      11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + mono           6.12.0.90  h780b84a_0     conda-forge/linux-64                    214 MB
+  + zlib              1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 215 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: flashlfq-1.1.1-hdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/flashlfq_1630515643006/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    flashlfq:      1.1.1-hdfd78af_1     local      
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    mono:          6.12.0.90-h780b84a_0 conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/flashlfq_1630515643006/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/flashlfq_1630515643006/test_tmp
+FlashLFQ 1.1.1.0
+
+  --idt        Required. string; identification file path
+  --rep        Required. string; directory containing spectral data files
+  --sil        (Default: false) bool; silent mode
+  --out        string; output directory
+  --nor        (Default: false) bool; normalize intensity results
+  --ppm        (Default: 10) double; ppm tolerance
+  --iso        (Default: 5) double; isotopic distribution tolerance in ppm
+  --int        (Default: false) bool; integrate peak areas (not recommended)
+  --nis        (Default: 2) int; number of isotopes required to be observed
+  --chg        (Default: false) bool; use only precursor charge state
+  --thr        (Default: -1) int; number of CPU threads to use
+  --mbr        (Default: false) bool; match between runs
+  --mrt        (Default: 2.5) double; maximum MBR window in minutes
+  --rmc        (Default: false) bool; require MS/MS ID in condition
+  --bay        (Default: false) bool; Bayesian protein fold-change analysis
+  --ctr        string; control condition for Bayesian protein fold-change
+               analysis
+  --fcc        (Default: 0.1) double; fold-change cutoff for Bayesian protein
+               fold-change analysis
+  --mcm        (Default: 3000) int; number of markov-chain monte carlo
+               iterations for the Bayesian protein fold-change analysis
+  --bur        (Default: 1000) int; number of markov-chain monte carlo burn-in
+               iterations
+  --sha        (Default: false) bool; use shared peptides for protein
+               quantification
+  --rns        int; random seed for the Bayesian protein fold-change analysis
+  --help       Display this help screen.
+  --version    Display version information.
+
+
+Resource usage statistics from testing flashlfq:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: flashlfq-1.1.1-hdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,182 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: seq2c-2019.05.30-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpbfo7n_c6/info/recipe/conda_build_config.yaml
+  Package                             Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                               5.26.2  hbcb3906_1008  conda-forge/osx-64                       Cached
+  + perl-exporter-tiny               1.002001  pl526_0        bioconda/osx-64                          Cached
+  + perl-list-moreutils                 0.428  pl526_1        bioconda/osx-64                          Cached
+  + perl-list-moreutils-xs              0.428  pl526_0        bioconda/osx-64                          Cached
+  + perl-statistics-descriptive        3.0702  pl526_0        bioconda/osx-64                           32 KB
+  + perl-statistics-distributions        1.02  pl526_1        bioconda/osx-64                           10 KB
+  + perl-statistics-ttest                 1.1  pl526_1        bioconda/osx-64                           12 KB
+  + perl-xsloader                        0.24  pl526_0        bioconda/osx-64                          Cached
+  + seq2c                          2019.05.30  pl526_0        /Users/runner/conda/conda-bld/osx-64     546 KB
+
+  Summary:
+
+  Install: 9 packages
+
+  Total download: 599 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/seq2c_1630515874886/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                          5.26.2-hbcb3906_1008 conda-forge
+    perl-exporter-tiny:            1.002001-pl526_0     bioconda   
+    perl-list-moreutils:           0.428-pl526_1        bioconda   
+    perl-list-moreutils-xs:        0.428-pl526_0        bioconda   
+    perl-statistics-descriptive:   3.0702-pl526_0       bioconda   
+    perl-statistics-distributions: 1.02-pl526_1         bioconda   
+    perl-statistics-ttest:         1.1-pl526_1          bioconda   
+    perl-xsloader:                 0.24-pl526_0         bioconda   
+    seq2c:                         2019.05.30-pl526_0   local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/seq2c_1630515874886/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/seq2c_1630515874886/test_tmp
+    Usage: $PREFIX/bin/cov2lr.pl [-aH] [-c control] mapping_reads coverage.txt
+
+    The $PREFIX/bin/cov2lr.pl program will convert a coverage file to copy number profile.
+
+    Arguments are:
+    mapping_reads: Required.  A file containing # of mapped or sequenced reads for samples.  At least two columns.
+                   First is the sample name, 2nd is the number of mapped or sequenced reads.
+    coverage.txt:  The coverage output file from seq2cov.pl script.  Can also take from standard in or more than
+                   one file.
+
+    Options are:
+
+    -a Indicate this is amplicon or exon based calling.  By default, it will aggregate at gene level.
+
+    -M Indicate to adjust the MAD when transforming the distribution.  Default: no, or just simple linear function.
+       If not sure, do not use this option.  It might have better performance when cohort size is over 30.
+
+    -c sample(s)
+       Specify the control sample(s), if aplicable.  Multiple controls are allowed, which are separated by ":"
+
+    -F double
+       The failed factor for individual amplicons.  If (the 80th percentile of an amplicon depth)/(the global median depth)
+       is less than the argument, the amplicon is considered failed and will not be used in calculation.  Default: 0.2.
+    
+    -G Gender
+       Take a file of gender information.  Two columns, first is sample name, second is either M or F.  If not provided,
+       the program will try to guess.
+
+    -Y chrYratio
+       For gender testing, if chrY is designed.  Default: 0.15.  If chrY is carefully designed, such as Foundation's assay,
+       default is good.  For exome, the number should be higher, such as 0.3.
+
+    -Z Indicate to output the frozen_file and all parameters into file Seq2C.frozen.txt
+
+    -z frozen_file
+
+AUTHOR
+       Written by Zhongwu Lai, AstraZeneca, Boston, USA
+
+REPORTING BUGS
+       Report bugs to zhongwu@yahoo.com
+
+COPYRIGHT
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+    Usage: $PREFIX/bin/lr2gene.pl [-aPH] [-cy] [-F float] [-s min_amplicon_#] [-A float] [-D float] cov2lr.txt
+
+    The $PREFIX/bin/lr2gene.pl program will convert a coverage file to copy number profile.  The default parameters are designed for
+    detecting such aberrations for high tumor purity samples, such as cancer cell lines.  For clinical samples,
+    many parameters need to be adjusted.
+
+    Arguments are:
+    cov2lr.txt:  The coverage output file from cov2lr.pl script.  Can also take from standard in or more than
+                   one file.
+
+    Options are:
+
+    -c Indidate that control sample is used for normalization
+    -y Debugging mode
+
+    -s int
+       The minimum consecutive amplicons to look for deletions and amplifications.  Default: 1.  Use with caution
+       when it is less than 3.  There might be more false positives.  Though it has been successfully applied with
+       option "-s 1" and identified one-exon deletion of PTEN and TP53 that were confirmed by RNA-seq.
+
+
+    For whole gene:
+    -A float
+       Minimum log2 ratio for a whole gene to be considered amplified.  Default: 1.50
+
+    -D float
+       Minimum log2 ratio for a whole gene to be considered deleted.  Default: -2.00
+
+
+    For < 3 exons:
+    -E float
+       Minimum mean log2 ratio difference for <3 exon deletion/amplification to be called.  Default: 1.25
+
+    -M float
+       When considering partial deletions less than 3 exons/amplicons, the minimum MAD value, in addition to -E,
+       before considering it to be amplified or deleted.  Default: 10
+
+    -d float
+       When considering >=3 exons deletion/amplification within a gene, the minimum differences between the log2 of two segments.
+       Default: 0.5
+
+    -p float (0-1)
+       The p-value for t-test when consecutive exons/amplicons are >= 3.  Default: 0.00001
+
+
+    For break point in the middle of the gene:
+    -e float
+       When considering breakpoint in the middle of a gene, the minimum number of exons.  Default: 5
+
+    -t float
+       When considering breakpoint in the middle of a gene, the minimum differences between the log2 of two segments.
+       Default: 0.4
+
+    -P float (0-1)
+       The p-value for t-test when the breakpoint is in the middle with min exons/amplicons >= [-e].  Default: 0.000001
+
+    For cohort level aberrations:
+    -R float (0-1)
+       If a breakpoint has been detected more than "float" fraction of samples, it is considered false positive and removed.
+       Default: 0.03, or 3%.  Use in combination with -N
+
+    -N int
+       If a breakpoint has been detected more than "int" samples, it is considered false positives and removed.
+       Default: 5.  Use in combination with -R.
+
+AUTHOR
+       Written by Zhongwu Lai, AstraZeneca, Boston, USA
+
+REPORTING BUGS
+       Report bugs to zhongwu@yahoo.com
+
+COPYRIGHT
+       This is free software: you are free to change and redistribute it.  There is NO WARRANTY, to the extent permitted by law.
+
+
+Resource usage statistics from testing seq2c:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: seq2c-2019.05.30-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
