@@ -1,0 +1,131 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk           11.0.9.1  hcf210ce_1          conda-forge/osx-64                       169 MB
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + phylip               3.697  h1de35cc_1          /Users/runner/conda/conda-bld/osx-64       4 MB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.6  hd187cdc_1_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 173 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: phylip-3.697-h1de35cc_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/phylip_1630579492054/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openjdk:         11.0.9.1-hcf210ce_1      conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    phylip:          3.697-h1de35cc_1         local      
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.6-hd187cdc_1_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/phylip_1630579492054/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/phylip_1630579492054/test_tmp
+~/conda/conda-bld/phylip_1630579492054/test_tmp/__tmp4phyliptests__ ~/conda/conda-bld/phylip_1630579492054/test_tmp
+Starting main
+running main
+['$PREFIX/bin/phylip', 'test']
+$PREFIX/share/phylip-3.697-1/exe
+testing dnapars...
+passed; cleaning up
+testing dnaml...
+passed; cleaning up
+testing dnadist...
+passed; cleaning up
+testing dnapenny...
+passed; cleaning up
+testing dnacomp...
+passed; cleaning up
+testing dnamlk...
+passed; cleaning up
+testing protpars...
+passed; cleaning up
+testing protdist...
+passed; cleaning up
+testing proml...
+passed; cleaning up
+testing promlk...
+passed; cleaning up
+testing pars...
+passed; cleaning up
+testing penny...
+passed; cleaning up
+testing dollop...
+passed; cleaning up
+testing dolpenny...
+passed; cleaning up
+testing clique...
+passed; cleaning up
+testing mix...
+passed; cleaning up
+testing restml...
+passed; cleaning up
+testing restdist...
+passed; cleaning up
+testing fitch...
+passed; cleaning up
+testing kitsch...
+passed; cleaning up
+testing neighbor...
+passed; cleaning up
+testing drawtree...
+passed; cleaning up
+testing drawgram...
+passed; cleaning up
+~/conda/conda-bld/phylip_1630579492054/test_tmp ~/conda/conda-bld/phylip_1630579492054/test_tmp/__tmp4phyliptests__
+
+Resource usage statistics from testing phylip:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 19.6M
+   Disk usage: 104B
+   Time elapsed: 0:00:06.2
+
+
+TEST END: phylip-3.697-h1de35cc_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
