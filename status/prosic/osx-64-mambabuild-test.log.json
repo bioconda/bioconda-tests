@@ -1,0 +1,117 @@
+  Package         Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2           1.0.8  h0d85af4_4         conda-forge/osx-64                       Cached
+  + gsl               2.6  h71c5fe9_2         conda-forge/osx-64                         3 MB
+  + libblas         3.9.0  11_osx64_openblas  conda-forge/osx-64                        12 KB
+  + libcblas        3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + libgfortran     5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                        19 KB
+  + libgfortran5    9.3.0  h6c81a4c_23        conda-forge/osx-64                         2 MB
+  + libopenblas    0.3.17  openmp_h3351f45_1  conda-forge/osx-64                         9 MB
+  + llvm-openmp    12.0.1  hda6cdc1_1         conda-forge/osx-64                       287 KB
+  + prosic          2.1.2  h72cc799_2         /Users/runner/conda/conda-bld/osx-64     883 KB
+  + xz              5.2.5  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + zlib           1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 11 packages
+
+  Total download: 15 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: prosic-2.1.2-h72cc799_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/prosic_1630586158231/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:        1.0.8-h0d85af4_4         conda-forge
+    gsl:          2.6-h71c5fe9_2           conda-forge
+    libblas:      3.9.0-11_osx64_openblas  conda-forge
+    libcblas:     3.9.0-11_osx64_openblas  conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23        conda-forge
+    libopenblas:  0.3.17-openmp_h3351f45_1 conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1        conda-forge
+    prosic:       2.1.2-h72cc799_2         local      
+    xz:           5.2.5-haf1e3a3_1         conda-forge
+    zlib:         1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/prosic_1630586158231/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/prosic_1630586158231/test_tmp
+prosic-call-tumor-normal 
+Call somatic and germline variants from a tumor-normal sample pair and a VCF/BCF with candidate variants.
+
+USAGE:
+    prosic call-tumor-normal [FLAGS] [OPTIONS] <tumor> <normal> <reference>
+
+FLAGS:
+        --exclusive-end             Assume that the END tag is exclusive (i.e. it points to the position after the
+                                    variant). This is needed, e.g., for DELLY.
+        --flat-priors               Ignore the prior model and use flat priors instead.
+    -h, --help                      Prints help information
+        --omit-fragment-evidence    Omit evidence consisting of read pairs with unexpected insert size (insert size
+                                    parameters will be ignored).
+        --omit-indels               Don't call indels.
+        --omit-snvs                 Don't call SNVs.
+    -V, --version                   Prints version information
+
+OPTIONS:
+    -c, --candidates <FILE>               VCF/BCF file to process (if omitted, read from STDIN).
+    -d, --deletion-factor <FLOAT>         Factor of deletion mutation rate relative to SNV mutation rate (0.03 according
+                                          to Hodkinson et al. Nature Reviews Genetics 2011). [default: 0.03]
+        --effmut <FLOAT>                  Effective SNV mutation rate of tumor sample (should be estimated from somatic
+                                          SNVs). [default: 2000.0]
+        --het <FLOAT>                     Expected heterozygosity of normal sample. [default: 1.25E-4]
+        --indel-window <INT>              Number of bases to consider left and right of indel breakpoint when
+                                          calculating read support. This number should not be too large in order to
+                                          avoid biases caused by other close variants. [default: 100]
+    -i, --insertion-factor <FLOAT>        Factor of insertion mutation rate relative to SNV mutation rate (0.01
+                                          according to Hodkinson et al. Nature Reviews Genetics 2011). [default: 0.01]
+        --max-indel-len <INT>             Omit longer indels when calling. [default: 1000]
+        --obs <FILE>                      Optional path where read observations shall be written to. The resulting file
+                                          contains a line for each observation with tab-separated values.
+    -o, --output <FILE>                   BCF file that shall contain the results (if omitted, write to STDOUT).
+        --pileup-window <INT>             Window to investigate for evidence left and right of each variant. [default:
+                                          2500]
+    -p, --ploidy <INT>                    Average ploidy of tumor and normal sample. [default: 2]
+        --spurious-delext-rate <FLOAT>    Extension rate of spurious insertions by the sequencer (Illumina: 0.0, see
+                                          Schirmer et al. BMC Bioinformatics 2016). [default: 0.0]
+        --spurious-insext-rate <FLOAT>    Extension rate of spurious insertions by the sequencer (Illumina: 0.0, see
+                                          Schirmer et al. BMC Bioinformatics 2016) [0.0]. [default: 0.0]
+        --spurious-del-rate <FLOAT>       Rate of spuriosly deleted bases by the sequencer (Illumina: 5.1e-6, see
+                                          Schirmer et al. BMC Bioinformatics 2016). [default: 5.1e-6]
+        --spurious-ins-rate <FLOAT>       Rate of spuriously inserted bases by the sequencer (Illumina: 2.8e-6, see
+                                          Schirmer et al. BMC Bioinformatics 2016). [default: 2.8e-6]
+    -r, --spurious-isize-rate <FLOAT>     Rate of wrongly reported insert size abberations (should be set depending on
+                                          mapper, BWA: 0.01332338, LASER: 0.05922201). [default: 0.0]
+    -a, --purity <FLOAT>                  Purity of tumor sample. [default: 1.0]
+
+ARGS:
+    <tumor>        BAM file with reads from tumor sample.
+    <normal>       BAM file with reads from normal sample.
+    <reference>    FASTA file with reference genome. Has to be indexed with samtools faidx.
+
+Resource usage statistics from testing prosic:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.3
+
+
+TEST END: prosic-2.1.2-h72cc799_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
