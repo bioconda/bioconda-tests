@@ -1,0 +1,31 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-time-local-1.2300-pl5.22.0_0.tar.bz2
+Adding in variants from internal_defaults
+Renaming work directory '/home/vsts/conda/conda-bld/work' to '/home/vsts/conda/conda-bld/perl-time-local_1630610339228/work_moved_perl-time-local-1.2300-pl5262_0_linux-64'
+shutil.move(work)=/home/vsts/conda/conda-bld/work, dest=/home/vsts/conda/conda-bld/perl-time-local_1630610339228/work_moved_perl-time-local-1.2300-pl5262_0_linux-64)
+Mamba failed to solve:
+ - perl-time-local 1.2300.* pl5262_0
+ - perl
+ - perl
+
+with channels:
+ - file:///home/vsts/conda/conda-bld
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested perl-time-local 1.2300.* pl5262_0
+   
+
+Leaving build/test directories:
+  Work:
+ /home/vsts/conda/conda-bld/work 
+  Test:
+ /home/vsts/conda/conda-bld/test_tmp 
+Leaving build/test environments:
+  Test:
+source activate  /home/vsts/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh 
+  Build:
+source activate  /home/vsts/conda/conda-bld/_build_env 
+
+

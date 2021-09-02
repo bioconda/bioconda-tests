@@ -1,0 +1,139 @@
+  Package             Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex         0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex         4.5  1_gnu          conda-forge/linux-64                    Cached
+  + iqtree         2.1.4_beta  hdcc8f71_0     /home/vsts/conda/conda-bld/linux-64       6 MB
+  + libgcc-ng          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp            11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng       11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + zlib               1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 6 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: iqtree-2.1.4_beta-hdcc8f71_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/iqtree_1630610456180/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge       conda-forge
+    _openmp_mutex: 4.5-1_gnu             conda-forge
+    iqtree:        2.1.4_beta-hdcc8f71_0 local      
+    libgcc-ng:     11.1.0-hc902ee8_8     conda-forge
+    libgomp:       11.1.0-hc902ee8_8     conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8     conda-forge
+    zlib:          1.2.11-h516909a_1010  conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/iqtree_1630610456180/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/iqtree_1630610456180/test_tmp
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Command-line examples (replace 'iqtree2 ...' by actual path to executable):
+
+1. Infer maximum-likelihood tree from a sequence alignment (example.phy)
+   with the best-fit model automatically selected by ModelFinder:
+     iqtree2 -s example.phy
+
+2. Perform ModelFinder without subsequent tree inference:
+     iqtree2 -s example.phy -m MF
+   (use '-m TEST' to resemble jModelTest/ProtTest)
+
+3. Combine ModelFinder, tree search, ultrafast bootstrap and SH-aLRT test:
+     iqtree2 -s example.phy --alrt 1000 -B 1000
+
+4. Perform edge-linked proportional partition model (example.nex):
+     iqtree2 -s example.phy -p example.nex
+   (replace '-p' by '-Q' for edge-unlinked model)
+
+5. Find best partition scheme by possibly merging partitions:
+     iqtree2 -s example.phy -p example.nex -m MF+MERGE
+   (use '-m TESTMERGEONLY' to resemble PartitionFinder)
+
+6. Find best partition scheme followed by tree inference and bootstrap:
+     iqtree2 -s example.phy -p example.nex -m MFP+MERGE -B 1000
+
+7. Use 4 CPU cores to speed up computation: add '-T 4' option
+
+8. Polymorphism-aware model with HKY nucleotide model and Gamma rate:
+     iqtree2 -s counts_file.cf -m HKY+P+G
+
+9. PoMo mixture with virtual popsize 5 and weighted binomial sampling:
+     iqtree2 -s counts_file.cf -m "MIX{HKY+P{EMP},JC+P}+N5+WB"
+
+To show all available options: run 'iqtree2 -h'
+
+Have a look at the tutorial and manual for more information:
+     http://www.iqtree.org
+
+IQ-TREE multicore version 2.1.4-beta COVID-edition for Linux 64-bit built Jun 24 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Command-line examples (replace 'iqtree2 ...' by actual path to executable):
+
+1. Infer maximum-likelihood tree from a sequence alignment (example.phy)
+   with the best-fit model automatically selected by ModelFinder:
+     iqtree2 -s example.phy
+
+2. Perform ModelFinder without subsequent tree inference:
+     iqtree2 -s example.phy -m MF
+   (use '-m TEST' to resemble jModelTest/ProtTest)
+
+3. Combine ModelFinder, tree search, ultrafast bootstrap and SH-aLRT test:
+     iqtree2 -s example.phy --alrt 1000 -B 1000
+
+4. Perform edge-linked proportional partition model (example.nex):
+     iqtree2 -s example.phy -p example.nex
+   (replace '-p' by '-Q' for edge-unlinked model)
+
+5. Find best partition scheme by possibly merging partitions:
+     iqtree2 -s example.phy -p example.nex -m MF+MERGE
+   (use '-m TESTMERGEONLY' to resemble PartitionFinder)
+
+6. Find best partition scheme followed by tree inference and bootstrap:
+     iqtree2 -s example.phy -p example.nex -m MFP+MERGE -B 1000
+
+7. Use 4 CPU cores to speed up computation: add '-T 4' option
+
+8. Polymorphism-aware model with HKY nucleotide model and Gamma rate:
+     iqtree2 -s counts_file.cf -m HKY+P+G
+
+9. PoMo mixture with virtual popsize 5 and weighted binomial sampling:
+     iqtree2 -s counts_file.cf -m "MIX{HKY+P{EMP},JC+P}+N5+WB"
+
+To show all available options: run 'iqtree2 -h'
+
+Have a look at the tutorial and manual for more information:
+     http://www.iqtree.org
+
+
+Resource usage statistics from testing iqtree:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: iqtree-2.1.4_beta-hdcc8f71_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
