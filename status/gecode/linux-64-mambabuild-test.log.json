@@ -1,0 +1,59 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + gecode           6.2.0  h3272c59_1   /home/vsts/conda/conda-bld/linux-64      89 MB
+  + gmp              6.2.1  h58526e2_0   conda-forge/linux-64                    806 KB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+  + mpfr             4.1.0  h9202a9a_1   conda-forge/linux-64                      3 MB
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 93 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: gecode-6.2.0-h3272c59_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/gecode_1630583401045/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    gecode:        6.2.0-h3272c59_1  local      
+    gmp:           6.2.1-h58526e2_0  conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+    mpfr:          4.1.0-h9202a9a_1  conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/gecode_1630583401045/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/gecode_1630583401045/test_tmp
+
+Resource usage statistics from testing gecode:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: gecode-6.2.0-h3272c59_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
