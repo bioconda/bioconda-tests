@@ -1,0 +1,425 @@
+  Package               Version  Build                         Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + blas                    1.1  openblas                      conda-forge/osx-64                         1 KB
+  + ca-certificates   2021.5.30  h033912b_0                    conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1                conda-forge/osx-64                       149 KB
+  + icu                    68.1  h74dc148_0                    conda-forge/osx-64                       Cached
+  + libblas               3.8.0  17_openblas                   conda-forge/osx-64                        11 KB
+  + libcblas              3.8.0  17_openblas                   conda-forge/osx-64                        11 KB
+  + libcxx               12.0.1  habf9029_0                    conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007                 conda-forge/osx-64                        42 KB
+  + libgfortran           3.0.1  0                             conda-forge/osx-64                       495 KB
+  + libiconv               1.16  haf1e3a3_0                    conda-forge/osx-64                       Cached
+  + liblapack             3.8.0  17_openblas                   conda-forge/osx-64                        11 KB
+  + libopenblas          0.3.10  h0794777_0                    pkgs/main/osx-64                           5 MB
+  + libxml2              2.9.12  h93ec3fd_0                    conda-forge/osx-64                       Cached
+  + libxslt              1.1.33  h5739fc3_2                    conda-forge/osx-64                       488 KB
+  + lxml                  4.5.0  py27hd19eb8e_1                conda-forge/osx-64                         1 MB
+  + ncurses                 6.2  h2e338ed_4                    conda-forge/osx-64                       Cached
+  + numpy                1.16.5  py27hde6bac1_0                conda-forge/osx-64                         4 MB
+  + openblas              0.3.3  hdc02c5d_1001                 conda-forge/osx-64                        18 MB
+  + openssl              1.1.1k  h0d85af4_1                    conda-forge/osx-64                       Cached
+  + pandas               0.24.2  py27h86efe34_0                conda-forge/osx-64                        10 MB
+  + patsy                 0.5.1  py_0                          conda-forge/noarch                       187 KB
+  + pip                  20.1.1  pyh9f0ad1d_0                  conda-forge/noarch                         1 MB
+  + pyquant-ms            0.2.4  py27h294a050_4                /Users/runner/conda/conda-bld/osx-64     438 KB
+  + pythomics            0.3.46  pyh864c0ab_2                  bioconda/noarch                           66 KB
+  + python               2.7.15  h8e446fc_1011_cpython         conda-forge/osx-64                        12 MB
+  + python-dateutil       2.8.1  py_0                          conda-forge/noarch                       220 KB
+  + python_abi              2.7  1_cp27m                       conda-forge/osx-64                         4 KB
+  + pytz                 2020.1  pyh9f0ad1d_0                  conda-forge/noarch                       227 KB
+  + readline                8.1  h05e3726_0                    conda-forge/osx-64                       Cached
+  + scikit-learn         0.20.4  py27_blas_openblashc6dc708_0  conda-forge/osx-64                         5 MB
+  + scipy                 1.2.1  py27hab3da7d_2                conda-forge/osx-64                        16 MB
+  + setuptools           44.0.0  py27_0                        conda-forge/osx-64                       649 KB
+  + simplejson           3.17.0  py27h89ed719_1                conda-forge/osx-64                       100 KB
+  + six                  1.16.0  pyh6c4a22f_0                  conda-forge/noarch                       Cached
+  + sqlite               3.36.0  h23a322b_0                    conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1                    conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1                  conda-forge/noarch                       Cached
+  + xz                    5.2.5  haf1e3a3_1                    conda-forge/osx-64                       Cached
+  + zlib                 1.2.11  h7795811_1010                 conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 39 packages
+
+  Total download: 75 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: pyquant-ms-0.2.4-py27h294a050_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/pyquant-ms_1630573090076/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    blas:            1.1-openblas                        conda-forge
+    ca-certificates: 2021.5.30-h033912b_0                conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1           conda-forge
+    icu:             68.1-h74dc148_0                     conda-forge
+    libblas:         3.8.0-17_openblas                   conda-forge
+    libcblas:        3.8.0-17_openblas                   conda-forge
+    libcxx:          12.0.1-habf9029_0                   conda-forge
+    libffi:          3.2.1-hb1e8313_1007                 conda-forge
+    libgfortran:     3.0.1-0                             conda-forge
+    libiconv:        1.16-haf1e3a3_0                     conda-forge
+    liblapack:       3.8.0-17_openblas                   conda-forge
+    libopenblas:     0.3.10-h0794777_0                              
+    libxml2:         2.9.12-h93ec3fd_0                   conda-forge
+    libxslt:         1.1.33-h5739fc3_2                   conda-forge
+    lxml:            4.5.0-py27hd19eb8e_1                conda-forge
+    ncurses:         6.2-h2e338ed_4                      conda-forge
+    numpy:           1.16.5-py27hde6bac1_0               conda-forge
+    openblas:        0.3.3-hdc02c5d_1001                 conda-forge
+    openssl:         1.1.1k-h0d85af4_1                   conda-forge
+    pandas:          0.24.2-py27h86efe34_0               conda-forge
+    patsy:           0.5.1-py_0                          conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0                 conda-forge
+    pyquant-ms:      0.2.4-py27h294a050_4                local      
+    pythomics:       0.3.46-pyh864c0ab_2                 bioconda   
+    python:          2.7.15-h8e446fc_1011_cpython        conda-forge
+    python-dateutil: 2.8.1-py_0                          conda-forge
+    python_abi:      2.7-1_cp27m                         conda-forge
+    pytz:            2020.1-pyh9f0ad1d_0                 conda-forge
+    readline:        8.1-h05e3726_0                      conda-forge
+    scikit-learn:    0.20.4-py27_blas_openblashc6dc708_0 conda-forge [blas_openblas]
+    scipy:           1.2.1-py27hab3da7d_2                conda-forge
+    setuptools:      44.0.0-py27_0                       conda-forge
+    simplejson:      3.17.0-py27h89ed719_1               conda-forge
+    six:             1.16.0-pyh6c4a22f_0                 conda-forge
+    sqlite:          3.36.0-h23a322b_0                   conda-forge
+    tk:              8.6.11-h5dbffcc_1                   conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1                 conda-forge
+    xz:              5.2.5-haf1e3a3_1                    conda-forge
+    zlib:            1.2.11-h7795811_1010                conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/pyquant-ms_1630573090076/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/pyquant-ms_1630573090076/test_tmp
+import: 'pyquant'
+import: 'pyquant.tests'
+import: 'pyquant'
+import: 'pyquant.tests'
+usage: PyQuant v0.2.4 [-h] [-p P] [--scan-file [SCAN_FILE [SCAN_FILE ...]]]
+                      [--scan-file-dir SCAN_FILE_DIR] [--precision PRECISION]
+                      [--precursor-ppm PRECURSOR_PPM]
+                      [--isotope-ppm ISOTOPE_PPM] [--spread]
+                      [--search-file SEARCH_FILE] [--skip]
+                      [--peptide [PEPTIDE [PEPTIDE ...]]]
+                      [--peptide-file PEPTIDE_FILE] [--scan [SCAN [SCAN ...]]]
+                      [--mva] [--rt-window RT_WINDOW]
+                      [--label-scheme LABEL_SCHEME | --label-method {K4K8R6R10,K6R6,K8R10,N15,O18,TMT10,TMT6,iTRAQ4,iTRAQ8,mTRAQ4,mTRAQ48,mTRAQ8}]
+                      [--reference-label REFERENCE_LABEL] [--tsv TSV]
+                      [--label LABEL] [--peptide-col PEPTIDE_COL] [--rt RT]
+                      [--mz MZ] [--scan-col SCAN_COL] [--charge CHARGE]
+                      [--source SOURCE] [--msn-id MSN_ID]
+                      [--msn-quant-from MSN_QUANT_FROM]
+                      [--msn-ion MSN_ION [MSN_ION ...]]
+                      [--msn-ion-rt MSN_ION_RT [MSN_ION_RT ...]]
+                      [--msn-peaklist MSN_PEAKLIST] [--msn-ppm MSN_PPM]
+                      [--msn-rt-window MSN_RT_WINDOW [MSN_RT_WINDOW ...]]
+                      [--msn-all-scans] [--require-all-ions]
+                      [--quant-method {integrate,sum}] [--reporter-ion]
+                      [--isotopologue-limit ISOTOPOLOGUE_LIMIT]
+                      [--overlapping-labels] [--labels-needed LABELS_NEEDED]
+                      [--merge-labels] [--min-scans MIN_SCANS]
+                      [--min-resolution MIN_RESOLUTION]
+                      [--no-mass-accuracy-correction]
+                      [--no-contaminant-detection]
+                      [--peak-find-method {relative-max,derivative}]
+                      [--peak-find-mode {slow,average,fast}]
+                      [--gap-interpolation GAP_INTERPOLATION] [--fit-baseline]
+                      [--peak-cutoff PEAK_CUTOFF] [--max-peaks MAX_PEAKS]
+                      [--peaks-n PEAKS_N] [--no-rt-guide]
+                      [--snr-filter SNR_FILTER]
+                      [--zscore-filter ZSCORE_FILTER]
+                      [--filter-width FILTER_WIDTH] [--r2-cutoff R2_CUTOFF]
+                      [--intensity-filter INTENSITY_FILTER]
+                      [--percentile-filter PERCENTILE_FILTER]
+                      [--min-peak-separation MIN_PEAK_SEPARATION]
+                      [--disable-peak-filtering] [--merge-isotopes]
+                      [--peak-resolution-mode {rt,common-peak}]
+                      [--xic-snr XIC_SNR]
+                      [--xic-missing-ion-count XIC_MISSING_ION_COUNT]
+                      [--xic-window-size XIC_WINDOW_SIZE] [--xic-smooth]
+                      [--export-msn] [--debug] [--html] [--resume]
+                      [--sample SAMPLE] [--disable-stats] [--no-ratios]
+                      [-o [OUT]] [--export-mzml]
+                      [--export-mode {per-file,per-id,per-peak}] [--neucode]
+                      [--isobaric-tags] [--ms3] [--maxquant] [--gcms]
+
+This will quantify labeled peaks (such as SILAC) in ms1 spectra. It relies
+solely on the distance between peaks, which can correct for errors due to
+amino acid conversions.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p P                  Threads to run (default: 1)
+
+Raw Data Parameters:
+  --scan-file [SCAN_FILE [SCAN_FILE ...]]
+                        The scan file(s) for the raw data. If not provided,
+                        assumed to be in the directory of the
+                        processed/tabbed/peaklist file. (default: None)
+  --scan-file-dir SCAN_FILE_DIR
+                        The directory containing raw data. (default: None)
+  --precision PRECISION
+                        The precision for storing m/z values. Defaults to 6
+                        decimal places. (default: 6)
+  --precursor-ppm PRECURSOR_PPM
+                        The mass accuracy for the first monoisotopic peak in
+                        ppm. (default: 5)
+  --isotope-ppm ISOTOPE_PPM
+                        The mass accuracy for the isotopic cluster. (default:
+                        2.5)
+  --spread              Assume there is spread of the isotopic label.
+                        (default: False)
+
+Search Information:
+  --search-file SEARCH_FILE
+                        A search output or Proteome Discoverer msf file
+                        (default: None)
+  --skip                If true, skip scans with missing files in the mapping.
+                        (default: False)
+  --peptide [PEPTIDE [PEPTIDE ...]]
+                        The peptide(s) to limit quantification to. (default:
+                        None)
+  --peptide-file PEPTIDE_FILE
+                        A file of peptide(s) to limit quantification to.
+                        (default: None)
+  --scan [SCAN [SCAN ...]]
+                        The scan(s) to limit quantification to. (default:
+                        None)
+
+Missing Value Analysis:
+  --mva                 Analyze files in 'missing value' mode. (default:
+                        False)
+  --rt-window RT_WINDOW
+                        The maximal deviation of a scan's retention time to be
+                        considered for analysis. (default: 0.25)
+
+Labeling Information:
+  --label-scheme LABEL_SCHEME
+                        The file corresponding to the labeling scheme
+                        utilized. (default: None)
+  --label-method {K4K8R6R10,K6R6,K8R10,N15,O18,TMT10,TMT6,iTRAQ4,iTRAQ8,mTRAQ4,mTRAQ48,mTRAQ8}
+                        Predefined labeling schemes to use. (default: None)
+  --reference-label REFERENCE_LABEL
+                        The label to use as a reference (by default all
+                        comparisons are taken). (default: None)
+
+Tabbed File Input:
+  --tsv TSV             A delimited file containing scan information.
+                        (default: None)
+  --label LABEL         The column indicating the label state of the peptide.
+                        If not found, entry assumed to be light variant.
+                        (default: Labeling State)
+  --peptide-col PEPTIDE_COL
+                        The column indicating the peptide. (default: Peptide)
+  --rt RT               The column indicating the retention time. (default:
+                        Retention time)
+  --mz MZ               The column indicating the MZ value of the precursor
+                        ion. This is not the MH+. (default: Light Precursor)
+  --scan-col SCAN_COL   The column indicating the scan corresponding to the
+                        ion. (default: MS2 Spectrum ID)
+  --charge CHARGE       The column indicating the charge state of the ion.
+                        (default: Charge)
+  --source SOURCE       The column indicating the raw file the scan is
+                        contained in. (default: Raw file)
+
+Targetted Ion Search Parameters:
+  --msn-id MSN_ID       The ms level to search for the ion in. Default: 2
+                        (ms2) (default: 2)
+  --msn-quant-from MSN_QUANT_FROM
+                        The ms level to quantify values from. i.e. if we are
+                        identifying an ion in ms2, we can quantify it in ms1
+                        (or ms2). Default: msn value-1 (default: None)
+  --msn-ion MSN_ION [MSN_ION ...]
+                        M/Z values to search for in the scans. To search for
+                        multiple m/z values for a given ion, separate m/z
+                        values with a comma. (default: None)
+  --msn-ion-rt MSN_ION_RT [MSN_ION_RT ...]
+                        RT values each ion is expected at. (default: None)
+  --msn-peaklist MSN_PEAKLIST
+                        A file containing peaks to search for in the scans.
+                        (default: None)
+  --msn-ppm MSN_PPM     The error tolerance for identifying the ion(s).
+                        (default: 200)
+  --msn-rt-window MSN_RT_WINDOW [MSN_RT_WINDOW ...]
+                        The range of retention times for identifying the
+                        ion(s). (ex: 7.54-9.43) (default: None)
+  --msn-all-scans       Search for the ion across all scans (ie if you have 3
+                        ions, you will have 3 results with one long XIC)
+                        (default: False)
+  --require-all-ions    If multiple ions are set (in the style of
+                        93.15,105.15), all ions must be found in a scan.
+                        (default: False)
+
+Quantification Parameters:
+  --quant-method {integrate,sum}
+                        The process to use for quantification. Default:
+                        Integrate for ms1, sum for ms2+. (default: None)
+  --reporter-ion        Indicates that reporter ions are being used. As such,
+                        we only analyze a single scan. (default: False)
+  --isotopologue-limit ISOTOPOLOGUE_LIMIT
+                        How many isotopologues to quantify (default: -1)
+  --overlapping-labels  This declares the mz values of labels will overlap. It
+                        is useful for data such as neucode, but not needed for
+                        only SILAC labeling. (default: False)
+  --labels-needed LABELS_NEEDED
+                        How many labels need to be detected to quantify a scan
+                        (ie if you have a 2 state experiment and set this to
+                        2, it will only quantify scans where both occur.
+                        (default: 1)
+  --merge-labels        Merge labels together to a single XIC. (default:
+                        False)
+  --min-scans MIN_SCANS
+                        How many quantification scans are needed to quantify a
+                        scan. (default: 1)
+  --min-resolution MIN_RESOLUTION
+                        The minimal resolving power of a scan to consider for
+                        quantification. Useful for skipping low-res scans
+                        (default: 0)
+  --no-mass-accuracy-correction
+                        Disables the mass accuracy correction. (default:
+                        False)
+  --no-contaminant-detection
+                        Disables routine to check if an ion is a contaminant
+                        of a nearby peptide (checks if its a likely
+                        isotopologue). (default: False)
+
+Peak Fitting Parameters:
+  --peak-find-method {relative-max,derivative}
+                        The method to use to identify peaks within data. For
+                        LC-MS, relative-max is usually best. For smooth data,
+                        derivative is better. (default: relative-max)
+  --peak-find-mode {slow,average,fast}
+                        This picks some predefined parameters for various use
+                        cases. Fast is good for robust data with few peaks,
+                        slow is good for complex data with overlapping peaks
+                        of very different size. (default: average)
+  --gap-interpolation GAP_INTERPOLATION
+                        This interpolates missing data in scans. The parameter
+                        should be a number that is the maximal gap size to
+                        fill (ie 2 means a gap of 2 scans). Can be useful for
+                        low intensity LC-MS data. (default: 0)
+  --fit-baseline        Fit a separate line for the baseline of each peak.
+                        (default: False)
+  --peak-cutoff PEAK_CUTOFF
+                        The threshold from the initial retention time a peak
+                        can fall by before being discarded (default: 0.05)
+  --max-peaks MAX_PEAKS
+                        The maximal number of peaks to detect per scan. A
+                        lower value can help with very noisy data. (default:
+                        -1)
+  --peaks-n PEAKS_N     The number of peaks to report per scan. Useful for
+                        ions with multiple elution times. (default: 1)
+  --no-rt-guide         Do not use the retention time to bias for peaks
+                        containing the MS trigger time. (default: False)
+  --snr-filter SNR_FILTER
+                        Filter peaks below a given SNR. (default: 0)
+  --zscore-filter ZSCORE_FILTER
+                        Peaks below a given z-score are excluded. (default: 0)
+  --filter-width FILTER_WIDTH
+                        The window size for snr/zscore filtering. Default:
+                        entire scan (default: 0)
+  --r2-cutoff R2_CUTOFF
+                        The minimal R^2 for a peak to be kept. Should be a
+                        value between 0 and 1 (default: None)
+  --intensity-filter INTENSITY_FILTER
+                        Filter peaks whose peak are below a given intensity.
+                        (default: 0)
+  --percentile-filter PERCENTILE_FILTER
+                        Filter peaks whose peak are below a given percentile
+                        of the data. (default: 0)
+  --min-peak-separation MIN_PEAK_SEPARATION
+                        Peaks separated by less than this distance will be
+                        combined. For very crisp data, set this to a lower
+                        number. (minimal value is 1) (default: 5)
+  --disable-peak-filtering
+                        This will disable smoothing of data prior to peak
+                        finding. If you have very good LC, this may be used to
+                        identify small peaks. (default: False)
+  --merge-isotopes      Merge Isotopologues together prior to fitting.
+                        (default: False)
+  --peak-resolution-mode {rt,common-peak}
+                        The method to use to resolve peaks across multiple
+                        XICs (default: common-peak)
+
+XIC Options:
+  --xic-snr XIC_SNR     When the SNR of the XIC falls below this, stop
+                        searching for more data. Useful for escaping from
+                        noisy shoulders and contaminants. (default: 1.0)
+  --xic-missing-ion-count XIC_MISSING_ION_COUNT
+                        This specifies how many consequtive scans an ion can
+                        be missing for until it is no longer considered.
+                        (default: 1)
+  --xic-window-size XIC_WINDOW_SIZE
+                        When the number of scans in a given direction from the
+                        initial datapoint of an XIC passes this, stop. Default
+                        is -1 (disabled). Useful for removing contaminants
+                        (default: -1)
+  --xic-smooth          Prior to fitting, smooth data with a Gaussian filter.
+                        (default: False)
+  --export-msn          This will export spectra of a given MSN that were used
+                        to provide the quantification. (default: True)
+
+Output Options:
+  --debug               This will output debug information. (default: False)
+  --html                Output a HTML table summary. (default: False)
+  --resume              Will resume from the last run. Only works if not
+                        directing output to stdout. (default: False)
+  --sample SAMPLE       How much of the data to sample. Enter as a decimal (ie
+                        1.0 for everything, 0.1 for 10%) (default: 1.0)
+  --disable-stats       Disable confidence statistics on data. (default:
+                        False)
+  --no-ratios           Disable reporting of ratios in output. (default:
+                        False)
+  -o [OUT], --out [OUT]
+                        The prefix for the file output (default: None)
+
+Spectra Output Options:
+  --export-mzml         Create an mzml file of spectra contained within each
+                        peak. (default: False)
+  --export-mode {per-file,per-id,per-peak}
+                        How to export the scans. per-peak: A mzML per peak
+                        identified. per-id: A mzML per ion identified (each
+                        row of the output gets an mzML). per-file: All scans
+                        matched per raw file. (default: per-peak)
+
+Convenience Parameters:
+  --neucode             This will select parameters specific for neucode.
+                        Note: You still must define a labeling scheme.
+                        (default: False)
+  --isobaric-tags       This will select parameters specific for isobaric tag
+                        based labeling (TMT/iTRAQ). (default: False)
+  --ms3                 This will select parameters specific for ms3 based
+                        quantification. (default: False)
+  --maxquant            This will select parameters specific for a MaxQuant
+                        evidence file. (default: False)
+  --gcms                This will select parameters specific for ion
+                        identification and quantification in GCMS experiments.
+                        (default: False)
+
+Resource usage statistics from testing pyquant-ms:
+   Process count: 4
+   CPU time: Sys=0:00:00.7, User=0:00:01.0
+   Memory: 87.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:24.8
+
+
+TEST END: pyquant-ms-0.2.4-py27h294a050_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
