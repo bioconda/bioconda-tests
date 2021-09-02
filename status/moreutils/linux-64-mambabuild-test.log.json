@@ -1,0 +1,57 @@
+  Package          Version  Build             Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge       conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu             conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + moreutils         0.65  h7f98852_1        /home/vsts/conda/conda-bld/linux-64      49 KB
+  + perl            5.32.1  0_h7f98852_perl5  conda-forge/linux-64                     14 MB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 15 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: moreutils-0.65-h7f98852_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/moreutils_1630575416420/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge         conda-forge
+    _openmp_mutex: 4.5-1_gnu               conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8       conda-forge
+    libgomp:       11.1.0-hc902ee8_8       conda-forge
+    moreutils:     0.65-h7f98852_1         local      
+    perl:          5.32.1-0_h7f98852_perl5 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/moreutils_1630575416420/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/moreutils_1630575416420/test_tmp
+Sep 02 09:37:37 foo
+sponge [-a] <file>: soak up all input from stdin and write it to <file>
+
+Resource usage statistics from testing moreutils:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: moreutils-0.65-h7f98852_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
