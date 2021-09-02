@@ -1,0 +1,312 @@
+  Package    Version  Build       Channel                                 Size
+────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────
+
+  + goalign    0.3.4  h65a6115_0  /home/vsts/conda/conda-bld/linux-64     8 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 8 MB
+
+────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: goalign-0.3.4-h65a6115_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/goalign_1630592376592/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    goalign: 0.3.4-h65a6115_0 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/goalign_1630592376592/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/goalign_1630592376592/test_tmp
+goalign: A set of tools to handle sequence alignments.
+
+It allows to :
+1 - Convert formats
+2 - Shuffle alignments
+3 - Sample alignments
+4 - Print informations about alignments
+5 - Generate bootstrap alignments
+
+Input alignment file formats:
+1. Fasta (default)
+2. Phylip (-p option)
+3. Nexus (-x option)
+4. Clustal (-u option)
+4. Auto detect (--auto-detect option). In that case, it will test input formats in the following order:
+    1. Fasta
+    2. Nexus
+    3. Phylip
+    4. Clustal
+    If none of these formats is recognized, then will exit with an error 
+
+Please note that in --auto-detect mode, phylip format is considered as not strict!
+
+Version: 0.3.4
+
+Usage:
+  goalign [flags]
+  goalign [command]
+
+Available Commands:
+  addid       Adds a string to each sequence identifier of the input alignment
+  append      Append alignments to an input alignment
+  build       Command to build bootstrap replicates
+  clean       Removes gap sites or sequences
+  codonalign  Aligns a given nt fasta file using a corresponding aa alignment
+  completion  Generates auto-completion commands for bash or zsh
+  compress    Removes identical patterns/sites from an input alignment
+  compute     Different computations (distances, entropy, etc.)
+  concat      Concatenates a set of alignments
+  consensus   Compute the majority consensus of an input alignment
+  dedup       Deduplicate sequences that have the same sequence
+  diff        Prints only characters that are different from the first sequence of the alignment
+  divide      Divide an input alignment in several output files
+  draw        Draw alignments
+  extract     Extracts several sub-sequences from an input alignment
+  help        Help about any command
+  identical   Assess whether the two alignments are identical
+  mask        Mask a sub alignment
+  mutate      Adds substitutions (~sequencing errors), or gaps, uniformly in an input alignment
+  orf         Find the longest orf in all given sequences in forward strand
+  phase       Find best Starts and set them as new start positions
+  phasent     Find best Starts and set them as new start positions
+  random      Generate random sequences
+  reformat    Reformats input alignment into phylip of fasta format
+  rename      Rename sequences of the input alignment, given a map file
+  replace     Replace characters in sequences of the input alignment (possible with a regex)
+  revcomp     Prints the reverse complement of all sequences
+  sample      Samples sequences or sites from an input alignment
+  shuffle     A set of commands to shuffle an alignment
+  sort        sorts input alignment by sequence name
+  split       Splits an input alignment given a partition file
+  stats       Prints different characteristics of the alignment
+  subseq      Take a sub-alignment from the input alignment
+  subset      Take a subset of sequences from the input alignment
+  subsites    Takes a subset of the sites of the alignment
+  sw          Aligns 2 sequences using Smith&Waterman algorithm
+  translate   Translates an input alignment in amino acids
+  transpose   Transpose an input alignment
+  trim        This command trims names of sequences or sequences themselves
+  unalign     Unaligns input alignment
+  version     Prints the current version of goalign
+
+Flags:
+  -i, --align string           Alignment input file (default "stdin")
+      --auto-detect            Auto detects input format (overrides -p, -x and -u)
+  -u, --clustal                Alignment is in clustal? default fasta
+  -h, --help                   help for goalign
+      --ignore-identical int   Ignore duplicated sequences that have the same name and potentially have same sequences, 0 : Does not ignore anything, 1: Ignore sequences having the same name (keep the first one whatever their sequence), 2: Ignore sequences having the same name and the same sequence
+      --input-strict           Strict phylip input format (only used with -p)
+  -x, --nexus                  Alignment is in nexus? default fasta
+      --no-block               Write Phylip sequences without space separated blocks (only used with -p)
+      --one-line               Write Phylip sequences on 1 line (only used with -p)
+      --output-strict          Strict phylip output format (only used with -p)
+  -p, --phylip                 Alignment is in phylip? default fasta
+      --seed int               Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int            Number of threads (default 1)
+
+Use "goalign [command] --help" for more information about a command.
+
+->goalign addid
+->goalign addid unaligned
+->goalign clean sites
+->goalign clean sites --ends
+->goalign clean sites --ends --char MAJ
+->goalign clean seqs
+->goalign clean seqs --ignore-gaps
+->goalign clean seqs --ignore-n
+->goalign clean seqs --ignore-n /2
+->goalign clean seqs --ignore-n /3
+->goalign random
+->goalign reformat fasta
+->goalign reformat fasta strict
+->goalign reformat fasta names with spaces
+->goalign reformat fasta sequences with spaces
+->goalign reformat phylip
+->goalign reformat phylip --one-line
+->goalign reformat phylip --no-block --one-line
+->goalign reformat phylip --no-block
+->goalign reformat phylip spaces tabs
+->goalign reformat fasta spaces tabs
+->goalign reformat fasta spaces tabs
+->goalign reformat phylip strict
+->goalign reformat nexus
+->goalign reformat fasta from clustal
+->goalign reformat fasta from clustal (2)
+->goalign reformat clustal from fasta
+->goalign reformat tnt
+->goalign reformat tnt auto
+->goalign reformat auto from nexus
+->goalign reformat auto from phylip strict
+->goalign reformat auto from phylip
+->goalign reformat auto from fasta
+->goalign reformat paml from phylip
+->goalign compute distance -m f81
+->goalign compute distance -m rawdist
+->goalign compute distance -m rawdist --range1 0:2 --range2 2:4
+->goalign compute distance -m rawdist2
+->goalign compute distance -m rawdist2 / gap muts
+->goalign compute distance -m pdist / gap muts
+->goalign compute distance -m pdist
+->goalign compute distance -m pdist / without ambiguous characters
+->goalign compute distance -m raw / gaps start
+->goalign compute distance -m pdist / gaps start
+->goalign compute distance -m jc
+->goalign compute distance -m k2p
+->goalign compute distance -m f84
+->goalign compute distance -m tn93
+->goalign compute entropy
+->goalign compute pssm logo
+->goalign concat 1
+->goalign concat 2
+->goalign concat (missing sequences in 1)
+->goalign concat (missing sequences in 2)
+->goalign concat (missing sequences in both)
+->goalign divide
+->goalign divide --nb-sequences
+->goalign divide several aligns --nb-sequences
+->goalign divide --unaligned
+->goalign divide --nb-sequences --unaligned
+->goalign mutate gaps
+->goalign mutate snvs
+->goalign rename
+->goalign rename regexp
+->goalign rename --clean-names
+->goalign rename --clean-names --unaligned
+->goalign sample seqs
+->goalign sample seqs unaligned
+->goalign sample sites
+->goalign shuffle recomb
+->goalign shuffle recomb
+->goalign shuffle sites
+->goalign shuffle sites rogues stables
+->goalign stats
+->goalign stats mutations
+->goalign stats gaps
+->goalign subseq
+->goalign subseq / refseq
+->goalign subseq / refseq / rev
+->goalign subseq window phylip
+->goalign subset
+->goalign subset file
+->goalign subset index
+->goalign subset index file
+->goalign subset regexps
+->goalign subset regexps file
+->goalign trim name
+->goalign trim name auto
+->goalign trim name auto several ali
+->goalign trim name unaligned
+->goalign trim name auto unaligned
+->goalign trim seq
+->goalign unalign
+->goalign reformat nexus 1
+->goalign reformat nexus 2
+->goalign sort
+->goalign sort --unaligned
+->goalign shuffle seqs --unaligned
+->goalign translate
+->goalign translate unaligned
+->goalign translate 3 phases (standard)
+->goalign translate 3 phases (mito vertebrate)
+->goalign translate 3 phases (mito invertebrate)
+->goalign translate IUPAC
+->goalign translate IUPAC unaligned
+->goalign reformat no ignore identical
+->goalign reformat ignore identical
+->goalign reformat ignore identical 2
+->goalign reformat ignore identical clustal->fasta
+->goalign reformat no ignore identical clustal->fasta
+->goalign dedup
+->goalign dedup /2
+->goalign dedup --unaligned
+->goalign dedup --unaligned /2
+->goalign build seqboot
+expected.1 ok
+expected.2 ok
+->goalign build seqboot gz
+->goalign build seqboot tar gz
+->goalign build seqboot partition
+->goalign codonalign
+->goalign identical
+->goalign phase
+->goalign phasent
+->goalign phase reverse
+->goalign phasent reverse
+->goalign phase reverse cutends
+->goalign phasent reverse cutends
+->goalign sw (smith & waterman)
+->goalign sw / 2
+->goalign sw aa / 3
+->goalign orf
+->goalign orf reverse
+->goalign mask / prot
+->goalign mask / nucl
+->goalign mask / nucl --ref-seq
+->goalign mask --unique
+->goalign mask --unique --ref-seq
+->goalign mask --unique --at-most --ref-seq
+->goalign replace
+->goalign replace unalign
+->goalign replace regex
+->goalign diff
+->goalign diff /2
+->goalign diff count
+->goalign diff count /2
+->goalign diff count /3
+->goalign diff --reverse
+->goalign stats auto from 1000 random phylip alignments
+->goalign nseq
+->goalign compress
+->goalign split
+->goalign split codons/2
+->goalign consensus
+->goalign consensus /2
+->goalign consensus --ignore-gaps/3
+->goalign consensus --ignore-n/3
+->goalign append
+->goalign append phylip
+->goalign append phylip /2
+->goalign stats char --per-sites
+->goalign stats char --per-sequences
+->goalign stats char --per-sequences --count-profile
+->goalign stats maxchar
+->goalign stats maxchar --ignore-gaps
+->goalign stats maxchar --ignore-n
+->goalign subsites /1
+->goalign subsites --reverse /2
+->goalign subsites --reverse --ref-seq /2
+->goalign subsites from file
+->goalign subsite --informative
+->goalign extract
+->goalign extract --ref-seq
+->goalign transpose
+->goalign read xz/bz
+->goalign revcomp 
+->goalign revcomp --unaligned
+0.3.4
+
+Resource usage statistics from testing goalign:
+   Process count: 8
+   CPU time: Sys=0:00:00.2, User=0:00:00.1
+   Memory: 26.8M
+   Disk usage: 24B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: goalign-0.3.4-h65a6115_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
