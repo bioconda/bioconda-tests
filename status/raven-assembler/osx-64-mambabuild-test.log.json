@@ -1,0 +1,83 @@
+  Package            Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx            12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + raven-assembler    1.5.3  hfd59bb5_0     /Users/runner/conda/conda-bld/osx-64     242 KB
+  + zlib              1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 242 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: raven-assembler-1.5.3-hfd59bb5_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/raven-assembler_1630554813589/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:          12.0.1-habf9029_0    conda-forge
+    raven-assembler: 1.5.3-hfd59bb5_0     local      
+    zlib:            1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/raven-assembler_1630554813589/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/raven-assembler_1630554813589/test_tmp
+usage: raven [options ...] <sequences> [<sequences> ...]
+
+  # default output is to stdout in FASTA format
+  <sequences>
+    input file in FASTA/FASTQ format (can be compressed with gzip)
+
+  options:
+    --weaken
+      use larger (k, w) when assembling highly accurate sequences
+    -p, --polishing-rounds <int>
+      default: 2
+      number of times racon is invoked
+    -m, --match <int>
+      default: 3
+      score for matching bases
+    -n, --mismatch <int>
+      default: -5
+      score for mismatching bases
+    -g, --gap <int>
+      default: -4
+      gap penalty (must be negative)
+    --graphical-fragment-assembly <string>
+      prints the assembly graph in GFA format
+    --resume
+      resume previous run from last checkpoint
+    --disable-checkpoints
+      disable checkpoint file creation
+    -t, --threads <int>
+      default: 1
+      number of threads
+    --version
+      prints the version number
+    -h, --help
+      prints the usage
+
+Resource usage statistics from testing raven-assembler:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: raven-assembler-1.5.3-hfd59bb5_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
