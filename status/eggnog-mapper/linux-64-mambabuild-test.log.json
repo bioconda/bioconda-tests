@@ -1,0 +1,682 @@
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython              1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + boost-cpp            1.74.0  h312852a_4           conda-forge/linux-64                     16 MB
+  + bzip2                 1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + diamond              2.0.11  hdcc8f71_0           bioconda/linux-64                         2 MB
+  + easel                  0.48  h779adbc_0           bioconda/linux-64                         1 MB
+  + eggnog-mapper         2.1.5  pyhdfd78af_0         /home/vsts/conda/conda-bld/linux-64     105 KB
+  + gawk                  5.1.0  h7f98852_0           conda-forge/linux-64                      1 MB
+  + gettext            0.19.8.1  h0b5b191_1005        conda-forge/linux-64                    Cached
+  + hmmer                 3.3.2  h1b792b2_1           bioconda/linux-64                        10 MB
+  + icu                    68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libidn2               2.3.2  h7f98852_0           conda-forge/linux-64                     98 KB
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + libunistring         0.9.10  h7f98852_0           conda-forge/linux-64                      1 MB
+  + lz4-c                 1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + mmseqs2            13.45111  h95f258a_1           bioconda/linux-64                         2 MB
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl              1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + prodigal              2.6.3  h779adbc_3           bioconda/linux-64                       776 KB
+  + psutil                5.8.0  py39h3811e60_1       conda-forge/linux-64                    Cached
+  + python                3.9.6  h49503c6_1_cpython   conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h21135ba_0           conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wget                 1.20.3  ha56f1ee_0           conda-forge/linux-64                    808 KB
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                  1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 46 packages
+
+  Total download: 45 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: eggnog-mapper-2.1.5-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/eggnog-mapper_1630544234620/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py39h3811e60_0        conda-forge
+    boost-cpp:        1.74.0-h312852a_4          conda-forge
+    bzip2:            1.0.8-h7f98852_4           conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    diamond:          2.0.11-hdcc8f71_0          bioconda   
+    easel:            0.48-h779adbc_0            bioconda   
+    eggnog-mapper:    2.1.5-pyhdfd78af_0         local      
+    gawk:             5.1.0-h7f98852_0           conda-forge
+    gettext:          0.19.8.1-h0b5b191_1005     conda-forge
+    hmmer:            3.3.2-h1b792b2_1           bioconda   
+    icu:              68.1-h58526e2_0            conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    libidn2:          2.3.2-h7f98852_0           conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    libunistring:     0.9.10-h7f98852_0          conda-forge
+    lz4-c:            1.9.3-h9c3ff4c_1           conda-forge
+    mmseqs2:          13.45111-h95f258a_1        bioconda   
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1k-h7f98852_1          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    prodigal:         2.6.3-h779adbc_3           bioconda   
+    psutil:           5.8.0-py39h3811e60_1       conda-forge
+    python:           3.9.6-h49503c6_1_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h21135ba_0          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wget:             1.20.3-ha56f1ee_0          conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+    zstd:             1.5.0-ha95c52a_0           conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/eggnog-mapper_1630544234620/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/eggnog-mapper_1630544234620/test_tmp
+import: 'eggnogmapper'
+import: 'eggnogmapper'
+usage: emapper.py [-h] [-v] [--list_taxa] [--cpu NUM_CPU] [--resume]
+                  [--override] [-i FASTA_FILE]
+                  [--itype {CDS,proteins,genome,metagenome}] [--translate]
+                  [--annotate_hits_table SEED_ORTHOLOGS_FILE] [-c FILE]
+                  [--data_dir DIR] [--genepred {search,prodigal}]
+                  [--trans_table TRANS_TABLE_CODE] [--training_genome FILE]
+                  [--training_file FILE]
+                  [--allow_overlaps {none,strand,diff_frame,all}]
+                  [--overlap_tol FLOAT]
+                  [-m {diamond,mmseqs,hmmer,no_search,cache}]
+                  [--pident PIDENT] [--query_cover QUERY_COVER]
+                  [--subject_cover SUBJECT_COVER] [--evalue EVALUE]
+                  [--score SCORE] [--dmnd_db DMND_DB_FILE]
+                  [--sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}]
+                  [--dmnd_iterate]
+                  [--matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}]
+                  [--dmnd_frameshift DMND_FRAMESHIFT] [--gapopen GAPOPEN]
+                  [--gapextend GAPEXTEND] [--block_size BLOCK_SIZE]
+                  [--index_chunks CHUNKS] [--outfmt_short]
+                  [--mmseqs_db MMSEQS_DB_FILE] [--start_sens START_SENS]
+                  [--sens_steps SENS_STEPS] [--final_sens FINAL_SENS]
+                  [--mmseqs_sub_mat SUBS_MATRIX] [-d HMMER_DB_PREFIX]
+                  [--servers_list FILE] [--qtype {hmm,seq}]
+                  [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                  [--end_port PORT] [--num_servers NUM_SERVERS]
+                  [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                  [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN] [--Z DB_SIZE]
+                  [--cut_ga]
+                  [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                  [--no_annot] [--dbmem] [--seed_ortholog_evalue MIN_E-VALUE]
+                  [--seed_ortholog_score MIN_SCORE] [--tax_scope TAX_SCOPE]
+                  [--tax_scope_mode TAX_SCOPE_MODE]
+                  [--target_orthologs {one2one,many2one,one2many,many2many,all}]
+                  [--target_taxa LIST_OF_TAX_IDS]
+                  [--excluded_taxa LIST_OF_TAX_IDS] [--report_orthologs]
+                  [--go_evidence {experimental,non-electronic,all}]
+                  [--pfam_realign {none,realign,denovo}] [--md5]
+                  [--output FILE_PREFIX] [--output_dir DIR]
+                  [--scratch_dir DIR] [--temp_dir DIR] [--no_file_comments]
+                  [--decorate_gff DECORATE_GFF]
+                  [--decorate_gff_ID_field DECORATE_GFF_ID_FIELD] [--excel]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show version and exit.
+  --list_taxa           List taxa available for --tax_scope/--tax_scope_mode,
+                        and exit
+
+Execution Options:
+  --cpu NUM_CPU         Number of CPUs to be used. --cpu 0 to run with all
+                        available CPUs. Default: 1
+  --resume              Resumes a previous emapper run, skipping results in
+                        existing output files.
+  --override            Overwrites output files if they exist. By default,
+                        execution is aborted if conflicting files are
+                        detected.
+
+Input Data Options:
+  -i FASTA_FILE         Input FASTA file containing query sequences (proteins
+                        by default; see --itype and --translate). Required
+                        unless -m no_search.
+  --itype {CDS,proteins,genome,metagenome}
+                        Type of data in the input (-i) file.
+  --translate           When --itype CDS, translate CDS to proteins before
+                        search. When --itype genome/metagenome and --genepred
+                        search, translate predicted CDS from blastx hits to
+                        proteins.
+  --annotate_hits_table SEED_ORTHOLOGS_FILE
+                        Annotate TSV formatted table with 4 fields: query,
+                        hit, evalue, score. Usually, a .seed_orthologs file
+                        from a previous emapper.py run. Requires -m no_search.
+  -c FILE, --cache FILE
+                        File containing annotations and md5 hashes of queries,
+                        to be used as cache. Required if -m cache
+  --data_dir DIR        Path to eggnog-mapper databases. By default, "data/"
+                        or the path specified in the environment variable
+                        EGGNOG_DATA_DIR.
+
+Gene Prediction Options:
+  --genepred {search,prodigal}
+                        This is applied when --itype genome or --itype
+                        metagenome. search: gene prediction is inferred from
+                        Diamond/MMseqs2 blastx hits. prodigal: gene prediction
+                        is performed using Prodigal.
+  --trans_table TRANS_TABLE_CODE
+                        This option will be used for Prodigal, Diamond or
+                        MMseqs2, depending on the mode. For Diamond searches,
+                        this option corresponds to the --query-gencode option.
+                        For MMseqs2 searches, this option corresponds to the
+                        --translation-table option. For Prodigal, this option
+                        corresponds to the -g/--trans_table option. It is also
+                        used when --translate, check https://biopython.org/doc
+                        s/1.75/api/Bio.Seq.html#Bio.Seq.Seq.translate. Default
+                        is the corresponding programs defaults.
+  --training_genome FILE
+                        A genome to run Prodigal in training mode. If this
+                        parameter is used, Prodigal will run in two steps:
+                        firstly in training mode, and secondly using the
+                        training to analize the emapper input data. See
+                        Prodigal documentation about Traning mode for more
+                        info. Only used if --genepred prodigal.
+  --training_file FILE  A training file from Prodigal training mode. If this
+                        parameter is used, Prodigal will run using this
+                        training file to analyze the emapper input data. Only
+                        used if --genepred prodigal.
+  --allow_overlaps {none,strand,diff_frame,all}
+                        When using 'blastx'-based genepred (--genepred search
+                        --itype genome/metagenome) this option controls
+                        whether overlapping hits are reported or not, or if
+                        only those overlapping hits in a different strand or
+                        frame are reported. Also, the degree of accepted
+                        overlap can be controlled with --overlap_tol.
+  --overlap_tol FLOAT   This value (0-1) is the proportion such that if
+                        (overlap size / hit length) > overlap_tol, hits are
+                        considered to overlap. e.g: if overlap_tol is 0.0, any
+                        overlap is considered as such. e.g: if overlap_tol is
+                        1.0, one of the hits must overlap entirely to consider
+                        that hits do overlap.
+
+Search Options:
+  -m {diamond,mmseqs,hmmer,no_search,cache}
+                        diamond: search seed orthologs using diamond (-i is
+                        required). mmseqs: search seed orthologs using MMseqs2
+                        (-i is required). hmmer: search seed orthologs using
+                        HMMER. (-i is required). no_search: skip seed
+                        orthologs search (--annotate_hits_table is required,
+                        unless --no_annot). cache: skip seed orthologs search
+                        and annotate based on cached results (-i and -c are
+                        required). Default:diamond
+
+Search filtering common options:
+  --pident PIDENT       Report only alignments above or equal to the given
+                        percentage of identity (0-100). Default=(not used). No
+                        effect if -m hmmer.
+  --query_cover QUERY_COVER
+                        Report only alignments above or equal the given
+                        percentage of query cover (0-100). Default=(not used).
+                        No effect if -m hmmer.
+  --subject_cover SUBJECT_COVER
+                        Report only alignments above or equal the given
+                        percentage of subject cover (0-100). Default=(not
+                        used). No effect if -m hmmer.
+  --evalue EVALUE       Report only alignments below or equal the e-value
+                        threshold. Default=0.001
+  --score SCORE         Report only alignments above or equal the score
+                        threshold. Default=(not used)
+
+Diamond Search Options:
+  --dmnd_db DMND_DB_FILE
+                        Path to DIAMOND-compatible database
+  --sensmode {default,fast,mid-sensitive,sensitive,more-sensitive,very-sensitive,ultra-sensitive}
+                        Diamond's sensitivity mode. Note that emapper's
+                        default is sensitive, which is different from
+                        diamond's default, which can be activated with
+                        --sensmode default.
+  --dmnd_iterate        Activates the --iterate option of diamond for
+                        iterative searches, from faster, less sensitive modes,
+                        up to the sensitivity specified with --sensmode.
+                        Available since diamond 2.0.11.
+  --matrix {BLOSUM62,BLOSUM90,BLOSUM80,BLOSUM50,BLOSUM45,PAM250,PAM70,PAM30}
+                        Scoring matrix
+  --dmnd_frameshift DMND_FRAMESHIFT
+                        Diamond --frameshift/-F option. Not used by default.
+                        Recommended by diamond: 15.
+  --gapopen GAPOPEN     Gap open penalty
+  --gapextend GAPEXTEND
+                        Gap extend penalty
+  --block_size BLOCK_SIZE
+                        Diamond -b/--block-size option. Default is the
+                        diamond's default.
+  --index_chunks CHUNKS
+                        Diamond -c/--index-chunks option. Default is the
+                        diamond's default.
+  --outfmt_short        Diamond output will include only qseqid sseqid evalue
+                        and score. This could help obtain better performance,
+                        if also no --pident, --query_cover or --subject_cover
+                        thresholds are used. This option is ignored when the
+                        diamond search is run in blastx mode for gene
+                        prediction (see --genepred).
+
+MMseqs2 Search Options:
+  --mmseqs_db MMSEQS_DB_FILE
+                        Path to MMseqs2-compatible database
+  --start_sens START_SENS
+                        Starting sensitivity. Default=3
+  --sens_steps SENS_STEPS
+                        Number of sensitivity steps. Default=3
+  --final_sens FINAL_SENS
+                        Final sensititivy step. Default=7
+  --mmseqs_sub_mat SUBS_MATRIX
+                        Matrix to be used for --sub-mat MMseqs2 search option.
+                        Default=default used by MMseqs2
+
+HMMER Search Options:
+  -d HMMER_DB_PREFIX, --database HMMER_DB_PREFIX
+                        specify the target database for sequence searches.
+                        Choose among: euk,bact,arch, or a database loaded in a
+                        server, db.hmm:host:port (see hmm_server.py)
+  --servers_list FILE   A FILE with a list of remote hmmpgmd servers. Each row
+                        in the file represents a server, in the format
+                        'host:port'. If --servers_list is specified, host and
+                        port from -d option will be ignored.
+  --qtype {hmm,seq}     Type of input data (-i). Default: seq
+  --dbtype {hmmdb,seqdb}
+                        Type of data in DB (-db). Default: hmmdb
+  --usemem              Use this option to allocate the whole database (-d) in
+                        memory using hmmpgmd. If --dbtype hmm, the database
+                        must be a hmmpress-ed database. If --dbtype seqdb, the
+                        database must be a HMMER-format database created with
+                        esl-reformat. Database will be unloaded after
+                        execution. Note that this only works for HMMER based
+                        searches. To load the eggnog-mapper annotation DB into
+                        memory use --dbmem.
+  -p PORT, --port PORT  Port used to setup HMM server, when --usemem. Also
+                        used for --pfam_realign modes.
+  --end_port PORT       Last port to be used to setup HMM server, when
+                        --usemem. Also used for --pfam_realign modes.
+  --num_servers NUM_SERVERS
+                        When using --usemem, specify the number of servers to
+                        fire up. By default, only 1 server is used. Note that
+                        cpus specified with --cpu will be distributed among
+                        servers and workers. Also used for --pfam_realign
+                        modes.
+  --num_workers NUM_WORKERS
+                        When using --usemem, specify the number of workers per
+                        server (--num_servers) to fire up. By default, cpus
+                        specified with --cpu will be distributed among servers
+                        and workers. Also used for --pfam_realign modes.
+  --hmm_maxhits MAXHITS
+                        Max number of hits to report (0 to report all).
+                        Default=1.
+  --report_no_hits      Whether queries without hits should be included in the
+                        output table.
+  --hmm_maxseqlen MAXSEQLEN
+                        Ignore query sequences larger than `maxseqlen`.
+                        Default=5000
+  --Z DB_SIZE           Fixed database size used in phmmer/hmmscan (allows
+                        comparing e-values among databases).
+                        Default=40,000,000
+  --cut_ga              Adds the --cut_ga to hmmer commands (useful for Pfam
+                        mappings, for example). See hmmer documentation.
+  --clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans
+                        Removes those hits which overlap, keeping only the one
+                        with best evalue. Use the "all" and "clans" options
+                        when performing a hmmscan type search (i.e. domains
+                        are in the database). Use the "hmmsearch_all" and
+                        "hmmsearch_clans" options when using a hmmsearch type
+                        search (i.e. domains are the queries from -i file).
+                        The "clans" and "hmmsearch_clans" and options will
+                        only have effect for hits to/from Pfam.
+
+Annotation Options:
+  --no_annot            Skip functional annotation, reporting only hits.
+  --dbmem               Use this option to allocate the whole eggnog.db DB in
+                        memory. Database will be unloaded after execution.
+  --seed_ortholog_evalue MIN_E-VALUE
+                        Min E-value expected when searching for seed eggNOG
+                        ortholog. Queries not having a significant seed
+                        orthologs will not be annotated. Default=0.001
+  --seed_ortholog_score MIN_SCORE
+                        Min bit score expected when searching for seed eggNOG
+                        ortholog. Queries not having a significant seed
+                        orthologs will not be annotated. Default=(not used)
+  --tax_scope TAX_SCOPE
+                        Fix the taxonomic scope used for annotation, so only
+                        speciation events from a particular clade are used for
+                        functional transfer. More specifically, the
+                        --tax_scope list is intersected with the seed
+                        orthologs clades, and the resulting clades are used
+                        for annotation based on --tax_scope_mode. Note that
+                        those seed orthologs without clades intersecting with
+                        --tax_scope will be filtered out, and won't annotated.
+                        Possible arguments for --tax_scope are: 1) A path to a
+                        file defined by the user, which contains a list of tax
+                        IDs and/or tax names. 2) The name of a pre-configured
+                        tax scope, whose source is a file stored within the
+                        'eggnogmapper/annotation/tax_scopes/' directory By
+                        default, available ones are: 'auto' ('all'),
+                        'auto_broad' ('all_broad'), 'all_narrow', 'archaea',
+                        'bacteria', 'bacteria_broad', 'eukaryota',
+                        'eukaryota_broad' and 'prokaryota_broad'.3) A comma-
+                        separated list of taxonomic names and/or taxonomic
+                        IDs, sorted by preference. An example of list of tax
+                        IDs would be 2759,2157,2,1 for Eukaryota, Archaea,
+                        Bacteria and root, in that order of preference. 4)
+                        'none': do not filter out annotations based on
+                        taxonomic scope.
+  --tax_scope_mode TAX_SCOPE_MODE
+                        For a seed ortholog which passed the filter imposed by
+                        --tax_scope, --tax_scope_mode controls which specific
+                        clade, to which the seed ortholog belongs, will be
+                        used for annotation. Options: 1) broadest: use the
+                        broadest clade. 2) inner_broadest: use the broadest
+                        clade from the intersection with --tax_scope. 3)
+                        inner_narrowest: use the narrowest clade from the
+                        intersection with --tax_scope. 4) narrowest: use the
+                        narrowest clade. 5) A taxonomic scope as in
+                        --tax_scope: use this second list to intersect with
+                        seed ortholog clades and use the narrowest (as in
+                        inner_narrowest) from the intersection to annotate.
+  --target_orthologs {one2one,many2one,one2many,many2many,all}
+                        defines what type of orthologs (in relation to the
+                        seed ortholog) should be used for functional transfer
+  --target_taxa LIST_OF_TAX_IDS
+                        Only orthologs from the specified comma-separated list
+                        of taxa and all its descendants will be used for
+                        annotation transference. By default, all taxa are
+                        used.
+  --excluded_taxa LIST_OF_TAX_IDS
+                        Orthologs from the specified comma-separated list of
+                        taxa and all its descendants will not be used for
+                        annotation transference. By default, no taxa is
+                        excluded.
+  --report_orthologs    Output the list of orthologs found for each query to a
+                        .orthologs file
+  --go_evidence {experimental,non-electronic,all}
+                        Defines what type of GO terms should be used for
+                        annotation. experimental = Use only terms inferred
+                        from experimental evidence. non-electronic = Use only
+                        non-electronically curated terms
+  --pfam_realign {none,realign,denovo}
+                        Realign the queries to the PFAM domains. none = no
+                        realignment is performed. PFAM annotation will be that
+                        transferred as specify in the --pfam_transfer option.
+                        realign = queries will be realigned to the PFAM
+                        domains found according to the --pfam_transfer option.
+                        denovo = queries will be realigned to the whole PFAM
+                        database, ignoring the --pfam_transfer option. Check
+                        hmmer options (--num_servers, --num_workers, --port,
+                        --end_port) to change how the hmmpgmd server is run.
+  --md5                 Adds the md5 hash of each query as an additional field
+                        in annotations output files.
+
+Output options:
+  --output FILE_PREFIX, -o FILE_PREFIX
+                        base name for output files
+  --output_dir DIR      Where output files should be written
+  --scratch_dir DIR     Write output files in a temporary scratch dir, move
+                        them to the final output dir when finished. Speed up
+                        large computations using network file systems.
+  --temp_dir DIR        Where temporary files are created. Better if this is a
+                        local disk.
+  --no_file_comments    No header lines nor stats are included in the output
+                        files
+  --decorate_gff DECORATE_GFF
+                        Add search hits and/or annotation results to GFF file
+                        from gene prediction of a user specified one. no = no
+                        GFF decoration at all. GFF file from blastx-based gene
+                        prediction will be created anyway. yes = add search
+                        hits and/or annotations to GFF file from Prodigal or
+                        blastx-based gene prediction. FILE = decorate the
+                        specified pre-existing GFF FILE. e.g. --decorage_gff
+                        myfile.gff You change the field interpreted as ID of
+                        the feature with --decorate_gff_ID_field.
+  --decorate_gff_ID_field DECORATE_GFF_ID_FIELD
+                        Change the field used in GFF files as ID of the
+                        feature. Default: ID
+  --excel               Output annotations also in .xlsx format.
+usage: download_eggnog_data.py [-h] [-D] [-P] [-M] [-H] [-d HMMER_DBS] [-y]
+                               [-f] [-s] [-q] [--data_dir]
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -D            Do not install the diamond database
+  -P            Install the Pfam database, required for de novo annotation or
+                realignment
+  -M            Install the MMseqs2 database, required for "emapper.py -m
+                mmseqs"
+  -H            Install the HMMER database specified with "-d TAXID". Required
+                for "emapper.py -m hmmer -d TAXID"
+  -d HMMER_DBS  Tax ID of eggNOG HMM database to download. e.g. "-H -d 2" for
+                Bacteria. Required if "-H". Available tax IDs can be found at
+                http://eggnog5.embl.de/#/app/downloads.
+  -y            assume "yes" to all questions
+  -f            forces download even if the files exist
+  -s            simulate and print commands. Nothing is downloaded
+  -q            quiet_mode
+  --data_dir    Directory to use for DATA_PATH.
+[32mDownloading "eggnog.db" at $PREFIX/lib/python3.9/site-packages/data...[0m
+[36mcd $PREFIX/lib/python3.9/site-packages/data && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog.db.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.db.gz && echo Decompressing... && gunzip eggnog.db.gz -f[0m
+[32mDownloading "eggnog.taxa.db" at $PREFIX/lib/python3.9/site-packages/data...[0m
+[36mcd $PREFIX/lib/python3.9/site-packages/data && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog.taxa.tar.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog.taxa.tar.gz && echo Decompressing... && tar -zxf eggnog.taxa.tar.gz && rm eggnog.taxa.tar.gz[0m
+[32mDownloading fasta files " at $PREFIX/lib/python3.9/site-packages/data...[0m
+[36mcd $PREFIX/lib/python3.9/site-packages/data && wget -nH --user-agent=Mozilla/5.0 --relative --no-parent --reject "index.html*" --cut-dirs=4 -e robots=off -O eggnog_proteins.dmnd.gz http://eggnogdb.embl.de/download/emapperdb-5.0.2/eggnog_proteins.dmnd.gz && echo Decompressing... && gunzip eggnog_proteins.dmnd.gz -f[0m
+[1;34mSkipping Pfam database (or already present). Use -P and -f to force download[0m
+[1;34mSkipping MMseqs2 database (or already present). Use -M and -f to force download[0m
+[1;34mNo HMMER database requested. Use "-H -d taxid" to download the hmmer database for taxid[0m
+[32mFinished.[0m
+usage: hmm_mapper.py [-h] [--version] [--cpu NUM_CPU] [-i FASTA_FILE]
+                     [--translate] [--trans_table TRANS_TABLE_CODE]
+                     [-d DB_PATH] [--servers_list FILE] [--qtype {hmm,seq}]
+                     [--dbtype {hmmdb,seqdb}] [--usemem] [-p PORT]
+                     [--end_port PORT] [--num_servers NUM_SERVERS]
+                     [--num_workers NUM_WORKERS] [--hmm_maxhits MAXHITS]
+                     [--report_no_hits] [--hmm_maxseqlen MAXSEQLEN]
+                     [--hmm_evalue MIN_E-VALUE] [--hmm_score MIN_SCORE]
+                     [--hmm_qcov MIN_QCOV] [--Z DB_SIZE] [--cut_ga]
+                     [--clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans]
+                     [--output FILE_PREFIX] [--output_dir DIR]
+                     [--scratch_dir DIR] [--resume] [--override]
+                     [--temp_dir DIR] [--no_file_comments]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show version and exit.
+
+Execution Options:
+  --cpu NUM_CPU         Number of CPUs to be used. --cpu 0 to run with all
+                        available CPUs. Default: 2
+
+Input Data Options:
+  -i FASTA_FILE         Input with queries. Either a FASTA file with sequences
+                        (proteins by default; see --translate) or a HMM file
+                        with profiles (--qtype hmm)
+  --translate           Assume input sequences are CDS instead of proteins (it
+                        has effect only if --qtype seq, and also when -d is a
+                        plain FASTA file)
+  --trans_table TRANS_TABLE_CODE
+                        It is used when --translate, check https://biopython.o
+                        rg/docs/1.75/api/Bio.Seq.html#Bio.Seq.Seq.translate.
+
+HMMER Search Options:
+  -d DB_PATH, --database DB_PATH
+                        specify the target database for sequence searches.
+                        Choose among: db:host:port, or a local database.
+  --servers_list FILE   A FILE with a list of remote hmmpgmd servers. Each row
+                        in the file represents a server, in the format
+                        'host:port'. If --servers_list is specified, host and
+                        port from -d option will be ignored.
+  --qtype {hmm,seq}     Type of input data (-i). Default: seq
+  --dbtype {hmmdb,seqdb}
+                        Type of data in DB (-d). Default: hmmdb
+  --usemem              Use this option to allocate the whole database (-d) in
+                        memory using hmmpgmd. If --dbtype hmm, the database
+                        must be a hmmpress-ed database. If --dbtype seqdb, the
+                        database must be a HMMER-format database created with
+                        esl-reformat. Database will be unloaded after
+                        execution.
+  -p PORT, --port PORT  Port used to setup HMM server, when --usemem
+  --end_port PORT       Last port to be used to setup HMM server, when
+                        --usemem
+  --num_servers NUM_SERVERS
+                        When using --usemem, specify the number of servers to
+                        fire up. By default, cpus specified with --cpu will be
+                        distributed among servers and workers.
+  --num_workers NUM_WORKERS
+                        When using --usemem, specify the number of workers per
+                        server (--num_servers) to fire up. By default, cpus
+                        specified with --cpu will be distributed among servers
+                        and workers.
+  --hmm_maxhits MAXHITS
+                        Max number of hits to report (0 to report all).
+                        Default=1.
+  --report_no_hits      Whether queries without hits should be included in the
+                        output table.
+  --hmm_maxseqlen MAXSEQLEN
+                        Ignore query sequences larger than `maxseqlen`.
+                        Default=5000
+  --hmm_evalue MIN_E-VALUE
+                        E-value threshold. For example, -hmm_evalue 0.001.
+                        Default=10
+  --hmm_score MIN_SCORE
+                        Bit score threshold. For example, --hmm_score 20.
+                        Default=None
+  --hmm_qcov MIN_QCOV   min query coverage (from 0 to 1). Default=(disabled)
+  --Z DB_SIZE           Fixed database size used in phmmer/hmmscan (allows
+                        comparing e-values among databases).
+                        Default=40,000,000
+  --cut_ga              Adds the --cut_ga to hmmer commands (useful for Pfam
+                        mappings, for example). See hmmer documentation.
+  --clean_overlaps none|all|clans|hmmsearch_all|hmmsearch_clans
+                        Removes those hits which overlap, keeping only the one
+                        with best evalue. Use the "all" and "clans" options
+                        when performing a hmmscan type search (i.e. domains
+                        are in the database). Use the "hmmsearch_all" and
+                        "hmmsearch_clans" options when using a hmmsearch type
+                        search (i.e. domains are the queries from -i file).
+                        The "clans" and "hmmsearch_clans" and options will
+                        only have effecto for hits to/from Pfam.
+
+Output options:
+  --output FILE_PREFIX, -o FILE_PREFIX
+                        base name for output files
+  --output_dir DIR      Where output files should be written
+  --scratch_dir DIR     Write output files in a temporary scratch dir, move
+                        them to the final output dir when finished. Speed up
+                        large computations using network file systems.
+  --resume              Resumes a previous execution skipping reported hits in
+                        the output file.
+  --override            Overwrites output files if they exist.
+  --temp_dir DIR        Where temporary files are created. Better if this is a
+                        local disk.
+  --no_file_comments    No header lines nor stats are included in the output
+                        files
+usage: hmm_server.py [-h] [--version] [--cpu NUM_CPU] [-d HMMER_DB_PREFIX]
+                     [--dbtype {hmmdb,seqdb}] [-p PORT] [--end_port PORT]
+                     [-w PORT] [--num_servers NUM_SERVERS]
+                     [--num_workers NUM_WORKERS] [-o FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show version and exit.
+
+Execution Options:
+  --cpu NUM_CPU         Number of CPUs to be used. --cpu 0 to run with all
+                        available CPUs. Default: 2
+
+HMM Server Options:
+  -d HMMER_DB_PREFIX, --database HMMER_DB_PREFIX
+                        specify the target database for sequence searches.
+                        Choose among: euk,bact,arch, host:port, or a local
+                        "hmmpress-ed" database
+  --dbtype {hmmdb,seqdb}
+                        Type of data in DB (-db). Default: hmmdb
+  -p PORT, --port PORT  Port used by clients to connect to this HMM master
+                        server
+  --end_port PORT       Last port to be used to setup HMM server, when
+                        --usemem
+  -w PORT, --wport PORT
+                        Port used by workers to connect to this HMM master
+                        server
+  --num_servers NUM_SERVERS
+                        When using --usemem, specify the number of servers to
+                        fire up. By default, cpus specified with --cpu will be
+                        distributed among servers and workers.
+  --num_workers NUM_WORKERS
+                        When using --usemem, specify the number of workers per
+                        server (--num_servers) to fire up. By default, cpus
+                        specified with --cpu will be distributed among servers
+                        and workers.
+  -o FILE, --output_servers_list FILE
+                        Output the list of running servers to FILE.
+usage: hmm_worker.py [-h] [--version] [--cpu NUM_CPU] [-@ HOST] [-p PORT]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show version and exit.
+
+Execution Options:
+  --cpu NUM_CPU         Number of CPUs to be used. --cpu 0 to run with all
+                        available CPUs. Default: 2
+
+HMM Master Server Options:
+  -@ HOST, --host HOST  IP address or hostname of HMM master server
+  -p PORT, --port PORT  Port used to connect to the HMM master server
+
+Resource usage statistics from testing eggnog-mapper:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: eggnog-mapper-2.1.5-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
