@@ -1,0 +1,117 @@
+  Package           Version  Build          Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgfortran-ng   11.1.0  h69a702a_8     conda-forge/linux-64                    Cached
+  + libgfortran5     11.1.0  h6c583b3_8     conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng     11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + mdasim            2.1.1  h19e7193_2     /home/vsts/conda/conda-bld/linux-64      50 KB
+  + mpi                 1.0  openmpi        conda-forge/linux-64                      4 KB
+  + openmpi           4.1.1  hbfc84c5_0     conda-forge/linux-64                      4 MB
+  + zlib             1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 11 packages
+
+  Total download: 4 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mdasim-2.1.1-h19e7193_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mdasim_1630574409962/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:  0.1-conda_forge      conda-forge
+    _openmp_mutex:  4.5-1_gnu            conda-forge
+    libgcc-ng:      11.1.0-hc902ee8_8    conda-forge
+    libgfortran-ng: 11.1.0-h69a702a_8    conda-forge
+    libgfortran5:   11.1.0-h6c583b3_8    conda-forge
+    libgomp:        11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:   11.1.0-h56837e0_8    conda-forge
+    mdasim:         2.1.1-h19e7193_2     local      
+    mpi:            1.0-openmpi          conda-forge
+    openmpi:        4.1.1-hbfc84c5_0     conda-forge
+    zlib:           1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...  
+For Linux 64, Open MPI is built with CUDA awareness but this support is disabled by default.
+To enable it, please set the environment variable OMPI_MCA_opal_cuda_support=true before
+launching your MPI processes. Equivalently, you can set the MCA parameter in the command line:
+mpiexec --mca opal_cuda_support 1 ...
+ 
+In addition, the UCX support is also built but disabled by default.
+To enable it, first install UCX (conda install -c conda-forge ucx). Then, set the environment
+variables OMPI_MCA_pml="ucx" OMPI_MCA_osc="ucx" before launching your MPI processes.
+Equivalently, you can set the MCA parameters in the command line:
+mpiexec --mca pml ucx --mca osc ucx ...
+Note that you might also need to set UCX_MEMTYPE_CACHE=n for CUDA awareness via UCX.
+Please consult UCX's documentation for detail.
+ 
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/mdasim_1630574409962/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/mdasim_1630574409962/test_tmp
+
+Usage: mdasim [optional args] --input=<input.fa> --output=<mda-amplified_fasta_prefix> --primers=<primers.fasta>
+
+Note: The above used arguments have defaults, but it is recommended to explicitly set them.
+Note: Arguments that require a value are marked with an '=' sign below. This needs to be used 
+      between the argument and the value on the command line.
+
+
+	-l,--log                = file name for a log file of all single nucleotide errors that happen during amplification
+	-m,--mutationrate       = chance of a nucleotide substitution
+	-V,--version              prints the version
+	-h,--help                 shows this help
+	-v,--verbose              extended verbose for debug mode
+	-I,--input              = file name of reference DNA sequence (default: reference.fasta)
+	-O,--output             = output files prefix , `Amplicons.fasta` will be appended to the prefix (default: out)
+	-o,--outputfragments      writes the lists of fragments and primer positions at the end of simulation in two txt files suffixed by Fragments.txt and PrimerPositions.txt
+	-P,--primers            = file name of input primers in fasta format (default: primerList.fasta)
+	-p,--primerNo           = average number of initial available primers (default: input reference length * coverage / frgLngth * 1000)
+	-L,--frgLngth           = average number of synthesized bases per phi29 (default: 70,000 nt; synthesized bases per phi29 has uniform distribution; variance = frgLngth^2 / 1200)
+	-C,--coverage           = expected average coverage (default: 1000)
+	-s,--stepSize           = number of synthesized bases per phi29 in each step (default: 10000)
+	-A,--alpha              = normalized number of primers attached in each step (default: 0.5e-11)
+	-a,--attachNum          = number of primers attached per single strand of reference sequence in the first step. It can be any positive number. (overrides -A; alpha = attachNum / (input reference length * primerNo))
+	-R,--readLength         = minimum length of output amplicons (default: 10)
+	-S,--single               Input reference is amplified as a single strand sequence
+
+MDAsim 2.1.1 (MDAsim 2.1.1) 
+Author: D.Lähnemann and V.Sack
+Copyright (C) 2018
+Helmholtz Centre for Infection Reseach
+Braunschweig, Germany
+based on:
+mdasim 1.2 (MDAsim 1.2) 
+Author: Zeinab Taghavi
+Copyright (C) 2012-2013
+Wayne State University
+Detroit, MI
+
+Resource usage statistics from testing mdasim:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: mdasim-2.1.1-h19e7193_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
