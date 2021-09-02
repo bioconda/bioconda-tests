@@ -1,0 +1,115 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-graph-readwrite-2.09-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpq3cywcsl/info/recipe/conda_build_config.yaml
+  Package                    Version  Build                Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + expat                      2.4.1  he49afe7_0           conda-forge/osx-64                       143 KB
+  + libcxx                    12.0.1  habf9029_0           conda-forge/osx-64                       Cached
+  + perl                      5.26.2  hbcb3906_1008        conda-forge/osx-64                       Cached
+  + perl-carp                   1.38  pl526_3              bioconda/osx-64                           15 KB
+  + perl-constant               1.33  pl526_1              bioconda/osx-64                           10 KB
+  + perl-exporter               5.72  pl526_1              bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker     7.36  pl526_1              bioconda/osx-64                          153 KB
+  + perl-graph                0.9704  pl526_1              bioconda/osx-64                           73 KB
+  + perl-graph-readwrite        2.09  pl526_2              /Users/runner/conda/conda-bld/osx-64      26 KB
+  + perl-parent                0.236  pl526_1              bioconda/osx-64                            6 KB
+  + perl-parse-yapp             1.21  pl526_0              bioconda/osx-64                           32 KB
+  + perl-xml-parser          2.44_01  pl5262h06ef574_1002  conda-forge/osx-64                       161 KB
+  + perl-xml-writer            0.625  pl526_2              bioconda/osx-64                           19 KB
+
+  Summary:
+
+  Install: 13 packages
+
+  Total download: 651 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-graph-readwrite_1630606313186/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    expat:                   2.4.1-he49afe7_0            conda-forge
+    libcxx:                  12.0.1-habf9029_0           conda-forge
+    perl:                    5.26.2-hbcb3906_1008        conda-forge
+    perl-carp:               1.38-pl526_3                bioconda   
+    perl-constant:           1.33-pl526_1                bioconda   
+    perl-exporter:           5.72-pl526_1                bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1                bioconda   
+    perl-graph:              0.9704-pl526_1              bioconda   
+    perl-graph-readwrite:    2.09-pl526_2                local      
+    perl-parent:             0.236-pl526_1               bioconda   
+    perl-parse-yapp:         1.21-pl526_0                bioconda   
+    perl-xml-parser:         2.44_01-pl5262h06ef574_1002 conda-forge
+    perl-xml-writer:         0.625-pl526_2               bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-graph-readwrite_1630606313186/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-graph-readwrite_1630606313186/test_tmp
+import: Graph::ReadWrite
+	using version 2.09
+import: Graph::Reader
+	using version 2.09
+import: Graph::Reader::Dot
+	using version 2.09
+import: Graph::Reader::HTK
+	using version 2.09
+import: Graph::Reader::XML
+	using version 2.09
+import: Graph::Writer
+	using version 2.09
+import: Graph::Writer::Dot
+	using version 2.09
+import: Graph::Writer::HTK
+	using version 2.09
+import: Graph::Writer::VCG
+	using version 2.09
+import: Graph::Writer::XML
+	using version 2.09
+import: Graph::Writer::daVinci
+	using version 2.09
+import: Graph::ReadWrite
+	using version 2.09
+import: Graph::Reader
+	using version 2.09
+import: Graph::Reader::Dot
+	using version 2.09
+import: Graph::Reader::HTK
+	using version 2.09
+import: Graph::Reader::XML
+	using version 2.09
+import: Graph::Writer
+	using version 2.09
+import: Graph::Writer::Dot
+	using version 2.09
+import: Graph::Writer::HTK
+	using version 2.09
+import: Graph::Writer::VCG
+	using version 2.09
+import: Graph::Writer::XML
+	using version 2.09
+import: Graph::Writer::daVinci
+	using version 2.09
+
+Resource usage statistics from testing perl-graph-readwrite:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-graph-readwrite-2.09-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,333 @@
+  Package               Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu               conda-forge/linux-64                    Cached
+  + ca-certificates   2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl              1.1.1k  h7f98852_1          conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + ply                    3.11  py_1                conda-forge/noarch                       44 KB
+  + pyomo                 6.1.2  py39he80948d_0      /home/vsts/conda/conda-bld/linux-64       5 MB
+  + python                3.9.6  h49503c6_1_cpython  conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39              conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 23 packages
+
+  Total download: 5 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: pyomo-6.1.2-py39he80948d_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/pyomo_1630606036844/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge          conda-forge
+    _openmp_mutex:    4.5-1_gnu                conda-forge
+    ca-certificates:  2021.5.30-ha878542_0     conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2        conda-forge
+    libffi:           3.3-h58526e2_2           conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8        conda-forge
+    libgomp:          11.1.0-hc902ee8_8        conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8        conda-forge
+    ncurses:          6.2-h58526e2_4           conda-forge
+    openssl:          1.1.1k-h7f98852_1        conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0      conda-forge
+    ply:              3.11-py_1                conda-forge
+    pyomo:            6.1.2-py39he80948d_0     local      
+    python:           3.9.6-h49503c6_1_cpython conda-forge
+    python_abi:       3.9-2_cp39               conda-forge
+    readline:         8.1-h46c0cb4_0           conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0    conda-forge
+    sqlite:           3.36.0-h9cd32fc_0        conda-forge
+    tk:               8.6.11-h27826a3_1        conda-forge
+    tzdata:           2021a-he74cb21_1         conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:               5.2.5-h516909a_1         conda-forge
+    zlib:             1.2.11-h516909a_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/pyomo_1630606036844/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/pyomo_1630606036844/test_tmp
+import: 'pyomo'
+import: 'pyomo.bilevel'
+import: 'pyomo.bilevel.plugins'
+import: 'pyomo.checker'
+import: 'pyomo.checker.plugins'
+import: 'pyomo.checker.plugins.checkers'
+import: 'pyomo.checker.plugins.checkers.model'
+import: 'pyomo.checker.plugins.checkers.py3k'
+import: 'pyomo.checker.plugins.checkers.sample'
+import: 'pyomo.common'
+import: 'pyomo.common.collections'
+import: 'pyomo.contrib'
+import: 'pyomo.contrib.appsi'
+import: 'pyomo.contrib.appsi.cmodel'
+import: 'pyomo.contrib.appsi.examples'
+import: 'pyomo.contrib.appsi.solvers'
+import: 'pyomo.contrib.appsi.utils'
+import: 'pyomo.contrib.appsi.writers'
+import: 'pyomo.contrib.benders'
+import: 'pyomo.contrib.community_detection'
+import: 'pyomo.contrib.example'
+import: 'pyomo.contrib.example.plugins'
+import: 'pyomo.contrib.fbbt'
+import: 'pyomo.contrib.fme'
+import: 'pyomo.contrib.gdp_bounds'
+import: 'pyomo.contrib.gdpbb'
+import: 'pyomo.contrib.gdpopt'
+import: 'pyomo.contrib.incidence_analysis'
+import: 'pyomo.contrib.incidence_analysis.common'
+import: 'pyomo.contrib.interior_point'
+import: 'pyomo.contrib.interior_point.linalg'
+import: 'pyomo.contrib.mcpp'
+import: 'pyomo.contrib.mindtpy'
+import: 'pyomo.contrib.multistart'
+import: 'pyomo.contrib.parmest'
+import: 'pyomo.contrib.parmest.examples'
+import: 'pyomo.contrib.parmest.examples.reactor_design'
+import: 'pyomo.contrib.parmest.examples.rooney_biegler'
+import: 'pyomo.contrib.parmest.examples.semibatch'
+import: 'pyomo.contrib.preprocessing'
+import: 'pyomo.contrib.preprocessing.plugins'
+import: 'pyomo.contrib.pynumero'
+import: 'pyomo.contrib.pynumero.algorithms'
+import: 'pyomo.contrib.pynumero.algorithms.solvers'
+import: 'pyomo.contrib.pynumero.examples'
+import: 'pyomo.contrib.pynumero.examples.callback'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box.param_est'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box.react_example'
+import: 'pyomo.contrib.pynumero.interfaces'
+import: 'pyomo.contrib.pynumero.linalg'
+WARNING: Pynumero requires the optional Pyomo dependency "numpy" (import
+    raised ModuleNotFoundError: No module named 'numpy')
+WARNING: Pynumero requires the optional Pyomo dependency "scipy.sparse"
+    (import raised ModuleNotFoundError: No module named 'scipy')
+import: 'pyomo.contrib.pynumero.sparse'
+import: 'pyomo.contrib.pyros'
+import: 'pyomo.contrib.satsolver'
+import: 'pyomo.contrib.sensitivity_toolbox'
+import: 'pyomo.contrib.sensitivity_toolbox.examples'
+import: 'pyomo.contrib.trustregion'
+import: 'pyomo.contrib.viewer'
+import: 'pyomo.core'
+import: 'pyomo.core.base'
+import: 'pyomo.core.beta'
+import: 'pyomo.core.expr'
+import: 'pyomo.core.expr.calculus'
+import: 'pyomo.core.kernel'
+import: 'pyomo.core.kernel.piecewise_library'
+import: 'pyomo.core.plugins'
+import: 'pyomo.core.plugins.transform'
+import: 'pyomo.dae'
+import: 'pyomo.dae.plugins'
+import: 'pyomo.dataportal'
+import: 'pyomo.dataportal.plugins'
+import: 'pyomo.duality'
+import: 'pyomo.environ'
+import: 'pyomo.gdp'
+import: 'pyomo.gdp.plugins'
+import: 'pyomo.kernel'
+import: 'pyomo.mpec'
+import: 'pyomo.mpec.plugins'
+import: 'pyomo.neos'
+import: 'pyomo.neos.plugins'
+import: 'pyomo.network'
+import: 'pyomo.network.plugins'
+import: 'pyomo.opt'
+import: 'pyomo.opt.base'
+import: 'pyomo.opt.parallel'
+import: 'pyomo.opt.plugins'
+import: 'pyomo.opt.problem'
+import: 'pyomo.opt.results'
+import: 'pyomo.opt.solver'
+import: 'pyomo.opt.testing'
+import: 'pyomo.repn'
+import: 'pyomo.repn.beta'
+import: 'pyomo.repn.plugins'
+import: 'pyomo.repn.plugins.ampl'
+import: 'pyomo.scripting'
+import: 'pyomo.scripting.plugins'
+import: 'pyomo.solvers'
+import: 'pyomo.solvers.plugins'
+import: 'pyomo.solvers.plugins.converter'
+import: 'pyomo.solvers.plugins.solvers'
+import: 'pyomo.util'
+import: 'pyomo.version'
+import: 'pyomo'
+import: 'pyomo.bilevel'
+import: 'pyomo.bilevel.plugins'
+import: 'pyomo.checker'
+import: 'pyomo.checker.plugins'
+import: 'pyomo.checker.plugins.checkers'
+import: 'pyomo.checker.plugins.checkers.model'
+import: 'pyomo.checker.plugins.checkers.py3k'
+import: 'pyomo.checker.plugins.checkers.sample'
+import: 'pyomo.common'
+import: 'pyomo.common.collections'
+import: 'pyomo.contrib'
+import: 'pyomo.contrib.appsi'
+import: 'pyomo.contrib.appsi.cmodel'
+import: 'pyomo.contrib.appsi.examples'
+import: 'pyomo.contrib.appsi.solvers'
+import: 'pyomo.contrib.appsi.utils'
+import: 'pyomo.contrib.appsi.writers'
+import: 'pyomo.contrib.benders'
+import: 'pyomo.contrib.community_detection'
+import: 'pyomo.contrib.example'
+import: 'pyomo.contrib.example.plugins'
+import: 'pyomo.contrib.fbbt'
+import: 'pyomo.contrib.fme'
+import: 'pyomo.contrib.gdp_bounds'
+import: 'pyomo.contrib.gdpbb'
+import: 'pyomo.contrib.gdpopt'
+import: 'pyomo.contrib.incidence_analysis'
+import: 'pyomo.contrib.incidence_analysis.common'
+import: 'pyomo.contrib.interior_point'
+import: 'pyomo.contrib.interior_point.linalg'
+import: 'pyomo.contrib.mcpp'
+import: 'pyomo.contrib.mindtpy'
+import: 'pyomo.contrib.multistart'
+import: 'pyomo.contrib.parmest'
+import: 'pyomo.contrib.parmest.examples'
+import: 'pyomo.contrib.parmest.examples.reactor_design'
+import: 'pyomo.contrib.parmest.examples.rooney_biegler'
+import: 'pyomo.contrib.parmest.examples.semibatch'
+import: 'pyomo.contrib.preprocessing'
+import: 'pyomo.contrib.preprocessing.plugins'
+import: 'pyomo.contrib.pynumero'
+import: 'pyomo.contrib.pynumero.algorithms'
+import: 'pyomo.contrib.pynumero.algorithms.solvers'
+import: 'pyomo.contrib.pynumero.examples'
+import: 'pyomo.contrib.pynumero.examples.callback'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box.param_est'
+import: 'pyomo.contrib.pynumero.examples.external_grey_box.react_example'
+import: 'pyomo.contrib.pynumero.interfaces'
+import: 'pyomo.contrib.pynumero.linalg'
+import: 'pyomo.contrib.pynumero.sparse'
+import: 'pyomo.contrib.pyros'
+import: 'pyomo.contrib.satsolver'
+import: 'pyomo.contrib.sensitivity_toolbox'
+import: 'pyomo.contrib.sensitivity_toolbox.examples'
+import: 'pyomo.contrib.trustregion'
+import: 'pyomo.contrib.viewer'
+import: 'pyomo.core'
+import: 'pyomo.core.base'
+import: 'pyomo.core.beta'
+import: 'pyomo.core.expr'
+import: 'pyomo.core.expr.calculus'
+import: 'pyomo.core.kernel'
+import: 'pyomo.core.kernel.piecewise_library'
+import: 'pyomo.core.plugins'
+import: 'pyomo.core.plugins.transform'
+import: 'pyomo.dae'
+import: 'pyomo.dae.plugins'
+import: 'pyomo.dataportal'
+import: 'pyomo.dataportal.plugins'
+import: 'pyomo.duality'
+import: 'pyomo.environ'
+import: 'pyomo.gdp'
+import: 'pyomo.gdp.plugins'
+import: 'pyomo.kernel'
+import: 'pyomo.mpec'
+import: 'pyomo.mpec.plugins'
+import: 'pyomo.neos'
+import: 'pyomo.neos.plugins'
+import: 'pyomo.network'
+import: 'pyomo.network.plugins'
+import: 'pyomo.opt'
+import: 'pyomo.opt.base'
+import: 'pyomo.opt.parallel'
+import: 'pyomo.opt.plugins'
+import: 'pyomo.opt.problem'
+import: 'pyomo.opt.results'
+import: 'pyomo.opt.solver'
+import: 'pyomo.opt.testing'
+import: 'pyomo.repn'
+import: 'pyomo.repn.beta'
+import: 'pyomo.repn.plugins'
+import: 'pyomo.repn.plugins.ampl'
+import: 'pyomo.scripting'
+import: 'pyomo.scripting.plugins'
+import: 'pyomo.solvers'
+import: 'pyomo.solvers.plugins'
+import: 'pyomo.solvers.plugins.converter'
+import: 'pyomo.solvers.plugins.solvers'
+import: 'pyomo.util'
+import: 'pyomo.version'
+usage: pyomo [-h] [--version]
+             {build-extensions,check,convert,download-extensions,help,install-extras,model-viewer,run,solve,test-solvers}
+             ...
+
+This is the main driver for the Pyomo optimization software.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+subcommands:
+  {build-extensions,check,convert,download-extensions,help,install-extras,model-viewer,run,solve,test-solvers}
+    build-extensions    Build compiled extension modules
+    check               Check a model for errors.
+    convert             Convert a Pyomo model to another format
+    download-extensions
+                        Download compiled extension modules
+    help                Print help information.
+    install-extras      Install "extra" packages that Pyomo can leverage.
+    model-viewer        Run the Pyomo model viewer
+    run                 Execute a command from the Pyomo bin (or Scripts)
+                        directory.
+    solve               Optimize a model
+    test-solvers        Test Pyomo solvers
+
+-------------------------------------------------------------------------
+Pyomo supports a variety of modeling and optimization capabilities,
+which are executed either as subcommands of 'pyomo' or as separate
+commands.  Use the 'help' subcommand to get information about the
+capabilities installed with Pyomo.  Additionally, each subcommand
+supports independent command-line options.  Use the -h option to
+print details for a subcommand.  For example, type
+
+   pyomo solve -h
+
+to print information about the `solve` subcommand.
+
+Resource usage statistics from testing pyomo:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 32B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: pyomo-6.1.2-py39he80948d_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
