@@ -172,9 +172,12 @@ stages:
             find "${results_dir}/${package}" -mindepth 1 -maxdepth 1 -type f \! -name 'status.json' -exec git rm {} +
             mkdir -p "${results_dir}/${package}"
             for subdir in linux-64 osx-64 ; do
-              for file in '$(Pipeline.Workspace)/'"${subdir}/${package}/"* ; do
-                cp -f "${file}" "${results_dir}/${package}/${subdir}-${file##*/}"
-              done
+              platform_results_dir='$(Pipeline.Workspace)/'"${subdir}/${package}"
+              if [ -d "${platform_results_dir}" ] ; then
+                for file in "${platform_results_dir}/"* ; do
+                  cp -f "${file}" "${results_dir}/${package}/${subdir}-${file##*/}"
+                done
+              fi
             done
             git add "${results_dir}/${package}/"*
           done
