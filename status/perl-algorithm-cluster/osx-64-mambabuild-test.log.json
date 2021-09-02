@@ -1,0 +1,53 @@
+  Package                   Version  Build            Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                     5.26.2  hbcb3906_1008    conda-forge/osx-64                       14 MB
+  + perl-algorithm-cluster     1.58  pl526h1de35cc_0  /Users/runner/conda/conda-bld/osx-64     50 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 14 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-algorithm-cluster-1.58-pl526h1de35cc_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-algorithm-cluster_1630566405981/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                   5.26.2-hbcb3906_1008 conda-forge
+    perl-algorithm-cluster: 1.58-pl526h1de35cc_0 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-algorithm-cluster_1630566405981/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-algorithm-cluster_1630566405981/test_tmp
+import: Algorithm::Cluster
+	using version 1.58
+import: Algorithm::Cluster::Record
+import: Algorithm::Cluster
+	using version 1.58
+import: Algorithm::Cluster::Record
+
+Resource usage statistics from testing perl-algorithm-cluster:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 9.8M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.3
+
+
+TEST END: perl-algorithm-cluster-1.58-pl526h1de35cc_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
