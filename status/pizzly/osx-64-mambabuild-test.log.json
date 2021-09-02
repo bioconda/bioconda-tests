@@ -1,0 +1,157 @@
+  Package                 Version  Build                   Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + c-ares                 1.17.2  h0d85af4_0              conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0              conda-forge/osx-64                       Cached
+  + cached-property         1.5.2  hd8ed1ab_1              conda-forge/noarch                         4 KB
+  + cached_property         1.5.2  pyha770c72_1            conda-forge/noarch                        11 KB
+  + h5py                    3.4.0  nompi_py39hbc6cb89_100  conda-forge/osx-64                         1 MB
+  + hdf5                   1.12.1  nompi_h2f0ef1a_100      conda-forge/osx-64                         4 MB
+  + krb5                   1.19.2  hcfbf3a7_0              conda-forge/osx-64                       Cached
+  + libblas                 3.9.0  11_osx64_openblas       conda-forge/osx-64                        12 KB
+  + libcblas                3.9.0  11_osx64_openblas       conda-forge/osx-64                        11 KB
+  + libcurl                7.78.0  hf45b732_0              conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0              conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2              conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1              conda-forge/osx-64                       Cached
+  + libffi                    3.3  h046ec9c_2              conda-forge/osx-64                       Cached
+  + libgfortran             5.0.0  9_3_0_h6c81a4c_23       conda-forge/osx-64                        19 KB
+  + libgfortran5            9.3.0  h6c81a4c_23             conda-forge/osx-64                         2 MB
+  + liblapack               3.9.0  11_osx64_openblas       conda-forge/osx-64                        11 KB
+  + libnghttp2             1.43.0  h07e645a_0              conda-forge/osx-64                       Cached
+  + libopenblas            0.3.17  openmp_h3351f45_1       conda-forge/osx-64                         9 MB
+  + libssh2                1.10.0  h52ee1ee_0              conda-forge/osx-64                       Cached
+  + llvm-openmp            12.0.1  hda6cdc1_1              conda-forge/osx-64                       287 KB
+  + ncurses                   6.2  h2e338ed_4              conda-forge/osx-64                       Cached
+  + numpy                  1.21.2  py39h7eed0ac_0          conda-forge/osx-64                         6 MB
+  + openssl                1.1.1k  h0d85af4_1              conda-forge/osx-64                       Cached
+  + pip                    21.2.4  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + pizzly                 0.37.3  h470a237_3              /Users/runner/conda/conda-bld/osx-64     277 KB
+  + python                  3.9.6  hd187cdc_1_cpython      conda-forge/osx-64                       Cached
+  + python_abi                3.9  2_cp39                  conda-forge/osx-64                       Cached
+  + readline                  8.1  h05e3726_0              conda-forge/osx-64                       Cached
+  + setuptools             57.4.0  py39h6e9494a_0          conda-forge/osx-64                       Cached
+  + sqlite                 3.36.0  h23a322b_0              conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1              conda-forge/osx-64                       Cached
+  + tzdata                  2021a  he74cb21_1              conda-forge/noarch                       Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1            conda-forge/noarch                       Cached
+  + xz                      5.2.5  haf1e3a3_1              conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010           conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 36 packages
+
+  Total download: 22 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: pizzly-0.37.3-h470a237_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/pizzly_1630573600216/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    c-ares:          1.17.2-h0d85af4_0            conda-forge
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    cached-property: 1.5.2-hd8ed1ab_1             conda-forge
+    cached_property: 1.5.2-pyha770c72_1           conda-forge
+    h5py:            3.4.0-nompi_py39hbc6cb89_100 conda-forge
+    hdf5:            1.12.1-nompi_h2f0ef1a_100    conda-forge
+    krb5:            1.19.2-hcfbf3a7_0            conda-forge
+    libblas:         3.9.0-11_osx64_openblas      conda-forge
+    libcblas:        3.9.0-11_osx64_openblas      conda-forge
+    libcurl:         7.78.0-hf45b732_0            conda-forge
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libedit:         3.1.20191231-h0678c8f_2      conda-forge
+    libev:           4.33-haf1e3a3_1              conda-forge
+    libffi:          3.3-h046ec9c_2               conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23      conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23            conda-forge
+    liblapack:       3.9.0-11_osx64_openblas      conda-forge
+    libnghttp2:      1.43.0-h07e645a_0            conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1     conda-forge
+    libssh2:         1.10.0-h52ee1ee_0            conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1            conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    numpy:           1.21.2-py39h7eed0ac_0        conda-forge
+    openssl:         1.1.1k-h0d85af4_1            conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0          conda-forge
+    pizzly:          0.37.3-h470a237_3            local      
+    python:          3.9.6-hd187cdc_1_cpython     conda-forge
+    python_abi:      3.9-2_cp39                   conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0        conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    tzdata:          2021a-he74cb21_1             conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    xz:              5.2.5-haf1e3a3_1             conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/pizzly_1630573600216/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/pizzly_1630573600216/test_tmp
+pizzly
+======
+
+SYNOPSIS
+
+DESCRIPTION
+    -h, --help
+          Display the help message.
+    -k K
+          k-mer size used in kallisto
+    -a, --align-score ALIGN_SCORE
+          Maximum number of mismatches allowed (default: 2)
+    -i, --insert-size INSERT_SIZE
+          Maximum fragment size of library (default: 400)
+    -o, --output OUTPUT_PREFIX
+          Prefix for output files
+    -G, --gtf GTF
+          Annotation in GTF format
+    -C, --cache cache
+          File for caching annotation (created if not present, otherwise
+          reused from previous runs)
+    -F, --fasta FASTA
+          Fasta reference
+    --ignore-protein
+          Ignore any protein coding information in annotation
+    --version
+          Display version information.
+
+VERSION
+    Last update: 
+    pizzly version: 0.37.3
+    SeqAn version: 2.2.0
+Usage: python flatten_json.py fusion.out.json [genetable.txt]
+
+       outputs a flat table listing all gene fusions, if the output file is not
+       specified it prints to standard output
+Usage: python get_fragment_length.py H5FILE [cutoff]
+
+Prints 95 percentile fragment length
+
+       H5FILE:      abundance.h5 file produced by kallisto
+       cutoff:      percentage cutoff to use (default .95)
+
+Resource usage statistics from testing pizzly:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.4
+   Memory: 38.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:10.3
+
+
+TEST END: pizzly-0.37.3-h470a237_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
