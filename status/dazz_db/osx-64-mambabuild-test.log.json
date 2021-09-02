@@ -1,0 +1,66 @@
+  Package    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + dazz_db    1.0p2  h188c3c3_4     /Users/runner/conda/conda-bld/osx-64     207 KB
+  + zlib      1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 207 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: dazz_db-1.0p2-h188c3c3_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/dazz_db_1630614844491/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    dazz_db: 1.0p2-h188c3c3_4     local      
+    zlib:    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/dazz_db_1630614844491/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/dazz_db_1630614844491/test_tmp
+Usage: fasta2DB [-v] <path:db> ( -f<file> | -i[<name>] | <input:fasta> ... )
+Usage: DB2fasta [-vU] [-w<int(80)>] <path:db>
+Usage: quiva2DB [-vl] <path:db> ( -f<file> | -i | <input:quiva> ... )
+Usage: DB2quiva [-vU] <path:db>
+Usage: DBsplit [-af] [-x<int>] [-s<float(200.)>] <path:db|dam>
+Usage: DBdust [-b] [-w<int(64)>] [-t<double(2.)>] [-m<int(10)>] <path:db|dam>
+Usage: Catrack [-vf] <path:db|dam> <track:name>
+Usage: DBshow [-unqaUQA] [-w<int(80)>] [-m<track>]+
+Usage: DBstats  [-nu] [-b<int(1000)>] [-m<track>]+ <name:db|dam>
+Usage: DBrm <path:db|dam> ... 
+Usage: simulator <genome:dam> [-CU] [-m<int(10000)>]  [-s<int(2000)>] [-e<double(.15)>]
+Usage: fasta2DAM [-v] <path:dam> ( -f<file> | -i[<name>] | <input:fasta> ... )
+Usage: DAM2fasta [-vU] [-w<int(80)>] <path:dam>
+Usage: rangen <genlen:double> [-U] [-b<double(.5)>] [-w<int(80)>] [-r<int>]
+Usage: DBdump [-rhsaiqp] [-uU] [-m<track>]+
+Usage: arrow2DB [-v] <path:db> ( -f<file> | -i | <input:arrow> ... )
+Usage: DB2arrow [-v] [-w<int(80)>] <path:db>
+Usage: DBwipe <path:db>
+Usage: DBtrim [-af] [-x<int>] <path:db|dam>
+
+Resource usage statistics from testing dazz_db:
+   Process count: 5
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 12.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.3
+
+
+TEST END: dazz_db-1.0p2-h188c3c3_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
