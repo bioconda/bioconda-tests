@@ -1,0 +1,80 @@
+  Package  Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2    1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + fpa      0.5.1  hc96d2fc_2     /Users/runner/conda/conda-bld/osx-64     921 KB
+  + xz       5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib    1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 921 KB
+
+────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: fpa-0.5.1-hc96d2fc_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/fpa_1630560136391/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2: 1.0.8-h0d85af4_4     conda-forge
+    fpa:   0.5.1-hc96d2fc_2     local      
+    xz:    5.2.5-haf1e3a3_1     conda-forge
+    zlib:  1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/fpa_1630560136391/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/fpa_1630560136391/test_tmp
+fpa 0.5.1 Sandslash
+Pierre Marijon <pierre.marijon@inria.fr>
+fpa take long read mapping information and filter them
+
+USAGE:
+    fpa [OPTIONS] [SUBCOMMAND]
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -z, --compression-out <compression-out>
+            Output compression format, the input compression format is chosen by default [possible values: gzip, bzip2,
+            lzma, no]
+    -F, --format <format>                                  Force the format used [possible values: paf, m4]
+    -i, --input <input>                                    Path to input file, use '-' for stdin [default: -]
+        --internal-threshold <internal-match-threshold>
+            A match is internal match if overhang length > match length * internal threshold this option set internal
+            match [default: 0.8]
+    -o, --output <output>                                  Path to output file, use '-' for stdout [default: -]
+
+SUBCOMMANDS:
+    drop      fpa drop mapping match this constraints
+    gfa       fpa generate a overlap graph in gfa1 format with mapping passing filter
+    help      Prints this message or the help of the given subcommand(s)
+    index     fpa generate a index of mapping passing filter
+    keep      fpa keep only mapping match this constraints
+    rename    fpa rename reads with name you chose or with incremental counter
+
+Resource usage statistics from testing fpa:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: fpa-0.5.1-hc96d2fc_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
