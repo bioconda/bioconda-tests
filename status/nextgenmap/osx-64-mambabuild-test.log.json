@@ -1,0 +1,68 @@
+  Package             Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + binutils            1.0.1  1              conda-forge/osx-64                         6 KB
+  + cctools           973.0.1  hd9211c8_1     conda-forge/osx-64                        16 KB
+  + cctools_osx-64    973.0.1  h3e07e27_1     conda-forge/osx-64                         2 MB
+  + ld64                  609  hd2e7500_1     conda-forge/osx-64                        14 KB
+  + ld64_osx-64           609  h2487922_1     conda-forge/osx-64                         1 MB
+  + ldid                2.1.2  h7660a38_2     conda-forge/osx-64                        55 KB
+  + libcxx             12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libllvm12          12.0.1  hd011deb_2     conda-forge/osx-64                        24 MB
+  + nextgenmap          0.5.5  h04f5b5a_3     /Users/runner/conda/conda-bld/osx-64       2 MB
+  + tapi            1100.0.11  h9ce4665_0     conda-forge/osx-64                       196 KB
+  + zlib               1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 11 packages
+
+  Total download: 30 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: nextgenmap-0.5.5-h04f5b5a_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/nextgenmap_1630587280959/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    binutils:       1.0.1-1              conda-forge
+    cctools:        973.0.1-hd9211c8_1   conda-forge
+    cctools_osx-64: 973.0.1-h3e07e27_1   conda-forge
+    ld64:           609-hd2e7500_1       conda-forge
+    ld64_osx-64:    609-h2487922_1       conda-forge
+    ldid:           2.1.2-h7660a38_2     conda-forge
+    libcxx:         12.0.1-habf9029_0    conda-forge
+    libllvm12:      12.0.1-hd011deb_2    conda-forge
+    nextgenmap:     0.5.5-h04f5b5a_3     local      
+    tapi:           1100.0.11-h9ce4665_0 conda-forge
+    zlib:           1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/nextgenmap_1630587280959/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/nextgenmap_1630587280959/test_tmp
+[MAIN] NextGenMap 0.5.5
+[MAIN] ngm-utils: x64 (build Mar  2 2019 13:22:25)
+   ngm-utils  [--] <name>
+
+Resource usage statistics from testing nextgenmap:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: nextgenmap-0.5.5-h04f5b5a_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
