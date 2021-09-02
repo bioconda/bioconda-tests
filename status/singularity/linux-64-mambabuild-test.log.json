@@ -1,0 +1,167 @@
+  Package              Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex          0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex          4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + ca-certificates  2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + cni                  0.8.0  hc0beb16_0     conda-forge/linux-64                      2 MB
+  + cni-plugins          0.9.1  ha8f183a_0     conda-forge/linux-64                     38 MB
+  + icu                   68.1  h58526e2_0     conda-forge/linux-64                    Cached
+  + jq                     1.6  h36c2ea0_1000  conda-forge/linux-64                    346 KB
+  + libarchive           3.5.2  hccf745f_0     conda-forge/linux-64                    Cached
+  + libgcc-ng           11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp             11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libiconv              1.16  h516909a_0     conda-forge/linux-64                    Cached
+  + libseccomp           2.4.4  h36c2ea0_0     conda-forge/linux-64                    105 KB
+  + libstdcxx-ng        11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + libuuid             2.32.1  h7f98852_1000  conda-forge/linux-64                     28 KB
+  + libxml2             2.9.12  h72842e0_0     conda-forge/linux-64                    Cached
+  + lz4-c                1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + lzo                   2.10  h516909a_1000  conda-forge/linux-64                    Cached
+  + oniguruma          6.9.7.1  h7f98852_0     conda-forge/linux-64                    409 KB
+  + openssl             1.1.1k  h7f98852_1     conda-forge/linux-64                    Cached
+  + singularity          3.7.1  hca90b9e_0     /home/vsts/conda/conda-bld/linux-64      15 MB
+  + squashfs-tools         4.4  h6b73730_2     conda-forge/linux-64                    154 KB
+  + xz                   5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd                 1.5.0  ha95c52a_0     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 55 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: singularity-3.7.1-hca90b9e_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/singularity_1630599583027/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge      conda-forge
+    _openmp_mutex:   4.5-1_gnu            conda-forge
+    bzip2:           1.0.8-h7f98852_4     conda-forge
+    ca-certificates: 2021.5.30-ha878542_0 conda-forge
+    cni:             0.8.0-hc0beb16_0     conda-forge
+    cni-plugins:     0.9.1-ha8f183a_0     conda-forge
+    icu:             68.1-h58526e2_0      conda-forge
+    jq:              1.6-h36c2ea0_1000    conda-forge
+    libarchive:      3.5.2-hccf745f_0     conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8    conda-forge
+    libgomp:         11.1.0-hc902ee8_8    conda-forge
+    libiconv:        1.16-h516909a_0      conda-forge
+    libseccomp:      2.4.4-h36c2ea0_0     conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8    conda-forge
+    libuuid:         2.32.1-h7f98852_1000 conda-forge
+    libxml2:         2.9.12-h72842e0_0    conda-forge
+    lz4-c:           1.9.3-h9c3ff4c_1     conda-forge
+    lzo:             2.10-h516909a_1000   conda-forge
+    oniguruma:       6.9.7.1-h7f98852_0   conda-forge
+    openssl:         1.1.1k-h7f98852_1    conda-forge
+    singularity:     3.7.1-hca90b9e_0     local      
+    squashfs-tools:  4.4-h6b73730_2       conda-forge
+    xz:              5.2.5-h516909a_1     conda-forge
+    zlib:            1.2.11-h516909a_1010 conda-forge
+    zstd:            1.5.0-ha95c52a_0     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/singularity_1630599583027/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/singularity_1630599583027/test_tmp
+
+Linux container platform optimized for High Performance Computing (HPC) and
+Enterprise Performance Computing (EPC)
+
+Usage:
+  singularity [global options...]
+
+Description:
+  Singularity containers provide an application virtualization layer enabling
+  mobility of compute via both application and environment portability. With
+  Singularity one is capable of building a root file system that runs on any 
+  other Linux system where Singularity is installed.
+
+Options:
+  -c, --config string   specify a configuration file (for root or
+                        unprivileged installation only) (default
+                        "$PREFIX/etc/singularity/singularity.conf")
+  -d, --debug           print debugging information (highest verbosity)
+  -h, --help            help for singularity
+      --nocolor         print without color output (default False)
+  -q, --quiet           suppress normal output
+  -s, --silent          only print errors
+  -v, --verbose         print additional information
+      --version         version for singularity
+
+Available Commands:
+  build       Build a Singularity image
+  cache       Manage the local cache
+  capability  Manage Linux capabilities for users and groups
+  config      Manage various singularity configuration (root user only)
+  delete      Deletes requested image from the library
+  exec        Run a command within a container
+  help        Help about any command
+  inspect     Show metadata for an image
+  instance    Manage containers running as services
+  key         Manage OpenPGP keys
+  oci         Manage OCI containers
+  plugin      Manage Singularity plugins
+  pull        Pull an image from a URI
+  push        Upload image to the provided URI
+  remote      Manage singularity remote endpoints, keyservers and OCI/Docker registry credentials
+  run         Run the user-defined default command within a container
+  run-help    Show the user-defined help for an image
+  search      Search a Container Library for images
+  shell       Run a shell within a container
+  sif         siftool is a program for Singularity Image Format (SIF) file manipulation
+  sign        Attach digital signature(s) to an image
+  test        Run the user-defined tests within a container
+  verify      Verify cryptographic signatures attached to an image
+  version     Show the version for Singularity
+
+Examples:
+  $ singularity help <command> [<subcommand>]
+  $ singularity help build
+  $ singularity help instance start
+
+
+For additional help or support, please visit https://www.sylabs.io/docs/
+singularity version 3.7.1
+singularity version 3.7.1
+ _________________________________________
+< Do something unusual today. Pay a bill. >
+ -----------------------------------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+50.5KiB / 2.7MiB [>-----------------------------------------] 2 % 419.5 KiB/s 6s
+[1A[J237.5KiB / 2.7MiB [===>-------------------------------------] 9 % 988.6 KiB/s 2s
+[1A[J985.5KiB / 2.7MiB [==============>---------------------------] 36 % 2.7 MiB/s 0s
+[1A[J2.7MiB / 2.7MiB [===========================================] 100 % 5.6 MiB/s 0s
+[1A[J2.7MiB / 2.7MiB [===========================================] 100 % 5.6 MiB/s 0s
+Hello world
+
+Resource usage statistics from testing singularity:
+   Process count: 3
+   CPU time: Sys=0:00:01.3, User=0:00:05.2
+   Memory: 67.8M
+   Disk usage: 221.1K
+   Time elapsed: 0:00:14.4
+
+
+TEST END: singularity-3.7.1-hca90b9e_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

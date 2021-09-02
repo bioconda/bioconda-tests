@@ -1,0 +1,537 @@
+  Package             Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bellmans-gapc  2021.04.28  h7419bfa_0         bioconda/osx-64                          994 KB
+  + blas                2.111  openblas           conda-forge/osx-64                        12 KB
+  + blas-devel          3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + boost-cpp          1.74.0  hff03dee_4         conda-forge/osx-64                        16 MB
+  + bzip2               1.0.8  h0d85af4_4         conda-forge/osx-64                       Cached
+  + gettext          0.19.8.1  h7937167_1005      conda-forge/osx-64                         3 MB
+  + gsl                   2.6  h71c5fe9_2         conda-forge/osx-64                         3 MB
+  + icu                  68.1  h74dc148_0         conda-forge/osx-64                       Cached
+  + libblas             3.9.0  11_osx64_openblas  conda-forge/osx-64                        12 KB
+  + libcblas            3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + libcxx             12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libffi                3.3  h046ec9c_2         conda-forge/osx-64                       Cached
+  + libgfortran         5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                        19 KB
+  + libgfortran5        9.3.0  h6c81a4c_23        conda-forge/osx-64                         2 MB
+  + libiconv             1.16  haf1e3a3_0         conda-forge/osx-64                       Cached
+  + liblapack           3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + liblapacke          3.9.0  11_osx64_openblas  conda-forge/osx-64                        11 KB
+  + libopenblas        0.3.17  openmp_h3351f45_1  conda-forge/osx-64                         9 MB
+  + llvm-openmp        12.0.1  hda6cdc1_1         conda-forge/osx-64                       287 KB
+  + lz4-c               1.9.3  he49afe7_1         conda-forge/osx-64                       Cached
+  + make                  4.3  h22f3db7_1         conda-forge/osx-64                       249 KB
+  + openblas           0.3.17  openmp_h12da7db_1  conda-forge/osx-64                        10 MB
+  + perl               5.26.2  hbcb3906_1008      conda-forge/osx-64                        14 MB
+  + rnashapes           3.3.2  pl5262hb280591_0   /Users/runner/conda/conda-bld/osx-64       7 MB
+  + sed                   4.7  h3efe00b_1000      conda-forge/osx-64                       257 KB
+  + xz                  5.2.5  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + zlib               1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+  + zstd                1.5.0  h582d3a0_0         conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 28 packages
+
+  Total download: 65 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rnashapes-3.3.2-pl5262hb280591_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rnashapes_1630599523261/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    bellmans-gapc: 2021.04.28-h7419bfa_0    bioconda   
+    blas:          2.111-openblas           conda-forge
+    blas-devel:    3.9.0-11_osx64_openblas  conda-forge
+    boost-cpp:     1.74.0-hff03dee_4        conda-forge
+    bzip2:         1.0.8-h0d85af4_4         conda-forge
+    gettext:       0.19.8.1-h7937167_1005   conda-forge
+    gsl:           2.6-h71c5fe9_2           conda-forge
+    icu:           68.1-h74dc148_0          conda-forge
+    libblas:       3.9.0-11_osx64_openblas  conda-forge
+    libcblas:      3.9.0-11_osx64_openblas  conda-forge
+    libcxx:        12.0.1-habf9029_0        conda-forge
+    libffi:        3.3-h046ec9c_2           conda-forge
+    libgfortran:   5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:  9.3.0-h6c81a4c_23        conda-forge
+    libiconv:      1.16-haf1e3a3_0          conda-forge
+    liblapack:     3.9.0-11_osx64_openblas  conda-forge
+    liblapacke:    3.9.0-11_osx64_openblas  conda-forge
+    libopenblas:   0.3.17-openmp_h3351f45_1 conda-forge
+    llvm-openmp:   12.0.1-hda6cdc1_1        conda-forge
+    lz4-c:         1.9.3-he49afe7_1         conda-forge
+    make:          4.3-h22f3db7_1           conda-forge
+    openblas:      0.3.17-openmp_h12da7db_1 conda-forge
+    perl:          5.26.2-hbcb3906_1008     conda-forge
+    rnashapes:     3.3.2-pl5262hb280591_0   local      
+    sed:           4.7-h3efe00b_1000        conda-forge
+    xz:            5.2.5-haf1e3a3_1         conda-forge
+    zlib:          1.2.11-h7795811_1010     conda-forge
+    zstd:          1.5.0-h582d3a0_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rnashapes_1630599523261/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/rnashapes_1630599523261/test_tmp
+# RNAshapes: RNA secondary structure predictions
+#            version 3.3.2 (21.04.2021)
+#            Stefan Janssen (bibi-help@techfak.uni-bielefeld.de)
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+USAGE: 
+perl RNAshapes [-mode] [-options] <fasta file name or RNA sequence>
+
+ RNAshapes comes with the following different modes of predictions:
+  mfe      : Computes the single energetically most stable secondary structure
+             for the given RNA sequence. Co-optimal results will be suppressed,
+             i.e. should different prediction have the same best energy value,
+             just an arbitrary one out of them will be reported.
+             This resembles the function of the program "RNAfold" of the Vienna
+             group (see [1] and [2]). If you only use "mfe" mode, consider
+             switching to RNAfold, because their implementation is much faster,
+             due to sophisticated low level C optimisations.
+
+  subopt   : Often, the biological relevant structure is hidden among
+             suboptimal predictions. In "subopt" mode, you can also inspect all
+             suboptimal solutions up to a given threshold (see parameters
+             --absoluteDeviation and --relativeDeviation).
+             Duplicates might appear when using grammar "microstate", due to
+             its semantic ambiguity according Vienna-Dot-Bracket strings. See
+             [5] for details.
+
+  shapes   : Output of "subopt" mode is crowded by many very similar answers,
+             which make it hard to focus to the "important" changes. The
+             abstract shape concept [6] groups similar answers together and
+             reports only the best answer within such a group. Due to
+             abstraction, suboptimal analyses can be done more thorough, by
+             ignoring boring differences.
+             (see parameter --shapeLevel)
+
+  probs    : Structure probabilities are strictly correlated to their energy
+             values. Grouped together into shape classes, their probabilities
+             add up. Often a shape class with many members of worse energy
+             becomes more probable than the shape containing the mfe structure
+             but not much more members. See [7] for details on shape
+             probabilities.
+
+  sample   : Probabilistic sampling based on partition function. This mode
+             combines stochastic sampling with a-posteriori shape abstraction.
+             A sample from the structure space holds M structures together with
+             their shapes, on which classification is performed. The
+             probability of a shape can then be approximated by its frequency
+             in the sample.
+
+  cast     : This mode is the RNAcast approache, see [8].
+             For a family of RNA sequences, this method independently
+             enumerates the near-optimal abstract shape space, and predicts as
+             the consensus an abstract shape common to all sequences. For each
+             sequence, it delivers the thermodynamically best structure which
+             has this common shape.
+             Input is a multiple fasta file, which should contain at least two
+             sequences.
+             Output is sorted by "score" of common shapes, i.e. summed free
+             energy of all sequences. R is the rank (= list position) of the
+             shape in individual sequence analysis.
+
+  eval     : Evaluates the free energy of an RNA molecule in fixed secondary
+             structure, similar to RNAeval from the Vienna group. Multiple
+             answers stem from semantic ambiguity of the underlying grammar.
+             It might happen, that your given structure is not a structure for
+             the sequence. Maybe your settings are too restrictive, e.g. not
+             allowing lonely base-pairs (--allowLP).
+             If you input a (multiple) FASTA file, RNAshapes assumes that
+             exactly first half of the contents of each entry is RNA sequence,
+             second half is the according structure. Whitespaces are ignored.
+
+  abstract : Converts a Vienna-Dot-Bracket representation of a secondary
+             structure into a shape string.
+
+  outside  : Applies the "outside"-algorithm to compute probabilities for all
+             base pairs (i,j), based on the partition function [10]. Output is
+             a PostScript file, visualizing these probabilities as a "dot
+             plot".
+             The "dot plot" shows a matrix of squares with area proportional to
+             the base pair probabilities in the upper right half. For each pair
+             (i,j) with probability above --bppmThreshold there is a line of
+             the form
+             i j sqrt(p) ubox
+             in the PostScript file, so that they can be easily extracted.
+
+  mea      : Finds the secondary structure with the maximal sum of base-pair
+             probabilities (MEA=maximal expected accuracy). The equivalent
+             Vienna Package name is the 'centroid secondary structure', defined
+             as 'The centroid structure is the structure with the minimum total
+             base-pair distance to all structures in the thermodynamic
+             ensemble.'.
+
+  probing  : Structural probing is a wet-lab method to obtain hints about the
+             likelihood of a nucleotide in a structure to be unpaired, a so
+             called 'reactivity' [12]. We use the reactivities to enrich the
+             thermodynamic model. To circumvent the challenge of properly
+             weighting free energies and reactivities, as in e.g. RNAstructure
+             [13], we compute a pareto front of both optimization criteria
+             [14]'. This returns a set of equally good candidates, which
+             represent interesting spots of the structural ensemble. Finally,
+             the user has to pick his/her favorite.
+
+GENERAL OPTIONS:
+  --mode <string> : Select the computation mode. Available modes are "mfe",
+                    "subopt", "shapes", "probs", "sample", "cast", "eval",
+                    "abstract", "outside", "mea", "probing". Omit the ticks on
+                    input.
+                    Default is "shapes".
+
+  --absoluteDeviation <float> : This sets the energy range as an absolute value
+                                of the minimum free energy. For example, when
+                                --absoluteDeviation 10.0 is specified, and the
+                                minimum free energy is -10.0 kcal/mol, the
+                                energy range is set to 0.0 to -10.0 kcal/mol.
+                                <float> must be a positive floating point
+                                number.
+                                Connot be combined with --relativeDeviation.
+                                Only available in modes: "subopt", "shapes",
+                                "cast".
+
+  --relativeDeviation <float> : This sets the energy range as percentage value
+                                of the minimum free energy. For example, when
+                                --relativeDeviation 5.0 is specified, and the
+                                minimum free energy is -10.0 kcal/mol, the
+                                energy range is set to -9.5 to -10.0 kcal/mol.
+                                <float> must be a positive floating point
+                                number.
+                                By default, --relativeDeviation is set to 10 %.
+                                Cannot be combined with --absoluteDeviation.
+                                Only available in modes: "subopt", "shapes",
+                                "cast".
+
+  --shapeLevel <int> : Set shape abstraction level. Currently, we provide five
+                       different levels (see [6] for their definitions), where
+                       5 is the most abstract and 1 the most concrete one.
+                       <int> must be a number between 5 and 1.
+                       Default is 5 (the most abstract one).
+                       Only available in modes: "mfe", "subopt", "shapes",
+                       "probs", "sample", "cast", "eval", "abstract", "mea",
+                       "probing".
+
+  --lowProbFilter <float> : This option sets a barrier for filtering out
+                            results with very low probabilities during
+                            calculation. The default value here is 1e-06, which
+                            gives a significant speedup compared to a disabled
+                            filter. (See [7] for details.) Note that this
+                            filter can have a slight influence on the overall
+                            results. To disable this filter, use option
+                            --lowProbFilter 0.
+                            <float> must be a positive floating point number
+                            smaller than 1.
+                            Only available in mode: "probs".
+
+  --outputLowProbFilter <float> : This option sets a filter for omitting low
+                                  probability results during output. It is just
+                                  for reporting convenience. Unlike probability
+                                  cutoff filter, this option does not have any
+                                  influence on runtime or probabilities beyond
+                                  this value. To disable this filter, use
+                                  option --outputLowProbFilter 0.
+                                  <float> must be a positive floating point
+                                  number smaller than 1.
+                                  Only available in modes: "probs", "sample".
+
+  --numSamples <int> : Sets the number of samples that are drawn to estimate
+                       shape probabilities.
+                       In our experience, 1000 iterations are sufficient to
+                       achieve reasonable results for shapes with high
+                       probability. Thus, default is 1000.
+                       Only available in mode: "sample".
+
+  --showSamples <int> : You can inspect the samples drawn by stochastic
+                        backtrace if you turn --showSamples on by setting it to
+                        1.
+                        Default is 0 = off.
+                        Only available in mode: "sample".
+
+  --windowSize <int> : Activates window mode and computes substrings of size
+                       <int> for the input. After computation for the first
+                       <int> bases is done, the window is pushed <y> bases to
+                       the right and the next computation is startet. <y> is
+                       set by --windowIncrement.
+                       <int> must be a non-zero positive integer, smaller than
+                       the input length.
+                       Only available in modes: "mfe", "subopt", "shapes",
+                       "probs", "sample", "mea", "probing".
+
+  --windowIncrement <int> : If --windowSize is given, this parameter sets the
+                            offset for the next window to <int> bases.
+                            <int> must be a non-zero positive integer, smaller
+                            than --windowSize.
+                            Default is 1.
+                            Only available in modes: "mfe", "subopt", "shapes",
+                            "probs", "sample", "mea", "probing".
+
+  --structureProbs <int> : If activated, in addition to free energy also the
+                           probability of structures will be computed. To speed
+                           up computation, this calculation is switched off by
+                           default.
+                           Only available in modes: "mfe", "subopt", "shapes",
+                           "probs", "sample", "cast", "mea", "probing".
+
+FOLDING OPTIONS:
+  --grammar <string> : How to treat "dangling end" energies for bases adjacent
+                       to helices in free ends and multi-loops.
+                       
+                       "nodangle" (-d 0 in Vienna package) ignores dangling
+                       energies altogether.
+                       
+                       "overdangle" (-d 2 in Vienna package) always dangles
+                       bases onto helices, even if they are part of neighboring
+                       helices themselves. Seems to be wrong, but could perform
+                       surprisingly well.
+                       
+                       "microstate" (-d 1 in Vienna package) correct
+                       optimisation of all dangling possibilities,
+                       unfortunately this results in an semantically ambiguous
+                       search space regarding Vienna-Dot-Bracket notations.
+                       
+                       "macrostate" (no correspondens in Vienna package) same
+                       as microstate, while staying unambiguous. Unfortunately,
+                       mfe computation violates Bellman's principle of
+                       optimality.
+                       Default is "macrostate". See [5] for further details.
+
+  --temperature <float> : Rescale energy parameters to a temperature of temp C.
+                          <float> must be a floating point number.
+                          Default is 37 C.
+                          Only available in modes: "mfe", "subopt", "shapes",
+                          "probs", "sample", "cast", "eval", "outside", "mea",
+                          "probing".
+
+  --param <paramfile> : Read energy parameters from paramfile, instead of using
+                        the default parameter set. See the RNAlib (Vienna RNA
+                        package) documentation for details on the file format.
+                        Default are parameters released by the Turner group in
+                        2004 (see [3] and [4]).
+                        Only available in modes: "mfe", "subopt", "shapes",
+                        "probs", "sample", "cast", "eval", "outside", "mea",
+                        "probing".
+
+  --allowLP <int> : Lonely base pairs have no stabilizing effect, because they
+                    cannot stack on another pair, but they heavily increase the
+                    size of the folding space. Thus, we normally forbid them.
+                    Should you want to allow them set <int> to 1.
+                    <int> must be 0 (=don't allow lonely base pairs) or 1 (=
+                    allow them).
+                    Default is 0, i.e. no lonely base pairs.
+
+OUTSIDE OPTIONS:
+  --bppmThreshold <float> : Set the threshold for base pair probabilities
+                            included in the postscript output.
+                            Default is 1e-05.
+                            Only available in mode: "outside".
+
+  --dotplot <string> : Sets the filename for the probability dot plot, produced
+                       in "outside" mode.
+                       Default is "dotPlot.ps".
+                       Only available in mode: "outside".
+
+  --png <int> : Activate this option to also produce a png file of the "dot
+                plot". This is deactivated by default and requires an
+                installation of the program "GhostScript".
+                Only available in mode: "outside".
+
+SYSTEM OPTIONS:
+  --binPath <string> : RNAshapes expects that according Bellman's GAP compiled
+                       binaries are located in the same directory as the Perl
+                       wrapper is. Should you moved them into another
+                       directory, you must set --binPath to this new location!
+
+  --binPrefix <string> : RNAshapes expects a special naming schema for the
+                         according Bellman's GAP compiled binaries. The binary
+                         name is composed of three to four components:
+                         1) the program prefix (on default "RNAshapes_"),
+                         2) the mode,
+                         3) the used grammar,
+                         4) optionally, the word "window" if you activate
+                         window computation.
+                         Thus, for non-window mode "subopt", with grammar
+                         "overdangle" and "mis" representation, the name would
+                         be "RNAshapes_subopt_overdangle".
+                         With --binPrefix you can change the prefix into some
+                         arbitary one.
+
+  --probDecimals <int> : Sets the number of digits used for printing shape
+                         probabilities.
+                         <int> must be a positive integer number.
+                         Default is 7.
+                         Also sets the number of displayed decimals for
+                         reactivity values if mode 'probing' is used.
+                         Only available in modes: "probs", "sample", "mea",
+                         "probing".
+
+  --help : show this brief help on version and usage
+
+  --verbose <int> : Prints the actual command for Bellman's GAP binary.
+
+  --varna <string> : Provide a file name to which a HTML formatted version of
+                     the output should be saved in.
+                     Only available in modes: "mfe", "subopt", "shapes",
+                     "probs", "sample", "cast", "eval", "mea", "probing".
+
+STRUCTURE PROBING OPTIONS:
+  --slope <float> : The program RNAstructure [13] adds a bonus to the free
+                    energy of a base-pair stack according to the formula: bonus
+                    = slope * log(reactivity + 1) + intercept. If you set
+                    --normalization to 'RNAstructure', reactivities are
+                    normalized according to this spirit, but added for all
+                    base-pairs and substracted for all unpaired bases. Default
+                    is 1.8.
+                    Only available in mode: "probing".
+
+  --intercept <float> : See parameter --slope: sets the value for 'intercept'.
+                        Only effective if --normalization is set to
+                        'RNAstructure'. Default is -0.6.
+                        Only available in mode: "probing".
+
+  --normalization <string> : The reactivities read from a file (see
+                             --reactivityfilename) can be normalized in four
+                             ways. Non zero values are always set to be 0.0:
+                             'centroid': a 2-means clustering of all raw
+                             reactivities gives a centroid value for 'paired'
+                             and another for 'unpaired' values. The difference
+                             to the respective centroid, given by the
+                             structure, is added to the score.
+                             'asProbabilities': All reactivities are converted
+                             into probabilities ranging from 0.0 to 1.0.
+                             'logplain': reactivities are transformed via the
+                             formula: log(reactivity + 1.0).
+                             'RNAstructure': reactivities are normalized as in
+                             the program RNAstructure, i.e. basically by the
+                             formula: slope * log(reactivity + 1.0) +
+                             intercept.
+                             Default is centroid.
+                             Only available in mode: "probing".
+
+  --modifier <string> : The modifier is the chemical reagent in a structure
+                        probing experiment that attacs the nucleotide which in
+                        the end gives its reactivity. Different modifier affect
+                        different bases. Reactivities given by the file
+                        --reactivityfilename will be set to zero if the
+                        modifier cannot affect a base. Available modifier are:
+                        'DMS' affects [A,C]
+                        'CMCT' affects [G,U]
+                        'SHAPE' affects [A,C,G,U]
+                        'diffSHAPE' affects [A,C,G,U]
+                        'unknown' affects [A,C,G,U]
+                        Default is unknown.
+                        Only available in mode: "probing".
+
+  --reactivityfilename <string> : The path to a file containing the raw
+                                  reactivity values. The file must contain two
+                                  tabular separated columns. First column is
+                                  the index of the nucleotide, starting with 1.
+                                  The second column is a float value giving the
+                                  reactivity for that nucleotide. There must be
+                                  as many rows as nucleotides in the input RNA
+                                  sequence!
+                                  Only available in mode: "probing".
+
+REFERENCES:
+[1] Ronny Lorenz, Stephan H Bernhart, Christian Hoener zu Siederdissen, Hakim
+    Tafer, Christoph Flamm, Peter F Stadler, Ivo L Hofacker.
+    "ViennaRNA Package 2.0."
+    Algorithms Molecular Biology 2011. doi:10.1186/1748-7188-6-26.
+
+[2] Andreas R Gruber, Ronny Lorenz, Stephan H Bernhart, Richard Neuboeck, Ivo L
+    Hofacker.
+    "The Vienna RNA Websuite."
+    Nucleic Acids Research 2008. doi:10.1093/nar/gkn188.
+
+[3] David H Mathews, Matthew D Disney, Jessica L Childs, Susan J Schroeder,
+    Michael Zuker, Douglas H Turner.
+    "Incorporating chemical modification constraints into a dynamic programming
+    algorithm for prediction of RNA secondary structure."
+    Proceedings of the National Academy of Sciences of the United States of
+    America 2004. doi:10.1073/pnas.0401799101
+
+[4] Douglas H Turner, David H Mathews.
+    "NNDB: The nearest neighbor parameter database for predicting stability of
+    nucleic acid secondary structure."
+    Nucleic Acids Research 2009. doi:10.1093/nar/gkp892
+
+[5] Stefan Janssen, Christian Schudoma, Gerhard Steger, Robert Giegerich.
+    "Lost in folding space? Comparing four variants of the thermodynamic model
+    for RNA secondary structure prediction."
+    BMC Bioinformatics 2011. doi:10.1186/1471-2105-12-429
+
+[6] Stefan Janssen, Robert Giegerich.
+    "Faster computation of exact RNA shape probabilities."
+    Bioinformatics 2010. doi:10.1093/bioinformatics/btq014
+
+[7] Bjoern Voss, Robert Giegerich, Marc Rehmsmeier.
+    "Complete probabilistic analysis of RNA shapes."
+    BMC Biology 2006. doi:10.1186/1741-7007-4-5
+
+[8] Jens Reeder, Robert Giegerich.
+    "Consensus shapes: an alternative to the Sankoff algorithm for RNA
+    consensus structure prediction."
+    Bioinformatics 2005. doi:10.1093/bioinformatics/bti577
+
+[9] Peter Steffen, Bjoern Voss, Marc Rehmsmeier, Jens Reeder, Robert Giegerich.
+    "RNAshapes: an integrated RNA analysis package based on abstract shapes."
+    Bioinformatics 2006. doi:10.1093/bioinformatics/btk010
+
+[10] John S McCaskill.
+     "The Equilibrium Partition Function and Base Pair Binding Probabilities
+     for RNA Secondary Structure."
+     Biopolymers, 1990.
+
+[11] Robert Giegerich, Bjoern Voss, Marc Rehmsmeier.
+     "Abstract Shapes of RNA."
+     Nucleic Acids Research 2004. doi:10.1093/nar/gkh779
+
+[12] Kevin M Weeks.
+     "Advances in RNA Secondary and Tertiary Structure Analysis by Chemical
+     Probing."
+     Current Opinion in Structural Biology 2010. doi:10.1016/j.sbi.2010.04.001
+
+[13] Katherine E Deigan, Tian W Li, David H Mathews, Kevin M Weeks.
+     "Accurate SHAPE-directed RNA structure determination."
+     Proceedings of the National Academy of Sciences 2009.
+     doi:10.1073/pnas.0806929106
+
+[14] Cedric Saule, Robert Giegerich.
+     "Pareto optimization in algebraic dynamic programming."
+     Algorithms for Molecular Biology 2015. doi:10.1186/s13015-015-0051-7
+
+CITATION:
+    If you use this program in your work you might want to cite:
+
+[15] Stefan Janssen, Robert Giegerich.
+     "The RNA shapes studio."
+     Bioinformatics 2014. doi:10.1093/bioinformatics/btu649
+
+>unnamed sequence
+    1  CGCAUGCUAGUCGCG  15
+-0.90  (((.........)))  []
+
+Resource usage statistics from testing rnashapes:
+   Process count: 7
+   CPU time: Sys=0:00:01.8, User=0:00:01.0
+   Memory: 92.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:24.7
+
+
+TEST END: rnashapes-3.3.2-pl5262hb280591_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
