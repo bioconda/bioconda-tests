@@ -1,0 +1,171 @@
+  Package     Version  Build       Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────
+
+  + mgltools    1.5.7  h9ee0642_1  /home/vsts/conda/conda-bld/linux-64     107 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 107 MB
+
+───────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mgltools-1.5.7-h9ee0642_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mgltools_1630585397162/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    mgltools: 1.5.7-h9ee0642_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/mgltools_1630585397162/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/mgltools_1630585397162/test_tmp
+usage: pmv <options>
+            -h or --help          : print this message
+            -a or --again         : play back lastlog file
+            --overwriteLog        : overwrite log file
+            --uniqueLog           : create a log file with a unique name
+            --noLog               : turn off logging
+            --noGUI               : start PMV without the Graphical User Interface
+            -s or --noSplash      : turn off Splash Screen
+            --die                 : do not start GUI event loop
+            --customizer file     : run the user specified file
+            --lib packageName     : add a libraries of commands
+            -p or --ipython       : create an ipython shell instead of a python shell        
+            -v r or --vision run  : run vision networks on the command line
+            -v o or --vision once : run vision networks and exit PMV
+    
+        --update [nightly|tested|clear] : update MGLTools
+                if no arguments are given Update Manager GUI is provided
+                'nightly': download and install Nightly Builds
+                'tested' : download and install tested Nightly Builds
+                'clear'  : clear/uninstall all the updates      
+    
+        -d or --dmode modes : specify a display mode
+                modes can be any a combination of display mode
+               'cpk'  : cpk
+               'lines': lines
+               'ss'   : secondary structure ribbon
+               'sb'   : sticks and balls
+               'lic'  : licorice
+               'ms'   : molecular surface
+               'ca'   : C-alpha trace
+               'bt'   : backbone trace
+               'sp'   : CA-spline
+               'sssb' : secondary structure for proteins,
+                        sticks and balls for other residues with bonds
+                        lines for other residues without bonds
+    
+        -c or --cmode modes : specify a display mode color scheme:
+                'ca' : color by atom
+                'cr' : color by residue (RASMOL scheme)
+                'cc' : color by chain
+                'cm' : color by molecule
+                'cdg': color using David Goodsell's scheme
+                'cs' : color residues using Shapely scheme
+                'css': color by secondary structure element
+                
+              example:
+              display protein as ribbon, non protein as sticks and balls
+              and color by atom type
+                 pmv -i --dmode sssb --cmode cr myprot.pdb
+                 pmv -i -m sssb -c cr myprot.pdb
+    
+    
+prepare_ligand4: ligand filename must be specified.
+Usage: prepare_ligand4.py -l filename
+
+    Description of command...
+         -l     ligand_filename (.pdb or .mol2 or .pdbq format)
+    Optional parameters:
+        [-v]    verbose output
+        [-o pdbqt_filename] (default output filename is ligand_filename_stem + .pdbqt)
+        [-d]    dictionary to write types list and number of active torsions 
+        [-A]    type(s) of repairs to make:
+		 bonds_hydrogens, bonds, hydrogens (default is to do no repairs)
+        [-C]    do not add charges (default is to add gasteiger charges)
+        [-p]    preserve input charges on an atom type, eg -p Zn
+               (default is not to preserve charges on any specific atom type)
+        [-U]    cleanup type:
+		 nphs_lps, nphs, lps, '' (default is 'nphs_lps') 
+        [-B]    type(s) of bonds to allow to rotate 
+               (default sets 'backbone' rotatable and 'amide' + 'guanidinium' non-rotatable)
+        [-R]    index for root
+        [-F]    check for and use largest non-bonded fragment (default is not to do this)
+        [-M]    interactive (default is automatic output)
+        [-I]    string of bonds to inactivate composed of 
+                   of zero-based atom indices eg 5_13_2_10  
+                   will inactivate atoms[5]-atoms[13] bond 
+                               and atoms[2]-atoms[10] bond 
+                      (default is not to inactivate any specific bonds)
+        [-Z]    inactivate all active torsions     
+                      (default is leave all rotatable active except amide and guanidinium)
+        [-g]    attach all nonbonded fragments 
+        [-s]    attach all nonbonded singletons: 
+                   NB: sets attach all nonbonded fragments too
+                      (default is not to do this)
+        [-w]   assign each ligand atom a unique name: newname is original name plus its index(1-based)
+prepare_receptor4: receptor filename must be specified.
+Usage: prepare_receptor4.py -r filename
+
+    Description of command...
+         -r   receptor_filename 
+        supported file types include pdb,mol2,pdbq,pdbqs,pdbqt, possibly pqr,cif
+    Optional parameters:
+        [-v]  verbose output (default is minimal output)
+        [-o pdbqt_filename]  (default is 'molecule_name.pdbqt')
+        [-A]  type(s) of repairs to make: 
+             'bonds_hydrogens': build bonds and add hydrogens 
+             'bonds': build a single bond from each atom with no bonds to its closest neighbor
+             'hydrogens': add hydrogens
+             'checkhydrogens': add hydrogens only if there are none already
+             'None': do not make any repairs 
+             (default is 'None')
+        [-C]  preserve all input charges ie do not add new charges 
+             (default is addition of gasteiger charges)
+        [-p]  preserve input charges on specific atom types, eg -p Zn -p Fe
+        [-U]  cleanup type:
+             'nphs': merge charges and remove non-polar hydrogens
+             'lps': merge charges and remove lone pairs
+             'waters': remove water residues
+             'nonstdres': remove chains composed entirely of residues of
+                      types other than the standard 20 amino acids
+             'deleteAltB': remove XX@B atoms and rename XX@A atoms->XX
+             (default is 'nphs_lps_waters_nonstdres') 
+        [-e]  delete every nonstd residue from any chain
+              'True': any residue whose name is not in this list:
+                      ['CYS','ILE','SER','VAL','GLN','LYS','ASN', 
+                      'PRO','THR','PHE','ALA','HIS','GLY','ASP', 
+                      'LEU', 'ARG', 'TRP', 'GLU', 'TYR','MET', 
+                      'HID', 'HSP', 'HIE', 'HIP', 'CYX', 'CSS']
+              will be deleted from any chain. 
+              NB: there are no  nucleic acid residue names at all 
+              in the list and no metals. 
+             (default is False which means not to do this)
+        [-M]  interactive 
+             (default is 'automatic': outputfile is written with no further user input)
+        [-d dictionary_filename] file to contain receptor summary information
+        [-w]   assign each receptor atom a unique name: newname is original name plus its index(1-based)
+
+Resource usage statistics from testing mgltools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: mgltools-1.5.7-h9ee0642_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
