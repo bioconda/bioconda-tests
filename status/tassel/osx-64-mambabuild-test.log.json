@@ -1,0 +1,265 @@
+  Package     Version  Build             Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx     12.0.1  habf9029_0        conda-forge/osx-64                       Cached
+  + openjdk  11.0.9.1  hcf210ce_1        conda-forge/osx-64                       169 MB
+  + perl       5.32.1  0_h0d85af4_perl5  conda-forge/osx-64                        13 MB
+  + tassel     5.2.40  hdfd78af_3        /Users/runner/conda/conda-bld/osx-64      32 MB
+  + zlib       1.2.11  h7795811_1010     conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 215 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: tassel-5.2.40-hdfd78af_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/tassel_1630614667690/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:  12.0.1-habf9029_0       conda-forge
+    openjdk: 11.0.9.1-hcf210ce_1     conda-forge
+    perl:    5.32.1-0_h0d85af4_perl5 conda-forge
+    tassel:  5.2.40-hdfd78af_3       local      
+    zlib:    1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/tassel_1630614667690/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/tassel_1630614667690/test_tmp
+$PREFIX/share/tassel-5.2.40-3/lib/jhdf5-14.12.5.jar:$PREFIX/share/tassel-5.2.40-3/lib/javax.json-1.0.4.jar:$PREFIX/share/tassel-5.2.40-3/lib/junit-4.10.jar:$PREFIX/share/tassel-5.2.40-3/lib/guava-22.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/ejml-0.23.jar:$PREFIX/share/tassel-5.2.40-3/lib/ahocorasick-0.2.4.jar:$PREFIX/share/tassel-5.2.40-3/lib/forester-1.038.jar:$PREFIX/share/tassel-5.2.40-3/lib/jfreechart-1.0.19.jar:$PREFIX/share/tassel-5.2.40-3/lib/log4j-1.2.13.jar:$PREFIX/share/tassel-5.2.40-3/lib/colt-1.2.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/biojava-alignment-4.0.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/json-simple-1.1.1.jar:$PREFIX/share/tassel-5.2.40-3/lib/commons-math3-3.4.1.jar:$PREFIX/share/tassel-5.2.40-3/lib/snappy-java-1.1.1.6.jar:$PREFIX/share/tassel-5.2.40-3/lib/mail-1.4.jar:$PREFIX/share/tassel-5.2.40-3/lib/commons-codec-1.10.jar:$PREFIX/share/tassel-5.2.40-3/lib/biojava-phylo-4.0.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/jfreesvg-3.2.jar:$PREFIX/share/tassel-5.2.40-3/lib/itextpdf-5.1.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/slf4j-simple-1.7.10.jar:$PREFIX/share/tassel-5.2.40-3/lib/biojava-core-4.0.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/postgresql-9.4-1201.jdbc41.jar:$PREFIX/share/tassel-5.2.40-3/lib/jcommon-1.0.23.jar:$PREFIX/share/tassel-5.2.40-3/lib/htsjdk-2.11.0.jar:$PREFIX/share/tassel-5.2.40-3/lib/sqlite-jdbc-3.8.5-pre1.jar:$PREFIX/share/tassel-5.2.40-3/lib/slf4j-api-1.7.10.jar:$PREFIX/share/tassel-5.2.40-3/lib/trove-3.0.3.jar:$PREFIX/share/tassel-5.2.40-3/sTASSEL.jar
+Memory Settings: -Xms512m -Xmx1536m
+Tassel Pipeline Arguments: -ListPlugins
+[main] INFO net.maizegenetics.tassel.TasselLogging - Tassel Version: 5.2.40  Date: October 26, 2017
+[main] INFO net.maizegenetics.tassel.TasselLogging - Max Available Memory Reported by JVM: 1536 MB
+[main] INFO net.maizegenetics.tassel.TasselLogging - Java Version: 11.0.9.1
+[main] INFO net.maizegenetics.tassel.TasselLogging - OS: Mac OS X
+[main] INFO net.maizegenetics.tassel.TasselLogging - Number of Processors: 3
+[main] INFO net.maizegenetics.pipeline.TasselPipeline - Tassel Pipeline Arguments: [-fork1, -ListPlugins, -runfork1]
+net.maizegenetics.analysis.ListPlugins
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Starting net.maizegenetics.analysis.ListPlugins: time: Sep 2, 2021 20:32:23
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - 
+ListPlugins Parameters
+full: false
+usage: false
+
+[pool-1-thread-1] INFO net.maizegenetics.matrixalgebra.Matrix.DoubleMatrixFactory - TasselBlas library for system-specific BLAS/LAPACK not found. Using system-independent EJML for DoubleMatrix operations.
+AMatrixPlugin
+AbstractDisplayPlugin
+AbstractPlugin
+AddDistanceMatrixPlugin
+AddReferenceAlleleToHDF5Plugin
+AdditiveSiteStorePlugin
+AdjustPhasingPlugin
+AnnotateTOPMwSAMPlugin
+ArchaeopteryxPlugin
+AvgPhenotypeByTaxaPlugin
+BinaryToTextPlugin
+BoxCoxTransformationPlugin
+BuildUnfinishedHDF5GenotypesPlugin
+CallParentAllelesPlugin
+ChartDisplayPlugin
+ClusterGenotypesPlugin
+ColumnsToBinaryFullGenomeTablePlugin
+ColumnsToBinarySNPOnlyTablePlugin
+CombineDataSetsPlugin
+CompareGenosBetweenHapMapFilesPlugin
+ContigPETagCountPlugin
+ConvertAlignmentCoordinatesPlugin
+CreateHybridGenotypesPlugin
+CreateTreePlugin
+DiscoverySNPCallerPlugin
+DiscoverySNPCallerPluginV2
+DistanceMatrixPlugin
+DistanceMatrixRangesPlugin
+EqtlAssociationPlugin
+ExportMultiplePlugin
+ExportPlugin
+ExtractHapmapSubsetPlugin
+FILLINFindHaplotypesPlugin
+FILLINImputationPlugin
+FSFHapImputationPlugin
+FastMultithreadedAssociationPlugin
+FastqToPETagCountPlugin
+FastqToTBTPlugin
+FastqToTagCountPlugin
+FeatureListToPositionsPlugin
+FileLoadPlugin
+FilterAlignmentPlugin
+FilterDataSetPlugin
+FilterSiteBuilderPlugin
+FilterSiteNamePlugin
+FilterSubsetPlugin
+FilterTaxaAlignmentPlugin
+FilterTaxaBuilderPlugin
+FilterTaxaPropertiesPlugin
+FilterTraitsPlugin
+FindInversionsPlugin
+FindMergeHaplotypesPlugin
+FixedEffectLMPlugin
+GBSSeqToTagDBPlugin
+GOBIIPlugin
+GWAS_IFLPlugin
+GenomeAnnosDBQueryToPositionListPlugin
+GenomicSelectionPlugin
+GenosToABHPlugin
+GenotypeSummaryPlugin
+GetPhenotypeFromB4RPlugin
+GetPositionListPlugin
+GetTagSequenceFromDBPlugin
+GetTagTaxaDistFromDBPlugin
+GetTaxaListPlugin
+HDF5SummaryPlugin
+HMatrixPlugin
+HapBreakpoints_IFLFilePlugin
+HetsToUnknownPlugin
+IdentityRecognitionPlugin
+ImputationAccuracyPlugin
+ImputationPlugin
+ImputeProgenyStatesPlugin
+IndelsToUnknownPlugin
+IntersectionAlignmentPlugin
+KeepSpecifiedReadsinFastqPlugin
+KeepSpecifiedSitesInTOPMPlugin
+KinshipPlugin
+KmerToTBTPlugin
+KmerToTagCountPlugin
+LDKNNiImputationHetV2Plugin
+LDKNNiImputationHetV3Plugin
+LDKNNiImputationPlugin
+LIXPlugin
+LinkageDiseqDisplayPlugin
+LinkageDisequilibriumPlugin
+ListPlugins
+LoadRNAContigsToGBSDBPlugin
+MLMPlugin
+ManhattanDisplayPlugin
+MarkerDNARun_IFLFilePlugin
+MaskGenotypePlugin
+MemoryUsagePlugin
+MergeAlignmentsSameSitesPlugin
+MergeBreakpointFilesPlugin
+MergeDuplicateSNPsPlugin
+MergeGenotypeTablesPlugin
+MergeGenotypeTablesPluginV2
+MergeHDF5GenotypesSameSitesPlugin
+MergeMultipleTOPMPlugin
+MergeMultipleTagCountPlugin
+MergePETagCountPlugin
+MergeRenameDeleteTaxaPlugin
+MergeTagsByTaxaFilesByRowPlugin
+MergeTagsByTaxaFilesPlugin
+ModifyTBTHDF5Plugin
+MonetDB_IFLFilePlugin
+MultiDimensionalScalingPlugin
+NumericalGenotypePlugin
+PanAAddPosToTagMapPlugin
+PanABuildPivotTBTPlugin
+PanABuildTagBlockPosPlugin
+PanABuildTagGWASMapPlugin
+PanABuildTrainingSetPlugin
+PanAFilteringTagMapPlugin
+PanAH5ToAnchorPlugin
+PanAMergeMappingResultPlugin
+PanAModelTrainingPlugin
+PanAPredictionPlugin
+PanAReadDigestPlugin
+PanAReadToKmerPlugin
+PanASamToMultiPositionTOPMPlugin
+PanASplitTBTPlugin
+PanASplitTagBlockPosPlugin
+PanATagGWASMappingPlugin
+PanATagMapToFastaPlugin
+ParentPhasingPlugin
+PassThroughPlugin
+PlinkLoadPlugin
+PreProcessGOBIIMappingFilePlugin
+PreferencesDialog
+PrincipalComponentsPlugin
+ProductionPipeline
+ProductionSNPCallerPlugin
+ProductionSNPCallerPluginV2
+ProjectPcsAndRunModelSelectionPlugin
+ProjectionLoadPlugin
+QQDisplayPlugin
+QseqToPETagCountPlugin
+QseqToTBTPlugin
+QseqToTagCountPlugin
+RGBSProductionSNPCallerPlugin
+RNADeMultiPlexSeqToDBPlugin
+RNADeMultiplexProductionPlugin
+RampSeqAlignFromBlastTags
+RandomGenotypeImputationPlugin
+ReImputeUpdatedTaxaByFILLINPlugin
+RemoveIndelsForBeaglePlugin
+RemoveNaNFromDistanceMatrixPlugin
+RepGenAlignerPlugin
+RepGenLDAnalysisPlugin
+RepGenLoadSeqToDBPlugin
+RepGenPhase2AlignerPlugin
+ResamplingGWASPlugin
+RidgeRegressionEmmaPlugin
+SAMConverterPlugin
+SAMToGBSdbPlugin
+SAMWGMapConverterPlugin
+SNPCutPosTagVerificationPlugin
+SNPQualityProfilerPlugin
+SeparatePlugin
+SeqToTBTHDF5Plugin
+SequenceDiversityPlugin
+SetLowDepthGenosToMissingPlugin
+SortGenotypeFilePlugin
+SortTaxaAlphabeticallyPlugin
+SplitFile_IFLFilePlugin
+SplitHDF5ByChromosomePlugin
+StepwiseAdditiveModelFitterPlugin
+StepwiseOLSModelFitterPlugin
+SubtractDistanceMatrixPlugin
+SubtractGenotypesPlugin
+SubtractPhenotypeByTaxaPlugin
+SynonymizerPlugin
+TOPMSummaryPlugin
+TableDisplayPlugin
+TagAgainstAnchorPlugin
+TagCountToFastqPlugin
+TagExportToFastqPlugin
+TasselLogging
+TextToBinaryPlugin
+ThinSitesByPositionPlugin
+TransformDataPlugin
+UTagCountToTagPairPlugin
+UTagPairToTOPMPlugin
+UnionAlignmentPlugin
+UpdateSNPPositionQualityPlugin
+VCAPScanPlugin
+ViterbiAlgorithmPlugin
+WeightedMLMPlugin
+WorkflowPlugin
+WritePopulationAlignmentPlugin
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - Finished net.maizegenetics.analysis.ListPlugins: time: Sep 2, 2021 20:32:24
+[pool-1-thread-1] INFO net.maizegenetics.pipeline.TasselPipeline - net.maizegenetics.analysis.ListPlugins: time: Sep 2, 2021 20:32:24: progress: 100%
+[pool-1-thread-1] INFO net.maizegenetics.plugindef.AbstractPlugin - net.maizegenetics.analysis.ListPlugins  Citation: Bradbury PJ, Zhang Z, Kroon DE, Casstevens TM, Ramdoss Y, Buckler ES. (2007) TASSEL: Software for association mapping of complex traits in diverse samples. Bioinformatics 23:2633-2635.
+
+Resource usage statistics from testing tassel:
+   Process count: 5
+   CPU time: Sys=0:00:00.2, User=0:00:02.0
+   Memory: 107.8M
+   Disk usage: 16B
+   Time elapsed: 0:00:06.1
+
+
+TEST END: tassel-5.2.40-hdfd78af_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
