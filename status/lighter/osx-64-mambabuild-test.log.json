@@ -1,0 +1,72 @@
+  Package    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx    12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + lighter    1.1.2  h87af4ef_3     /Users/runner/conda/conda-bld/osx-64      50 KB
+  + zlib      1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 50 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: lighter-1.1.2-h87af4ef_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/lighter_1630581156720/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:  12.0.1-habf9029_0    conda-forge
+    lighter: 1.1.2-h87af4ef_3     local      
+    zlib:    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/lighter_1630581156720/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/lighter_1630581156720/test_tmp
+Usage: ./lighter [OPTIONS]
+OPTIONS:
+Required parameters:
+	-r seq_file: seq_file is the path to the sequence file. Can use multiple -r to specifiy multiple sequence files
+	             The file can be fasta and fastq, and can be gzip'ed with extension *.gz.
+	             When the input file is *.gz, the corresponding output file will also be gzip'ed.
+	-k kmer_length genome_size alpha: (see README for information on setting alpha)
+					or
+	-K kmer_length genom_size: in this case, the genome size should be relative accurate.
+Other parameters:
+	-od output_file_directory: (default: ./)
+	-t num_of_threads: number of threads to use (default: 1)
+	-maxcor INT: the maximum number of corrections within a 20bp window (default: 4)
+	-trim: allow trimming (default: false)
+	-discard: discard unfixable reads. Will LOSE paired-end matching when discarding (default: false)
+	-noQual: ignore the quality socre (default: false)
+	-newQual ascii_quality_score: set the quality for the bases corrected to the specified score (default: not used)
+	-saveTrustedKmers file: save the trusted kmers to specified file then stop (default: not used)
+	-loadTrustedKmers file: directly get solid kmers from specified file (default: not used)
+	-zlib compress_level: set the compression level(0-9) of gzip (default: 1)
+	-h: print the help message and quit
+	-v: print the version information and quit
+Lighter v1.1.2
+
+Resource usage statistics from testing lighter:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: lighter-1.1.2-h87af4ef_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
