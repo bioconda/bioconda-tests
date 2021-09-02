@@ -1,0 +1,113 @@
+  Package                      Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates          2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + joblib                       1.0.1  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + libblas                      3.9.0  11_osx64_openblas   conda-forge/osx-64                        12 KB
+  + libcblas                     3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libcxx                      12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                         3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgfortran                  5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                        19 KB
+  + libgfortran5                 9.3.0  h6c81a4c_23         conda-forge/osx-64                         2 MB
+  + liblapack                    3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libllvm10                   10.0.1  h009f743_3          conda-forge/osx-64                        21 MB
+  + libopenblas                 0.3.17  openmp_h3351f45_1   conda-forge/osx-64                         9 MB
+  + llvm-openmp                 12.0.1  hda6cdc1_1          conda-forge/osx-64                       287 KB
+  + llvmlite                    0.36.0  py38h872f124_0      conda-forge/osx-64                       233 KB
+  + ncurses                        6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + numba                       0.53.1  py38h5b9a75a_1      conda-forge/osx-64                         4 MB
+  + numpy                       1.21.2  py38h49b9922_0      conda-forge/osx-64                         6 MB
+  + openssl                     1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                         21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pynndescent                  0.5.4  pyh6c4a22f_0        conda-forge/noarch                        44 KB
+  + python                      3.8.10  h0e5c897_0_cpython  conda-forge/osx-64                        13 MB
+  + python_abi                     3.8  2_cp38              conda-forge/osx-64                         4 KB
+  + readline                       8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + scikit-learn                0.24.2  py38h37f3bb3_1      conda-forge/osx-64                         7 MB
+  + scipy                        1.7.1  py38hd329d04_0      conda-forge/osx-64                        20 MB
+  + setuptools                  57.4.0  py38h50d1736_0      conda-forge/osx-64                       929 KB
+  + sparse-neighbors-search        0.7  py38hfa815b7_1      /Users/runner/conda/conda-bld/osx-64      74 KB
+  + sqlite                      3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tbb                         2020.2  h940c156_4          conda-forge/osx-64                       132 KB
+  + threadpoolctl                2.2.0  pyh8a188c0_0        conda-forge/noarch                        16 KB
+  + tk                          8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + umap-learn                   0.5.1  py38h50d1736_1      conda-forge/osx-64                       123 KB
+  + wheel                       0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                           5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                        1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 34 packages
+
+  Total download: 81 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: sparse-neighbors-search-0.7-py38hfa815b7_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/sparse-neighbors-search_1630600482546/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates:         2021.5.30-h033912b_0      conda-forge
+    joblib:                  1.0.1-pyhd8ed1ab_0        conda-forge
+    libblas:                 3.9.0-11_osx64_openblas   conda-forge
+    libcblas:                3.9.0-11_osx64_openblas   conda-forge
+    libcxx:                  12.0.1-habf9029_0         conda-forge
+    libffi:                  3.3-h046ec9c_2            conda-forge
+    libgfortran:             5.0.0-9_3_0_h6c81a4c_23   conda-forge
+    libgfortran5:            9.3.0-h6c81a4c_23         conda-forge
+    liblapack:               3.9.0-11_osx64_openblas   conda-forge
+    libllvm10:               10.0.1-h009f743_3         conda-forge
+    libopenblas:             0.3.17-openmp_h3351f45_1  conda-forge
+    llvm-openmp:             12.0.1-hda6cdc1_1         conda-forge
+    llvmlite:                0.36.0-py38h872f124_0     conda-forge
+    ncurses:                 6.2-h2e338ed_4            conda-forge
+    numba:                   0.53.1-py38h5b9a75a_1     conda-forge
+    numpy:                   1.21.2-py38h49b9922_0     conda-forge
+    openssl:                 1.1.1k-h0d85af4_1         conda-forge
+    pip:                     21.2.4-pyhd8ed1ab_0       conda-forge
+    pynndescent:             0.5.4-pyh6c4a22f_0        conda-forge
+    python:                  3.8.10-h0e5c897_0_cpython conda-forge
+    python_abi:              3.8-2_cp38                conda-forge
+    readline:                8.1-h05e3726_0            conda-forge
+    scikit-learn:            0.24.2-py38h37f3bb3_1     conda-forge
+    scipy:                   1.7.1-py38hd329d04_0      conda-forge
+    setuptools:              57.4.0-py38h50d1736_0     conda-forge
+    sparse-neighbors-search: 0.7-py38hfa815b7_1        local      
+    sqlite:                  3.36.0-h23a322b_0         conda-forge
+    tbb:                     2020.2-h940c156_4         conda-forge
+    threadpoolctl:           2.2.0-pyh8a188c0_0        conda-forge
+    tk:                      8.6.11-h5dbffcc_1         conda-forge
+    umap-learn:              0.5.1-py38h50d1736_1      conda-forge
+    wheel:                   0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:                      5.2.5-haf1e3a3_1          conda-forge
+    zlib:                    1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/sparse-neighbors-search_1630600482546/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/sparse-neighbors-search_1630600482546/test_tmp
+import: 'sparse_neighbors_search'
+import: 'sparse_neighbors_search'
+
+Resource usage statistics from testing sparse-neighbors-search:
+   Process count: 3
+   CPU time: Sys=0:00:01.0, User=0:00:17.1
+   Memory: 168.0M
+   Disk usage: 12B
+   Time elapsed: 0:01:01.0
+
+
+TEST END: sparse-neighbors-search-0.7-py38hfa815b7_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
