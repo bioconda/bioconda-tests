@@ -1,0 +1,133 @@
+  Package                 Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                   1.0.8  h0d85af4_4         conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0         conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0         conda-forge/osx-64                       Cached
+  + curl                   7.78.0  hb861fe1_0         conda-forge/osx-64                       137 KB
+  + gsl                       2.6  h71c5fe9_2         conda-forge/osx-64                         3 MB
+  + htslib                   1.12  hc38c3fb_1         bioconda/osx-64                            2 MB
+  + krb5                   1.19.2  hcfbf3a7_0         conda-forge/osx-64                       Cached
+  + libbigwig               0.4.6  h7b56a33_1         bioconda/osx-64                          169 KB
+  + libblas                 3.9.0  11_osx64_openblas  conda-forge/osx-64                       Cached
+  + libcblas                3.9.0  11_osx64_openblas  conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0         conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5         conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2         conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + libgfortran             5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5            9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0         conda-forge/osx-64                       Cached
+  + libopenblas            0.3.17  openmp_h3351f45_1  conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0         conda-forge/osx-64                       Cached
+  + llvm-openmp            12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4         conda-forge/osx-64                       Cached
+  + openssl                1.1.1k  h0d85af4_1         conda-forge/osx-64                       Cached
+  + tk                     8.6.11  hd798d34_0         conda-forge/osx-64                       Cached
+  + wiggletools            1.2.11  h70bc3cb_0         /Users/runner/conda/conda-bld/osx-64      91 KB
+  + xz                      5.2.5  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 27 packages
+
+  Total download: 5 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: wiggletools-1.2.11-h70bc3cb_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/wiggletools_1630557627169/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4         conda-forge
+    c-ares:          1.17.2-h0d85af4_0        conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    curl:            7.78.0-hb861fe1_0        conda-forge
+    gsl:             2.6-h71c5fe9_2           conda-forge
+    htslib:          1.12-hc38c3fb_1          bioconda   
+    krb5:            1.19.2-hcfbf3a7_0        conda-forge
+    libbigwig:       0.4.6-h7b56a33_1         bioconda   
+    libblas:         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:        3.9.0-11_osx64_openblas  conda-forge
+    libcurl:         7.78.0-hf45b732_0        conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libdeflate:      1.7-h35c211d_5           conda-forge
+    libedit:         3.1.20191231-h0678c8f_2  conda-forge
+    libev:           4.33-haf1e3a3_1          conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge
+    libnghttp2:      1.43.0-h07e645a_0        conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1 conda-forge
+    libssh2:         1.10.0-h52ee1ee_0        conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    tk:              8.6.11-hd798d34_0        conda-forge
+    wiggletools:     1.2.11-h70bc3cb_0        local      
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/wiggletools_1630557627169/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/wiggletools_1630557627169/test_tmp
+WiggleTools
+
+Copyright [1999-2017] EMBL-European Bioinformatics Institute
+Development contact: Daniel Zerbino zerbino@ebi.ac.uk
+
+Citation: Zerbino DR, Johnson N, Juettemann T, Wilder SP and Flicek PR: WiggleTools: parallel processing of large collections of genome-wide datasets for visualization and statistical analysis. Bioinformatics 2014 30:1008-1009.
+
+This library parses wiggle files and executes various operations on them streaming through lazy evaluators.
+
+Inputs:
+	The program takes in Wig, BigWig, BedGraph, Bed, BigBed, Bam, VCF, and BCF files, which are distinguished thanks to their suffix (.wig, (.bw|.bigWig|.bigwig), .bg, .bed, .bb, .bam, .cram, .vcf, .bcf respectively).
+	Note that wiggletools assumes that every bam file has an index .bai file next to it.
+
+Outputs:
+	The program outputs a wiggle file in stdout unless the output is squashed
+
+Command line:
+	wiggletools --help
+	wiggletools program
+
+Program grammar:
+	program = (iterator) | do (iterator) | (extraction) | (statistic) | run (file)
+	iterator = (in_filename) | (unary_operator) (iterator) | (binary_operator) (iterator) (iterator) | (reducer) (multiplex) | (setComparison) (multiplex_list) | print (output) (statistic)
+	unary_operator = unit | coverage | write (output) | write_bg (ouput) | smooth (int) | abs | exp | ln | log (float) | pow (float) | offset (float) | shiftPos (int) | scale (float) | gt (float) | gte (float) | lt (float) | lte (float) | default (float) | isZero | toInt | floor | extend (int) | bin (int) | compress | (statistic)
+	output = (out_filename) | -
+	in_filename = *.wig | *.bw | *.bed | *.bb | *.bg | *.sam | *.bam | *.cram | read_count *.sam | read_count *.bam | read_count *.cram | *.vcf | *.bcf | - | sam -
+	statistic = (statistic_function) (iterator) | ndpearson (multiplex) (multiplex)
+	statistic_function = AUC | meanI | varI | minI | maxI | stddevI | CVI | energy (wavelength) | pearson (iterator)
+	binary_operator = diff | ratio | overlaps | trim | noverlaps | nearest | apply (statistic) | fillIn | trimFill
+	reducer = cat | sum | product | mean | var | stddev | entropy | CV | median | min | max
+	setComparison = ttest | ftest | wilcoxon
+	multiplex_list = (multiplex) | (multiplex) : (multiplex_list)
+	multiplex = (iterator_list) | map (unary_operator) (multiplex) | strict (multiplex)
+	iterator_list = (iterator) | (iterator) : (iterator_list)
+	extraction = profile (output) (int) (iterator) (iterator) | profiles (output) (int) (iterator) (iterator) | histogram (output) (width) (iterator_list) | mwrite (output) (multiplex) | mwrite_bg (output) (multiplex)
+		| apply_paste (out_filename) (statistic) (bed_file) (iterator)
+
+Resource usage statistics from testing wiggletools:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 11.8M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: wiggletools-1.2.11-h70bc3cb_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

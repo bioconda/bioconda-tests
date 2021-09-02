@@ -1,0 +1,170 @@
+  Package                  Version  Build               Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu               conda-forge/linux-64                    Cached
+  + bwa                     0.7.17  h5bf99c6_8          bioconda/linux-64                       608 KB
+  + bwameth                  0.2.2  pyh3252c3a_4        /home/vsts/conda/conda-bld/linux-64      17 KB
+  + bzip2                    1.0.8  h7f98852_4          conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0          conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + htslib                    1.13  h9093b5e_0          bioconda/linux-64                       Cached
+  + krb5                    1.19.2  hcc1bbae_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0          conda-forge/linux-64                    Cached
+  + libdeflate                 1.7  h7f98852_5          conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2          conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1          conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0          conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0          conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                    6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                 1.1.1k  h7f98852_1          conda-forge/linux-64                    Cached
+  + perl                    5.32.1  0_h7f98852_perl5    conda-forge/linux-64                     14 MB
+  + pip                     21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + python                   3.9.6  h49503c6_1_cpython  conda-forge/linux-64                    Cached
+  + python_abi                 3.9  2_cp39              conda-forge/linux-64                    Cached
+  + readline                   8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + samtools                  1.13  h8c37831_0          bioconda/linux-64                       Cached
+  + setuptools              57.4.0  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite                  3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h21135ba_0          conda-forge/linux-64                    Cached
+  + toolshed                 0.4.6  pyh864c0ab_3        bioconda/noarch                          13 KB
+  + tzdata                   2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 36 packages
+
+  Total download: 15 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: bwameth-0.2.2-pyh3252c3a_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/bwameth_1630557866925/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge          conda-forge
+    _openmp_mutex:    4.5-1_gnu                conda-forge
+    bwa:              0.7.17-h5bf99c6_8        bioconda   
+    bwameth:          0.2.2-pyh3252c3a_4       local      
+    bzip2:            1.0.8-h7f98852_4         conda-forge
+    c-ares:           1.17.2-h7f98852_0        conda-forge
+    ca-certificates:  2021.5.30-ha878542_0     conda-forge
+    htslib:           1.13-h9093b5e_0          bioconda   
+    krb5:             1.19.2-hcc1bbae_0        conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2        conda-forge
+    libcurl:          7.78.0-h2574ce0_0        conda-forge
+    libdeflate:       1.7-h7f98852_5           conda-forge
+    libedit:          3.1.20191231-he28a2e2_2  conda-forge
+    libev:            4.33-h516909a_1          conda-forge
+    libffi:           3.3-h58526e2_2           conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8        conda-forge
+    libgomp:          11.1.0-hc902ee8_8        conda-forge
+    libnghttp2:       1.43.0-h812cca2_0        conda-forge
+    libssh2:          1.10.0-ha56f1ee_0        conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8        conda-forge
+    ncurses:          6.2-h58526e2_4           conda-forge
+    openssl:          1.1.1k-h7f98852_1        conda-forge
+    perl:             5.32.1-0_h7f98852_perl5  conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0      conda-forge
+    python:           3.9.6-h49503c6_1_cpython conda-forge
+    python_abi:       3.9-2_cp39               conda-forge
+    readline:         8.1-h46c0cb4_0           conda-forge
+    samtools:         1.13-h8c37831_0          bioconda   
+    setuptools:       57.4.0-py39hf3d152e_0    conda-forge
+    sqlite:           3.36.0-h9cd32fc_0        conda-forge
+    tk:               8.6.11-h21135ba_0        conda-forge
+    toolshed:         0.4.6-pyh864c0ab_3       bioconda   
+    tzdata:           2021a-he74cb21_1         conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:               5.2.5-h516909a_1         conda-forge
+    zlib:             1.2.11-h516909a_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/bwameth_1630557866925/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/bwameth_1630557866925/test_tmp
+bwa-meth.py 0.2.2
+
+Program: samtools (Tools for alignments in the SAM format)
+Version: 1.13 (using htslib 1.13)
+
+Usage:   samtools <command> [options]
+
+Commands:
+  -- Indexing
+     dict           create a sequence dictionary file
+     faidx          index/extract FASTA
+     fqidx          index/extract FASTQ
+     index          index alignment
+
+  -- Editing
+     calmd          recalculate MD/NM tags and '=' bases
+     fixmate        fix mate information
+     reheader       replace BAM header
+     targetcut      cut fosmid regions (for fosmid pool only)
+     addreplacerg   adds or replaces RG tags
+     markdup        mark duplicates
+     ampliconclip   clip oligos from the end of reads
+
+  -- File operations
+     collate        shuffle and group alignments by name
+     cat            concatenate BAMs
+     merge          merge sorted alignments
+     mpileup        multi-way pileup
+     sort           sort alignment file
+     split          splits a file by read group
+     quickcheck     quickly check if SAM/BAM/CRAM file appears intact
+     fastq          converts a BAM to a FASTQ
+     fasta          converts a BAM to a FASTA
+     import         Converts FASTA or FASTQ files to SAM/BAM/CRAM
+
+  -- Statistics
+     bedcov         read depth per BED region
+     coverage       alignment depth and percent coverage
+     depth          compute the depth
+     flagstat       simple stats
+     idxstats       BAM index stats
+     phase          phase heterozygotes
+     stats          generate stats (former bamcheck)
+     ampliconstats  generate amplicon specific stats
+
+  -- Viewing
+     flags          explain BAM flags
+     tview          text alignment viewer
+     view           SAM<->BAM<->CRAM conversion
+     depad          convert padded BAM to unpadded BAM
+
+  -- Misc
+     help [cmd]     display this help message or help for [cmd]
+     version        detailed version information
+
+
+Resource usage statistics from testing bwameth:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: bwameth-0.2.2-pyh3252c3a_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
