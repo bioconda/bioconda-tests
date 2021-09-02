@@ -1,0 +1,52 @@
+  Package         Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx         12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + openjdk      11.0.9.1  hcf210ce_1     conda-forge/osx-64                       169 MB
+  + picard-slim    2.26.0  hdfd78af_0     /Users/runner/conda/conda-bld/osx-64      16 MB
+  + zlib           1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 185 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: picard-slim-2.26.0-hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/picard-slim_1630609934002/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:      12.0.1-habf9029_0    conda-forge
+    openjdk:     11.0.9.1-hcf210ce_1  conda-forge
+    picard-slim: 2.26.0-hdfd78af_0    local      
+    zlib:        1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/picard-slim_1630609934002/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/picard-slim_1630609934002/test_tmp
+[1m[31mUSAGE: PicardCommandLine [32m<program name>[1m[31m [-h]
+
+Resource usage statistics from testing picard-slim:
+   Process count: 6
+   CPU time: Sys=0:00:00.1, User=0:00:00.6
+   Memory: 73.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: picard-slim-2.26.0-hdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
