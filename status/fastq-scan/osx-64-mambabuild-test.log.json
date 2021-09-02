@@ -1,0 +1,57 @@
+  Package       Version  Build       Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + fastq-scan    0.4.4  hb280591_0  /Users/runner/conda/conda-bld/osx-64      22 KB
+  + libcxx       12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 22 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: fastq-scan-0.4.4-hb280591_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/fastq-scan_1630584603471/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    fastq-scan: 0.4.4-hb280591_0  local      
+    libcxx:     12.0.1-habf9029_0 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/fastq-scan_1630584603471/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/fastq-scan_1630584603471/test_tmp
+fastq-scan 0.4.4
+Usage: cat FASTQ | fastq-scan [options]
+Version: 0.4.4
+
+Optional arguments:
+    -g INT   Genome size for calculating estimated sequencing coverage. (Default 1)
+    -p INT   ASCII offset for input quality scores, can be 33 or 64. (Default 33)
+    -v       Print version information and exit
+    -h       Show this message and exit
+
+
+Resource usage statistics from testing fastq-scan:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: fastq-scan-0.4.4-hb280591_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
