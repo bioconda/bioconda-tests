@@ -1,0 +1,89 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: cityhash-0.2.3.post9-py27_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp9q8vg0ax/info/recipe/conda_build_config.yaml
+  Package                 Version  Build                  Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi            2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + cityhash          0.2.3.post9  py27_0                 /home/vsts/conda/conda-bld/linux-64      72 KB
+  + ld_impl_linux-64       2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libffi                  3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng              11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + openssl                1.1.1k  h7f98852_1             conda-forge/linux-64                    Cached
+  + pip                    20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + python                 2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi                2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                  8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + setuptools             44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                 3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h27826a3_1             conda-forge/linux-64                    Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + zlib                   1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 14 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/cityhash_1630656181538/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    cityhash:         0.2.3.post9-py27_0           local      
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    ncurses:          6.2-h58526e2_4               conda-forge
+    openssl:          1.1.1k-h7f98852_1            conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    setuptools:       44.0.0-py27_0                conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h27826a3_1            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/cityhash_1630656181538/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/cityhash_1630656181538/test_tmp
+import: 'cityhash'
+import: 'cityhash'
+
+Resource usage statistics from testing cityhash:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: cityhash-0.2.3.post9-py27_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
