@@ -1,0 +1,96 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: trawler-2.0-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp2h2oxiqt/info/recipe/conda_build_config.yaml
+  Package                     Version  Build            Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ghostscript                9.54.0  he49afe7_1       conda-forge/osx-64                        56 MB
+  + libcxx                     12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + openjdk                  11.0.9.1  hcf210ce_1       conda-forge/osx-64                       169 MB
+  + perl                       5.26.2  hbcb3906_1008    conda-forge/osx-64                       Cached
+  + perl-algorithm-cluster       1.58  pl526h1de35cc_0  bioconda/osx-64                           50 KB
+  + perl-app-cpanminus         1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-base                    2.23  pl526_1          bioconda/osx-64                           10 KB
+  + perl-carp                    1.38  pl526_3          bioconda/osx-64                          Cached
+  + perl-cgi                     4.44  pl526h1de35cc_1  bioconda/osx-64                          116 KB
+  + perl-constant                1.33  pl526_1          bioconda/osx-64                          Cached
+  + perl-encode                  2.88  pl526_1          bioconda/osx-64                            1 MB
+  + perl-exporter                5.72  pl526_1          bioconda/osx-64                          Cached
+  + perl-extutils-makemaker      7.36  pl526_1          bioconda/osx-64                          Cached
+  + perl-file-path               2.16  pl526_0          bioconda/osx-64                           17 KB
+  + perl-file-temp             0.2304  pl526_2          bioconda/osx-64                           26 KB
+  + perl-html-parser             3.72  pl526h04f5b5a_5  bioconda/osx-64                           64 KB
+  + perl-html-tagset             3.20  pl526_3          bioconda/osx-64                           12 KB
+  + perl-parent                 0.236  pl526_1          bioconda/osx-64                            6 KB
+  + perl-xsloader                0.24  pl526_0          bioconda/osx-64                            8 KB
+  + trawler                       2.0  pl526_2          /Users/runner/conda/conda-bld/osx-64       5 MB
+  + zlib                       1.2.11  h7795811_1010    conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 231 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/trawler_1630688701441/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    ghostscript:             9.54.0-he49afe7_1    conda-forge
+    libcxx:                  12.0.1-habf9029_0    conda-forge
+    openjdk:                 11.0.9.1-hcf210ce_1  conda-forge
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-algorithm-cluster:  1.58-pl526h1de35cc_0 bioconda   
+    perl-app-cpanminus:      1.7044-pl526_1       bioconda   
+    perl-base:               2.23-pl526_1         bioconda   
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-cgi:                4.44-pl526h1de35cc_1 bioconda   
+    perl-constant:           1.33-pl526_1         bioconda   
+    perl-encode:             2.88-pl526_1         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-file-path:          2.16-pl526_0         bioconda   
+    perl-file-temp:          0.2304-pl526_2       bioconda   
+    perl-html-parser:        3.72-pl526h04f5b5a_5 bioconda   
+    perl-html-tagset:        3.20-pl526_3         bioconda   
+    perl-parent:             0.236-pl526_1        bioconda   
+    perl-xsloader:           0.24-pl526_0         bioconda   
+    trawler:                 2.0-pl526_2          local      
+    zlib:                    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+Trawler is installed.
+
+Use the following command to run Trawler:
+
+    trawler
+
+
+done
+export PREFIX=/Users/runner/conda/conda-bld/trawler_1630688701441/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/trawler_1630688701441/test_tmp
+trawler standalone "2.0"
+
+Resource usage statistics from testing trawler:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: trawler-2.0-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
