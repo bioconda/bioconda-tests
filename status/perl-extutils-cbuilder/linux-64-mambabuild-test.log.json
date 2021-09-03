@@ -1,0 +1,135 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-extutils-cbuilder-0.280230-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpy_8wt_23/info/recipe/conda_build_config.yaml
+  Package                            Version  Build            Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                        0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex                        4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                         11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                           11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + perl                              5.26.2  h36c2ea0_1008    conda-forge/linux-64                    Cached
+  + perl-app-cpanminus                1.7044  pl526_1          bioconda/linux-64                       Cached
+  + perl-carp                           1.38  pl526_3          bioconda/linux-64                       Cached
+  + perl-constant                       1.33  pl526_1          bioconda/linux-64                       Cached
+  + perl-exporter                       5.72  pl526_1          bioconda/linux-64                       Cached
+  + perl-extutils-cbuilder          0.280230  pl526_1          /home/vsts/conda/conda-bld/linux-64      21 KB
+  + perl-extutils-makemaker             7.36  pl526_1          bioconda/linux-64                       Cached
+  + perl-file-path                      2.16  pl526_0          bioconda/linux-64                       Cached
+  + perl-file-temp                    0.2304  pl526_2          bioconda/linux-64                       Cached
+  + perl-ipc-cmd                        1.02  pl526_0          bioconda/linux-64                       Cached
+  + perl-locale-maketext-simple         0.21  pl526_2          bioconda/linux-64                       Cached
+  + perl-module-corelist          5.20190524  pl526_0          bioconda/linux-64                       Cached
+  + perl-module-load                    0.32  pl526_1          bioconda/linux-64                       Cached
+  + perl-module-load-conditional        0.68  pl526_2          bioconda/linux-64                       Cached
+  + perl-module-metadata            1.000036  pl526_0          bioconda/linux-64                       Cached
+  + perl-params-check                   0.38  pl526_1          bioconda/linux-64                       Cached
+  + perl-parent                        0.236  pl526_1          bioconda/linux-64                       Cached
+  + perl-perl-ostype                   1.010  pl526_1          bioconda/linux-64                         6 KB
+  + perl-scalar-list-utils              1.52  pl526h516909a_0  bioconda/linux-64                        38 KB
+  + perl-text-parsewords                3.30  pl526_0          bioconda/linux-64                         8 KB
+  + perl-version                      0.9924  pl526_0          bioconda/linux-64                       Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 73 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-extutils-cbuilder_1630655475350/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:                0.1-conda_forge      conda-forge
+    _openmp_mutex:                4.5-1_gnu            conda-forge
+    libgcc-ng:                    11.1.0-hc902ee8_8    conda-forge
+    libgomp:                      11.1.0-hc902ee8_8    conda-forge
+    perl:                         5.26.2-h36c2ea0_1008 conda-forge
+    perl-app-cpanminus:           1.7044-pl526_1       bioconda   
+    perl-carp:                    1.38-pl526_3         bioconda   
+    perl-constant:                1.33-pl526_1         bioconda   
+    perl-exporter:                5.72-pl526_1         bioconda   
+    perl-extutils-cbuilder:       0.280230-pl526_1     local      
+    perl-extutils-makemaker:      7.36-pl526_1         bioconda   
+    perl-file-path:               2.16-pl526_0         bioconda   
+    perl-file-temp:               0.2304-pl526_2       bioconda   
+    perl-ipc-cmd:                 1.02-pl526_0         bioconda   
+    perl-locale-maketext-simple:  0.21-pl526_2         bioconda   
+    perl-module-corelist:         5.20190524-pl526_0   bioconda   
+    perl-module-load:             0.32-pl526_1         bioconda   
+    perl-module-load-conditional: 0.68-pl526_2         bioconda   
+    perl-module-metadata:         1.000036-pl526_0     bioconda   
+    perl-params-check:            0.38-pl526_1         bioconda   
+    perl-parent:                  0.236-pl526_1        bioconda   
+    perl-perl-ostype:             1.010-pl526_1        bioconda   
+    perl-scalar-list-utils:       1.52-pl526h516909a_0 bioconda   
+    perl-text-parsewords:         3.30-pl526_0         bioconda   
+    perl-version:                 0.9924-pl526_0       bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-extutils-cbuilder_1630655475350/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-extutils-cbuilder_1630655475350/test_tmp
+import: ExtUtils::CBuilder
+	using version 0.280230
+import: ExtUtils::CBuilder::Base
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::Unix
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::VMS
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::aix
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::android
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::cygwin
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::darwin
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::dec_osf
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::os2
+	using version 0.280230
+import: ExtUtils::CBuilder
+	using version 0.280230
+import: ExtUtils::CBuilder::Base
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::Unix
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::VMS
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::aix
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::android
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::cygwin
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::darwin
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::dec_osf
+	using version 0.280230
+import: ExtUtils::CBuilder::Platform::os2
+	using version 0.280230
+
+Resource usage statistics from testing perl-extutils-cbuilder:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-extutils-cbuilder-0.280230-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
