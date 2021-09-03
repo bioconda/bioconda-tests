@@ -1,0 +1,696 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + boost               1.74.0  py39ha641261_3      conda-forge/osx-64                       306 KB
+  + boost-cpp           1.74.0  hff03dee_4          conda-forge/osx-64                        16 MB
+  + bzip2                1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + htstream             1.3.3  h069a675_1          /Users/runner/conda/conda-bld/osx-64       1 MB
+  + icu                   68.1  h74dc148_0          conda-forge/osx-64                       Cached
+  + libblas              3.9.0  11_osx64_openblas   conda-forge/osx-64                        12 KB
+  + libcblas             3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgfortran          5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                        19 KB
+  + libgfortran5         9.3.0  h6c81a4c_23         conda-forge/osx-64                         2 MB
+  + liblapack            3.9.0  11_osx64_openblas   conda-forge/osx-64                        11 KB
+  + libopenblas         0.3.17  openmp_h3351f45_1   conda-forge/osx-64                         9 MB
+  + llvm-openmp         12.0.1  hda6cdc1_1          conda-forge/osx-64                       287 KB
+  + lz4-c                1.9.3  he49afe7_1          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + numpy               1.21.2  py39h7eed0ac_0      conda-forge/osx-64                         6 MB
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+  + zstd                 1.5.0  h582d3a0_0          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 31 packages
+
+  Total download: 34 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: htstream-1.3.3-h069a675_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/htstream_1630645452636/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    boost:           1.74.0-py39ha641261_3    conda-forge
+    boost-cpp:       1.74.0-hff03dee_4        conda-forge
+    bzip2:           1.0.8-h0d85af4_4         conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    htstream:        1.3.3-h069a675_1         local      
+    icu:             68.1-h74dc148_0          conda-forge
+    libblas:         3.9.0-11_osx64_openblas  conda-forge
+    libcblas:        3.9.0-11_osx64_openblas  conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge
+    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge
+    liblapack:       3.9.0-11_osx64_openblas  conda-forge
+    libopenblas:     0.3.17-openmp_h3351f45_1 conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge
+    lz4-c:           1.9.3-he49afe7_1         conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    numpy:           1.21.2-py39h7eed0ac_0    conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+    zstd:            1.5.0-h582d3a0_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/htstream_1630645452636/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/htstream_1630645452636/test_tmp
+HTStream <https://github.com/s4hts/HTStream> application: hts_AdapterTrimmer
+Version: 1.3.2
+Adapter Trimmer, trims off adapters by overlapping paired-end reads and
+  trimming off overhangs which by definition are adapter sequence in standard
+  libraries. SE Reads are trimmed by overlapping the adapter-sequence and trimming off the overlap.
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_AdapterTrimmer Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -p [ --number-of-threads ] arg (=1)   Number of worker threads (min 1, max 3)
+  -k [ --kmer ] arg (=8)                Kmer size of the lookup table for the 
+                                        longer read (min 5, max 64)
+  -r [ --kmer-offset ] arg (=1)         Offset of kmers. Offset of 1, would be 
+                                        perfect overlapping kmers. An offset of
+                                        kmer would be non-overlapping kmers 
+                                        that are right next to each other. Must
+                                        be greater than 0.
+  -e [ --max-mismatch-errorDensity ] arg (=0.25)
+                                        Max percent of mismatches allowed in 
+                                        overlapped section (min 0.0, max 1.0)
+  -x [ --max-mismatch ] arg (=100)      Max number of total mismatches allowed 
+                                        in overlapped section (min 0, max 
+                                        10000)
+  -c [ --check-lengths ] arg (=20)      Check lengths of the ends (min 5, max 
+                                        10000)
+  -o [ --min-overlap ] arg (=8)         Min overlap required to merge two reads
+                                        (min 5, max 10000)
+  -X [ --no-fixbases ]                  after trimming adapter, DO NOT use 
+                                        consensus sequence of paired reads, 
+                                        only trims adapter sequence
+  -a [ --adapter-sequence ] arg (=AGATCGGAAGAGCACACGTCTGAACTCCAGTCA)
+                                        Primer sequence to trim in SE adapter 
+                                        trimming, default is truseq ht primer 
+                                        sequence
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_CutTrim
+Version: 1.3.2
+The hts_CutTrim application trims a set number of bases from the 5'
+  and/or 3' end of each read
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_CutTrim Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -a [ --r1-cut-left ] arg (=0)         Cut length of sequence from read 1 left
+                                        (5') end (min 0, max 10000)
+  -b [ --r1-cut-right ] arg (=0)        Cut length of sequence from read 1 
+                                        right (3') end (min 0, max 10000)
+  -c [ --r2-cut-left ] arg (=0)         Cut length of sequence from read 2 left
+                                        (5') end (min 0, max 10000)
+  -d [ --r2-cut-right ] arg (=0)        Cut length of sequence from read 2 
+                                        right (3') end (min 0, max 10000)
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_LengthFilter
+Version: 1.3.2
+The hts_LengthFilter application filters reads that are too long or too short.'
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_LengthFilter Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -m [ --min-length ] arg (=0)          Min length for acceptable output read 
+                                        (min 1, max 10000), default is unset
+  -M [ --max-length ] arg (=0)          Maximum allowed length of read, 
+                                        effectively right trims to max-length 
+                                        (min 1, max 10000), default is unset
+  -n [ --no-orphans ]                   Orphaned SE reads will NOT be written 
+                                        out
+  -s [ --stranded ]                     If R1 is orphaned, R2 is output in RC 
+                                        (for stranded RNA)
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_NTrimmer
+Version: 1.3.2
+The hts_NTrimmer application will identify and return the longest
+  subsequence that no N characters appear in.
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_NTrimmer Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -e [ --exclude ]                      Exclude any sequence with an N 
+                                        character
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_Overlapper
+Version: 1.3.2
+The hts_Overlapper application attempts to overlap paired end reads
+  to produce the original transcript, trim adapters, and in some
+  cases, correct sequencing errors. single end reads are passed through unchanged.
+Reads come in three flavors:
+  short: Reads produced from an insert shorter than the longest read
+        will result in a single read in the orientation of R1, and have overhanging
+        bases (adapters) trimmed to produce a SE read.
+  medium: Reads produced from a medium-insert greater than read length, but
+        somewhat shorter than 2x read length will produce a SE read in the
+        orientation of R1.
+  long: Reads produced from long-inserts which do not overlap
+  by at least min overlap , resulting in a PE read.
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_Overlapper Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -p [ --number-of-threads ] arg (=1)   Number of worker threads (min 1, max 3)
+  -k [ --kmer ] arg (=8)                Kmer size of the lookup table for the 
+                                        longer read (min 5, max 64)
+  -r [ --kmer-offset ] arg (=1)         Offset of kmers. Offset of 1, would be 
+                                        perfect overlapping kmers. An offset of
+                                        kmer would be non-overlapping kmers 
+                                        that are right next to each other. Must
+                                        be greater than 0.
+  -e [ --max-mismatch-errorDensity ] arg (=0.25)
+                                        Max percent of mismatches allowed in 
+                                        overlapped section (min 0.0, max 1.0)
+  -x [ --max-mismatch ] arg (=100)      Max number of total mismatches allowed 
+                                        in overlapped section (min 0, max 
+                                        10000)
+  -c [ --check-lengths ] arg (=20)      Check lengths of the ends (min 5, max 
+                                        10000)
+  -o [ --min-overlap ] arg (=8)         Min overlap required to merge two reads
+                                        (min 5, max 10000)
+  -X [ --force-pairs ]                  after overlapping a paired end read, 
+                                        split reads in half to output pairs.
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_PolyATTrim
+Version: 1.3.2
+hts_PolyATTrim trims poly A and T sequences from a read.
+  The algorithm is borrowed from Fig 2, Bonfert et al. doi: 2017 10.1371/journal.pone.0170914
+  A sliding window of <window-size> (=6) is shifted from either end of the read
+  (adjustable with --no-left and --no-right) until the <max-mismatch-errorDensity> is
+  exceeded. The read is then trimmed as long as the following criteria are met:
+  	a) at least <perfect-windows> (=1) were observed
+  	b) at least <min-trim> (=5) bp will be trimmed
+  	c) no more than <max-trim> (=30) bp will be trimmed
+  These settings may need to be adjusted depending on library type.
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_PolyATTrim Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -l [ --no-left ]                      Turns off trimming of the left side of 
+                                        the read
+  -r [ --no-right ]                     Turns off trimming of the right side of
+                                        the read
+  -j [ --skip_polyA ]                   Skip check for polyA sequence
+  -k [ --skip_polyT ]                   Skip check for polyT sequence
+  -w [ --window-size ] arg (=6)         Window size in which to trim (min 1, 
+                                        max 10000)
+  -e [ --max-mismatch-errorDensity ] arg (=0.29999999999999999)
+                                        Max percent of mismatches allowed in 
+                                        overlapped section (min 0.0, max 1.0)
+  -c [ --perfect-windows ] arg (=1)     Number perfect match windows needed 
+                                        before a match is reported  (min 1, max
+                                        10000)
+  -M [ --min-trim ] arg (=5)            Min base pairs trim for AT tail (min 1,
+                                        max 10000)
+  -x [ --max-trim ] arg (=30)           Max size a polyAT can be (min 0, max 
+                                        10000)
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_Primers
+Version: 1.3.2
+The hts_Primers application identifies primer sequences located on the 5' ends of R1 and R2,
+    or 5' and 3' end of SE reads, optionally cut/flip and return the the read adding the 
+    primer to the read id.
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_Primers Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -P [ --primers_5p ] arg               5' primers, comma separated list of 
+                                        sequences, or fasta file
+  -Q [ --primers_3p ] arg               3' primers, comma separated list of 
+                                        sequences, or fasta file
+  -d [ --primer_mismatches ] arg (=4)   Max hamming dist from primer (min 0, 
+                                        max 10000)
+  -e [ --primer_end_mismatches ] arg (=4)
+                                        Required number of matching bases at 
+                                        end of primer (min 0, max 10000)
+  -l [ --float ] arg (=0)               Variable number of bases preceeding 
+                                        primer allowed to float
+  -x [ --flip ]                         Primers can be seen in both 
+                                        orientiations, tests flip and reorients
+                                        all reads to the same orientation.
+  -k [ --keep ]                         Don't cut off the primer sequence, 
+                                        leave it as a part of the read
+  -r [ --min_primer_matches ] arg (=0)  Minimum number of primers to match to 
+                                        keep the fragment (0, keep all 
+                                        fragments, 1 must match either 5' or 3'
+                                        primer, 2 must match both 5' and 3' 
+                                        primers)
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_QWindowTrim
+Version: 1.3.2
+hts_QWindowTrim uses a sliding window approach to remove low quality
+  bases (5' or 3') from a read. A window will slide from each end of the
+  read, moving inwards. Once the window reaches an average quality <avg-qual-score>
+  it will stop trimming.
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_QWindowTrim Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -l [ --no-left ]                      Turns off trimming of the left side of 
+                                        the read
+  -r [ --no-right ]                     Turns off trimming of the right side of
+                                        the read
+  -w [ --window-size ] arg (=10)        Window size in which to trim (min 1, 
+                                        max 10000)
+  -q [ --avg-qual-score ] arg (=20)     Threshold for quality score average in 
+                                        the window (min 1, max 10000)
+  -o [ --qual-offset ] arg (=33)        Quality offset for ascii q-score 
+                                        (default is 33) (min 1, max 10000)
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_SeqScreener
+Version: 1.3.2
+hts_SeqScreener identifies and removes any reads which appear to have originated
+  from a contaminant DNA source. Because bacteriophage Phi-X is common spiked
+  into Illumina runs for QC purposes, sequences originating from Phi-X are removed
+  by default. If other contaminants are suspected their sequence can be supplied
+  as a fasta file <seq>, however the algorithm has been tuned for short contaminant
+  sequences, and may not work well with sequences significantly longer than Phi-X (5Kb).
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_SeqScreener Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -s [ --seq ] arg                      Please supply a fasta file - default - 
+                                        Phix Sequence - default 
+                                        https://www.ncbi.nlm.nih.gov/nuccore/96
+                                        26372
+  -C [ --check-read-2 ]                 Check R2 as well as R1 (pe)
+  -k [ --kmer ] arg (=12)               Kmer size of the lookup table (min 5, 
+                                        max 256)
+  -x [ --percentage-hits ] arg (=0.25)  Proportion of kmer percentage-hits to 
+                                        sequence need to happen to discard (min
+                                        0.0, max 1.0)
+  -n [ --inverse ]                      Output reads that are ABOVE the kmer 
+                                        hit threshold
+  -r [ --record ]                       Only record the reads that pass the 
+                                        kmer hit threshold, output all reads
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_Stats
+Version: 1.3.2
+The hts_Stats app produce basic statistics about the reads in a dataset.
+  Including the basepair composition and number of bases Q30.
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_Stats Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+HTStream <https://github.com/s4hts/HTStream> application: hts_SuperDeduper
+Version: 1.3.2
+hts_SuperDeduper is a reference-free PCR duplicate remover. It uses a subsequence
+  within each read as a unique key to detect duplicates in future reads.
+  Reads with 'N' character(s) in the key sequence are ignored.
+  hts_SuperDeduper is not recommended for single-end reads.
+  WARNING: hts_SuperDeduper will only work correctly on untrimmed reads.
+
+
+Standard Options:
+  -v [ --version ]                      Version print
+  -h [ --help ]                         Prints help documentation
+  -N [ --notes ] arg                    Notes for the stats JSON
+  -L [ --stats-file ] arg (=stats.log)  Write to stats file name
+  -A [ --append-stats-file ] arg        Append to stats file name
+
+Input Options [default: tab6 format on stdin]:
+  -1 [ --read1-input ] arg              Read 1 paired end fastq input <space 
+                                        separated for multiple files>
+  -2 [ --read2-input ] arg              Read 2 paired end fastq input <space 
+                                        separated for multiple files>
+  -U [ --singleend-input ] arg          Single end read fastq input <space 
+                                        separated for multiple files>
+  -I [ --interleaved-input ] arg        Interleaved fastq input <space 
+                                        separated for multiple files>
+  -T [ --tab-input ] arg                Tab-delimited (tab6) input <space 
+                                        separated for multiple files>
+
+hts_SuperDeduper Output Options [default: tab6 format to stdout]:
+  -F [ --force ]                        Forces overwrite of files
+  -u [ --uncompressed ]                 Output uncompressed (not gzipped) files
+  -f [ --fastq-output ] arg             Output to Fastq files <PE AND/OR SE 
+                                        files>
+  -i [ --interleaved-output ] arg       Output to interleaved fastq files 
+                                        <INTERLEAVED PE AND/OR SE files>
+  -t [ --tab-output ] arg               Output to tab-delimited (tab6) file
+  -z [ --unmapped-output ] arg          Output to unmapped sam file
+
+Application Specific Options:
+  -s [ --start ] arg (=10)              Start location for unique ID (min 1, 
+                                        max 10000)
+  -l [ --length ] arg (=10)             Length of unique ID (min 1, max 10000)
+  -q [ --avg-qual-score ] arg (=30)     Avg quality score to have the read 
+                                        written automatically (min 1, max 
+                                        10000)
+  -a [ --inform-avg-qual-score ] arg (=5)
+                                        Avg quality score to consider a read 
+                                        informative (min 1, max 10000)
+  -e [ --log_freq ] arg (=1000000)      Frequency in which to log duplicates in
+                                        reads, can be used to create a 
+                                        saturation plot (0 turns off).
+
+
+Please report any issues, request for enhancement, or comments to <https://github.com/s4hts/HTStream/issues>
+
+Resource usage statistics from testing htstream:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 11.4M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.3
+
+
+TEST END: htstream-1.3.3-h069a675_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
