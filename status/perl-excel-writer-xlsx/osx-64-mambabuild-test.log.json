@@ -1,0 +1,201 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-excel-writer-xlsx-1.00-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpx27cp3j1/info/recipe/conda_build_config.yaml
+  Package                    Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx                    12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + perl                      5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-app-cpanminus        1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-archive-zip            1.64  pl526_0          bioconda/osx-64                           57 KB
+  + perl-carp                   1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-compress-raw-zlib     2.087  pl526h770b8ee_0  bioconda/osx-64                           71 KB
+  + perl-constant               1.33  pl526_1          bioconda/osx-64                           10 KB
+  + perl-excel-writer-xlsx      1.00  pl526_0          /Users/runner/conda/conda-bld/osx-64     338 KB
+  + perl-exporter               5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker     7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-file-path              2.16  pl526_0          bioconda/osx-64                           17 KB
+  + perl-file-temp            0.2304  pl526_2          bioconda/osx-64                           26 KB
+  + perl-parent                0.236  pl526_1          bioconda/osx-64                            6 KB
+  + perl-time-local             1.28  pl526_1          bioconda/osx-64                           10 KB
+
+  Summary:
+
+  Install: 14 packages
+
+  Total download: 15 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-excel-writer-xlsx_1630648464541/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:                  12.0.1-habf9029_0     conda-forge
+    perl:                    5.26.2-hbcb3906_1008  conda-forge
+    perl-app-cpanminus:      1.7044-pl526_1        bioconda   
+    perl-archive-zip:        1.64-pl526_0          bioconda   
+    perl-carp:               1.38-pl526_3          bioconda   
+    perl-compress-raw-zlib:  2.087-pl526h770b8ee_0 bioconda   
+    perl-constant:           1.33-pl526_1          bioconda   
+    perl-excel-writer-xlsx:  1.00-pl526_0          local      
+    perl-exporter:           5.72-pl526_1          bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1          bioconda   
+    perl-file-path:          2.16-pl526_0          bioconda   
+    perl-file-temp:          0.2304-pl526_2        bioconda   
+    perl-parent:             0.236-pl526_1         bioconda   
+    perl-time-local:         1.28-pl526_1          bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-excel-writer-xlsx_1630648464541/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-excel-writer-xlsx_1630648464541/test_tmp
+import: Excel::Writer::XLSX
+	using version 1.00
+import: Excel::Writer::XLSX::Chart
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Area
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Bar
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Column
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Doughnut
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Line
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Pie
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Radar
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Scatter
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Stock
+	using version 1.00
+import: Excel::Writer::XLSX::Chartsheet
+	using version 1.00
+import: Excel::Writer::XLSX::Drawing
+	using version 1.00
+import: Excel::Writer::XLSX::Examples
+	using version 1.00
+import: Excel::Writer::XLSX::Format
+	using version 1.00
+import: Excel::Writer::XLSX::Package::App
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Comments
+	using version 1.00
+import: Excel::Writer::XLSX::Package::ContentTypes
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Core
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Custom
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Packager
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Relationships
+	using version 1.00
+import: Excel::Writer::XLSX::Package::SharedStrings
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Styles
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Table
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Theme
+	using version 1.00
+import: Excel::Writer::XLSX::Package::VML
+	using version 1.00
+import: Excel::Writer::XLSX::Package::XMLwriter
+	using version 1.00
+import: Excel::Writer::XLSX::Shape
+	using version 1.00
+import: Excel::Writer::XLSX::Utility
+	using version 1.00
+import: Excel::Writer::XLSX::Workbook
+	using version 1.00
+import: Excel::Writer::XLSX::Worksheet
+	using version 1.00
+import: Excel::Writer::XLSX
+	using version 1.00
+import: Excel::Writer::XLSX::Chart
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Area
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Bar
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Column
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Doughnut
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Line
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Pie
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Radar
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Scatter
+	using version 1.00
+import: Excel::Writer::XLSX::Chart::Stock
+	using version 1.00
+import: Excel::Writer::XLSX::Chartsheet
+	using version 1.00
+import: Excel::Writer::XLSX::Drawing
+	using version 1.00
+import: Excel::Writer::XLSX::Examples
+	using version 1.00
+import: Excel::Writer::XLSX::Format
+	using version 1.00
+import: Excel::Writer::XLSX::Package::App
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Comments
+	using version 1.00
+import: Excel::Writer::XLSX::Package::ContentTypes
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Core
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Custom
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Packager
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Relationships
+	using version 1.00
+import: Excel::Writer::XLSX::Package::SharedStrings
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Styles
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Table
+	using version 1.00
+import: Excel::Writer::XLSX::Package::Theme
+	using version 1.00
+import: Excel::Writer::XLSX::Package::VML
+	using version 1.00
+import: Excel::Writer::XLSX::Package::XMLwriter
+	using version 1.00
+import: Excel::Writer::XLSX::Shape
+	using version 1.00
+import: Excel::Writer::XLSX::Utility
+	using version 1.00
+import: Excel::Writer::XLSX::Workbook
+	using version 1.00
+import: Excel::Writer::XLSX::Worksheet
+	using version 1.00
+
+Resource usage statistics from testing perl-excel-writer-xlsx:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 40B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: perl-excel-writer-xlsx-1.00-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
