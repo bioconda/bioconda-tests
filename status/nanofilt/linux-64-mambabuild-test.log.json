@@ -1,0 +1,184 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: nanofilt-2.8.0-py_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpx70ht1vx/info/recipe/conda_build_config.yaml
+  Package                  Version  Build                Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython                 1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + bzip2                    1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + deprecated              1.2.12  pyh44b312d_0         conda-forge/noarch                       12 KB
+  + krb5                    1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                  3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                 3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libdeflate                 1.7  h7f98852_5           conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng          11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5            11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas             0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + nanofilt                 2.8.0  py_0                 /home/vsts/conda/conda-bld/linux-64      12 KB
+  + nanoget                 1.16.1  py_0                 bioconda/noarch                          26 KB
+  + nanomath                 1.2.1  pyhdfd78af_0         bioconda/noarch                          25 KB
+  + ncurses                    6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                   1.21.2  py39hdbf815f_0       conda-forge/linux-64                    Cached
+  + openssl                 1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + pandas                   1.3.2  py39hde0f152_0       conda-forge/linux-64                    Cached
+  + pip                     21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pysam                 0.16.0.1  py39h051187c_3       bioconda/linux-64                       Cached
+  + python                   3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python-dateutil          2.8.2  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python_abi                 3.9  2_cp39               conda-forge/linux-64                    Cached
+  + pytz                    2021.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + readline                   8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools              57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + six                     1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite                  3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                   2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + wrapt                   1.12.1  py39h3811e60_3       conda-forge/linux-64                     47 KB
+  + xz                       5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 48 packages
+
+  Total download: 3 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/nanofilt_1630663952214/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py39h3811e60_0        conda-forge
+    bzip2:            1.0.8-h7f98852_4           conda-forge
+    c-ares:           1.17.2-h7f98852_0          conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    deprecated:       1.2.12-pyh44b312d_0        conda-forge
+    krb5:             1.19.2-hcc1bbae_0          conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libcurl:          7.78.0-h2574ce0_0          conda-forge
+    libdeflate:       1.7-h7f98852_5             conda-forge
+    libedit:          3.1.20191231-he28a2e2_2    conda-forge
+    libev:            4.33-h516909a_1            conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libnghttp2:       1.43.0-h812cca2_0          conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libssh2:          1.10.0-ha56f1ee_0          conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    nanofilt:         2.8.0-py_0                 local      
+    nanoget:          1.16.1-py_0                bioconda   
+    nanomath:         1.2.1-pyhdfd78af_0         bioconda   
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1k-h7f98852_1          conda-forge
+    pandas:           1.3.2-py39hde0f152_0       conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    pysam:            0.16.0.1-py39h051187c_3    bioconda   
+    python:           3.9.7-h49503c6_0_cpython   conda-forge
+    python-dateutil:  2.8.2-pyhd8ed1ab_0         conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    pytz:             2021.1-pyhd8ed1ab_0        conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    six:              1.16.0-pyh6c4a22f_0        conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    wrapt:            1.12.1-py39h3811e60_3      conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/nanofilt_1630663952214/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/nanofilt_1630663952214/test_tmp
+import: 'nanofilt'
+import: 'nanofilt'
+usage: NanoFilt [-h] [-v] [--logfile LOGFILE] [-l LENGTH]
+                [--maxlength MAXLENGTH] [-q QUALITY] [--minGC MINGC]
+                [--maxGC MAXGC] [--headcrop HEADCROP] [--tailcrop TAILCROP]
+                [-s SUMMARY] [--readtype {1D,2D,1D2}]
+                [input]
+
+Perform quality and/or length and/or GC filtering of (long read) fastq data.           Reads on stdin.
+
+General options:
+  -h, --help            show the help and exit
+  -v, --version         Print version and exit.
+  --logfile LOGFILE     Specify the path and filename for the log file.
+  input                 input, uncompressed fastq file
+
+Options for filtering reads on.:
+  -l LENGTH, --length LENGTH
+                        Filter on a minimum read length
+  --maxlength MAXLENGTH
+                        Filter on a maximum read length
+  -q QUALITY, --quality QUALITY
+                        Filter on a minimum average read quality score
+  --minGC MINGC         Sequences must have GC content >= to this. Float between 0.0 and 1.0. Ignored if
+                        using summary file.
+  --maxGC MAXGC         Sequences must have GC content <= to this. Float between 0.0 and 1.0. Ignored if
+                        using summary file.
+
+Options for trimming reads.:
+  --headcrop HEADCROP   Trim n nucleotides from start of read
+  --tailcrop TAILCROP   Trim n nucleotides from end of read
+
+Input options.:
+  -s SUMMARY, --summary SUMMARY
+                        Use albacore or guppy summary file for quality scores
+  --readtype {1D,2D,1D2}
+                        Which read type to extract information about from summary. Options are 1D, 2D or
+                        1D2
+
+EXAMPLES:
+  gunzip -c reads.fastq.gz | NanoFilt -q 10 -l 500 --headcrop 50 | minimap2 genome.fa - | samtools sort -O BAM -@24 -o alignment.bam -
+  gunzip -c reads.fastq.gz | NanoFilt -q 12 --headcrop 75 | gzip > trimmed-reads.fastq.gz
+  gunzip -c reads.fastq.gz | NanoFilt -q 10 | gzip > highQuality-reads.fastq.gz
+
+Resource usage statistics from testing nanofilt:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: nanofilt-2.8.0-py_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

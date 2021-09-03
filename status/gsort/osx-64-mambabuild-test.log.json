@@ -1,0 +1,58 @@
+  Package  Version  Build       Channel                                  Size
+───────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────
+
+  + gsort    0.1.4  h527b516_1  /Users/runner/conda/conda-bld/osx-64     4 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 4 MB
+
+───────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: gsort-0.1.4-h527b516_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/gsort_1630663771985/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    gsort: 0.1.4-h527b516_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/gsort_1630663771985/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/gsort_1630663771985/test_tmp
+Usage: gsort [--chromosomemappings CHROMOSOMEMAPPINGS] [--memory MEMORY] [--parent] PATH GENOME
+
+Positional arguments:
+  PATH                   a tab-delimited file to sort
+  GENOME                 a genome file of chromosome sizes and order
+
+Options:
+  --chromosomemappings CHROMOSOMEMAPPINGS, -c CHROMOSOMEMAPPINGS
+                         a file used to re-map chromosome names for example from hg19 to GRCh37
+  --memory MEMORY, -m MEMORY
+                         megabytes of memory to use before writing to temp files. [default: 2800]
+  --parent, -p           for gff only. given rows with same chrom and start put those with a 'Parent' attribute first
+  --help, -h             display this help and exit
+
+Resource usage statistics from testing gsort:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: gsort-0.1.4-h527b516_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
