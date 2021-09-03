@@ -1,0 +1,131 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + minia            3.2.4  h9a82719_1     /home/vsts/conda/conda-bld/linux-64       7 MB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 7 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: minia-3.2.4-h9a82719_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/minia_1630679225598/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    minia:         3.2.4-h9a82719_1     local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/minia_1630679225598/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/minia_1630679225598/test_tmp
+ERROR: Unknown parameter '-help'
+
+[minia options]
+
+   [assembly options]
+          -in            (1 arg) :    input reads (fasta/fastq/compressed) or hdf5 file  [default '']
+          -keep-isolated (0 arg) :    keep short (<= max(2k, 150 bp)) isolated output sequences
+          -traversal     (1 arg) :    traversal type ('contig', 'unitig')  [default 'contig']
+          -fasta-line    (1 arg) :    number of nucleotides per line in fasta output (0 means one line)  [default '0']
+
+   [graph simplifications options]
+          -no-bulge-removal      (0 arg) :    ask to not perform bulge removal
+          -no-tip-removal        (0 arg) :    ask to not perform tip removal
+          -no-ec-removal         (0 arg) :    ask to not perform erroneous connection removal
+          -tip-len-topo-kmult    (1 arg) :    remove all tips of length <= k * X bp  [default '2.500000']
+          -tip-len-rctc-kmult    (1 arg) :    remove tips that pass coverage criteria, of length <= k * X bp  [default '10.000000']
+          -tip-rctc-cutoff       (1 arg) :    tip relative coverage coefficient: mean coverage of neighbors >  X * tip coverage  [default '2.000000']
+          -bulge-len-kmult       (1 arg) :    bulges shorter than k*X bp are candidate to be removed  [default '3.000000']
+          -bulge-len-kadd        (1 arg) :    bulges shorter than k+X bp are candidate to be removed  [default '100']
+          -bulge-altpath-kadd    (1 arg) :    explore up to k+X nodes to find alternative path  [default '50']
+          -bulge-altpath-covmult (1 arg) :    bulges of coverage <= X*cov_altpath will be removed  [default '1.100000']
+          -ec-len-kmult          (1 arg) :    EC shorter than k*X bp are candidates to be removed  [default '9.000000']
+          -ec-rctc-cutoff        (1 arg) :    EC relative coverage coefficient (similar in spirit as tip)  [default '4.000000']
+       -no-mphf               (0 arg) :    don't construct the MPHF
+
+   [kmer count options]
+          -kmer-size                              (1 arg) :    size of a kmer  [default '31']
+          -abundance-min                          (1 arg) :    min abundance threshold for solid kmers  [default '2']
+          -abundance-max                          (1 arg) :    max abundance threshold for solid kmers  [default '2147483647']
+          -abundance-min-threshold                (1 arg) :    min abundance hard threshold (only used when min abundance is "auto")  [default '2']
+          -histo-max                              (1 arg) :    max number of values in kmers histogram  [default '10000']
+          -solidity-kind                          (1 arg) :    way to compute counts of several files (sum, min, max, one, all, custom)  [default 'sum']
+          -solidity-custom                        (1 arg) :    when solidity-kind is custom, specifies list of files where kmer must be present  [default '']
+          -max-memory                             (1 arg) :    max memory (in MBytes)  [default '5000']
+          -max-disk                               (1 arg) :    max disk   (in MBytes)  [default '0']
+          -solid-kmers-out                        (1 arg) :    output file for solid kmers (only when constructing a graph)  [default '']
+          -out                                    (1 arg) :    output file  [default '']
+          -out-dir                                (1 arg) :    output directory  [default '.']
+          -out-tmp                                (1 arg) :    output directory for temporary files  [default '.']
+          -out-compress                           (1 arg) :    h5 compression level (0:none, 9:best)  [default '0']
+          -storage-type                           (1 arg) :    storage type of kmer counts ('hdf5' or 'file')  [default 'hdf5']
+          -histo2D                                (1 arg) :    compute the 2D histogram (with first file = genome, remaining files = reads)  [default '0']
+          -histo                                  (1 arg) :    output the kmer abundance histogram  [default '0']
+
+      [kmer count, advanced performance tweaks options]
+             -minimizer-type   (1 arg) :    minimizer type (0=lexi, 1=freq)  [default '0']
+             -minimizer-size   (1 arg) :    size of a minimizer  [default '10']
+             -repartition-type (1 arg) :    minimizer repartition (0=unordered, 1=ordered)  [default '0']
+
+   [bloom options]
+          -bloom        (1 arg) :    bloom type ('basic', 'cache', 'neighbor')  [default 'neighbor']
+          -debloom      (1 arg) :    debloom type ('none', 'original' or 'cascading')  [default 'cascading']
+          -debloom-impl (1 arg) :    debloom impl ('basic', 'minimizer')  [default 'minimizer']
+
+   [branching options]
+          -branching-nodes (1 arg) :    branching type ('none' or 'stored')  [default 'stored']
+          -topology-stats  (1 arg) :    topological information level (0 for none)  [default '0']
+
+   [general options]
+          -config-only          (0 arg) :    dump config only
+          -nb-cores             (1 arg) :    number of cores  [default '0']
+          -all-abundance-counts (0 arg) :    output all k-mer abundance counts instead of mean
+          -edge-km              (1 arg) :    edge km representation  [default '0']
+          -verbose              (1 arg) :    verbosity level  [default '1']
+          -integer-precision    (1 arg) :    integers precision (0 for optimized value)  [default '0']
+
+   [debug  options]
+          -redo-bcalm         (0 arg) :    debug function, redo the bcalm algo
+          -skip-bcalm         (0 arg) :    same, but       skip     bcalm
+          -redo-bglue         (0 arg) :    same, but       redo     bglue (needs debug_keep_glue_files=true in source code)
+          -skip-bglue         (0 arg) :    same, but       skip     bglue
+          -redo-links         (0 arg) :    same, but       redo     links
+          -skip-links         (0 arg) :    same, but       skip     links
+          -nb-glue-partitions (1 arg) :    number of glue partitions (automatically calculated by default)  [default '0']
+
+Resource usage statistics from testing minia:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: minia-3.2.4-h9a82719_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
