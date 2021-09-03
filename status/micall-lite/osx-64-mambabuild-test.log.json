@@ -1,0 +1,120 @@
+  Package                 Version  Build                 Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bowtie2                 2.4.4  py37h725d754_0        bioconda/osx-64                            1 MB
+  + ca-certificates     2021.5.30  h033912b_0            conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0            conda-forge/osx-64                       Cached
+  + libffi                    3.3  h046ec9c_2            conda-forge/osx-64                       Cached
+  + lz4-c                   1.9.3  he49afe7_1            conda-forge/osx-64                       Cached
+  + micall-lite            0.1rc3  py37h01d97ff_0        /Users/runner/conda/conda-bld/osx-64     286 KB
+  + ncurses                   6.2  h2e338ed_4            conda-forge/osx-64                       Cached
+  + openssl                1.1.1k  h0d85af4_1            conda-forge/osx-64                       Cached
+  + perl                   5.32.1  0_h0d85af4_perl5      conda-forge/osx-64                        13 MB
+  + pip                    21.2.4  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + python                 3.7.10  h7728216_100_cpython  conda-forge/osx-64                        24 MB
+  + python-levenshtein     0.12.2  py37h7585375_0        conda-forge/osx-64                        77 KB
+  + python_abi                3.7  2_cp37m               conda-forge/osx-64                         4 KB
+  + readline                  8.1  h05e3726_0            conda-forge/osx-64                       Cached
+  + setuptools             57.4.0  py37hf985489_0        conda-forge/osx-64                       963 KB
+  + sqlite                 3.36.0  h23a322b_0            conda-forge/osx-64                       Cached
+  + tbb                    2020.2  h940c156_4            conda-forge/osx-64                       132 KB
+  + tk                     8.6.11  h5dbffcc_1            conda-forge/osx-64                       Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1          conda-forge/noarch                       Cached
+  + xz                      5.2.5  haf1e3a3_1            conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010         conda-forge/osx-64                       Cached
+  + zstd                    1.4.9  h582d3a0_0            conda-forge/osx-64                       460 KB
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 41 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: micall-lite-0.1rc3-py37h01d97ff_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/micall-lite_1630650558197/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    bowtie2:            2.4.4-py37h725d754_0        bioconda   
+    ca-certificates:    2021.5.30-h033912b_0        conda-forge
+    libcxx:             12.0.1-habf9029_0           conda-forge
+    libffi:             3.3-h046ec9c_2              conda-forge
+    lz4-c:              1.9.3-he49afe7_1            conda-forge
+    micall-lite:        0.1rc3-py37h01d97ff_0       local      
+    ncurses:            6.2-h2e338ed_4              conda-forge
+    openssl:            1.1.1k-h0d85af4_1           conda-forge
+    perl:               5.32.1-0_h0d85af4_perl5     conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0         conda-forge
+    python:             3.7.10-h7728216_100_cpython conda-forge
+    python-levenshtein: 0.12.2-py37h7585375_0       conda-forge
+    python_abi:         3.7-2_cp37m                 conda-forge
+    readline:           8.1-h05e3726_0              conda-forge
+    setuptools:         57.4.0-py37hf985489_0       conda-forge
+    sqlite:             3.36.0-h23a322b_0           conda-forge
+    tbb:                2020.2-h940c156_4           conda-forge
+    tk:                 8.6.11-h5dbffcc_1           conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:                 5.2.5-haf1e3a3_1            conda-forge
+    zlib:               1.2.11-h7795811_1010        conda-forge
+    zstd:               1.4.9-h582d3a0_0            conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/micall-lite_1630650558197/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/micall-lite_1630650558197/test_tmp
+usage: micall [-h] [--batch BATCH] [--outdir OUTDIR] [--unzipped] [--keep]
+              [--interop INTEROP] [--readlen READLEN] [--index INDEX]
+              [--bt2 BT2] [--bt2build BT2BUILD] [--threads THREADS]
+              [fastq1] [fastq2]
+
+Use the MiCall pipeline to process gzip-comprssed FASTQ file(s) for one
+sample.
+
+positional arguments:
+  fastq1                Path to *.R1.fastq.gz file of paired set, or to an
+                        unpaired *.fastq.gz file.
+  fastq2                Path to *.R2.fastq.gz file of paired set. Unused if
+                        processing an unpaired sample.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --batch BATCH, -b BATCH
+                        <optional> Path to directory with FASTQ files forbatch
+                        processing.
+  --outdir OUTDIR, -d OUTDIR
+                        <optional> Path to write output files.
+  --unzipped, -u        Set if the FASTQ file is not compressed.
+  --keep, -k            <optional> if set, all temporary files are retained.
+  --interop INTEROP, -i INTEROP
+                        <optional> Path to ErrorMetricsOut.bin interop file.
+  --readlen READLEN, -l READLEN
+                        <optional> Read length (default: 251nt).
+  --index INDEX, -x INDEX
+                        <optional> Index length (default: 8nt).
+  --bt2 BT2             <optional> Path to bowtie2 script.
+  --bt2build BT2BUILD   <optional> Path to bowtie2-build script.
+  --threads THREADS, -p THREADS
+                        Number of threads for bowtie2 (default 4)
+
+Resource usage statistics from testing micall-lite:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 21.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.3
+
+
+TEST END: micall-lite-0.1rc3-py37h01d97ff_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
