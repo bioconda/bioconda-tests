@@ -1,0 +1,76 @@
+  Package   Version  Build       Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────
+
+  + bmtool    3.101  h589c0e0_4  /Users/runner/conda/conda-bld/osx-64       4 MB
+  + libcxx   12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 4 MB
+
+──────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: bmtool-3.101-h589c0e0_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/bmtool_1630670229929/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    bmtool: 3.101-h589c0e0_4  local      
+    libcxx: 12.0.1-habf9029_0 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/bmtool_1630670229929/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/bmtool_1630670229929/test_tmp
+bmtool
+Build word mask for subject database
+where options are:
+[general]
+  --help                   -h     Print help
+  --version                -V     Print version
+[files]
+  --fasta-file=''          -d ''  Input fasta or blastdb file
+  --output-file=''         -o ''  Output word bitmask file
+  --gi-list=''             -l ''  Set gi list for blastdb file
+  --input-file=''          -i ''  Set word bitmask file as input
+  --fasta-parse-ids=false         Parse FASTA ids (becomes broken if ranges are used)
+[hashing parameters]
+  --word-size=18           -w 18  Word size to use
+  --word-step=1            -S 1   Step (stride size) to use
+  --max-amb=0              -A 0   Maximal number of ambiguities to count
+  --pattern=0              -p 0   Set pattern to use with discontiguous words, 0x or 0b prefix may be used for hex or bin (-w## will be ignored)
+[output]
+  --version=2              -v 2   Create this version of file (0-2)
+  --compress               -z     Compress bitmask (requires version 2) [off]
+  --extra-compress         -Z     Compress bitmask (requires version 2) looking for duplicate extension sets [off]
+  --pack-prefix-bits=26           Bits to use for compression prefix
+  --pack-offset-bits=34           Number of bits in table to use for data segment offset
+  --pack-count-bits=10            Number of bits to reserve for entry count within segment
+[other]
+  --mmap                          Memory map source file instead of reading [off]
+  --diff                          Diff source and result before writing, repport differences [off]
+  --slow                          Slow copy (using query API - to check query api [off]
+  --bit-test                      Dest bit operations [off]
+
+Resource usage statistics from testing bmtool:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: bmtool-3.101-h589c0e0_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

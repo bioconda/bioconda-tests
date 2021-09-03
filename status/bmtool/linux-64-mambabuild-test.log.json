@@ -1,0 +1,86 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + bmtool           3.101  he1b5a44_3   /home/vsts/conda/conda-bld/linux-64      70 KB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 70 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: bmtool-3.101-he1b5a44_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/bmtool_1630669894625/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    bmtool:        3.101-he1b5a44_3  local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/bmtool_1630669894625/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/bmtool_1630669894625/test_tmp
+bmtool
+Build word mask for subject database
+where options are:
+[general]
+  --help                 -h     Print help
+  --version              -V     Print version
+  --quiet                -q     Do not show progress indicators [off]
+[files]
+  --fasta-file=''        -d ''  Input fasta or blastdb file
+  --output-file=''       -o ''  Output word bitmask file
+  --gi-list=''           -l ''  Set gi list for blastdb file
+  --input-file=''        -i ''  Set word bitmask file as input
+  --fasta-parse-ids=0           Parse FASTA ids (becomes broken if ranges are used)
+[hashing parameters]
+  --word-size=18         -w 18  Word size to use
+  --word-step=1          -S 1   Step (stride size) to use
+  --max-amb=0            -A 0   Maximal number of ambiguities to count
+  --pattern=0            -p 0   Set pattern to use with discontiguous words, 0x or 0b prefix may be used for hex or bin (-w## will be ignored)
+  --max-word-count=0     -W 0   Do not include words counted more than this value (for 16-mers or less)
+[output]
+  --version=2            -v 2   Create this version of file (0-2)
+  --compress             -z     Compress bitmask (requires version 2) [off]
+  --extra-compress       -Z     Compress bitmask (requires version 2) looking for duplicate extension sets [off]
+  --pack-prefix-bits=26         Bits to use for compression prefix
+  --pack-offset-bits=34         Number of bits in table to use for data segment offset
+  --pack-count-bits=10          Number of bits to reserve for entry count within segment
+[other]
+  --mmap                        Memory map source file instead of reading [off]
+  --diff                        Diff source and result before writing, repport differences [off]
+  --slow                        Slow copy (using query API - to check query api [off]
+  --bit-test                    Test bit operations [off]
+
+Resource usage statistics from testing bmtool:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: bmtool-3.101-he1b5a44_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
