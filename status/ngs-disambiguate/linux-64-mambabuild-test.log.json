@@ -1,0 +1,98 @@
+  Package                Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge    conda-forge/linux-64                     Cached
+  + _openmp_mutex            4.5  1_gnu          conda-forge/linux-64                     Cached
+  + bamtools               2.5.1  h9a82719_9     bioconda/linux-64                       1012 KB
+  + libgcc-ng             11.1.0  hc902ee8_8     conda-forge/linux-64                     Cached
+  + libgomp               11.1.0  hc902ee8_8     conda-forge/linux-64                     Cached
+  + libstdcxx-ng          11.1.0  h56837e0_8     conda-forge/linux-64                     Cached
+  + ngs-disambiguate  2018.05.03  h6fbe174_5     /home/vsts/conda/conda-bld/linux-64       68 KB
+  + zlib                  1.2.11  h516909a_1010  conda-forge/linux-64                     Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 1 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: ngs-disambiguate-2018.05.03-h6fbe174_5.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/ngs-disambiguate_1630675355825/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge       conda-forge
+    _openmp_mutex:    4.5-1_gnu             conda-forge
+    bamtools:         2.5.1-h9a82719_9      bioconda   
+    libgcc-ng:        11.1.0-hc902ee8_8     conda-forge
+    libgomp:          11.1.0-hc902ee8_8     conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8     conda-forge
+    ngs-disambiguate: 2018.05.03-h6fbe174_5 local      
+    zlib:             1.2.11-h516909a_1010  conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/ngs-disambiguate_1630675355825/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/ngs-disambiguate_1630675355825/test_tmp
+
+USAGE: 
+
+   ngs_disambiguate  [-d] -s <string> -o <string> [-a <string>] [--]
+                     [--version] [-h] <A> <B>
+
+
+Where: 
+
+   -d,  --no-sort
+     (Deprecated option for backwards compatibility)
+
+   -s <string>,  --prefix <string>
+     (required)  Sample ID or name used as prefix. Do not include .bam
+
+   -o <string>,  --output-dir <string>
+     (required)  Output directory
+
+   -a <string>,  --aligner <string>
+     Aligner option {tophat(default),hisat2,bwa,star}
+
+   --,  --ignore_rest
+     Ignores the rest of the labeled arguments following this flag.
+
+   --version
+     Displays version information and exits.
+
+   -h,  --help
+     Displays usage information and exits.
+
+   <A>
+     (required)  Species A BAM file
+
+   <B>
+     (required)  Species B BAM file
+
+
+   Command description message
+
+
+Resource usage statistics from testing ngs-disambiguate:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: ngs-disambiguate-2018.05.03-h6fbe174_5.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
