@@ -1,0 +1,67 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "h7f98852_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/linux-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "openjdk-8.0.282-h7f98852_0.tar.bz2",
+        "license": "GPL-2.0-or-later WITH Classpath-exception-2.0",
+        "name": "openjdk",
+        "sha256": "a3bcacfcf192b228d3ac69229b22d1e0d2e488c86f79647b984d964c997398ef",
+        "size": 104140735,
+        "subdir": "",
+        "timestamp": 1615996481000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/linux-64/openjdk-8.0.282-h7f98852_0.tar.bz2",
+        "version": "8.0.282"
+      },
+      {
+        "build": "5",
+        "build_number": 5,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64",
+        "constrains": [],
+        "depends": [
+          "openjdk >=8,<9"
+        ],
+        "fn": "rabix-bunny-1.0.4-5.tar.bz2",
+        "license": "Apache v2",
+        "name": "rabix-bunny",
+        "sha256": "d66a60313b8692cd9a55cbd455318b5bbfd859d43ece348cfcfb3e0fd4056967",
+        "size": 42839437,
+        "subdir": "",
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64/rabix-bunny-1.0.4-5.tar.bz2",
+        "version": "1.0.4"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h7f98852_0",
+        "channel": "conda-forge",
+        "dist_name": "openjdk-8.0.282-h7f98852_0",
+        "name": "openjdk",
+        "platform": "",
+        "version": "8.0.282"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 5,
+        "build_string": "5",
+        "channel": "bioconda",
+        "dist_name": "rabix-bunny-1.0.4-5",
+        "name": "rabix-bunny",
+        "platform": "",
+        "version": "1.0.4"
+      }
+    ],
+    "PREFIX": "/home/vsts/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/home/vsts/conda/envs/solve",
+  "success": true
+}

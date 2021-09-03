@@ -1,0 +1,60 @@
+  Package     Version  Build       Channel                                 Size
+─────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────
+
+  + taxonkit    0.8.0  h9ee0642_0  /home/vsts/conda/conda-bld/linux-64     2 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 2 MB
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: taxonkit-0.8.0-h9ee0642_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/taxonkit_1630670820536/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    taxonkit: 0.8.0-h9ee0642_0 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/taxonkit_1630670820536/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/taxonkit_1630670820536/test_tmp
+print version information and check for update
+
+Usage:
+  taxonkit version [flags]
+
+Flags:
+  -u, --check-update   check update
+  -h, --help           help for version
+
+Global Flags:
+      --data-dir string   directory containing nodes.dmp and names.dmp (default "/home/vsts/.taxonkit")
+      --line-buffered     use line buffering on output, i.e., immediately writing to stdin/file for every line of output
+  -o, --out-file string   out file ("-" for stdout, suffix .gz for gzipped out) (default "-")
+  -j, --threads int       number of CPUs. 4 is enough (default 2)
+      --verbose           print verbose information
+
+Resource usage statistics from testing taxonkit:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: taxonkit-0.8.0-h9ee0642_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
