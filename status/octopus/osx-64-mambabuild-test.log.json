@@ -1,0 +1,418 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + boost-cpp              1.74.0  hff03dee_4     conda-forge/osx-64                        16 MB
+  + bzip2                   1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + gmp                     6.2.1  h2e338ed_0     conda-forge/osx-64                       774 KB
+  + htslib                   1.12  hc38c3fb_1     bioconda/osx-64                            2 MB
+  + icu                      68.1  h74dc148_0     conda-forge/osx-64                       Cached
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5     conda-forge/osx-64                        67 KB
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + lz4-c                   1.9.3  he49afe7_1     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + octopus                0.6.3b  h5d33b56_3     /Users/runner/conda/conda-bld/osx-64       3 MB
+  + openssl                1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1     conda-forge/osx-64                       Cached
+  + xz                      5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+  + zstd                    1.5.0  h582d3a0_0     conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 23 packages
+
+  Total download: 21 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: octopus-0.6.3b-h5d33b56_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/octopus_1630680074300/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    boost-cpp:       1.74.0-hff03dee_4       conda-forge
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    gmp:             6.2.1-h2e338ed_0        conda-forge
+    htslib:          1.12-hc38c3fb_1         bioconda   
+    icu:             68.1-h74dc148_0         conda-forge
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    lz4-c:           1.9.3-he49afe7_1        conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    octopus:         0.6.3b-h5d33b56_3       local      
+    openssl:         1.1.1l-h0d85af4_0       conda-forge
+    tk:              8.6.11-h5dbffcc_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+    zstd:            1.5.0-h582d3a0_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/octopus_1630680074300/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/octopus_1630680074300/test_tmp
+octopus population calling options:
+
+General:
+  -h [ --help ]                         Produce help message
+  --version                             Output the version number
+  --config arg                          A config file, used to populate command
+                                        line options
+  --debug [=arg(="octopus_debug.log")]  Writes verbose debug information to 
+                                        debug.log in the working directory
+  --trace [=arg(="octopus_trace.log")]  Writes very verbose debug information 
+                                        to trace.log in the working directory
+  --fast                                Turns off some features to improve 
+                                        runtime, at the cost of decreased 
+                                        calling accuracy. Equivalent to '-a off
+                                        -l minimal -x 50`
+  --very-fast                           The same as fast but also disables 
+                                        inactive flank scoring
+
+Backend:
+  -w [ --working-directory ] arg        Sets the working directory
+  --threads [=arg(=0)]                  Maximum number of threads to be used, 
+                                        enabling this option with no argument 
+                                        lets the application decide the number 
+                                        of threads ands enables specific 
+                                        algorithm parallelisation
+  -X [ --max-reference-cache-footprint ] arg (=500MB)
+                                        Maximum memory footprint for cached 
+                                        reference sequence
+  -B [ --target-read-buffer-footprint ] arg (=6GB)
+                                        None binding request to limit the 
+                                        memory footprint of buffered read data
+  --max-open-read-files arg (=250)      Limits the number of read files that 
+                                        can be open simultaneously
+  --target-working-memory arg           Target working memory footprint for 
+                                        analysis not including read or 
+                                        reference footprint
+  --temp-directory-prefix arg (="octopus-temp")
+                                        File name prefix of temporary directory
+                                        for calling
+
+I/O:
+  -R [ --reference ] arg                FASTA format reference genome file to 
+                                        be analysed. Target regions will be 
+                                        extracted from the reference index if 
+                                        not provded explicitly
+  -I [ --reads ] arg                    Space-separated list of BAM/CRAM files 
+                                        to be analysed. May be specified 
+                                        multiple times
+  -i [ --reads-file ] arg               Files containing lists of BAM/CRAM 
+                                        files, one per line, to be analysed
+  --one-based-indexing                  Notifies that input regions are given 
+                                        using one based indexing rather than 
+                                        zero based
+  -T [ --regions ] arg                  Space-separated list of regions 
+                                        (chrom:begin-end) to be analysed. May 
+                                        be specified multiple times
+  -t [ --regions-file ] arg             File containing a list of regions 
+                                        (chrom:begin-end), one per line, to be 
+                                        analysed
+  -K [ --skip-regions ] arg             Space-separated list of regions 
+                                        (chrom:begin-end) to skip May be 
+                                        specified multiple times
+  -k [ --skip-regions-file ] arg        File of regions (chrom:begin-end), one 
+                                        per line, to skip
+  -S [ --samples ] arg                  Space-separated list of sample names to
+                                        analyse
+  -s [ --samples-file ] arg             File of sample names to analyse, one 
+                                        per line, which must be a subset of the
+                                        samples that appear in the read files
+  --ignore-unmapped-contigs             Ignore any contigs that are not present
+                                        in the read files
+  --pedigree arg                        PED file containing sample pedigree
+  -o [ --output ] arg                   File to where output is written. If 
+                                        unspecified, calls are written to 
+                                        stdout
+  --contig-output-order arg (=asInReferenceIndex)
+                                        The order contigs should be written to 
+                                        the output
+  --sites-only                          Only reports call sites (i.e. without 
+                                        sample genotype information)
+  --legacy                              Outputs a legacy version of the final 
+                                        callset in addition to the native 
+                                        version
+  --regenotype arg                      VCF file specifying calls to 
+                                        regenotype, only sites in this files 
+                                        will appear in the final output
+  --bamout arg                          Output realigned BAM files
+  --full-bamout                         Output all reads when producing 
+                                        realigned bam outputs rather than just 
+                                        variant read minibams
+  --data-profile arg                    Output a profile of polymorphisms and 
+                                        errors found in the data
+
+Read transformations:
+  --read-transforms arg (=1)            Enable all read transformations
+  --mask-low-quality-tails [=arg(=3)]   Masks read tail bases with base quality
+                                        less than this
+  --mask-tails [=arg(=1)]               Unconditionally mask this many read 
+                                        tail sbases
+  --soft-clip-masking arg (=1)          Turn on or off soft clip base 
+                                        recalibration
+  --soft-clip-mask-threshold [=arg(=3)] Only soft clipped bases with quality 
+                                        less than this will be recalibrated, 
+                                        rather than all bases
+  --mask-soft-clipped-boundary-bases arg (=2)
+                                        Masks this number of adjacent non soft 
+                                        clipped bases when soft clipped bases 
+                                        are present
+  --adapter-masking arg (=1)            Enable adapter detection and masking
+  --overlap-masking arg (=1)            Enable read segment overlap masking
+  --mask-inverted-soft-clipping arg (=0)
+                                        Mask soft clipped sequence that is an 
+                                        inverted copy of a proximate sequence
+  --mask-3prime-shifted-soft-clipped-heads arg (=0)
+                                        Mask soft clipped read head sequence 
+                                        that is a copy of a proximate 3' 
+                                        sequence
+
+Read filtering:
+  --read-filtering arg (=1)             Enable all read filters
+  --consider-unmapped-reads             Allows reads marked as unmapped to be 
+                                        used for calling
+  --min-mapping-quality arg (=20)       Minimum read mapping quality required 
+                                        to consider a read for calling
+  --good-base-quality arg (=20)         Base quality threshold used by 
+                                        min-good-bases and min-good-base-fracti
+                                        on filters
+  --min-good-base-fraction [=arg(=0.5)] Base quality threshold used by 
+                                        min-good-bases filter
+  --min-good-bases arg (=20)            Minimum number of bases with quality 
+                                        min-base-quality before read is 
+                                        considered
+  --allow-qc-fails                      Filters reads marked as QC failed
+  --min-read-length arg                 Filters reads shorter than this
+  --max-read-length arg                 Filter reads longer than this
+  --allow-marked-duplicates             Allows reads marked as duplicate in 
+                                        alignment record
+  --allow-octopus-duplicates            Allows reads considered duplicates by 
+                                        octopus
+  --allow-secondary-alignments          Allows reads marked as secondary 
+                                        alignments
+  --allow-supplementary-alignments      Allows reads marked as supplementary 
+                                        alignments
+  --no-reads-with-unmapped-segments     Filter reads with unmapped template 
+                                        segments to be used for calling
+  --no-reads-with-distant-segments      Filter reads with template segments 
+                                        that are on different contigs
+  --no-adapter-contaminated-reads       Filter reads with possible adapter 
+                                        contamination
+  --disable-downsampling                Disables downsampling
+  --downsample-above arg (=1000)        Downsample reads in regions where 
+                                        coverage is over this
+  --downsample-target arg (=500)        The target coverage for the downsampler
+
+Candidate variant generation:
+  -g [ --raw-cigar-candidate-generator ] arg (=1)
+                                        Enable candidate generation from raw 
+                                        read alignments (CIGAR strings)
+  --repeat-candidate-generator arg (=1) Enable candidate generation from 
+                                        adjusted read alignments (CIGAR 
+                                        strings) around tandem repeats
+  -a [ --assembly-candidate-generator ] arg (=1)
+                                        Enable candidate generation using local
+                                        re-assembly
+  -c [ --source-candidates ] arg        Variant file paths containing known 
+                                        variants. These variants will 
+                                        automatically become candidates
+  --source-candidates-file arg          Files containing lists of source 
+                                        candidate variant files
+  --min-source-quality [=arg(=2)]       Only variants with quality above this 
+                                        value are considered for candidate 
+                                        generation
+  --use-filtered-source-candidates arg (=0)
+                                        Use variants from source VCF records 
+                                        that have been filtered
+  --min-base-quality arg (=20)          Only bases with quality above this 
+                                        value are considered for candidate 
+                                        generation
+  --min-supporting-reads [=arg(=2)]     Minimum number of reads that must 
+                                        support a variant if it is to be 
+                                        considered a candidate. By default 
+                                        octopus will automatically determine 
+                                        this value
+  --max-variant-size arg (=2000)        Maximum candidate variant size to 
+                                        consider (in region space)
+  --kmer-sizes arg (=10 15 20)          Kmer sizes to use for local assembly
+  --num-fallback-kmers arg (=10)        How many local assembly fallback kmer 
+                                        sizes to use if the default sizes fail
+  --fallback-kmer-gap arg (=10)         The gap size used to generate local 
+                                        assembly fallback kmers
+  --max-region-to-assemble arg (=400)   The maximum region size that can be 
+                                        used for local assembly
+  --max-assemble-region-overlap arg (=200)
+                                        The maximum number of bases allowed to 
+                                        overlap assembly regions
+  --assemble-all                        Forces all regions to be assembled
+  --assembler-mask-base-quality arg (=10)
+                                        Aligned bases with quality less than 
+                                        this will be converted to reference 
+                                        before being inserted into the De 
+                                        Bruijn graph
+  --min-kmer-prune arg (=2)             Minimum number of read observations to 
+                                        keep a kmer in the assembly graph 
+                                        before bubble extraction
+  --max-bubbles arg (=30)               Maximum number of bubbles to extract 
+                                        from the assembly graph
+  --min-bubble-score arg (=2)           Minimum bubble score that will be 
+                                        extracted from the assembly graph
+
+Haplotype generation:
+  -x [ --max-haplotypes ] arg (=200)    Maximum number of candidate haplotypes 
+                                        the caller may consider. If a region 
+                                        contains more candidate haplotypes than
+                                        this then filtering is applied
+  --haplotype-holdout-threshold arg (=2500)
+                                        Forces the haplotype generator to 
+                                        temporarily hold out some alleles if 
+                                        the number of haplotypes in a region 
+                                        exceeds this threshold
+  --haplotype-overflow arg (=200000)    Regions with more haplotypes than this 
+                                        will be skipped
+  --max-holdout-depth arg (=20)         Maximum number of holdout attempts the 
+                                        haplotype generator can make before the
+                                        region is skipped
+  --extension-level arg (=normal)       Level of haplotype extension. Possible 
+                                        values are: conservative, normal, 
+                                        optimistic, aggressive
+  -e [ --haplotype-extension-threshold ] arg (=100)
+                                        Haplotypes with posterior probability 
+                                        less than this can be filtered before 
+                                        extension
+  --dedup-haplotypes-with-prior-model arg (=1)
+                                        Remove duplicate haplotypes using 
+                                        mutation prior model
+  --protect-reference-haplotype arg (=1)
+                                        Protect the reference haplotype from 
+                                        filtering
+
+Calling (general):
+  -C [ --caller ] arg (=population)     Which of the octopus callers to use
+  -P [ --organism-ploidy ] arg (=2)     All contigs with unspecified ploidies 
+                                        are assumed the organism ploidy
+  -p [ --contig-ploidies ] arg (=Y=1 chrY=1 MT=1 chrM=1)
+                                        Space-separated list of contig 
+                                        (contig=ploidy) or sample contig 
+                                        (sample:contig=ploidy) ploidies
+  --contig-ploidies-file arg            File containing a list of contig 
+                                        (contig=ploidy) or sample contig 
+                                        (sample:contig=ploidy) ploidies, one 
+                                        per line
+  --min-variant-posterior arg (=1)      Report variant alleles with posterior 
+                                        probability (phred scale) greater than 
+                                        this
+  --refcall [=arg(=blocked)]            Caller will report reference confidence
+                                        calls for each position (positional), 
+                                        or in automatically sized blocks 
+                                        (blocked)
+  --refcall-block-merge-threshold arg (=10)
+                                        Threshold to merge adjacent refcall 
+                                        positions when using blocked refcalling
+  --min-refcall-posterior arg (=2)      Report reference alleles with posterior
+                                        probability (phred scale) greater than 
+                                        this
+  -z [ --snp-heterozygosity ] arg (=0.001)
+                                        Germline SNP heterozygosity for the 
+                                        given samples
+  --snp-heterozygosity-stdev arg (=0.01)
+                                        Standard deviation of the germline SNP 
+                                        heterozygosity used for the given 
+                                        samples
+  -y [ --indel-heterozygosity ] arg (=0.0001)
+                                        Germline indel heterozygosity for the 
+                                        given samples
+  --use-uniform-genotype-priors         Use a uniform prior model when 
+                                        calculating genotype posteriors
+  --max-genotypes arg (=5000)           The maximum number of genotypes to 
+                                        evaluate
+  --max-joint-genotypes arg (=1000000)  The maximum number of joint genotype 
+                                        vectors to consider when computing 
+                                        joint genotype posterior probabilities
+  --use-independent-genotype-priors     Use independent genotype priors for 
+                                        joint calling
+  --model-posterior arg                 Calculate model posteriors for every 
+                                        call
+  --inactive-flank-scoring arg (=1)     Disables additional calculation to 
+                                        adjust alignment score when there are 
+                                        inactive candidates in haplotype 
+                                        flanking regions
+  --model-mapping-quality arg (=1)      Include the read mapping quality in the
+                                        haplotype likelihood calculation
+  --sequence-error-model arg (=PCR-free.HiSeq-2500)
+                                        The sequencer error model to use
+  --max-vb-seeds arg (=12)              Maximum number of seeds to use for 
+                                        Variational Bayes algorithms
+
+Phasing:
+  -l [ --phasing-level ] arg (=normal)  Level of phasing - longer range phasing
+                                        can improve calling accuracy at the 
+                                        cost of runtime speed. Possible values 
+                                        are: minimal, conservative, moderate, 
+                                        normal, aggressive
+  --min-phase-score arg (=10)           Minimum phase score (phred scale) 
+                                        required to report sites as phased
+
+Variant filtering:
+  -f [ --call-filtering ] arg (=1)      Turn variant call filtering on or off
+  --filter-expression arg (=QUAL < 10 | MQ < 10 | MP < 10 | AF < 0.05 | SB > 0.98 | BQ < 15 | DP < 1)
+                                        Boolean expression to use to filter 
+                                        variant calls
+  --somatic-filter-expression arg (=QUAL < 2 | GQ < 20 | MQ < 30 | SMQ < 40 | SB > 0.9 | SD > 0.9 | BQ < 20 | DP < 3 | MF > 0.2 | NC > 1 | FRF > 0.5)
+                                        Boolean expression to use to filter 
+                                        somatic variant calls
+  --denovo-filter-expression arg (=QUAL < 50 | PP < 40 | GQ < 20 | MQ < 30 | AF < 0.1 | SB > 0.95 | BQ < 20 | DP < 10 | DC > 1 | MF > 0.2 | FRF > 0.5 | MP < 30 | MQ0 > 2)
+                                        Boolean expression to use to filter 
+                                        somatic variant calls
+  --refcall-filter-expression arg (=QUAL < 2 | GQ < 20 | MQ < 10 | DP < 10 | MF > 0.2)
+                                        Boolean expression to use to filter 
+                                        homozygous reference calls
+  --use-calling-reads-for-filtering arg (=0)
+                                        Use the original reads used for variant
+                                        calling for filtering
+  --keep-unfiltered-calls               Keep a copy of unfiltered calls
+  --annotations [=arg(=active)]         Annotations to write to final VCF
+  --filter-vcf arg                      Filter the given Octopus VCF without 
+                                        calling
+  --forest-file arg                     Trained Ranger random forest file
+  --somatic-forest-file arg             Trained Ranger random forest file for 
+                                        somatic variants
+
+
+Resource usage statistics from testing octopus:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 11.8M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: octopus-0.6.3b-h5d33b56_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
