@@ -1,0 +1,80 @@
+  Package         Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + generax         2.0.4  h3fcd44b_0         /Users/runner/conda/conda-bld/osx-64     804 KB
+  + libcxx         12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran     5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5    9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + llvm-openmp    12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + mpi               1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openmpi         4.1.1  hd3cd54c_0         conda-forge/osx-64                         3 MB
+  + zlib           1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 4 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: generax-2.0.4-h3fcd44b_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/generax_1630703502703/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    generax:      2.0.4-h3fcd44b_0        local      
+    libcxx:       12.0.1-habf9029_0       conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1       conda-forge
+    mpi:          1.0-openmpi             conda-forge
+    openmpi:      4.1.1-hd3cd54c_0        conda-forge
+    zlib:         1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/generax_1630703502703/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/generax_1630703502703/test_tmp
+[00:00:00] GeneRax 2.0.4
+-h, --help
+-f, --families <FAMILIES_INFORMATION>
+-s, --species-tree <SPECIES TREE>
+--strategy <STRATEGY>  {EVAL, SPR}
+-r --rec-model <reconciliationModel>  {UndatedDL, UndatedDTL, Auto}
+-p, --prefix <OUTPUT PREFIX>
+--unrooted-gene-tree
+--support-threshold <threshold>
+--per-family-rates
+--per-species-rates
+--dup-rate <duplication rate>
+--loss-rate <loss rate>
+--transfer-rate <transfer rate>
+--max-spr-radius <max SPR radius>
+--rec-weight <reconciliation likelihood weight>
+--do-not-reconcile
+--reconciliation-samples <number of samples>
+--seed <seed>
+Please find more information on the GeneRax github wiki
+
+
+Resource usage statistics from testing generax:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 29.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:12.3
+
+
+TEST END: generax-2.0.4-h3fcd44b_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
