@@ -1,0 +1,990 @@
+  Package                      Version  Build                 Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                  0.1  conda_forge           conda-forge/linux-64                    Cached
+  + _openmp_mutex                  4.5  1_gnu                 conda-forge/linux-64                    Cached
+  + ca-certificates          2021.5.30  ha878542_0            conda-forge/linux-64                    Cached
+  + frogs                        3.2.3  py37h9ee0642_0        /home/vsts/conda/conda-bld/linux-64      21 MB
+  + ld_impl_linux-64            2.36.1  hea4e1c9_2            conda-forge/linux-64                    Cached
+  + libblas                      3.9.0  11_linux64_openblas   conda-forge/linux-64                    Cached
+  + libcblas                     3.9.0  11_linux64_openblas   conda-forge/linux-64                    Cached
+  + libffi                         3.3  h58526e2_2            conda-forge/linux-64                    Cached
+  + libgcc                       7.2.0  h69d50b8_2            conda-forge/linux-64                    304 KB
+  + libgcc-ng                   11.1.0  hc902ee8_8            conda-forge/linux-64                    Cached
+  + libgfortran-ng              11.1.0  h69a702a_8            conda-forge/linux-64                    Cached
+  + libgfortran5                11.1.0  h6c583b3_8            conda-forge/linux-64                    Cached
+  + libgomp                     11.1.0  hc902ee8_8            conda-forge/linux-64                    Cached
+  + liblapack                    3.9.0  11_linux64_openblas   conda-forge/linux-64                    Cached
+  + libopenblas                 0.3.17  pthreads_h8fe5266_1   conda-forge/linux-64                    Cached
+  + libstdcxx-ng                11.1.0  h56837e0_8            conda-forge/linux-64                    Cached
+  + ncurses                        6.2  h58526e2_4            conda-forge/linux-64                    Cached
+  + numpy                       1.21.2  py37h31617e3_0        conda-forge/linux-64                      6 MB
+  + openjdk                    8.0.282  h7f98852_0            conda-forge/linux-64                     99 MB
+  + openssl                     1.1.1k  h7f98852_1            conda-forge/linux-64                    Cached
+  + perl                        5.32.1  0_h7f98852_perl5      conda-forge/linux-64                     14 MB
+  + perl-compress-raw-bzip2      2.069  1                     bioconda/linux-64                        39 KB
+  + perl-compress-raw-zlib       2.069  3                     bioconda/linux-64                        64 KB
+  + perl-io-compress             2.069  1                     bioconda/linux-64                        75 KB
+  + perl-io-zlib                  1.10  1                     bioconda/linux-64                         7 KB
+  + perl-perlio-gzip              0.19  0                     bioconda/linux-64                        12 KB
+  + perl-scalar-list-utils        1.45  2                     bioconda/linux-64                        33 KB
+  + perl-threaded               5.26.0  0                     bioconda/linux-64                         4 KB
+  + pip                         21.2.4  pyhd8ed1ab_0          conda-forge/noarch                      Cached
+  + python                      3.7.10  hffdb5ce_100_cpython  conda-forge/linux-64                     57 MB
+  + python_abi                     3.7  2_cp37m               conda-forge/linux-64                      4 KB
+  + rdptools                     2.0.3  hdfd78af_1            bioconda/noarch                         138 MB
+  + readline                       8.1  h46c0cb4_0            conda-forge/linux-64                    Cached
+  + scipy                        1.7.1  py37hf2a6cf1_0        conda-forge/linux-64                     22 MB
+  + setuptools                  57.4.0  py37h89c1867_0        conda-forge/linux-64                    938 KB
+  + sqlite                      3.36.0  h9cd32fc_0            conda-forge/linux-64                    Cached
+  + tk                          8.6.11  h27826a3_1            conda-forge/linux-64                    Cached
+  + wheel                       0.37.0  pyhd8ed1ab_1          conda-forge/noarch                      Cached
+  + xz                           5.2.5  h516909a_1            conda-forge/linux-64                    Cached
+  + zlib                        1.2.11  h516909a_1010         conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 40 packages
+
+  Total download: 359 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: frogs-3.2.3-py37h9ee0642_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/frogs_1630662836333/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge             conda-forge
+    _openmp_mutex:           4.5-1_gnu                   conda-forge
+    ca-certificates:         2021.5.30-ha878542_0        conda-forge
+    frogs:                   3.2.3-py37h9ee0642_0        local      
+    ld_impl_linux-64:        2.36.1-hea4e1c9_2           conda-forge
+    libblas:                 3.9.0-11_linux64_openblas   conda-forge
+    libcblas:                3.9.0-11_linux64_openblas   conda-forge
+    libffi:                  3.3-h58526e2_2              conda-forge
+    libgcc:                  7.2.0-h69d50b8_2            conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8           conda-forge
+    libgfortran-ng:          11.1.0-h69a702a_8           conda-forge
+    libgfortran5:            11.1.0-h6c583b3_8           conda-forge
+    libgomp:                 11.1.0-hc902ee8_8           conda-forge
+    liblapack:               3.9.0-11_linux64_openblas   conda-forge
+    libopenblas:             0.3.17-pthreads_h8fe5266_1  conda-forge
+    libstdcxx-ng:            11.1.0-h56837e0_8           conda-forge
+    ncurses:                 6.2-h58526e2_4              conda-forge
+    numpy:                   1.21.2-py37h31617e3_0       conda-forge
+    openjdk:                 8.0.282-h7f98852_0          conda-forge
+    openssl:                 1.1.1k-h7f98852_1           conda-forge
+    perl:                    5.32.1-0_h7f98852_perl5     conda-forge
+    perl-compress-raw-bzip2: 2.069-1                     bioconda   
+    perl-compress-raw-zlib:  2.069-3                     bioconda   
+    perl-io-compress:        2.069-1                     bioconda   
+    perl-io-zlib:            1.10-1                      bioconda   
+    perl-perlio-gzip:        0.19-0                      bioconda   
+    perl-scalar-list-utils:  1.45-2                      bioconda   
+    perl-threaded:           5.26.0-0                    bioconda   
+    pip:                     21.2.4-pyhd8ed1ab_0         conda-forge
+    python:                  3.7.10-hffdb5ce_100_cpython conda-forge
+    python_abi:              3.7-2_cp37m                 conda-forge
+    rdptools:                2.0.3-hdfd78af_1            bioconda   
+    readline:                8.1-h46c0cb4_0              conda-forge
+    scipy:                   1.7.1-py37hf2a6cf1_0        conda-forge
+    setuptools:              57.4.0-py37h89c1867_0       conda-forge
+    sqlite:                  3.36.0-h9cd32fc_0           conda-forge
+    tk:                      8.6.11-h27826a3_1           conda-forge
+    wheel:                   0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:                      5.2.5-h516909a_1            conda-forge
+    zlib:                    1.2.11-h516909a_1010        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/frogs_1630662836333/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/frogs_1630662836333/test_tmp
+usage: preprocess.py [-h] [-v] {illumina,454} ...
+
+Pre-process amplicons to use reads in diversity analysis.
+
+positional arguments:
+  {illumina,454}
+    illumina      Illumina sequencers.
+    454           454 sequencers.
+
+optional arguments:
+  -h, --help      show this help message and exit
+  -v, --version   show program's version number and exit
+usage: clustering.py [-h] [-p NB_CPUS] [--debug] [-v] [-d DISTANCE]
+                     [--fastidious] [-n] -f INPUT_FASTA -c INPUT_COUNT
+                     [-b OUTPUT_BIOM] [--output-fasta OUTPUT_FASTA]
+                     [--output-compo OUTPUT_COMPO] [-l LOG_FILE]
+
+Single-linkage clustering on sequences.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Recommended options:
+  -d DISTANCE, --distance DISTANCE
+                        Maximum distance between sequences in each aggregation
+                        step. RECOMMENDED : d=1 in combination with
+                        --fastidious option [Default: 1]
+  --fastidious          use the fastidious option of swarm to refine OTU.
+                        RECOMMENDED in combination with a distance equal to 1
+                        (-d). it is only usable with d=1 and mutually
+                        exclusive with --denoising.
+
+other clustering option:
+  -n, --denoising       denoise data by clustering read with distance=1 before
+                        perform real clustering. It is mutually exclusive with
+                        --fastidious.
+
+Inputs:
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        The sequences file (format: FASTA).
+  -c INPUT_COUNT, --input-count INPUT_COUNT
+                        The count file for 'fasta-file' (format: TSV). It
+                        contains the count by sample for each sequence.
+
+Outputs:
+  -b OUTPUT_BIOM, --output-biom OUTPUT_BIOM
+                        This output file will contain the abondance by sample
+                        for each cluster (format: BIOM). [Default:
+                        clustering_abundance.biom]
+  --output-fasta OUTPUT_FASTA
+                        This output file will contain the seed sequence for
+                        each cluster (format: FASTA). [Default:
+                        clustering_seeds.fasta]
+  --output-compo OUTPUT_COMPO
+                        This output file will contain the composition of each
+                        cluster (format: TSV). One Line is a cluster ; each
+                        column is a sequence ID. [Default:
+                        clustering_swarms_composition.tsv]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several information on
+                        executed commands.
+usage: remove_chimera.py [-h] [-p NB_CPUS] [--debug] [-v] -f INPUT_FASTA
+                         [-b INPUT_BIOM | -c INPUT_COUNT] [-n NON_CHIMERA]
+                         [-a OUT_ABUNDANCE] [--summary SUMMARY] [-l LOG_FILE]
+
+Removes PCR chimera.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        The cluster sequences (format: FASTA).
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        The abundance file for clusters by sample (format:
+                        BIOM).
+  -c INPUT_COUNT, --input-count INPUT_COUNT
+                        The counts file for clusters by sample (format: TSV).
+
+Outputs:
+  -n NON_CHIMERA, --non-chimera NON_CHIMERA
+                        sequences file without chimera (format: FASTA).
+                        [Default: remove_chimera.fasta]
+  -a OUT_ABUNDANCE, --out-abundance OUT_ABUNDANCE
+                        Abundance file without chimera (format: BIOM or TSV).
+                        [Default: remove_chimera_abundance.biom or
+                        remove_chimera_abundance.tsv]
+  --summary SUMMARY     The HTML file containing the graphs. [Default:
+                        remove_chimera.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: otu_filters.py [-h] [-p NB_CPUS] [--debug] [-v]
+                      [--nb-biggest-otu NB_BIGGEST_OTU]
+                      [-s MIN_SAMPLE_PRESENCE] [-a MIN_ABUNDANCE] --input-biom
+                      INPUT_BIOM --input-fasta INPUT_FASTA
+                      [--contaminant CONTAMINANT] [--output-biom OUTPUT_BIOM]
+                      [--output-fasta OUTPUT_FASTA] [--summary SUMMARY]
+                      [--excluded EXCLUDED] [--log-file LOG_FILE]
+
+Filters an abundance file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Filters:
+  --nb-biggest-otu NB_BIGGEST_OTU
+                        Number of most abundant OTUs you want to keep.
+  -s MIN_SAMPLE_PRESENCE, --min-sample-presence MIN_SAMPLE_PRESENCE
+                        Keep OTU present in at least this number of samples.
+  -a MIN_ABUNDANCE, --min-abundance MIN_ABUNDANCE
+                        Minimum percentage/number of sequences, comparing to
+                        the total number of sequences, of an OTU (between 0
+                        and 1 if percentage desired).
+
+Inputs:
+  --input-biom INPUT_BIOM
+                        The input BIOM file. (format: BIOM)
+  --input-fasta INPUT_FASTA
+                        The input FASTA file. (format: FASTA)
+  --contaminant CONTAMINANT
+                        Use this databank to filter sequence before
+                        affiliation. (format: FASTA)
+
+Outputs:
+  --output-biom OUTPUT_BIOM
+                        The BIOM file output. (format: BIOM) [Default:
+                        otu_filters_abundance.biom]
+  --output-fasta OUTPUT_FASTA
+                        The FASTA output file. (format: FASTA) [Default:
+                        otu_filters.fasta]
+  --summary SUMMARY     The HTML file containing the graphs. [Default:
+                        otu_filters.html]
+  --excluded EXCLUDED   The TSV file that summarizes all the clusters
+                        discarded. (format: TSV) [Default:
+                        otu_filters_excluded.tsv]
+  --log-file LOG_FILE   This output file will contain several information on
+                        executed commands.
+usage: itsx.py [-h] [-p NB_CPUS] [--debug] [-v] --region {ITS1,ITS2}
+               [--organism-groups [ORGANISM_GROUPS [ORGANISM_GROUPS ...]]]
+               [--check-its-only] -f INPUT_FASTA [-b INPUT_BIOM]
+               [-n OUT_FASTA] [-a OUT_ABUNDANCE] [-m OUT_REMOVED]
+               [--summary SUMMARY] [-l LOG_FILE]
+
+Removes PCR chimera.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Inputs:
+  --region {ITS1,ITS2}  Which fungal ITS region is targeted: either ITS1 or
+                        ITS2
+  --organism-groups [ORGANISM_GROUPS [ORGANISM_GROUPS ...]]
+                        Reduce ITSx scan to specified organim groups.
+                        [Default: ['F'] , which means Fungi only]
+  --check-its-only      Check only if sequences seem to be an ITS
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        The cluster sequences (format: FASTA).
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        The abundance file for clusters by sample (format:
+                        BIOM).
+
+Outputs:
+  -n OUT_FASTA, --out-fasta OUT_FASTA
+                        sequences file out from ITSx (format: FASTA).
+                        [Default: itsx.fasta]
+  -a OUT_ABUNDANCE, --out-abundance OUT_ABUNDANCE
+                        Abundance file without chimera (format: BIOM ).
+                        [Default: itsx_abundance.biom]
+  -m OUT_REMOVED, --out-removed OUT_REMOVED
+                        sequences file removed (format: FASTA). [Default:
+                        itsx_removed.fasta]
+  --summary SUMMARY     The HTML file containing the graphs. [Default:
+                        itsx.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: affiliation_OTU.py [-h] [-p NB_CPUS] [-m JAVA_MEM]
+                          [-t [TAXONOMY_RANKS [TAXONOMY_RANKS ...]]] [--rdp]
+                          [-d] [-v] -r REFERENCE -b INPUT_BIOM -f INPUT_FASTA
+                          [-o OUTPUT_BIOM] [-s SUMMARY] [-l LOG_FILE]
+
+Taxonomic affiliation of each OTU's seed by RDPtools and BLAST.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  -m JAVA_MEM, --java-mem JAVA_MEM
+                        Java memory allocation in Go. [Default: 2]
+  -t [TAXONOMY_RANKS [TAXONOMY_RANKS ...]], --taxonomy-ranks [TAXONOMY_RANKS [TAXONOMY_RANKS ...]]
+                        The ordered ranks levels present in the reference
+                        databank. [Default: ['Domain', 'Phylum', 'Class',
+                        'Order', 'Family', 'Genus', 'Species']]
+  --rdp                 Use RDP classifier to affiliate OTU
+  -d, --debug           Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -r REFERENCE, --reference REFERENCE
+                        Preformated reference file (format: blast-indexed
+                        FASTA).
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        BIOM file (format: BIOM).
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        FASTA file of OTU's seed (format: FASTA).
+
+Outputs:
+  -o OUTPUT_BIOM, --output-biom OUTPUT_BIOM
+                        BIOM file with added affiliation annotations from
+                        blast/needleall and/or RDPtools. [Default:
+                        affiliation_abundance.biom]
+  -s SUMMARY, --summary SUMMARY
+                        The HTML file containing the graphs. [Default:
+                        affiliation_OTU.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        The list of commands executed.
+usage: affiliation_filters.py [-h] [--debug] [-v]
+                              [--taxonomic-ranks TAXONOMIC_RANKS [TAXONOMIC_RANKS ...]]
+                              [-m | -d]
+                              [--ignore-blast-taxa [IGNORE_BLAST_TAXA [IGNORE_BLAST_TAXA ...]]]
+                              [-b TAXONOMIC_LEVEL:MIN_BOOTSTRAP]
+                              [-i MIN_BLAST_IDENTITY] [-c MIN_BLAST_COVERAGE]
+                              [-e MAX_BLAST_EVALUE] [-l MIN_BLAST_LENGTH]
+                              --input-biom INPUT_BIOM --input-fasta
+                              INPUT_FASTA [--output-biom OUTPUT_BIOM]
+                              [--output-fasta OUTPUT_FASTA]
+                              [--summary SUMMARY] [--impacted IMPACTED]
+                              [--impacted-multihit IMPACTED_MULTIHIT]
+                              [--log-file LOG_FILE]
+
+Filters an abundance biom file on affiliations metrics
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+  --taxonomic-ranks TAXONOMIC_RANKS [TAXONOMIC_RANKS ...]
+                        The ordered ranks levels used in the metadata
+                        taxonomy. [Default: ['Domain', 'Phylum', 'Class',
+                        'Order', 'Family', 'Genus', 'Species']]
+
+Filters behavior:
+  -m, --mask            If affiliations do not respect one of the filter they
+                        are replaced by NA (mutually exclusive with --delete)
+  -d, --delete          If affiliations do not respect one of the filter the
+                        entire OTU is deleted.(mutually exclusive with --mask)
+
+Filters:
+  --ignore-blast-taxa [IGNORE_BLAST_TAXA [IGNORE_BLAST_TAXA ...]]
+                        Taxon list to maks/delete in Blast affiliations
+  -b TAXONOMIC_LEVEL:MIN_BOOTSTRAP, --min-rdp-bootstrap TAXONOMIC_LEVEL:MIN_BOOTSTRAP
+                        The minimal RDP bootstrap must be superior to this
+                        value (between 0 and 1).
+  -i MIN_BLAST_IDENTITY, --min-blast-identity MIN_BLAST_IDENTITY
+                        The number corresponding to the blast percentage
+                        identity (between 0 and 1).
+  -c MIN_BLAST_COVERAGE, --min-blast-coverage MIN_BLAST_COVERAGE
+                        The number corresponding to the blast percentage
+                        coverage (between 0 and 1).
+  -e MAX_BLAST_EVALUE, --max-blast-evalue MAX_BLAST_EVALUE
+                        The number corresponding to the blast e value (between
+                        0 and 1).
+  -l MIN_BLAST_LENGTH, --min-blast-length MIN_BLAST_LENGTH
+                        The number corresponding to the blast length.
+
+Inputs:
+  --input-biom INPUT_BIOM
+                        The input biom file.
+  --input-fasta INPUT_FASTA
+                        The input fasta file.
+
+Outputs:
+  --output-biom OUTPUT_BIOM
+                        The Biom file output. [Default: affiliation-
+                        filtered.biom]
+  --output-fasta OUTPUT_FASTA
+                        The fasta output file. [Default: affiliation-
+                        filtered.fasta]
+  --summary SUMMARY     The HTML file containing the graphs. [Default:
+                        summary.html]
+  --impacted IMPACTED   The abundance file that summarizes all the clusters
+                        impacted (deleted or with affiliations masked).
+                        [Default: impacted_clusters.tsv]
+  --impacted-multihit IMPACTED_MULTIHIT
+                        The multihit TSV file associated with impacted OTU.
+                        [Default: impacted_clusters_multihit.tsv]
+  --log-file LOG_FILE   The list of commands executed.
+usage: affiliation_postprocess.py [-h] [-i IDENTITY] [-c COVERAGE]
+                                  [-t [TAXON_IGNORED [TAXON_IGNORED ...]]]
+                                  [-d] [-v] -b INPUT_BIOM -f INPUT_FASTA
+                                  [-r REFERENCE] [--output-biom OUTPUT_BIOM]
+                                  [--output-compo OUTPUT_COMPO]
+                                  [--output-fasta OUTPUT_FASTA]
+                                  [--log-file LOG_FILE]
+
+Refine affiliations, to manage amplicon included in other sequence, and to
+deal with surnumerary OTU (OTU with same affiliations.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IDENTITY, --identity IDENTITY
+                        Min percentage identity to agggregate OTU. [Default:
+                        99.0]
+  -c COVERAGE, --coverage COVERAGE
+                        Min percentage coverage to agggregate OTU. [Default:
+                        99.0]
+  -t [TAXON_IGNORED [TAXON_IGNORED ...]], --taxon-ignored [TAXON_IGNORED [TAXON_IGNORED ...]]
+                        Taxon list to ignore when OTUs agggregation
+  -d, --debug           Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        Abundance table with affiliations metadata from the
+                        affiliation_OTU program (format: BIOM).
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        OTU seed sequence file (format: FASTA).
+  -r REFERENCE, --reference REFERENCE
+                        amplicon reference file, to resolve inclusive amplicon
+                        affiliations (format: FASTA)
+
+Outputs:
+  --output-biom OUTPUT_BIOM
+                        BIOM file whith refind affiliation annotations.
+                        (format: BIOM) [Default:
+                        affiliation_postprocess_abundance.biom]
+  --output-compo OUTPUT_COMPO
+                        Aggregated OTU composition (format: TSV) [Default:
+                        affiliation_postprocess_otu_composition.tsv]
+  --output-fasta OUTPUT_FASTA
+                        Updated OTU FASTA file (format: FASTA) [Default:
+                        affiliation_postprocess_OTU.fasta]
+  --log-file LOG_FILE   The list of commands executed.
+usage: clusters_stat.py [-h]
+                        [--distance-method {euclidean,cityblock,seuclidean,sqeuclidean,cosine,correlation,hamming,jaccard,chebyshev,canberra,braycurtis,mahalanobis,yule,matching,dice,kulsinski,rogerstanimoto,russellrao,sokalmichener,sokalsneath,wminkowski}]
+                        [--linkage-method {single,complete,average,weighted,centroid,median,ward}]
+                        [--debug] [-v] -i INPUT_BIOM [-o OUTPUT_FILE]
+                        [-l LOG_FILE]
+
+Process several metrics on abundance from BIOM file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --distance-method {euclidean,cityblock,seuclidean,sqeuclidean,cosine,correlation,hamming,jaccard,chebyshev,canberra,braycurtis,mahalanobis,yule,matching,dice,kulsinski,rogerstanimoto,russellrao,sokalmichener,sokalsneath,wminkowski}
+                        Used distance method for classify (see http://docs.sci
+                        py.org/doc/scipy-0.14.0/reference/generated/generated/
+                        scipy.spatial.distance.pdist.html#scipy.spatial.distan
+                        ce.pdist). [Default: braycurtis]
+  --linkage-method {single,complete,average,weighted,centroid,median,ward}
+                        Used linkage method for classify (see http://docs.scip
+                        y.org/doc/scipy-0.14.0/reference/generated/scipy.clust
+                        er.hierarchy.linkage.html). [Default: average]
+  --debug               Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -i INPUT_BIOM, --input-biom INPUT_BIOM
+                        The BIOM file to process.
+
+Outputs:
+  -o OUTPUT_FILE, --output-file OUTPUT_FILE
+                        The HTML file containing the graphs. [Default:
+                        clusters_stat.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: affiliations_stat.py [-h] [-d] [-v]
+                            [--taxonomic-ranks [TAXONOMIC_RANKS [TAXONOMIC_RANKS ...]]]
+                            [--rarefaction-ranks [RAREFACTION_RANKS [RAREFACTION_RANKS ...]]]
+                            [--taxonomy-tag TAXONOMY_TAG | --tax-consensus-tag TAX_CONSENSUS_TAG]
+                            [--multiple-tag MULTIPLE_TAG]
+                            [--bootstrap-tag BOOTSTRAP_TAG]
+                            [--identity-tag IDENTITY_TAG]
+                            [--coverage-tag COVERAGE_TAG] -i INPUT_BIOM
+                            [-o OUTPUT_FILE] [-l LOG_FILE]
+
+Produces several metrics describing OTUs based on their taxonomies and the
+quality of the affiliations.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d, --debug           Keep temporary files to debug program.
+  -v, --version         show program's version number and exit
+  --taxonomic-ranks [TAXONOMIC_RANKS [TAXONOMIC_RANKS ...]]
+                        The ordered ranks levels used in the metadata
+                        taxonomy. [Default: ['Domain', 'Phylum', 'Class',
+                        'Order', 'Family', 'Genus', 'Species']]
+  --rarefaction-ranks [RAREFACTION_RANKS [RAREFACTION_RANKS ...]]
+                        The ranks that will be evaluated in rarefaction.
+                        [Default: ['Genus']]
+  --taxonomy-tag TAXONOMY_TAG
+                        The metadata tag used in BIOM file to store the
+                        taxonomy. Use this parameter if the taxonomic
+                        affiliation has been processed by a software that adds
+                        only one affiliation or if you does not have a
+                        metadata with the consensus taxonomy (see "--tax-
+                        consensus-tag").Not allowed with --tax-consensus-tag.
+  --tax-consensus-tag TAX_CONSENSUS_TAG
+                        The metadata tag used in BIOM file to store the
+                        consensus taxonomy. This parameter is used instead of
+                        "--taxonomy-tag" when you have several affiliations
+                        for each OTU.
+  --multiple-tag MULTIPLE_TAG
+                        The metadata tag used in BIOM file to store the list
+                        of possible taxonomies. Use this parameter if the
+                        taxonomic affiliation has been processed by a software
+                        that adds several affiliation in the BIOM file
+                        (example: same score ambiguity).
+  --bootstrap-tag BOOTSTRAP_TAG
+                        The metadata tag used in BIOM file to store the
+                        taxonomy bootstraps.
+  --identity-tag IDENTITY_TAG
+                        The metadata tag used in BIOM file to store the
+                        alignment identity.
+  --coverage-tag COVERAGE_TAG
+                        The metadata tag used in BIOM file to store the
+                        alignment observation coverage.
+
+Inputs:
+  -i INPUT_BIOM, --input-biom INPUT_BIOM
+                        The input abundance file (format: BIOM).
+
+Outputs:
+  -o OUTPUT_FILE, --output-file OUTPUT_FILE
+                        The HTML file containing the graphs. [Default:
+                        affiliations_stat.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        The list of commands executed.
+usage: biom_to_tsv.py [-h] [-v] [--header] -b INPUT_BIOM [-f INPUT_FASTA]
+                      [-t OUTPUT_TSV] [-m OUTPUT_MULTI_AFFI] [-l LOG_FILE]
+
+Converts a BIOM file in TSV file.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+  --header              Print header only
+
+Inputs:
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        The abundance file (format: BIOM).
+  -f INPUT_FASTA, --input-fasta INPUT_FASTA
+                        The sequences file (format: FASTA). If you use this
+                        option the sequences will be add in TSV.
+
+Outputs:
+  -t OUTPUT_TSV, --output-tsv OUTPUT_TSV
+                        This output file will contain the abundance and
+                        metadata (format: TSV). [Default: abundance.tsv]
+  -m OUTPUT_MULTI_AFFI, --output-multi-affi OUTPUT_MULTI_AFFI
+                        This output file will contain information about
+                        multiple alignements (format: TSV). Use this option
+                        only if your affiliation has been produced by FROGS.
+                        [Default: multihits.tsv]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: biom_to_stdBiom.py [-h] [-v] -b INPUT_BIOM [-o OUTPUT_BIOM]
+                          [-m OUTPUT_METADATA] [-l LOG_FILE]
+
+The detailed blast affiliations can trigger problem with tools like Qiime.
+This script extracts the problematic metadata in a second file and writes a
+BIOM usable in every tools using BIOM.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -b INPUT_BIOM, --input-biom INPUT_BIOM
+                        The abundance file (format: BIOM).
+
+Outputs:
+  -o OUTPUT_BIOM, --output-biom OUTPUT_BIOM
+                        The fully compatible abundance file (format: BIOM).
+                        [Default: abundance.std.biom]
+  -m OUTPUT_METADATA, --output-metadata OUTPUT_METADATA
+                        The blast affiliations informations (format: TSV).
+                        [Default: blast_informations.std.tsv]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several information on
+                        executed commands.
+usage: tree.py [-h] [--debug] [-p NB_CPUS] [-v] -i INPUT_SEQUENCES
+               [-b BIOM_FILE] [-o OUT_TREE] [-s HTML] [-l LOG_FILE]
+
+Phylogenetic tree reconstruction
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  -p NB_CPUS, --nb-cpus NB_CPUS
+                        The maximum number of CPUs used. [Default: 1]
+  -v, --version         show program's version number and exit
+
+Inputs:
+  -i INPUT_SEQUENCES, --input-sequences INPUT_SEQUENCES
+                        Path to input FASTA file of OTU seed sequences.
+                        Warning: FROGS Tree is only working on less than 10000
+                        sequences!
+  -b BIOM_FILE, --biom-file BIOM_FILE
+                        Path to the abundance BIOM file.
+
+Outputs:
+  -o OUT_TREE, --out-tree OUT_TREE
+                        Path to store resulting Newick tree file. (format:
+                        nwk) [Default: tree.nwk]
+  -s HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        tree.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_import_data.py [-h] [--debug] [--version] [-n]
+                               [-r [RANKS [RANKS ...]]] -b BIOMFILE -s
+                               SAMPLEFILE [-t TREEFILE] [--rdata RDATA]
+                               [-o HTML] [-l LOG_FILE]
+
+Launch Rmardown script to import data from 3 files: biomfile, samplefile,
+treefile into a phyloseq object
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -n, --normalisation   To normalise data before analysis. Use this option if
+                        you didnt do it in FROGS Abundance normalisation.
+                        [Default: False]
+  -r [RANKS [RANKS ...]], --ranks [RANKS [RANKS ...]]
+                        The ordered taxonomic ranks levels stored in BIOM.
+                        Each rank is separated by one space. [Default:
+                        ['Kingdom', 'Phylum', 'Class', 'Order', 'Family',
+                        'Genus', 'Species']]
+
+Inputs:
+  -b BIOMFILE, --biomfile BIOMFILE
+                        path to the abundance BIOM file.
+  -s SAMPLEFILE, --samplefile SAMPLEFILE
+                        path to sample file (format: TSV).
+  -t TREEFILE, --treefile TREEFILE
+                        path to tree file from FROGS Tree (format: Newick
+                        "nhx" or "nwk" ).
+
+Outputs:
+  --rdata RDATA         path to store phyloseq-class object in Rdata file.
+                        [Default: phyloseq_data.Rdata]
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_import_summary.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_composition.py [-h] [--debug] [--version] -v VAREXP -r1
+                               TAXARANK1 -s1 [TAXASET1 [TAXASET1 ...]] -r2
+                               TAXARANK2 -n NUMBEROFTAXA -r RDATA [-o HTML]
+                               [-l LOG_FILE]
+
+Present the composition of data with package phyloseq
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable used to split plot.
+  -r1 TAXARANK1, --taxaRank1 TAXARANK1
+                        Select taxonomic rank name to subset your data. [ex:
+                        Kingdom]
+  -s1 [TAXASET1 [TAXASET1 ...]], --taxaSet1 [TAXASET1 [TAXASET1 ...]]
+                        Select taxon name among taxaRank1 to subset your data.
+                        [ex: Bacteria]
+  -r2 TAXARANK2, --taxaRank2 TAXARANK2
+                        Select sub taxonomic rank name to aggregate your data.
+                        [ex: Phylum]"
+  -n NUMBEROFTAXA, --numberOfTaxa NUMBEROFTAXA
+                        The number of the most abundant taxa to keep at
+                        taxaRank2. [ex: 9]"
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_composition.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several information on
+                        executed commands.
+usage: phyloseq_alpha_diversity.py [-h] [--debug] [--version] -v VAREXP
+                                   [-m [ALPHA_MEASURES [ALPHA_MEASURES ...]]]
+                                   -r RDATA [-o HTML] [-a ALPHA_OUT]
+                                   [-l LOG_FILE]
+
+To compute and present the data alpha diversity with plot_richness of
+Phyloseq.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable used to aggregate sample
+                        diversities.
+  -m [ALPHA_MEASURES [ALPHA_MEASURES ...]], --alpha-measures [ALPHA_MEASURES [ALPHA_MEASURES ...]]
+                        The indices of alpha diversity. Available indices :
+                        Observed, Chao1, Shannon, InvSimpson, Simpson, ACE,
+                        Fisher. [Default: ['Observed', 'Chao1', 'Shannon',
+                        'InvSimpson']]
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_alpha_diversity.nb.html]
+  -a ALPHA_OUT, --alpha-out ALPHA_OUT
+                        The path to store resulting data file containing alpha
+                        diversity table. [Default:
+                        phyloseq_alpha_diversity.tsv]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_beta_diversity.py [-h] [--debug] [--version] -v VAREXP -m
+                                  DISTANCE_METHODS -r RDATA --matrix-outdir
+                                  MATRIX_OUTDIR [-o HTML] [-l LOG_FILE]
+
+To present the data beta diversity with phyloseq.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable you want to analyse.
+  -m DISTANCE_METHODS, --distance-methods DISTANCE_METHODS
+                        Comma separated values beta diversity methods
+                        available in Phyloseq (see https://www.bioconductor.or
+                        g/packages/devel/bioc/manuals/phyloseq/man/phyloseq.pd
+                        f). [Default: bray,cc,unifrac,wunifrac].
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+
+Outputs:
+  --matrix-outdir MATRIX_OUTDIR
+                        Path to output matrix file
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_beta_diversity.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_clustering.py [-h] [--debug] [--version] -v VAREXP -r RDATA -d
+                              DISTANCE_MATRIX [-o HTML] [-l LOG_FILE]
+
+Clustering of samples using different linkage method.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable you want to analyse.
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+  -d DISTANCE_MATRIX, --distance-matrix DISTANCE_MATRIX
+                        The path of data file containing beta diversity
+                        distance matrix. These file is the result of FROGS
+                        Phyloseq Beta Diversity.
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_clustering.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_structure.py [-h] [--debug] [--version] -v VAREXP
+                             [-m {MDS,NMDS,DPCoA,PCoA}] -r RDATA -d
+                             DISTANCE_MATRIX [-o HTML] [-l LOG_FILE]
+
+Visulization of data structure with heatmap plot and ordination plot of
+Phyloseq.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable you want to analyse.
+  -m {MDS,NMDS,DPCoA,PCoA}, --ordination-method {MDS,NMDS,DPCoA,PCoA}
+                        The ordination methods. [Default: MDS]
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+  -d DISTANCE_MATRIX, --distance-matrix DISTANCE_MATRIX
+                        Path of data file containing beta diversity distance
+                        matrix. These file is the result of FROGS Phyloseq
+                        Beta Diversity.
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_structure.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: phyloseq_manova.py [-h] [--debug] [--version] -v VAREXP -r RDATA -m
+                          DISTANCE_MATRIX [-o HTML] [-l LOG_FILE]
+
+Multivariate Analysis of Variance (MANOVA) test with CAP (Canonical Analysis
+of Principal Coordinates) by adonis.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAREXP, --varExp VAREXP
+                        The experiment variable you want to analyse.
+
+Inputs:
+  -r RDATA, --rdata RDATA
+                        The path of RData file containing a phyloseq object-
+                        the result of FROGS Phyloseq Import Data
+  -m DISTANCE_MATRIX, --distance-matrix DISTANCE_MATRIX
+                        The path of data file containing beta diversity
+                        distance matrix. These file is the result of FROGS
+                        Phyloseq Beta Diversity.
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        phyloseq_manova.nb.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+usage: deseq2_preprocess.py [-h] [--debug] [--version] -v VAR -d DATA
+                            [-o OUT_RDATA] [-l LOG_FILE]
+
+Launch Rscript to generate dataframe of DESEq2 from a phyloseq object in RData
+file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAR, --var VAR     Experimental variable suspected to have an impact on
+                        OTUs abundances. You may precise complexe string such
+                        as variables with confounding effect (ex:
+                        Treatment+Gender or Treatmet*Gender)
+
+Inputs:
+  -d DATA, --data DATA  The path of RData file containing a phyloseq object,
+                        result of FROGS Phyloseq Import Data
+
+Outputs:
+  -o OUT_RDATA, --out-Rdata OUT_RDATA
+                        The path to store resulting dataframe of DESeq2.
+                        [Default: DESeq2_preprocess.Rdata]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several information on
+                        executed commands.
+usage: deseq2_visualisation.py [-h] [--debug] [--version] -v VAR [-m1 MOD1]
+                               [-m2 MOD2] [-pa PADJ] -p PHYLOSEQDATA -d DDS
+                               [-o HTML] [-l LOG_FILE]
+
+Launch Rmarkdown to visualise differential abundance analysis.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --debug               Keep temporary files to debug program.
+  --version             show program's version number and exit
+  -v VAR, --var VAR     variable that you want to test.
+  -m1 MOD1, --mod1 MOD1
+                        one value of the tested variable you want to compare
+                        (if more than 2 value in your experiement variable
+                        analyzed.)
+  -m2 MOD2, --mod2 MOD2
+                        second value of the tested variable you want to
+                        compare.(if more than 2 value in your experiement
+                        variable analyzed.)
+  -pa PADJ, --padj PADJ
+                        the adjusted p-value threshold to defined OTU as
+                        differentially abundant. [Default: 0.05]
+
+Inputs:
+  -p PHYLOSEQDATA, --phyloseqData PHYLOSEQDATA
+                        The path to the RData file containing a phyloseq
+                        object (result of FROGS Phyloseq Import Data)
+  -d DDS, --dds DDS     The path to the Rdata file containing the DESeq dds
+                        object (result of FROGS DESeq2 Preprocess)
+
+Outputs:
+  -o HTML, --html HTML  The HTML file containing the graphs. [Default:
+                        DESeq2_visualisation.html]
+  -l LOG_FILE, --log-file LOG_FILE
+                        This output file will contain several informations on
+                        executed commands.
+Command Error: Missing argument for option: h
+usage:  [options] <samplefile>[,idmappingfile] ...
+ -b,--bootstrap_outfile <arg>   the output file containing the number of
+                                matching assignments out of 100 bootstraps for
+                                major ranks. Default is null
+ -c,--conf <arg>                assignment confidence cutoff used to determine
+                                the assignment count for each taxon. Range
+                                [0-1], Default is 0.8.
+ -d,--metadata <arg>            the tab delimited metadata file for the samples,
+                                with first row containing attribute name and
+                                first column containing the sample name
+ -f,--format <arg>              tab-delimited output format:
+                                [allrank|fixrank|biom|filterbyconf|db]. Default
+                                is allRank.
+                                allrank: outputs the results for all ranks
+                                applied for each sequence: seqname, orientation,
+                                taxon name, rank, conf, ...
+                                fixrank: only outputs the results for fixed
+                                ranks in order: domain, phylum, class, order,
+                                family, genus
+                                biom: outputs rich dense biom format if OTU or
+                                metadata provided
+                                filterbyconf: only outputs the results for major
+                                ranks as in fixrank, results below the
+                                confidence cutoff were bin to a higher rank
+                                unclassified_node
+                                db: outputs the seqname, trainset_no, tax_id,
+                                conf.
+ -g,--gene <arg>                16srrna, fungallsu, fungalits_warcup,
+                                fungalits_unite. Default is 16srrna. This option
+                                can be overwritten by -t option
+ -h,--hier_outfile <arg>        tab-delimited output file containing the
+                                assignment count for each taxon in the
+                                hierarchical format. Default is null.
+ -m,--biomFile <arg>            the input clluster biom file. The classification
+                                result will replace the taxonomy of the
+                                corresponding cluster id.
+ -o,--outputFile <arg>          tab-delimited text output file for
+                                classification assignment.
+ -q,--queryFile                 legacy option, no longer needed
+ -s,--shortseq_outfile <arg>    the output file containing the sequence names
+                                that are too short to be classified
+ -t,--train_propfile <arg>      property file containing the mapping of the
+                                training files if not using the default. Note:
+                                the training files and the property file should
+                                be in the same directory.
+ -w,--minWords <arg>            minimum number of words for each bootstrap
+                                trial. Default(maximum) is 1/8 of the words of
+                                each sequence. Minimum is 5
+
+Resource usage statistics from testing frogs:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: frogs-3.2.3-py37h9ee0642_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
