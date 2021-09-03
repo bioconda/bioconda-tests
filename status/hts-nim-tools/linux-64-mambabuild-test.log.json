@@ -1,0 +1,114 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + hts-nim-tools          0.3.11  hbeb723e_0     /home/vsts/conda/conda-bld/linux-64     232 KB
+  + htslib                 1.10.2  hd3b49d5_1     bioconda/linux-64                         2 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.6  h516909a_0     conda-forge/linux-64                     60 KB
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1k  h7f98852_1     conda-forge/linux-64                    Cached
+  + pcre                     8.45  h9c3ff4c_0     conda-forge/linux-64                    253 KB
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 23 packages
+
+  Total download: 2 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: hts-nim-tools-0.3.11-hbeb723e_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/hts-nim-tools_1630628394927/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    hts-nim-tools:   0.3.11-hbeb723e_0       local      
+    htslib:          1.10.2-hd3b49d5_1       bioconda   
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.6-h516909a_0          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1k-h7f98852_1       conda-forge
+    pcre:            8.45-h9c3ff4c_0         conda-forge
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/hts-nim-tools_1630628394927/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/hts-nim-tools_1630628394927/test_tmp
+
+hts-nim utility programs.
+version: 0.2.0
+
+	• bam-filter          : filter BAM/CRAM/SAM files with a simple expression language
+	• copy-number-sampler : sample BAM regions with a probability given in a BED file (for creating CN truth-sets)
+	• count-reads         : count BAM/CRAM reads in regions given in a BED file
+	• vcf-check           : check regions of a VCF against a background for missing chunks
+
+0.2.0
+
+  Usage: count-reads [options] <BED> <BAM-or-CRAM>
+
+Arguments:                                                                                                                                                 
+
+  <BED>          the bed file containing regions in which to count reads.
+  <BAM-or-CRAM>  the alignment file for which to calculate depth.
+
+Options:
+
+  -t --threads <threads>      number of BAM decompression threads [default: 0]
+  -f --fasta <fasta>          fasta file for use with CRAM files [default: ].
+  -F --flag <FLAG>            exclude reads with any of the bits in FLAG set [default: 1796]
+  -Q --mapq <mapq>            mapping quality threshold [default: 0]
+  -h --help                     show help
+
+Resource usage statistics from testing hts-nim-tools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: hts-nim-tools-0.3.11-hbeb723e_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
