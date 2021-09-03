@@ -1,0 +1,144 @@
+  Package    Version  Build             Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl      5.26.2  hbcb3906_1008     conda-forge/osx-64                       14 MB
+  + snoscan      1.0  pl5262hb4d813b_1  /Users/runner/conda/conda-bld/osx-64     92 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 14 MB
+
+────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: snoscan-1.0-pl5262hb4d813b_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/snoscan_1630629251902/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:    5.26.2-hbcb3906_1008 conda-forge
+    snoscan: 1.0-pl5262hb4d813b_1 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/snoscan_1630629251902/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/snoscan_1630629251902/test_tmp
+snoscan 1.0, 04 Sept 2020
+
+Usage: snoscan [-options] <rRNA sequence file> <query sequence file>
+Find snoRNA genes containing rRNA complementarity
+and C & D boxes
+
+Available options:
+-h             : help - print version and usage info
+-m <meth file> : specify methylation sites
+-o <outfile>   : save candidates in <outfile>
+-s             : save snoRNA sequences with hit info
+-l <length>    : set minimim length for snoRNA-rRNA pairing (def=9bp)
+-C <Score>     : set C Box score cutoff to <Score>
+-D <Score>     : set D prime Box score cutoff to <Score>
+-X <Score>     : set final score cutoff to <Score>
+-c <score>     : set min score for complementary region match
+-d <dist>      : set max distance between C & D boxes
+-p <dist>      : set min distance between rRNA match & 
+                 D box when D prime box is present (def=10bp)
+-i <position>  : Initiate scan at <position> in sequence (def=1)
+
+-M <integer>   : set max distance to known meth site (Def=0)
+-V             : verbose output
+
+snoscan 1.0, 04 Sept 2020
+
+Usage: snoscan [-options] <rRNA sequence file> <query sequence file>
+Find snoRNA genes containing rRNA complementarity
+and C & D boxes
+
+Available options:
+-h             : help - print version and usage info
+-m <meth file> : specify methylation sites
+-o <outfile>   : save candidates in <outfile>
+-s             : save snoRNA sequences with hit info
+-l <length>    : set minimim length for snoRNA-rRNA pairing (def=9bp)
+-C <Score>     : set C Box score cutoff to <Score>
+-D <Score>     : set D prime Box score cutoff to <Score>
+-X <Score>     : set final score cutoff to <Score>
+-c <score>     : set min score for complementary region match
+-d <dist>      : set max distance between C & D boxes
+-p <dist>      : set min distance between rRNA match & 
+                 D box when D prime box is present (def=10bp)
+-i <position>  : Initiate scan at <position> in sequence (def=1)
+
+-M <integer>   : set max distance to known meth site (Def=0)
+-V             : verbose output
+
+snoscan 1.0, 04 Sept 2020
+
+Usage: snoscan [-options] <rRNA sequence file> <query sequence file>
+Find snoRNA genes containing rRNA complementarity
+and C & D boxes
+
+Available options:
+-h             : help - print version and usage info
+-m <meth file> : specify methylation sites
+-o <outfile>   : save candidates in <outfile>
+-s             : save snoRNA sequences with hit info
+-l <length>    : set minimim length for snoRNA-rRNA pairing (def=9bp)
+-C <Score>     : set C Box score cutoff to <Score>
+-D <Score>     : set D prime Box score cutoff to <Score>
+-X <Score>     : set final score cutoff to <Score>
+-c <score>     : set min score for complementary region match
+-d <dist>      : set max distance between C & D boxes
+-p <dist>      : set min distance between rRNA match & 
+                 D box when D prime box is present (def=10bp)
+-i <position>  : Initiate scan at <position> in sequence (def=1)
+
+-M <integer>   : set max distance to known meth site (Def=0)
+-V             : verbose output
+
+snoscan 1.0, 04 Sept 2020
+
+Usage: snoscan [-options] <rRNA sequence file> <query sequence file>
+Find snoRNA genes containing rRNA complementarity
+and C & D boxes
+
+Available options:
+-h             : help - print version and usage info
+-m <meth file> : specify methylation sites
+-o <outfile>   : save candidates in <outfile>
+-s             : save snoRNA sequences with hit info
+-l <length>    : set minimim length for snoRNA-rRNA pairing (def=9bp)
+-C <Score>     : set C Box score cutoff to <Score>
+-D <Score>     : set D prime Box score cutoff to <Score>
+-X <Score>     : set final score cutoff to <Score>
+-c <score>     : set min score for complementary region match
+-d <dist>      : set max distance between C & D boxes
+-p <dist>      : set min distance between rRNA match & 
+                 D box when D prime box is present (def=10bp)
+-i <position>  : Initiate scan at <position> in sequence (def=1)
+
+-M <integer>   : set max distance to known meth site (Def=0)
+-V             : verbose output
+
+Usage: sort-snos [options] <snoRNA hits file>
+
+Resource usage statistics from testing snoscan:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: snoscan-1.0-pl5262hb4d813b_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
