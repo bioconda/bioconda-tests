@@ -1,0 +1,67 @@
+  Package               Version  Build            Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                 5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-app-cpanminus   1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-config-any        0.32  pl526h1de35cc_1  /Users/runner/conda/conda-bld/osx-64      29 KB
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 15 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-config-any-0.32-pl526h1de35cc_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-config-any_1630644742895/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:               5.26.2-hbcb3906_1008 conda-forge
+    perl-app-cpanminus: 1.7044-pl526_1       bioconda   
+    perl-config-any:    0.32-pl526h1de35cc_1 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-config-any_1630644742895/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-config-any_1630644742895/test_tmp
+import: Config::Any
+	using version 0.32
+import: Config::Any::Base
+import: Config::Any::General
+import: Config::Any::INI
+import: Config::Any::JSON
+import: Config::Any::Perl
+import: Config::Any::XML
+import: Config::Any::YAML
+import: Config::Any
+	using version 0.32
+import: Config::Any::Base
+import: Config::Any::General
+import: Config::Any::INI
+import: Config::Any::JSON
+import: Config::Any::Perl
+import: Config::Any::XML
+import: Config::Any::YAML
+
+Resource usage statistics from testing perl-config-any:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-config-any-0.32-pl526h1de35cc_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
