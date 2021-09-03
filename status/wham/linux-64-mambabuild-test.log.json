@@ -1,0 +1,60 @@
+  Package                     Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                 0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex                 4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng                  11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                    11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng               11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + wham           1.8.0.1.2017.05.03  h8b12597_1     /home/vsts/conda/conda-bld/linux-64     780 KB
+  + zlib                       1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 780 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: wham-1.8.0.1.2017.05.03-h8b12597_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/wham_1630681409495/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge               conda-forge
+    _openmp_mutex: 4.5-1_gnu                     conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8             conda-forge
+    libgomp:       11.1.0-hc902ee8_8             conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8             conda-forge
+    wham:          1.8.0.1.2017.05.03-h8b12597_1 local      
+    zlib:          1.2.11-h516909a_1010          conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/wham_1630681409495/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/wham_1630681409495/test_tmp
+Version: v1.7.0-311-g4e8c-dirty
+usage  : WHAM-BAM -f <STRING> -m <INT> -q <INT> -p <INT> -x <INT> -r <STRING> -e <STRING> -t <STRING> -b <STRING> 
+example: WHAM-BAM if my.fasta -m 2 -q 15 -p 10 -x 20 -r chr1:0-10000 -e genes.bed -t a.bam,b.bam -b c.bam,d.bam
+
+Resource usage statistics from testing wham:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: wham-1.8.0.1.2017.05.03-h8b12597_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
