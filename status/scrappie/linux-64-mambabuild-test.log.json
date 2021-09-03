@@ -1,0 +1,143 @@
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + cffi                 1.14.6  py38ha65f79e_0       conda-forge/linux-64                    226 KB
+  + cunit                 2.1.3  h9c3ff4c_1002        conda-forge/linux-64                    700 KB
+  + hdf5                 1.10.5  nompi_h5b725eb_1114  conda-forge/linux-64                      3 MB
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                1.21.2  py38he2449b9_0       conda-forge/linux-64                      6 MB
+  + openblas             0.3.17  pthreads_h4748800_1  conda-forge/linux-64                     10 MB
+  + openssl              1.1.1k  h7f98852_1           conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pycparser              2.20  pyh9f0ad1d_2         conda-forge/noarch                      Cached
+  + python               3.8.10  h49503c6_1_cpython   conda-forge/linux-64                     26 MB
+  + python_abi              3.8  2_cp38               conda-forge/linux-64                      4 KB
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + scrappie              1.4.2  py38hb251282_2       /home/vsts/conda/conda-bld/linux-64      40 MB
+  + setuptools           57.4.0  py38h578d9bd_0       conda-forge/linux-64                    934 KB
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 87 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: scrappie-1.4.2-py38hb251282_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/scrappie_1630641183657/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    cffi:             1.14.6-py38ha65f79e_0      conda-forge
+    cunit:            2.1.3-h9c3ff4c_1002        conda-forge
+    hdf5:             1.10.5-nompi_h5b725eb_1114 conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py38he2449b9_0      conda-forge
+    openblas:         0.3.17-pthreads_h4748800_1 conda-forge
+    openssl:          1.1.1k-h7f98852_1          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    pycparser:        2.20-pyh9f0ad1d_2          conda-forge
+    python:           3.8.10-h49503c6_1_cpython  conda-forge
+    python_abi:       3.8-2_cp38                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    scrappie:         1.4.2-py38hb251282_2       local      
+    setuptools:       57.4.0-py38h578d9bd_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/scrappie_1630641183657/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/scrappie_1630641183657/test_tmp
+Usage: events [OPTION...] fast5 [fast5 ...]
+Scrappie basecaller -- basecall via events
+
+  -#, --threads=nparallel    Number of reads to call in parallel
+      --dump=filename        Dump annotated events to HDF5 file
+      --dwell, --no-dwell    Perform dwell correction of homopolymer lengths
+  -f, --format=format        Format to output reads (FASTA or SAM)
+      --hdf5-chunk=size      Chunk size for HDF5 output
+      --hdf5-compression=level   Gzip compression level for HDF5 output (0:off,
+                             1: quickest, 9: best)
+  -l, --limit=nreads         Maximum number of reads to call (0 is unlimited)
+      --licence, --license   Print licensing information
+      --local=penalty        Penalty for local basecalling
+  -m, --min_prob=probability Minimum bound on probability of match
+  -o, --output=filename      Write to file rather than stdout
+  -p, --prefix=string        Prefix to append to name of each read
+  -s, --skip=penalty         Penalty for skipping a base
+      --segmentation=chunk:percentile
+                             Chunk size and percentile for variance based
+                             segmentation
+      --slip, --no-slip      Use slipping
+      --temperature1=factor  Temperature for softmax weights
+      --temperature2=factor  Temperature for softmax bias
+  -t, --trim=start:end       Number of events to trim, as start:end
+      --uuid, --no-uuid      Output UUID
+  -y, --stay=penalty         Penalty for staying
+  -?, --help                 Give this help list
+      --usage                Give a short usage message
+  -V, --version              Print program version
+
+Mandatory or optional arguments to long options are also mandatory or optional
+for any corresponding short options.
+
+Report bugs to <tim.massingham@nanoporetech.com>.
+
+Resource usage statistics from testing scrappie:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: scrappie-1.4.2-py38hb251282_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
