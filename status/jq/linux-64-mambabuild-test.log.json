@@ -1,0 +1,102 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + jq                 1.6  h36c2ea0_1000  /home/vsts/conda/conda-bld/linux-64     346 KB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + oniguruma      6.9.7.1  h7f98852_0     conda-forge/linux-64                    409 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 754 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: jq-1.6-h36c2ea0_1000.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/jq_1630637649519/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge    conda-forge
+    _openmp_mutex: 4.5-1_gnu          conda-forge
+    jq:            1.6-h36c2ea0_1000  local      
+    libgcc-ng:     11.1.0-hc902ee8_8  conda-forge
+    libgomp:       11.1.0-hc902ee8_8  conda-forge
+    oniguruma:     6.9.7.1-h7f98852_0 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/jq_1630637649519/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/jq_1630637649519/test_tmp
+jq - commandline JSON processor [version 1.6]
+
+Usage:	jq [options] <jq filter> [file...]
+	jq [options] --args <jq filter> [strings...]
+	jq [options] --jsonargs <jq filter> [JSON_TEXTS...]
+
+jq is a tool for processing JSON inputs, applying the given filter to
+its JSON text inputs and producing the filter's results as JSON on
+standard output.
+
+The simplest filter is ., which copies jq's input to its output
+unmodified (except for formatting, but note that IEEE754 is used
+for number representation internally, with all that that implies).
+
+For more advanced filters see the jq(1) manpage ("man jq")
+and/or https://stedolan.github.io/jq
+
+Example:
+
+	$ echo '{"foo": 0}' | jq .
+	{
+		"foo": 0
+	}
+
+Some of the options include:
+  -c               compact instead of pretty-printed output;
+  -n               use `null` as the single input value;
+  -e               set the exit status code based on the output;
+  -s               read (slurp) all inputs into an array; apply filter to it;
+  -r               output raw strings, not JSON texts;
+  -R               read raw strings, not JSON texts;
+  -C               colorize JSON;
+  -M               monochrome (don't colorize JSON);
+  -S               sort keys of objects on output;
+  --tab            use tabs for indentation;
+  --arg a v        set variable $a to value <v>;
+  --argjson a v    set variable $a to JSON value <v>;
+  --slurpfile a f  set variable $a to an array of JSON texts read from <f>;
+  --rawfile a f    set variable $a to a string consisting of the contents of <f>;
+  --args           remaining arguments are string arguments, not files;
+  --jsonargs       remaining arguments are JSON arguments, not files;
+  --               terminates argument processing;
+
+Named arguments are also available as $ARGS.named[], while
+positional arguments are available as $ARGS.positional[].
+
+See the manpage for more options.
+
+Resource usage statistics from testing jq:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: jq-1.6-h36c2ea0_1000.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,69 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "h0d85af4_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "oniguruma-6.9.7.1-h0d85af4_0.tar.bz2",
+        "license": "BSD-2-Clause",
+        "name": "oniguruma",
+        "sha256": "95c7ad88712abe84483994caff17c30b1ec3a7d6cf8542e3359bfb171717f98b",
+        "size": 380132,
+        "subdir": "",
+        "timestamp": 1618504848000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/oniguruma-6.9.7.1-h0d85af4_0.tar.bz2",
+        "version": "6.9.7.1"
+      },
+      {
+        "build": "hc929b4f_1000",
+        "build_number": 1000,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "oniguruma 6.9.*",
+          "oniguruma >=6.9.3,<6.10.0a0"
+        ],
+        "fn": "jq-1.6-hc929b4f_1000.tar.bz2",
+        "license": "MIT",
+        "name": "jq",
+        "sha256": "85d8ee6bf5439572b03af416aa5900f4406299da1344540a45deccd31ecec6bd",
+        "size": 377318,
+        "subdir": "",
+        "timestamp": 1606940695000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/jq-1.6-hc929b4f_1000.tar.bz2",
+        "version": "1.6"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h0d85af4_0",
+        "channel": "conda-forge",
+        "dist_name": "oniguruma-6.9.7.1-h0d85af4_0",
+        "name": "oniguruma",
+        "platform": "",
+        "version": "6.9.7.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1000,
+        "build_string": "hc929b4f_1000",
+        "channel": "conda-forge",
+        "dist_name": "jq-1.6-hc929b4f_1000",
+        "name": "jq",
+        "platform": "",
+        "version": "1.6"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}
