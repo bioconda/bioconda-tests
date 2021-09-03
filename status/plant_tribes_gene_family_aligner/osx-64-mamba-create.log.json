@@ -1,0 +1,728 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "h033912b_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "ca-certificates-2021.5.30-h033912b_0.tar.bz2",
+        "license": "ISC",
+        "name": "ca-certificates",
+        "sha256": "a6178ffc2295a0b05b065b40cee4a7187793c9f54cdae9957360aebdec92bfb2",
+        "size": 139088,
+        "subdir": "",
+        "timestamp": 1622399252000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/ca-certificates-2021.5.30-h033912b_0.tar.bz2",
+        "version": "2021.5.30"
+      },
+      {
+        "build": "py27h4a8c4bd_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [
+          "python_abi * *_cp27m"
+        ],
+        "depends": [
+          "python >=2.7,<2.8.0a0",
+          "libcxx >=9.0.0"
+        ],
+        "fn": "pymongo-3.10.0-py27h4a8c4bd_0.tar.bz2",
+        "license": "Apache 2.0",
+        "name": "pymongo",
+        "sha256": "7c37ae52e43c3725f39fff499e22bcf1e81617543168260d329cb328040ed947",
+        "size": 1159789,
+        "subdir": "",
+        "timestamp": 1576168817000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/pymongo-3.10.0-py27h4a8c4bd_0.tar.bz2",
+        "version": "3.10.0"
+      },
+      {
+        "build": "hdfd78af_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/noarch",
+        "constrains": [],
+        "depends": [
+          "perl",
+          "python <3",
+          "mafft >=7,<8",
+          "pasta >=1.7.8",
+          "trimal >=1.4,<2"
+        ],
+        "fn": "plant_tribes_gene_family_aligner-1.0.4-hdfd78af_1.tar.bz2",
+        "license": "GNU General Public License v3 (GPLv3)",
+        "name": "plant_tribes_gene_family_aligner",
+        "sha256": "f97297b5c81e047c8d5a0c6a9ddb3f8ab2ed794cf8aebc1d513d7ded0807ae1c",
+        "size": 10662,
+        "subdir": "",
+        "timestamp": 1616608351000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/noarch/plant_tribes_gene_family_aligner-1.0.4-hdfd78af_1.tar.bz2",
+        "version": "1.0.4"
+      },
+      {
+        "build": "hb280591_5",
+        "build_number": 5,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=11.1.0"
+        ],
+        "fn": "trimal-1.4.1-hb280591_5.tar.bz2",
+        "license": "GNU General Public License v3 or later (GPLv3+)",
+        "name": "trimal",
+        "sha256": "b800a78a9e145bdff789e969cc86817033115de5785fd33ae17365234063e17f",
+        "size": 214264,
+        "subdir": "",
+        "timestamp": 1616684425000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/trimal-1.4.1-hb280591_5.tar.bz2",
+        "version": "1.4.1"
+      },
+      {
+        "build": "hb1e8313_1007",
+        "build_number": 1007,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=10.0.1"
+        ],
+        "fn": "libffi-3.2.1-hb1e8313_1007.tar.bz2",
+        "license": "Custom",
+        "name": "libffi",
+        "sha256": "0ab28f9757a175701ac22e33a9f8551ed2e623b8c4e756a7b66a9b922603a11d",
+        "size": 42720,
+        "subdir": "",
+        "timestamp": 1597209138000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/libffi-3.2.1-hb1e8313_1007.tar.bz2",
+        "version": "3.2.1"
+      },
+      {
+        "build": "h05e3726_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "ncurses >=6.2,<6.3.0a0"
+        ],
+        "fn": "readline-8.1-h05e3726_0.tar.bz2",
+        "license": "GPL-3.0-only",
+        "name": "readline",
+        "sha256": "03e79b905e70ef1e83a4f23fc07dae03592b80e7528f3624d7a1627d31c4daf6",
+        "size": 272444,
+        "subdir": "",
+        "timestamp": 1616443986000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/readline-8.1-h05e3726_0.tar.bz2",
+        "version": "8.1"
+      },
+      {
+        "build": "h5dbffcc_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "zlib >=1.2.11,<1.3.0a0"
+        ],
+        "fn": "tk-8.6.11-h5dbffcc_1.tar.bz2",
+        "license": "TCL",
+        "name": "tk",
+        "sha256": "271dd232cd8192b84010f3736604e33ea4905bb0e6512199d92334af1cb90310",
+        "size": 3472552,
+        "subdir": "",
+        "timestamp": 1630564082000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/tk-8.6.11-h5dbffcc_1.tar.bz2",
+        "version": "8.6.11"
+      },
+      {
+        "build": "py27_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [
+          "python_abi * *_cp27m"
+        ],
+        "depends": [
+          "python >=2.7,<2.8.0a0",
+          "certifi >=2016.9.26"
+        ],
+        "fn": "setuptools-44.0.0-py27_0.tar.bz2",
+        "license": "MIT",
+        "name": "setuptools",
+        "sha256": "32e334c7ff1a041bde83bb2d82b1c6b4dce14a5780ba3587b2f504671cd2992e",
+        "size": 665051,
+        "subdir": "",
+        "timestamp": 1577961198000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/setuptools-44.0.0-py27_0.tar.bz2",
+        "version": "44.0.0"
+      },
+      {
+        "build": "py27h1de35cc_3",
+        "build_number": 3,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "openjdk",
+          "python >=2.7,<2.8.0a0",
+          "pcre >=8.41,<9.0a0",
+          "dendropy >=4.1.0",
+          "pymongo >=3.3.0"
+        ],
+        "fn": "pasta-1.7.8-py27h1de35cc_3.tar.bz2",
+        "license": "GNU General Public License v3 or later (GPLv3+)",
+        "name": "pasta",
+        "sha256": "44708b29d5b57f4bce353b6b129a8d26a8ff1331b1b7d3a0cd53cd9c5aeddeb4",
+        "size": 62572145,
+        "subdir": "",
+        "timestamp": 1554291280000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/pasta-1.7.8-py27h1de35cc_3.tar.bz2",
+        "version": "1.7.8"
+      },
+      {
+        "build": "habf9029_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "libcxx-12.0.1-habf9029_0.tar.bz2",
+        "license": "Apache-2.0 WITH LLVM-exception",
+        "name": "libcxx",
+        "sha256": "1c671f293fee0e680a728f77b31189316456ba8b9e57e35218ce02b371f2a7f0",
+        "size": 1104124,
+        "subdir": "",
+        "timestamp": 1626161047000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/libcxx-12.0.1-habf9029_0.tar.bz2",
+        "version": "12.0.1"
+      },
+      {
+        "build": "0_h0d85af4_perl5",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "perl-5.32.1-0_h0d85af4_perl5.tar.bz2",
+        "license": "GPL-1.0-or-later OR Artistic-1.0-Perl",
+        "name": "perl",
+        "sha256": "b6887dd8656a4e349be3c766721e46b9003aa45c6ed6ef7b1808ce4ab1203a3e",
+        "size": 14012985,
+        "subdir": "",
+        "timestamp": 1622805576000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/perl-5.32.1-0_h0d85af4_perl5.tar.bz2",
+        "version": "5.32.1"
+      },
+      {
+        "build": "h7795811_1010",
+        "build_number": 1010,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "zlib-1.2.11-h7795811_1010.tar.bz2",
+        "license": "Zlib",
+        "name": "zlib",
+        "sha256": "c9b5aeeeee4654e79d1ef96994eedd2c6cec0d1f885bdc4ce6bb546265f7d81a",
+        "size": 104180,
+        "subdir": "",
+        "timestamp": 1602670166000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/zlib-1.2.11-h7795811_1010.tar.bz2",
+        "version": "1.2.11"
+      },
+      {
+        "build": "he49afe7_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=11.1.0"
+        ],
+        "fn": "pcre-8.45-he49afe7_0.tar.bz2",
+        "license": "BSD-3-Clause",
+        "name": "pcre",
+        "sha256": "8002279cf4084fbf219f137c2bdef2825d076a5a57a14d1d922d7c5fa7872a5c",
+        "size": 225590,
+        "subdir": "",
+        "timestamp": 1623788896000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/pcre-8.45-he49afe7_0.tar.bz2",
+        "version": "8.45"
+      },
+      {
+        "build": "h2e338ed_4",
+        "build_number": 4,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "ncurses-6.2-h2e338ed_4.tar.bz2",
+        "license": "X11 AND BSD-3-Clause",
+        "name": "ncurses",
+        "sha256": "7027a80facb1735089d58179c91d189930a33af86f57c864b68b7715b07ff4d6",
+        "size": 901840,
+        "subdir": "",
+        "timestamp": 1605391772000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/ncurses-6.2-h2e338ed_4.tar.bz2",
+        "version": "6.2"
+      },
+      {
+        "build": "1_cp27m",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [
+          "pypy <0a0",
+          "python_abi * *_cp27m"
+        ],
+        "depends": [
+          "python 2.7.*"
+        ],
+        "fn": "python_abi-2.7-1_cp27m.tar.bz2",
+        "license": "BSD-3-Clause",
+        "name": "python_abi",
+        "sha256": "3986bbbc109cb9fc935bc6a8e7de95f9ac5a6cec82ad9a841baac8a2a23105e7",
+        "size": 3678,
+        "subdir": "",
+        "timestamp": 1583344778000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/python_abi-2.7-1_cp27m.tar.bz2",
+        "version": "2.7"
+      },
+      {
+        "build": "h8e446fc_1011_cpython",
+        "build_number": 1011,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [
+          "python_abi 2.7.* *_cp27m",
+          "python_abi * *_cp27m"
+        ],
+        "depends": [
+          "pip",
+          "libcxx >=9.0.1",
+          "zlib >=1.2.11,<1.3.0a0",
+          "readline >=8.0,<9.0a0",
+          "openssl >=1.1.1a,<1.1.2a",
+          "libffi >=3.2.1,<3.3.0a0",
+          "tk >=8.6.10,<8.7.0a0",
+          "sqlite >=3.30.1,<4.0a0"
+        ],
+        "fn": "python-2.7.15-h8e446fc_1011_cpython.tar.bz2",
+        "license": "PSF",
+        "name": "python",
+        "sha256": "2274732f9e6fa1aa139b97e34122ccc13dfa3fd27ccbf03dc7ffe18b3a3a7ba1",
+        "size": 12809827,
+        "subdir": "",
+        "timestamp": 1583420406000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/python-2.7.15-h8e446fc_1011_cpython.tar.bz2",
+        "version": "2.7.15"
+      },
+      {
+        "build": "pyhd8ed1ab_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/noarch",
+        "constrains": [],
+        "depends": [
+          "python !=3.0,!=3.1,!=3.2,!=3.3,!=3.4"
+        ],
+        "fn": "wheel-0.37.0-pyhd8ed1ab_1.tar.bz2",
+        "license": "MIT",
+        "name": "wheel",
+        "sha256": "5751e87191736ac8572030905f012eb1d099e36e9c0ad6556a1ad6672e42ece9",
+        "size": 31651,
+        "subdir": "",
+        "timestamp": 1628881400000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/noarch/wheel-0.37.0-pyhd8ed1ab_1.tar.bz2",
+        "version": "0.37.0"
+      },
+      {
+        "build": "hcf210ce_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=11.1.0",
+          "zlib >=1.2.11,<1.3.0a0"
+        ],
+        "fn": "openjdk-11.0.9.1-hcf210ce_1.tar.bz2",
+        "license": "GPL-2.0-or-later WITH Classpath-exception-2.0",
+        "name": "openjdk",
+        "sha256": "1117f91b39014fb266725c82f6d5257e06782354b38f3141817f0fe21478d41e",
+        "size": 176967914,
+        "subdir": "",
+        "timestamp": 1616191477000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/openjdk-11.0.9.1-hcf210ce_1.tar.bz2",
+        "version": "11.0.9.1"
+      },
+      {
+        "build": "py27h8c360ce_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "python >=2.7,<2.8.0a0",
+          "python_abi 2.7.* *_cp27m"
+        ],
+        "fn": "certifi-2019.11.28-py27h8c360ce_1.tar.bz2",
+        "license": "ISC",
+        "name": "certifi",
+        "sha256": "be37e399306b607666b6fbe90a30a4428b7193e4ec38888c491946639b4cf60f",
+        "size": 152342,
+        "subdir": "",
+        "timestamp": 1583921861000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/certifi-2019.11.28-py27h8c360ce_1.tar.bz2",
+        "version": "2019.11.28"
+      },
+      {
+        "build": "hb4d813b_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "mafft-7.487-hb4d813b_0.tar.bz2",
+        "license": "BSD",
+        "name": "mafft",
+        "sha256": "cd80930ef827ac303d912ccb4d3e942a460035d0e8b7429401620283b9abed44",
+        "size": 8124687,
+        "subdir": "",
+        "timestamp": 1627178904000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/mafft-7.487-hb4d813b_0.tar.bz2",
+        "version": "7.487"
+      },
+      {
+        "build": "h0d85af4_1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "ca-certificates"
+        ],
+        "fn": "openssl-1.1.1k-h0d85af4_1.tar.bz2",
+        "license": "OpenSSL",
+        "name": "openssl",
+        "sha256": "eb2685d86b8594ac2ef60cae193b28818977f35b2001e777d50c0d3c5f8b0a14",
+        "size": 1994862,
+        "subdir": "",
+        "timestamp": 1629119580000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/openssl-1.1.1k-h0d85af4_1.tar.bz2",
+        "version": "1.1.1k"
+      },
+      {
+        "build": "h23a322b_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [
+          "zlib >=1.2.11,<1.3.0a0",
+          "ncurses >=6.2,<6.3.0a0",
+          "readline >=8.1,<9.0a0"
+        ],
+        "fn": "sqlite-3.36.0-h23a322b_0.tar.bz2",
+        "license": "Unlicense",
+        "name": "sqlite",
+        "sha256": "936d81ceb02eb5eec5118e2cbc7baabae896d9daeeb57845e11599de8ce073a2",
+        "size": 1825010,
+        "subdir": "",
+        "timestamp": 1624305263000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/sqlite-3.36.0-h23a322b_0.tar.bz2",
+        "version": "3.36.0"
+      },
+      {
+        "build": "pyh3252c3a_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/noarch",
+        "constrains": [],
+        "depends": [
+          "python"
+        ],
+        "fn": "dendropy-4.5.2-pyh3252c3a_0.tar.bz2",
+        "license": "BSD License",
+        "name": "dendropy",
+        "sha256": "5572a0e4c5adaa0e6639aed74bf36efd87c55458b14fb8e08bb82a9e19462966",
+        "size": 315330,
+        "subdir": "",
+        "timestamp": 1613129728000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda/noarch/dendropy-4.5.2-pyh3252c3a_0.tar.bz2",
+        "version": "4.5.2"
+      },
+      {
+        "build": "pyh9f0ad1d_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/noarch",
+        "constrains": [],
+        "depends": [
+          "setuptools",
+          "wheel"
+        ],
+        "fn": "pip-20.1.1-pyh9f0ad1d_0.tar.bz2",
+        "license": "MIT",
+        "name": "pip",
+        "sha256": "d36d4300f320f6f8352548dbd8750dbf9679fe4e439b23bab9e2797663491275",
+        "size": 1104526,
+        "subdir": "",
+        "timestamp": 1589920043000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge/noarch/pip-20.1.1-pyh9f0ad1d_0.tar.bz2",
+        "version": "20.1.1"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h033912b_0",
+        "channel": "conda-forge",
+        "dist_name": "ca-certificates-2021.5.30-h033912b_0",
+        "name": "ca-certificates",
+        "platform": "",
+        "version": "2021.5.30"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "habf9029_0",
+        "channel": "conda-forge",
+        "dist_name": "libcxx-12.0.1-habf9029_0",
+        "name": "libcxx",
+        "platform": "",
+        "version": "12.0.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 0,
+        "build_string": "hb4d813b_0",
+        "channel": "bioconda",
+        "dist_name": "mafft-7.487-hb4d813b_0",
+        "name": "mafft",
+        "platform": "",
+        "version": "7.487"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 4,
+        "build_string": "h2e338ed_4",
+        "channel": "conda-forge",
+        "dist_name": "ncurses-6.2-h2e338ed_4",
+        "name": "ncurses",
+        "platform": "",
+        "version": "6.2"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "0_h0d85af4_perl5",
+        "channel": "conda-forge",
+        "dist_name": "perl-5.32.1-0_h0d85af4_perl5",
+        "name": "perl",
+        "platform": "",
+        "version": "5.32.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1010,
+        "build_string": "h7795811_1010",
+        "channel": "conda-forge",
+        "dist_name": "zlib-1.2.11-h7795811_1010",
+        "name": "zlib",
+        "platform": "",
+        "version": "1.2.11"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1007,
+        "build_string": "hb1e8313_1007",
+        "channel": "conda-forge",
+        "dist_name": "libffi-3.2.1-hb1e8313_1007",
+        "name": "libffi",
+        "platform": "",
+        "version": "3.2.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "hcf210ce_1",
+        "channel": "conda-forge",
+        "dist_name": "openjdk-11.0.9.1-hcf210ce_1",
+        "name": "openjdk",
+        "platform": "",
+        "version": "11.0.9.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "h0d85af4_1",
+        "channel": "conda-forge",
+        "dist_name": "openssl-1.1.1k-h0d85af4_1",
+        "name": "openssl",
+        "platform": "",
+        "version": "1.1.1k"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "he49afe7_0",
+        "channel": "conda-forge",
+        "dist_name": "pcre-8.45-he49afe7_0",
+        "name": "pcre",
+        "platform": "",
+        "version": "8.45"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h05e3726_0",
+        "channel": "conda-forge",
+        "dist_name": "readline-8.1-h05e3726_0",
+        "name": "readline",
+        "platform": "",
+        "version": "8.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "h5dbffcc_1",
+        "channel": "conda-forge",
+        "dist_name": "tk-8.6.11-h5dbffcc_1",
+        "name": "tk",
+        "platform": "",
+        "version": "8.6.11"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 5,
+        "build_string": "hb280591_5",
+        "channel": "bioconda",
+        "dist_name": "trimal-1.4.1-hb280591_5",
+        "name": "trimal",
+        "platform": "",
+        "version": "1.4.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "h23a322b_0",
+        "channel": "conda-forge",
+        "dist_name": "sqlite-3.36.0-h23a322b_0",
+        "name": "sqlite",
+        "platform": "",
+        "version": "3.36.0"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1011,
+        "build_string": "h8e446fc_1011_cpython",
+        "channel": "conda-forge",
+        "dist_name": "python-2.7.15-h8e446fc_1011_cpython",
+        "name": "python",
+        "platform": "",
+        "version": "2.7.15"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 0,
+        "build_string": "pyh3252c3a_0",
+        "channel": "bioconda",
+        "dist_name": "dendropy-4.5.2-pyh3252c3a_0",
+        "name": "dendropy",
+        "platform": "",
+        "version": "4.5.2"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "py27h4a8c4bd_0",
+        "channel": "conda-forge",
+        "dist_name": "pymongo-3.10.0-py27h4a8c4bd_0",
+        "name": "pymongo",
+        "platform": "",
+        "version": "3.10.0"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "1_cp27m",
+        "channel": "conda-forge",
+        "dist_name": "python_abi-2.7-1_cp27m",
+        "name": "python_abi",
+        "platform": "",
+        "version": "2.7"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "pyhd8ed1ab_1",
+        "channel": "conda-forge",
+        "dist_name": "wheel-0.37.0-pyhd8ed1ab_1",
+        "name": "wheel",
+        "platform": "",
+        "version": "0.37.0"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1,
+        "build_string": "py27h8c360ce_1",
+        "channel": "conda-forge",
+        "dist_name": "certifi-2019.11.28-py27h8c360ce_1",
+        "name": "certifi",
+        "platform": "",
+        "version": "2019.11.28"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 3,
+        "build_string": "py27h1de35cc_3",
+        "channel": "bioconda",
+        "dist_name": "pasta-1.7.8-py27h1de35cc_3",
+        "name": "pasta",
+        "platform": "",
+        "version": "1.7.8"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 1,
+        "build_string": "hdfd78af_1",
+        "channel": "bioconda",
+        "dist_name": "plant_tribes_gene_family_aligner-1.0.4-hdfd78af_1",
+        "name": "plant_tribes_gene_family_aligner",
+        "platform": "",
+        "version": "1.0.4"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "py27_0",
+        "channel": "conda-forge",
+        "dist_name": "setuptools-44.0.0-py27_0",
+        "name": "setuptools",
+        "platform": "",
+        "version": "44.0.0"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.03.00.31.51/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "pyh9f0ad1d_0",
+        "channel": "conda-forge",
+        "dist_name": "pip-20.1.1-pyh9f0ad1d_0",
+        "name": "pip",
+        "platform": "",
+        "version": "20.1.1"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}

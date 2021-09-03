@@ -1,0 +1,155 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + artic-tools             0.3.0  h73db739_0     /Users/runner/conda/conda-bld/osx-64     440 KB
+  + boost-cpp              1.70.0  hef959ae_3     conda-forge/osx-64                        19 MB
+  + bzip2                   1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + htslib                   1.13  hc38c3fb_0     bioconda/osx-64                            2 MB
+  + icu                      67.1  hb1e8313_0     conda-forge/osx-64                        13 MB
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5     conda-forge/osx-64                        67 KB
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + lz4-c                   1.9.3  he49afe7_1     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + openssl                1.1.1k  h0d85af4_1     conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1     conda-forge/osx-64                       Cached
+  + xz                      5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+  + zstd                    1.4.9  h582d3a0_0     conda-forge/osx-64                       460 KB
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 34 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: artic-tools-0.3.0-h73db739_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/artic-tools_1630634723748/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    artic-tools:     0.3.0-h73db739_0        local      
+    boost-cpp:       1.70.0-hef959ae_3       conda-forge
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    htslib:          1.13-hc38c3fb_0         bioconda   
+    icu:             67.1-hb1e8313_0         conda-forge
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    lz4-c:           1.9.3-he49afe7_1        conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    openssl:         1.1.1k-h0d85af4_1       conda-forge
+    tk:              8.6.11-h5dbffcc_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+    zstd:            1.4.9-h582d3a0_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/artic-tools_1630634723748/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/artic-tools_1630634723748/test_tmp
+artic-tools is a set of artic pipeline utilities
+Usage: artic-tools [OPTIONS] SUBCOMMAND
+
+Options:
+  -h,--help                   Print this help message and exit
+  -v,--version                Print version and exit
+
+Subcommands:
+  align_trim                  Trim alignments from an amplicon scheme
+  get_scheme                  Download an ARTIC primer scheme and reference sequence
+  validate_scheme             Validate an amplicon scheme for compliance with ARTIC standards
+  check_vcf                   Check a VCF file based on primer scheme info and user-defined cut offs
+
+0.3.0
+Trim alignments from an amplicon scheme
+Usage: artic-tools align_trim [OPTIONS] scheme
+
+Positionals:
+  scheme TEXT:FILE REQUIRED   The ARTIC primer scheme
+
+Options:
+  -h,--help                   Print this help message and exit
+  -b,--inputFile TEXT         The input BAM file (will try STDIN if not provided)
+  --minMAPQ UINT              A minimum MAPQ threshold for processing alignments (default = 15)
+  --normalise UINT            Subsample to N coverage per strand (default = 100, deactivate with 0)
+  --report TEXT               Output an align_trim report to file
+  --start                     Trim to start of primers instead of ends
+  --remove-incorrect-pairs    Remove amplicons with incorrect primer pairs
+  --no-read-groups            Do not divide reads into groups in SAM output
+  --verbose                   Output debugging information to STDERR
+
+Download an ARTIC primer scheme and reference sequence
+Usage: artic-tools get_scheme [OPTIONS] scheme
+
+Positionals:
+  scheme TEXT REQUIRED        The name of the scheme to download (ebola|nipah|scov2)
+
+Options:
+  -h,--help                   Print this help message and exit
+  --schemeVersion UINT=0      The ARTIC primer scheme version (default = latest)
+  -o,--outDir TEXT            The directory to write the scheme and reference sequence to
+
+Validate an amplicon scheme for compliance with ARTIC standards
+Usage: artic-tools validate_scheme [OPTIONS] scheme
+
+Positionals:
+  scheme TEXT:FILE REQUIRED   The primer scheme to validate
+
+Options:
+  -h,--help                   Print this help message and exit
+  -o,--outputPrimerSeqs TEXT  If provided, will write primer sequences as multiFASTA (requires --refSeq to be provided)
+  -r,--refSeq TEXT            The reference sequence for the primer scheme (FASTA format)
+  --outputInserts TEXT        If provided, will write primer scheme inserts as BED (exluding primer sequences)
+
+Check a VCF file based on primer scheme info and user-defined cut offs
+Usage: artic-tools check_vcf [OPTIONS] vcf scheme
+
+Positionals:
+  vcf TEXT:FILE REQUIRED      The input VCF file to filter
+  scheme TEXT:FILE REQUIRED   The primer scheme to use
+
+Options:
+  -h,--help                   Print this help message and exit
+  -o,--summaryOut TEXT REQUIRED
+                              Summary of variant checks will be written here (TSV format)
+  --vcfOut TEXT               If provided, will write variants that pass checks to this file
+  -q,--minQual FLOAT          Minimum quality score to keep a variant (default = 10)
+
+
+Resource usage statistics from testing artic-tools:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 18.1M
+   Disk usage: 56B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: artic-tools-0.3.0-h73db739_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
