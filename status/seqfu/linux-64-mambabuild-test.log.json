@@ -1,0 +1,91 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + pcre              8.45  h9c3ff4c_0     conda-forge/linux-64                    Cached
+  + seqfu            1.6.0  h38613fd_0     /home/vsts/conda/conda-bld/linux-64       2 MB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 2 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: seqfu-1.6.0-h38613fd_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/seqfu_1630631359772/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    pcre:          8.45-h9c3ff4c_0      conda-forge
+    seqfu:         1.6.0-h38613fd_0     local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/seqfu_1630631359772/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/seqfu_1630631359772/test_tmp
+SeqFu - Sequence Fastx Utilities
+version: 1.6.0
+
+  · count [cnt]         : count FASTA/FASTQ reads, pair-end aware
+  · deinterleave [dei]  : deinterleave FASTQ
+  · derep [der]         : feature-rich dereplication of FASTA/FASTQ files
+  · interleave [ilv]    : interleave FASTQ pair ends
+  · lanes [mrl]         : merge Illumina lanes
+  · metadata [met]      : print a table of FASTQ reads (mapping files)
+  · sort [srt]          : sort sequences by size (uniques)
+  · stats [st]          : statistics on sequence lengths
+
+  · cat                 : concatenate FASTA/FASTQ files
+  · grep                : select sequences with patterns
+  · head                : print first sequences
+  · rc                  : reverse complement strings or files
+  · tab                 : tabulate reads to TSV (and viceversa)
+  · tail                : view last sequences
+  · view                : view sequences with colored quality and oligo matches
+
+Add --help after each command to print usage
+Usage: stats [options] [<inputfile> ...]
+
+Options:
+  -a, --abs-path         Print absolute paths
+  -b, --basename         Print only filenames
+  -n, --nice             Print nice terminal table
+  --csv                  Separate with commas (default: tabs)
+  --multiqc FILE         Saves a MultiQC report to FILE (suggested: name_mqc.txt)
+  -v, --verbose          Verbose output
+  -h, --help             Show this help
+version: 1.6.0
+
+Resource usage statistics from testing seqfu:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: seqfu-1.6.0-h38613fd_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

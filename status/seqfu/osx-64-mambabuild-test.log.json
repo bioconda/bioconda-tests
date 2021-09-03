@@ -1,0 +1,83 @@
+  Package   Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx   12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + pcre       8.45  he49afe7_0     conda-forge/osx-64                       Cached
+  + seqfu     1.6.0  hfa5225b_0     /Users/runner/conda/conda-bld/osx-64       2 MB
+  + zlib     1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 2 MB
+
+─────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: seqfu-1.6.0-hfa5225b_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/seqfu_1630631553734/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx: 12.0.1-habf9029_0    conda-forge
+    pcre:   8.45-he49afe7_0      conda-forge
+    seqfu:  1.6.0-hfa5225b_0     local      
+    zlib:   1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/seqfu_1630631553734/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/seqfu_1630631553734/test_tmp
+SeqFu - Sequence Fastx Utilities
+version: 1.6.0
+
+  · count [cnt]         : count FASTA/FASTQ reads, pair-end aware
+  · deinterleave [dei]  : deinterleave FASTQ
+  · derep [der]         : feature-rich dereplication of FASTA/FASTQ files
+  · interleave [ilv]    : interleave FASTQ pair ends
+  · lanes [mrl]         : merge Illumina lanes
+  · metadata [met]      : print a table of FASTQ reads (mapping files)
+  · sort [srt]          : sort sequences by size (uniques)
+  · stats [st]          : statistics on sequence lengths
+
+  · cat                 : concatenate FASTA/FASTQ files
+  · grep                : select sequences with patterns
+  · head                : print first sequences
+  · rc                  : reverse complement strings or files
+  · tab                 : tabulate reads to TSV (and viceversa)
+  · tail                : view last sequences
+  · view                : view sequences with colored quality and oligo matches
+
+Add --help after each command to print usage
+Usage: stats [options] [<inputfile> ...]
+
+Options:
+  -a, --abs-path         Print absolute paths
+  -b, --basename         Print only filenames
+  -n, --nice             Print nice terminal table
+  --csv                  Separate with commas (default: tabs)
+  --multiqc FILE         Saves a MultiQC report to FILE (suggested: name_mqc.txt)
+  -v, --verbose          Verbose output
+  -h, --help             Show this help
+version: 1.6.0
+
+Resource usage statistics from testing seqfu:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: seqfu-1.6.0-hfa5225b_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
