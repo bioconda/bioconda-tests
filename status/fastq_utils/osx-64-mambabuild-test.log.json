@@ -1,0 +1,91 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                   1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + fastq_utils            0.25.1  h365c1c9_0     /Users/runner/conda/conda-bld/osx-64     157 KB
+  + htslib                   1.13  hc38c3fb_0     bioconda/osx-64                            2 MB
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5     conda-forge/osx-64                        67 KB
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + openssl                1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + samtools                 1.13  h7596a89_0     bioconda/osx-64                          404 KB
+  + tk                     8.6.11  h5dbffcc_1     conda-forge/osx-64                       Cached
+  + xz                      5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 3 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: fastq_utils-0.25.1-h365c1c9_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/fastq_utils_1630704941757/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    fastq_utils:     0.25.1-h365c1c9_0       local      
+    htslib:          1.13-hc38c3fb_0         bioconda   
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    openssl:         1.1.1l-h0d85af4_0       conda-forge
+    samtools:        1.13-h7596a89_0         bioconda   
+    tk:              8.6.11-h5dbffcc_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/fastq_utils_1630704941757/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/fastq_utils_1630704941757/test_tmp
+$PREFIX/bin/fastq_info
+$PREFIX/bin/fastq_filterpair
+$PREFIX/bin/fastq_filter_n
+$PREFIX/bin/fastq_num_reads
+$PREFIX/bin/fastq_trim_poly_at
+$PREFIX/bin/fastq_pre_barcodes
+$PREFIX/bin/bam_add_tags
+$PREFIX/bin/bam_umi_count
+$PREFIX/bin/fastq2bam
+$PREFIX/bin/bam2fastq
+
+Resource usage statistics from testing fastq_utils:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: fastq_utils-0.25.1-h365c1c9_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
