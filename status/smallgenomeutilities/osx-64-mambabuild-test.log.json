@@ -1,0 +1,539 @@
+  Package                      Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bcbio-gff                    0.6.6  pyh864c0ab_1        bioconda/noarch                           19 KB
+  + biopython                     1.79  py39h89e85a6_0      conda-forge/osx-64                       Cached
+  + blosc                       1.21.0  he49afe7_0          conda-forge/osx-64                       920 KB
+  + bx-python                   0.8.11  py39hc8e2088_1      bioconda/osx-64                          934 KB
+  + bzip2                        1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + c-ares                      1.17.2  h0d85af4_0          conda-forge/osx-64                       Cached
+  + ca-certificates          2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + certifi                  2021.5.30  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + cycler                      0.10.0  py_2                conda-forge/noarch                         9 KB
+  + freetype                    2.10.4  h4cff582_1          conda-forge/osx-64                       Cached
+  + hdf5                        1.12.1  nompi_h2f0ef1a_100  conda-forge/osx-64                         4 MB
+  + jbig                           2.1  h0d85af4_2003       conda-forge/osx-64                       Cached
+  + joblib                       1.0.1  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + jpeg                            9d  hbcb3906_0          conda-forge/osx-64                       Cached
+  + kiwisolver                   1.3.2  py39hf018cea_0      conda-forge/osx-64                        59 KB
+  + krb5                        1.19.2  hcfbf3a7_0          conda-forge/osx-64                       Cached
+  + lcms2                         2.12  h577c468_0          conda-forge/osx-64                       404 KB
+  + lerc                         2.2.1  h046ec9c_0          conda-forge/osx-64                       Cached
+  + libblas                      3.9.0  11_osx64_openblas   conda-forge/osx-64                       Cached
+  + libcblas                     3.9.0  11_osx64_openblas   conda-forge/osx-64                       Cached
+  + libcurl                     7.78.0  hf45b732_0          conda-forge/osx-64                       Cached
+  + libcxx                      12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libdeflate                     1.7  h35c211d_5          conda-forge/osx-64                       Cached
+  + libedit               3.1.20191231  h0678c8f_2          conda-forge/osx-64                       Cached
+  + libev                         4.33  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + libffi                         3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgfortran                  5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                       Cached
+  + libgfortran5                 9.3.0  h6c81a4c_23         conda-forge/osx-64                       Cached
+  + liblapack                    3.9.0  11_osx64_openblas   conda-forge/osx-64                       Cached
+  + libnghttp2                  1.43.0  h07e645a_0          conda-forge/osx-64                       Cached
+  + libopenblas                 0.3.17  openmp_h3351f45_1   conda-forge/osx-64                       Cached
+  + libpng                      1.6.37  h7cec526_2          conda-forge/osx-64                       Cached
+  + libssh2                     1.10.0  h52ee1ee_0          conda-forge/osx-64                       Cached
+  + libtiff                      4.3.0  h1167814_1          conda-forge/osx-64                       Cached
+  + libwebp-base                 1.2.1  h0d85af4_0          conda-forge/osx-64                       Cached
+  + llvm-openmp                 12.0.1  hda6cdc1_1          conda-forge/osx-64                       Cached
+  + lz4-c                        1.9.3  he49afe7_1          conda-forge/osx-64                       Cached
+  + lzo                           2.10  haf1e3a3_1000       conda-forge/osx-64                       Cached
+  + mafft                        7.487  hb4d813b_0          bioconda/osx-64                            8 MB
+  + matplotlib-base              3.4.3  py39hb07454d_0      conda-forge/osx-64                         7 MB
+  + mock                         4.0.3  py39h6e9494a_1      conda-forge/osx-64                        51 KB
+  + ncurses                        6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + numexpr                      2.7.3  py39h4d6be9b_0      conda-forge/osx-64                       131 KB
+  + numpy                       1.21.2  py39h7eed0ac_0      conda-forge/osx-64                       Cached
+  + olefile                       0.46  pyh9f0ad1d_1        conda-forge/noarch                        32 KB
+  + openjpeg                     2.4.0  h6e7aa92_1          conda-forge/osx-64                       374 KB
+  + openssl                     1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pandas                       1.3.2  py39h4d6be9b_0      conda-forge/osx-64                        12 MB
+  + pillow                       8.3.1  py39he9bb72f_0      conda-forge/osx-64                       660 KB
+  + pip                         21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + progress                       1.6  pyhd8ed1ab_0        conda-forge/noarch                        10 KB
+  + pyparsing                    2.4.7  pyh9f0ad1d_0        conda-forge/noarch                        60 KB
+  + pysam                     0.16.0.1  py39h56703ae_3      bioconda/osx-64                            2 MB
+  + pysamstats                   1.1.2  py39h0bb3d0f_8      bioconda/osx-64                          226 KB
+  + pytables                     3.6.1  py39hfd850c7_4      conda-forge/osx-64                         1 MB
+  + python                       3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python-dateutil              2.8.2  pyhd8ed1ab_0        conda-forge/noarch                       240 KB
+  + python-lzo                    1.12  py39h62b3f28_1003   conda-forge/osx-64                        17 KB
+  + python_abi                     3.9  2_cp39              conda-forge/osx-64                       Cached
+  + pytz                        2021.1  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pyyaml                       5.4.1  py39h89e85a6_1      conda-forge/osx-64                       Cached
+  + readline                       8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + scikit-learn                0.24.2  py39hd4eea88_1      conda-forge/osx-64                         7 MB
+  + scipy                        1.7.1  py39h056f1c0_0      conda-forge/osx-64                        20 MB
+  + setuptools                  57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + six                         1.16.0  pyh6c4a22f_0        conda-forge/noarch                       Cached
+  + smallgenomeutilities         0.3.4  pyhdfd78af_0        /Users/runner/conda/conda-bld/osx-64      50 KB
+  + sqlite                      3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + threadpoolctl                2.2.0  pyh8a188c0_0        conda-forge/noarch                        16 KB
+  + tk                          8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tornado                        6.1  py39h89e85a6_1      conda-forge/osx-64                       645 KB
+  + tzdata                       2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                       0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                           5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + yaml                         0.2.5  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + zlib                        1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+  + zstd                         1.5.0  h582d3a0_0          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 77 packages
+
+  Total download: 65 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: smallgenomeutilities-0.3.4-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/smallgenomeutilities_1630681528370/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    bcbio-gff:            0.6.6-pyh864c0ab_1        bioconda   
+    biopython:            1.79-py39h89e85a6_0       conda-forge
+    blosc:                1.21.0-he49afe7_0         conda-forge
+    bx-python:            0.8.11-py39hc8e2088_1     bioconda   
+    bzip2:                1.0.8-h0d85af4_4          conda-forge
+    c-ares:               1.17.2-h0d85af4_0         conda-forge
+    ca-certificates:      2021.5.30-h033912b_0      conda-forge
+    certifi:              2021.5.30-py39h6e9494a_0  conda-forge
+    cycler:               0.10.0-py_2               conda-forge
+    freetype:             2.10.4-h4cff582_1         conda-forge
+    hdf5:                 1.12.1-nompi_h2f0ef1a_100 conda-forge
+    jbig:                 2.1-h0d85af4_2003         conda-forge
+    joblib:               1.0.1-pyhd8ed1ab_0        conda-forge
+    jpeg:                 9d-hbcb3906_0             conda-forge
+    kiwisolver:           1.3.2-py39hf018cea_0      conda-forge
+    krb5:                 1.19.2-hcfbf3a7_0         conda-forge
+    lcms2:                2.12-h577c468_0           conda-forge
+    lerc:                 2.2.1-h046ec9c_0          conda-forge
+    libblas:              3.9.0-11_osx64_openblas   conda-forge
+    libcblas:             3.9.0-11_osx64_openblas   conda-forge
+    libcurl:              7.78.0-hf45b732_0         conda-forge
+    libcxx:               12.0.1-habf9029_0         conda-forge
+    libdeflate:           1.7-h35c211d_5            conda-forge
+    libedit:              3.1.20191231-h0678c8f_2   conda-forge
+    libev:                4.33-haf1e3a3_1           conda-forge
+    libffi:               3.3-h046ec9c_2            conda-forge
+    libgfortran:          5.0.0-9_3_0_h6c81a4c_23   conda-forge
+    libgfortran5:         9.3.0-h6c81a4c_23         conda-forge
+    liblapack:            3.9.0-11_osx64_openblas   conda-forge
+    libnghttp2:           1.43.0-h07e645a_0         conda-forge
+    libopenblas:          0.3.17-openmp_h3351f45_1  conda-forge
+    libpng:               1.6.37-h7cec526_2         conda-forge
+    libssh2:              1.10.0-h52ee1ee_0         conda-forge
+    libtiff:              4.3.0-h1167814_1          conda-forge
+    libwebp-base:         1.2.1-h0d85af4_0          conda-forge
+    llvm-openmp:          12.0.1-hda6cdc1_1         conda-forge
+    lz4-c:                1.9.3-he49afe7_1          conda-forge
+    lzo:                  2.10-haf1e3a3_1000        conda-forge
+    mafft:                7.487-hb4d813b_0          bioconda   
+    matplotlib-base:      3.4.3-py39hb07454d_0      conda-forge
+    mock:                 4.0.3-py39h6e9494a_1      conda-forge
+    ncurses:              6.2-h2e338ed_4            conda-forge
+    numexpr:              2.7.3-py39h4d6be9b_0      conda-forge
+    numpy:                1.21.2-py39h7eed0ac_0     conda-forge
+    olefile:              0.46-pyh9f0ad1d_1         conda-forge
+    openjpeg:             2.4.0-h6e7aa92_1          conda-forge
+    openssl:              1.1.1l-h0d85af4_0         conda-forge
+    pandas:               1.3.2-py39h4d6be9b_0      conda-forge
+    pillow:               8.3.1-py39he9bb72f_0      conda-forge
+    pip:                  21.2.4-pyhd8ed1ab_0       conda-forge
+    progress:             1.6-pyhd8ed1ab_0          conda-forge
+    pyparsing:            2.4.7-pyh9f0ad1d_0        conda-forge
+    pysam:                0.16.0.1-py39h56703ae_3   bioconda   
+    pysamstats:           1.1.2-py39h0bb3d0f_8      bioconda   
+    pytables:             3.6.1-py39hfd850c7_4      conda-forge
+    python:               3.9.7-hd187cdc_0_cpython  conda-forge
+    python-dateutil:      2.8.2-pyhd8ed1ab_0        conda-forge
+    python-lzo:           1.12-py39h62b3f28_1003    conda-forge
+    python_abi:           3.9-2_cp39                conda-forge
+    pytz:                 2021.1-pyhd8ed1ab_0       conda-forge
+    pyyaml:               5.4.1-py39h89e85a6_1      conda-forge
+    readline:             8.1-h05e3726_0            conda-forge
+    scikit-learn:         0.24.2-py39hd4eea88_1     conda-forge
+    scipy:                1.7.1-py39h056f1c0_0      conda-forge
+    setuptools:           57.4.0-py39h6e9494a_0     conda-forge
+    six:                  1.16.0-pyh6c4a22f_0       conda-forge
+    smallgenomeutilities: 0.3.4-pyhdfd78af_0        local      
+    sqlite:               3.36.0-h23a322b_0         conda-forge
+    threadpoolctl:        2.2.0-pyh8a188c0_0        conda-forge
+    tk:                   8.6.11-h5dbffcc_1         conda-forge
+    tornado:              6.1-py39h89e85a6_1        conda-forge
+    tzdata:               2021a-he74cb21_1          conda-forge
+    wheel:                0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:                   5.2.5-haf1e3a3_1          conda-forge
+    yaml:                 0.2.5-haf1e3a3_0          conda-forge
+    zlib:                 1.2.11-h7795811_1010      conda-forge
+    zstd:                 1.5.0-h582d3a0_0          conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/smallgenomeutilities_1630681528370/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/smallgenomeutilities_1630681528370/test_tmp
+import: 'smallgenomeutilities'
+import: 'smallgenomeutilities'
+usage: aln2basecnt [-h] -b TSV -c TSV [-N patient-sample] [-A alphabet]
+                   [-s YAML/JSON/INI]
+                   BAM/CRAM
+
+Script to extract base counts and coverage information from a single alignment
+file
+
+positional arguments:
+  BAM/CRAM              alignment file
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b TSV, --basecnt TSV
+                        bases count table output file
+  -c TSV, --coverage TSV
+                        coverage table output file
+  -N patient-sample, --name patient-sample
+                        Patient/sample identifiers to use in coverage column
+                        title instead of 'coverage'
+  -A alphabet, --alphabet alphabet
+                        alphabet to use
+  -s YAML/JSON/INI, --stats YAML/JSON/INI
+                        file to write stats to
+
+output TSVs support compression
+usage: convert_qr [-h] --it source --ir source -o dest [--prefix PREFIX]
+                  [--mf MIN_FREQ] [-L LENGTH] [-p]
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --it source      Input file from QuasiRecomb, usually 'quasispecies.fasta'
+                   for transmitter
+  --ir source      Input file from QuasiRecomb, usually 'quasispecies.fasta'
+                   for recipient
+  -o dest          Name of output file to write sequences to
+  --prefix PREFIX  Prefix to use in FASTA header (retains source prefixes if
+                   none provided)
+  --mf MIN_FREQ    Minimum frequency required for keeping sequence
+  -L LENGTH        Length of sequences have to be EXACTLY L
+  -p               Translate sequences into protein sequences
+usage: convert_reference [-h] -t TO [-v] -m input -i input [-o output] [-p]
+                         [-X] [-H]
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -t TO       Name of target contig
+  -v          Print more information
+  -m input    MSA input of all contigs aligned
+  -i input    Input SAM/BAM file
+  -o output   Output SAM/BAM file
+  -p          Insert silent padding states 'P' in CIGAR
+  -X          Use X/= instead of M for Match/Mismatch states
+  -H          Hard-clip bases instead of the default soft-clipping
+usage: coverage [-h] -t dest -i input -o output -m msa_file --select contig
+
+optional arguments:
+  -h, --help       show this help message and exit
+  -t dest          Name of target contig, e.g. HXB2:2253-2256
+  -i input         Input SAM/BAM file
+  -o output        Output TSV file
+  -m msa_file      MSA of contigs
+  --select contig  Name of contig that is of interest
+usage: coverage_stats [-h] -t dest -i input -o output -m msa_file --select
+                      contig
+
+optional arguments:
+  -h, --help       show this help message and exit
+  -t dest          Name of target contig, e.g. HXB2:2253-2256
+  -i input         Input SAM/BAM file
+  -o output        Output TSV file
+  -m msa_file      MSA of contigs
+  --select contig  Name of contig that is of interest
+usage: extract_consensus [-h] -i BAM [-f FASTA] [-r BED] [-c INT] [-q INT]
+                         [-a FLOAT] [-n INT] [-N STR] [-o PATH]
+
+Script to construct consensus sequences
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -f FASTA    Fasta file containing the reference sequence (default: None)
+  -r BED      Region of interested in BED format, e.g. HXB2:2253-3869. Loci
+              are interpreted using 0-based indexing, and a half-open interval
+              is used, i.e, [start:end) (default: None)
+  -c INT      Minimum read depth for reporting variants per locus (default:
+              50)
+  -q INT      Minimum phred quality score a base has to reach to be counted
+              (default: 15)
+  -a FLOAT    Minimum frequency for an ambiguous nucleotide (default: 0.05)
+  -n INT      Read count below which ambiguous base 'n' is reported (default:
+              None)
+  -N STR      Patient/sample identifier (default: CONSENSUS)
+  -o PATH     Output directory (default: /Users/runner/conda/conda-
+              bld/smallgenomeutilities_1630681528370/test_tmp)
+
+required named arguments:
+  -i BAM      Input BAM file (default: None)
+usage: extract_coverage_intervals [-h] [-r BED] [-cf TSV] [-c INT] [-f FLOAT]
+                                  [-w len1,len2,...] [-s shift1, shift2, ...]
+                                  [-N name1,name2,...] [-e] [--no-shorah]
+                                  [-t INT] [-o OUTPUT]
+                                  BAM [BAM ...]
+
+Script to extract coverage windows for ShoRAH
+
+positional arguments:
+  BAM                   Input BAM file(s)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r BED                Region of interested in BED format, e.g.
+                        HXB2:2253-3869. Loci are interpreted using 0-based
+                        indexing, and a half-open interval is used, i.e,
+                        [start:end) (default: None)
+  -cf TSV               File containing coverage per locus per sample. Samples
+                        are expected as columns and loci as rows. This option
+                        is not compatible with the read-window overlap
+                        thresholding (default: None)
+  -c INT                Minimum read depth per window (default: 100)
+  -f FLOAT              Threshold on the overlap between each read and the
+                        window (default: 0.85)
+  -w len1,len2,...      Window length used by ShoRAH (default: 201)
+  -s shift1, shift2, ...
+                        Window shifts used by ShoRAH (default: 67)
+  -N name1,name2,...    Patient/sample identifiers as comma separated strings
+                        (default: None)
+  -e                    Indicate whether to apply a more liberal shift on
+                        intervals' right-endpoint (default: False)
+  --no-shorah           Inidcate whether to report regions with sufficient
+                        coverage rather than windows for SNV calling using
+                        ShoRAH (default: False)
+  -t INT                Number of threads (default: 1)
+  -o OUTPUT             Output file name (default: coverage_intervals.tsv)
+usage: extract_sam [-h] -t dest [-v] -i input [-o output] [--mf FLOAT]
+                   [--mc INT] [--prefix STR] [--rg FLOAT] [--rog] [-p] [-T]
+                   MSA_file
+
+positional arguments:
+  MSA_file      file containing MSA
+
+optional arguments:
+  -h, --help    show this help message and exit
+  -t dest       Name of target contig, e.g. HXB2:2253-2256
+  -v            Print more information (such as subsequences in references)
+  -i input      Input SAM/BAM file
+  -o output     Output FASTA file
+  --mf FLOAT    Minimum frequency to output
+  --mc INT      Minimum count to output
+  --prefix STR  Prefix to add to header
+  --rg FLOAT    Minimum frequency for gap containing sequences
+  --rog         Remove sequences consisting only of gaps and stop codons
+  -p            Output sequences as translated proteins
+  -T            Output sequences in trait format (for SeTesT)
+usage: extract_seq [-h] -o dest -s name [-g] MSA_file
+
+positional arguments:
+  MSA_file    file containing MSA
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -o dest     Name of output file to write sequence to
+  -s name     Sequence name to extract
+  -g          Do not remove gaps
+usage: frameshift_deletions_checks [-h] -i BAM -c FASTA -f FASTA -g GFF [-0]
+                                   [-o TSV] [-E] [-e [ENGLISH]]
+
+Produces a report about frameshifting indels in a consensus sequences
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -0, --zero-based      Use 0-based (python) instead of 1-based (standard) seq
+                        positions (default: 1)
+  -o TSV, --output TSV  Output file (default: /Users/runner/conda/conda-bld/sm
+                        allgenomeutilities_1630681528370/test_tmp/frameshift_d
+                        eletions_check.tsv)
+  -E, --no-english
+  -e [ENGLISH], --english [ENGLISH]
+                        If True writes english summary diagnosis. (default:
+                        True)
+
+required named arguments:
+  -i BAM, --input BAM   Input BAM file, aligned against the reference
+                        (default: None)
+  -c FASTA, --consensus FASTA
+                        Fasta file containing the ref_majority_dels consensus
+                        sequence (default: None)
+  -f FASTA, --reference FASTA
+                        Fasta file containing the reference sequence to
+                        compare against (default: None)
+  -g GFF, --genes GFF   GFF file listing genes positions on the reference
+                        sequence (default: None)
+
+columns signification:
+	[gene_region]: Gene in which the deletion is found according to -g argument;
+	[reads_all]: Total number of reads covering the indel;
+	[reads_fwd]: Total nubmer of forward reads covering the indel;
+	[reads_rev]: Total nubmer of reverse reads covering the indel;
+	[deletions/insertions]: Number of reads supporting the deletion/insertion;
+	[freq_del/freq_insert]: Fraction of reads supporting the deletion/insertion;
+	[matches_ref]: number of reads that matche with the reference base;
+	[pos_critical_inserts]: Start positions of insertions in the same gene_region that occur in > 40% of reads;
+	[pos_critical_dels]: Start positions of deletions in the same gene_region that occur in > 40% of reads;
+	[homopolymeric]: True if either around the start or end position of the deletion three bases are the same, which may have caused the polymerase to skip during reverse transcription of viral RNA to cDNA, e.g. AATAG;
+	[ref_base]: base in the reference genome
+	[indel_position_english]: english sentence describing the indel
+	[indel_diagnosis]: english sentence with the indel diagnosis
+usage: gather_coverage [-h] -o TSV [-s TSV] [-t NCPUS] TSV [TSV ...]
+
+Script to gather multiple per sample coverage information into a single
+unified file
+
+positional arguments:
+  TSV                   per sample coverage table input file(s)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o TSV, --output TSV  unified coverage table output file
+  -s TSV, --stats TSV   file to write per-position cohort-wide stats to
+  -t NCPUS, --threads NCPUS
+                        number of threads
+
+input and output TSVs support compression. @listfile can be used to pass a
+long list of TSV in a file instead of command line
+usage: mapper [-h] -f source -t dest [-1] [-v] MSA_file
+
+positional arguments:
+  MSA_file    file containing MSA
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -f source   Name and Coordinates of source contig, e.g. CONSENSUS:100-200
+  -t dest     Name of target contig
+  -1          Whether coordinates should be treated 1-based
+  -v          Print more information (such as subsequences in references)
+usage: minority_freq [-h] -r FASTA [-s INT] [-e INT] [-p file.config] [-c INT]
+                     [-N name1,name2,...] [-t INT] [-f] [-d] [-o PATH]
+                     BAM [BAM ...]
+
+Script to extract minority alleles per samples
+
+positional arguments:
+  BAM                   BAM file(s)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s INT, --start INT   Starting position of the region of interest, 0-based
+                        indexing (default: None)
+  -e INT, --end INT     Ending position of the region of interest, 0-based
+                        indexing. Note a half-open interval is used, i.e,
+                        [start:end) (default: None)
+  -p file.config, --config file.config
+                        Report minority aminoacids - a .config file specifying
+                        reading frames expected (default: None)
+  -c INT                Minimum read depth for reporting variants per locus
+                        and sample (default: 100)
+  -N name1,name2,...    Patient/sample identifiers as comma separated strings
+                        (default: None)
+  -t INT                Number of threads (default: 1)
+  -f, --freqs           Indicates whether or not all frequencies should be
+                        stored (default: False)
+  -d                    Indicates whether coverage per locus should be written
+                        to output file (default: False)
+  -o PATH               Output directory (default: /Users/runner/conda/conda-
+                        bld/smallgenomeutilities_1630681528370/test_tmp)
+
+required named arguments:
+  -r FASTA              Either a fasta file containing a reference sequence or
+                        the reference name of the region/chromosome of
+                        interest. The latter is expected if a region is
+                        specified (default: None)
+usage: pair_sequences [-h] -i tsv -s MSA_file -o pairs
+
+optional arguments:
+  -h, --help   show this help message and exit
+  -i tsv       tsv file of patient/sample/cluster/type mapping
+  -s MSA_file  MSA file containing the alignments between patient-sample
+               sequences
+  -o pairs     Output file for final pairs
+usage: predict_num_reads [-h] -n STR -d DATE [-w INT] [-q INT] [-c INT]
+                         [-l INT] [-o output.tsv]
+                         FASTQ [FASTQ ...]
+
+Script for predicting number of read pairs after trimming
+
+positional arguments:
+  FASTQ               FASTQ files for forward and reverse reads
+
+optional arguments:
+  -h, --help          show this help message and exit
+  -w INT              Length of the sliding window for emulating read trimming
+                      (default: 10)
+  -q INT, --qual INT  Quality threshold for emulating read trimming (default:
+                      30)
+  -c INT              Threshold on the read counts (default: 25000)
+  -l INT              Read length. If not specify estimated for every read
+                      independently (default: None)
+  -o output.tsv       Output file name (default: output.tsv)
+
+required named arguments:
+  -n STR              Patient/sample identifier (default: None)
+  -d DATE             Sample date (default: None)
+usage: remove_gaps_msa [-h] -o dest [-p MIN_COV] [-a] [-q] MSA_file
+
+positional arguments:
+  MSA_file    file containing MSA
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -o dest     Name of output file to write sequences to
+  -p MIN_COV  Minimum case coverage to keep locus
+  -a          Use all bases, not just uppercase ones
+  -q          Do not print which loci were discarded
+usage: compute_mds [-h] -q filename [-s INT] [-e INT] [-r FASTA] [-t FLOAT]
+                   [-d FLOAT] [-p FILENAME] [-o FILENAME]
+
+Script for accuracy assesment
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s INT, --start INT   Starting position of the region of interest, 0-based
+                        indexing (default: 2252)
+  -e INT, --end INT     Ending position of the region of interest, 0-based
+                        indexing. Note a half-open interval is used, i.e,
+                        [start:end) (default: 2549)
+  -r FASTA              FASTA file containing msa for true haplotypes
+                        (default: None)
+  -t FLOAT, --thrd FLOAT
+                        Threshold on the haplotype frequency (default: 0.02)
+  -d FLOAT, --sim FLOAT
+                        Threshold on the similarity between true haplotypes
+                        and reconstructed haplotypes (default: 0.9)
+  -p FILENAME, --plot_outname FILENAME
+                        File name for the output plot (default: mds_plot.pdf)
+  -o FILENAME, --outname FILENAME
+                        File name for the output file containing mapping from
+                        reconstructed haplotypes to true haplotypes (default:
+                        mapping.tsv)
+
+required named arguments:
+  -q filename           File name prefix for reconstructed haplotypes
+                        (default: None)
+
+Resource usage statistics from testing smallgenomeutilities:
+   Process count: 4
+   CPU time: Sys=0:00:00.8, User=0:00:02.2
+   Memory: 75.8M
+   Disk usage: 20B
+   Time elapsed: 0:00:33.3
+
+
+TEST END: smallgenomeutilities-0.3.4-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
