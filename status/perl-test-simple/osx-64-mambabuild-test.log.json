@@ -1,0 +1,314 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-test-simple-1.302164-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpojpsv7ui/info/recipe/conda_build_config.yaml
+  Package                     Version  Build            Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                       5.26.2  hbcb3906_1008    conda-forge/osx-64                       Cached
+  + perl-app-cpanminus         1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-carp                    1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-constant                1.33  pl526_1          bioconda/osx-64                           10 KB
+  + perl-exporter                5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker      7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-file-path               2.16  pl526_0          bioconda/osx-64                           17 KB
+  + perl-file-temp             0.2304  pl526_2          bioconda/osx-64                           26 KB
+  + perl-parent                 0.236  pl526_1          bioconda/osx-64                            6 KB
+  + perl-storable                3.15  pl526h1de35cc_0  bioconda/osx-64                           56 KB
+  + perl-test-simple         1.302164  pl526_0          /Users/runner/conda/conda-bld/osx-64     132 KB
+  + perl-xsloader                0.24  pl526_0          bioconda/osx-64                            8 KB
+
+  Summary:
+
+  Install: 12 packages
+
+  Total download: 671 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-test-simple_1630666298100/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-app-cpanminus:      1.7044-pl526_1       bioconda   
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-constant:           1.33-pl526_1         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-file-path:          2.16-pl526_0         bioconda   
+    perl-file-temp:          0.2304-pl526_2       bioconda   
+    perl-parent:             0.236-pl526_1        bioconda   
+    perl-storable:           3.15-pl526h1de35cc_0 bioconda   
+    perl-test-simple:        1.302164-pl526_0     local      
+    perl-xsloader:           0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-test-simple_1630666298100/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-test-simple_1630666298100/test_tmp
+import: Test2
+	using version 1.302164
+import: Test2::API
+	using version 1.302164
+import: Test2::API::Breakage
+	using version 1.302164
+import: Test2::API::Context
+	using version 1.302164
+import: Test2::API::Instance
+	using version 1.302164
+import: Test2::API::Stack
+	using version 1.302164
+import: Test2::Event
+	using version 1.302164
+import: Test2::Event::Bail
+	using version 1.302164
+import: Test2::Event::Diag
+	using version 1.302164
+import: Test2::Event::Encoding
+	using version 1.302164
+import: Test2::Event::Exception
+	using version 1.302164
+import: Test2::Event::Fail
+	using version 1.302164
+import: Test2::Event::Generic
+	using version 1.302164
+import: Test2::Event::Note
+	using version 1.302164
+import: Test2::Event::Ok
+	using version 1.302164
+import: Test2::Event::Pass
+	using version 1.302164
+import: Test2::Event::Plan
+	using version 1.302164
+import: Test2::Event::Skip
+	using version 1.302164
+import: Test2::Event::Subtest
+	using version 1.302164
+import: Test2::Event::V2
+	using version 1.302164
+import: Test2::Event::Waiting
+	using version 1.302164
+import: Test2::EventFacet
+	using version 1.302164
+import: Test2::EventFacet::About
+	using version 1.302164
+import: Test2::EventFacet::Amnesty
+	using version 1.302164
+import: Test2::EventFacet::Assert
+	using version 1.302164
+import: Test2::EventFacet::Control
+	using version 1.302164
+import: Test2::EventFacet::Error
+	using version 1.302164
+import: Test2::EventFacet::Hub
+	using version 1.302164
+import: Test2::EventFacet::Info
+	using version 1.302164
+import: Test2::EventFacet::Meta
+	using version 1.302164
+import: Test2::EventFacet::Parent
+	using version 1.302164
+import: Test2::EventFacet::Plan
+	using version 1.302164
+import: Test2::EventFacet::Render
+	using version 1.302164
+import: Test2::EventFacet::Trace
+	using version 1.302164
+import: Test2::Formatter
+	using version 1.302164
+import: Test2::Formatter::TAP
+	using version 1.302164
+import: Test2::Hub
+	using version 1.302164
+import: Test2::Hub::Interceptor
+	using version 1.302164
+import: Test2::Hub::Interceptor::Terminator
+	using version 1.302164
+import: Test2::Hub::Subtest
+	using version 1.302164
+import: Test2::IPC
+	using version 1.302164
+import: Test2::IPC::Driver
+	using version 1.302164
+import: Test2::IPC::Driver::Files
+	using version 1.302164
+import: Test2::Tools::Tiny
+	using version 1.302164
+import: Test2::Util
+	using version 1.302164
+import: Test2::Util::ExternalMeta
+	using version 1.302164
+import: Test2::Util::Facets2Legacy
+	using version 1.302164
+import: Test2::Util::HashBase
+	using version 1.302164
+import: Test2::Util::Trace
+	using version 1.302164
+import: Test::Builder
+	using version 1.302164
+import: Test::Builder::Formatter
+	using version 1.302164
+import: Test::Builder::Module
+	using version 1.302164
+import: Test::Builder::Tester::Color
+	using version 1.302164
+import: Test::Builder::TodoDiag
+	using version 1.302164
+import: Test::More
+	using version 1.302164
+import: Test::Simple
+	using version 1.302164
+import: Test::Tester
+	using version 1.302164
+import: Test::Tester::Capture
+	using version 1.302164
+import: Test::Tester::CaptureRunner
+	using version 1.302164
+import: Test::Tester::Delegate
+	using version 1.302164
+import: Test::use::ok
+	using version 1.302164
+import: Test2
+	using version 1.302164
+import: Test2::API
+	using version 1.302164
+import: Test2::API::Breakage
+	using version 1.302164
+import: Test2::API::Context
+	using version 1.302164
+import: Test2::API::Instance
+	using version 1.302164
+import: Test2::API::Stack
+	using version 1.302164
+import: Test2::Event
+	using version 1.302164
+import: Test2::Event::Bail
+	using version 1.302164
+import: Test2::Event::Diag
+	using version 1.302164
+import: Test2::Event::Encoding
+	using version 1.302164
+import: Test2::Event::Exception
+	using version 1.302164
+import: Test2::Event::Fail
+	using version 1.302164
+import: Test2::Event::Generic
+	using version 1.302164
+import: Test2::Event::Note
+	using version 1.302164
+import: Test2::Event::Ok
+	using version 1.302164
+import: Test2::Event::Pass
+	using version 1.302164
+import: Test2::Event::Plan
+	using version 1.302164
+import: Test2::Event::Skip
+	using version 1.302164
+import: Test2::Event::Subtest
+	using version 1.302164
+import: Test2::Event::V2
+	using version 1.302164
+import: Test2::Event::Waiting
+	using version 1.302164
+import: Test2::EventFacet
+	using version 1.302164
+import: Test2::EventFacet::About
+	using version 1.302164
+import: Test2::EventFacet::Amnesty
+	using version 1.302164
+import: Test2::EventFacet::Assert
+	using version 1.302164
+import: Test2::EventFacet::Control
+	using version 1.302164
+import: Test2::EventFacet::Error
+	using version 1.302164
+import: Test2::EventFacet::Hub
+	using version 1.302164
+import: Test2::EventFacet::Info
+	using version 1.302164
+import: Test2::EventFacet::Meta
+	using version 1.302164
+import: Test2::EventFacet::Parent
+	using version 1.302164
+import: Test2::EventFacet::Plan
+	using version 1.302164
+import: Test2::EventFacet::Render
+	using version 1.302164
+import: Test2::EventFacet::Trace
+	using version 1.302164
+import: Test2::Formatter
+	using version 1.302164
+import: Test2::Formatter::TAP
+	using version 1.302164
+import: Test2::Hub
+	using version 1.302164
+import: Test2::Hub::Interceptor
+	using version 1.302164
+import: Test2::Hub::Interceptor::Terminator
+	using version 1.302164
+import: Test2::Hub::Subtest
+	using version 1.302164
+import: Test2::IPC
+	using version 1.302164
+import: Test2::IPC::Driver
+	using version 1.302164
+import: Test2::IPC::Driver::Files
+	using version 1.302164
+import: Test2::Tools::Tiny
+	using version 1.302164
+import: Test2::Util
+	using version 1.302164
+import: Test2::Util::ExternalMeta
+	using version 1.302164
+import: Test2::Util::Facets2Legacy
+	using version 1.302164
+import: Test2::Util::HashBase
+	using version 1.302164
+import: Test2::Util::Trace
+	using version 1.302164
+import: Test::Builder
+	using version 1.302164
+import: Test::Builder::Formatter
+	using version 1.302164
+import: Test::Builder::Module
+	using version 1.302164
+import: Test::Builder::Tester::Color
+	using version 1.302164
+import: Test::Builder::TodoDiag
+	using version 1.302164
+import: Test::More
+	using version 1.302164
+import: Test::Simple
+	using version 1.302164
+import: Test::Tester
+	using version 1.302164
+import: Test::Tester::Capture
+	using version 1.302164
+import: Test::Tester::CaptureRunner
+	using version 1.302164
+import: Test::Tester::Delegate
+	using version 1.302164
+import: Test::use::ok
+	using version 1.302164
+# IPC is waiting for children to finish...
+
+Resource usage statistics from testing perl-test-simple:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 56B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: perl-test-simple-1.302164-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
