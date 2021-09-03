@@ -1,0 +1,151 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + attrs               21.2.0  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + boltons             21.0.0  pyhd8ed1ab_0        /Users/runner/conda/conda-bld/osx-64     211 KB
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + iniconfig            1.1.1  pyh9f0ad1d_0        conda-forge/noarch                         8 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + more-itertools       8.8.0  pyhd8ed1ab_0        conda-forge/noarch                        39 KB
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1k  h0d85af4_1          conda-forge/osx-64                       Cached
+  + packaging             21.0  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pluggy              0.13.1  py39h6e9494a_4      conda-forge/osx-64                        29 KB
+  + py                  1.10.0  pyhd3deb0d_0        conda-forge/noarch                        73 KB
+  + pyparsing            2.4.7  pyh9f0ad1d_0        conda-forge/noarch                       Cached
+  + pytest               6.2.5  py39h6e9494a_0      conda-forge/osx-64                       432 KB
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + toml                0.10.2  pyhd8ed1ab_0        conda-forge/noarch                        18 KB
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 811 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: boltons-21.0.0-pyhd8ed1ab_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/boltons_1630642079709/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    attrs:           21.2.0-pyhd8ed1ab_0      conda-forge
+    boltons:         21.0.0-pyhd8ed1ab_0      local      
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    iniconfig:       1.1.1-pyh9f0ad1d_0       conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    more-itertools:  8.8.0-pyhd8ed1ab_0       conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1k-h0d85af4_1        conda-forge
+    packaging:       21.0-pyhd8ed1ab_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    pluggy:          0.13.1-py39h6e9494a_4    conda-forge
+    py:              1.10.0-pyhd3deb0d_0      conda-forge
+    pyparsing:       2.4.7-pyh9f0ad1d_0       conda-forge
+    pytest:          6.2.5-py39h6e9494a_0     conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    toml:            0.10.2-pyhd8ed1ab_0      conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/boltons_1630642079709/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/boltons_1630642079709/test_tmp
+============================= test session starts ==============================
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-0.13.1
+rootdir: $SRC_DIR, configfile: pytest.ini
+collected 540 items
+
+boltons/cacheutils.py ......                                             [  1%]
+boltons/dictutils.py ........                                            [  2%]
+boltons/fileutils.py .....                                               [  3%]
+boltons/formatutils.py ..                                                [  3%]
+boltons/funcutils.py .........                                           [  5%]
+boltons/gcutils.py ..                                                    [  5%]
+boltons/ioutils.py ...                                                   [  6%]
+boltons/iterutils.py ...................................                 [ 12%]
+boltons/listutils.py .                                                   [ 13%]
+boltons/mathutils.py ...                                                 [ 13%]
+boltons/namedutils.py ..                                                 [ 14%]
+boltons/pathutils.py ...                                                 [ 14%]
+boltons/queueutils.py .                                                  [ 14%]
+boltons/setutils.py ..                                                   [ 15%]
+boltons/statsutils.py ..................                                 [ 18%]
+boltons/strutils.py ............................                         [ 23%]
+boltons/timeutils.py ........                                            [ 25%]
+boltons/typeutils.py ...                                                 [ 25%]
+boltons/urlutils.py ...........                                          [ 27%]
+tests/test_cacheutils.py ................                                [ 30%]
+tests/test_debugutils_trace.py ......                                    [ 31%]
+tests/test_dictutils.py .........................                        [ 36%]
+tests/test_ecoutils.py ..                                                [ 36%]
+tests/test_fileutils.py .                                                [ 37%]
+tests/test_formatutils.py .....                                          [ 37%]
+tests/test_funcutils.py .....                                            [ 38%]
+tests/test_funcutils_fb.py ...............                               [ 41%]
+tests/test_funcutils_fb_py3.py ...................                       [ 45%]
+tests/test_gcutils.py ..                                                 [ 45%]
+tests/test_ioutils.py .................................................. [ 54%]
+........................                                                 [ 59%]
+tests/test_iterutils.py .....................................            [ 66%]
+tests/test_jsonutils.py ..                                               [ 66%]
+tests/test_listutils.py ..                                               [ 66%]
+tests/test_mathutils.py ...........                                      [ 68%]
+tests/test_namedutils.py ...                                             [ 69%]
+tests/test_queueutils.py ..                                              [ 69%]
+tests/test_setutils.py .....                                             [ 70%]
+tests/test_socketutils.py ...........                                    [ 72%]
+tests/test_statsutils.py .                                               [ 72%]
+tests/test_statsutils_histogram.py ..                                    [ 73%]
+tests/test_strutils.py ..............                                    [ 75%]
+tests/test_tableutils.py ...                                             [ 76%]
+tests/test_tbutils.py ..                                                 [ 76%]
+tests/test_tbutils_parsed_exc.py ..                                      [ 77%]
+tests/test_timeutils.py ...                                              [ 77%]
+tests/test_typeutils.py ..                                               [ 78%]
+tests/test_urlutils.py ................................................. [ 87%]
+.....................................................................    [100%]
+
+============================= 540 passed in 6.08s ==============================
+
+Resource usage statistics from testing boltons:
+   Process count: 4
+   CPU time: Sys=0:00:00.6, User=0:00:02.9
+   Memory: 58.4M
+   Disk usage: 1.9K
+   Time elapsed: 0:00:10.5
+
+
+TEST END: boltons-21.0.0-pyhd8ed1ab_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
