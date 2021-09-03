@@ -1,0 +1,87 @@
+  Package  Version  Build       Channel                                  Size
+───────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────
+
+  + omssa    2.1.9  h9ee0642_1  /home/vsts/conda/conda-bld/linux-64     12 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 12 MB
+
+───────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: omssa-2.1.9-h9ee0642_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/omssa_1630695067493/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    omssa: 2.1.9-h9ee0642_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/omssa_1630695067493/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/omssa_1630695067493/test_tmp
+USAGE
+  omssacl [-h] [-help] [-xmlhelp] [-pm param] [-d blastdb] [-umm] [-f infile]
+    [-fx xmlinfile] [-fb dtainfile] [-fp pklinfile] [-fm pklinfile]
+    [-foms omsinfile] [-fomx omxinfile] [-fbz2 bz2infile] [-fxml omxinfile]
+    [-o textasnoutfile] [-ob binaryasnoutfile] [-ox xmloutfile]
+    [-obz2 bz2outfile] [-op pepxmloutfile] [-oc csvfile] [-w] [-to pretol]
+    [-te protol] [-tom promass] [-tem premass] [-tez prozdep] [-ti isotopes]
+    [-teppm] [-ta autotol] [-tex exact] [-i ions] [-cl cutlo] [-ch cuthi]
+    [-ci cutinc] [-cp precursorcull] [-v cleave] [-x taxid] [-w1 window1]
+    [-w2 window2] [-h1 hit1] [-h2 hit2] [-hl hitlist] [-hc hitcount]
+    [-ht tophitnum] [-hm minhit] [-hs minspectra] [-he evalcut] [-mf fixedmod]
+    [-mv variablemod] [-mnm] [-mm maxmod] [-e enzyme] [-zh maxcharge]
+    [-zl mincharge] [-zoh maxprodcharge] [-zt chargethresh] [-z1 plusone]
+    [-zc calcplusone] [-zcc calccharge] [-zn negions] [-pc pseudocount]
+    [-sb1 searchb1] [-sct searchcterm] [-sp productnum] [-scorr corrscore]
+    [-scorp corrprob] [-no minno] [-nox maxno] [-is subsetthresh]
+    [-ir replacethresh] [-ii iterativethresh] [-p prolineruleions] [-il] [-el]
+    [-ml] [-mx modinputfile] [-mux usermodinputfile] [-nt numthreads] [-ni]
+    [-ns] [-os] [-nrs] [-logfile File_Name] [-conffile File_Name] [-version]
+    [-version-full] [-dryrun]
+
+DESCRIPTION
+   Search engine for identifying MS/MS peptide spectra
+
+Use '-help' to print detailed descriptions of command line arguments
+USAGE
+  NCBI_PROGRAM [-h] [-help] [-xmlhelp] [-i infiles] [-sw] [-it] [-ib] [-ix]
+    [-ibz2] [-ot] [-ob] [-ox] [-obz2] [-logfile File_Name]
+    [-conffile File_Name] [-version] [-version-full] [-dryrun] <o> [....]
+
+DESCRIPTION    -- none
+
+Use '-help' to print detailed descriptions of command line arguments
+USAGE
+  omssa2pepXML [-h] [-help] [-xmlhelp] [-xml] [-bz2] [-asn] [-asntext]
+    [-o outfile] [-logfile File_Name] [-conffile File_Name] [-version]
+    [-version-full] [-dryrun] <filename>
+
+DESCRIPTION
+   Convert OMSSA ASN.1 and XML output files to PepXML
+
+Use '-help' to print detailed descriptions of command line arguments
+
+Resource usage statistics from testing omssa:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: omssa-2.1.9-h9ee0642_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
