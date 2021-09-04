@@ -1,0 +1,55 @@
+  Package            Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx            12.0.1  habf9029_0       conda-forge/osx-64                       Cached
+  + perl              5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-data-uuid     1.224  pl526h04f5b5a_0  /Users/runner/conda/conda-bld/osx-64      18 KB
+  + perl-digest-md5     2.55  pl526_0          bioconda/osx-64                           17 KB
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 14 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-data-uuid-1.224-pl526h04f5b5a_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-data-uuid_1630722252991/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:          12.0.1-habf9029_0     conda-forge
+    perl:            5.26.2-hbcb3906_1008  conda-forge
+    perl-data-uuid:  1.224-pl526h04f5b5a_0 local      
+    perl-digest-md5: 2.55-pl526_0          bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-data-uuid_1630722252991/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-data-uuid_1630722252991/test_tmp
+import: Data::UUID
+	using version 1.224
+import: Data::UUID
+	using version 1.224
+
+Resource usage statistics from testing perl-data-uuid:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-data-uuid-1.224-pl526h04f5b5a_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
