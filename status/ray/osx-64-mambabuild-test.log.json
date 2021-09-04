@@ -1,0 +1,60 @@
+  Package         Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx         12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran     5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                        19 KB
+  + libgfortran5    9.3.0  h6c81a4c_23        conda-forge/osx-64                         2 MB
+  + llvm-openmp    12.0.1  hda6cdc1_1         conda-forge/osx-64                       287 KB
+  + mpi               1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openmpi         4.1.1  hd3cd54c_0         conda-forge/osx-64                         3 MB
+  + ray             2.3.1  h95d8a6f_3         /Users/runner/conda/conda-bld/osx-64     833 KB
+  + zlib           1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 6 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: ray-2.3.1-h95d8a6f_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/ray_1630752571408/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:       12.0.1-habf9029_0       conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1       conda-forge
+    mpi:          1.0-openmpi             conda-forge
+    openmpi:      4.1.1-hd3cd54c_0        conda-forge
+    ray:          2.3.1-h95d8a6f_3        local      
+    zlib:         1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/ray_1630752571408/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/ray_1630752571408/test_tmp
+$PREFIX/bin/Ray
+
+Resource usage statistics from testing ray:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: ray-2.3.1-h95d8a6f_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
