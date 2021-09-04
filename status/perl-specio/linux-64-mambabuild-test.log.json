@@ -1,0 +1,247 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-specio-0.43-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpa_lkcrh3/info/recipe/conda_build_config.yaml
+  Package                     Version  Build            Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                 0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex                 4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                  11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                    11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libstdcxx-ng               11.1.0  h56837e0_8       conda-forge/linux-64                    Cached
+  + perl                       5.26.2  h36c2ea0_1008    conda-forge/linux-64                     15 MB
+  + perl-carp                    1.38  pl526_3          bioconda/linux-64                        15 KB
+  + perl-constant                1.33  pl526_1          bioconda/linux-64                        10 KB
+  + perl-devel-stacktrace        2.04  pl526_0          bioconda/noarch                          16 KB
+  + perl-eval-closure            0.14  pl526h6bb024c_4  bioconda/linux-64                        11 KB
+  + perl-exporter                5.72  pl526_1          bioconda/linux-64                        13 KB
+  + perl-extutils-makemaker      7.36  pl526_1          bioconda/linux-64                       153 KB
+  + perl-module-runtime         0.016  pl526_1          bioconda/linux-64                        15 KB
+  + perl-mro-compat              0.13  pl526_0          bioconda/linux-64                        10 KB
+  + perl-parent                 0.236  pl526_1          bioconda/linux-64                         5 KB
+  + perl-role-tiny           2.000008  pl526_0          bioconda/noarch                          15 KB
+  + perl-specio                  0.43  pl526_0          /home/vsts/conda/conda-bld/linux-64      59 KB
+  + perl-storable                3.15  pl526h14c3975_0  bioconda/linux-64                        63 KB
+  + perl-sub-quote           2.006003  pl526_1          bioconda/linux-64                        18 KB
+  + perl-test-fatal             0.014  pl526_3          bioconda/linux-64                         9 KB
+  + perl-try-tiny                0.30  pl526_1          bioconda/linux-64                        17 KB
+  + perl-version               0.9924  pl526_0          bioconda/linux-64                        34 KB
+  + perl-xsloader                0.24  pl526_0          bioconda/linux-64                         8 KB
+
+  Summary:
+
+  Install: 23 packages
+
+  Total download: 16 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-specio_1630764186894/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge      conda-forge
+    _openmp_mutex:           4.5-1_gnu            conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8    conda-forge
+    libgomp:                 11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:            11.1.0-h56837e0_8    conda-forge
+    perl:                    5.26.2-h36c2ea0_1008 conda-forge
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-constant:           1.33-pl526_1         bioconda   
+    perl-devel-stacktrace:   2.04-pl526_0         bioconda   
+    perl-eval-closure:       0.14-pl526h6bb024c_4 bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-module-runtime:     0.016-pl526_1        bioconda   
+    perl-mro-compat:         0.13-pl526_0         bioconda   
+    perl-parent:             0.236-pl526_1        bioconda   
+    perl-role-tiny:          2.000008-pl526_0     bioconda   
+    perl-specio:             0.43-pl526_0         local      
+    perl-storable:           3.15-pl526h14c3975_0 bioconda   
+    perl-sub-quote:          2.006003-pl526_1     bioconda   
+    perl-test-fatal:         0.014-pl526_3        bioconda   
+    perl-try-tiny:           0.30-pl526_1         bioconda   
+    perl-version:            0.9924-pl526_0       bioconda   
+    perl-xsloader:           0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-specio_1630764186894/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-specio_1630764186894/test_tmp
+import: Specio
+	using version 0.43
+import: Specio::Coercion
+	using version 0.43
+import: Specio::Constraint::AnyCan
+	using version 0.43
+import: Specio::Constraint::AnyDoes
+	using version 0.43
+import: Specio::Constraint::AnyIsa
+	using version 0.43
+import: Specio::Constraint::Enum
+	using version 0.43
+import: Specio::Constraint::Intersection
+	using version 0.43
+import: Specio::Constraint::ObjectCan
+	using version 0.43
+import: Specio::Constraint::ObjectDoes
+	using version 0.43
+import: Specio::Constraint::ObjectIsa
+	using version 0.43
+import: Specio::Constraint::Parameterizable
+	using version 0.43
+import: Specio::Constraint::Parameterized
+	using version 0.43
+import: Specio::Constraint::Role::CanType
+	using version 0.43
+import: Specio::Constraint::Role::DoesType
+	using version 0.43
+import: Specio::Constraint::Role::Interface
+	using version 0.43
+import: Specio::Constraint::Role::IsaType
+	using version 0.43
+import: Specio::Constraint::Simple
+	using version 0.43
+import: Specio::Constraint::Structurable
+	using version 0.43
+import: Specio::Constraint::Structured
+	using version 0.43
+import: Specio::Constraint::Union
+	using version 0.43
+import: Specio::Declare
+	using version 0.43
+import: Specio::DeclaredAt
+	using version 0.43
+import: Specio::Exception
+	using version 0.43
+import: Specio::Exporter
+	using version 0.43
+import: Specio::Helpers
+	using version 0.43
+import: Specio::Library::Builtins
+	using version 0.43
+import: Specio::Library::Numeric
+	using version 0.43
+import: Specio::Library::Perl
+	using version 0.43
+import: Specio::Library::String
+	using version 0.43
+import: Specio::Library::Structured
+	using version 0.43
+import: Specio::Library::Structured::Dict
+	using version 0.43
+import: Specio::Library::Structured::Map
+	using version 0.43
+import: Specio::Library::Structured::Tuple
+	using version 0.43
+import: Specio::OO
+	using version 0.43
+import: Specio::PartialDump
+	using version 0.43
+import: Specio::Registry
+	using version 0.43
+import: Specio::Role::Inlinable
+	using version 0.43
+import: Specio::Subs
+	using version 0.43
+import: Specio::TypeChecks
+	using version 0.43
+import: Specio
+	using version 0.43
+import: Specio::Coercion
+	using version 0.43
+import: Specio::Constraint::AnyCan
+	using version 0.43
+import: Specio::Constraint::AnyDoes
+	using version 0.43
+import: Specio::Constraint::AnyIsa
+	using version 0.43
+import: Specio::Constraint::Enum
+	using version 0.43
+import: Specio::Constraint::Intersection
+	using version 0.43
+import: Specio::Constraint::ObjectCan
+	using version 0.43
+import: Specio::Constraint::ObjectDoes
+	using version 0.43
+import: Specio::Constraint::ObjectIsa
+	using version 0.43
+import: Specio::Constraint::Parameterizable
+	using version 0.43
+import: Specio::Constraint::Parameterized
+	using version 0.43
+import: Specio::Constraint::Role::CanType
+	using version 0.43
+import: Specio::Constraint::Role::DoesType
+	using version 0.43
+import: Specio::Constraint::Role::Interface
+	using version 0.43
+import: Specio::Constraint::Role::IsaType
+	using version 0.43
+import: Specio::Constraint::Simple
+	using version 0.43
+import: Specio::Constraint::Structurable
+	using version 0.43
+import: Specio::Constraint::Structured
+	using version 0.43
+import: Specio::Constraint::Union
+	using version 0.43
+import: Specio::Declare
+	using version 0.43
+import: Specio::DeclaredAt
+	using version 0.43
+import: Specio::Exception
+	using version 0.43
+import: Specio::Exporter
+	using version 0.43
+import: Specio::Helpers
+	using version 0.43
+import: Specio::Library::Builtins
+	using version 0.43
+import: Specio::Library::Numeric
+	using version 0.43
+import: Specio::Library::Perl
+	using version 0.43
+import: Specio::Library::String
+	using version 0.43
+import: Specio::Library::Structured
+	using version 0.43
+import: Specio::Library::Structured::Dict
+	using version 0.43
+import: Specio::Library::Structured::Map
+	using version 0.43
+import: Specio::Library::Structured::Tuple
+	using version 0.43
+import: Specio::OO
+	using version 0.43
+import: Specio::PartialDump
+	using version 0.43
+import: Specio::Registry
+	using version 0.43
+import: Specio::Role::Inlinable
+	using version 0.43
+import: Specio::Subs
+	using version 0.43
+import: Specio::TypeChecks
+	using version 0.43
+
+Resource usage statistics from testing perl-specio:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 44B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-specio-0.43-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
