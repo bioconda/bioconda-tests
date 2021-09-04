@@ -1,0 +1,196 @@
+  Package   Version  Build       Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────
+
+  + gotree    0.4.1  h193322a_1  /Users/runner/conda/conda-bld/osx-64     13 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 13 MB
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: gotree-0.4.1-h193322a_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/gotree_1630719241749/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    gotree: 0.4.1-h193322a_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/gotree_1630719241749/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/gotree_1630719241749/test_tmp
+gotree is a set of tools to handle phylogenetic trees in go.
+
+Different usages are implemented: 
+- Generating random trees
+- Transforming trees (renaming tips, pruning/removing tips)
+- Comparing trees (computing bootstrap supports, counting common edges)
+
+Usage:
+  gotree [flags]
+  gotree [command]
+
+Available Commands:
+  acr         Reconstructs most parsimonious ancestral characters
+  annotate    Annotates internal branches of a tree with given data
+  asr         Reconstructs most parsimonious ancestral sequences
+  brlen       Modify branch lengths
+  collapse    Collapse branches of input trees
+  comment     Modify branch/node comments
+  compare     Compare full trees, edges, or tips
+  completion  Generates auto-completion commands for bash or zsh
+  compute     Computations such as consensus and supports
+  divide      Divide an input tree file into several tree files
+  download    Download trees or images from servers
+  draw        Draw trees
+  generate    Generate random trees
+  help        Help about any command
+  labels      Lists labels of all tree tips
+  matrix      Prints distance matrix associated to the input tree
+  merge       Merges two rooted trees
+  nni         Generates all NNI neighbors from a given tree
+  prune       Remove tips of the input tree that are not in the compared tree
+  reformat    Reformats an input tree file into different formats
+  rename      Rename nodes/tips of the input tree
+  repopulate  Re populate the tree with identical tips
+  reroot      Reroot trees using an outgroup or at midpoint
+  resolve     Resolve multifurcations by adding 0 length branches
+  rotate      Rotates children of internal nodes
+  sample      Takes a subsample of the set of trees from the input file
+  shuffletips Shuffle tip names of an input tree
+  stats       Print statistics about the tree
+  subtree     Select a subtree from the input tree whose root has the given name
+  support     Modify supports of branches
+  unroot      Unroot input tree
+  upload      Upload a tree to a given server
+  version     Displays version of gotree
+
+Flags:
+      --format string   Input tree format (newick, nexus, or phyloxml) (default "newick")
+  -h, --help            help for gotree
+      --seed int        Random Seed: -1 = nano seconds since 1970/01/01 00:00:00 (default -1)
+  -t, --threads int     Number of threads (Max=3) (default 1)
+
+Use "gotree [command] --help" for more information about a command.
+->gotree stats with []
+->gotree annotate
+->gotree annotate 2
+->gotree annotate comment
+->gotree annotate comment 2
+->gotree annotate with tree
+Files result and expected1 differ
+->gotree annotate with tree comments
+Files result and expected1 differ
+->gotree brlen clear
+->gotree brlen scale
+->gotree support scale
+->gotree support clear
+->gotree comment clear
+->gotree comment clear (nodes+edges)
+->gotree comment clear (nodes)
+->gotree comment clear (edges)
+->gotree collapse length
+->gotree collapse support root + tips
+->gotree collapse length root + tips
+->gotree collapse depth root + tips
+->gotree collapse support
+->gotree collapse depth
+->gotree collapse single
+->gotree compare trees
+->gotree compare edges
+->gotree compare edges /2 (same tree)
+->gotree compare tips
+->gotree compare tips file
+->gotree compute bipartitiontree
+->gotree compute consensus
+->gotree compute classical bootstrap
+->gotree compute booster supports
+->gotree compute edgetrees
+->gotree compute edgetrees
+->gotree divide
+->gotree generate yuletree
+->gotree generate balancedtree
+->gotree generate caterpillartree
+->gotree generate uniformtree
+->gotree matrix
+->gotree brlen setmin 1
+->gotree brlen setmin 10
+->gotree prune
+->gotree prune tipfile
+->gotree brlen setrand
+->gotree support setrand
+->gotree rename
+->gotree rename auto
+->gotree rename auto several trees
+->gotree rename regexp
+->gotree reroot outgroup
+->gotree reroot midpoint
+->gotree resolve
+->gotree shuffletips
+->gotree stats
+->gotree stats edges
+->gotree stats nodes
+->gotree stats rooted
+->gotree stats splits
+->gotree stats tips
+->gotree labels
+->gotree internal labels
+->gotree unroot
+->gotree draw text
+->gotree reformat nexus
+->gotree reformat newick 0
+->gotree reformat newick 1
+->gotree reformat newick 2
+->gotree reformat nexus->newick with translate
+->gotree reformat newick 3
+->gotree acr acctran
+steps 4
+->gotree acr downpass
+steps 4
+->gotree acr deltran
+steps 4
+->gotree asr acctran
+steps 4 4
+->gotree asr downpass
+steps 4 4 4 0
+->gotree rotate sort
+->gotree rotate sort 2
+->gotree support round 3
+->gotree support round 8
+->gotree brlen round 3
+->gotree brlen round 8
+->gotree brlen cut
+->gotree brlen cut / 2
+->gotree repopulate / 1
+->gotree repopulate / 2
+->gotree generate startree
+->gotree stats monophyletic
+->gotree stats monophyletic /2
+->gotree stats monophyletic rooted /1
+->gotree stats monophyletic rooted /2
+->gotree stats monophyletic rooted /3
+0.4.1
+
+Resource usage statistics from testing gotree:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 12.9M
+   Disk usage: 32B
+   Time elapsed: 0:00:06.3
+
+
+TEST END: gotree-0.4.1-h193322a_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
