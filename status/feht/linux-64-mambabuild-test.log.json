@@ -1,0 +1,76 @@
+  Package  Version  Build       Channel                                 Size
+──────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────
+
+  + feht     1.1.0  h9ee0642_2  /home/vsts/conda/conda-bld/linux-64     3 MB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 3 MB
+
+──────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: feht-1.1.0-h9ee0642_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/feht_1630769776898/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    feht: 1.1.0-h9ee0642_2 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/feht_1630769776898/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/feht_1630769776898/test_tmp
+feht - predictive marker discovery
+
+Usage: feht (-i|--infoFile FILE) (-d|--datafile FILE)
+            [--one "Group1Name Group1Item Group1Item Group1Item"]
+            [--two "Group2Name Group2Item Group2Item Group2Item"]
+            [-l|--delimiter [',', '\t' ...], DEFAULT='\t']
+            [-m|--mode ['binary', 'snp'], DEFAULT='binary']
+            [-c|--correction ['none', 'bonferroni'], DEFAULT='bonferroni']
+            [-f|--ratioFilter [Filter results by ratio (0.00-1.00), DEFAULT=0]]
+  Predictive marker discovery for groups; binary data, genomic data (single
+  nucleotide variants), and arbitrary character data.
+
+Available options:
+  -i,--infoFile FILE       File of metadata information
+  -d,--datafile FILE       File of binary or single-nucleotide variant data
+  --one "Group1Name Group1Item Group1Item Group1Item"
+                           Group1 column name, followed by optional Group1
+                           labels to include as part of the group
+  --two "Group2Name Group2Item Group2Item Group2Item"
+                           Group2 column name, followed by optional Group2
+                           labels to include as part of the group
+  -l,--delimiter [',', '\t' ...], DEFAULT='\t'
+                           Delimiter used for both the metadata and data file
+  -m,--mode ['binary', 'snp'], DEFAULT='binary'
+                           Mode for program data; either 'binary' or 'snp'
+  -c,--correction ['none', 'bonferroni'], DEFAULT='bonferroni'
+                           Multiple-testing correction to apply
+  -f,--ratioFilter [Filter results by ratio (0.00-1.00), DEFAULT=0]
+                           Display only those results greater than or equal to
+                           the value
+  -h,--help                Show this help text
+
+Resource usage statistics from testing feht:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: feht-1.1.0-h9ee0642_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
