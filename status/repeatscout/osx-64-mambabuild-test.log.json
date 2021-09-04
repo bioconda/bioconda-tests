@@ -1,0 +1,79 @@
+  Package                    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + nseg                       1.0.1  hb4d813b_1     bioconda/osx-64                          102 KB
+  + perl                      5.26.2  hbcb3906_1008  conda-forge/osx-64                        14 MB
+  + perl-app-cpanminus        1.7044  pl526_1        bioconda/osx-64                          235 KB
+  + perl-carp                   1.38  pl526_3        bioconda/osx-64                           15 KB
+  + perl-constant               1.33  pl526_1        bioconda/osx-64                           10 KB
+  + perl-exporter               5.72  pl526_1        bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker     7.36  pl526_1        bioconda/osx-64                          153 KB
+  + perl-file-path              2.16  pl526_0        bioconda/osx-64                           17 KB
+  + perl-file-temp            0.2304  pl526_2        bioconda/osx-64                           26 KB
+  + perl-file-which             1.23  pl526_0        bioconda/osx-64                           12 KB
+  + perl-parent                0.236  pl526_1        bioconda/osx-64                            6 KB
+  + repeatscout                1.0.6  hb4d813b_2     /Users/runner/conda/conda-bld/osx-64      41 KB
+  + trf                       4.09.1  hb4d813b_1     bioconda/osx-64                           66 KB
+
+  Summary:
+
+  Install: 13 packages
+
+  Total download: 15 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: repeatscout-1.0.6-hb4d813b_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/repeatscout_1630716522305/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    nseg:                    1.0.1-hb4d813b_1     bioconda   
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-app-cpanminus:      1.7044-pl526_1       bioconda   
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-constant:           1.33-pl526_1         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-file-path:          2.16-pl526_0         bioconda   
+    perl-file-temp:          0.2304-pl526_2       bioconda   
+    perl-file-which:         1.23-pl526_0         bioconda   
+    perl-parent:             0.236-pl526_1        bioconda   
+    repeatscout:             1.0.6-hb4d813b_2     local      
+    trf:                     4.09.1-hb4d813b_1    bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/repeatscout_1630716522305/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/Users/runner/conda/conda-bld/repeatscout_1630716522305/test_tmp
+RepeatScout Version 1.0.6
+build_lmer_table Version 1.0.6
+    filter-stage-1.prl -- a first stage post-processing tool for RepeatScout
+    times each type of repeat element occurs in RepeatMasker output.
+    The RepeatMasker output file. It can either be a .cat file or a .out
+    In the RepeatMasker output, a given repeat will be listed with "name"
+    compare-out-to-gff.prl --- Compares RepeatMasker output to a set of GFF
+    --cat=repeatmasker.out --f=file.fa > lib.ref
+    useful to take the masked instances from RepeatMasker and deterine to
+    RepeatMasker instances in either .cat format or .out format (prefer
+
+Resource usage statistics from testing repeatscout:
+   Process count: 5
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 12.5M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: repeatscout-1.0.6-hb4d813b_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
