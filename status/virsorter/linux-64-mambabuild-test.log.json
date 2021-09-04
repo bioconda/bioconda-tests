@@ -1,0 +1,448 @@
+  Package                        Version  Build                Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                    0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex                    4.5  1_gnu                conda-forge/linux-64                    Cached
+  + amply                          0.1.4  py_0                 conda-forge/noarch                       20 KB
+  + appdirs                        1.4.4  pyh9f0ad1d_0         conda-forge/noarch                       13 KB
+  + arrow                          1.1.1  pyhd8ed1ab_0         conda-forge/noarch                       81 KB
+  + attrs                         21.2.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + binaryornot                    0.4.4  py_1                 conda-forge/noarch                      370 KB
+  + brotlipy                       0.7.0  py39h3811e60_1001    conda-forge/linux-64                    Cached
+  + bzip2                          1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                        1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates            2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + certifi                    2021.5.30  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + cffi                          1.14.6  py39he32792d_0       conda-forge/linux-64                    Cached
+  + chardet                        4.0.0  py39hf3d152e_1       conda-forge/linux-64                    Cached
+  + charset-normalizer             2.0.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + click                          8.0.1  py39hf3d152e_0       conda-forge/linux-64                    146 KB
+  + coincbc                       2.10.5  hcee13e7_1           conda-forge/linux-64                      8 MB
+  + colorama                       0.4.4  pyh9f0ad1d_0         conda-forge/noarch                      Cached
+  + conda                         4.10.3  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + conda-package-handling         1.7.3  py39h3811e60_0       conda-forge/linux-64                    Cached
+  + configargparse                 1.5.2  pyhd8ed1ab_0         conda-forge/noarch                       32 KB
+  + cookiecutter                   1.7.3  pyh6c4a22f_0         conda-forge/noarch                       82 KB
+  + cryptography                   3.4.7  py39hbca0aa6_0       conda-forge/linux-64                    Cached
+  + curl                          7.78.0  hea6ffbf_0           conda-forge/linux-64                    Cached
+  + datrie                         0.8.2  py39h3811e60_2       conda-forge/linux-64                    157 KB
+  + docutils                      0.17.1  py39hf3d152e_0       conda-forge/linux-64                    761 KB
+  + expat                          2.4.1  h9c3ff4c_0           conda-forge/linux-64                    182 KB
+  + gettext                     0.19.8.1  h0b5b191_1005        conda-forge/linux-64                    Cached
+  + git                           2.33.0  pl5321hc30692c_0     conda-forge/linux-64                     13 MB
+  + gitdb                          4.0.7  pyhd8ed1ab_0         conda-forge/noarch                       46 KB
+  + gitpython                     3.1.18  pyhd8ed1ab_0         conda-forge/noarch                      117 KB
+  + icu                             68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + idna                             3.1  pyhd3deb0d_0         conda-forge/noarch                      Cached
+  + importlib-metadata             4.8.1  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + ipython_genutils               0.2.0  py_1                 conda-forge/noarch                       21 KB
+  + jinja2                        2.11.3  pyh44b312d_0         conda-forge/noarch                       93 KB
+  + jinja2-time                    0.2.0  py_2                 conda-forge/noarch                       10 KB
+  + jsonschema                     3.2.0  pyhd8ed1ab_3         conda-forge/noarch                      Cached
+  + jupyter_core                   4.7.1  py39hf3d152e_0       conda-forge/linux-64                     72 KB
+  + krb5                          1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64              2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libarchive                     3.5.2  hccf745f_0           conda-forge/linux-64                    Cached
+  + libblas                        3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                       3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                       7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit                 3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                           4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                           3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng                     11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng                11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5                  11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                       11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libiconv                        1.16  h516909a_0           conda-forge/linux-64                    Cached
+  + liblapack                      3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2                    1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas                   0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libsolv                       0.7.19  h780b84a_5           conda-forge/linux-64                    Cached
+  + libssh2                       1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng                  11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + libxml2                       2.9.12  h72842e0_0           conda-forge/linux-64                    Cached
+  + lz4-c                          1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + lzo                             2.10  h516909a_1000        conda-forge/linux-64                    Cached
+  + mamba                         0.15.3  py39h951de11_0       conda-forge/linux-64                    Cached
+  + markupsafe                     1.1.1  py39h3811e60_3       conda-forge/linux-64                     27 KB
+  + nbformat                       5.1.3  pyhd8ed1ab_0         conda-forge/noarch                       47 KB
+  + ncurses                          6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + openssl                       1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pcre2                          10.37  h032f7d1_0           conda-forge/linux-64                    Cached
+  + perl                          5.32.1  0_h7f98852_perl5     conda-forge/linux-64                     14 MB
+  + pip                           21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + poyo                           0.5.0  py_0                 conda-forge/noarch                       14 KB
+  + psutil                         5.8.0  py39h3811e60_1       conda-forge/linux-64                    Cached
+  + pulp                           2.5.0  py39hf3d152e_0       conda-forge/linux-64                    122 KB
+  + pycosat                        0.6.3  py39h3811e60_1006    conda-forge/linux-64                    Cached
+  + pycparser                       2.20  pyh9f0ad1d_2         conda-forge/noarch                      Cached
+  + pyopenssl                     20.0.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pyparsing                      2.4.7  pyh9f0ad1d_0         conda-forge/noarch                       60 KB
+  + pyrsistent                    0.17.3  py39h3811e60_2       conda-forge/linux-64                    Cached
+  + pysocks                        1.7.1  py39hf3d152e_3       conda-forge/linux-64                    Cached
+  + python                         3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python-dateutil                2.8.2  pyhd8ed1ab_0         conda-forge/noarch                      240 KB
+  + python-slugify                 5.0.2  pyhd8ed1ab_0         conda-forge/noarch                       12 KB
+  + python_abi                       3.9  2_cp39               conda-forge/linux-64                    Cached
+  + pyyaml                         5.4.1  py39h3811e60_1       conda-forge/linux-64                    Cached
+  + ratelimiter                    1.2.0  py_1002              conda-forge/noarch                       12 KB
+  + readline                         8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + reproc                        14.2.3  h7f98852_0           conda-forge/linux-64                    Cached
+  + reproc-cpp                    14.2.3  h9c3ff4c_0           conda-forge/linux-64                    Cached
+  + requests                      2.26.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + ruamel.yaml                  0.16.12  py39h3811e60_2       conda-forge/linux-64                    167 KB
+  + ruamel.yaml.clib               0.2.2  py39h3811e60_2       conda-forge/linux-64                    Cached
+  + ruamel_yaml                  0.15.80  py39h3811e60_1004    conda-forge/linux-64                    Cached
+  + setuptools                    57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + six                           1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + smmap                          3.0.5  pyh44b312d_0         conda-forge/noarch                       22 KB
+  + snakemake-minimal             5.26.0  py_0                 bioconda/noarch                         180 KB
+  + sqlite                        3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + text-unidecode                   1.3  py_0                 conda-forge/noarch                       68 KB
+  + tk                            8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + toposort                         1.6  pyhd8ed1ab_0         conda-forge/noarch                       13 KB
+  + tqdm                          4.62.2  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + traitlets                      5.1.0  pyhd8ed1ab_0         conda-forge/noarch                       82 KB
+  + typing_extensions           3.10.0.0  pyha770c72_0         conda-forge/noarch                      Cached
+  + tzdata                         2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + unidecode                      1.2.0  pyhd8ed1ab_0         conda-forge/noarch                      155 KB
+  + urllib3                       1.26.6  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + virsorter                      2.2.3  pyhdfd78af_1         /home/vsts/conda/conda-bld/linux-64     100 KB
+  + wheel                         0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + wrapt                         1.12.1  py39h3811e60_3       conda-forge/linux-64                     47 KB
+  + xz                             5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + yaml                           0.2.5  h516909a_0           conda-forge/linux-64                    Cached
+  + zipp                           3.5.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + zlib                          1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                           1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 114 packages
+
+  Total download: 39 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: virsorter-2.2.3-pyhdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/virsorter_1630774530989/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge            conda-forge
+    _openmp_mutex:          4.5-1_gnu                  conda-forge
+    amply:                  0.1.4-py_0                 conda-forge
+    appdirs:                1.4.4-pyh9f0ad1d_0         conda-forge
+    arrow:                  1.1.1-pyhd8ed1ab_0         conda-forge
+    attrs:                  21.2.0-pyhd8ed1ab_0        conda-forge
+    binaryornot:            0.4.4-py_1                 conda-forge
+    brotlipy:               0.7.0-py39h3811e60_1001    conda-forge
+    bzip2:                  1.0.8-h7f98852_4           conda-forge
+    c-ares:                 1.17.2-h7f98852_0          conda-forge
+    ca-certificates:        2021.5.30-ha878542_0       conda-forge
+    certifi:                2021.5.30-py39hf3d152e_0   conda-forge
+    cffi:                   1.14.6-py39he32792d_0      conda-forge
+    chardet:                4.0.0-py39hf3d152e_1       conda-forge
+    charset-normalizer:     2.0.0-pyhd8ed1ab_0         conda-forge
+    click:                  8.0.1-py39hf3d152e_0       conda-forge
+    coincbc:                2.10.5-hcee13e7_1          conda-forge
+    colorama:               0.4.4-pyh9f0ad1d_0         conda-forge
+    conda:                  4.10.3-py39hf3d152e_0      conda-forge
+    conda-package-handling: 1.7.3-py39h3811e60_0       conda-forge
+    configargparse:         1.5.2-pyhd8ed1ab_0         conda-forge
+    cookiecutter:           1.7.3-pyh6c4a22f_0         conda-forge
+    cryptography:           3.4.7-py39hbca0aa6_0       conda-forge
+    curl:                   7.78.0-hea6ffbf_0          conda-forge
+    datrie:                 0.8.2-py39h3811e60_2       conda-forge
+    docutils:               0.17.1-py39hf3d152e_0      conda-forge
+    expat:                  2.4.1-h9c3ff4c_0           conda-forge
+    gettext:                0.19.8.1-h0b5b191_1005     conda-forge
+    git:                    2.33.0-pl5321hc30692c_0    conda-forge
+    gitdb:                  4.0.7-pyhd8ed1ab_0         conda-forge
+    gitpython:              3.1.18-pyhd8ed1ab_0        conda-forge
+    icu:                    68.1-h58526e2_0            conda-forge
+    idna:                   3.1-pyhd3deb0d_0           conda-forge
+    importlib-metadata:     4.8.1-py39hf3d152e_0       conda-forge
+    ipython_genutils:       0.2.0-py_1                 conda-forge
+    jinja2:                 2.11.3-pyh44b312d_0        conda-forge
+    jinja2-time:            0.2.0-py_2                 conda-forge
+    jsonschema:             3.2.0-pyhd8ed1ab_3         conda-forge
+    jupyter_core:           4.7.1-py39hf3d152e_0       conda-forge
+    krb5:                   1.19.2-hcc1bbae_0          conda-forge
+    ld_impl_linux-64:       2.36.1-hea4e1c9_2          conda-forge
+    libarchive:             3.5.2-hccf745f_0           conda-forge
+    libblas:                3.9.0-11_linux64_openblas  conda-forge
+    libcblas:               3.9.0-11_linux64_openblas  conda-forge
+    libcurl:                7.78.0-h2574ce0_0          conda-forge
+    libedit:                3.1.20191231-he28a2e2_2    conda-forge
+    libev:                  4.33-h516909a_1            conda-forge
+    libffi:                 3.3-h58526e2_2             conda-forge
+    libgcc-ng:              11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:         11.1.0-h69a702a_8          conda-forge
+    libgfortran5:           11.1.0-h6c583b3_8          conda-forge
+    libgomp:                11.1.0-hc902ee8_8          conda-forge
+    libiconv:               1.16-h516909a_0            conda-forge
+    liblapack:              3.9.0-11_linux64_openblas  conda-forge
+    libnghttp2:             1.43.0-h812cca2_0          conda-forge
+    libopenblas:            0.3.17-pthreads_h8fe5266_1 conda-forge
+    libsolv:                0.7.19-h780b84a_5          conda-forge
+    libssh2:                1.10.0-ha56f1ee_0          conda-forge
+    libstdcxx-ng:           11.1.0-h56837e0_8          conda-forge
+    libxml2:                2.9.12-h72842e0_0          conda-forge
+    lz4-c:                  1.9.3-h9c3ff4c_1           conda-forge
+    lzo:                    2.10-h516909a_1000         conda-forge
+    mamba:                  0.15.3-py39h951de11_0      conda-forge
+    markupsafe:             1.1.1-py39h3811e60_3       conda-forge
+    nbformat:               5.1.3-pyhd8ed1ab_0         conda-forge
+    ncurses:                6.2-h58526e2_4             conda-forge
+    openssl:                1.1.1l-h7f98852_0          conda-forge
+    pcre2:                  10.37-h032f7d1_0           conda-forge
+    perl:                   5.32.1-0_h7f98852_perl5    conda-forge
+    pip:                    21.2.4-pyhd8ed1ab_0        conda-forge
+    poyo:                   0.5.0-py_0                 conda-forge
+    psutil:                 5.8.0-py39h3811e60_1       conda-forge
+    pulp:                   2.5.0-py39hf3d152e_0       conda-forge
+    pycosat:                0.6.3-py39h3811e60_1006    conda-forge
+    pycparser:              2.20-pyh9f0ad1d_2          conda-forge
+    pyopenssl:              20.0.1-pyhd8ed1ab_0        conda-forge
+    pyparsing:              2.4.7-pyh9f0ad1d_0         conda-forge
+    pyrsistent:             0.17.3-py39h3811e60_2      conda-forge
+    pysocks:                1.7.1-py39hf3d152e_3       conda-forge
+    python:                 3.9.7-h49503c6_0_cpython   conda-forge
+    python-dateutil:        2.8.2-pyhd8ed1ab_0         conda-forge
+    python-slugify:         5.0.2-pyhd8ed1ab_0         conda-forge
+    python_abi:             3.9-2_cp39                 conda-forge
+    pyyaml:                 5.4.1-py39h3811e60_1       conda-forge
+    ratelimiter:            1.2.0-py_1002              conda-forge
+    readline:               8.1-h46c0cb4_0             conda-forge
+    reproc:                 14.2.3-h7f98852_0          conda-forge
+    reproc-cpp:             14.2.3-h9c3ff4c_0          conda-forge
+    requests:               2.26.0-pyhd8ed1ab_0        conda-forge
+    ruamel.yaml:            0.16.12-py39h3811e60_2     conda-forge
+    ruamel.yaml.clib:       0.2.2-py39h3811e60_2       conda-forge
+    ruamel_yaml:            0.15.80-py39h3811e60_1004  conda-forge
+    setuptools:             57.4.0-py39hf3d152e_0      conda-forge
+    six:                    1.16.0-pyh6c4a22f_0        conda-forge
+    smmap:                  3.0.5-pyh44b312d_0         conda-forge
+    snakemake-minimal:      5.26.0-py_0                bioconda   
+    sqlite:                 3.36.0-h9cd32fc_0          conda-forge
+    text-unidecode:         1.3-py_0                   conda-forge
+    tk:                     8.6.11-h27826a3_1          conda-forge
+    toposort:               1.6-pyhd8ed1ab_0           conda-forge
+    tqdm:                   4.62.2-pyhd8ed1ab_0        conda-forge
+    traitlets:              5.1.0-pyhd8ed1ab_0         conda-forge
+    typing_extensions:      3.10.0.0-pyha770c72_0      conda-forge
+    tzdata:                 2021a-he74cb21_1           conda-forge
+    unidecode:              1.2.0-pyhd8ed1ab_0         conda-forge
+    urllib3:                1.26.6-pyhd8ed1ab_0        conda-forge
+    virsorter:              2.2.3-pyhdfd78af_1         local      
+    wheel:                  0.37.0-pyhd8ed1ab_1        conda-forge
+    wrapt:                  1.12.1-py39h3811e60_3      conda-forge
+    xz:                     5.2.5-h516909a_1           conda-forge
+    yaml:                   0.2.5-h516909a_0           conda-forge
+    zipp:                   3.5.0-pyhd8ed1ab_0         conda-forge
+    zlib:                   1.2.11-h516909a_1010       conda-forge
+    zstd:                   1.5.0-ha95c52a_0           conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/virsorter_1630774530989/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/virsorter_1630774530989/test_tmp
+import: 'virsorter'
+import: 'virsorter'
+virsorter, version 2.2.3
+Usage: virsorter setup [OPTIONS] [SNAKEMAKE_ARGS]...
+
+  Setup databases and install dependencies.
+
+  Executes a snakemake workflow to download reference database files and
+  validate based on their MD5 checksum, and install dependencies
+
+Options:
+  -d, --db-dir PATH        diretory path for databases  [required]
+  -j, --jobs INTEGER       number of simultaneous downloads  [default: 2]
+  -s, --skip-deps-install  skip dependency installation (if you want to
+                           install on your own as in development version)
+                           [default: False]
+  -h, --help               Show this message and exit.
+Usage: virsorter run [OPTIONS] [[all|classify]] [SNAKEMAKE_ARGS]...
+
+  Runs the virsorter main function to classify viral sequences
+
+  This includes 3 steps: 1) preprocess, 2) feature extraction, and 3)
+  classify. By default ("all") all steps are executed. The "classify" only run
+  the 3) classify step without previous steps that are computationally heavy,
+  good for rerunning with different filtering options (--min-score, --high-
+  confidence-only, --hallmark-required, --hallmark-required-on-short, --viral-
+  gene-required, --exclude-lt2gene). Most snakemake arguments can be appended
+  to the command for more  info see 'snakemake --help'.
+
+Options:
+  -w, --working-dir PATH        output directory
+  -d, --db-dir PATH             database directory, default to the --db-dir
+                                set during installation
+  -i, --seqfile PATH            sequence file in fa or fq format (could be
+                                compressed by gzip or bz2)  [required]
+  -l, --label TEXT              add label as prefix to output files; this is
+                                useful when re-running classify with different
+                                filtering options
+  --include-groups TEXT         classifiers of viral groups to included (comma
+                                separated and no space in between); available
+                                options are:
+                                dsDNAphage,NCLDV,RNA,ssDNA,lavidaviridae
+                                [default: dsDNAphage,ssDNA]
+  -j, --jobs INTEGER            max # of jobs allowed in parallel.  [default:
+                                2]
+  --min-score FLOAT             minimal score to be identified as viral
+                                [default: 0.5]
+  --min-length INTEGER          minimal seq length required; all seqs shorter
+                                than this will be removed  [default: 0]
+  --keep-original-seq           keep the original sequences instead of
+                                trimmed; By default, the untranslated regions
+                                at both ends of identified viral seqs are
+                                trimmed; circular sequences are modified to
+                                remove overlap between both ends and adjusted
+                                for the gene splitted into two ends;
+                                [default: False]
+  --exclude-lt2gene             short seqs (less than 2 genes) does not have
+                                any scores, but those with hallmark genes are
+                                included as viral by default; use this option
+                                to exclude them  [default: False]
+  --prep-for-dramv              turn on generating viral seqfile and viral-
+                                affi-contigs.tab for DRAMv  [default: False]
+  --high-confidence-only        only output high confidence viral sequences;
+                                this is equivalent to screening final-viral-
+                                score.tsv with the following criteria:
+                                (max_score >= 0.9) OR (max_score >=0.7 AND
+                                hallmark >= 1)  [default: False]
+  --hallmark-required           require hallmark gene on all viral seqs
+                                [default: False]
+  --hallmark-required-on-short  require hallmark gene on short viral seqs
+                                (length cutoff as "short" were set by
+                                "MIN_SIZE_ALLOWED_WO_HALLMARK_GENE" in
+                                template-config.yaml file, default 3kbp); this
+                                can reduce false positives at reasonable cost
+                                of sensitivity  [default: False]
+  --viral-gene-required         require viral genes annotated, removing
+                                putative viral seqs with no genes annotated;
+                                this can reduce false positives at reasonable
+                                cost of sensitivity  [default: False]
+  --viral-gene-enrich-off       turn off the requirement of more viral than
+                                cellular genes for calling full sequence
+                                viral; this is useful when only using
+                                VirSorter2 to produce DRAMv input with viral
+                                sequence identified from other tools, or those
+                                trimmed by checkV  [default: False]
+  --seqname-suffix-off          turn off adding suffix (||full, ||{i}_partial,
+                                ||lt2gene) to sequence names; note that this
+                                might cause partial seqs from the same contig
+                                to have the same name; this option is could be
+                                used when you are sure there is one partial
+                                sequence at max from each contig  [default:
+                                False]
+  --provirus-off                turn off extracting provirus after classifying
+                                full contigs; Togetehr with lower --max-orf-
+                                per-seq, can speed up a run significantly
+                                [default: False]
+  --max-orf-per-seq INTEGER     max # of orf used for computing taxonomic
+                                feature; this option can only be used in
+                                --provirus-off mode; if # of orf in a seq
+                                exceeds the max limit, it is sub-sampled to
+                                this # to reduce computation  [default: -1]
+  --tmpdir TEXT                 directory name for intermediate files
+  --rm-tmpdir                   remove intermediate file directory (--tmpdir);
+                                More than 100 intermediate files are created
+                                for each run, so this is recommended when 100s
+                                of samples are processed to avoid exceeding
+                                file # quota for user  [default: False]
+  --verbose                     shows detailed rules output  [default: False]
+  --profile TEXT                snakemake profile e.g. for cluster execution.
+  -n, --dryrun                  Check rules to run and files to produce
+                                [default: False]
+  --use-conda-off               Stop using the conda envs (vs2.yaml) that come
+                                with this package and use what are installed
+                                in current system; Only useful when you want
+                                to install dependencies on your own with your
+                                own prefer version; this option works with the
+                                development version  [default: False]
+  -h, --help                    Show this message and exit.
+Usage: virsorter train-feature [OPTIONS] [SNAKEMAKE_ARGS]...
+
+  Training features for customized classifier.
+
+  Executes a snakemake workflow to do the following: 1) prepare random DNA
+  fragments from viral and nonviral genome data  2) extract feature from
+  random DNA fragments to make ftrfile
+
+Options:
+  -w, --working-dir PATH      output directory  [required]
+  --seqfile TEXT              genome sequence file for training; for file
+                              pattern globbing, put quotes around the pattern,
+                              eg. "fasta-dir/*.fa"  [required]
+  --hmm PATH                  customized viral HMMs for training; default to
+                              the one used in VirSorter2
+  --hallmark PATH             hallmark gene hmm list from -hmm for training (a
+                              tab separated file with three columns: 1. hmm
+                              name, 2. gene name of hmm, 3. hmm bit score
+                              cutoff); default to the one used for dsDNAphage
+                              in VirSorter2
+  --prodigal-train PATH       customized training db from prodigal; default to
+                              the one used in prodigal --meta mode
+  --frags-per-genome INTEGER  number of random DNA fragments collected from
+                              each genome  [default: 5]
+  -j, --jobs INTEGER          max # of jobs in parallel  [default: 2]
+  --min-length INTEGER        minimum size of random DNA fragment for training
+                              [default: 1000]
+  --max-orf-per-seq INTEGER   Max # of orf used for computing taxonomic
+                              features; if # of orf in a seq exceeds the max
+                              limit, it is sub-sampled to this # to reduce
+                              computation; to turn off this, set it to -1
+                              [default: 20]
+  --genome-as-bin             if applied, each file (genome bin) is a genome
+                              in --seqfile, else each sequence is a genome
+                              [default: False]
+  --use-conda-off             Stop using the conda envs (vs2.yaml) that come
+                              with this package and use what are installed in
+                              current system; Only useful when you want to
+                              install dependencies on your own with your own
+                              preferred versions  [default: False]
+  -h, --help                  Show this message and exit.
+Usage: virsorter train-model [OPTIONS] [SNAKEMAKE_ARGS]...
+
+  Training customized classifier model.
+
+Options:
+  -w, --working-dir PATH   output directory  [required]
+  --viral-ftrfile PATH     viral genome feature file for training  [required]
+  --nonviral-ftrfile PATH  nonviral genome feature file for training
+                           [required]
+  -j, --jobs INTEGER       number of threads for classier  [default: 2]
+  --balanced               random undersample the larger to the size of the
+                           smaller feature file  [default: False]
+  --use-conda-off          Stop using the conda envs (vs2.yaml) that come with
+                           this package and use what are installed in current
+                           system; Only useful when you want to install
+                           dependencies on your own with your own prefer
+                           versions  [default: False]
+  -h, --help               Show this message and exit.
+
+Resource usage statistics from testing virsorter:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: virsorter-2.2.3-pyhdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
