@@ -1,0 +1,78 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + flock            0.2.3  h14c3975_1000  /home/vsts/conda/conda-bld/linux-64      12 KB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 12 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: flock-0.2.3-h14c3975_1000.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/flock_1630788840939/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge     conda-forge
+    _openmp_mutex: 4.5-1_gnu           conda-forge
+    flock:         0.2.3-h14c3975_1000 local      
+    libgcc-ng:     11.1.0-hc902ee8_8   conda-forge
+    libgomp:       11.1.0-hc902ee8_8   conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/flock_1630788840939/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/flock_1630788840939/test_tmp
+WARNING: pyldd disagrees with ldd/otool. This will not cause any
+WARNING: problems for this build, but please file a bug at:
+WARNING: https://github.com/conda/conda-build
+WARNING: and (if possible) attach file $PREFIX/bin/flock
+WARNING: 
+ldd/otool gives:
+('libc.so.6', '/lib/x86_64-linux-gnu/libc.so.6')
+pyldd gives:
+('libc.so.6', 'libc.so.6')
+
+Diffs
+{('libc.so.6', '/lib/x86_64-linux-gnu/libc.so.6')}
+Diffs
+{('libc.so.6', 'libc.so.6')}
+flock
+-----
+
+system:
+    libc.so.6 (/lib/x86_64-linux-gnu/libc.so.6)
+
+not found:
+
+
+$PREFIX/bin/flock
+hello, world!
+
+Resource usage statistics from testing flock:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: flock-0.2.3-h14c3975_1000.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

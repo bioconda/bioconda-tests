@@ -1,0 +1,65 @@
+  Package  Version  Build          Channel                                  Size
+──────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────
+
+  + flock    0.2.3  h1de35cc_1000  /Users/runner/conda/conda-bld/osx-64     8 KB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 8 KB
+
+──────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: flock-0.2.3-h1de35cc_1000.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/flock_1630788962362/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    flock: 0.2.3-h1de35cc_1000 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/flock_1630788962362/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/flock_1630788962362/test_tmp
+flock
+-----
+
+system:
+    libSystem.B.dylib (/usr/lib/libSystem.B.dylib)
+
+not found:
+
+
+flock
+-----
+
+bin/flock
+  filetype: EXECUTE
+  rpath: $PREFIX/lib:@loader_path/../lib/
+
+
+
+$PREFIX/bin/flock
+hello, world!
+
+Resource usage statistics from testing flock:
+   Process count: 7
+   CPU time: Sys=0:00:01.1, User=0:00:01.1
+   Memory: 147.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:10.4
+
+
+TEST END: flock-0.2.3-h1de35cc_1000.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,53 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-sys-sigaction-0.23-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpr8m6lpf6/info/recipe/conda_build_config.yaml
+  Package               Version  Build          Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                 5.26.2  hbcb3906_1008  conda-forge/osx-64                       14 MB
+  + perl-sys-sigaction     0.23  pl526_1        /Users/runner/conda/conda-bld/osx-64     14 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 14 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-sys-sigaction_1630788862936/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:               5.26.2-hbcb3906_1008 conda-forge
+    perl-sys-sigaction: 0.23-pl526_1         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-sys-sigaction_1630788862936/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-sys-sigaction_1630788862936/test_tmp
+import: Sys::SigAction
+	using version 0.23
+import: Sys::SigAction
+	using version 0.23
+
+Resource usage statistics from testing perl-sys-sigaction:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: perl-sys-sigaction-0.23-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
