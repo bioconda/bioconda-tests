@@ -1,0 +1,69 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+  + pretextmap       0.1.7  h7d875b9_0   /home/vsts/conda/conda-bld/linux-64     247 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 247 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: pretextmap-0.1.7-h7d875b9_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/pretextmap_1630795708702/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+    pretextmap:    0.1.7-h7d875b9_0  local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/pretextmap_1630795708702/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/pretextmap_1630795708702/test_tmp
+
+PretextMap Version 0.1.7
+
+  (...samformat, ...pairsformat |)  PretextMap -o output.pretext
+                                                        (--sortby ({length}, name, nosort)
+                                                        --sortorder ({descend}, ascend)
+                                                        --mapq {10}
+                                                        --filterInclude "seq_ [, seq_]*"
+                                                        --filterExclude "seq_ [, seq_]*")
+  (< samfile, pairsfile)
+
+PretextMap --licence    <- view software licence
+PretextMap --thirdparty <- view third party software used
+
+
+Resource usage statistics from testing pretextmap:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: pretextmap-0.1.7-h7d875b9_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
