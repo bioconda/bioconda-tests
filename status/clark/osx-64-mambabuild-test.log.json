@@ -1,0 +1,153 @@
+  Package     Version  Build       Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────
+
+  + clark     1.2.6.1  hb280591_1  /Users/runner/conda/conda-bld/osx-64     570 KB
+  + libcxx     12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+  + libiconv     1.16  haf1e3a3_0  conda-forge/osx-64                       Cached
+  + tar          1.34  hbb58dfb_0  conda-forge/osx-64                       435 KB
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 1005 KB
+
+────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: clark-1.2.6.1-hb280591_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/clark_1630714959005/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    clark:    1.2.6.1-hb280591_1 local      
+    libcxx:   12.0.1-habf9029_0  conda-forge
+    libiconv: 1.16-haf1e3a3_0    conda-forge
+    tar:      1.34-hbb58dfb_0    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/clark_1630714959005/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/clark_1630714959005/test_tmp
+
+CLARK -- ``CLAssifier based on Reduced K-mers'', UCR CS&E 2013-2019
+
+./CLARK -k <kmerSize> -t <minFreqTarget> -o <minFreqObject> -T <fileTargets> -D <directoryDB/> -O <fileObjects> -R <fileResults> -m <mode> -n <numberofthreads> ...
+
+
+Definitions of parameters (cf. README file, for details):
+
+-k <kmerSize>,       	 k-mer length:	integer, >= 2 and <= 32 (for CLARK only). The default value is 31.
+-t <minFreqTarget>,  	 minimum of k-mer frequency in targets (for CLARK only):	integer, >=0.
+-o <minFreqtObject>, 	 minimum of k-mer frequency in objects  (for CLARK only):	integer, >=0.
+-T <fileTargets>,    	 filename of the targets definition:	 text.
+-D <directoryDB/>,   	 directory name for the database (to load/save database files):	 text.
+-O <fileObjects>,    	 filename of objects (or list of objects):	 text.
+-P <file1> <file2>,  	 filenames of paired-end reads:	 texts.
+-R <fileResults>,    	 filename to store results (or corresponding list of results file):	 text.
+-m <mode>,           	 mode of execution: 0 (full), 1 (default), 2 (express) and 3 (spectrum).
+                     	 For CLARK-S, the full and default mode are the same.
+-n <numberofthreads>,	 number of threads:	integer >= 1.
+--long,              	 to indicate that the objects files contains very long/large sequences (e.g.,
+                     	 long contigs from genome assembly, long sequencing reads from Nanopore or Pacbio, etc.)
+                     	 and allocate more memory accordingly. This option is only for running the full mode or 
+                     	 running CLARK-S, in the case of sequences up to 50 Mbp.
+--tsk,               	 to request a detailed creation of the database (target specific k-mers files). This option is no more supported.
+--ldm,               	 to request the loading of the database by memory mapped-file (in multithreaded mode, multiple parallel threads are requested).
+--kso,               	 to request a preliminary k-spectrum analysis of each object (for mode 3 only).
+--extended,          	 to request an extended output of the full mode (for CLARK only).
+-g <iteration>,      	 gap or number of non-overlapping k-mers to pass for the database creation (for CLARK-l only). The default value is 4.
+-s <factor>,         	 sampling factor value in the default mode (for CLARK/CLARK-S only). 
+
+--help,              	 to print help/options.
+--version,           	 to print the version info.
+Version: 1.2.6.1, Contact/Help: Rachid Ounit, rouni001 at cs.ucr.edu
+
+
+CLARK -- ``CLAssifier based on Reduced K-mers'', UCR CS&E 2013-2019
+
+./CLARK -k <kmerSize> -t <minFreqTarget> -o <minFreqObject> -T <fileTargets> -D <directoryDB/> -O <fileObjects> -R <fileResults> -m <mode> -n <numberofthreads> ...
+
+
+Definitions of parameters (cf. README file, for details):
+
+-k <kmerSize>,       	 k-mer length:	integer, >= 2 and <= 32 (for CLARK only). The default value is 31.
+-t <minFreqTarget>,  	 minimum of k-mer frequency in targets (for CLARK only):	integer, >=0.
+-o <minFreqtObject>, 	 minimum of k-mer frequency in objects  (for CLARK only):	integer, >=0.
+-T <fileTargets>,    	 filename of the targets definition:	 text.
+-D <directoryDB/>,   	 directory name for the database (to load/save database files):	 text.
+-O <fileObjects>,    	 filename of objects (or list of objects):	 text.
+-P <file1> <file2>,  	 filenames of paired-end reads:	 texts.
+-R <fileResults>,    	 filename to store results (or corresponding list of results file):	 text.
+-m <mode>,           	 mode of execution: 0 (full), 1 (default), 2 (express) and 3 (spectrum).
+                     	 For CLARK-S, the full and default mode are the same.
+-n <numberofthreads>,	 number of threads:	integer >= 1.
+--long,              	 to indicate that the objects files contains very long/large sequences (e.g.,
+                     	 long contigs from genome assembly, long sequencing reads from Nanopore or Pacbio, etc.)
+                     	 and allocate more memory accordingly. This option is only for running the full mode or 
+                     	 running CLARK-S, in the case of sequences up to 50 Mbp.
+--tsk,               	 to request a detailed creation of the database (target specific k-mers files). This option is no more supported.
+--ldm,               	 to request the loading of the database by memory mapped-file (in multithreaded mode, multiple parallel threads are requested).
+--kso,               	 to request a preliminary k-spectrum analysis of each object (for mode 3 only).
+--extended,          	 to request an extended output of the full mode (for CLARK only).
+-g <iteration>,      	 gap or number of non-overlapping k-mers to pass for the database creation (for CLARK-l only). The default value is 4.
+-s <factor>,         	 sampling factor value in the default mode (for CLARK/CLARK-S only). 
+
+--help,              	 to print help/options.
+--version,           	 to print the version info.
+Version: 1.2.6.1, Contact/Help: Rachid Ounit, rouni001 at cs.ucr.edu
+
+
+CLARK -- ``CLAssifier based on Reduced K-mers'', UCR CS&E 2013-2019
+
+./CLARK -k <kmerSize> -t <minFreqTarget> -o <minFreqObject> -T <fileTargets> -D <directoryDB/> -O <fileObjects> -R <fileResults> -m <mode> -n <numberofthreads> ...
+
+
+Definitions of parameters (cf. README file, for details):
+
+-k <kmerSize>,       	 k-mer length:	integer, >= 2 and <= 32 (for CLARK only). The default value is 31.
+-t <minFreqTarget>,  	 minimum of k-mer frequency in targets (for CLARK only):	integer, >=0.
+-o <minFreqtObject>, 	 minimum of k-mer frequency in objects  (for CLARK only):	integer, >=0.
+-T <fileTargets>,    	 filename of the targets definition:	 text.
+-D <directoryDB/>,   	 directory name for the database (to load/save database files):	 text.
+-O <fileObjects>,    	 filename of objects (or list of objects):	 text.
+-P <file1> <file2>,  	 filenames of paired-end reads:	 texts.
+-R <fileResults>,    	 filename to store results (or corresponding list of results file):	 text.
+-m <mode>,           	 mode of execution: 0 (full), 1 (default), 2 (express) and 3 (spectrum).
+                     	 For CLARK-S, the full and default mode are the same.
+-n <numberofthreads>,	 number of threads:	integer >= 1.
+--long,              	 to indicate that the objects files contains very long/large sequences (e.g.,
+                     	 long contigs from genome assembly, long sequencing reads from Nanopore or Pacbio, etc.)
+                     	 and allocate more memory accordingly. This option is only for running the full mode or 
+                     	 running CLARK-S, in the case of sequences up to 50 Mbp.
+--tsk,               	 to request a detailed creation of the database (target specific k-mers files). This option is no more supported.
+--ldm,               	 to request the loading of the database by memory mapped-file (in multithreaded mode, multiple parallel threads are requested).
+--kso,               	 to request a preliminary k-spectrum analysis of each object (for mode 3 only).
+--extended,          	 to request an extended output of the full mode (for CLARK only).
+-g <iteration>,      	 gap or number of non-overlapping k-mers to pass for the database creation (for CLARK-l only). The default value is 4.
+-s <factor>,         	 sampling factor value in the default mode (for CLARK/CLARK-S only). 
+
+--help,              	 to print help/options.
+--version,           	 to print the version info.
+Version: 1.2.6.1, Contact/Help: Rachid Ounit, rouni001 at cs.ucr.edu
+
+
+Resource usage statistics from testing clark:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: clark-1.2.6.1-hb280591_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
