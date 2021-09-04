@@ -1,0 +1,101 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: plascope-1.3.1-1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpz5jqzm_d/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + centrifuge           1.0.3  py36pl5.22.0_3      bioconda/osx-64                          767 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + llvm-openmp         12.0.1  hda6cdc1_1          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + perl              5.22.0.1  0                   conda-forge/osx-64                        15 MB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + plascope             1.3.1  1                   /Users/runner/conda/conda-bld/osx-64     970 KB
+  + python              3.6.13  h7728216_0_cpython  conda-forge/osx-64                        21 MB
+  + python_abi             3.6  2_cp36m             conda-forge/osx-64                         4 KB
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py36h79c6626_0      conda-forge/osx-64                       965 KB
+  + spades              3.15.2  he641558_0          bioconda/osx-64                           20 MB
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 58 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/plascope_1630797181332/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4          conda-forge
+    ca-certificates: 2021.5.30-h033912b_0      conda-forge
+    centrifuge:      1.0.3-py36pl5.22.0_3      bioconda   
+    libcxx:          12.0.1-habf9029_0         conda-forge
+    libffi:          3.3-h046ec9c_2            conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1         conda-forge
+    ncurses:         6.2-h2e338ed_4            conda-forge
+    openssl:         1.1.1l-h0d85af4_0         conda-forge
+    perl:            5.22.0.1-0                conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0       conda-forge
+    plascope:        1.3.1-1                   local      
+    python:          3.6.13-h7728216_0_cpython conda-forge
+    python_abi:      3.6-2_cp36m               conda-forge
+    readline:        8.1-h05e3726_0            conda-forge
+    setuptools:      57.4.0-py36h79c6626_0     conda-forge
+    spades:          3.15.2-he641558_0         bioconda   
+    sqlite:          3.36.0-h23a322b_0         conda-forge
+    tk:              8.6.11-h5dbffcc_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1          conda-forge
+    zlib:            1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...     
+#############################################################################################
+#                                                                                           #
+#   Note: SPAdes installed through bioconda on MacOS may be somewhat slower than the SPAdes #
+#   binaries distributed by the authors at                                                  #
+#                                                                                           #
+#   http://cab.spbu.ru/files/release3.15.2/SPAdes-3.15.2-Darwin.tar.gz
+#                                                                                           #
+#   due to unavailability of parallel libstdc++ for the Clang compiler used by bioconda on  #
+#   MacOS; see https://github.com/ablab/spades/issues/194#issuecomment-523175204            #
+#                                                                                           #
+#############################################################################################
+
+done
+export PREFIX=/Users/runner/conda/conda-bld/plascope_1630797181332/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/plascope_1630797181332/test_tmp
+1.3.1
+
+Resource usage statistics from testing plascope:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: plascope-1.3.1-1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
