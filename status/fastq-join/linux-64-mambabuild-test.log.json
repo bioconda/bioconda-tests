@@ -1,0 +1,80 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + fastq-join       1.3.1  h7d875b9_4   /home/vsts/conda/conda-bld/linux-64      15 KB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 15 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: fastq-join-1.3.1-h7d875b9_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/fastq-join_1630762442238/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    fastq-join:    1.3.1-h7d875b9_4  local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/fastq-join_1630762442238/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/fastq-join_1630762442238/test_tmp
+Usage: fastq-join [options] <read1.fq> <read2.fq> [mate.fq] -o <read.0q>
+Version: 1.3.1
+
+Joins two paired-end reads on the overlapping ends.
+
+Options:
+
+-o FIL     See 'Output' below
+-v C       Verifies that the 2 files probe id's match up to char C
+            use ' ' (space) for Illumina reads
+-p N       N-percent maximum difference (8)
+-m N       N-minimum overlap (6)
+-r FIL     Verbose stitch length report
+-R         No reverse complement
+-x         Allow insert < read length
+
+Output: 
+
+  You can supply 3 -o arguments, for un1, un2, join files, or one 
+argument as a file name template.  The suffix 'un1, un2, or join' is 
+appended to the file, or they replace a %-character if present.
+
+  If a 'mate' input file is present (barcode read), then the files
+'un3' and 'join2' are also created.
+
+
+Resource usage statistics from testing fastq-join:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: fastq-join-1.3.1-h7d875b9_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
