@@ -1,0 +1,150 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + boost-cpp              1.74.0  h312852a_4     conda-forge/linux-64                     16 MB
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + htslib                   1.11  hd3b49d5_2     bioconda/linux-64                         2 MB
+  + icu                      68.1  h58526e2_0     conda-forge/linux-64                    Cached
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.7  h7f98852_5     conda-forge/linux-64                    Cached
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + lz4-c                   1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1l  h7f98852_0     conda-forge/linux-64                    Cached
+  + shapeit4                4.2.1  hc94963d_0     /home/vsts/conda/conda-bld/linux-64     252 KB
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd                    1.5.0  ha95c52a_0     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 18 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: shapeit4-4.2.1-hc94963d_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/shapeit4_1630794157476/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    boost-cpp:       1.74.0-h312852a_4       conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    htslib:          1.11-hd3b49d5_2         bioconda   
+    icu:             68.1-h58526e2_0         conda-forge
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.7-h7f98852_5          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    lz4-c:           1.9.3-h9c3ff4c_1        conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1l-h7f98852_0       conda-forge
+    shapeit4:        4.2.1-hc94963d_0        local      
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+    zstd:            1.5.0-ha95c52a_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/shapeit4_1630794157476/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/shapeit4_1630794157476/test_tmp
+
+Basic options:
+  --help                                Produce help message
+  --seed arg (=15052011)                Seed of the random number generator
+  -T [ --thread ] arg (=1)              Number of thread used
+
+Input files:
+  -I [ --input ] arg                    Genotypes to be phased in VCF/BCF 
+                                        format
+  -H [ --reference ] arg                Reference panel of haplotypes in 
+                                        VCF/BCF format
+  -S [ --scaffold ] arg                 Scaffold of haplotypes in VCF/BCF 
+                                        format
+  -M [ --map ] arg                      Genetic map
+  -R [ --region ] arg                   Target region
+  --use-PS arg                          Informs phasing using PS field from 
+                                        read based phasing
+  --sequencing                          Default parameter setting for 
+                                        sequencing data (this divides by 50 the
+                                        default value of --pbwt-modulo)
+
+MCMC parameters:
+  --mcmc-iterations arg (=5b,1p,1b,1p,1b,1p,5m)
+                                        Iteration scheme of the MCMC
+  --mcmc-prune arg (=0.999)             Pruning threshold for genotype graphs
+
+PBWT parameters:
+  --pbwt-modulo arg (=0.02)             Storage frequency of PBWT indexes in cM
+                                        (i.e. storage every 0.02 cM by default)
+  --pbwt-depth arg (=4)                 Depth of PBWT indexes to condition on
+  --pbwt-mac arg (=2)                   Minimal Minor Allele Count at which 
+                                        PBWT is evaluated
+  --pbwt-mdr arg (=0.5)                 Maximal Missing Data Rate at which PBWT
+                                        is evaluated
+  --pbwt-disable-init                   Disable initialization by PBWT sweep
+
+IBD2 parameters [DEPRECATED]:
+  --ibd2-length arg (=3)                DEPRECATED
+  --ibd2-maf arg (=0.01)                DEPRECATED
+  --ibd2-mdr arg (=0.5)                 DEPRECATED
+  --ibd2-count arg (=100)               DEPRECATED
+  --ibd2-output arg                     DEPRECATED
+
+HMM parameters:
+  -W [ --window ] arg (=2.5)            Minimal size of the phasing window in 
+                                        cM
+  --effective-size arg (=15000)         Effective size of the population
+
+Output files:
+  -O [ --output ] arg                   Phased haplotypes in VCF/BCF format
+  --bingraph arg                        Phased haplotypes in BIN format [Useful
+                                        to sample multiple likely haplotype 
+                                        configurations per sample]
+  --log arg                             Log file
+
+
+Resource usage statistics from testing shapeit4:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: shapeit4-4.2.1-hc94963d_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
