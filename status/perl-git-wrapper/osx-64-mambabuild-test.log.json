@@ -1,0 +1,111 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-git-wrapper-0.048-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpfg2yprfz/info/recipe/conda_build_config.yaml
+  Package                            Version  Build            Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                              5.26.2  hbcb3906_1008    conda-forge/osx-64                       Cached
+  + perl-app-cpanminus                1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-carp                           1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-constant                       1.33  pl526_1          bioconda/osx-64                           10 KB
+  + perl-exporter                       5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker             7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-file-chdir                   0.1010  pl526_2          bioconda/osx-64                           11 KB
+  + perl-file-path                      2.16  pl526_0          bioconda/osx-64                           17 KB
+  + perl-file-temp                    0.2304  pl526_2          bioconda/osx-64                           26 KB
+  + perl-git-wrapper                   0.048  pl526_0          /Users/runner/conda/conda-bld/osx-64      21 KB
+  + perl-ipc-cmd                        1.02  pl526_0          bioconda/osx-64                           22 KB
+  + perl-locale-maketext-simple         0.21  pl526_2          bioconda/osx-64                            9 KB
+  + perl-module-corelist          5.20190524  pl526_0          bioconda/osx-64                           57 KB
+  + perl-module-load                    0.32  pl526_1          bioconda/osx-64                            4 KB
+  + perl-module-load-conditional        0.68  pl526_2          bioconda/osx-64                           10 KB
+  + perl-module-metadata            1.000036  pl526_0          bioconda/osx-64                           15 KB
+  + perl-params-check                   0.38  pl526_1          bioconda/osx-64                            4 KB
+  + perl-parent                        0.236  pl526_1          bioconda/osx-64                            6 KB
+  + perl-pathtools                      3.75  pl526h1de35cc_1  bioconda/osx-64                           39 KB
+  + perl-sort-versions                  1.62  pl526_2          bioconda/osx-64                            8 KB
+  + perl-version                      0.9924  pl526_0          bioconda/osx-64                           32 KB
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 708 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-git-wrapper_1630776946183/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                         5.26.2-hbcb3906_1008 conda-forge
+    perl-app-cpanminus:           1.7044-pl526_1       bioconda   
+    perl-carp:                    1.38-pl526_3         bioconda   
+    perl-constant:                1.33-pl526_1         bioconda   
+    perl-exporter:                5.72-pl526_1         bioconda   
+    perl-extutils-makemaker:      7.36-pl526_1         bioconda   
+    perl-file-chdir:              0.1010-pl526_2       bioconda   
+    perl-file-path:               2.16-pl526_0         bioconda   
+    perl-file-temp:               0.2304-pl526_2       bioconda   
+    perl-git-wrapper:             0.048-pl526_0        local      
+    perl-ipc-cmd:                 1.02-pl526_0         bioconda   
+    perl-locale-maketext-simple:  0.21-pl526_2         bioconda   
+    perl-module-corelist:         5.20190524-pl526_0   bioconda   
+    perl-module-load:             0.32-pl526_1         bioconda   
+    perl-module-load-conditional: 0.68-pl526_2         bioconda   
+    perl-module-metadata:         1.000036-pl526_0     bioconda   
+    perl-params-check:            0.38-pl526_1         bioconda   
+    perl-parent:                  0.236-pl526_1        bioconda   
+    perl-pathtools:               3.75-pl526h1de35cc_1 bioconda   
+    perl-sort-versions:           1.62-pl526_2         bioconda   
+    perl-version:                 0.9924-pl526_0       bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-git-wrapper_1630776946183/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-git-wrapper_1630776946183/test_tmp
+import: Git::Wrapper
+	using version 0.048
+import: Git::Wrapper::Exception
+	using version 0.048
+import: Git::Wrapper::File::RawModification
+	using version 0.048
+import: Git::Wrapper::Log
+	using version 0.048
+import: Git::Wrapper::Status
+	using version 0.048
+import: Git::Wrapper::Statuses
+	using version 0.048
+import: Git::Wrapper
+	using version 0.048
+import: Git::Wrapper::Exception
+	using version 0.048
+import: Git::Wrapper::File::RawModification
+	using version 0.048
+import: Git::Wrapper::Log
+	using version 0.048
+import: Git::Wrapper::Status
+	using version 0.048
+import: Git::Wrapper::Statuses
+	using version 0.048
+
+Resource usage statistics from testing perl-git-wrapper:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-git-wrapper-0.048-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
