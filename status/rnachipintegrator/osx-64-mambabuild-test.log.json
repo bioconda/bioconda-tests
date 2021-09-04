@@ -1,0 +1,165 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rnachipintegrator-2.0.0-py_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpitz_z73f/info/recipe/conda_build_config.yaml
+  Package                Version  Build               Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates    2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx                12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                   3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                  6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + nose                   1.3.7  py_1006             conda-forge/noarch                       118 KB
+  + openssl               1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                   21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python                 3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi               3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline                 8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + rnachipintegrator      2.0.0  py_1                /Users/runner/conda/conda-bld/osx-64      40 KB
+  + setuptools            57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite                3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                    8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata                 2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                 0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xlsxwriter             3.0.1  pyhd8ed1ab_0        conda-forge/noarch                       108 KB
+  + xz                     5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                  1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 265 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rnachipintegrator_1630781759583/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates:   2021.5.30-h033912b_0     conda-forge
+    libcxx:            12.0.1-habf9029_0        conda-forge
+    libffi:            3.3-h046ec9c_2           conda-forge
+    ncurses:           6.2-h2e338ed_4           conda-forge
+    nose:              1.3.7-py_1006            conda-forge
+    openssl:           1.1.1l-h0d85af4_0        conda-forge
+    pip:               21.2.4-pyhd8ed1ab_0      conda-forge
+    python:            3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:        3.9-2_cp39               conda-forge
+    readline:          8.1-h05e3726_0           conda-forge
+    rnachipintegrator: 2.0.0-py_1               local      
+    setuptools:        57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:            3.36.0-h23a322b_0        conda-forge
+    tk:                8.6.11-h5dbffcc_1        conda-forge
+    tzdata:            2021a-he74cb21_1         conda-forge
+    wheel:             0.37.0-pyhd8ed1ab_1      conda-forge
+    xlsxwriter:        3.0.1-pyhd8ed1ab_0       conda-forge
+    xz:                5.2.5-haf1e3a3_1         conda-forge
+    zlib:              1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rnachipintegrator_1630781759583/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/rnachipintegrator_1630781759583/test_tmp
+import: 'rnachipintegrator'
+import: 'rnachipintegrator'
+usage: RnaChipIntegrator [options] [GENES PEAKS]
+
+Analyse GENES (any set of genes or genomic features) against PEAKS (a set of
+regions) and report nearest genes to each peak (and vice versa)
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+Analysis options:
+  --cutoff MAX_DISTANCE
+                        Maximum distance allowed between peaks and genes
+                        before being omitted from the analyses (default
+                        1000000bp; set to zero for no cutoff, use --cutoffs
+                        instead to specify multiple distances)
+  --edge {tss,both}     Gene edges to consider when calculating distances
+                        between genes and peaks, either: 'tss' (default: only
+                        use gene TSS) or 'both' (use whichever of TSS or TES
+                        gives shortest distance)
+  --only-DE             Only use genes flagged as differentially expressed in
+                        analyses (input gene data must include DE flags)
+
+Reporting options:
+  --number MAX_CLOSEST  Filter results after applying --cutoff[s] to report
+                        only the nearest MAX_CLOSEST number of pairs for each
+                        gene/peak from the analyses (default is to report all
+                        results)
+  --promoter_region PROMOTER_REGION
+                        Define promoter region with respect to gene TSS in the
+                        form UPSTREAM,DOWNSTREAM (default -1000 to 100bp of
+                        TSS)
+
+Output options:
+  --name NAME           Set basename for output files
+  --compact             Output all hits for each peak or gene on a single line
+                        (cannot be used with --summary)
+  --summary             Output 'summary' for each analysis, consisting of only
+                        the top hit for each peak or gene (cannot be used with
+                        --compact)
+  --pad                 Where less than MAX_CLOSEST hits are found, pad output
+                        with blanks to ensure that MAX_CLOSEST hits are still
+                        reported (nb --pad is implied for --compact)
+  --xlsx                Output XLSX spreadsheet with results
+
+Batch options:
+  --cutoffs CUTOFFS     Comma-separated list of one or more maximum distances
+                        allowed between peaks and genes (bp). An analysis will
+                        be performed for each GENES-PEAKS pair at each cutoff
+                        distance (default 1000000bp; set to zero for no cutoff
+                        NB cannot be used in conjunction with the --cutoff
+                        option)
+  --genes GENES_FILE [GENES_FILE ...]
+                        Specify multiple genes files (if used then peaks
+                        file(s) must be specified using --peaks option)
+  --peaks PEAKS_FILE [PEAKS_FILE ...]
+                        Specify multiple peaks files (if used then genes
+                        file(s) must be specified using --genes option)
+  -n NPROCS, --nprocessors NPROCS
+                        Number of processors/cores to run the program using
+                        (default: 1)
+  --split-outputs       In batch mode write results of each analysis to
+                        separate file (default is to write all results to
+                        single file)
+
+Advanced options:
+  --analyses {all,gene_centric,peak_centric}
+                        Select which analyses to run: can be one of 'all'
+                        (default, runs all available analyses), 'peak_centric'
+                        or 'gene_centric'
+  --feature FEATURE_TYPE
+                        Rename 'gene' to FEATURE_TYPE in output (e.g.
+                        'transcript' etc)
+  --peak_cols PEAK_COLS
+                        List of 3 column indices (e.g. '1,4,5') indicating
+                        columns to use for chromosome, start and end from the
+                        input peak file (if not first three columns)
+  --peak_id PEAK_ID     Column to use as an ID for each peak from the input
+                        peak file (first column is column 1). If specified
+                        then IDs will be transferred to the output files when
+                        peaks are reported
+
+Resource usage statistics from testing rnachipintegrator:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: rnachipintegrator-2.0.0-py_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
