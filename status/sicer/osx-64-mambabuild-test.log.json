@@ -1,0 +1,600 @@
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + libblas               3.9.0  8_openblas             conda-forge/osx-64                        11 KB
+  + libcblas              3.9.0  8_openblas             conda-forge/osx-64                        11 KB
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + libgfortran           4.0.0  7_5_0_h1a10cd1_23      conda-forge/osx-64                        19 KB
+  + libgfortran4          7.5.0  h1a10cd1_23            conda-forge/osx-64                         1 MB
+  + liblapack             3.9.0  8_openblas             conda-forge/osx-64                        11 KB
+  + libopenblas          0.3.12  openmp_h63d9170_1      conda-forge/osx-64                         9 MB
+  + llvm-openmp          12.0.1  hda6cdc1_1             conda-forge/osx-64                       Cached
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + numpy                1.16.5  py27hde6bac1_0         conda-forge/osx-64                         4 MB
+  + openssl              1.1.1l  h0d85af4_0             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + scipy                 1.2.1  py27h7e0e109_2         conda-forge/osx-64                        18 MB
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sicer                   1.1  py27h24bf2e0_3         /Users/runner/conda/conda-bld/osx-64     366 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 46 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: sicer-1.1-py27h24bf2e0_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/sicer_1630779390392/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    libblas:         3.9.0-8_openblas             conda-forge
+    libcblas:        3.9.0-8_openblas             conda-forge
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    libgfortran:     4.0.0-7_5_0_h1a10cd1_23      conda-forge
+    libgfortran4:    7.5.0-h1a10cd1_23            conda-forge
+    liblapack:       3.9.0-8_openblas             conda-forge
+    libopenblas:     0.3.12-openmp_h63d9170_1     conda-forge
+    llvm-openmp:     12.0.1-hda6cdc1_1            conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    numpy:           1.16.5-py27hde6bac1_0        conda-forge
+    openssl:         1.1.1l-h0d85af4_0            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python_abi:      2.7-1_cp27m                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    scipy:           1.2.1-py27h7e0e109_2         conda-forge
+    setuptools:      44.0.0-py27_0                conda-forge
+    sicer:           1.1-py27h24bf2e0_3           local      
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/sicer_1630779390392/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/sicer_1630779390392/test_tmp
+#############################################
+######           SICER v1.1            ######
+#############################################
+Input library directory: $PREFIX/share/sicer-1.1-3/SICER/ex
+ChIP library: test.bed
+Control library: control.bed
+Output directory: .
+Species: hg38
+Threshold for redundancy allowed for chip reads: 1
+Threshold for redundancy allowed for control reads: 1
+Window size: 200 bps
+Fragment size: 150 bps. The shift for reads is half of 150
+Effective genome size as a fraction of the reference genome of hg38: 0.74
+Gap size: 600 bps
+Evalue for identification of candidate islands that exhibit clustering: 1000
+False discovery rate controlling significance: .01
+ 
+ 
+Preprocess the raw test file to remove redundancy with threshold 1...
+python $PREFIX/share/sicer-1.1-3/SICER/src/remove_redundant_reads.py -s hg38 -b $PREFIX/share/sicer-1.1-3/SICER/ex/test.bed -t 1 -o ./test-1-removed.bed
+chr1 	Plus reads: 451 	Retained plus reads: 447 ;	Minus reads: 437 	Retained minus reads: 434
+chr2 	Plus reads: 437 	Retained plus reads: 432 ;	Minus reads: 454 	Retained minus reads: 450
+chr3 	Plus reads: 368 	Retained plus reads: 367 ;	Minus reads: 363 	Retained minus reads: 357
+chr4 	Plus reads: 326 	Retained plus reads: 320 ;	Minus reads: 344 	Retained minus reads: 341
+chr5 	Plus reads: 343 	Retained plus reads: 341 ;	Minus reads: 285 	Retained minus reads: 284
+chr6 	Plus reads: 324 	Retained plus reads: 322 ;	Minus reads: 304 	Retained minus reads: 303
+chr7 	Plus reads: 252 	Retained plus reads: 250 ;	Minus reads: 258 	Retained minus reads: 255
+chr8 	Plus reads: 276 	Retained plus reads: 272 ;	Minus reads: 260 	Retained minus reads: 258
+chr9 	Plus reads: 191 	Retained plus reads: 190 ;	Minus reads: 175 	Retained minus reads: 173
+chr10 	Plus reads: 225 	Retained plus reads: 225 ;	Minus reads: 228 	Retained minus reads: 227
+chr11 	Plus reads: 234 	Retained plus reads: 233 ;	Minus reads: 247 	Retained minus reads: 245
+chr12 	Plus reads: 254 	Retained plus reads: 253 ;	Minus reads: 259 	Retained minus reads: 257
+chr13 	Plus reads: 188 	Retained plus reads: 185 ;	Minus reads: 153 	Retained minus reads: 152
+chr14 	Plus reads: 158 	Retained plus reads: 157 ;	Minus reads: 166 	Retained minus reads: 164
+chr15 	Plus reads: 163 	Retained plus reads: 163 ;	Minus reads: 141 	Retained minus reads: 140
+chr16 	Plus reads: 140 	Retained plus reads: 139 ;	Minus reads: 121 	Retained minus reads: 121
+chr17 	Plus reads: 123 	Retained plus reads: 122 ;	Minus reads: 147 	Retained minus reads: 147
+chr18 	Plus reads: 130 	Retained plus reads: 130 ;	Minus reads: 146 	Retained minus reads: 144
+chr19 	Plus reads: 93 	Retained plus reads: 92 ;	Minus reads: 78 	Retained minus reads: 77
+chr20 	Plus reads: 111 	Retained plus reads: 109 ;	Minus reads: 115 	Retained minus reads: 115
+chr21 	Plus reads: 68 	Retained plus reads: 67 ;	Minus reads: 45 	Retained minus reads: 45
+chr22 	Plus reads: 57 	Retained plus reads: 57 ;	Minus reads: 57 	Retained minus reads: 57
+chrM 	Plus reads: 0 	Retained plus reads: 0 ;	Minus reads: 0 	Retained minus reads: 0
+chrX 	Plus reads: 131 	Retained plus reads: 131 ;	Minus reads: 151 	Retained minus reads: 151
+chrY 	Plus reads: 7 	Retained plus reads: 7 ;	Minus reads: 16 	Retained minus reads: 16
+ 
+ 
+Preprocess the raw control file to remove redundancy with threshold 1...
+python $PREFIX/share/sicer-1.1-3/SICER/src/remove_redundant_reads.py -s hg38 -b $PREFIX/share/sicer-1.1-3/SICER/ex/control.bed -t 1 -o ./control-1-removed.bed
+chr1 	Plus reads: 393 	Retained plus reads: 362 ;	Minus reads: 409 	Retained minus reads: 378
+chr2 	Plus reads: 398 	Retained plus reads: 373 ;	Minus reads: 441 	Retained minus reads: 417
+chr3 	Plus reads: 303 	Retained plus reads: 281 ;	Minus reads: 308 	Retained minus reads: 282
+chr4 	Plus reads: 253 	Retained plus reads: 233 ;	Minus reads: 290 	Retained minus reads: 265
+chr5 	Plus reads: 284 	Retained plus reads: 263 ;	Minus reads: 281 	Retained minus reads: 259
+chr6 	Plus reads: 290 	Retained plus reads: 271 ;	Minus reads: 284 	Retained minus reads: 265
+chr7 	Plus reads: 242 	Retained plus reads: 218 ;	Minus reads: 245 	Retained minus reads: 229
+chr8 	Plus reads: 231 	Retained plus reads: 216 ;	Minus reads: 250 	Retained minus reads: 234
+chr9 	Plus reads: 220 	Retained plus reads: 199 ;	Minus reads: 220 	Retained minus reads: 207
+chr10 	Plus reads: 260 	Retained plus reads: 239 ;	Minus reads: 247 	Retained minus reads: 224
+chr11 	Plus reads: 250 	Retained plus reads: 237 ;	Minus reads: 243 	Retained minus reads: 227
+chr12 	Plus reads: 230 	Retained plus reads: 216 ;	Minus reads: 243 	Retained minus reads: 230
+chr13 	Plus reads: 163 	Retained plus reads: 151 ;	Minus reads: 133 	Retained minus reads: 130
+chr14 	Plus reads: 142 	Retained plus reads: 136 ;	Minus reads: 154 	Retained minus reads: 148
+chr15 	Plus reads: 132 	Retained plus reads: 126 ;	Minus reads: 143 	Retained minus reads: 133
+chr16 	Plus reads: 151 	Retained plus reads: 144 ;	Minus reads: 178 	Retained minus reads: 162
+chr17 	Plus reads: 194 	Retained plus reads: 183 ;	Minus reads: 168 	Retained minus reads: 161
+chr18 	Plus reads: 127 	Retained plus reads: 117 ;	Minus reads: 107 	Retained minus reads: 99
+chr19 	Plus reads: 147 	Retained plus reads: 137 ;	Minus reads: 132 	Retained minus reads: 125
+chr20 	Plus reads: 135 	Retained plus reads: 123 ;	Minus reads: 171 	Retained minus reads: 158
+chr21 	Plus reads: 63 	Retained plus reads: 59 ;	Minus reads: 90 	Retained minus reads: 84
+chr22 	Plus reads: 113 	Retained plus reads: 105 ;	Minus reads: 105 	Retained minus reads: 97
+chrM 	Plus reads: 4 	Retained plus reads: 3 ;	Minus reads: 3 	Retained minus reads: 3
+chrX 	Plus reads: 205 	Retained plus reads: 189 ;	Minus reads: 217 	Retained minus reads: 204
+chrY 	Plus reads: 3 	Retained plus reads: 3 ;	Minus reads: 5 	Retained minus reads: 5
+ 
+ 
+Partion the genome in windows ...
+Generate summary files ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/run-make-graph-file-by-chrom.py -s hg38 -b ./test-1-removed.bed -w 200 -i 150 -o ./test-W200.graph
+total tag count in chr1.bed is: 881.0 = 447.0+434.0
+Ilegitimate read with end beyond chromosome length  242193529  is ignored
+chr2	242206624	242206649	U0	0	+
+Ilegitimate read with end beyond chromosome length  242193529  is ignored
+chr2	242351125	242351150	U0	0	+
+total tag count in chr2.bed is: 880.0 = 430.0+450.0
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	198643681	198643706	U0	0	+
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	199362615	199362640	U0	0	+
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	198975230	198975255	U0	0	-
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	199060448	199060473	U0	0	-
+total tag count in chr3.bed is: 720.0 = 365.0+355.0
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190255432	190255457	U0	0	+
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190462430	190462455	U0	0	+
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190286092	190286117	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190558926	190558951	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190754595	190754620	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190790720	190790745	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190843770	190843795	U0	0	-
+total tag count in chr4.bed is: 654.0 = 318.0+336.0
+total tag count in chr5.bed is: 625.0 = 341.0+284.0
+total tag count in chr6.bed is: 625.0 = 322.0+303.0
+total tag count in chr7.bed is: 505.0 = 250.0+255.0
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	145206193	145206218	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	145312039	145312064	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	146247503	146247528	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	146096409	146096434	U0	0	-
+total tag count in chr8.bed is: 526.0 = 269.0+257.0
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	139563097	139563122	U0	0	+
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	140101102	140101127	U0	0	+
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	138498009	138498034	U0	0	-
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	140060874	140060899	U0	0	-
+total tag count in chr9.bed is: 359.0 = 188.0+171.0
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	133858956	133858981	U0	0	+
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	133863915	133863940	U0	0	+
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	135184283	135184308	U0	0	-
+total tag count in chr10.bed is: 449.0 = 223.0+226.0
+total tag count in chr11.bed is: 478.0 = 233.0+245.0
+total tag count in chr12.bed is: 510.0 = 253.0+257.0
+total tag count in chr13.bed is: 337.0 = 185.0+152.0
+total tag count in chr14.bed is: 321.0 = 157.0+164.0
+total tag count in chr15.bed is: 303.0 = 163.0+140.0
+total tag count in chr16.bed is: 260.0 = 139.0+121.0
+total tag count in chr17.bed is: 269.0 = 122.0+147.0
+total tag count in chr18.bed is: 274.0 = 130.0+144.0
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	58903965	58903990	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	60505373	60505398	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61246468	61246493	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61500372	61500397	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61771461	61771486	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62592378	62592403	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62592569	62592594	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62803313	62803338	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63589905	63589930	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63643659	63643684	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	58715840	58715865	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	59396669	59396694	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	59879801	59879826	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62029529	62029554	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62442113	62442138	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63022681	63022706	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63573435	63573460	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63775874	63775899	U0	0	-
+total tag count in chr19.bed is: 151.0 = 82.0+69.0
+total tag count in chr20.bed is: 224.0 = 109.0+115.0
+total tag count in chr21.bed is: 112.0 = 67.0+45.0
+total tag count in chr22.bed is: 114.0 = 57.0+57.0
+total tag count in chrM.bed is: 0.0 = 0.0+0.0
+total tag count in chrX.bed is: 282.0 = 131.0+151.0
+total tag count in chrY.bed is: 23.0 = 7.0+16.0
+
+
+Normalize summary graph by total island filtered reads per million for test ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/normalize.py -i ./test-W200.graph -a 3 -t 1000000 -o ./test-W200-normalized.graph
+
+
+Convert the normalized summary graph into wig vstep format...
+sh $PREFIX/share/sicer-1.1-3/SICER/src/variableStep.sh ./test-W200-normalized.graph ./test-W200-normalized.wig test 200
+ 
+ 
+Find candidate islands exhibiting clustering ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/find_islands_in_pr.py -s hg38 -b ./test-W200.graph -w 200 -g 600 -t 0.74 -e 1000 -f ./test-W200-G600.scoreisland
+Species:  hg38
+Window_size:  200
+Gap size:  600
+E value is: 1000.0
+Total read count: 9882.0
+Genome Length:  3088286401
+Effective genome Length:  2285331936
+Window average: 0.000864819665304
+Window pvalue: 0.2
+Minimum num of tags in a qualified window:  1
+Generate the enriched probscore summary graph and filter the summary graph to get rid of ineligible windows 
+Determine the score threshold from random background
+The score threshold is:  7.055
+Make and write islands
+	chrY does not have any islands meeting the required significance
+	chr21 does not have any islands meeting the required significance
+Total number of islands:  166
+
+
+Calculate significance of candidate islands using the control library ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/associate_tags_with_chip_and_control_w_fc_q.py -s hg38  -a ./test-1-removed.bed -b ./control-1-removed.bed -d ./test-W200-G600.scoreisland -f 150 -t 0.74 -o ./test-W200-G600-islands-summary
+chip library size   9924.0
+control library size   9310.0
+Total number of chip reads on islands is:  340
+Total number of control reads on islands is:  2
+
+
+Identify significant islands using FDR criterion ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/filter_islands_by_significance.py -i ./test-W200-G600-islands-summary -p .01 -c 7 -o ./test-W200-G600-islands-summary-FDR.01
+Given significance 0.01 ,  there are 165 significant islands
+
+
+Convert island summary to island bed file of format chr start end ChIP-read-count
+python $PREFIX/share/sicer-1.1-3/SICER/utility/convert_summary_to_bed.py -i ./test-W200-G600-islands-summary-FDR.01  -o  ./test-W200-G600-FDR.01-island.bed
+
+
+Filter reads with identified significant islands...
+python $PREFIX/share/sicer-1.1-3/SICER/utility/filter_raw_tags_by_islands.py -s hg38 -a ./test-1-removed.bed -i 150 -b ./test-W200-G600-FDR.01-island.bed  -o  ./test-W200-G600-FDR.01-islandfiltered.bed
+
+
+Make summary graph with filtered reads...
+python $PREFIX/share/sicer-1.1-3/SICER/src/run-make-graph-file-by-chrom.py -s hg38 -b ./test-W200-G600-FDR.01-islandfiltered.bed -w 200 -i 150 -o ./test-W200-G600-FDR.01-islandfiltered.graph
+total tag count in chr1.bed is: 47.0 = 23.0+24.0
+total tag count in chr2.bed is: 28.0 = 12.0+16.0
+total tag count in chr3.bed is: 18.0 = 11.0+7.0
+total tag count in chr4.bed is: 20.0 = 10.0+10.0
+total tag count in chr5.bed is: 14.0 = 6.0+8.0
+total tag count in chr6.bed is: 26.0 = 17.0+9.0
+total tag count in chr7.bed is: 26.0 = 13.0+13.0
+total tag count in chr8.bed is: 16.0 = 9.0+7.0
+total tag count in chr9.bed is: 10.0 = 6.0+4.0
+total tag count in chr10.bed is: 10.0 = 3.0+7.0
+total tag count in chr11.bed is: 12.0 = 7.0+5.0
+total tag count in chr12.bed is: 26.0 = 9.0+17.0
+total tag count in chr13.bed is: 9.0 = 7.0+2.0
+total tag count in chr14.bed is: 14.0 = 7.0+7.0
+total tag count in chr15.bed is: 6.0 = 4.0+2.0
+total tag count in chr16.bed is: 23.0 = 15.0+8.0
+total tag count in chr17.bed is: 14.0 = 5.0+9.0
+total tag count in chr18.bed is: 4.0 = 3.0+1.0
+total tag count in chr19.bed is: 4.0 = 3.0+1.0
+total tag count in chr20.bed is: 2.0 = 1.0+1.0
+total tag count in chr21.bed is: 0.0 = 0.0+0.0
+total tag count in chr22.bed is: 4.0 = 4.0+0.0
+total tag count in chrM.bed is: 0.0 = 0.0+0.0
+total tag count in chrX.bed is: 4.0 = 3.0+1.0
+total tag count in chrY.bed is: 0.0 = 0.0+0.0
+
+
+Normalize summary graph with filtered reads for test by total island filtered reads per million...
+python $PREFIX/share/sicer-1.1-3/SICER/src/normalize.py -i ./test-W200-G600-FDR.01-islandfiltered.graph -a 3 -t 1000000 -o ./test-W200-G600-FDR.01-islandfiltered-normalized.graph
+
+
+Convert the summary graph made with the filtered reads into wig vstep format and normalize by total island-filtered read count per million...
+sh $PREFIX/share/sicer-1.1-3/SICER/src/variableStep.sh ./test-W200-G600-FDR.01-islandfiltered-normalized.graph ./test-W200-G600-FDR.01-islandfiltered-normalized.wig test 200
+
+
+Done!
+#############################################
+######           SICER v1.1            ######
+#############################################
+Input library directory: $PREFIX/share/sicer-1.1-3/SICER/ex
+ChIP library: test.bed
+Output directory: .
+Species: hg38
+Threshold for redundancy allowed for reads: 1
+Window size: 200 bps
+Fragment size: 150 bps. The shift for reads is half of 150
+Effective genome size as a fraction of the reference genome of hg38: 0.74
+Gap size: 400 bps
+Evalue for identification of significant islands: 100
+ 
+ 
+Preprocess the raw test file to remove redundancy with threshold 1...
+python $PREFIX/share/sicer-1.1-3/SICER/src/remove_redundant_reads.py -s hg38 -b $PREFIX/share/sicer-1.1-3/SICER/ex/test.bed -t 1 -o ./test-1-removed.bed
+chr1 	Plus reads: 451 	Retained plus reads: 447 ;	Minus reads: 437 	Retained minus reads: 434
+chr2 	Plus reads: 437 	Retained plus reads: 432 ;	Minus reads: 454 	Retained minus reads: 450
+chr3 	Plus reads: 368 	Retained plus reads: 367 ;	Minus reads: 363 	Retained minus reads: 357
+chr4 	Plus reads: 326 	Retained plus reads: 320 ;	Minus reads: 344 	Retained minus reads: 341
+chr5 	Plus reads: 343 	Retained plus reads: 341 ;	Minus reads: 285 	Retained minus reads: 284
+chr6 	Plus reads: 324 	Retained plus reads: 322 ;	Minus reads: 304 	Retained minus reads: 303
+chr7 	Plus reads: 252 	Retained plus reads: 250 ;	Minus reads: 258 	Retained minus reads: 255
+chr8 	Plus reads: 276 	Retained plus reads: 272 ;	Minus reads: 260 	Retained minus reads: 258
+chr9 	Plus reads: 191 	Retained plus reads: 190 ;	Minus reads: 175 	Retained minus reads: 173
+chr10 	Plus reads: 225 	Retained plus reads: 225 ;	Minus reads: 228 	Retained minus reads: 227
+chr11 	Plus reads: 234 	Retained plus reads: 233 ;	Minus reads: 247 	Retained minus reads: 245
+chr12 	Plus reads: 254 	Retained plus reads: 253 ;	Minus reads: 259 	Retained minus reads: 257
+chr13 	Plus reads: 188 	Retained plus reads: 185 ;	Minus reads: 153 	Retained minus reads: 152
+chr14 	Plus reads: 158 	Retained plus reads: 157 ;	Minus reads: 166 	Retained minus reads: 164
+chr15 	Plus reads: 163 	Retained plus reads: 163 ;	Minus reads: 141 	Retained minus reads: 140
+chr16 	Plus reads: 140 	Retained plus reads: 139 ;	Minus reads: 121 	Retained minus reads: 121
+chr17 	Plus reads: 123 	Retained plus reads: 122 ;	Minus reads: 147 	Retained minus reads: 147
+chr18 	Plus reads: 130 	Retained plus reads: 130 ;	Minus reads: 146 	Retained minus reads: 144
+chr19 	Plus reads: 93 	Retained plus reads: 92 ;	Minus reads: 78 	Retained minus reads: 77
+chr20 	Plus reads: 111 	Retained plus reads: 109 ;	Minus reads: 115 	Retained minus reads: 115
+chr21 	Plus reads: 68 	Retained plus reads: 67 ;	Minus reads: 45 	Retained minus reads: 45
+chr22 	Plus reads: 57 	Retained plus reads: 57 ;	Minus reads: 57 	Retained minus reads: 57
+chrM 	Plus reads: 0 	Retained plus reads: 0 ;	Minus reads: 0 	Retained minus reads: 0
+chrX 	Plus reads: 131 	Retained plus reads: 131 ;	Minus reads: 151 	Retained minus reads: 151
+chrY 	Plus reads: 7 	Retained plus reads: 7 ;	Minus reads: 16 	Retained minus reads: 16
+ 
+ 
+Partion the genome in windows ...
+Generate summary files for test...
+python $PREFIX/share/sicer-1.1-3/SICER/src/run-make-graph-file-by-chrom.py -s hg38 -b ./test-1-removed.bed -w 200 -i 150 -o ./test-W200.graph
+total tag count in chr1.bed is: 881.0 = 447.0+434.0
+Ilegitimate read with end beyond chromosome length  242193529  is ignored
+chr2	242206624	242206649	U0	0	+
+Ilegitimate read with end beyond chromosome length  242193529  is ignored
+chr2	242351125	242351150	U0	0	+
+total tag count in chr2.bed is: 880.0 = 430.0+450.0
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	198643681	198643706	U0	0	+
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	199362615	199362640	U0	0	+
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	198975230	198975255	U0	0	-
+Ilegitimate read with end beyond chromosome length  198295559  is ignored
+chr3	199060448	199060473	U0	0	-
+total tag count in chr3.bed is: 720.0 = 365.0+355.0
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190255432	190255457	U0	0	+
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190462430	190462455	U0	0	+
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190286092	190286117	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190558926	190558951	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190754595	190754620	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190790720	190790745	U0	0	-
+Ilegitimate read with end beyond chromosome length  190214555  is ignored
+chr4	190843770	190843795	U0	0	-
+total tag count in chr4.bed is: 654.0 = 318.0+336.0
+total tag count in chr5.bed is: 625.0 = 341.0+284.0
+total tag count in chr6.bed is: 625.0 = 322.0+303.0
+total tag count in chr7.bed is: 505.0 = 250.0+255.0
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	145206193	145206218	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	145312039	145312064	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	146247503	146247528	U0	0	+
+Ilegitimate read with end beyond chromosome length  145138636  is ignored
+chr8	146096409	146096434	U0	0	-
+total tag count in chr8.bed is: 526.0 = 269.0+257.0
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	139563097	139563122	U0	0	+
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	140101102	140101127	U0	0	+
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	138498009	138498034	U0	0	-
+Ilegitimate read with end beyond chromosome length  138394717  is ignored
+chr9	140060874	140060899	U0	0	-
+total tag count in chr9.bed is: 359.0 = 188.0+171.0
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	133858956	133858981	U0	0	+
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	133863915	133863940	U0	0	+
+Ilegitimate read with end beyond chromosome length  133797422  is ignored
+chr10	135184283	135184308	U0	0	-
+total tag count in chr10.bed is: 449.0 = 223.0+226.0
+total tag count in chr11.bed is: 478.0 = 233.0+245.0
+total tag count in chr12.bed is: 510.0 = 253.0+257.0
+total tag count in chr13.bed is: 337.0 = 185.0+152.0
+total tag count in chr14.bed is: 321.0 = 157.0+164.0
+total tag count in chr15.bed is: 303.0 = 163.0+140.0
+total tag count in chr16.bed is: 260.0 = 139.0+121.0
+total tag count in chr17.bed is: 269.0 = 122.0+147.0
+total tag count in chr18.bed is: 274.0 = 130.0+144.0
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	58903965	58903990	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	60505373	60505398	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61246468	61246493	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61500372	61500397	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	61771461	61771486	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62592378	62592403	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62592569	62592594	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62803313	62803338	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63589905	63589930	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63643659	63643684	U0	0	+
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	58715840	58715865	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	59396669	59396694	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	59879801	59879826	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62029529	62029554	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	62442113	62442138	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63022681	63022706	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63573435	63573460	U0	0	-
+Ilegitimate read with end beyond chromosome length  58617616  is ignored
+chr19	63775874	63775899	U0	0	-
+total tag count in chr19.bed is: 151.0 = 82.0+69.0
+total tag count in chr20.bed is: 224.0 = 109.0+115.0
+total tag count in chr21.bed is: 112.0 = 67.0+45.0
+total tag count in chr22.bed is: 114.0 = 57.0+57.0
+total tag count in chrM.bed is: 0.0 = 0.0+0.0
+total tag count in chrX.bed is: 282.0 = 131.0+151.0
+total tag count in chrY.bed is: 23.0 = 7.0+16.0
+
+
+Normalize summary graph by total redundancy-removed reads per million for test ...
+python $PREFIX/share/sicer-1.1-3/SICER/src/normalize.py -i ./test-W200.graph -a 3 -t 1000000 -o ./test-W200-normalized.graph
+
+
+Convert the normalized summary graph into wig vstep format...
+sh $PREFIX/share/sicer-1.1-3/SICER/src/variableStep.sh ./test-W200-normalized.graph ./test-W200-normalized.wig test 200
+ 
+ 
+Find significant islands with E-value 100 for test...
+python $PREFIX/share/sicer-1.1-3/SICER/src/find_islands_in_pr.py -s hg38 -b ./test-W200.graph -w 200 -g 400 -t 0.74 -e 100 -f ./test-W200-G400-E100.scoreisland
+Species:  hg38
+Window_size:  200
+Gap size:  400
+E value is: 100.0
+Total read count: 9882.0
+Genome Length:  3088286401
+Effective genome Length:  2285331936
+Window average: 0.000864819665304
+Window pvalue: 0.2
+Minimum num of tags in a qualified window:  1
+Generate the enriched probscore summary graph and filter the summary graph to get rid of ineligible windows 
+Determine the score threshold from random background
+The score threshold is:  7.055
+Make and write islands
+	chrY does not have any islands meeting the required significance
+	chr21 does not have any islands meeting the required significance
+Total number of islands:  143
+
+
+Filter reads with identified significant islands for test...
+python $PREFIX/share/sicer-1.1-3/SICER/utility/filter_raw_tags_by_islands.py -s hg38 -a ./test-1-removed.bed -i 150 -b ./test-W200-G400-E100.scoreisland  -o  ./test-W200-G400-E100-islandfiltered.bed
+
+
+Make summary graph with filtered reads for test...
+python $PREFIX/share/sicer-1.1-3/SICER/src/run-make-graph-file-by-chrom.py -s hg38 -b ./test-W200-G400-E100-islandfiltered.bed -w 200 -i 150 -o ./test-W200-G400-E100-islandfiltered.graph
+total tag count in chr1.bed is: 44.0 = 22.0+22.0
+total tag count in chr2.bed is: 22.0 = 10.0+12.0
+total tag count in chr3.bed is: 16.0 = 11.0+5.0
+total tag count in chr4.bed is: 20.0 = 10.0+10.0
+total tag count in chr5.bed is: 10.0 = 4.0+6.0
+total tag count in chr6.bed is: 22.0 = 14.0+8.0
+total tag count in chr7.bed is: 25.0 = 12.0+13.0
+total tag count in chr8.bed is: 12.0 = 6.0+6.0
+total tag count in chr9.bed is: 10.0 = 6.0+4.0
+total tag count in chr10.bed is: 10.0 = 3.0+7.0
+total tag count in chr11.bed is: 10.0 = 5.0+5.0
+total tag count in chr12.bed is: 20.0 = 8.0+12.0
+total tag count in chr13.bed is: 9.0 = 7.0+2.0
+total tag count in chr14.bed is: 12.0 = 6.0+6.0
+total tag count in chr15.bed is: 6.0 = 4.0+2.0
+total tag count in chr16.bed is: 21.0 = 15.0+6.0
+total tag count in chr17.bed is: 10.0 = 2.0+8.0
+total tag count in chr18.bed is: 2.0 = 1.0+1.0
+total tag count in chr19.bed is: 4.0 = 3.0+1.0
+total tag count in chr20.bed is: 2.0 = 1.0+1.0
+total tag count in chr21.bed is: 0.0 = 0.0+0.0
+total tag count in chr22.bed is: 2.0 = 2.0+0.0
+total tag count in chrM.bed is: 0.0 = 0.0+0.0
+total tag count in chrX.bed is: 4.0 = 3.0+1.0
+total tag count in chrY.bed is: 0.0 = 0.0+0.0
+
+
+Normalize summary graph with filtered reads for test by total island filtered reads per million...
+python $PREFIX/share/sicer-1.1-3/SICER/src/normalize.py -i ./test-W200-G400-E100-islandfiltered.graph -a 3 -t 1000000 -o ./test-W200-G400-E100-islandfiltered-normalized.graph
+
+
+Convert the summary graph made with the filtered reads into wig vstep format and normalize by total island-filtered read count per million...
+sh $PREFIX/share/sicer-1.1-3/SICER/src/variableStep.sh ./test-W200-G400-E100-islandfiltered-normalized.graph ./test-W200-G400-E100-islandfiltered-normalized.wig test 200
+
+
+Done!
+
+Resource usage statistics from testing sicer:
+   Process count: 10
+   CPU time: Sys=0:00:00.7, User=0:00:00.5
+   Memory: 43.7M
+   Disk usage: 1.6K
+   Time elapsed: 0:00:24.6
+
+
+TEST END: sicer-1.1-py27h24bf2e0_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
