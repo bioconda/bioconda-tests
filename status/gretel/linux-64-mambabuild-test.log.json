@@ -1,0 +1,176 @@
+  Package                  Version  Build                Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                conda-forge/linux-64                    Cached
+  + bzip2                    1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                  1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + gretel                  0.0.94  pyh864c0ab_1         /home/vsts/conda/conda-bld/linux-64      19 KB
+  + hanselx                 0.0.92  pyh864c0ab_1         bioconda/noarch                          12 KB
+  + krb5                    1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                  3.9.0  11_linux64_openblas  conda-forge/linux-64                     12 KB
+  + libcblas                 3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libcurl                 7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libdeflate                 1.7  h7f98852_5           conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng          11.1.0  h69a702a_8           conda-forge/linux-64                     19 KB
+  + libgfortran5            11.1.0  h6c583b3_8           conda-forge/linux-64                      2 MB
+  + libgomp                 11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libnghttp2              1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas             0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                      9 MB
+  + libssh2                 1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + ncurses                    6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                   1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                 1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pip                     21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pysam                 0.16.0.1  py39h051187c_3       bioconda/linux-64                         3 MB
+  + python                   3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi                 3.9  2_cp39               conda-forge/linux-64                    Cached
+  + pyvcf                    0.6.8  py39hde42818_1002    conda-forge/linux-64                     65 KB
+  + readline                   8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools              57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite                  3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                   2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 41 packages
+
+  Total download: 20 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: gretel-0.0.94-pyh864c0ab_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/gretel_1630783333438/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    bzip2:            1.0.8-h7f98852_4           conda-forge
+    c-ares:           1.17.2-h7f98852_0          conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    gretel:           0.0.94-pyh864c0ab_1        local      
+    hanselx:          0.0.92-pyh864c0ab_1        bioconda   
+    krb5:             1.19.2-hcc1bbae_0          conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libcurl:          7.78.0-h2574ce0_0          conda-forge
+    libdeflate:       1.7-h7f98852_5             conda-forge
+    libedit:          3.1.20191231-he28a2e2_2    conda-forge
+    libev:            4.33-h516909a_1            conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libnghttp2:       1.43.0-h812cca2_0          conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libssh2:          1.10.0-ha56f1ee_0          conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1l-h7f98852_0          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    pysam:            0.16.0.1-py39h051187c_3    bioconda   
+    python:           3.9.7-h49503c6_0_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    pyvcf:            0.6.8-py39hde42818_1002    conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/gretel_1630783333438/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/gretel_1630783333438/test_tmp
+import: 'gretel'
+import: 'gretel'
+usage: gretel [-h] [-s START] [-e END] [-p PATHS] [--master MASTER]
+              [--gapchar GAPCHAR] [--delchar DELCHAR] [--quiet] [-o OUT]
+              [-@ THREADS] [--debugreads DEBUGREADS] [--debugpos DEBUGPOS]
+              [--debughpos DEBUGHPOS] [--dumpmatrix DUMPMATRIX]
+              [--dumpsnps DUMPSNPS] [--pepper] [--version]
+              bam vcf contig
+
+Gretel: A metagenomic haplotyper.
+
+positional arguments:
+  bam
+  vcf
+  contig
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s START, --start START
+                        1-indexed included start base position [default: 1]
+  -e END, --end END     1-indexed inlcuded end base position [default:
+                        reference length]
+  -p PATHS, --paths PATHS
+                        Maximum number of paths to generate [default:100]
+  --master MASTER       Master sequence (will be used to fill in homogeneous
+                        gaps in haplotypes, otherwise --gapchar)
+  --gapchar GAPCHAR     Character to fill homogeneous gaps in haplotypes if no
+                        --master [default N]
+  --delchar DELCHAR     Character to output in haplotype for deletion (eg. -)
+                        [default is blank]
+  --quiet               Don't output anything other than a single summary
+                        line.
+  -o OUT, --out OUT     Output directory [default .]
+  -@ THREADS, --threads THREADS
+                        Number of BAM iterators [default 1]
+  --debugreads DEBUGREADS
+                        A newline delimited list of read names to output debug
+                        data when parsing the BAM
+  --debugpos DEBUGPOS   A newline delimited list of 1-indexed genomic
+                        positions to output debug data when parsing the BAM
+  --debughpos DEBUGHPOS
+                        A comma delimited list of 1-indexed SNP positions to
+                        output debug data when predicting haplotypes
+  --dumpmatrix DUMPMATRIX
+                        Location to dump the Hansel matrix to disk
+  --dumpsnps DUMPSNPS   Location to dump the SNP positions to disk
+  --pepper              enable a more permissive pileup by setting the pysam
+                        pileup stepper to 'all', instead of 'samtools'. Note
+                        that this will allow improper pairs.
+  --version             show program's version number and exit
+gretel 0.0.94
+
+Resource usage statistics from testing gretel:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: gretel-0.0.94-pyh864c0ab_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
