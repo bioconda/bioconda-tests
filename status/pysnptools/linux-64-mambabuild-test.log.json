@@ -1,0 +1,123 @@
+  Package                Version  Build                  Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex            4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + ca-certificates    2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi           2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + ld_impl_linux-64      2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libblas                3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libcblas               3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libffi                 3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng             11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgfortran-ng         7.5.0  h14aa051_19            conda-forge/linux-64                     22 KB
+  + libgfortran4           7.5.0  h14aa051_19            conda-forge/linux-64                      1 MB
+  + libgomp               11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + liblapack              3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libopenblas           0.3.12  pthreads_hb3c22a3_1    conda-forge/linux-64                      8 MB
+  + libstdcxx-ng          11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                  6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + numpy                 1.16.5  py27h95a1406_0         conda-forge/linux-64                      4 MB
+  + openssl               1.1.1l  h7f98852_0             conda-forge/linux-64                    Cached
+  + pandas                0.24.2  py27hb3f55d8_0         conda-forge/linux-64                     11 MB
+  + pip                   20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + pysnptools            0.3.13  py27h304d29a_5         /home/vsts/conda/conda-bld/linux-64     247 KB
+  + python                2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python-dateutil        2.8.1  py_0                   conda-forge/noarch                      220 KB
+  + python_abi               2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + pytz                  2020.1  pyh9f0ad1d_0           conda-forge/noarch                      227 KB
+  + readline                 8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + scipy                  1.2.1  py27h921218d_2         conda-forge/linux-64                     18 MB
+  + setuptools            44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + six                   1.16.0  pyh6c4a22f_0           conda-forge/noarch                      Cached
+  + sqlite                3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                    8.6.11  h27826a3_1             conda-forge/linux-64                    Cached
+  + wheel                 0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + zlib                  1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 58 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: pysnptools-0.3.13-py27h304d29a_5.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/pysnptools_1630761570094/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libblas:          3.9.0-8_openblas             conda-forge
+    libcblas:         3.9.0-8_openblas             conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgfortran-ng:   7.5.0-h14aa051_19            conda-forge
+    libgfortran4:     7.5.0-h14aa051_19            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    liblapack:        3.9.0-8_openblas             conda-forge
+    libopenblas:      0.3.12-pthreads_hb3c22a3_1   conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    ncurses:          6.2-h58526e2_4               conda-forge
+    numpy:            1.16.5-py27h95a1406_0        conda-forge
+    openssl:          1.1.1l-h7f98852_0            conda-forge
+    pandas:           0.24.2-py27hb3f55d8_0        conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    pysnptools:       0.3.13-py27h304d29a_5        local      
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python-dateutil:  2.8.1-py_0                   conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    pytz:             2020.1-pyh9f0ad1d_0          conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    scipy:            1.2.1-py27h921218d_2         conda-forge
+    setuptools:       44.0.0-py27_0                conda-forge
+    six:              1.16.0-pyh6c4a22f_0          conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h27826a3_1            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/pysnptools_1630761570094/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/pysnptools_1630761570094/test_tmp
+import: 'pysnptools'
+import: 'pysnptools.kernelreader'
+import: 'pysnptools.kernelstandardizer'
+import: 'pysnptools.pstreader'
+import: 'pysnptools.snpreader'
+import: 'pysnptools.standardizer'
+import: 'pysnptools.util'
+import: 'pysnptools'
+import: 'pysnptools.kernelreader'
+import: 'pysnptools.kernelstandardizer'
+import: 'pysnptools.pstreader'
+import: 'pysnptools.snpreader'
+import: 'pysnptools.standardizer'
+import: 'pysnptools.util'
+
+Resource usage statistics from testing pysnptools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: pysnptools-0.3.13-py27h304d29a_5.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
