@@ -1,0 +1,133 @@
+  Package                 Version  Build               Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + brotlipy                0.7.0  py39h89e85a6_1001   conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + certifi             2021.5.30  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + cffi                   1.14.6  py39hb71fe58_0      conda-forge/osx-64                       Cached
+  + chardet                 4.0.0  py39h6e9494a_1      conda-forge/osx-64                       Cached
+  + charset-normalizer      2.0.0  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + cryptography            3.4.7  py39ha2c9959_0      conda-forge/osx-64                       Cached
+  + html5lib                  1.1  pyh9f0ad1d_0        conda-forge/noarch                        89 KB
+  + idna                      3.1  pyhd3deb0d_0        conda-forge/noarch                       Cached
+  + isodate                 0.6.0  py_1                conda-forge/noarch                        25 KB
+  + keepalive                 0.5  py39h6e9494a_5      conda-forge/osx-64                        28 KB
+  + libcxx                 12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                    3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl                1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pycparser                2.20  pyh9f0ad1d_2        conda-forge/noarch                       Cached
+  + pyopenssl              20.0.1  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pyparsing               2.4.7  pyh9f0ad1d_0        conda-forge/noarch                        60 KB
+  + pysocks                 1.7.1  py39h6e9494a_3      conda-forge/osx-64                       Cached
+  + python                  3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi                3.9  2_cp39              conda-forge/osx-64                       Cached
+  + rdflib                  6.0.0  py39h6e9494a_1      /Users/runner/conda/conda-bld/osx-64     549 KB
+  + readline                  8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + requests               2.26.0  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + setuptools             57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + six                    1.16.0  pyh6c4a22f_0        conda-forge/noarch                       Cached
+  + sparqlwrapper           1.8.5  py39h6e9494a_1006   conda-forge/osx-64                        40 KB
+  + sqlite                 3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata                  2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + urllib3                1.26.6  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + webencodings            0.5.1  py_1                conda-forge/noarch                        12 KB
+  + wheel                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                      5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 36 packages
+
+  Total download: 803 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rdflib-6.0.0-py39h6e9494a_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rdflib_1630773384274/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    brotlipy:           0.7.0-py39h89e85a6_1001  conda-forge
+    ca-certificates:    2021.5.30-h033912b_0     conda-forge
+    certifi:            2021.5.30-py39h6e9494a_0 conda-forge
+    cffi:               1.14.6-py39hb71fe58_0    conda-forge
+    chardet:            4.0.0-py39h6e9494a_1     conda-forge
+    charset-normalizer: 2.0.0-pyhd8ed1ab_0       conda-forge
+    cryptography:       3.4.7-py39ha2c9959_0     conda-forge
+    html5lib:           1.1-pyh9f0ad1d_0         conda-forge
+    idna:               3.1-pyhd3deb0d_0         conda-forge
+    isodate:            0.6.0-py_1               conda-forge
+    keepalive:          0.5-py39h6e9494a_5       conda-forge
+    libcxx:             12.0.1-habf9029_0        conda-forge
+    libffi:             3.3-h046ec9c_2           conda-forge
+    ncurses:            6.2-h2e338ed_4           conda-forge
+    openssl:            1.1.1l-h0d85af4_0        conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0      conda-forge
+    pycparser:          2.20-pyh9f0ad1d_2        conda-forge
+    pyopenssl:          20.0.1-pyhd8ed1ab_0      conda-forge
+    pyparsing:          2.4.7-pyh9f0ad1d_0       conda-forge
+    pysocks:            1.7.1-py39h6e9494a_3     conda-forge
+    python:             3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:         3.9-2_cp39               conda-forge
+    rdflib:             6.0.0-py39h6e9494a_1     local      
+    readline:           8.1-h05e3726_0           conda-forge
+    requests:           2.26.0-pyhd8ed1ab_0      conda-forge
+    setuptools:         57.4.0-py39h6e9494a_0    conda-forge
+    six:                1.16.0-pyh6c4a22f_0      conda-forge
+    sparqlwrapper:      1.8.5-py39h6e9494a_1006  conda-forge
+    sqlite:             3.36.0-h23a322b_0        conda-forge
+    tk:                 8.6.11-h5dbffcc_1        conda-forge
+    tzdata:             2021a-he74cb21_1         conda-forge
+    urllib3:            1.26.6-pyhd8ed1ab_0      conda-forge
+    webencodings:       0.5.1-py_1               conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                 5.2.5-haf1e3a3_1         conda-forge
+    zlib:               1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rdflib_1630773384274/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/rdflib_1630773384274/test_tmp
+import: 'rdflib'
+import: 'rdflib.extras'
+import: 'rdflib.plugins'
+import: 'rdflib.plugins.parsers'
+import: 'rdflib.plugins.parsers'
+import: 'rdflib.plugins.serializers'
+import: 'rdflib.plugins.sparql'
+import: 'rdflib.plugins.stores'
+import: 'rdflib.tools'
+import: 'rdflib'
+import: 'rdflib.extras'
+import: 'rdflib.plugins'
+import: 'rdflib.plugins.parsers'
+import: 'rdflib.plugins.parsers'
+import: 'rdflib.plugins.serializers'
+import: 'rdflib.plugins.sparql'
+import: 'rdflib.plugins.stores'
+import: 'rdflib.tools'
+
+Resource usage statistics from testing rdflib:
+   Process count: 3
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 23.4M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: rdflib-6.0.0-py39h6e9494a_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
