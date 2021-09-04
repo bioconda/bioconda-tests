@@ -1,0 +1,63 @@
+  Package   Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx   12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + radsex    1.2.0  hfd59bb5_0     /Users/runner/conda/conda-bld/osx-64     313 KB
+  + zlib     1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 313 KB
+
+─────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: radsex-1.2.0-hfd59bb5_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/radsex_1630782486603/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx: 12.0.1-habf9029_0    conda-forge
+    radsex: 1.2.0-hfd59bb5_0     local      
+    zlib:   1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/radsex_1630782486603/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/radsex_1630782486603/test_tmp
+Usage: radsex [OPTIONS] SUBCOMMAND
+
+Options:
+--help, -h        Print this help message and exit                      
+
+Subcommands:
+  depth                       Compute number of retained reads for each individual
+  distrib                     Compute the distribution of markers between group1 and group2
+  freq                        Compute marker frequencies in all individuals
+  map                         Align markers to a genome and compute metrics for each aligned marker
+  process                     Compute a table of marker depths from a set of demultiplexed reads files
+  signif                      Extract markers significantly associated with phenotypic group from a marker depths table
+  subset                      Extract a subset of a marker depths table
+
+
+Resource usage statistics from testing radsex:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: radsex-1.2.0-hfd59bb5_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
