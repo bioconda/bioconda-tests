@@ -1,0 +1,178 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: nasp-1.0.2a1-py36_3.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpksll9eco/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + mummer                3.23  h589c0e0_12         bioconda/osx-64                            3 MB
+  + nasp               1.0.2a1  py36_3              /Users/runner/conda/conda-bld/osx-64       2 MB
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk           11.0.9.1  hcf210ce_1          conda-forge/osx-64                       169 MB
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python              3.6.13  h7728216_0_cpython  conda-forge/osx-64                        21 MB
+  + python_abi             3.6  2_cp36m             conda-forge/osx-64                         4 KB
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + samtools               1.2  2                   bioconda/osx-64                          428 KB
+  + setuptools          57.4.0  py36h79c6626_0      conda-forge/osx-64                       965 KB
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + trimmomatic           0.39  hdfd78af_2          bioconda/noarch                          144 KB
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 20 packages
+
+  Total download: 196 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/nasp_1630720571830/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0      conda-forge
+    libcxx:          12.0.1-habf9029_0         conda-forge
+    libffi:          3.3-h046ec9c_2            conda-forge
+    mummer:          3.23-h589c0e0_12          bioconda   
+    nasp:            1.0.2a1-py36_3            local      
+    ncurses:         6.2-h2e338ed_4            conda-forge
+    openjdk:         11.0.9.1-hcf210ce_1       conda-forge
+    openssl:         1.1.1l-h0d85af4_0         conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0       conda-forge
+    python:          3.6.13-h7728216_0_cpython conda-forge
+    python_abi:      3.6-2_cp36m               conda-forge
+    readline:        8.1-h05e3726_0            conda-forge
+    samtools:        1.2-2                     bioconda   
+    setuptools:      57.4.0-py36h79c6626_0     conda-forge
+    sqlite:          3.36.0-h23a322b_0         conda-forge
+    tk:              8.6.11-h5dbffcc_1         conda-forge
+    trimmomatic:     0.39-hdfd78af_2           bioconda   
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1          conda-forge
+    zlib:            1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/nasp_1630720571830/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/nasp_1630720571830/test_tmp
+import: 'nasp'
+import: 'nasp'
+usage: nasp [-h] [--config CONFIG] [reference_fasta] [output_folder]
+
+This is the "Northern Arizona SNP Pipeline", version 1.0.0
+
+positional arguments:
+  reference_fasta  Path to the reference fasta.
+  output_folder    Folder to store the output files.
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --config CONFIG  Path to the configuration xml file.
+usage: format_fasta [-h] --inputfasta INPUTFASTA --outputfasta OUTPUTFASTA
+
+Reformats a fasta to be split 80 characters per line, with system line-
+endings.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --inputfasta INPUTFASTA
+                        Path to input fasta.
+  --outputfasta OUTPUTFASTA
+                        Path to output fasta.
+usage: find_duplicates [-h] [--nucmerpath NUCMERPATH] --reference REFERENCE
+
+Meant to be called from the pipeline automatically.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --nucmerpath NUCMERPATH
+                        Path to the 'nucmer' executable.
+  --reference REFERENCE
+                        Path to the reference fasta file.
+usage: convert_external_genome [-h] [--nucmerpath NUCMERPATH]
+                               [--nucmerargs NUCMERARGS]
+                               [--deltafilterpath DELTAFILTERPATH]
+                               [--deltafilterargs DELTAFILTERARGS] --reference
+                               REFERENCE --external EXTERNAL [--name NAME]
+
+Meant to be called from the pipeline automatically.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --nucmerpath NUCMERPATH
+                        Path to the 'nucmer' executable.
+  --nucmerargs NUCMERARGS
+                        Optional arguments to pass to the 'nucmer' executable.
+  --deltafilterpath DELTAFILTERPATH
+                        Path to the 'delta-filter' executable.
+  --deltafilterargs DELTAFILTERARGS
+                        Optional arguments to pass to the 'delta-filter'
+                        executable.
+  --reference REFERENCE
+                        Path to the reference fasta file.
+  --external EXTERNAL   Path to the external genome fasta file.
+  --name NAME           Name of this external genome.
+usage: vcf_to_matrix [-h] --mode {commandline,xml}
+                     [--reference-fasta REFERENCE_FASTA]
+                     [--reference-dups REFERENCE_DUPS]
+                     [--input-files INPUT_FILES [INPUT_FILES ...]]
+                     [--matrix-folder MATRIX_FOLDER]
+                     [--stats-folder STATS_FOLDER]
+                     [--minimum-coverage MINIMUM_COVERAGE]
+                     [--minimum-proportion MINIMUM_PROPORTION]
+                     [--num-threads NUM_THREADS] [--dto-file DTO_FILE]
+
+Meant to be called from the pipeline automatically.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --mode {commandline,xml}
+                        Data passing mode, must be set to 'commandline' or
+                        'xml'.
+  --reference-fasta REFERENCE_FASTA
+                        Path to input reference fasta file.
+  --reference-dups REFERENCE_DUPS
+                        Path to input reference dups file.
+  --input-files INPUT_FILES [INPUT_FILES ...]
+                        Path to input VCF/fasta files for matrix conversion.
+  --matrix-folder MATRIX_FOLDER
+                        Name of folder to write output matries to.
+  --stats-folder STATS_FOLDER
+                        Name of folder to write statistics files to.
+  --minimum-coverage MINIMUM_COVERAGE
+                        Minimum coverage depth at a position.
+  --minimum-proportion MINIMUM_PROPORTION
+                        Minimum proportion of reads that must match the call
+                        at a position.
+  --num-threads NUM_THREADS
+                        Number of threads to use when processing input.
+  --dto-file DTO_FILE   Path to a matrix_dto XML file that defines all the
+                        parameters.
+
+Resource usage statistics from testing nasp:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 19.0M
+   Disk usage: 16B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: nasp-1.0.2a1-py36_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
