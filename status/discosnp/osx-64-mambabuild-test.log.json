@@ -1,0 +1,235 @@
+  Package                 Version  Build               Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bwa                    0.7.17  h188c3c3_8          bioconda/osx-64                          208 KB
+  + ca-certificates     2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + discosnp                2.5.4  hfd59bb5_1          /Users/runner/conda/conda-bld/osx-64       8 MB
+  + dsk                     2.2.0  ha92aebf_2          bioconda/osx-64                            4 MB
+  + libcxx                 12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                    3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl                1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + perl                   5.32.1  0_h0d85af4_perl5    conda-forge/osx-64                        13 MB
+  + pip                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python                  3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi                3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline                  8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools             57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + shortreadconnector      1.1.3  ha92aebf_2          bioconda/osx-64                            4 MB
+  + sqlite                 3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata                  2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                      5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 30 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: discosnp-2.5.4-hfd59bb5_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/discosnp_1630741395778/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    bwa:                0.7.17-h188c3c3_8        bioconda   
+    ca-certificates:    2021.5.30-h033912b_0     conda-forge
+    discosnp:           2.5.4-hfd59bb5_1         local      
+    dsk:                2.2.0-ha92aebf_2         bioconda   
+    libcxx:             12.0.1-habf9029_0        conda-forge
+    libffi:             3.3-h046ec9c_2           conda-forge
+    ncurses:            6.2-h2e338ed_4           conda-forge
+    openssl:            1.1.1l-h0d85af4_0        conda-forge
+    perl:               5.32.1-0_h0d85af4_perl5  conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0      conda-forge
+    python:             3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:         3.9-2_cp39               conda-forge
+    readline:           8.1-h05e3726_0           conda-forge
+    setuptools:         57.4.0-py39h6e9494a_0    conda-forge
+    shortreadconnector: 1.1.3-ha92aebf_2         bioconda   
+    sqlite:             3.36.0-h23a322b_0        conda-forge
+    tk:                 8.6.11-h5dbffcc_1        conda-forge
+    tzdata:             2021a-he74cb21_1         conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                 5.2.5-haf1e3a3_1         conda-forge
+    zlib:               1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/discosnp_1630741395778/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/discosnp_1630741395778/test_tmp
+
+ ************
+ *** HELP ***
+ ************
+run_discoSnp++.sh, a pipelining kissnp2 and kissreads for calling SNPs and small indels from NGS reads without the need of a reference genome
+Version 2.3.X
+Usage: ./run_discoSnp++.sh -r read_file_of_files [OPTIONS]
+MANDATORY
+	 -r|--fof <file name of a file of file(s)>
+		 The input read files indicated in a file of file(s)
+		 Example: -r bank.fof with bank.fof containing the two lines 
+			 data_sample/reads_sequence1.fasta
+			 data_sample/reads_sequence2.fasta.gz
+
+OPTIONS
+	 -k | --k_size value <int value>
+		 Set the length of used kmers. Must fit the compiled value.
+		 Default=31
+	 -c | --min_coverage value <int value>
+		 Set the minimal coverage per read set: Used by kissnp2 (don't use kmers with lower coverage) and kissreads (read coherency threshold).
+		 This coverage can be automatically detected per read set (in this case use "auto" or specified per read set, see the documentation.
+		 Default=3
+	 -C | --max_coverage value <int value in 0, 1 or 2>
+		 Set the maximal coverage for each read set: Used by kissnp2 (don't use kmers with higher coverage).
+		 Default=2^31-1
+	 -b | --branching value. 
+		 0: forbid variants for which any of the two paths is branching (high precision, lowers the recall in complex genomes).
+		 Default value
+		 1: (smart branching) forbid SNPs for which the two paths are branching (e.g. the two paths can be created either with a 'A' or a 'C' at the same position
+		2: No limitation on branching (lowers the precision, high recall)
+	 -s | --symmetrical value <int value>
+		 In -b 2 mode only: maximal number of symmetrical crossroads traversed while trying to close a bubble. Default: no limit
+	 -g | --graph <file name>
+		 Reuse a previously created graph (.h5 file)
+	 -X	 Stop discoSnp++ right after variant calling - the output is only a fasta file with no coverage information.
+	 -D | --deletion_max_size <int>
+		 discoSnp++ will search for deletions of size from 0 to D included. -D 0 means no deletion detected. Default=100.
+	 -a | --ambiguity_max_size <int>
+		 Maximal size of ambiguity of INDELs. INDELS whose ambiguity is higher than this value are not output  [default '20']
+	 -P | --max_snp_per_bubble <int>
+		 discoSnp++ will search up to P SNPs in a unique bubble. Default=3
+	 --fof_mapping <file name of a file of file(s)>
+		 If this option is used this fof is used when mapping back reads on the predicted variants instead of the original fof file provided by -r|--fof option
+	 -p | --prefix <string>
+		 All out files will start with this prefix. Default="discoRes"
+	 -l | --no_low_complexity
+		 Remove low complexity bubbles
+	 -T | --contigs
+		 Extend found polymorphisms with contigs (default: extend with unitigs)
+	 -d | --max_substitutions <int>
+		 Set the number of authorized substitutions used while mapping reads on found SNPs (kissreads). Default=1
+	 -n | --no_genotype
+		 Do not compute the genotypes
+	 -u | --max_threads <int>
+		 Max number of used threads. 0 means all threads
+		 default 0
+
+REFERENCE GENOME AND/OR VCF CREATION OPTIONS
+	 -G | --reference_genome <file name>
+		 Reference genome file (fasta, fastq, gzipped or nor). In absence of this file the VCF created by VCF_creator won't contain mapping related results.
+	 -R
+		 Use the reference file also in the variant calling, not only for mapping results
+	 -B | --bwa_path <directory name>
+		 bwa path. e.g. /home/me/my_programs/bwa-0.7.12/ (note that bwa must be pre-compiled)
+		 Optional unless option -G used and bwa is not in the binary path.
+	 -e	 Map variant predictions on reference genome with their unitig or contig extensions.
+		 Useless unless mapping on reference genome is required (option -G). 
+
+	 -w	 Wraith mode: only show all discoSnp++ commands without running them
+	 -v <0 or 1>
+		 Verbose 0 (avoids progress output) or 1 (enables progress output) -- default=1.
+	 -h | --help
+		 Prints this message and exist
+
+Any further question: read the readme file or contact us via the Biostar forum: https://www.biostars.org/t/discosnp/
+
+
+ ************
+ *** HELP ***
+ ************
+run_discoSnpRad.sh, pipelining kissnp2 and kissreads and clustering per locus for calling SNPs and small indels from RAD-seq data without the need of a reference genome
+Version: 2.3.X
+Cookbook: You may find a Cookbook here https://github.com/GATB/DiscoSnp/blob/master/discoSnpRAD/COOKBOOK.md providing classical use cases.
+Usage: ./run_discoSnpRad.sh --fof read_file_of_files --src [src_path] [OPTIONS]
+MANDATORY
+      -r|--fof <file name of a file of file(s)>
+           The input read files indicated in a file of file(s)
+           Example: -r bank.fof with bank.fof containing the two lines
+             data_sample/reads_sequence1.fasta
+             data_sample/reads_sequence2.fasta.gz
+      Note: DiscoSnp-RAD uses files demultiplexed to samples. Each sample corresponds to exactly one line in the input file of files.
+
+PARAMETERS
+      -k | --k_size value <int value>
+           Set the length of used kmers. Must fit the compiled value.
+           Default=31
+      -c | --min_coverage value <int value>
+           Set the minimal coverage per read set: Used by kissnp2 (don't use kmers with lower coverage) and kissreads (read coherency threshold).
+           This coverage can be automatically detected per read set (in this case use "auto" or specified per read set, see the documentation.)
+           Default=3
+      --high_precision | -R
+           lower recall / higher precision mode. With this parameter no symmetrical crossroads may be traversed during bubble detection (by default up to 5 symmetrical crossroads may be traversed during bubble detection).
+
+OPTIONS
+      -g | --graph <file name>
+           Reuse a previously created graph (.h5 file)
+      -p | --prefix <string>
+           All out files will start with this prefix. Default="discoRes"
+      -C | --max_coverage <int value>
+           Set the maximal coverage for each read set: Used by kissnp2 (don't use kmers with higher coverage).
+           Default=2^31-1
+      -l | --no_low_complexity
+           Remove low complexity bubbles
+      -D | --deletion_max_size <int value>
+           discoSnpRad will search for deletions of size from 0 to D included. Default=0 (no deletion)
+
+CLUSTERING OPTION
+      -S|--src [src_path]
+           performs clustering of variants with short_read_connector
+           src_path: **absolute** path to short_read_connector directory, containing the "short_read_connector.sh" file. 
+           -Note1: short read connector must be compiled.
+           -Note2: if no value is given, it assumes short_read_connector.sh is in the PATH env variable.
+           -Note3: with this option, discoSnpRad outputs a vcf file containing the variants clustered by locus
+      --max_size_cluster <int value> 
+           Discards cluster containing more than this number of variants. (Default 150)
+           Requires the -S or --src option
+
+FILTERING OPTION
+      --max_missing <float value> 
+           Remove variants with more than max_missing % missing values. (Default 0.95, removes variants detected in 5% and less populations)
+      --min_rank <float value>
+           Remove variants whose rank is smaller than this threshold. (Default 0.4)
+
+ADVANCED OPTIONS
+      -P | --max_snp_per_bubble <int>
+           discoSnpRad will search up to P SNPs in a unique bubble. Default=5
+      -d | --max_substitutions <int>
+           Set the number of authorized substitutions used while mapping reads on found SNPs (kissreads). Default=10
+
+MISC.
+      -u | --max_threads <int>
+           Max number of used threads. 0 means all threads
+           default 0
+      -w      Wraith mode: only show all discoSnpRad commands without running them
+      -v <0 or 1>
+           Verbose 0 (avoids progress output) or 1 (enables progress output) -- default=1.
+      -h | --help
+           Prints this message and exist
+
+Any further question: read the readme file or contact us via the Biostar forum: https://www.biostars.org/t/discosnp/
+
+Resource usage statistics from testing discosnp:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: discosnp-2.5.4-hfd59bb5_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
