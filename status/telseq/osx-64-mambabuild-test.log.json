@@ -1,0 +1,82 @@
+  Package     Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + bamtools    2.5.1  h87af4ef_9     bioconda/osx-64                          801 KB
+  + libcxx     12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + telseq      0.0.2  h1dd8f7c_4     /Users/runner/conda/conda-bld/osx-64      96 KB
+  + zlib       1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 897 KB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: telseq-0.0.2-h1dd8f7c_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/telseq_1630791668643/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    bamtools: 2.5.1-h87af4ef_9     bioconda   
+    libcxx:   12.0.1-habf9029_0    conda-forge
+    telseq:   0.0.2-h1dd8f7c_4     local      
+    zlib:     1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/telseq_1630791668643/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/telseq_1630791668643/test_tmp
+Program: TelSeq
+Version: 0.0.1
+Contact: Zhihao Ding [zhihao.ding@gmail.com]
+
+Usage: telseq [OPTION] <in.1.bam> <in.2.bam> <...> 
+Scan BAM and estimate telomere length. 
+   <in.bam>                 one or more BAM files to be analysed. File names can also be passed from a pipe, 
+                             with each row containing one BAM path.
+   -f, --bamlist=STR        a file that contains a list of file paths of BAMs. It should has only one column, 
+                            with each row a BAM file path. -f has higher priority than <in.bam>. When specified, 
+                            <in.bam> are ignored.
+   -o, --output_dir=STR     output file for results. Ignored when input is from stdin, in which case output will be stdout. 
+   -H                       remove header line, which is printed by default.
+   -h                       print the header line only. The text can be used to attach to result files, useful
+                            when the headers of the result files are suppressed. 
+   -m                       merge read groups by taking a weighted average across read groups of a sample, weighted by 
+                            the total number of reads in read group. Default is to output each readgroup separately.
+   -u                       ignore read groups. Treat all reads in BAM as if they were from a same read group.
+   -k                       threshold of the amount of TTAGGG/CCCTAA repeats in read for a read to be considered telomeric. default = 7.
+
+Testing functions
+------------
+   -r                       read length. default = 100
+   -z                       use user specified pattern for searching [ATGC]*.
+   -e, --exomebed=STR       specifiy exome regions in BED format. These regions will be excluded 
+   -w,                      consider BAMs in the speicfied bamlist as one single BAM. This is useful when 
+                            the initial alignemt is separated for some reason, such as one for mapped and one for ummapped reads. 
+   --help                   display this help and exit
+
+Report bugs to zhihao.ding@gmail.com
+
+
+Resource usage statistics from testing telseq:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: telseq-0.0.2-h1dd8f7c_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
