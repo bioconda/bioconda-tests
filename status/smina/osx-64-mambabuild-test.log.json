@@ -1,0 +1,221 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: smina-2020.12.10-hfcb3d6c_0.tar.bz2
+Source cache directory is: /Users/runner/conda/conda-bld/src_cache
+Downloading source to cache: 2020.12.10_4b99cdec79.tar.gz
+Downloading https://github.com/jaimergp/smina/archive/2020.12.10.tar.gz
+Success
+patching file CMakeLists.txt
+patching file CMakeLists.txt
+Extracting download
+Applying patch: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpb9eyzq42/info/recipe/cmake.patch
+Applying patch: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpb9eyzq42/info/recipe/cmake.patch with args:
+['-Np1', '-i', '/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpowv25b1w/cmake.patch.native', '--binary']
+Patch analysis gives:
+[[ RA-MD1LOVE ]] - [[                                                             cmake.patch ]]
+
+Key:
+
+R :: Reversible                       A :: Applicable
+Y :: Build-prefix patch in use        M :: Minimal, non-amalgamated
+D :: Dry-runnable                     N :: Patch level (1 is preferred)
+L :: Patch level not-ambiguous        O :: Patch applies without offsets
+V :: Patch applies without fuzz       E :: Patch applies without emitting to stderr
+
+Renaming work directory '/Users/runner/conda/conda-bld/work' to '/Users/runner/conda/conda-bld/smina_1630811688565/work_moved_smina-2020.12.10-hfcb3d6c_0_osx-64'
+shutil.move(work)=/Users/runner/conda/conda-bld/work, dest=/Users/runner/conda/conda-bld/smina_1630811688565/work_moved_smina-2020.12.10-hfcb3d6c_0_osx-64)
+  Package               Version  Build               Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + boost-cpp            1.74.0  hff03dee_4          conda-forge/osx-64                        16 MB
+  + bzip2                 1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + ca-certificates   2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + cairo                1.16.0  he43a7df_1008       conda-forge/osx-64                       Cached
+  + fontconfig           2.13.1  h10f422b_1005       conda-forge/osx-64                       Cached
+  + freetype             2.10.4  h4cff582_1          conda-forge/osx-64                       Cached
+  + gettext            0.19.8.1  h7937167_1005       conda-forge/osx-64                       Cached
+  + icu                    68.1  h74dc148_0          conda-forge/osx-64                       Cached
+  + libcxx               12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                  3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libglib              2.68.4  hd556434_0          conda-forge/osx-64                       Cached
+  + libiconv               1.16  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + libpng               1.6.37  h7cec526_2          conda-forge/osx-64                       Cached
+  + libxml2              2.9.12  h93ec3fd_0          conda-forge/osx-64                       Cached
+  + lz4-c                 1.9.3  he49afe7_1          conda-forge/osx-64                       Cached
+  + ncurses                 6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openbabel             3.1.1  py39hb4f85b1_1      conda-forge/osx-64                         5 MB
+  + openssl              1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pcre                   8.45  he49afe7_0          conda-forge/osx-64                       Cached
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + pixman               0.40.0  hbcb3906_0          conda-forge/osx-64                       Cached
+  + python                3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi              3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline                8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools           57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + smina            2020.12.10  hfcb3d6c_0          /Users/runner/conda/conda-bld/osx-64     572 KB
+  + sqlite               3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata                2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                    5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                 1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+  + zstd                  1.5.0  h582d3a0_0          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 21 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/smina_1630811688565/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    boost-cpp:       1.74.0-hff03dee_4        conda-forge
+    bzip2:           1.0.8-h0d85af4_4         conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    cairo:           1.16.0-he43a7df_1008     conda-forge
+    fontconfig:      2.13.1-h10f422b_1005     conda-forge
+    freetype:        2.10.4-h4cff582_1        conda-forge
+    gettext:         0.19.8.1-h7937167_1005   conda-forge
+    icu:             68.1-h74dc148_0          conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libglib:         2.68.4-hd556434_0        conda-forge
+    libiconv:        1.16-haf1e3a3_0          conda-forge
+    libpng:          1.6.37-h7cec526_2        conda-forge
+    libxml2:         2.9.12-h93ec3fd_0        conda-forge
+    lz4-c:           1.9.3-he49afe7_1         conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openbabel:       3.1.1-py39hb4f85b1_1     conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pcre:            8.45-he49afe7_0          conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    pixman:          0.40.0-hbcb3906_0        conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    smina:           2020.12.10-hfcb3d6c_0    local      
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+    zstd:            1.5.0-h582d3a0_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/smina_1630811688565/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/smina_1630811688565/test_tmp
+
+Input:
+  -r [ --receptor ] arg         rigid part of the receptor (PDBQT)
+  --flex arg                    flexible side chains, if any (PDBQT)
+  -l [ --ligand ] arg           ligand(s)
+  --flexres arg                 flexible side chains specified by comma 
+                                separated list of chain:resid or 
+                                chain:resid:icode
+  --flexdist_ligand arg         Ligand to use for flexdist
+  --flexdist arg                set all side chains within specified distance 
+                                to flexdist_ligand to flexible
+
+Search space (required):
+  --center_x arg                X coordinate of the center
+  --center_y arg                Y coordinate of the center
+  --center_z arg                Z coordinate of the center
+  --size_x arg                  size in the X dimension (Angstroms)
+  --size_y arg                  size in the Y dimension (Angstroms)
+  --size_z arg                  size in the Z dimension (Angstroms)
+  --autobox_ligand arg          Ligand to use for autobox
+  --autobox_add arg             Amount of buffer space to add to auto-generated
+                                box (default +4 on all six sides)
+  --no_lig                      no ligand; for sampling/minimizing flexible 
+                                residues
+
+Scoring and minimization options:
+  --scoring arg                 specify alternative builtin scoring function
+  --custom_scoring arg          custom scoring function file
+  --custom_atoms arg            custom atom type parameters file
+  --score_only                  score provided ligand pose
+  --local_only                  local search only using autobox (you probably 
+                                want to use --minimize)
+  --minimize                    energy minimization
+  --randomize_only              generate random poses, attempting to avoid 
+                                clashes
+  --minimize_iters arg (=0)     number iterations of steepest descent; default 
+                                scales with rotors and usually isn't sufficient
+                                for convergence
+  --accurate_line               use accurate line search
+  --minimize_early_term         Stop minimization before convergence conditions
+                                are fully met.
+  --approximation arg           approximation (linear, spline, or exact) to use
+  --factor arg                  approximation factor: higher results in a 
+                                finer-grained approximation
+  --force_cap arg               max allowed force; lower values more gently 
+                                minimize clashing structures
+  --user_grid arg               Autodock map file for user grid data based 
+                                calculations
+  --user_grid_lambda arg (=-1)  Scales user_grid and functional scoring
+  --print_terms                 Print all available terms with default 
+                                parameterizations
+  --print_atom_types            Print all available atom types
+
+Output (optional):
+  -o [ --out ] arg              output file name, format taken from file 
+                                extension
+  --out_flex arg                output file for flexible receptor residues
+  --log arg                     optionally, write log file
+  --atom_terms arg              optionally write per-atom interaction term 
+                                values
+  --atom_term_data              embedded per-atom interaction terms in output 
+                                sd data
+
+Misc (optional):
+  --cpu arg                     the number of CPUs to use (the default is to 
+                                try to detect the number of CPUs or, failing 
+                                that, use 1)
+  --seed arg                    explicit random seed
+  --exhaustiveness arg (=8)     exhaustiveness of the global search (roughly 
+                                proportional to time)
+  --num_modes arg (=9)          maximum number of binding modes to generate
+  --energy_range arg (=3)       maximum energy difference between the best 
+                                binding mode and the worst one displayed 
+                                (kcal/mol)
+  --min_rmsd_filter arg (=1)    rmsd value used to filter final poses to remove
+                                redundancy
+  -q [ --quiet ]                Suppress output messages
+  --addH arg                    automatically add hydrogens in ligands (on by 
+                                default)
+
+Configuration file (optional):
+  --config arg                  the above options can be put here
+
+Information (optional):
+  --help                        display usage summary
+  --help_hidden                 display usage summary with hidden options
+  --version                     display program version
+
+smina 2020.12.10 conda-forge:b08c07c   Built Jan 30 2021.  Based on AutoDock Vina 1.1.2.
+
+Resource usage statistics from testing smina:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: smina-2020.12.10-hfcb3d6c_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
