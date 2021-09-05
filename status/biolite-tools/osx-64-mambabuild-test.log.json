@@ -1,0 +1,241 @@
+  Package          Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + biolite-tools    0.4.0  h87af4ef_5     /Users/runner/conda/conda-bld/osx-64     238 KB
+  + libcxx          12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + zlib            1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 238 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: biolite-tools-0.4.0-h87af4ef_5.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/biolite-tools_1630872262594/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    biolite-tools: 0.4.0-h87af4ef_5     local      
+    libcxx:        12.0.1-habf9029_0    conda-forge
+    zlib:          1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/biolite-tools_1630872262594/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/biolite-tools_1630872262594/test_tmp
+
+usage: coverage [-i SAM] [-o STATS]
+
+Parses a SAM alignment file and writes a coverage table to STATS with columns
+for the reference name, the length of the referene, and the number of reads
+covering it in the alignment.
+
+If no input files are specified, input is read from stdin.
+If not output is specified, stdout is used.
+
+  -i  specify SAM input file
+  -1  SAM input has a single reference: report coverage for each index
+      in the reference
+
+
+usage: exclude -x EXCLUDE_FILE [-k] [...] [-i INPUT ...] [-o OUTPUT ...]
+
+Filters all the reads in the input files (FASTA or FASTQ is automatically
+detected) and excludes those with ids found in any of the EXCLUDE_FILEs.
+
+If no inputs are specified, input is read from stdin. If no outputs are
+specified, stdout is used.
+
+If multiple input files are specified, these are treated as paired files.
+So if a sequence in one input is excluded, its pair is also excluded from
+the same position in all other input files.
+
+  -x  each line in EXCLUDE_FILE is truncated by a space or tab and
+      stored as an id to exclude
+  -k  invert exclude file to keep entries
+  -i  specify multiple INPUT files
+  -o  specify multiple OUTPUT files
+
+Example usage:
+exclude -x ids.txt -i 1.fastq -i 2.fastq -o 1.filtered.fastq -o 2.filtered.fastq
+
+
+usage: filter_illumina [-i INPUT ...] [-o OUTPUT ...] [-u UNPAIRED-OUTPUT] [-f]
+                       [-t OFFSET] [-q QUALITY] [-n NREADS] [-a] [-b] [-s SEP]
+
+Filters out low-quality and adapter-contaminated reads from Illumina data.
+
+If no inputs are specified, input is read from stdin. If no outputs are
+specified, stdout is used.
+
+If multiple input files are specified, these are treated as paired files.
+So if a sequence in one input is filtered, its pair is also filtered from
+the same position in all other input files.
+
+  -i  specify multiple INPUT files
+  -o  specify multiple OUTPUT files. If input data are paired, these files
+      contain only reads that passed for both members of the pair
+  -u  specify single OUTPUT file for reads that passed for one member of a
+      pair but not the other. These reads passed the filter criteria, but
+      are excluded from the multiple OUTPUT files specified by -o because 
+      their paired read did not pass
+  -f  use FASTA output instead of FASTQ
+  -t  ascii OFFSET for the quality score (default = 33)
+  -q  filter out reads that have a mean quality less than QUALITY
+  -n  limit output to only the first NREADS that pass
+  -a  remove Illumina adapter sequences
+  -b  remove sequences with suspicious base content
+  -s  reformat paired read ID lines by replacing everything after the first
+      space, tab or / with the specified SEP followed by the input file number
+      (e.g. '/' will use /1 as the ID suffix for the first input file, etc.)
+
+Example usage on paired-end data:
+filter_illumina -i 1.fastq -i 2.fastq -o 1.filtered.fastq -o 2.filtered.fastq
+
+
+usage: fasta2fastq -i FASTA [...] -q QUAL [...] [-o FASTQ] [-a] [-t OFFSET]
+
+Merges each FASTA file and its corresponding QUAL file into a FASTQ file
+with the name <basename>.fastq, where <basename> in the FASTA name up to the
+last period (or with name FASTQ if specified).
+
+FASTQ is *appended* to (not truncated).
+
+  -i  specify multiple FASTA input files
+  -q  specify multiple (corresponding) QUAL input files
+  -o  specify multiple (corresponding) FASTQ output files
+  -a  scores in QUAL file are ASCII (default: numerical scores)
+  -t  use OFFSET for converting ASCII quality scores (default: 33)
+
+
+usage: fastq2fasta -i FASTQ [...] [-o FASTA ...] [-q QUAL ...] [-a]
+                   [-t OFFSET] [-s SUFFIX]
+
+Converts each FASTQ input file to a FASTA file and quality score file
+with the names <basename>.fasta and <basename>.fasta.qual, where <basename>
+is the name of INPUT up to the last period (or with the names FASTA and QUAL
+if specified).
+
+FASTA and QUAL are *appended* to (not truncated).
+
+  -i  specify multiple FASTQ input files
+  -o  specify multiple (corresponding) FASTA output files
+  -q  specify multiple (corresponding) QUAL output files
+  -a  print ASCII quality scores (default: numerical scores)
+  -t  use OFFSET for converting ASCII quality scores (default: 33)
+  -s  reformat the ID line by replacing everything after a space, tab or / with
+      with the specified SUFFIX
+
+
+usage: interleave -i INPUT [...] [-o OUTPUT] [-s SEP]
+
+Interleaves the records in the input files (FASTA or FASTQ is automatically
+detected) and writes them to OUTPUT, or to stdout if no OUTPUT is specified.
+
+  -i  specify multiple INPUT files
+  -o  specify the OUTPUT file
+  -s  reformat paired read ID lines by replacing everything after the first
+      space, tab or / with the specified SEP followed by the input file number
+      (e.g. '/' will use /1 as the ID suffix for the first input file, etc.)
+
+Example usage:
+interleave -i 1.fastq -i 2.fastq -o shuffled.fastq
+
+
+usage: pair_reads [-i FASTQ ...] -o BASENAME [-s SEP]
+
+Builds a hash table of reads keyed on read ID for each FASTQ file, and writes
+all paired reads in consistent order to the files BASENAME.pairs.N.fastq,
+where N is the pair number (1,2) found after the separator SEP in the read's ID
+line. All unpaired reads are written to the files BASENAME.single.N.fastq.
+
+Output reads will have the ID followed by /1 or /2 as the ID line.
+
+If no inputs are specified, input is read from stdin.
+
+  -i  specify multiple input FASTQ files
+  -o  specify the BASENAME for the output files
+  -s  use SEP as the separator in the ID line that precedes the pair number
+      [default ' ', for Casava 1.8 headers]
+
+Example usage:
+pair_reads -i 1.fastq -i 2.fastq -o paired
+
+
+usage: randomize [-i INPUT] [-o OUTPUT] [-r READ-ORDER] [-w WRITE-ORDER]
+
+Randomizes the order of sequences in each INPUT file and writes these to a
+corresponding OUTPUT file. By default, a new random write order is generated
+and saved to WRITE-ORDER, if specified. Alternatively, specifying a READ-ORDER
+file uses that order instead of a random one.
+
+If no input files are specified, input is read from stdin. FASTQ or FASTA
+format is automatically detected. If no output is specified, stdout is used.
+
+  -i  specify multiple INPUT files
+  -o  specify multiple OUTPUT files
+  -r  use the order in READ-ORDER instead of a random order
+  -w  write the random order to WRITE-ORDER
+
+Example usage for randomizing paired-end data in the same order:
+randomize -i 1.fastq -o 1.random.fastq -w order.txt
+randomize -i 2.fastq -o 2.random.fastq -r order.txt
+
+Example usage for randomizing single-end data:
+randomize -i s.fastq -o s.random.fastq
+
+
+usage: insert_stats -i SAM -o HIST -m MAX_INSERT
+
+Reads a SAM alignment file and uses it to estimate the mean and std. dev.
+of the insert size of the mapped paired-end reads. A histogram of all insert
+sizes encountered is written to the HIST file.
+
+  -i  specify the SAM input file
+  -o  specify the STATS output file
+  -m  MAX_INSERT bin allocated for the histogram
+
+
+usage: pileup_stats -i PILEUP -o HIST -m OVERLAP
+
+Reads a SAMtools pileup file and uses it to find potential sequence disconnects.
+A histogram of all disconnect events encountered is written to the HIST file.
+
+  -i  specify the PILEUP input file
+  -o  specify the HIST output file
+  -m  specify the min OVERLAP (default: 0)
+
+
+usage: threshold -n THRESHOLD [-s SHORT_READS] [INPUT ...]
+
+Filters the input FASTA or FASTQ files, printing all reads longer than
+THRESHOLD to stdout, and (optionally) all shorter reads to the SHORT_READS
+file. If no input files are specified, input is read from stdin.
+
+  -n THRESHOLD   non-negative length
+  -s SHORT_READS file to print short reads to
+
+
+Resource usage statistics from testing biolite-tools:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: biolite-tools-0.4.0-h87af4ef_5.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
