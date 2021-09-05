@@ -1,0 +1,546 @@
+  Package                            Version  Build                Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                        0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex                        4.5  1_gnu                conda-forge/linux-64                    Cached
+  + blast                             2.12.0  pl5262h3289130_0     bioconda/linux-64                        22 MB
+  + bowtie2                            2.4.4  py39hbb4e92a_0       bioconda/linux-64                        15 MB
+  + brotlipy                           0.7.0  py39h3811e60_1001    conda-forge/linux-64                    Cached
+  + bzip2                              1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                            1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates                2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + certifi                        2021.5.30  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + cffi                              1.14.6  py39he32792d_0       conda-forge/linux-64                    Cached
+  + chardet                            4.0.0  py39hf3d152e_1       conda-forge/linux-64                    Cached
+  + charset-normalizer                 2.0.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + cryptography                       3.4.7  py39hbca0aa6_0       conda-forge/linux-64                    Cached
+  + curl                              7.78.0  hea6ffbf_0           conda-forge/linux-64                    Cached
+  + entrez-direct                       13.9  pl5262he881be0_2     bioconda/linux-64                         5 MB
+  + expat                              2.4.1  h9c3ff4c_0           conda-forge/linux-64                    Cached
+  + getorganelle                     1.7.5.0  pyh5e36f6f_0         /home/vsts/conda/conda-bld/linux-64     164 KB
+  + gmp                                6.2.1  h58526e2_0           conda-forge/linux-64                    806 KB
+  + gmpy2                            2.1.0b5  py39h78fa15d_0       conda-forge/linux-64                    211 KB
+  + idna                                 3.1  pyhd3deb0d_0         conda-forge/noarch                      Cached
+  + krb5                              1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64                  2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                            3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                           3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                           7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit                     3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                               4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                               3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng                         11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng                    11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5                      11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                           11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                          3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2                        1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas                       0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libssh2                           1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng                      11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + lz4-c                              1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + mpc                                1.1.0  h04dde30_1009        conda-forge/linux-64                    105 KB
+  + mpfr                               4.1.0  h9202a9a_1           conda-forge/linux-64                      3 MB
+  + mpmath                             1.2.1  pyhd8ed1ab_0         conda-forge/noarch                      437 KB
+  + ncurses                              6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                             1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                           1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pcre                                8.45  h9c3ff4c_0           conda-forge/linux-64                    Cached
+  + perl                              5.26.2  h36c2ea0_1008        conda-forge/linux-64                    Cached
+  + perl-app-cpanminus                1.7044  pl526_1              bioconda/linux-64                       234 KB
+  + perl-archive-tar                    2.32  pl526_0              bioconda/linux-64                        31 KB
+  + perl-base                           2.23  pl526_1              bioconda/linux-64                        10 KB
+  + perl-business-isbn                 3.004  pl526_0              bioconda/linux-64                        15 KB
+  + perl-business-isbn-data     20140910.003  pl526_0              bioconda/linux-64                        15 KB
+  + perl-carp                           1.38  pl526_3              bioconda/linux-64                        15 KB
+  + perl-common-sense                   3.74  pl526_2              bioconda/linux-64                        11 KB
+  + perl-compress-raw-bzip2            2.087  pl526he1b5a44_0      bioconda/linux-64                        44 KB
+  + perl-compress-raw-zlib             2.087  pl526hc9558a2_0      bioconda/linux-64                        72 KB
+  + perl-constant                       1.33  pl526_1              bioconda/linux-64                        10 KB
+  + perl-data-dumper                   2.173  pl526_0              bioconda/linux-64                        35 KB
+  + perl-digest-hmac                    1.03  pl526_3              bioconda/linux-64                         9 KB
+  + perl-digest-md5                     2.55  pl526_0              bioconda/linux-64                        18 KB
+  + perl-encode                         2.88  pl526_1              bioconda/linux-64                         2 MB
+  + perl-encode-locale                  1.05  pl526_6              bioconda/linux-64                        11 KB
+  + perl-exporter                       5.72  pl526_1              bioconda/linux-64                        13 KB
+  + perl-exporter-tiny              1.002001  pl526_0              bioconda/linux-64                        23 KB
+  + perl-extutils-makemaker             7.36  pl526_1              bioconda/linux-64                       153 KB
+  + perl-file-listing                   6.04  pl526_1              bioconda/linux-64                         9 KB
+  + perl-file-path                      2.16  pl526_0              bioconda/linux-64                        17 KB
+  + perl-file-temp                    0.2304  pl526_2              bioconda/linux-64                        26 KB
+  + perl-html-parser                    3.72  pl526h6bb024c_5      bioconda/linux-64                        66 KB
+  + perl-html-tagset                    3.20  pl526_3              bioconda/linux-64                        12 KB
+  + perl-html-tree                      5.07  pl526_1              bioconda/linux-64                       129 KB
+  + perl-http-cookies                   6.04  pl526_0              bioconda/linux-64                        19 KB
+  + perl-http-daemon                    6.01  pl526_1              bioconda/linux-64                        14 KB
+  + perl-http-date                      6.02  pl526_3              bioconda/linux-64                        10 KB
+  + perl-http-message                   6.18  pl526_0              bioconda/linux-64                        51 KB
+  + perl-http-negotiate                 6.01  pl526_3              bioconda/linux-64                        13 KB
+  + perl-io-compress                   2.087  pl526he1b5a44_0      bioconda/linux-64                        81 KB
+  + perl-io-html                       1.001  pl526_2              bioconda/linux-64                        13 KB
+  + perl-io-socket-ssl                 2.066  pl526_0              bioconda/linux-64                       151 KB
+  + perl-io-zlib                        1.10  pl526_2              bioconda/linux-64                         9 KB
+  + perl-json                           4.02  pl526_0              bioconda/linux-64                        52 KB
+  + perl-json-xs                        2.34  pl526h6bb024c_3      bioconda/linux-64                        63 KB
+  + perl-libwww-perl                    6.39  pl526_0              bioconda/noarch                          94 KB
+  + perl-list-moreutils                0.428  pl526_1              bioconda/linux-64                        28 KB
+  + perl-list-moreutils-xs             0.428  pl526_0              bioconda/linux-64                        43 KB
+  + perl-lwp-mediatypes                 6.04  pl526_0              bioconda/linux-64                        22 KB
+  + perl-lwp-protocol-https             6.07  pl526_4              bioconda/linux-64                         9 KB
+  + perl-mime-base64                    3.15  pl526_1              bioconda/linux-64                        15 KB
+  + perl-mozilla-ca                 20180117  pl526_1              bioconda/linux-64                       140 KB
+  + perl-net-http                       6.19  pl526_0              bioconda/noarch                          19 KB
+  + perl-net-ssleay                     1.88  pl526h90d6eec_0      bioconda/linux-64                       289 KB
+  + perl-ntlm                           1.09  pl526_4              bioconda/linux-64                        15 KB
+  + perl-parent                        0.236  pl526_1              bioconda/linux-64                         5 KB
+  + perl-pathtools                      3.75  pl526h14c3975_1      bioconda/linux-64                        41 KB
+  + perl-scalar-list-utils              1.52  pl526h516909a_0      bioconda/linux-64                        38 KB
+  + perl-socket                        2.027  pl526_1              bioconda/linux-64                        31 KB
+  + perl-storable                       3.15  pl526h14c3975_0      bioconda/linux-64                        63 KB
+  + perl-test-requiresinternet          0.05  pl526_0              bioconda/linux-64                         7 KB
+  + perl-time-local                     1.28  pl526_1              bioconda/linux-64                        10 KB
+  + perl-try-tiny                       0.30  pl526_1              bioconda/linux-64                        17 KB
+  + perl-types-serialiser                1.0  pl526_2              bioconda/linux-64                        10 KB
+  + perl-uri                            1.76  pl526_0              bioconda/linux-64                        55 KB
+  + perl-www-robotrules                 6.02  pl526_3              bioconda/linux-64                        12 KB
+  + perl-xml-namespacesupport           1.12  pl526_0              bioconda/linux-64                        11 KB
+  + perl-xml-parser                  2.44_01  pl5262hc3e0081_1002  conda-forge/linux-64                    165 KB
+  + perl-xml-sax                        1.02  pl526_0              bioconda/noarch                          36 KB
+  + perl-xml-sax-base                   1.09  pl526_0              bioconda/linux-64                        19 KB
+  + perl-xml-sax-expat                  0.51  pl526_3              bioconda/linux-64                        10 KB
+  + perl-xml-simple                     2.25  pl526_1              bioconda/linux-64                        48 KB
+  + perl-xsloader                       0.24  pl526_0              bioconda/linux-64                         8 KB
+  + pigz                                 2.6  h27826a3_0           conda-forge/linux-64                     87 KB
+  + pip                               21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pycparser                           2.20  pyh9f0ad1d_2         conda-forge/noarch                      Cached
+  + pyopenssl                         20.0.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pysocks                            1.7.1  py39hf3d152e_3       conda-forge/linux-64                    Cached
+  + python                             3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi                           3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                             8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + requests                          2.26.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + scipy                              1.7.1  py39hee8e79c_0       conda-forge/linux-64                     22 MB
+  + setuptools                        57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + six                               1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + spades                            3.13.0  0                    bioconda/linux-64                        14 MB
+  + sqlite                            3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + sympy                                1.8  py39hf3d152e_0       conda-forge/linux-64                     11 MB
+  + tbb                               2020.2  h4bd325d_4           conda-forge/linux-64                      1 MB
+  + tk                                8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                             2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + urllib3                           1.26.6  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + wheel                             0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                                 5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                              1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                               1.4.9  ha95c52a_0           conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 132 packages
+
+  Total download: 107 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: getorganelle-1.7.5.0-pyh5e36f6f_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/getorganelle_1630881602505/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:              0.1-conda_forge             conda-forge
+    _openmp_mutex:              4.5-1_gnu                   conda-forge
+    blast:                      2.12.0-pl5262h3289130_0     bioconda   
+    bowtie2:                    2.4.4-py39hbb4e92a_0        bioconda   
+    brotlipy:                   0.7.0-py39h3811e60_1001     conda-forge
+    bzip2:                      1.0.8-h7f98852_4            conda-forge
+    c-ares:                     1.17.2-h7f98852_0           conda-forge
+    ca-certificates:            2021.5.30-ha878542_0        conda-forge
+    certifi:                    2021.5.30-py39hf3d152e_0    conda-forge
+    cffi:                       1.14.6-py39he32792d_0       conda-forge
+    chardet:                    4.0.0-py39hf3d152e_1        conda-forge
+    charset-normalizer:         2.0.0-pyhd8ed1ab_0          conda-forge
+    cryptography:               3.4.7-py39hbca0aa6_0        conda-forge
+    curl:                       7.78.0-hea6ffbf_0           conda-forge
+    entrez-direct:              13.9-pl5262he881be0_2       bioconda   
+    expat:                      2.4.1-h9c3ff4c_0            conda-forge
+    getorganelle:               1.7.5.0-pyh5e36f6f_0        local      
+    gmp:                        6.2.1-h58526e2_0            conda-forge
+    gmpy2:                      2.1.0b5-py39h78fa15d_0      conda-forge
+    idna:                       3.1-pyhd3deb0d_0            conda-forge
+    krb5:                       1.19.2-hcc1bbae_0           conda-forge
+    ld_impl_linux-64:           2.36.1-hea4e1c9_2           conda-forge
+    libblas:                    3.9.0-11_linux64_openblas   conda-forge
+    libcblas:                   3.9.0-11_linux64_openblas   conda-forge
+    libcurl:                    7.78.0-h2574ce0_0           conda-forge
+    libedit:                    3.1.20191231-he28a2e2_2     conda-forge
+    libev:                      4.33-h516909a_1             conda-forge
+    libffi:                     3.3-h58526e2_2              conda-forge
+    libgcc-ng:                  11.1.0-hc902ee8_8           conda-forge
+    libgfortran-ng:             11.1.0-h69a702a_8           conda-forge
+    libgfortran5:               11.1.0-h6c583b3_8           conda-forge
+    libgomp:                    11.1.0-hc902ee8_8           conda-forge
+    liblapack:                  3.9.0-11_linux64_openblas   conda-forge
+    libnghttp2:                 1.43.0-h812cca2_0           conda-forge
+    libopenblas:                0.3.17-pthreads_h8fe5266_1  conda-forge
+    libssh2:                    1.10.0-ha56f1ee_0           conda-forge
+    libstdcxx-ng:               11.1.0-h56837e0_8           conda-forge
+    lz4-c:                      1.9.3-h9c3ff4c_1            conda-forge
+    mpc:                        1.1.0-h04dde30_1009         conda-forge
+    mpfr:                       4.1.0-h9202a9a_1            conda-forge
+    mpmath:                     1.2.1-pyhd8ed1ab_0          conda-forge
+    ncurses:                    6.2-h58526e2_4              conda-forge
+    numpy:                      1.21.2-py39hdbf815f_0       conda-forge
+    openssl:                    1.1.1l-h7f98852_0           conda-forge
+    pcre:                       8.45-h9c3ff4c_0             conda-forge
+    perl:                       5.26.2-h36c2ea0_1008        conda-forge
+    perl-app-cpanminus:         1.7044-pl526_1              bioconda   
+    perl-archive-tar:           2.32-pl526_0                bioconda   
+    perl-base:                  2.23-pl526_1                bioconda   
+    perl-business-isbn:         3.004-pl526_0               bioconda   
+    perl-business-isbn-data:    20140910.003-pl526_0        bioconda   
+    perl-carp:                  1.38-pl526_3                bioconda   
+    perl-common-sense:          3.74-pl526_2                bioconda   
+    perl-compress-raw-bzip2:    2.087-pl526he1b5a44_0       bioconda   
+    perl-compress-raw-zlib:     2.087-pl526hc9558a2_0       bioconda   
+    perl-constant:              1.33-pl526_1                bioconda   
+    perl-data-dumper:           2.173-pl526_0               bioconda   
+    perl-digest-hmac:           1.03-pl526_3                bioconda   
+    perl-digest-md5:            2.55-pl526_0                bioconda   
+    perl-encode:                2.88-pl526_1                bioconda   
+    perl-encode-locale:         1.05-pl526_6                bioconda   
+    perl-exporter:              5.72-pl526_1                bioconda   
+    perl-exporter-tiny:         1.002001-pl526_0            bioconda   
+    perl-extutils-makemaker:    7.36-pl526_1                bioconda   
+    perl-file-listing:          6.04-pl526_1                bioconda   
+    perl-file-path:             2.16-pl526_0                bioconda   
+    perl-file-temp:             0.2304-pl526_2              bioconda   
+    perl-html-parser:           3.72-pl526h6bb024c_5        bioconda   
+    perl-html-tagset:           3.20-pl526_3                bioconda   
+    perl-html-tree:             5.07-pl526_1                bioconda   
+    perl-http-cookies:          6.04-pl526_0                bioconda   
+    perl-http-daemon:           6.01-pl526_1                bioconda   
+    perl-http-date:             6.02-pl526_3                bioconda   
+    perl-http-message:          6.18-pl526_0                bioconda   
+    perl-http-negotiate:        6.01-pl526_3                bioconda   
+    perl-io-compress:           2.087-pl526he1b5a44_0       bioconda   
+    perl-io-html:               1.001-pl526_2               bioconda   
+    perl-io-socket-ssl:         2.066-pl526_0               bioconda   
+    perl-io-zlib:               1.10-pl526_2                bioconda   
+    perl-json:                  4.02-pl526_0                bioconda   
+    perl-json-xs:               2.34-pl526h6bb024c_3        bioconda   
+    perl-libwww-perl:           6.39-pl526_0                bioconda   
+    perl-list-moreutils:        0.428-pl526_1               bioconda   
+    perl-list-moreutils-xs:     0.428-pl526_0               bioconda   
+    perl-lwp-mediatypes:        6.04-pl526_0                bioconda   
+    perl-lwp-protocol-https:    6.07-pl526_4                bioconda   
+    perl-mime-base64:           3.15-pl526_1                bioconda   
+    perl-mozilla-ca:            20180117-pl526_1            bioconda   
+    perl-net-http:              6.19-pl526_0                bioconda   
+    perl-net-ssleay:            1.88-pl526h90d6eec_0        bioconda   
+    perl-ntlm:                  1.09-pl526_4                bioconda   
+    perl-parent:                0.236-pl526_1               bioconda   
+    perl-pathtools:             3.75-pl526h14c3975_1        bioconda   
+    perl-scalar-list-utils:     1.52-pl526h516909a_0        bioconda   
+    perl-socket:                2.027-pl526_1               bioconda   
+    perl-storable:              3.15-pl526h14c3975_0        bioconda   
+    perl-test-requiresinternet: 0.05-pl526_0                bioconda   
+    perl-time-local:            1.28-pl526_1                bioconda   
+    perl-try-tiny:              0.30-pl526_1                bioconda   
+    perl-types-serialiser:      1.0-pl526_2                 bioconda   
+    perl-uri:                   1.76-pl526_0                bioconda   
+    perl-www-robotrules:        6.02-pl526_3                bioconda   
+    perl-xml-namespacesupport:  1.12-pl526_0                bioconda   
+    perl-xml-parser:            2.44_01-pl5262hc3e0081_1002 conda-forge
+    perl-xml-sax:               1.02-pl526_0                bioconda   
+    perl-xml-sax-base:          1.09-pl526_0                bioconda   
+    perl-xml-sax-expat:         0.51-pl526_3                bioconda   
+    perl-xml-simple:            2.25-pl526_1                bioconda   
+    perl-xsloader:              0.24-pl526_0                bioconda   
+    pigz:                       2.6-h27826a3_0              conda-forge
+    pip:                        21.2.4-pyhd8ed1ab_0         conda-forge
+    pycparser:                  2.20-pyh9f0ad1d_2           conda-forge
+    pyopenssl:                  20.0.1-pyhd8ed1ab_0         conda-forge
+    pysocks:                    1.7.1-py39hf3d152e_3        conda-forge
+    python:                     3.9.7-h49503c6_0_cpython    conda-forge
+    python_abi:                 3.9-2_cp39                  conda-forge
+    readline:                   8.1-h46c0cb4_0              conda-forge
+    requests:                   2.26.0-pyhd8ed1ab_0         conda-forge
+    scipy:                      1.7.1-py39hee8e79c_0        conda-forge
+    setuptools:                 57.4.0-py39hf3d152e_0       conda-forge
+    six:                        1.16.0-pyh6c4a22f_0         conda-forge
+    spades:                     3.13.0-0                    bioconda   
+    sqlite:                     3.36.0-h9cd32fc_0           conda-forge
+    sympy:                      1.8-py39hf3d152e_0          conda-forge
+    tbb:                        2020.2-h4bd325d_4           conda-forge
+    tk:                         8.6.11-h27826a3_1           conda-forge
+    tzdata:                     2021a-he74cb21_1            conda-forge
+    urllib3:                    1.26.6-pyhd8ed1ab_0         conda-forge
+    wheel:                      0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:                         5.2.5-h516909a_1            conda-forge
+    zlib:                       1.2.11-h516909a_1010        conda-forge
+    zstd:                       1.4.9-ha95c52a_0            conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/getorganelle_1630881602505/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/getorganelle_1630881602505/test_tmp
+import: 'GetOrganelleLib'
+import: 'GetOrganelleLib'
+usage: 
+###  Embryophyta plant plastome, 2*(1G raw data, 150 bp) reads
+get_organelle_from_reads.py -1 sample_1.fq -2 sample_2.fq -s cp_seed.fasta -o plastome_output  -R 15 -k 21,45,65,85,105 -F embplant_pt
+###  Embryophyta plant mitogenome
+get_organelle_from_reads.py -1 sample_1.fq -2 sample_2.fq -s mt_seed.fasta -o mitogenome_output  -R 30 -k 21,45,65,85,105 -F embplant_mt
+
+GetOrganelle v1.7.5 get_organelle_from_reads.py assembles organelle genomes
+from genome skimming data. Find updates in
+https://github.com/Kinggerm/GetOrganelle and see README.md for more
+information.
+
+optional arguments:
+  -1 FQ_FILE_1          Input file with forward paired-end reads
+                        (*.fq/.gz/.tar.gz).
+  -2 FQ_FILE_2          Input file with reverse paired-end reads
+                        (*.fq/.gz/.tar.gz).
+  -u UNPAIRED_FQ_FILES  Input file(s) with unpaired (single-end) reads.
+  -o OUTPUT_BASE        Output directory.
+  -s SEED_FILE          Input fasta format file as initial seed. Default:
+                        /home/vsts/.GetOrganelle/SeedDatabase/*.fasta
+  -w WORD_SIZE          Word size (W) for extension. Default: auto-estimated
+  -R MAX_ROUNDS         Maximum extension rounds (suggested: >=2). Default: 15
+                        (embplant_pt)
+  -F ORGANELLE_TYPE     Target organelle genome type(s): embplant_pt/other_pt/
+                        embplant_mt/embplant_nr/animal_mt/fungus_mt/fungus_nr/
+                        anonym/embplant_pt,embplant_mt/other_pt,embplant_mt,fu
+                        ngus_mt
+  --max-reads MAX_READS
+                        Maximum number of reads to be used per file. Default:
+                        1.5E7 (-F
+                        embplant_pt/embplant_nr/fungus_mt/fungus_nr); 7.5E7
+                        (-F embplant_mt/other_pt/anonym); 3E8 (-F animal_mt)
+  --fast FAST_STRATEGY  ="-R 10 -t 4 -J 5 -M 7 --max-n-words 3E7 --larger-
+                        auto-ws --disentangle-time-limit 360"
+  -k SPADES_KMER        SPAdes kmer settings. Default: 21,55,85,115
+  -t THREADS            Maximum threads to use. Default: 1
+  -P PRE_GROUPED        Pre-grouping value. Default: 200000
+  -v, --version         show program's version number and exit
+  -h                    print brief introduction for frequently-used options.
+  --help                print verbose introduction for all options.
+
+usage: get_organelle_from_assembly.py -g assembly_graph_file -F embplant_pt -o output --min-depth 10
+
+GetOrganelle v1.7.5 get_organelle_from_assembly.py isolates organelle genomes
+from assembly graph. Find updates in https://github.com/Kinggerm/GetOrganelle
+and see README.md for more information.
+
+optional arguments:
+  -F ORGANELLE_TYPE     Target organelle genome type(s): embplant_pt/other_pt/
+                        embplant_mt/embplant_nr/animal_mt/fungus_mt/fungus_nr/
+                        anonym/embplant_pt,embplant_mt/other_pt,embplant_mt,fu
+                        ngus_mt
+  -g INPUT_GRAPH        Input assembly graph (fastg/gfa) file.
+  -o OUTPUT_BASE        Output directory.
+  --min-depth MIN_DEPTH
+                        Minimum depth threshold of contigs. Default: 0.0.
+  --max-depth MAX_DEPTH
+                        Maximum depth threshold of contigs. Default: inf.
+  --no-slim NO_SLIM     Disable the slimming process and directly disentangle
+                        the assembly graph.
+  -t THREADS            Maximum threads to use. Default: 1.
+  --continue            Resume a previous run. Default: False.
+
+usage: python slim_graph.py assembly_graph_files -F embplant_pt -E embplant_mt
+
+GetOrganelle v1.7.5 slim_graph.py is a script for excluding certain contigs
+from assembly graph file (*.fastg/*.fasta) by blast By
+jinjianjun@mail.kib.ac.cn
+
+positional arguments:
+  assemblies            Input assembly (graph) files (.fasta or .gfa or
+                        .fastg). Please split the files by spaces.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -F ORGANELLE_TYPES    followed with mode embplant_pt, other_pt, embplant_mt,
+                        embplant_nr, animal_mt, fungus_mt, fungus_nr (which
+                        means embryophyta plastome, non-embryophyta plastome,
+                        plant mitochondrion, plant nuclear ribosomal RNA,
+                        animal mitochondrion, fungus mitochondrion, fungus
+                        nuclear ribosomal RNA separately), or a combination of
+                        above split by comma(s) (corresponds to certain
+                        arguments as following listed).
+                        ------------------------------------------------------
+                        embplant_pt " --include-priority /home/vsts/.GetOrgane
+                        lle/LabelDatabase/embplant_pt.fasta"
+                        ------------------------------------------------------
+                        other_pt " --include-priority
+                        /home/vsts/.GetOrganelle/LabelDatabase/other_pt.fasta"
+                        ------------------------------------------------------
+                        embplant_mt " --include-priority /home/vsts/.GetOrgane
+                        lle/LabelDatabase/embplant_mt.fasta"
+                        ------------------------------------------------------
+                        embplant_nr " --include-priority /home/vsts/.GetOrgane
+                        lle/LabelDatabase/embplant_nr.fasta"
+                        ------------------------------------------------------
+                        animal_mt " --include-priority /home/vsts/.GetOrganell
+                        e/LabelDatabase/animal_mt.fasta"
+                        ------------------------------------------------------
+                        fungus_mt " --include-priority /home/vsts/.GetOrganell
+                        e/LabelDatabase/fungus_mt.fasta"
+                        ------------------------------------------------------
+                        fungus_nr " --include-priority /home/vsts/.GetOrganell
+                        e/LabelDatabase/fungus_nr.fasta"
+                        ------------------------------------------------------
+                        other_pt,embplant_mt,fungus_mt " --include-priority /h
+                        ome/vsts/.GetOrganelle/LabelDatabase/other_pt.fasta,/h
+                        ome/vsts/.GetOrganelle/LabelDatabase/embplant_mt.fasta
+                        ,/home/vsts/.GetOrganelle/LabelDatabase/fungus_mt.fast
+                        a"
+                        ------------------------------------------------------
+                        For easy usage and compatibility of old versions,
+                        following redirection would be automatically fulfilled
+                        without warning: plant_cp->embplant_pt;
+                        plant_pt->embplant_pt; plant_mt->embplant_mt;
+                        plant_nr->embplant_nr
+  -E EXCLUDE_ORGANELLE_TYPES
+                        followed with mode embplant_pt, other_pt, embplant_mt,
+                        embplant_nr, animal_mt, fungus_mt,fungus_nr (which
+                        means embryophyta plastome, non-embryophyta plastome,
+                        plant mitochondrion, plant nuclear ribosomal RNA,
+                        animal mitochondrion, fungus mitochondrion, fungus
+                        nuclear ribosomal RNA separately), or a combination of
+                        above split by comma(s) (be similar to -F and
+                        corresponds to certain arguments as following listed).
+                        ------------------------------------------------------
+                        embplant_pt " --exclude /home/vsts/.GetOrganelle/Label
+                        Database/embplant_pt.fasta"
+                        ------------------------------------------------------
+                        embplant_mt " --exclude /home/vsts/.GetOrganelle/Label
+                        Database/embplant_mt.fasta"
+                        ------------------------------------------------------
+                        embplant_nr " --exclude /home/vsts/.GetOrganelle/Label
+                        Database/embplant_nr.fasta"
+                        ------------------------------------------------------
+                        animal_mt " --exclude /home/vsts/.GetOrganelle/LabelDa
+                        tabase/animal_mt.fasta"
+                        ------------------------------------------------------
+                        fungus_mt " --exclude /home/vsts/.GetOrganelle/LabelDa
+                        tabase/fungus_mt.fasta"
+                        ------------------------------------------------------
+                        fungus_nr " --exclude /home/vsts/.GetOrganelle/LabelDa
+                        tabase/fungus_nr.fasta"
+                        ------------------------------------------------------
+                        embplant_mt,embplant_nr " --exclude /home/vsts/.GetOrg
+                        anelle/LabelDatabase/embplant_mt.fasta,/home/vsts/.Get
+                        Organelle/LabelDatabase/embplant_nr.fasta"
+                        ------------------------------------------------------
+                        For easy usage and compatibility of old versions,
+                        following redirection would be automatically fulfilled
+                        without warning: plant_cp->embplant_pt;
+                        plant_pt->embplant_pt; plant_mt->embplant_mt;
+                        plant_nr->embplant_nr
+  --no-hits TREAT_NO_HITS
+                        Provide treatment for non-hitting contigs.
+                        ------------------------------------------------------
+                        ex_no_con keep those connect with hitting-include
+                        contigs. (Default)
+                        ------------------------------------------------------
+                        ex_no_hit exclude all.
+                        ------------------------------------------------------
+                        keep_all keep all
+                        ------------------------------------------------------
+  --max-slim-extending-len MAX_SLIM_EXTENDING_LEN
+                        This is used to limit the extending length, below
+                        which a "non-hit contig" is allowed to be distant from
+                        a "hit contig" to be kept. This distance is measured
+                        by the shortest distance connecting those two contigs,
+                        weighted by the depth of the "hit contig". This is
+                        used only when "--no-hits ex_no_con" was chosen.
+                        Should be a single INTEGER number or inf (meaning
+                        infinite). It is supposed to be half of the maximum
+                        expected genome size to be safe, but could be much
+                        smaller if the LabelDatabse is closely related.
+                        Default: 15000 (-F embplant_pt), 50000 (-F
+                        embplant_mt/fungus_mt/other_pt), 12500 (-F
+                        embplant_nr/fungus_nr/animal_mt),
+                        maximum_of_type1_type2 (-F type1,type2), inf (cases
+                        without using -F)
+  --significant SIGNIFICANT
+                        Within a contig, if the query-score of hitting A is
+                        more than given times (Default: 3.0) of the query-
+                        score of hitting B, this contig would be treated as
+                        only A related, rather than both.
+  --depth-cutoff DEPTH_CUTOFF
+                        After detection for target coverage, those beyond
+                        certain times (depth cutoff) of the detected coverage
+                        would be excluded. Default: 10000.0
+  --min-depth MIN_DEPTH
+                        Input a float or integer number. Filter fastg file by
+                        a minimum depth. Default: 0.0.
+  --max-depth MAX_DEPTH
+                        Input a float or integer number. filter fastg file by
+                        a maximum depth. Default: inf.
+  --merge               Merge all possible contigs.
+  --include INCLUDE     followed by Blastn database(s)
+  --include-priority INCLUDE_PRIORITY
+                        followed by Blastn database(s).
+  --exclude EXCLUDE     followed by Blastn database(s).
+  --exclude-priority EXCLUDE_PRIORITY
+                        followed by Blastn database(s)
+  --no-hits-labeled-tab
+                        Choose to disable producing tab file
+  --keep-temp           Choose to disable deleting temp files produced by
+                        blast and this script
+  -o OUT_DIR, --out-dir OUT_DIR
+                        By default the output would be along with the input
+                        fastg file. But you could assign a new directory with
+                        this option.
+  -e EVALUE, --evalue EVALUE
+                        blastn evalue threshold. Default: 1e-25
+  --prefix PREFIX       Add prefix to the output basename. Conflict with "--
+                        out-base".
+  --out-base OUT_BASE   By default the output basename would be modified based
+                        on the input fastg file. But you could assign a new
+                        basename with this option. Conflict with "--prefix".
+                        Conflict with multiple input files!
+  --log                 Generate log file.
+  --wrapper             Wrapper mode logging when called by get_organelle*.py.
+                        Default: False
+  --verbose             For debug usage.
+  --continue            Specified for calling from get_organelle_from_reads.py
+  --no-overwrite        Overwrite existing output result.
+  --which-blast WHICH_BLAST
+                        Assign the path to BLAST binary files if not added to
+                        the path. Default: try "/home/vsts/conda/conda-bld/get
+                        organelle_1630881602505/test_tmp/GetOrganelleDep/linux
+                        /ncbi-blast" first, then $PATH
+  --config-dir GET_ORGANELLE_PATH
+                        The directory where the default databases were placed.
+                        The default value also can be changed by adding
+                        'export GETORG_PATH=your_favor' to the shell script
+                        (e.g. ~/.bash_profile or ~/.bashrc) Default:
+                        /home/vsts/.GetOrganelle
+  -t THREADS, --threads THREADS
+                        Threads for blastn.
+  -v, --version         show program's version number and exit
+
+Resource usage statistics from testing getorganelle:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: getorganelle-1.7.5.0-pyh5e36f6f_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
