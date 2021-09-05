@@ -1,0 +1,88 @@
+  Package   Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────
+
+  + calib     0.3.4  h87af4ef_1     /Users/runner/conda/conda-bld/osx-64     108 KB
+  + libcxx   12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + zlib     1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 108 KB
+
+─────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: calib-0.3.4-h87af4ef_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/calib_1630807008525/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    calib:  0.3.4-h87af4ef_1     local      
+    libcxx: 12.0.1-habf9029_0    conda-forge
+    zlib:   1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/calib_1630807008525/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/calib_1630807008525/test_tmp
+Calib: Clustering without alignment using LSH and MinHashing of barcoded reads
+Usage: calib [--PARAMETER VALUE]
+Example: calib -f R1.fastq -r R2.fastq -o my_out. -e 1 -l 8 -m 5 -t 2 -k 4 --silent
+Calib's paramters arguments:
+	-f    --input-forward                 	(type: string;   REQUIRED paramter)
+	-r    --input-reverse                 	(type: string;   REQUIRED paramter)
+	-o    --output-prefix                 	(type: string;   REQUIRED paramter)
+	-s    --silent                        	(type: no value; default: unset)
+	-q    --no-sort                       	(type: no value; default:  unset)
+	-g    --gzip-input                    	(type: no value; default:  unset)
+	-l    --barcode-length                	(type: int;      REQUIRED paramter unless -l1 and -l2 are provided)
+	-l1   --barcode-length-1              	(type: int;      REQUIRED paramter unless -l is provided)
+	-l2   --barcode-length-2              	(type: int;      REQUIRED paramter unless -l is provided)
+	-p    --ignored-sequence-prefix-length	(type: int;      default: 0)
+	-m    --minimizer-count               	(type: int;      default: Depends on observed read length;)
+	-k    --kmer-size                     	(type: int;      default: Depends on observed read length;)
+	-e    --error-tolerance               	(type: int;      default: Depends on observed read length;)
+	-t    --minimizer-threshold           	(type: int;      default: Depends on observed read length;)
+	-c    --threads                       	(type: int;      default: 1)
+	-h    --help
+Calib Consensus: Generating consensus sequence from Calib clusters.
+Usage: calib_cons [--PARAMETER VALUE]
+Example 1: calib_cons -t 8 -c input.cluster -q 1.fastq 2.fastq -o 1.out 2.out
+Example 2: calib_cons -q 1.fastq -q 2.fastq -o 1.out 2.out -c input.cluster
+Calib's paramters arguments:
+  -q  --fastq                    (type: space separated string list;
+                                    REQUIRED paramter;
+                                    can be set multiple times like in Example 2)
+  -o  --output-prefix            (type: space separated string list;
+                                    REQUIRED paramter;
+                                    can be set multiple times like in Example 2;
+                                    must be same size as fastq list)
+  -c  --cluster                  (string;
+                                    REQUIRED paramter)
+  -t  --threads                  (positive integer;
+                                    default: 4)
+  -m  --min-reads-per-cluster    (positive integer;
+                                    default: 2)
+  -h  --help
+
+Resource usage statistics from testing calib:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 11.5M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: calib-0.3.4-h87af4ef_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
