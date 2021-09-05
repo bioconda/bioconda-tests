@@ -1,0 +1,117 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + hmmratac            1.2.10  hdfd78af_1          /Users/runner/conda/conda-bld/osx-64      26 MB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk           11.0.9.1  hcf210ce_1          conda-forge/osx-64                       169 MB
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 195 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: hmmratac-1.2.10-hdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/hmmratac_1630860048234/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    hmmratac:        1.2.10-hdfd78af_1        local      
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openjdk:         11.0.9.1-hcf210ce_1      conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/hmmratac_1630860048234/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/hmmratac_1630860048234/test_tmp
+HMMRATAC Version:	1.2.10
+Usage: java -jar HMMRATAC_V#_exe.jar
+
+Required Parameters:
+	-b , --bam <BAM> Sorted BAM file containing the ATAC-seq reads
+	-i , --index <BAI> Index file for the sorted BAM File
+	-g , --genome <GenomeFile> Two column, tab delimited file containing genome size stats
+
+Optional Parameters:
+	-m , --means <double> Comma separated list of initial mean values for the fragment distribution. Default = 50,200,400,600
+	-s , --stddev <double> Comma separated list of initial standard deviation values for fragment distribution. Default = 20,20,20,20
+	-f , --fragem <true || false> Whether to perform EM training on the fragment distribution. Default = True
+	-q , --minmapq <int> Minimum mapping quality of reads to keep. Default = 30
+	-u , --upper <int> Upper limit on fold change range for choosing training sites. Default = 20
+	-l , --lower <int> Lower limit on fold change range for choosing training sites. Default = 10
+	-z , --zscore <int> Zscored read depth to mask during Viterbi decoding. Default = 100
+	-o , --output <String> Name for output files. Default = NA
+	-e , --blacklist <BED_File> bed file of blacklisted regions to exclude
+	-p , --peaks <true || false> Whether to report peaks in bed format. Default = true
+	-k , --kmeans <int> Number of States in the model. Default = 3. If not k=3, recommend NOT calling peaks, use bedgraph
+	-t , --training <BED_File> BED file of training regions to use for training model, instead of foldchange settings
+	--bedgraph <true || false> Whether to report whole genome bedgraph of all state anntations. Default = false
+	--minlen <int> Minimum length of open region to call peak. Note: -p , --peaks must be set. Default = 200
+	--score <max || ave || med || fc || zscore || all> What type of score system to use for peaks. Can be used for ranking peaks. Default = max
+	--bgscore <true || false> Whether to add the HMMR score to each state annotation in bedgraph. Note: this adds considerable time. Default = False
+	--trim <int> How many signals from the end to trim off (ie starting with tri signal then di etc). This may be useful if your data doesn't contain many large fragments. Default = 0
+	--window <int> Size of the bins to split the genome into for Viterbi decoding.
+		 To save memory, the genome is split into <int> long bins and viterbi decoding occurs across each bin. 
+		Default = 25000000. Note: For machines with limited memory, it is recomended to reduce the size of the bins.
+	--model <File> Binary model file (generated from previous HMMR run) to use instead of creating new one
+	--modelonly <true || false> Whether or not to stop the program after generating model. Default = false
+	--maxTrain <int> Maximum number of training regions to use. Default == 1000
+	--removeDuplicates <true || false> Whether or not to remove duplicate reads from analysis. Default = true
+	--printExclude <true || false> Whether to output excluded regions into Output_exclude.bed. Default = false
+	--printTrain <true || false> Whether to output training regions into Output_training.bed. Default = true
+	--randomSeed <long> Seed to set for random sampling of training regions. Default is 10151
+	--threshold <double> threshold for reporting peaks. Only peaks who's score is >= this value will be reported.
+	-h , --help Print this help message and exit.
+
+Resource usage statistics from testing hmmratac:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: hmmratac-1.2.10-hdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
