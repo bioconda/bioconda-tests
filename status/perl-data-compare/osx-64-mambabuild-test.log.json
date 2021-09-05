@@ -1,0 +1,59 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-data-compare-1.25-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpcfhf83af/info/recipe/conda_build_config.yaml
+  Package                Version  Build          Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                  5.26.2  hbcb3906_1008  conda-forge/osx-64                       14 MB
+  + perl-data-compare       1.25  pl526_0        /Users/runner/conda/conda-bld/osx-64     15 KB
+  + perl-file-find-rule     0.34  pl526_5        bioconda/osx-64                          19 KB
+  + perl-number-compare     0.03  pl526_2        bioconda/osx-64                           7 KB
+  + perl-text-glob          0.11  pl526_1        bioconda/osx-64                           8 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 14 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-data-compare_1630829941958/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                5.26.2-hbcb3906_1008 conda-forge
+    perl-data-compare:   1.25-pl526_0         local      
+    perl-file-find-rule: 0.34-pl526_5         bioconda   
+    perl-number-compare: 0.03-pl526_2         bioconda   
+    perl-text-glob:      0.11-pl526_1         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-data-compare_1630829941958/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-data-compare_1630829941958/test_tmp
+import: Data::Compare
+	using version 1.25
+import: Data::Compare
+	using version 1.25
+
+Resource usage statistics from testing perl-data-compare:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.3
+
+
+TEST END: perl-data-compare-1.25-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
