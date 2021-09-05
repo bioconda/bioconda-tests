@@ -1,0 +1,86 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + mindthegap       2.2.3  h9a82719_0     /home/vsts/conda/conda-bld/linux-64       7 MB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 7 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mindthegap-2.2.3-h9a82719_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mindthegap_1630812267013/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    mindthegap:    2.2.3-h9a82719_0     local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/mindthegap_1630812267013/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/mindthegap_1630812267013/test_tmp
+ERROR: Unknown parameter '-help'
+
+[MindTheGap fill options]
+
+   [Input / output options]
+          -in      (1 arg) :    input read file(s)  [default '']
+          -graph   (1 arg) :    input graph file (likely a hdf5 file)  [default '']
+          -contig  (1 arg) :    contig file  [default '']
+          -bkpt    (1 arg) :    breakpoint file  [default '']
+          -out     (1 arg) :    prefix for output files  [default '']
+          -overlap (1 arg) :    Overlap between input contigs (default, ie. 0 = kmer size)  [default '0']
+          -filter  (0 arg) :    do not output low quality insertions (bkpt mode)
+          -extend  (0 arg) :    output first-contig extensions of failed gap-fillings in a separate file
+
+   [Graph building options]
+          -kmer-size     (1 arg) :    size of a kmer  [default '31']
+          -abundance-min (1 arg) :    minimal abundance threshold for solid kmers  [default 'auto']
+          -abundance-max (1 arg) :    maximal abundance threshold for solid kmers  [default '2147483647']
+
+   [Assembly options]
+          -max-nodes  (1 arg) :    maximum number of nodes in contig graph (nt)  [default '100']
+          -max-length (1 arg) :    maximum length of insertions (nt)  [default '10000']
+          -fwd-only   (0 arg) :    do not try in reverse direction if no inserted sequence is assembled (bkpt mode)
+
+   [General options]
+          -nb-cores   (1 arg) :    number of cores  [default '0']
+          -max-disk   (1 arg) :    max disk for graph building   (in MBytes)  [default '0']
+          -max-memory (1 arg) :    max memory for graph building (in MBytes)  [default '2000']
+          -verbose    (1 arg) :    verbosity level  [default '1']
+
+Resource usage statistics from testing mindthegap:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: mindthegap-2.2.3-h9a82719_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

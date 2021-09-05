@@ -1,0 +1,74 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + fmlrc            1.0.0  h7d875b9_2   /home/vsts/conda/conda-bld/linux-64      64 KB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 64 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: fmlrc-1.0.0-h7d875b9_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/fmlrc_1630812228782/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    fmlrc:         1.0.0-h7d875b9_2  local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/fmlrc_1630812228782/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/fmlrc_1630812228782/test_tmp
+Usage:   fmlrc [options] <comp_msbwt.npy> <long_reads.fa> <corrected_reads.fa>
+Options: -h        print help menu
+         -v        print version number and exit
+         -k INT    small k-mer size (default: 21)
+         -K INT    large K-mer size (default: 59), set K=k for single pass
+         -p INT    number of correction threads
+         -b INT    index of read to start with (default: 0)
+         -e INT    index of read to end with (default: end of file)
+         -m INT    absolute minimum count to consider a path (default: 5)
+         -f FLOAT  dynamic minimum fraction of median to consider a path (default: .10)
+         -B INT    set branch limit to <INT>*<k or K> (default: 4)
+         -i        build a sampled FM-index instead of bit arrays
+         -F INT    FM-index is sampled every 2**<INT> values (default: 8); requires -i
+         -V        verbose output
+Usage:   fmlrc-convert [options] <out_comp_mbswt.npy>
+Options: -h        print help menu
+         -v        print version number and exit
+         -f        force overwrite of existing file (default: false)
+         -i STR    the plain text BWT file to be converted into msbwt format (default: stdin)
+
+Resource usage statistics from testing fmlrc:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: fmlrc-1.0.0-h7d875b9_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
