@@ -1,0 +1,124 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: illumiprocessor-2.10-py_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpksdcn1bf/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + illumiprocessor       2.10  py_0                /Users/runner/conda/conda-bld/osx-64      14 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk             11.0.8  hb0a8c7a_0          conda-forge/osx-64                       168 MB
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python              3.6.13  h7728216_0_cpython  conda-forge/osx-64                        21 MB
+  + python_abi             3.6  2_cp36m             conda-forge/osx-64                         4 KB
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py36h79c6626_0      conda-forge/osx-64                       965 KB
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + trimmomatic           0.39  hdfd78af_2          bioconda/noarch                          144 KB
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 190 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/illumiprocessor_1630835067634/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0      conda-forge
+    illumiprocessor: 2.10-py_0                 local      
+    libcxx:          12.0.1-habf9029_0         conda-forge
+    libffi:          3.3-h046ec9c_2            conda-forge
+    ncurses:         6.2-h2e338ed_4            conda-forge
+    openjdk:         11.0.8-hb0a8c7a_0         conda-forge
+    openssl:         1.1.1l-h0d85af4_0         conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0       conda-forge
+    python:          3.6.13-h7728216_0_cpython conda-forge
+    python_abi:      3.6-2_cp36m               conda-forge
+    readline:        8.1-h05e3726_0            conda-forge
+    setuptools:      57.4.0-py36h79c6626_0     conda-forge
+    sqlite:          3.36.0-h23a322b_0         conda-forge
+    tk:              8.6.11-h5dbffcc_1         conda-forge
+    trimmomatic:     0.39-hdfd78af_2           bioconda   
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1          conda-forge
+    zlib:            1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/illumiprocessor_1630835067634/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/illumiprocessor_1630835067634/test_tmp
+import: 'illumiprocessor'
+import: 'illumiprocessor'
+usage: illumiprocessor [-h] --input INPUT --output OUTPUT --config CONFIG
+                       [--trimmomatic TRIMMOMATIC] [--min-len MIN_LEN]
+                       [--no-merge] [--cores CORES] [--r1-pattern R1_PATTERN]
+                       [--r2-pattern R2_PATTERN] [--se]
+                       [--phred {phred33,phred64}] [--log-path LOG_PATH]
+                       [--verbosity {INFO,WARN,CRITICAL}]
+
+Batch trim Illumina reads for adapter contamination and low quality bases
+using Trimmomatic
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --input INPUT         The input directory of raw reads to trim. (default:
+                        None)
+  --output OUTPUT       The output directory of clean reads to create.
+                        (default: None)
+  --config CONFIG       A configuration file containing the tag:sample mapping
+                        and renaming options. (default: None)
+  --trimmomatic TRIMMOMATIC
+                        The path to the trimmomatic-0.XX.jar file. (default:
+                        /Users/runner/conda/conda-bld/illumiprocessor_16308350
+                        67634/_test_env_placehold_placehold_placehold_placehol
+                        d_placehold_placehold_placehold_placehold_placehold_pl
+                        acehold_placehold_placehold_placehold_placehold_placeh
+                        old_placehold_placehold_placehold_pla/bin/trimmomatic)
+  --min-len MIN_LEN     The minimum length of reads to keep. (default: 40)
+  --no-merge            When trimming PE reads, do not merge singleton files.
+                        (default: False)
+  --cores CORES         Number of compute cores to use. (default: 1)
+  --r1-pattern R1_PATTERN
+                        An optional regex pattern to find R1 reads. (default:
+                        None)
+  --r2-pattern R2_PATTERN
+                        An optional regex pattern to find R2 reads. (default:
+                        None)
+  --se                  Single-end reads. (default: False)
+  --phred {phred33,phred64}
+                        The type of fastq encoding used. (default: phred33)
+  --log-path LOG_PATH   The path to a directory to hold logs. (default: None)
+  --verbosity {INFO,WARN,CRITICAL}
+                        The logging level to use. (default: INFO)
+
+Resource usage statistics from testing illumiprocessor:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: illumiprocessor-2.10-py_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
