@@ -1,0 +1,116 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: barrnap-python-0.0.5-py36_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp8fkc1e4u/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + barrnap                0.9  2                   bioconda/osx-64                          556 KB
+  + barrnap-python       0.0.5  py36_1              /Users/runner/conda/conda-bld/osx-64       8 KB
+  + bedtools            2.30.0  haa7f73a_2          bioconda/osx-64                          807 KB
+  + bzip2                1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + hmmer                3.3.2  h589c0e0_1          bioconda/osx-64                           15 MB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + perl                5.32.1  0_h0d85af4_perl5    conda-forge/osx-64                        13 MB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python              3.6.13  h7728216_0_cpython  conda-forge/osx-64                        21 MB
+  + python_abi             3.6  2_cp36m             conda-forge/osx-64                         4 KB
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py36h79c6626_0      conda-forge/osx-64                       965 KB
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 51 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/barrnap-python_1630837714251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    barrnap:         0.9-2                     bioconda   
+    barrnap-python:  0.0.5-py36_1              local      
+    bedtools:        2.30.0-haa7f73a_2         bioconda   
+    bzip2:           1.0.8-h0d85af4_4          conda-forge
+    ca-certificates: 2021.5.30-h033912b_0      conda-forge
+    hmmer:           3.3.2-h589c0e0_1          bioconda   
+    libcxx:          12.0.1-habf9029_0         conda-forge
+    libffi:          3.3-h046ec9c_2            conda-forge
+    ncurses:         6.2-h2e338ed_4            conda-forge
+    openssl:         1.1.1l-h0d85af4_0         conda-forge
+    perl:            5.32.1-0_h0d85af4_perl5   conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0       conda-forge
+    python:          3.6.13-h7728216_0_cpython conda-forge
+    python_abi:      3.6-2_cp36m               conda-forge
+    readline:        8.1-h05e3726_0            conda-forge
+    setuptools:      57.4.0-py36h79c6626_0     conda-forge
+    sqlite:          3.36.0-h23a322b_0         conda-forge
+    tk:              8.6.11-h5dbffcc_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1          conda-forge
+    zlib:            1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/barrnap-python_1630837714251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/barrnap-python_1630837714251/test_tmp
+usage: $PREFIX/bin/barrnap.py [options] <chromosomes.fasta>
+Synopsis:
+  $PREFIX/bin/barrnap.py 0.0.5 - rapid ribosomal RNA prediction
+Author:
+  Torsten Seemann <torsten.seemann@gmail.com>
+
+barrnap ported to python3
+
+positional arguments:
+  fasta
+
+optional arguments:
+  -k {bac,euk,arc,mito}, --kingdom {bac,euk,arc,mito}
+                        whether to look for eukaryotic, archaeal, or bacterial
+                        rDNA; default: bac
+  -t THREADS, --threads THREADS
+                        Number of threads/cores/CPUs to use;default: 8
+  -e EVALUE, --evalue EVALUE
+                        Similarity e-value cut-off; default: 1e-06
+  -l LENCUTOFF, --lencutoff LENCUTOFF
+                        Proportional length threshold to label as partial;
+                        default: 0.8
+  -r REJECT, --reject REJECT
+                        Proportional length threshold to reject prediction;
+                        default: 0.5
+  -i, --incseq          Include FASTA input sequences in GFF3 output
+  -h, --help            This help
+  -v, --version         Print version and exit
+  --citation            Print citation for referencing barrnap
+
+Resource usage statistics from testing barrnap-python:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: barrnap-python-0.0.5-py36_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
