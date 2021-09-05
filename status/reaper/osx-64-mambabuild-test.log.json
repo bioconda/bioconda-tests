@@ -1,0 +1,103 @@
+  Package          Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx          12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + reaper  0.0.2017.12.03  h0a44026_1001  /Users/runner/conda/conda-bld/osx-64      68 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 68 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: reaper-0.0.2017.12.03-h0a44026_1001.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/reaper_1630878785624/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx: 12.0.1-habf9029_0            conda-forge
+    reaper: 0.0.2017.12.03-h0a44026_1001 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/reaper_1630878785624/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/reaper_1630878785624/test_tmp
+
+Usage: <bin> -i <input_file> [-f <f0_output> -p <pitchmarks_output> \
+-c <correlations_output> -t -s -e <float> -x <float> -m <float> \
+-u <float> -w <float> -a -d <debug_output_basename>] 
+
+ Help:
+-t enables a Hilbert transform that may reduce phase distortion
+-s suppress applying high pass filter at 80Hz (rumble-removal highpass filter)
+-e specifies the output frame interval for F0
+-x maximum f0 to look for
+-m minimum f0 to look for
+-u regular inter-mark interval to use in UV pitchmark regions
+-w set the cost for unvoiced segments
+   (def. 0.9, the higher the value the more f0 estimates in noise)
+-a saves F0 and PM output in ascii mode
+-d write diagnostic output to this file pattern
+
+Outputs:
+The output files specified with -f and -p are Edinburgh Speech Tool
+(EST) style files.  These are output as binary by default, ASCII with
+the -a option.  The F0 values in the f0_output file are resampled with
+the frame interval specified by option -e (default .005 s).
+The unvoiced regions of the pitchmark file are filled with marks spaced
+by the interval specified with -u (default .01 s).
+
+It is strongly recommended that the default high-pass filter be
+applied to all input signals to remove DC and low-frequency
+components.  For signals that have been recorded using close-talking
+microphones, or those that have been subjected to various other
+non-linear phase distortions in the studio, or in post-production, it
+is often helpful to apply a Hilbert transform (-t option).  The .resid
+file output when -d is specified can be examined to determine if the
+voice pulses look anything like the classical glottal-flow derivative,
+and the Hilbert transform enabled, or not.
+
+In the discussion below, the following notation is used:
+Fs: sample rate
+Fs0: sample rate of input file
+nd: n-dimensional vector signal
+ts: time-stamped vector signal; 1st ele. is the time of the sample in sec.
+float, int16, etc.: atomic type of the data in the file
+
+If -d <name>is specified, the following raw binary output files are produced,
+with the base path as specified in <name>, and the indicated extensions:
+.bestcorr 2d float ts the highest NCC value found at each residual peak
+.bprms 1d float Fs=500 RMS of 100-1000 Hz bandpassed input signal
+.f0ap 3d float ts F0 and NCC value found for each period
+.resid 1d float Fs=Fs0 LPC residual of conditioned input signal
+.nresid 1d float Fs=Fs0 LPC residual with local gain normalization
+.offsetp 1d float Fs=500 pseudo-probability that voicing is terminating
+.onsetp 1d float Fs=500 pseudo-probability that voicing is starting
+.pvoiced 1d float Fs=500 pseudo-probability that voicing is occurring
+.pcm 1d float Fs=Fs0 conditioned input signal
+.pmlab ASCII 'xlabel' format file of epoch marks
+.pvals 1d float Fs=Fs0 graded residual peak candidates
+
+
+Resource usage statistics from testing reaper:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: reaper-0.0.2017.12.03-h0a44026_1001.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
