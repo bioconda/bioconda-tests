@@ -1,0 +1,76 @@
+  Package                Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + soapdenovo2-prepare      2.0  h188c3c3_5     /Users/runner/conda/conda-bld/osx-64     104 KB
+  + zlib                  1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 104 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: soapdenovo2-prepare-2.0-h188c3c3_5.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/soapdenovo2-prepare_1630862342121/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    soapdenovo2-prepare: 2.0-h188c3c3_5       local      
+    zlib:                1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/soapdenovo2-prepare_1630862342121/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/soapdenovo2-prepare_1630862342121/test_tmp
+Mapping & Scaffolding module.
+Author: BGIRD-CD
+Version: prototype.
+parameters:
+global:
+-s	Library file.
+-g	Prefix of input files.
+-p	Threads.
+
+Data prepare mode:
+-D	Enable this mode.
+-K	Kmer.
+-c	Input contig file.(can't be name prefix.contig)
+
+Mapping mode:
+-M	Enable this mode.
+
+Bundling mode.
+-B	Enable this mode.
+-u	Weight threshold for outputting bundle file.(default 3)
+
+Potential analysis mode.
+-O	Enable this mode.
+Scaffolding mode:
+-S	Enable this mode.
+-L	threshold for minimum length of contig(default K+2).
+-P	Overlap percent threshold for a subgraph(default 0.075).
+-t	Overlap percent threshold for a PE(default 0.2).
+-i	Overlap length threshold for remove transitive connect(default 20).
+
+Resource usage statistics from testing soapdenovo2-prepare:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: soapdenovo2-prepare-2.0-h188c3c3_5.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
