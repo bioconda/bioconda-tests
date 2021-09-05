@@ -1,0 +1,170 @@
+  Package         Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx         12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran     5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5    9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + llvm-openmp    12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + modeltest-ng    0.1.6  h3fcd44b_1         /Users/runner/conda/conda-bld/osx-64     750 KB
+  + mpi               1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openmpi         4.1.1  hd3cd54c_0         conda-forge/osx-64                         3 MB
+  + zlib           1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 4 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: modeltest-ng-0.1.6-h3fcd44b_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/modeltest-ng_1630803079506/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:       12.0.1-habf9029_0       conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1       conda-forge
+    modeltest-ng: 0.1.6-h3fcd44b_1        local      
+    mpi:          1.0-openmpi             conda-forge
+    openmpi:      4.1.1-hd3cd54c_0        conda-forge
+    zlib:         1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/modeltest-ng_1630803079506/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/modeltest-ng_1630803079506/test_tmp
+                             _      _ _            _      _   _  _____ 
+                            | |    | | |          | |    | \ | |/ ____|
+         _ __ ___   ___   __| | ___| | |_ ___  ___| |_   |  \| | |  __ 
+        | '_ ` _ \ / _ \ / _` |/ _ \ | __/ _ \/ __| __|  | . ` | | |_ |
+        | | | | | | (_) | (_| |  __/ | ||  __/\__ \ |_   | |\  | |__| |
+        |_| |_| |_|\___/ \__,_|\___|_|\__\___||___/\__|  |_| \_|\_____|
+--------------------------------------------------------------------------------
+modeltest x.y.z
+Copyright (C) 2017 Diego Darriba, David Posada, Alexandros Stamatakis
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Diego Darriba.
+--------------------------------------------------------------------------------
+
+Usage: modeltest -i sequenceFilename
+            [-c n_categories] [-d nt|aa] [-F] [-N]
+            [-p numberOfThreads] [-q partitionsFile]
+            [-t mp|fixed|user] [-u treeFile] [-v] [-V]
+            [-T raxml|phyml|mrbayes|paup]
+            [--eps optimizationEpsilonValue] [--tol parameterTolerance]
+
+selects the best-fit model of amino acid or nucleotide replacement.
+
+mandatory arguments for long options are also mandatory for short options.
+
+
+ Main arguments:
+  -d, --datatype data_type_t            sets the data type
+                 nt                     nucleotide
+                 aa                     amino acid
+  -i, --input input_msa                 sets the input alignment file (FASTA or PHYLIP format, required)
+  -o, --output output_file              pipes the output into a file
+  -p, --processes n_procs               sets the number of processors to use (shared memory)
+  -q, --partitions partitions_file      sets a partitioning scheme
+  -r, --rngseed seed                    sets the seed for the random number generator
+  -t, --topology type                   sets the starting topology
+                 ml                     maximum likelihood
+                 mp                     maximum parsimony
+                 fixed-ml-jc            fixed maximum likelihood (JC)
+                 fixed-ml-gtr           fixed maximum likelihood (GTR)
+                 fixed-mp               fixed maximum parsimony (default)
+                 random                 random generated tree
+                 user                   fixed user defined (requires -u argument)
+  -u, --utree tree_file                 sets a user tree
+      --force                           force output overriding
+      --disable-checkpoint              disable checkpoint writing
+
+ Candidate models:
+  -a, --asc-bias algorithm[:values]     includes ascertainment bias correction
+                                          check modeltest manual for more information
+                 lewis                  Lewis (2001)
+                 felsenstein            Felsenstein
+                                          requires number of invariant sites
+                 stamatakis             Leaché et al. (2015)
+                                          requires invariant sites composition
+  -f, --frequencies [ef]                sets the candidate models frequencies
+                                        e: estimated - maximum likelihood (DNA) / empirical (AA)
+                                        f: fixed - equal (DNA) / model defined (AA)
+  -h, --model-het [uigf]                sets the candidate models rate heterogeneity
+                                        u: *uniform
+                                        i: *proportion of invariant sites (+I)
+                                        g: *discrite Gamma rate categories (+G)
+                                        f: *both +I and +G (+I+G)
+                                        r: free rate models (+R)
+                                        * included by default
+  -m, --models list                     sets the candidate model matrices separated by commas.
+                                        use '+' or '-' prefix for updating the default list.
+                                        e.g., "-m JTT,LG" evaluates JTT and LG only .
+                                              "-m +LG4X,+LG4M,-LG" adds LG4 models and removes LG and from the list.
+                                        dna: *JC *HKY *TrN *TPM1 *TPM2 *TPM3
+                                             *TIM1 *TIM2 *TIM3 *TVM *GTR
+                                        protein: *DAYHOFF *LG *DCMUT *JTT *MTREV *WAG *RTREV *CPREV
+                                                 *VT *BLOSUM62 *MTMAM *MTART *MTZOA *PMB *HIVB *HIVW
+                                                 *JTT-DCMUT *FLU *STMTREV LG4M LG4X GTR
+                                        * included by default
+  -s, --schemes [3|5|7|11|203]          sets the number of predefined DNA substitution schemes evaluated
+                                        3:   JC/F81, K80/HKY, SYM/GTR
+                                        5:   + TrNef/TrN, TPM1/TPM1uf
+                                        7:   + TIM1ef/TIM1, TVMef/TVM
+                                        11:  + TPM2/TPM2uf, TPM3/TPM3uf, TIM2ef/TIM2, TIM3ef/TIM3
+                                        203: All possible GTR submatrices
+  -T, --template [tool]                 sets candidate models according to a specified tool
+                 raxml                  RAxML (DNA 3 schemes / AA full search)
+                 phyml                  PhyML (DNA full search / 14 AA matrices)
+                 mrbayes                MrBayes (DNA 3 schemes / 8 AA matrices)
+                 paup                   PAUP* (DNA full search / AA full search)
+
+ Other options:
+      --eps epsilon_value               sets the model optimization epsilon
+      --tol tolerance_value             sets the parameter optimization tolerance
+      --smooth-frequencies              forces frequencies smoothing
+  -g, --gamma-rates [a|g]               sets gamma rates mode
+                     a                  uses the average (or mean) per category (default)
+                     m                  uses the median per category
+      --disable-checkpoint              does not create checkpoint files
+  -H, --no-compress                     disables pattern compression
+                                        modeltest ignores if there are missing states
+  -k, --keep-params                     keep branch lengths fixed
+  -v, --verbose                         run in verbose mode
+      --help                            display this help message and exit
+      --version                         output version information and exit
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., invalid arguments or data),
+ 2  if serious trouble (e.g., execution crashed).
+
+Report modeltest bugs to diego.darriba@h-its.org
+ModelTest home page: <http://www.github.com/ddarriba/modeltest/>
+
+Resource usage statistics from testing modeltest-ng:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: modeltest-ng-0.1.6-h3fcd44b_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
