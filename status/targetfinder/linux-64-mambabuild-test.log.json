@@ -1,0 +1,105 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: targetfinder-1.7-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpbssp8r6v/info/recipe/conda_build_config.yaml
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + fasta3          36.3.8  h779adbc_6     bioconda/linux-64                         2 MB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl            5.26.2  h36c2ea0_1008  conda-forge/linux-64                    Cached
+  + targetfinder       1.7  pl526_2        /home/vsts/conda/conda-bld/linux-64      10 KB
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 2 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/targetfinder_1630804599441/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    fasta3:        36.3.8-h779adbc_6    bioconda   
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    perl:          5.26.2-h36c2ea0_1008 conda-forge
+    targetfinder:  1.7-pl526_2          local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/targetfinder_1630804599441/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/targetfinder_1630804599441/test_tmp
+
+
+TargetFinder: Plant small RNA target prediction tool.
+
+Usage:   targetfinder.pl -s <sequence> -d <target database> [options]
+
+Options: -s <str>     Small RNA sequence (RNA or DNA, 5'->3')
+         -d <file>    Target sequence database file (FASTA-format)
+         -q <str>     Query sequence name (DEFAULT = 'query')
+         -c <float>   Prediction score cutoff value (DEFAULT = 4)
+         -t <int>     Threads for parallel Smith-Waterman searches (DEFAULT = 1)
+         -p <str>     Output format for small RNA-target pairs (DEFAULT = 'classic')
+                      Available options: 'classic' (Original TargetFinder base-pairing format)
+                                         'gff'     (Generic Feature Format)
+                                         'json'    (JavaScript Object Notation)
+                                         'table'   (Tab-deliminated Format)
+         -r           Search reverse strand for targets?. Use this option if the database is genomic DNA.
+         -h           Print this menu
+
+
+
+
+TargetFinder: Plant small RNA target prediction tool.
+
+Usage:   targetfinder.pl -s <sequence> -d <target database> [options]
+
+Options: -s <str>     Small RNA sequence (RNA or DNA, 5'->3')
+         -d <file>    Target sequence database file (FASTA-format)
+         -q <str>     Query sequence name (DEFAULT = 'query')
+         -c <float>   Prediction score cutoff value (DEFAULT = 4)
+         -t <int>     Threads for parallel Smith-Waterman searches (DEFAULT = 1)
+         -p <str>     Output format for small RNA-target pairs (DEFAULT = 'classic')
+                      Available options: 'classic' (Original TargetFinder base-pairing format)
+                                         'gff'     (Generic Feature Format)
+                                         'json'    (JavaScript Object Notation)
+                                         'table'   (Tab-deliminated Format)
+         -r           Search reverse strand for targets?. Use this option if the database is genomic DNA.
+         -h           Print this menu
+
+
+query=query, target=gi|51107699|gb, score=3, range=15-34, strand=1
+
+target  5' CUGCUCUCUCUCUUCUGUCA 3'
+            ::::: :::::::::::: 
+query   3' CACGAGUGAGAGAAGACAGC 5'
+
+
+Resource usage statistics from testing targetfinder:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: targetfinder-1.7-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
