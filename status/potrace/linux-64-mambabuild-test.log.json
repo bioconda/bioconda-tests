@@ -1,0 +1,126 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + potrace           1.11  h5bf99c6_3     /home/vsts/conda/conda-bld/linux-64     105 KB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 105 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: potrace-1.11-h5bf99c6_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/potrace_1630826731073/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    potrace:       1.11-h5bf99c6_3      local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/potrace_1630826731073/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/potrace_1630826731073/test_tmp
+potrace 1.11. Transforms bitmaps into vector graphics.
+
+Usage: potrace [options] [filename...]
+General options:
+ -h, --help                 - print this help message and exit
+ -v, --version              - print version info and exit
+ -l, --license              - print license info and exit
+File selection:
+ <filename>                 - an input file
+ -o, --output <filename>    - write all output to this file
+ --                         - end of options; 0 or more input filenames follow
+Backend selection:
+ -b, --backend <name>       - select backend by name
+ -e, --eps                  - EPS backend (encapsulated PostScript) (default)
+ -p, --postscript           - PostScript backend
+ -s, --svg                  - SVG backend (scalable vector graphics)
+ -g, --pgm                  - PGM backend (portable greymap)
+ -b pdf                     - PDF backend (portable document format)
+ -b pdfpage                 - fixed page-size PDF backend
+ -b dxf                     - DXF backend (drawing interchange format)
+ -b geojson                 - GeoJSON backend
+ -b gimppath                - Gimppath backend (GNU Gimp)
+ -b xfig                    - XFig backend
+Algorithm options:
+ -z, --turnpolicy <policy>  - how to resolve ambiguities in path decomposition
+ -t, --turdsize <n>         - suppress speckles of up to this size (default 2)
+ -a, --alphamax <n>         - corner threshold parameter (default 1)
+ -n, --longcurve            - turn off curve optimization
+ -O, --opttolerance <n>     - curve optimization tolerance (default 0.2)
+ -u, --unit <n>             - quantize output to 1/unit pixels (default 10)
+ -d, --debug <n>            - produce debugging output of type n (n=1,2,3)
+Scaling and placement options:
+ -P, --pagesize <format>    - page size (default is letter)
+ -W, --width <dim>          - width of output image
+ -H, --height <dim>         - height of output image
+ -r, --resolution <n>[x<n>] - resolution (in dpi) (dimension-based backends)
+ -x, --scale <n>[x<n>]      - scaling factor (pixel-based backends)
+ -S, --stretch <n>          - yresolution/xresolution
+ -A, --rotate <angle>       - rotate counterclockwise by angle
+ -M, --margin <dim>         - margin
+ -L, --leftmargin <dim>     - left margin
+ -R, --rightmargin <dim>    - right margin
+ -T, --topmargin <dim>      - top margin
+ -B, --bottommargin <dim>   - bottom margin
+ --tight                    - remove whitespace around the input image
+Color options, supported by some backends:
+ -C, --color #rrggbb        - set foreground color (default black)
+ --fillcolor #rrggbb        - set fill color (default transparent)
+ --opaque                   - make white shapes opaque
+SVG options:
+ --group                    - group related paths together
+ --flat                     - whole image as a single path
+Postscript/EPS/PDF options:
+ -c, --cleartext            - do not compress the output
+ -2, --level2               - use postscript level 2 compression (default)
+ -3, --level3               - use postscript level 3 compression
+ -q, --longcoding           - do not optimize for file size
+PGM options:
+ -G, --gamma <n>            - gamma value for anti-aliasing (default 2.2)
+Frontend options:
+ -k, --blacklevel <n>       - black/white cutoff in input file (default 0.5)
+ -i, --invert               - invert bitmap
+Progress bar options:
+ --progress                 - show progress bar
+ --tty <mode>               - progress bar rendering: vt100 or dumb
+
+Dimensions can have optional units, e.g. 6.5in, 15cm, 100pt.
+Default is inches (or pixels for pgm, dxf, and gimppath backends).
+Possible input file formats are: pnm (pbm, pgm, ppm), bmp.
+Backends are: eps, postscript, ps, pdf, pdfpage, svg, dxf, geojson, pgm, 
+gimppath, xfig.
+
+Resource usage statistics from testing potrace:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: potrace-1.11-h5bf99c6_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
