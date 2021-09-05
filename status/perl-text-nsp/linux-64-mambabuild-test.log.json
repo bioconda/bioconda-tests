@@ -1,0 +1,92 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-text-nsp-1.31-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpias_oxef/info/recipe/conda_build_config.yaml
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + perl            5.26.2  h36c2ea0_1008  conda-forge/linux-64                     15 MB
+  + perl-text-nsp     1.31  pl526_2        /home/vsts/conda/conda-bld/linux-64      95 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 16 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-text-nsp_1630860490896/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    perl:          5.26.2-h36c2ea0_1008 conda-forge
+    perl-text-nsp: 1.31-pl526_2         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-text-nsp_1630860490896/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-text-nsp_1630860490896/test_tmp
+===== testing package: perl-text-nsp-1.31-pl526_2 =====running run_test.plChecking 'Text::NSP' version: 1.31 (PASSED)
+Checking 'Text::NSP::Measures' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::CHI' version: 1.03 (PASSED)
+Checking 'Text::NSP::Measures::2D::CHI::phi' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::CHI::tscore' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::CHI::x2' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Dice' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Dice::dice' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Dice::jaccard' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher2' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher2::left' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher2::right' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher2::twotailed' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher::left' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher::right' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::Fisher::twotailed' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::MI' version: 1.03 (PASSED)
+Checking 'Text::NSP::Measures::2D::MI::ll' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::MI::pmi' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::MI::ps' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::MI::tmi' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::2D::odds' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::3D' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::3D::MI' version: 1.03 (PASSED)
+Checking 'Text::NSP::Measures::3D::MI::ll' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::3D::MI::pmi' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::3D::MI::ps' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::3D::MI::tmi' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::4D' version: 0.97 (PASSED)
+Checking 'Text::NSP::Measures::4D::MI' version: 1.03 (PASSED)
+Checking 'Text::NSP::Measures::4D::MI::ll' version: 0.97 (PASSED)
+===== perl-text-nsp-1.31-pl526_2 OK =====import: Text::NSP
+	using version 1.31
+
+Resource usage statistics from testing perl-text-nsp:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-text-nsp-1.31-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
