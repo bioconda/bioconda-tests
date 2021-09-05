@@ -1,0 +1,94 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + curl                   7.78.0  hea6ffbf_0     conda-forge/linux-64                    Cached
+  + gqt                     1.1.3  h0263287_3     /home/vsts/conda/conda-bld/linux-64     755 KB
+  + htslib                    1.9  h244ad75_9     bioconda/linux-64                         1 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.3  h516909a_0     conda-forge/linux-64                     60 KB
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1l  h7f98852_0     conda-forge/linux-64                    Cached
+  + readline                  8.1  h46c0cb4_0     conda-forge/linux-64                    Cached
+  + sqlite                 3.36.0  h9cd32fc_0     conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 2 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: gqt-1.1.3-h0263287_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/gqt_1630863302407/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    curl:            7.78.0-hea6ffbf_0       conda-forge
+    gqt:             1.1.3-h0263287_3        local      
+    htslib:          1.9-h244ad75_9          bioconda   
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.3-h516909a_0          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1l-h7f98852_0       conda-forge
+    readline:        8.1-h46c0cb4_0          conda-forge
+    sqlite:          3.36.0-h9cd32fc_0       conda-forge
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/gqt_1630863302407/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/gqt_1630863302407/test_tmp
+
+Leaving build/test directories:
+  Work:
+ /home/vsts/conda/conda-bld/work 
+  Test:
+ /home/vsts/conda/conda-bld/test_tmp 
+Leaving build/test environments:
+  Test:
+source activate  /home/vsts/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh 
+  Build:
+source activate  /home/vsts/conda/conda-bld/_build_env 
+
+

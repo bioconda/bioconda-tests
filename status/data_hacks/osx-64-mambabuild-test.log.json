@@ -1,0 +1,96 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: data_hacks-0.3.1-py_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpmazki46s/info/recipe/conda_build_config.yaml
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + data_hacks            0.3.1  py_2                   /Users/runner/conda/conda-bld/osx-64      11 KB
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + openssl              1.1.1l  h0d85af4_0             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 16 packages
+
+  Total download: 14 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/data_hacks_1630863791503/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    data_hacks:      0.3.1-py_2                   local      
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    openssl:         1.1.1l-h0d85af4_0            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python_abi:      2.7-1_cp27m                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    setuptools:      44.0.0-py27_0                conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/data_hacks_1630863791503/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/data_hacks_1630863791503/test_tmp
+Usage: cat data | histogram.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -a, --agg             Two column input format, space seperated with
+                        value<space>key
+  -A, --agg-key-value   Two column input format, space seperated with
+                        key<space>value
+  -m MIN, --min=MIN     minimum value for graph
+  -x MAX, --max=MAX     maximum value for graph
+  -b BUCKETS, --buckets=BUCKETS
+                        Number of buckets to use for the histogram
+  -B CUSTBUCKETS, --custom-buckets=CUSTBUCKETS
+                        Comma seperated list of bucket edges for the histogram
+  --no-mvsd             Disable the calculation of Mean, Variance and SD
+                        (improves performance)
+  -f FORMAT, --bucket-format=FORMAT
+                        format for bucket numbers
+  -p, --percentage      List percentage for each bar
+
+Resource usage statistics from testing data_hacks:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: data_hacks-0.3.1-py_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
