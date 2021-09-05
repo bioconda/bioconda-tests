@@ -1,0 +1,159 @@
+  Package                Version  Build                  Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex            4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + ca-certificates    2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi           2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + hapflk                 1.3.0  py27h0152933_4         /home/vsts/conda/conda-bld/linux-64     240 KB
+  + ld_impl_linux-64      2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libblas                3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libcblas               3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libffi                 3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng             11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgfortran-ng         7.5.0  h14aa051_19            conda-forge/linux-64                     22 KB
+  + libgfortran4           7.5.0  h14aa051_19            conda-forge/linux-64                      1 MB
+  + libgomp               11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + liblapack              3.9.0  8_openblas             conda-forge/linux-64                     11 KB
+  + libopenblas           0.3.12  pthreads_hb3c22a3_1    conda-forge/linux-64                      8 MB
+  + libstdcxx-ng          11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                  6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + numpy                 1.16.5  py27h95a1406_0         conda-forge/linux-64                      4 MB
+  + openssl               1.1.1l  h7f98852_0             conda-forge/linux-64                    Cached
+  + pip                   20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + python                2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi               2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                 8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + scipy                  1.2.1  py27h921218d_2         conda-forge/linux-64                     18 MB
+  + setuptools            44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                    8.6.11  h27826a3_1             conda-forge/linux-64                    Cached
+  + wheel                 0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + zlib                  1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 29 packages
+
+  Total download: 46 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: hapflk-1.3.0-py27h0152933_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/hapflk_1630879646917/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    hapflk:           1.3.0-py27h0152933_4         local      
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libblas:          3.9.0-8_openblas             conda-forge
+    libcblas:         3.9.0-8_openblas             conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgfortran-ng:   7.5.0-h14aa051_19            conda-forge
+    libgfortran4:     7.5.0-h14aa051_19            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    liblapack:        3.9.0-8_openblas             conda-forge
+    libopenblas:      0.3.12-pthreads_hb3c22a3_1   conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    ncurses:          6.2-h58526e2_4               conda-forge
+    numpy:            1.16.5-py27h95a1406_0        conda-forge
+    openssl:          1.1.1l-h7f98852_0            conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    scipy:            1.2.1-py27h921218d_2         conda-forge
+    setuptools:       44.0.0-py27_0                conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h27826a3_1            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/hapflk_1630879646917/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/hapflk_1630879646917/test_tmp
+usage: hapflk [-h] [--ped FILE] [--map FILE] [--file PREFIX] [--bfile PREFIX]
+              [--miss_geno C] [--miss_pheno C] [--miss_parent C]
+              [--miss_sex C] [--chr C] [--from x] [--to x] [--other_map]
+              [-p PREFIX] [--ncpu N] [--eigen] [--kinship FILE]
+              [--reynolds-snps L] [--outgroup POP] [--keep-outgroup] [-K K]
+              [--nfit NFIT] [--phased] [--no-kfrq]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -p PREFIX, --prefix PREFIX
+                        prefix for output files (default: hapflk)
+  --ncpu N              Use N processors when possible (default: 1)
+  --eigen               Perform eigen decomposition of tests (default: False)
+
+Input Files:
+  Available formats
+
+  --ped FILE            PED file (default: None)
+  --map FILE            MAP file (default: None)
+  --file PREFIX         PLINK file prefix (ped,map) (default: None)
+  --bfile PREFIX        PLINK bfile prefix (bim,fam,bed) (default: None)
+
+Data format options:
+
+  --miss_geno C         Missing Genotype Code (default: 0)
+  --miss_pheno C        Missing Phenotype Code (default: -9)
+  --miss_parent C       Missing Parent Code (default: 0)
+  --miss_sex C          Missing Sex Code (default: 0)
+
+SNP selection:
+  Filter SNP by genome position
+
+  --chr C               Select chromosome C (default: None)
+  --from x              Select SNPs with position > x (in bp/cM) Warning :
+                        does not work with BED files (default: 0)
+  --to x                Select SNPs with position < x (in bp/cM) Warning :
+                        does not work with BED files (default: inf)
+  --other_map           Use alternative map (genetic/RH) (default: False)
+
+Population kinship :
+  Set parameters for getting the population kinship matrix
+
+  --kinship FILE        Read population kinship from file (if None, kinship is
+                        estimated) (default: None)
+  --reynolds-snps L     Number of SNPs to use to estimate Reynolds distances
+                        (default: 10000)
+  --outgroup POP        Use population POP as outgroup for tree rooting (if
+                        None, use midpoint rooting) (default: None)
+  --keep-outgroup       Keep outgroup in population set (default: False)
+
+hapFLK and LD model:
+  Switch on hapFLK calculations and set parameters of the LD model
+
+  -K K                  Set the number of clusters to K. hapFLK calculations
+                        switched off if K<0 (default: -1)
+  --nfit NFIT           Set the number of model fit to use (default: 20)
+  --phased, --inbred    Haplotype data provided (default: False)
+  --no-kfrq             Do not write Cluster frequencies (default: False)
+
+Resource usage statistics from testing hapflk:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: hapflk-1.3.0-py27h0152933_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
