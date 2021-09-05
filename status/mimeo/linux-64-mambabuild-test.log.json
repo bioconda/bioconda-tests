@@ -1,0 +1,270 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mimeo-1.1.1-py36_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpvimhb8gj/info/recipe/conda_build_config.yaml
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython              1.79  py36h8f6f2f9_0       conda-forge/linux-64                      3 MB
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + mimeo                 1.1.1  py36_1               /home/vsts/conda/conda-bld/linux-64      25 KB
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                1.19.5  py36hfc0c790_2       conda-forge/linux-64                      5 MB
+  + openssl              1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pandas                1.1.5  py36h284efc9_0       conda-forge/linux-64                     11 MB
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python               3.6.13  hffdb5ce_0_cpython   conda-forge/linux-64                     38 MB
+  + python-dateutil       2.8.2  pyhd8ed1ab_0         conda-forge/noarch                      240 KB
+  + python_abi              3.6  2_cp36m              conda-forge/linux-64                      4 KB
+  + pytz                 2021.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py36h5fab9bb_0       conda-forge/linux-64                    933 KB
+  + six                  1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 59 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mimeo_1630852872835/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py36h8f6f2f9_0        conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    mimeo:            1.1.1-py36_1               local      
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.19.5-py36hfc0c790_2      conda-forge
+    openssl:          1.1.1l-h7f98852_0          conda-forge
+    pandas:           1.1.5-py36h284efc9_0       conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    python:           3.6.13-hffdb5ce_0_cpython  conda-forge
+    python-dateutil:  2.8.2-pyhd8ed1ab_0         conda-forge
+    python_abi:       3.6-2_cp36m                conda-forge
+    pytz:             2021.1-pyhd8ed1ab_0        conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py36h5fab9bb_0      conda-forge
+    six:              1.16.0-pyh6c4a22f_0        conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/mimeo_1630852872835/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/mimeo_1630852872835/test_tmp
+import: 'mimeo'
+import: 'mimeo'
+usage: mimeo-self [-h] [--adir ADIR] [--afasta AFASTA] [-r] [-d OUTDIR]
+                  [--gffout GFFOUT] [--outfile OUTFILE] [--verbose]
+                  [--label LABEL] [--prefix PREFIX] [--keeptemp]
+                  [--lzpath LZPATH] [--bedtools BEDTOOLS] [--minIdt MINIDT]
+                  [--minLen MINLEN] [--minCov MINCOV] [--hspthresh HSPTHRESH]
+                  [--intraCov INTRACOV] [--strictSelf]
+
+Internal repeat finder. Mimeo-self aligns a genome to itself and extracts
+high-identity segments above an coverage threshold.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --adir ADIR           Name of directory containing sequences from genome.
+                        Write split files here if providing genome as
+                        multifasta.
+  --afasta AFASTA       Genome as multifasta.
+  -r, --recycle         Use existing alignment "--outfile" if found.
+  -d OUTDIR, --outdir OUTDIR
+                        Write output files to this directory. (Default: cwd)
+  --gffout GFFOUT       Name of GFF3 annotation file.
+  --outfile OUTFILE     Name of alignment result file.
+  --verbose             If set report LASTZ progress.
+  --label LABEL         Set annotation TYPE field in gff.
+  --prefix PREFIX       ID prefix for internal repeats.
+  --keeptemp            If set do not remove temp files.
+  --lzpath LZPATH       Custom path to LASTZ executable if not in $PATH.
+  --bedtools BEDTOOLS   Custom path to bedtools executable if not in $PATH.
+  --minIdt MINIDT       Minimum alignment identity to report.
+  --minLen MINLEN       Minimum alignment length to report.
+  --minCov MINCOV       Minimum depth of aligned segments to report repeat
+                        feature.
+  --hspthresh HSPTHRESH
+                        Set HSP min score threshold for LASTZ.
+  --intraCov INTRACOV   Minimum depth of aligned segments from same scaffold
+                        to report feature. Used if "--strictSelf" mode is
+                        selected.
+  --strictSelf          If set process same-scaffold alignments separately
+                        with option to use higher "--intraCov" threshold.
+                        Sometime useful to avoid false repeat calls from
+                        staggered alignments over SSRs or short tandem
+                        duplication.
+usage: mimeo-x [-h] [--adir ADIR] [--bdir BDIR] [--afasta AFASTA]
+               [--bfasta BFASTA] [-r] [-d OUTDIR] [--gffout GFFOUT]
+               [--outfile OUTFILE] [--verbose] [--label LABEL]
+               [--prefix PREFIX] [--keeptemp] [--lzpath LZPATH]
+               [--bedtools BEDTOOLS] [--minIdt MINIDT] [--minLen MINLEN]
+               [--minCov MINCOV] [--hspthresh HSPTHRESH]
+
+Cross-species repeat finder. Mimeo-x searches for features which are abundant
+in an external reference genome.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --adir ADIR           Name of directory containing sequences from A genome.
+  --bdir BDIR           Name of directory containing sequences from B genome.
+  --afasta AFASTA       A genome as multifasta.
+  --bfasta BFASTA       B genome as multifasta.
+  -r, --recycle         Use existing alignment "--outfile" if found.
+  -d OUTDIR, --outdir OUTDIR
+                        Write output files to this directory. (Default: cwd)
+  --gffout GFFOUT       Name of GFF3 annotation file.
+  --outfile OUTFILE     Name of alignment result file.
+  --verbose             If set report LASTZ progress.
+  --label LABEL         Set annotation TYPE field in gff.
+  --prefix PREFIX       ID prefix for B-genome repeats annotated in A-genome.
+  --keeptemp            If set do not remove temp files.
+  --lzpath LZPATH       Custom path to LASTZ executable if not in $PATH.
+  --bedtools BEDTOOLS   Custom path to bedtools executable if not in $PATH.
+  --minIdt MINIDT       Minimum alignment identity to report.
+  --minLen MINLEN       Minimum alignment length to report.
+  --minCov MINCOV       Minimum depth of B-genome hits to report feature in
+                        A-genome.
+  --hspthresh HSPTHRESH
+                        Set HSP min score threshold for LASTZ.
+usage: mimeo-map [-h] [--adir ADIR] [--bdir BDIR] [--afasta AFASTA]
+                 [--bfasta BFASTA] [-r] [-d OUTDIR] [--gffout GFFOUT]
+                 [--outfile OUTFILE] [--verbose] [--label LABEL]
+                 [--prefix PREFIX] [--keeptemp] [--lzpath LZPATH]
+                 [--minIdt MINIDT] [--minLen MINLEN] [--hspthresh HSPTHRESH]
+                 [--TRFpath TRFPATH] [--tmatch TMATCH] [--tmismatch TMISMATCH]
+                 [--tdelta TDELTA] [--tPM TPM] [--tPI TPI]
+                 [--tminscore TMINSCORE] [--tmaxperiod TMAXPERIOD]
+                 [--maxtandem MAXTANDEM] [--writeTRF]
+
+Find all high-identity segments shared between genomes.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --adir ADIR           Name of directory containing sequences from A genome.
+  --bdir BDIR           Name of directory containing sequences from B genome.
+  --afasta AFASTA       A genome as multifasta.
+  --bfasta BFASTA       B genome as multifasta.
+  -r, --recycle         Use existing alignment "--outfile" if found.
+  -d OUTDIR, --outdir OUTDIR
+                        Write output files to this directory. (Default: cwd)
+  --gffout GFFOUT       Name of GFF3 annotation file. If not set, suppress
+                        output.
+  --outfile OUTFILE     Name of alignment result file.
+  --verbose             If set report LASTZ progress.
+  --label LABEL         Set annotation TYPE field in gff.
+  --prefix PREFIX       ID prefix for B-genome hits annotated in A-genome.
+  --keeptemp            If set do not remove temp files.
+  --lzpath LZPATH       Custom path to LASTZ executable if not in $PATH.
+  --minIdt MINIDT       Minimum alignment identity to report.
+  --minLen MINLEN       Minimum alignment length to report.
+  --hspthresh HSPTHRESH
+                        Set HSP min score threshold for LASTZ.
+  --TRFpath TRFPATH     Custom path to TRF executable if not in $PATH.
+  --tmatch TMATCH       TRF matching weight
+  --tmismatch TMISMATCH
+                        TRF mismatching penalty
+  --tdelta TDELTA       TRF indel penalty
+  --tPM TPM             TRF match probability
+  --tPI TPI             TRF indel probability
+  --tminscore TMINSCORE
+                        TRF minimum alignment score to report
+  --tmaxperiod TMAXPERIOD
+                        TRF maximum period size to report
+  --maxtandem MAXTANDEM
+                        Max percentage of an A-genome alignment which may be
+                        masked by TRF. If exceeded, alignment will be
+                        discarded.
+  --writeTRF            If set write TRF filtered alignment file for use with
+                        other mimeo modules.
+usage: mimeo-filter [-h] --infile INFILE [-d OUTDIR] [--outfile OUTFILE]
+                    [--keeptemp] [--verbose] [--TRFpath TRFPATH]
+                    [--tmatch TMATCH] [--tmismatch TMISMATCH]
+                    [--tdelta TDELTA] [--tPM TPM] [--tPI TPI]
+                    [--tminscore TMINSCORE] [--tmaxperiod TMAXPERIOD]
+                    [--maxtandem MAXTANDEM]
+
+Filter SSR containing sequences from fasta library of repeats.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --infile INFILE       Name of directory containing sequences from A genome.
+  -d OUTDIR, --outdir OUTDIR
+                        Write output files to this directory. (Default: cwd)
+  --outfile OUTFILE     Name of alignment result file.
+  --keeptemp            If set do not remove temp files.
+  --verbose             If set report LASTZ progress.
+  --TRFpath TRFPATH     Custom path to TRF executable if not in $PATH.
+  --tmatch TMATCH       TRF matching weight
+  --tmismatch TMISMATCH
+                        TRF mismatching penalty
+  --tdelta TDELTA       TRF indel penalty
+  --tPM TPM             TRF match probability
+  --tPI TPI             TRF indel probability
+  --tminscore TMINSCORE
+                        TRF minimum alignment score to report
+  --tmaxperiod TMAXPERIOD
+                        TRF maximum period size to report. Note: Setting this
+                        score too high may exclude some LTR retrotransposons.
+                        Optimal len to exclude only SSRs is 10-50bp.
+  --maxtandem MAXTANDEM
+                        Max percentage of a sequence which may be masked by
+                        TRF. If exceeded, element will be discarded.
+
+Resource usage statistics from testing mimeo:
+   Process count: 3
+   CPU time: Sys=0:00:00.1, User=0:00:00.5
+   Memory: 64.9M
+   Disk usage: 20B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: mimeo-1.1.1-py36_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
