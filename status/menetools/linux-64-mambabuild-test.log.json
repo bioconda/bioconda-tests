@@ -1,0 +1,157 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: menetools-2.0.6-py_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp6f8pxxe4/info/recipe/conda_build_config.yaml
+  Package               Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu               conda-forge/linux-64                    Cached
+  + arpeggio             1.10.1  pyhd3deb0d_0        conda-forge/noarch                       39 KB
+  + ca-certificates   2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + clyngor              0.3.31  pyh9f0ad1d_0        conda-forge/noarch                       53 KB
+  + icu                    68.1  h58526e2_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libiconv               1.16  h516909a_0          conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + libxml2              2.9.12  h72842e0_0          conda-forge/linux-64                    Cached
+  + libxslt              1.1.33  h15afd5d_2          conda-forge/linux-64                    522 KB
+  + lxml                  4.6.3  py36h04a5ba7_0      conda-forge/linux-64                      2 MB
+  + menetools             2.0.6  py_0                /home/vsts/conda/conda-bld/linux-64      17 KB
+  + ncurses                 6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl              1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pypeg2               2.15.2  py36_0              conda-forge/linux-64                     39 KB
+  + python               3.6.13  hffdb5ce_0_cpython  conda-forge/linux-64                     38 MB
+  + python_abi              3.6  2_cp36m             conda-forge/linux-64                      4 KB
+  + readline                8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py36h5fab9bb_0      conda-forge/linux-64                    933 KB
+  + sqlite               3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 29 packages
+
+  Total download: 41 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/menetools_1630852077330/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge           conda-forge
+    _openmp_mutex:    4.5-1_gnu                 conda-forge
+    arpeggio:         1.10.1-pyhd3deb0d_0       conda-forge
+    ca-certificates:  2021.5.30-ha878542_0      conda-forge
+    clyngor:          0.3.31-pyh9f0ad1d_0       conda-forge
+    icu:              68.1-h58526e2_0           conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2         conda-forge
+    libffi:           3.3-h58526e2_2            conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8         conda-forge
+    libgomp:          11.1.0-hc902ee8_8         conda-forge
+    libiconv:         1.16-h516909a_0           conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8         conda-forge
+    libxml2:          2.9.12-h72842e0_0         conda-forge
+    libxslt:          1.1.33-h15afd5d_2         conda-forge
+    lxml:             4.6.3-py36h04a5ba7_0      conda-forge
+    menetools:        2.0.6-py_0                local      
+    ncurses:          6.2-h58526e2_4            conda-forge
+    openssl:          1.1.1l-h7f98852_0         conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0       conda-forge
+    pypeg2:           2.15.2-py36_0             conda-forge
+    python:           3.6.13-hffdb5ce_0_cpython conda-forge
+    python_abi:       3.6-2_cp36m               conda-forge
+    readline:         8.1-h46c0cb4_0            conda-forge
+    setuptools:       57.4.0-py36h5fab9bb_0     conda-forge
+    sqlite:           3.36.0-h9cd32fc_0         conda-forge
+    tk:               8.6.11-h27826a3_1         conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:               5.2.5-h516909a_1          conda-forge
+    zlib:             1.2.11-h516909a_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/menetools_1630852077330/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/menetools_1630852077330/test_tmp
+import: 'menetools'
+import: 'menetools'
+usage: menecheck [-h] -d DRAFTNET -s SEEDS -t TARGETS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DRAFTNET, --draftnet DRAFTNET
+                        metabolic network in SBML format
+  -s SEEDS, --seeds SEEDS
+                        seeds in SBML format
+  -t TARGETS, --targets TARGETS
+                        targets in SBML format
+usage: menescope [-h] -d DRAFTNET -s SEEDS
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DRAFTNET, --draftnet DRAFTNET
+                        metabolic network in SBML format
+  -s SEEDS, --seeds SEEDS
+                        seeds in SBML format
+usage: menepath [-h] -d DRAFTNET -s SEEDS -t TARGETS [--min] [--enumerate]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DRAFTNET, --draftnet DRAFTNET
+                        metabolic network in SBML format
+  -s SEEDS, --seeds SEEDS
+                        seeds in SBML format
+  -t TARGETS, --targets TARGETS
+                        targets in SBML format
+  --min                 call this option to obtain minimal-size paths
+  --enumerate           call this option for an enumeration of solutions
+usage: menecof [-h] -d DRAFTNET -s SEEDS -t TARGETS [-c COFACTORS]
+               [--suffix SUFFIX] [--weight] [--enumerate]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d DRAFTNET, --draftnet DRAFTNET
+                        metabolic network in SBML format
+  -s SEEDS, --seeds SEEDS
+                        seeds in SBML format
+  -t TARGETS, --targets TARGETS
+                        targets in SBML format
+  -c COFACTORS, --cofactors COFACTORS
+                        cofactors, in one-per-line text file format
+  --suffix SUFFIX       suffix to be added to the compounds of the database.
+                        It can be the suffix for the cytosolic compartment or
+                        external one. Cytosolic one is prefered to ensure the
+                        impact of the added cofactors. Default = None
+  --weight              call this option if cofactors are weighted according
+                        to their occurrence frequency in database. If so,
+                        cofactors file must be tabulated with per line
+                        compound' 'occurrence
+  --enumerate           enumerates all cofactors solutions
+
+Resource usage statistics from testing menetools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: menetools-2.0.6-py_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
