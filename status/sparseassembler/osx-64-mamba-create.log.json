@@ -1,0 +1,68 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "habf9029_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "libcxx-12.0.1-habf9029_0.tar.bz2",
+        "license": "Apache-2.0 WITH LLVM-exception",
+        "name": "libcxx",
+        "sha256": "1c671f293fee0e680a728f77b31189316456ba8b9e57e35218ce02b371f2a7f0",
+        "size": 1104124,
+        "subdir": "",
+        "timestamp": 1626161047000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/libcxx-12.0.1-habf9029_0.tar.bz2",
+        "version": "12.0.1"
+      },
+      {
+        "build": "hb280591_6",
+        "build_number": 6,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "libcxx >=11.1.0"
+        ],
+        "fn": "sparseassembler-20160205-hb280591_6.tar.bz2",
+        "license": "GPL-3.0",
+        "name": "sparseassembler",
+        "sha256": "4c9a4ec02839004d36d600cae8468b38687b9b1cd4c7e68564abfe189605d1da",
+        "size": 415693,
+        "subdir": "",
+        "timestamp": 1616681617000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/sparseassembler-20160205-hb280591_6.tar.bz2",
+        "version": "20160205"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "habf9029_0",
+        "channel": "conda-forge",
+        "dist_name": "libcxx-12.0.1-habf9029_0",
+        "name": "libcxx",
+        "platform": "",
+        "version": "12.0.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 6,
+        "build_string": "hb280591_6",
+        "channel": "bioconda",
+        "dist_name": "sparseassembler-20160205-hb280591_6",
+        "name": "sparseassembler",
+        "platform": "",
+        "version": "20160205"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}
