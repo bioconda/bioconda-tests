@@ -1,0 +1,127 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: extract_genome_region-0.0.3-py36_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp9h9iks1j/info/recipe/conda_build_config.yaml
+  Package                    Version  Build               Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex                4.5  1_gnu               conda-forge/linux-64                    Cached
+  + ca-certificates        2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + click                      8.0.1  py36h5fab9bb_0      conda-forge/linux-64                    Cached
+  + extract_genome_region      0.0.3  py36_1              /home/vsts/conda/conda-bld/linux-64      10 KB
+  + importlib-metadata         4.8.1  py36h5fab9bb_0      conda-forge/linux-64                    Cached
+  + ld_impl_linux-64          2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                       3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng                 11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                   11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng              11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                      6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                   1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + pip                       21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pyfaidx                    0.6.2  pyh5e36f6f_0        bioconda/noarch                          29 KB
+  + python                    3.6.13  hffdb5ce_0_cpython  conda-forge/linux-64                    Cached
+  + python_abi                   3.6  2_cp36m             conda-forge/linux-64                    Cached
+  + readline                     8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools                57.4.0  py36h5fab9bb_0      conda-forge/linux-64                    Cached
+  + six                       1.16.0  pyh6c4a22f_0        conda-forge/noarch                      Cached
+  + sqlite                    3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                        8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + typing_extensions       3.10.0.0  pyha770c72_0        conda-forge/noarch                      Cached
+  + wheel                     0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                         5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zipp                       3.5.0  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + zlib                      1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 27 packages
+
+  Total download: 39 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/extract_genome_region_1630802498538/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:         0.1-conda_forge           conda-forge
+    _openmp_mutex:         4.5-1_gnu                 conda-forge
+    ca-certificates:       2021.5.30-ha878542_0      conda-forge
+    click:                 8.0.1-py36h5fab9bb_0      conda-forge
+    extract_genome_region: 0.0.3-py36_1              local      
+    importlib-metadata:    4.8.1-py36h5fab9bb_0      conda-forge
+    ld_impl_linux-64:      2.36.1-hea4e1c9_2         conda-forge
+    libffi:                3.3-h58526e2_2            conda-forge
+    libgcc-ng:             11.1.0-hc902ee8_8         conda-forge
+    libgomp:               11.1.0-hc902ee8_8         conda-forge
+    libstdcxx-ng:          11.1.0-h56837e0_8         conda-forge
+    ncurses:               6.2-h58526e2_4            conda-forge
+    openssl:               1.1.1l-h7f98852_0         conda-forge
+    pip:                   21.2.4-pyhd8ed1ab_0       conda-forge
+    pyfaidx:               0.6.2-pyh5e36f6f_0        bioconda   
+    python:                3.6.13-hffdb5ce_0_cpython conda-forge
+    python_abi:            3.6-2_cp36m               conda-forge
+    readline:              8.1-h46c0cb4_0            conda-forge
+    setuptools:            57.4.0-py36h5fab9bb_0     conda-forge
+    six:                   1.16.0-pyh6c4a22f_0       conda-forge
+    sqlite:                3.36.0-h9cd32fc_0         conda-forge
+    tk:                    8.6.11-h27826a3_1         conda-forge
+    typing_extensions:     3.10.0.0-pyha770c72_0     conda-forge
+    wheel:                 0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:                    5.2.5-h516909a_1          conda-forge
+    zipp:                  3.5.0-pyhd8ed1ab_0        conda-forge
+    zlib:                  1.2.11-h516909a_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/extract_genome_region_1630802498538/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/extract_genome_region_1630802498538/test_tmp
+Usage: extract_genome_region [OPTIONS] REGIONS IN_FASTA OUT_FASTA
+
+  Given a CSV file of variable information defining the regions of interest
+  along with input and output fasta file paths, write a file that contains a
+  fasta-formatted representation of these regions.
+
+  Structure of the `regions` CSV file:
+
+    record_name   The name you want the seq to have in the new fasta.
+       scaffold   The name of the seq record in the source fasta (chromosome, scaffold, contig, etc).
+          start   The first bp of the seq feature you want in the new fasta.
+           stop   The last bp of the seq feature you want in the new fasta.
+       left_bfr   How many "extra" bp with coords smaller than `start` you want (0 for none).
+      right_bfr   How many "extra" bp with coords larger than `stop` you want (0 for none).
+
+  Naming Strategies:
+
+            csv   use only the contents of the `record_name` field in the csv file (>CPR23).
+      seq_range   use only the `scaffold` name and sequence range (>scaffold1:230-679).
+  csv_seq_range   use both the contents of the `record_name` field and the `scaffold`.
+                  name and sequence range (>CPR23 scaffold1:230-679).
+
+Options:
+  -n, --naming [csv|seq_range|csv_seq_range]
+                                  Options regarding how each new fasta record
+                                  will be named. See main help-text for
+                                  explainations of options. [default='csv']
+  --help                          Show this message and exit.
+
+Resource usage statistics from testing extract_genome_region:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: extract_genome_region-0.0.3-py36_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
