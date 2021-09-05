@@ -1,0 +1,91 @@
+  Package           Version  Build          Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + super_distance    1.1.0  h5bf99c6_2     /home/vsts/conda/conda-bld/linux-64     156 KB
+  + zlib             1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 156 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: super_distance-1.1.0-h5bf99c6_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/super_distance_1630844430021/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:  0.1-conda_forge      conda-forge
+    _openmp_mutex:  4.5-1_gnu            conda-forge
+    libgcc-ng:      11.1.0-hc902ee8_8    conda-forge
+    libgomp:        11.1.0-hc902ee8_8    conda-forge
+    super_distance: 1.1.0-h5bf99c6_2     local      
+    zlib:           1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/super_distance_1630844430021/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/super_distance_1630844430021/test_tmp
+super_distance 1.1.0 
+Matrix Representation with Distances: calculates pairwise distances between gene leaves, and estimates species trees from summary distance matrices
+The complete syntax is:
+
+ super_distance  [-h|--help] [-v|--version] [-F|--fast] [-e|--epsilon=<double>] [-s|--species=<species names>] [-o|--output=<newick>] <file> [<file>]...
+
+  -h, --help                       print a longer help and exit
+  -v, --version                    print version and exit
+  -F, --fast                       for too many leaves, estimates only two species trees
+  -e, --epsilon=<double>           tolerance (small value below which a branch length is considered zero for nodal distances)
+  -s, --species=<species names>    file with species names, one per line (comments in square braces allowed); if absent, orthology is assumed
+  -o, --output=<newick>            output file with species supertrees, in newick format (default '-')
+  <file>                           list of gene tree files, in newick format
+
+Based on several rescaled patristic distances, the program takes the average matrix between genes and estimates 
+ the species tree using bioNJ, UPGMA and single-linkage after scaling back to the original values (more below). The program 
+ also uses a distance matrix to project branch lengths on species trees missing lengths; 
+
+The branch length rescaling per gene can be the minimum, the average, the total sum, etc. and at the end these values
+ averaged over trees are scaled back in the final distance matrix, such that lengths in the supertree (species tree) are interpretable.
+ One exception is the nodal distance, which is based on the number of nodes between two leaves (e.g. NJst). In this case it may make
+ more sense to use another distance matrix to infer the branch lengths. Option 'F' uses averages distances projected on nodal-estimated tree; 
+ it uses fewer scalings/options, providing a fast estimation. We avoid using individual gene trees since they may have 
+ missing information (missing species or species pairs). For missing comparisons (when two species are never seen in the same gene tree)
+ we use the ultrametric condition (comparison to a common species) to estimate its value.
+
+If a file with species names is given, the program allows for paralogs; otherwise it assumes orthology and that _at_least_ one tree has no missing data:
+ * Paralogy: the species names will be mapped to individual gene tree leaves (e.g. `ECOLI_a` and `ECOLI_b` will both map to species `ECOLI`).
+    Each gene tree can therefore have several copies of each species, and can also have missing species.
+ * Orthology: if a file with species names is not given, however, it is assumed that each species is represented at most once per gene, and
+   furthermore that the leaf names represent the species, and are thus identical across trees. This mode is the underlying assumption behind
+   most tree comparison software, although here missing data for some trees (not all) is allowed. I.e. as long as one tree has full information
+   (for all species), then others can have some absent species.
+With paralogs or not, it is not recommended to have missing entries in the distance matrix (e.g. when a species pair does not appear in any tree),
+ and matrix representation with distances methods work better with more 'complete' gene trees.
+
+
+Resource usage statistics from testing super_distance:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: super_distance-1.1.0-h5bf99c6_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
