@@ -1,0 +1,29 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: sbt-1.5.5-hd8ed1ab_0.tar.bz2
+Mamba failed to solve:
+ - sbt 1.5.5 hd8ed1ab_0
+ - __unix
+ - openjdk >=8
+
+with channels:
+ - file:///Users/runner/conda/conda-bld
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested __unix
+     - nothing provides __unix needed by sbt-1.5.5-hd8ed1ab_0
+   
+
+Leaving build/test directories:
+  Work:
+ /Users/runner/conda/conda-bld/work 
+  Test:
+ /Users/runner/conda/conda-bld/test_tmp 
+Leaving build/test environments:
+  Test:
+source activate  /Users/runner/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla 
+  Build:
+source activate  /Users/runner/conda/conda-bld/_build_env 
+
+
