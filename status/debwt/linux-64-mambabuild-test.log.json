@@ -1,0 +1,56 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + debwt            1.0.1  h5bf99c6_4     /home/vsts/conda/conda-bld/linux-64     113 KB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 113 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: debwt-1.0.1-h5bf99c6_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/debwt_1630876973975/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    debwt:         1.0.1-h5bf99c6_4     local      
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/debwt_1630876973975/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/debwt_1630876973975/test_tmp
+deBWT [options] reference
+
+Resource usage statistics from testing debwt:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: debwt-1.0.1-h5bf99c6_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
