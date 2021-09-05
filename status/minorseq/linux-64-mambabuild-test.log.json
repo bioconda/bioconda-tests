@@ -1,0 +1,268 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: minorseq-1.12.0-0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpeauppqe9/info/recipe/conda_build_config.yaml
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + htslib                 1.10.2  hd3b49d5_1     bioconda/linux-64                         2 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.6  h516909a_0     conda-forge/linux-64                     60 KB
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + minorseq               1.12.0  0              /home/vsts/conda/conda-bld/linux-64       4 MB
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1l  h7f98852_0     conda-forge/linux-64                    Cached
+  + pbccs                   6.0.0  h9ee0642_2     bioconda/linux-64                         3 MB
+  + pbmm2                   1.4.0  h56fc30b_0     bioconda/linux-64                         1 MB
+  + samtools                 1.10  h2e538c0_3     bioconda/linux-64                       338 KB
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 10 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/minorseq_1630833495965/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    htslib:          1.10.2-hd3b49d5_1       bioconda   
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.6-h516909a_0          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    minorseq:        1.12.0-0                local      
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1l-h7f98852_0       conda-forge
+    pbccs:           6.0.0-h9ee0642_2        bioconda   
+    pbmm2:           1.4.0-h56fc30b_0        bioconda   
+    samtools:        1.10-h2e538c0_3         bioconda   
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+##############################################################################
+#                                                                            #
+# PacBio(R) tools distributed via Bioconda are: pre-release versions, not    #
+# necessarily ISO compliant, intended for Research Use Only and not for use  #
+# in diagnostic procedures, intended only for command-line users, and        #
+# possibly newer than the currently available SMRT(R) Analysis builds. While #
+# efforts have been made to ensure that releases on Bioconda live up to the  #
+# quality that PacBio strives for, we make no warranty regarding any         #
+# Bioconda release.                                                          #
+#                                                                            #
+# As PacBio tools distributed via Bioconda are not covered by any service    #
+# level agreement or the like, please *do not* contact a PacBio Field        #
+# Applications Scientist or PacBio Customer Service for assistance with any  #
+# Bioconda release. We instead provide an issue tracker for you to report    #
+# issues to us at:                                                           #
+#                                                                            #
+#   https://github.com/PacificBiosciences/pbbioconda                         #
+#                                                                            #
+# We make no warranty that any such issue will be addressed,                 #
+# to any extent or within any time frame.                                    #
+#                                                                            #
+# PacBio tool ccs, distributed via Bioconda, is licensed under               #
+#                                                                            #
+#   BSD-3 Clause Clear                                                       #
+#                                                                            #
+# and statically links GNU C Library v2.32 licensed under LGPL.              #
+# Per LPGL 2.1 subsection 6c, you are entitled to request the complete       #
+# machine-readable work that uses glibc in object code.                      #
+#                                                                            #
+# Please see https://github.com/PacificBiosciences/pbbioconda for            #
+# information on License, Copyright and Disclaimer                           #
+#                                                                            #
+##############################################################################
+
+
+##############################################################################
+#                                                                            #
+# PacBio(R) tools distributed via Bioconda are: pre-release versions, not    #
+# necessarily ISO compliant, intended for Research Use Only and not for use  #
+# in diagnostic procedures, intended only for command-line users, and        #
+# possibly newer than the currently available SMRT(R) Analysis builds. While #
+# efforts have been made to ensure that releases on Bioconda live up to the  #
+# quality that PacBio strives for, we make no warranty regarding any         #
+# Bioconda release.                                                          #
+#                                                                            #
+# As PacBio tools distributed via Bioconda are not covered by any service    #
+# level agreement or the like, please *do not* contact a PacBio Field        #
+# Applications Scientist or PacBio Customer Service for assistance with any  #
+# Bioconda release. We instead provide an issue tracker for you to report    #
+# issues to us at:                                                           #
+#                                                                            #
+#   https://github.com/PacificBiosciences/pbbioconda                         #
+#                                                                            #
+# We make no warranty that any such issue will be addressed,                 #
+# to any extent or within any time frame.                                    #
+#                                                                            #
+# BSD 3-Clause Clear License                                                 #
+#                                                                            #
+# Please see https://github.com/PacificBiosciences/pbbioconda for            #
+# information on License, Copyright and Disclaimer                           #
+#                                                                            #
+##############################################################################
+
+
+##############################################################################
+#                                                                            #
+# PacBio(R) tools distributed via Bioconda are: pre-release versions, not    #
+# necessarily ISO compliant, intended for Research Use Only and not for use  #
+# in diagnostic procedures, intended only for command-line users, and        #
+# possibly newer than the currently available SMRT(R) Analysis builds. While #
+# efforts have been made to ensure that releases on Bioconda live up to the  #
+# quality that PacBio strives for, we make no warranty regarding any         #
+# Bioconda release.                                                          #
+#                                                                            #
+# As PacBio tools distributed via Bioconda are not covered by any service    #
+# level agreement or the like, please *do not* contact a PacBio Field        #
+# Applications Scientist or PacBio Customer Service for assistance with any  #
+# Bioconda release. We instead provide an issue tracker for you to report    #
+# issues to us at:                                                           #
+#                                                                            #
+#   https://github.com/PacificBiosciences/pbbioconda                         #
+#                                                                            #
+# We make no warranty that any such issue will be addressed,                 #
+# to any extent or within any time frame.                                    #
+#                                                                            #
+# BSD 3-Clause Clear License                                                 #
+#                                                                            #
+# Please see https://github.com/PacificBiosciences/pbbioconda for            #
+# information on License, Copyright and Disclaimer                           #
+#                                                                            #
+##############################################################################
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/minorseq_1630833495965/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/minorseq_1630833495965/test_tmp
+Usage: juliet [options] FILE
+Juliet, minimal minor variant calling software.
+Attention: Juliet is for research usage only. Predictions have not been validated.
+
+Configuration:
+  --config,-c               Defines genes of interest within the reference for reporting purposes. Enter either 1)
+                            the predefined target config "HIV_HXB2" or a custom target config through either 2a)
+                            the path to the target config JSON file or 2b) the JSON string.
+  --mode-phasing,-p         Phase variants and cluster haplotypes.
+
+Restrictions:
+  --region,-r               Clip reads to this genomic region. Empty means all reads.
+  --drm-only,-k             Only report variants that confer drug resistance, as listed in the target
+                            configuration file.
+  --min-perc,-m             Report only variants whose percentage of the total population exceeds this value.
+                            Increasing it helps to remove PCR noise. [0.1]
+  --max-perc,-n             Report only variants whose percentage of the total population is less than this value.
+                            Lowering it helps to phase low frequency variants when the highest-frequency variant is
+                            different from the reference. [100]
+
+Chemistry override (specify both):
+  --sub,-s                  Substitution Rate, specify to override the learned rate. [0]
+  --del,-d                  Deletion Rate, specify to override the learned rate. [0]
+
+Options:
+  -h,--help                 Output this help.
+  --version                 Output version info.
+  --verbose                 Verbose
+  --debug                   Debug returns all amino acids, irrelevant of their significance.
+  --emit-tool-contract      Emit tool contract.
+  --resolved-tool-contract  Use args from resolved tool contract.
+
+Arguments:
+  source                    Source BAM or DataSet XML file.
+
+Usage: fuse [options] FILE FILE
+Fuse, a BAM alignment consensus caller
+
+Options:
+  -h,--help                 Output this help.
+  --version                 Output version info.
+  --min-coverage            Minimal coverage to call a position. [50]
+  --emit-tool-contract      Emit tool contract.
+  --resolved-tool-contract  Use args from resolved tool contract.
+
+Arguments:
+  source                    Source BAM or DataSet XML file.
+  output                    Output fasta file.
+
+Usage: cleric [options] FILE FILE FILE FILE
+Cleric, a BAM alignment reference converter
+
+Options:
+  -h,--help                 Output this help.
+  --version                 Output version info.
+  --aln                     Pairwise alignment of reference to target
+  --emit-tool-contract      Emit tool contract.
+  --resolved-tool-contract  Use args from resolved tool contract.
+
+Arguments:
+  bam                       Source BAM
+  ref                       Reference Fasta
+  target                    Target Fasta
+  output                    Output BAM
+
+USAGE: julietflow -i movie.ccs.bam -r reference.fasta
+
+  -i [arg]  BAM CCS file to process. Required.
+  -r [arg]  Reference FASTA file. Required.
+  -c [arg]  Juliet target config. Default=none
+  -j [arg]  Number of CPU cores. Default=1
+  -e [arg]  Maximal number of re-align iterations. Default=1
+  -t [arg]  Target reference FASTA, per default using --ref.
+  -m [arg]  Minimal variant frequency. Default=0.
+  -n [arg]  Maximal variant frequency. Default=100.
+  -g [arg]  Genomic region of interest, reads will be clipped to that region, empty means all reads.
+  -p        Phase variants.
+  -k        Only report known DRM positions.
+  -z        Keep temporary files.
+  -h --help This help page
+
+Resource usage statistics from testing minorseq:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: minorseq-1.12.0-0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
