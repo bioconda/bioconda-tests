@@ -1,0 +1,424 @@
+  Package               Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu               conda-forge/linux-64                    Cached
+  + anise_basil           1.2.0  py38h9b08285_2      /home/vsts/conda/conda-bld/linux-64       1 MB
+  + ca-certificates   2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl              1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + python               3.8.10  h49503c6_1_cpython  conda-forge/linux-64                     26 MB
+  + python_abi              3.8  2_cp38              conda-forge/linux-64                      4 KB
+  + readline                8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py38h578d9bd_0      conda-forge/linux-64                    934 KB
+  + sqlite               3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 28 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: anise_basil-1.2.0-py38h9b08285_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/anise_basil_1630853443825/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge           conda-forge
+    _openmp_mutex:    4.5-1_gnu                 conda-forge
+    anise_basil:      1.2.0-py38h9b08285_2      local      
+    ca-certificates:  2021.5.30-ha878542_0      conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2         conda-forge
+    libffi:           3.3-h58526e2_2            conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8         conda-forge
+    libgomp:          11.1.0-hc902ee8_8         conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8         conda-forge
+    ncurses:          6.2-h58526e2_4            conda-forge
+    openssl:          1.1.1l-h7f98852_0         conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0       conda-forge
+    python:           3.8.10-h49503c6_1_cpython conda-forge
+    python_abi:       3.8-2_cp38                conda-forge
+    readline:         8.1-h46c0cb4_0            conda-forge
+    setuptools:       57.4.0-py38h578d9bd_0     conda-forge
+    sqlite:           3.36.0-h9cd32fc_0         conda-forge
+    tk:               8.6.11-h27826a3_1         conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:               5.2.5-h516909a_1          conda-forge
+    zlib:             1.2.11-h516909a_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/anise_basil_1630853443825/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/anise_basil_1630853443825/test_tmp
+basil - BASe-resolution Insert Locator
+======================================
+
+SYNOPSIS
+    basil [OPTIONS] -ir REF -im MAPPING -ov OUT.vcf
+
+DESCRIPTION
+    Scan SAM/BAM file MAPPING for signatures of structural variations. The
+    reference
+
+    is given by the FASTA file REF.
+
+    -h, --help
+          Displays this help message.
+    --version
+          Display version information.
+    -q, --quiet
+          Only print on errors.
+    -v, --verbose
+          Higher verbosity.
+    -vv, --very-verbose
+          Highest verbosity.
+
+  Input / Output BasilOptions:
+    -ir, --input-reference REF.fa
+          FASTA file with the reference. Required when using Valid filetypes
+          are: fasta and fa.
+    -im, --input-mapping IN
+          SAM/BAM file to use as the input. Valid filetypes are: sam and bam.
+    -ov, --out-vcf OUT
+          VCF file to write variations to. Use "-" for stdout. Valid filetype
+          is: vcf. Default: -.
+    --output-debug-dir PATH
+          Directory for debug output files. Created if required.
+
+  Library Info:
+    --fragment-size-factor FACTOR
+          Factor to multiple fragment size stddev with to get allowed error.
+          In range [0..inf]. Default: 8.
+    --auto-library-num-records NUM
+          Number of records to use for automatic library evaluation. Set to 0
+          to evaluate all. In range [0..inf]. Default: 100000.
+    --fragment-size-median SIZE
+          Median fragment size. In range [0..inf]. Default: 250.
+    --fragment-size-std-dev STDDEV
+          Fragment size standard deviation. In range [0..inf]. Default: 3.
+    --fragment-default-orientation FACTOR
+          Default orientation. One of F+, F-, R+, and R-. Default: R+.
+
+  Coverage Filter:
+    --filter-max-coverage COVERAGE
+          Filter out calls at locations that have a higher coverage than this
+          number. Set to 0 to disable filter. In range [0..inf]. Default: 200.
+    --filter-min-aln-quality QUAL
+          Ignore alignments with a quality below this value. In range
+          [0..inf]. Default: 0.
+
+  Output Data BasilOptions:
+    --out-variation-type TYPE
+          The types of variants to write out. One of insertion. Default:
+          insertion.
+    --out-individual-name ID
+          The name of the individual in the output. Default: individual.
+
+  Clipping Position Clustering:
+    --clipping-window-radius RADIUS
+          Window radius to use for clipping position clustering. In range
+          [0..inf]. Default: 20.
+    --max-alignment-length LEN
+          Maximal alignment length. In range [0..inf]. Default: 2000.
+    --clipping-min-length COUNT
+          Smallest number of characters that have to be soft-clipped such that
+          the alignment is not ignored. Default: 15.
+    --clipping-min-coverage COUNT
+          The number of clipping positions to find in one window such that the
+          window is not discarded. Default: 5.
+
+  One-End Anchor Clustering:
+    --oea-cluster-selection KIND
+          Algorithm for OEA cluster selection. One of chaining and set_cover.
+          Default: chaining.
+    --oea-min-support COUNT
+          Smallest number of EOA reads to support an insertion. In range
+          [1..inf]. Default: 4.
+    --oea-min-support-each-side COUNT
+          Smallest number of EOA reads on each side to support an insertion.
+          In range [1..inf]. Default: 2.
+
+  Realignment:
+    --realignment-num-threads COUNT
+          Number of threads to use for the realignment. In range [1..inf].
+          Default: 1.
+
+  Breakpoint Labeling:
+    --breakpoint-window-radius RADIUS
+          Radius around breakpoints to extract for remapping. Set to 0 to use
+          maximal fragment size. In range [0..inf]. Default: 0.
+
+LIBRARY PROPERTIES
+    The terms insert size, fragment, and template length all denote the length
+    of the physical fragment that was extracted and is then sequenced from
+    both sides to yield paired reads.
+
+    Note that if you set --fragment-size-mean or --fragment-size-std-dev then
+    you have to set both.
+
+REFERENCES
+    Holtgrewe, M., Kuchenbecker, L., & Reinert, K. (2015). Methods for the
+    Detection and Assembly of Novel Sequence in High-Throughput Sequencing
+    Data. Bioinformatics, btv051.
+
+VERSION
+    basil version: 1.2.0
+    Last update July 2015
+anise - Assembly of Novel Inserted SEquence
+===========================================
+
+SYNOPSIS
+    anise -ir IN.fa -iv IN.vcf -im IN.{sam,bam} -of OUT.fa [-om OUT.sam]
+
+DESCRIPTION
+    Read insertion site candidates from IN.vcf and the mapping from
+    IN.{sam,bam}. ANISE will then try to assemble the inserted sequences at
+    the sites in IN.vcf and write the assembled sequences to OUT.vcf.
+
+    The reference sequence is taken from IN.fa
+
+    -h, --help
+          Displays this help message.
+    --version
+          Display version information.
+    -q, --quiet
+          Set verbosity to a minimum.
+    -v, --verbose
+          Enable verbose output.
+    -vv, --very-verbose
+          Enable very verbose output.
+    --num-threads INT
+          Number of threads to use. In range [1..inf]. Default: 1.
+    --debug-site-id INT
+          Debug site ID (-1 to disable). In range [-1..inf]. Default: -1.
+    --debug-step-no INT
+          Debug step no (-1 to disable). In range [-1..inf]. Default: -1.
+    --no-auto-tuning
+          Disable auto-tuning (see below).
+
+  Input / Output:
+    -ir, --input-reference IN.fa
+          Input FASTA file with reference. Valid filetypes are: fa and fasta.
+    -iv, --input-vcf IN.vcf
+          Input VCF file with insert site candidates. Valid filetype is: vcf.
+    -im, --input-mapping IN.{sam,bam}
+          Input SAM/BAM mapping file. Valid filetypes are: sam and bam.
+    -of, --output-fasta OUT.fa
+          Output FASTA with contigs Valid filetypes are: fa and fasta.
+    -om, --output-mapping OUT.sam
+          Output SAM/BAM file with mapping fo reads to contigs in
+          --output-fasta. Valid filetypes are: sam and bam.
+    --output-debug-dir OUT.vcf
+          Directory for debug output. Leave empty for no such output.
+    --clean-up-tmp-files
+          Clean up temporary files.
+
+  Algorithm:
+    --recursion-max-steps INT
+          Maximal recursion depth. 0 for infinity. In range [0..inf]. Default:
+          50.
+    --no-realign-assembly
+          Do not realign the reads after assembly.
+    --max-reads-factor FLOAT
+          Factor to use for the maximal read computation. ANISE stops for a
+          site if more than the number of reads expected from the expected
+          coverage times the max reads factor are assigned to the site. In
+          range [1..inf]. Default: 2.
+    --stop-initial-read-count INT
+          If there are more than this number of reads for a site in the
+          initial round then no assembly is performed. In range [0..inf].
+          Default: 4000.
+    --stop-tex-read-count INT
+          If there are more than this number of reads for a site in a later
+          round then no triplet library extension is performed. In range
+          [0..inf]. Default: 3000.
+    --stop-read-count INT
+          If there are more than this number of reads for a site in a later
+          round then no assembly is performed. In range [0..inf]. Default:
+          30000.
+    --stop-coverage INT
+          If the length sum of all reads for a site divided by the length sum
+          of its contigs is higher than this value before assembly then the
+          site is deactivated. Set to 0 to deactivate check. In range
+          [0..inf]. Default: 100.
+    --realignment-bandwidth INT
+          The bandwidth to use in the realignment step. In range [0..inf].
+          Default: 40.
+    --realignment-border INT
+          The border from the profile to extract around alignments. In range
+          [0..inf]. Default: 30.
+
+  Repeat Separation:
+    --no-separate-repeats
+          Dont' repeat separation algorithm after realignment.
+    --repsep-tammi-method STR
+          Variant of the Tammi method to use for repeat separation (simple or
+          phred). One of phred and simple. Default: simple.
+    --repsep-p-err FLOAT
+          Repeat separation per-base error for simple Tammi method. In range
+          [0.0..1.0]. Default: 0.01.
+    --repsep-max-random-correlation FLOAT
+          Repeat separation maximal random correlation. In range [0.0..1.0].
+          Default: 0.00001.
+    --repsep-tau-min INT
+          Repeat separation tau_min value. In range [0..inf]. Default: 100000.
+    --repsep-r-min INT
+          Repeat separation r_min value. In range [0..inf]. Default: 100000.
+    --repsep-min-overlap INT
+          Repeat separation minimal overlap value. In range [0..inf]. Default:
+          2.
+    --repsep-start-compression-at INT
+          Repeat separation start compression. In range [2..inf]. Default:
+          100.
+    --repsep-split-d-min
+          Repeat separation split at d_min deviations.
+
+  Library Info:
+    --fragment-size-factor FACTOR
+          Factor to multiple fragment size stddev with to get allowed error.
+          In range [0..inf]. Default: 8.
+    --auto-library-num-records NUM
+          Number of records to use for automatic library evaluation. Set to 0
+          to evaluate all. In range [0..inf]. Default: 100000.
+    --fragment-size-median SIZE
+          Median fragment size. In range [0..inf]. Default: 250.
+    --fragment-size-std-dev STDDEV
+          Fragment size standard deviation. In range [0..inf]. Default: 30.
+    --fragment-default-orientation FACTOR
+          Default orientation. One of F+, F-, R+, and R-. Default: R+.
+
+  Assembly:
+    --assembly-site-window-radius INT
+          Radius around insert site to cut for initial contigs. In range
+          [100..inf]. Default: 1000.
+    --assembly-site-fringe-radius INT
+          Radius around insert site to cut for collecting clippings. Set to -1
+          (default) to consider all records with >= 15 clipped bases. In range
+          [-1..inf]. Default: -1.
+
+  Read Mapping:
+    --read-mapping-error-rate PERCENT
+          Error rate of internal read mapping step in percent. In range
+          [0..20]. Default: 5.
+    --read-mapping-batch-size INT
+          Batch size for read mapping. In range [1..inf]. Default: 10000.
+
+  Overlapper:
+    --overlapper-min-overlap-ratio PERCENT
+          Overlapper min overlap rate in percent of the longer read. In range
+          [0..inf]. Default: 40.
+    --overlapper-max-error-rate INT
+          Overlapper maximum error rate in percent. In range [0..30]. Default:
+          5.
+
+  Multiple Sequence Alignment:
+    --no-read-correction
+          Whether or not to perform read correction
+    --msa-score-match INT
+          PW match score in MSA. Default: 2.
+    --msa-score-mismatch INT
+          PW mismatch score in MSA. Default: -6.
+    --msa-score-gap-open INT
+          PW gap open score in MSA. Default: -4.
+    --msa-score-gap-extend INT
+          PW gap extension score in MSA. Default: -9.
+
+  Consensus Calling:
+    --consensus-min-base-support INT
+          Minimal base support for non-N call in consensus calling. Default:
+          2.
+    --consensus-min-contig-length-rate PERCENT
+          Minimal contig length in percent of average read length. Default:
+          150.
+
+LIBRARY PROPERTIES
+    The terms insert size, fragment, and template length all denote the length
+    of the physical fragment that was extracted and is then sequenced from
+    both sides to yield paired reads.
+
+    Note that if you set --fragment-size-mean or --fragment-size-std-dev then
+    you have to set both.
+
+REPEAT SEPARATION
+    In each step, ANISE can try to separate repeats after the realignment
+    step. This can reduce problems such as "chimeric assemblies", i.e. when an
+    insert is assembled from reads that come from different copies of the
+    repeat.
+
+AUTO TUNING
+    ANISE expresses the minimal overlap and maximal allowed error in MSA
+    computation and the allowed errors in terms of rates (%) of the average
+    read length. This works well for longer Illumina reads but for short
+    reads, one should require an overlap of 14 bp and allow up to 2 errors in
+    the overlap. Likewise, read mapping should allow at least up to 2 errors.
+
+    Unless --no-auto-tuning is specified, ANISE will adjust the settings to
+    these values.
+
+REFERENCES
+    Holtgrewe, M., Kuchenbecker, L., & Reinert, K. (2015). Methods for the
+    Detection and Assembly of Novel Sequence in High-Throughput Sequencing
+    Data. Bioinformatics, btv051.
+
+VERSION
+    anise version: 1.2.0
+    Last update July 2015
+usage: filter_basil.py [-h] -i IN_FILE_NAME -o OUT_FILE_NAME
+                       [--min-oea-each-side MIN_OEA_EACH]
+                       [--min-oea-one-side MIN_OEA_ONE]
+                       [--min-oea-sum MIN_OEA_SUM]
+                       [--min-clipping-each-side MIN_CLIPPING_EACH]
+                       [--min-clipping-sum MIN_CLIPPING_SUM]
+                       [--min-gscore MIN_GSCORE]
+
+Filter BASIL output VCF.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IN_FILE_NAME       Input file name.
+  -o OUT_FILE_NAME      Output file name.
+  --min-oea-each-side MIN_OEA_EACH
+                        Minimal OEA coverage on each side.
+  --min-oea-one-side MIN_OEA_ONE
+                        Minimal OEA coverage on one side.
+  --min-oea-sum MIN_OEA_SUM
+                        Minimal total OEA coverage.
+  --min-clipping-each-side MIN_CLIPPING_EACH
+                        Minimal OEA coverage on each side.
+  --min-clipping-sum MIN_CLIPPING_SUM
+                        Minimal total OEA coverage.
+  --min-gscore MIN_GSCORE
+                        Smallest geometric mean score
+
+Resource usage statistics from testing anise_basil:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: anise_basil-1.2.0-py38h9b08285_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
