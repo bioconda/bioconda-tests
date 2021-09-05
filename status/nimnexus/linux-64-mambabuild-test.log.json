@@ -1,0 +1,124 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + curl                   7.78.0  hea6ffbf_0     conda-forge/linux-64                    Cached
+  + htslib                    1.9  h244ad75_9     bioconda/linux-64                         1 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.3  h516909a_0     conda-forge/linux-64                     60 KB
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + nimnexus                0.1.1  h9d02d08_2     /home/vsts/conda/conda-bld/linux-64     133 KB
+  + openssl                1.1.1l  h7f98852_0     conda-forge/linux-64                    Cached
+  + pcre                     8.45  h9c3ff4c_0     conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 24 packages
+
+  Total download: 2 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: nimnexus-0.1.1-h9d02d08_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/nimnexus_1630820296982/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    curl:            7.78.0-hea6ffbf_0       conda-forge
+    htslib:          1.9-h244ad75_9          bioconda   
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.3-h516909a_0          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    nimnexus:        0.1.1-h9d02d08_2        local      
+    openssl:         1.1.1l-h7f98852_0       conda-forge
+    pcre:            8.45-h9c3ff4c_0         conda-forge
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/nimnexus_1630820296982/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/nimnexus_1630820296982/test_tmp
+Trim the fastq reads
+
+    Usage: nimnexus trim [options] <barcode>
+
+Arguments:
+
+   <barcode>    Barcode sequences (comma-separated) that follow random barcode
+
+Options:
+
+  -t --trim <int>           Pre-trim all reads by this length before processing [default: 0]
+  -k --keep <int>           Minimum number of bases required after barcode to keep read [default: 18]
+  -r --randombarcode <int>  Number of bases at the start of each read used for random barcode [default: 5]
+
+Example:
+  zcat input.fastq.gz | nimnexus trim -t 1 CTGA,TGAC,GACT,ACTG | gzip -c > output.fastq.gz
+
+  # Using pigz to (de-)compress in parallel
+  pigz -cd input.fastq.gz | nimnexus trim -t 1 CTGA,TGAC,GACT,ACTG | pigz -c > output.fastq.gz
+Remove duplicate reads from the sorted bam file
+
+    Usage: nimnexus dedup [options] <BAM>
+
+Arguments:
+
+   <BAM>    sorted BAM file
+
+Options:
+
+  -t --threads <int>       number of BAM decompression threads [default: 2]
+
+Example:
+  nimnexus dedup -t 10 file.bam | samtools view -b > file.dedup.bam
+
+Resource usage statistics from testing nimnexus:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: nimnexus-0.1.1-h9d02d08_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
