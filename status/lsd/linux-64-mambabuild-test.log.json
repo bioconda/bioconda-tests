@@ -1,0 +1,55 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: lsd-2.2.3-1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpjv4j8gnv/info/recipe/conda_build_config.yaml
+  Package     Version  Build           Channel                                  Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + java-jdk  8.0.112  1               bioconda/linux-64                        4 KB
+  + lsd         2.2.3  1               /home/vsts/conda/conda-bld/linux-64     16 MB
+  + openjdk   8.0.112  zulu8.19.0.1_3  conda-forge/linux-64                    48 MB
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 64 MB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/lsd_1630866361209/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    java-jdk: 8.0.112-1              bioconda   
+    lsd:      2.2.3-1                local      
+    openjdk:  8.0.112-zulu8.19.0.1_3 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/lsd_1630866361209/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/lsd_1630866361209/test_tmp
+
+LAPPS Service DSL v2.2.3
+Copyright 2015 The Language Application Grid
+
+
+Resource usage statistics from testing lsd:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: lsd-2.2.3-1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

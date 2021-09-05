@@ -1,0 +1,117 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-dbm-deep-2.0013-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmptws9fxru/info/recipe/conda_build_config.yaml
+  Package                   Version  Build            Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex               0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex               4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                  11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + perl                     5.26.2  h36c2ea0_1008    conda-forge/linux-64                     15 MB
+  + perl-dbi                  1.642  pl526_0          bioconda/linux-64                       549 KB
+  + perl-dbm-deep            2.0013  pl526_1          /home/vsts/conda/conda-bld/linux-64      70 KB
+  + perl-digest-md5            2.55  pl526_0          bioconda/linux-64                        18 KB
+  + perl-scalar-list-utils     1.52  pl526h516909a_0  bioconda/linux-64                        38 KB
+
+  Summary:
+
+  Install: 9 packages
+
+  Total download: 16 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-dbm-deep_1630866272053/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge      conda-forge
+    _openmp_mutex:          4.5-1_gnu            conda-forge
+    libgcc-ng:              11.1.0-hc902ee8_8    conda-forge
+    libgomp:                11.1.0-hc902ee8_8    conda-forge
+    perl:                   5.26.2-h36c2ea0_1008 conda-forge
+    perl-dbi:               1.642-pl526_0        bioconda   
+    perl-dbm-deep:          2.0013-pl526_1       local      
+    perl-digest-md5:        2.55-pl526_0         bioconda   
+    perl-scalar-list-utils: 1.52-pl526h516909a_0 bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-dbm-deep_1630866272053/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-dbm-deep_1630866272053/test_tmp
+import: DBM::Deep
+	using version 2.0013
+import: DBM::Deep::Array
+import: DBM::Deep::Engine
+import: DBM::Deep::Engine::DBI
+import: DBM::Deep::Engine::File
+import: DBM::Deep::Hash
+import: DBM::Deep::Iterator
+import: DBM::Deep::Iterator::DBI
+import: DBM::Deep::Iterator::File
+import: DBM::Deep::Iterator::File::BucketList
+import: DBM::Deep::Iterator::File::Index
+import: DBM::Deep::Null
+import: DBM::Deep::Sector
+import: DBM::Deep::Sector::DBI
+import: DBM::Deep::Sector::DBI::Reference
+import: DBM::Deep::Sector::DBI::Scalar
+import: DBM::Deep::Sector::File
+import: DBM::Deep::Sector::File::BucketList
+import: DBM::Deep::Sector::File::Data
+import: DBM::Deep::Sector::File::Index
+import: DBM::Deep::Sector::File::Null
+import: DBM::Deep::Sector::File::Reference
+import: DBM::Deep::Sector::File::Scalar
+import: DBM::Deep::Storage
+import: DBM::Deep::Storage::DBI
+import: DBM::Deep::Storage::File
+import: DBM::Deep
+	using version 2.0013
+import: DBM::Deep::Array
+import: DBM::Deep::Engine
+import: DBM::Deep::Engine::DBI
+import: DBM::Deep::Engine::File
+import: DBM::Deep::Hash
+import: DBM::Deep::Iterator
+import: DBM::Deep::Iterator::DBI
+import: DBM::Deep::Iterator::File
+import: DBM::Deep::Iterator::File::BucketList
+import: DBM::Deep::Iterator::File::Index
+import: DBM::Deep::Null
+import: DBM::Deep::Sector
+import: DBM::Deep::Sector::DBI
+import: DBM::Deep::Sector::DBI::Reference
+import: DBM::Deep::Sector::DBI::Scalar
+import: DBM::Deep::Sector::File
+import: DBM::Deep::Sector::File::BucketList
+import: DBM::Deep::Sector::File::Data
+import: DBM::Deep::Sector::File::Index
+import: DBM::Deep::Sector::File::Null
+import: DBM::Deep::Sector::File::Reference
+import: DBM::Deep::Sector::File::Scalar
+import: DBM::Deep::Storage
+import: DBM::Deep::Storage::DBI
+import: DBM::Deep::Storage::File
+
+Resource usage statistics from testing perl-dbm-deep:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 36B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-dbm-deep-2.0013-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
