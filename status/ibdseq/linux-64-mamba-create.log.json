@@ -1,0 +1,96 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "zulu8.19.0.1_3",
+        "build_number": 3,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge/linux-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "openjdk-8.0.112-zulu8.19.0.1_3.tar.bz2",
+        "license": "GPLv2",
+        "name": "openjdk",
+        "sha256": "14e90e90593065802e36147c801ed89c12924b695059aecc179a756eaf5386da",
+        "size": 50019265,
+        "subdir": "",
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge/linux-64/openjdk-8.0.112-zulu8.19.0.1_3.tar.bz2",
+        "version": "8.0.112"
+      },
+      {
+        "build": "1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64",
+        "constrains": [],
+        "depends": [
+          "openjdk 8.0.112"
+        ],
+        "fn": "java-jdk-8.0.112-1.tar.bz2",
+        "license": "GPL",
+        "name": "java-jdk",
+        "sha256": "9df1f6c5333315da89cfe95a39d941f28aa72db5aff19a8dce00c6f5e61aaf2b",
+        "size": 3760,
+        "subdir": "",
+        "timestamp": 1529964041000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64/java-jdk-8.0.112-1.tar.bz2",
+        "version": "8.0.112"
+      },
+      {
+        "build": "1",
+        "build_number": 1,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64",
+        "constrains": [],
+        "depends": [
+          "java-jdk >=6.0.77"
+        ],
+        "fn": "ibdseq-r1206-1.tar.bz2",
+        "license": "Apache v2.0",
+        "name": "ibdseq",
+        "sha256": "6fc2149671b8a76fc7f5cf4f6ca64fa36da29be09cac1c54778497734343e836",
+        "size": 114682,
+        "subdir": "",
+        "timestamp": 1531418449000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda/linux-64/ibdseq-r1206-1.tar.bz2",
+        "version": "r1206"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 3,
+        "build_string": "zulu8.19.0.1_3",
+        "channel": "conda-forge",
+        "dist_name": "openjdk-8.0.112-zulu8.19.0.1_3",
+        "name": "openjdk",
+        "platform": "",
+        "version": "8.0.112"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 1,
+        "build_string": "1",
+        "channel": "bioconda",
+        "dist_name": "java-jdk-8.0.112-1",
+        "name": "java-jdk",
+        "platform": "",
+        "version": "8.0.112"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.05.00.35.25/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 1,
+        "build_string": "1",
+        "channel": "bioconda",
+        "dist_name": "ibdseq-r1206-1",
+        "name": "ibdseq",
+        "platform": "",
+        "version": "r1206"
+      }
+    ],
+    "PREFIX": "/home/vsts/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/home/vsts/conda/envs/solve",
+  "success": true
+}
