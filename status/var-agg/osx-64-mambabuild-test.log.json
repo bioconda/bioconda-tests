@@ -1,0 +1,72 @@
+  Package    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2      1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + var-agg    0.1.1  hc0dd922_1     /Users/runner/conda/conda-bld/osx-64     946 KB
+  + xz         5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib      1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 946 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: var-agg-0.1.1-hc0dd922_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/var-agg_1630812937989/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:   1.0.8-h0d85af4_4     conda-forge
+    var-agg: 0.1.1-hc0dd922_1     local      
+    xz:      5.2.5-haf1e3a3_1     conda-forge
+    zlib:    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/var-agg_1630812937989/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/var-agg_1630812937989/test_tmp
+var-agg 0.1.0
+Manuel Holtgrewe <manuel.holtgrewe@bihealth.de>
+Aggregatation of multi-sample VCF files into site VCF files.
+
+USAGE:
+    var-agg [OPTIONS] <INPUT.<vcf|bcf>>... --output <OUT.<vcf|bcf>>
+
+OPTIONS:
+    -v, --verbose                         Increase verbosity
+    -q, --quiet                           Decrease verbosity
+    -t, --io-threads <COUNT>              Number of additional threads to use for (de)compression in I/O. [default: 0]
+    -o, --output <OUT.<vcf|bcf>>          Path to output VCF/BCF file to create. Will also write out a CSI/TBI index.
+        --input-panel <INPUT.panel>...    Path to panel file, format is "SAMPLE<tab>SUB-
+                                          POPULATION<tab>POPULATION<ignored>"
+        --input-ped <INPUT.ped>...        Path to input PED file for FOUND_* INFO entries.
+        --input-fasta <INPUT.fa>...       FAI-indexed reference FASTA file, only index will be accessed.
+    -h, --help                            Prints help information
+    -V, --version                         Prints version information
+
+ARGS:
+    <INPUT.<vcf|bcf>>...    Path to VCF/BCF file(s) to read.
+
+Resource usage statistics from testing var-agg:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: var-agg-0.1.1-hc0dd922_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
