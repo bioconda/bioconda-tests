@@ -1,0 +1,54 @@
+  Package       Version  Build       Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + fastq-pair      1.0  h589c0e0_2  /Users/runner/conda/conda-bld/osx-64      10 KB
+  + libcxx       12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 10 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: fastq-pair-1.0-h589c0e0_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/fastq-pair_1630926363239/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    fastq-pair: 1.0-h589c0e0_2    local      
+    libcxx:     12.0.1-habf9029_0 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/fastq-pair_1630926363239/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/fastq-pair_1630926363239/test_tmp
+
+fastq_pair [options] [fastq file 1] [fastq file 2]
+
+OPTIONS
+-t table size (default 100003)
+-p print the number of elements in each bucket in the table
+-v verbose output. This is mainly for debugging
+
+Resource usage statistics from testing fastq-pair:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: fastq-pair-1.0-h589c0e0_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
