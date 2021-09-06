@@ -1,0 +1,160 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + dnaio                0.5.1  py39ha492530_0      bioconda/osx-64                          113 KB
+  + isa-l               2.30.0  h0d85af4_4          conda-forge/osx-64                       174 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pigz                   2.6  h5dbffcc_0          conda-forge/osx-64                        88 KB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python-isal         0.11.1  py39h89e85a6_0      conda-forge/osx-64                       117 KB
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + ultraplex            1.2.3  py39hb4d813b_0      /Users/runner/conda/conda-bld/osx-64     241 KB
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xopen                1.1.0  py39h6e9494a_3      conda-forge/osx-64                        20 KB
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 754 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: ultraplex-1.2.3-py39hb4d813b_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/ultraplex_1630942069877/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    dnaio:           0.5.1-py39ha492530_0     bioconda   
+    isa-l:           2.30.0-h0d85af4_4        conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pigz:            2.6-h5dbffcc_0           conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python-isal:     0.11.1-py39h89e85a6_0    conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    ultraplex:       1.2.3-py39hb4d813b_0     local      
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xopen:           1.1.0-py39h6e9494a_3     conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/ultraplex_1630942069877/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/ultraplex_1630942069877/test_tmp
+import: 'ultraplex'
+import: 'ultraplex'
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@@@@@   @@@@   .@@   @@@@@@@          @@         @@@@@@    (@@@@@        @@@    @@@@@@@         @@    @@@    @
+@@@@   @@@@    @@   ,@@@@@@@@@    @@@@@    @@@   @@@@   (   @@@@   @@@   @@    @@@@@@@   @@@@@@@@@@   #   @@@@
+@@@   &@@@    @@    @@@@@@@@@%   @@@@@         @@@@(   @    @@@         @@    @@@@@@@         @@@@@     @@@@@@
+@@    @@@    @@    @@@@@@@@@@   @@@@@    @@    @@@          @@   .@@@@@@@*   @@@@@@@    @@@@@@@@.   @    @@@@@
+@@@       @@@@.        @@@@@   @@@@@&   @@@.   &   &@@@@    @    @@@@@@@@         @          @    @@@@    @@@@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+usage: ultraplex [-h] -i INPUTFASTQ -b BARCODES [-d [DIRECTORY]]
+                 [-m5 [FIVEPRIMEMISMATCHES]] [-m3 [THREEPRIMEMISMATCHES]]
+                 [-q [PHREDQUALITY]] [-t [THREADS]] [-a [ADAPTER]]
+                 [-o [OUTPUTPREFIX]] [-sb] [-u] [-ig] [-l [FINAL_MIN_LENGTH]]
+                 [-q5 [PHREDQUALITY_5_PRIME]] [-i2 [INPUT_2]] [-a2 [ADAPTER2]]
+                 [-mt [MIN_TRIM]] [-inm] [-dbr] [-kbc]
+
+Ultra-fast demultiplexing of fastq files.
+
+required arguments:
+  -i INPUTFASTQ, --inputfastq INPUTFASTQ
+                        fastq file to be demultiplexed
+  -b BARCODES, --barcodes BARCODES
+                        barcodes for demultiplexing in csv format
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -d [DIRECTORY], --directory [DIRECTORY]
+                        optional output directory
+  -m5 [FIVEPRIMEMISMATCHES], --fiveprimemismatches [FIVEPRIMEMISMATCHES]
+                        number of mismatches allowed for 5prime barcode
+                        [DEFAULT 1]
+  -m3 [THREEPRIMEMISMATCHES], --threeprimemismatches [THREEPRIMEMISMATCHES]
+                        number of mismatches allowed for 3prime barcode
+                        [DEFAULT 0]
+  -q [PHREDQUALITY], --phredquality [PHREDQUALITY]
+                        phred quality score for 3prime end trimming
+  -t [THREADS], --threads [THREADS]
+                        threads [DEFAULT 4]
+  -a [ADAPTER], --adapter [ADAPTER]
+                        sequencing adapter to trim [DEFAULT Illumina
+                        AGATCGGAAGAGCGGTTCAG]
+  -o [OUTPUTPREFIX], --outputprefix [OUTPUTPREFIX]
+                        prefix for output sequences [DEFAULT demux]
+  -sb, --sbatchcompression
+                        whether to compress output fastq using SLURM sbatch
+  -u, --ultra           whether to use ultra mode, which is faster but makes
+                        very large temporary files
+  -ig, --ignore_space_warning
+                        whether to ignore warnings that there is not enough
+                        free space
+  -l [FINAL_MIN_LENGTH], --final_min_length [FINAL_MIN_LENGTH]
+                        minimum length of the final outputted reads
+  -q5 [PHREDQUALITY_5_PRIME], --phredquality_5_prime [PHREDQUALITY_5_PRIME]
+                        quality trimming minimum score from 5' end - use with
+                        caution!
+  -i2 [INPUT_2], --input_2 [INPUT_2]
+                        Optional second fastq.gz input for paired end data
+  -a2 [ADAPTER2], --adapter2 [ADAPTER2]
+                        sequencing adaptor to trim for the reverse read
+                        [Default AGATCGGAAGAGCGTCGTG]
+  -mt [MIN_TRIM], --min_trim [MIN_TRIM]
+                        When using single end reads for 3' demultiplexing,
+                        this is the minimum adapter trimming amount for a
+                        3'barcode to be detected. Default = 3
+  -inm, --ignore_no_match
+                        Do not write reads for which there is no match.
+  -dbr, --dont_build_reference
+                        Skip the reference building step - for long barcodes
+                        this will improve speed.
+  -kbc, --keep_barcode  Do not remove barcodes/UMIs from the read (UMIs will
+                        still be moved to the read header)
+
+Resource usage statistics from testing ultraplex:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 21.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: ultraplex-1.2.3-py39hb4d813b_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
