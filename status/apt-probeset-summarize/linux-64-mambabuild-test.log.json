@@ -1,0 +1,423 @@
+  Package                   Version  Build        Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex               0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex               4.5  1_gnu        conda-forge/linux-64                    Cached
+  + apt-probeset-summarize   2.10.0  h7d875b9_2   /home/vsts/conda/conda-bld/linux-64       3 MB
+  + libgcc-ng                11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp                  11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng             11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 3 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: apt-probeset-summarize-2.10.0-h7d875b9_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/apt-probeset-summarize_1630920326780/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge   conda-forge
+    _openmp_mutex:          4.5-1_gnu         conda-forge
+    apt-probeset-summarize: 2.10.0-h7d875b9_2 local      
+    libgcc-ng:              11.1.0-hc902ee8_8 conda-forge
+    libgomp:                11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:           11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/apt-probeset-summarize_1630920326780/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/apt-probeset-summarize_1630920326780/test_tmp
+apt-probeset-summarize - A program for summarizing expression probe 
+data from cel files. Can use either a cdf file or pgf/clf files for defining
+probesets. Use the '--explain' flag for further docuemntation on a 
+particular data transformation or summary value.
+
+usage:
+   apt-probeset-summarize -a rma-sketch -a plier-mm-sketch \
+        -p chip.pgf -c chip.clf -o output-dir *.cel
+
+options:
+ Common Options (not used by all programs)
+   -h, --help                           Display program options and extra
+                          documentation about possible analyses. See
+                          -explain for information about a specific
+                          operation. [default 'false'] 
+   -v, --verbose How verbose to be with status messages 0 -
+                          quiet, 1 - usual messages, 2 - more
+                          messages. [default '1'] 
+     --console-off Turn off the default messages to the 
+                          console but not logging or sockets. 
+                          [default 'false'] 
+     --use-socket Host and port to print messages over in
+                          localhost:port format [default ''] 
+     --version Display version information. [default
+                          'false'] 
+   -f, --force Disable various checks including chip 
+                          types. Consider using --chip-type option
+                          rather than --force. [default 'false'] 
+     --throw-exception Throw an exception rather than calling
+                          exit() on error. Useful for debugging. This
+                          option is intended for command line use
+                          only. If you are wrapping an Engine and 
+                          want exceptions thrown, then you should 
+                          call Err::setThrowStatus(true) to ensure
+                          that all Err::errAbort() calls result in an
+                          exception. [default 'false'] 
+     --analysis-files-path Search path for analysis library files. 
+                          Will override AFFX_ANALYSIS_FILES_PATH
+                          environment variable. [default ''] 
+     --xml-file Input parameters in XML format (Will
+                          override command line settings). [default
+                          ''] 
+     --temp-dir Directory for temporary files when working
+                          off disk. Using network mounted drives is
+                          not advised. When not set, the output 
+                          folder will be used. The defaut is 
+                          typically the output directory or the
+                          current working directory. [default ''] 
+   -o, --out-dir Directory for output files. Defaults to
+                          current working directory. [default '.'] 
+     --log-file The name of the log file. Generally 
+                          defaults to the program name in the out-dir
+                          folder. [default ''] 
+ Engine Options (Not used on command line)
+     --command-line The command line executed. [default ''] 
+     --exec-guid The GUID for the process. [default ''] 
+     --program-name The name of the program [default ''] 
+     --program-company The company providing the program [default
+                          ''] 
+     --program-version The version of the program [default ''] 
+     --program-cvs-id The CVS version of the program [default ''] 
+     --version-to-report The version to report in the output files.
+                          [default ''] 
+     --free-mem-at-start How much physical memory was available when
+                          the engine run started. [default '0'] 
+     --meta-data-info Meta data in key=value pair that will be
+                          output in headers. [default ''] 
+ Input Options
+     --cel-files Text file specifying cel files to process,
+                          one per line with the first line being
+                          'cel_files'. [default ''] 
+   -d, --cdf-file File defining probe sets. Use either
+                          --cdf-file, --spf-file, or --pgf-file and
+                          --clf-file. Automatically sets --names.
+                          [default ''] 
+     --spf-file File defining probe sets in spf (simple
+                          probe format) which is like a text cdf 
+                          file. [default ''] 
+   -p, --pgf-file File defining probe sets. [default ''] 
+   -c, --clf-file File defining x,y <-> probe id conversion.
+                          Required when using PGF file. [default ''] 
+   -b, --bgp-file File defining probes to be used for GC
+                          background. [default ''] 
+   -s, --probeset-ids File specifying probe sets to summarize.
+                          [default ''] 
+   -m, --meta-probesets File containing meta probeset definitions.
+                          File must contain a probeset_id column and 
+                          a probeset_list column. [default ''] 
+     --probe-class-file File containing probe_id (1-based) of 
+                          probes and a 'class' designation. Used to
+                          compute mean probe intensity by class for
+                          report file. [default ''] 
+     --qc-probesets File with probeset_id(name) and group_name
+                          columns specifying subsets of probesets to
+                          compute qc stats for. [default ''] 
+     --chip-type Chip types to check library and CEL files
+                          against. Can be specified multiple times.
+                          The first one is propigated as the chip 
+                          type in the output files. Warning, use of
+                          this option will override the usual check
+                          between chip types found in the library
+                          files and cel files. You should use this
+                          option instead of --force when possible.
+                          [default ''] 
+ Output Options
+     --use-pgf-names Use the probeset_names instead of
+                          probeset_id column in the PGF file for
+                          output. [default 'false'] 
+     --cc-chp-output Output results in directory called 'cc-chp'
+                          under out-dir. This makes one AGCC
+                          Expression CHP file per cel file analyzed.
+                          [default 'false'] 
+     --xda-chp-output Output resulting calls in directory called
+                          'chp' under out-dir. This makes one GCOS 
+                          XDA CHP file per cel file analyzed. 
+                          [default 'false'] 
+     --cc-md-chp-output Output resulting calls in directory called
+                          'cc-md-chp' under out-dir. This makes one
+                          AGCC Multi Data CHP file per cel file
+                          analyzed. [default 'false'] 
+     --cc-chp-out-dir Over-ride the default location for chp
+                          output. [default ''] 
+     --xda-chp-out-dir Over-ride the default location for chp
+                          output. [default ''] 
+     --cc-md-chp-out-dir Over-ride the default location for chp
+                          output. [default ''] 
+     --subsample-report Output subsamples of the data intensities,
+                          summaries and residuals for error checking
+                          downstream. [default 'false'] 
+     --report-file Over-ride the default report file name.
+                          [default ''] 
+ Analysis Options
+   -a, --analysis String representing analysis pathway
+                          desired. For example:
+                          'quant-norm,pm-gcbg,plier'. Prepackaged
+                          analysis such as 'plier-gcbg-sketch',
+                          'plier-gcbg', 'plier-mm-sketch', 
+                          'plier-mm', 'rma-sketch', and 'rma' can be
+                          specified. Multiple analysis allowed at 
+                          same time. When using quantile
+                          normalization, you may need to use the
+                          sketch option to avoid running out of
+                          memory. [default ''] 
+     --summaries Output expression summaries in text table
+                          format. [default 'true'] 
+     --feat-effects Output feature effects when available. By
+                          convention med-polish feature effects have
+                          total probeset median added to them, see 
+                          RMA module for details [default 'false'] 
+     --use-feat-eff File defining a plier feature effect for
+                          each probe. Note that precomputed effects
+                          should only be used for an appropriately
+                          similar analysis (i.e. feature effects for
+                          pm-only may be different than for pm-mm).
+                          Currently a probe is expected to be in only
+                          a single probeset. This option does not 
+                          work for IterPlier or SEA. [default ''] 
+     --feat-details Output probe by chip specific details 
+                          (often residuals) when available. [default
+                          'false'] 
+     --target-sketch File specifying a target distribution to 
+                          use for quantile normalization. [default 
+                          ''] 
+     --write-sketch Write the quantile normalization
+                          distribution (or sketch) to a file for 
+                          reuse with target-sketch option. WARNING: 
+                          If more than one -a option generates a
+                          target sketch file, it is not deterministic
+                          which file will be retained by the OS if 
+                          the target sketch files have the same name.
+                          [default 'false'] 
+     --reference-profile Reference profile [default ''] 
+     --write-profile write reference profile. [default 'false'] 
+     --set-analysis-name Explicitly set the analysis name. This
+                          affects output file names (ie prefix) and
+                          various meta info. [default ''] 
+   -x, --precision How many digits of precision to use after
+                          decimal. [default '5'] 
+ Misc Options
+     --explain Explain a particular operation (i.e.
+                          --explain rma-bg). [default ''] 
+ Advanced Options
+     --kill-list Do not use the PM probes specified in file
+                          for computing results. [experimental]
+                          [default ''] 
+ Execution Control Options
+     --use-disk Store CEL intensities to be analyzed on
+                          disk. [default 'true'] 
+     --disk-cache Size of intensity memory cache in millions
+                          of intensities (when --use-disk=true).
+                          [default '50'] 
+     --store-duplicate-probes Store intensities for probes appearing in
+                          multiple probesets in memory (Prevents page
+                          thrashing. Is a bad idea for Axiom. Turned
+                          on automatically when using meta-probesets)
+                          [default 'false'] 
+ A5 output options
+     --a5-global-file Filename for the A5 global output file.
+                          [Experimental] [default ''] 
+     --a5-global-file-no-replace Append or create rather than replace.
+                          [Experimental] [default 'false'] 
+     --a5-group Group name where to put results in the A5
+                          output files. Defaults to '/'.
+                          [Experimental] [default ''] 
+     --a5-summaries Output the summary values from the
+                          quantifcation method for each allele in A5
+                          format. [Experimental] [default 'false'] 
+     --a5-summaries-use-global Use the global A5 file for summaries.
+                          [Experimental] [default 'false'] 
+     --a5-feature-effects Output feature effects in A5 format.
+                          [Experimental] [default 'false'] 
+     --a5-feature-effects-use-global Use the global A5 file for feature
+                          effects.[Experimental] [default 'false'] 
+     --a5-feature-details Output feature level residuals in A5 
+                          format. [Experimental] [default 'false'] 
+     --a5-feature-details-use-global Use the global A5 file for residuals.
+                          [Experimental] [default 'false'] 
+     --a5-sketch Output normalization sketch in A5 format.
+                          --write-sketch option will override this
+                          option. [Experimental] [default 'false'] 
+     --a5-sketch-use-global Put the sketch in the global A5 output 
+                          file. [Experimental] [default 'false'] 
+ A5 input options
+     --a5-global-input-file Filename for the group in the global input
+                          file.[Experimental] [default ''] 
+     --a5-input-group Group name for input. Defaults to 
+                          --a5-group or if that is not set, then '/'.
+                          [Experimental] [default ''] 
+     --a5-sketch-input-global Read the sketch from the global A5 input
+                          file. [Experimental] [default 'false'] 
+     --a5-sketch-input-file Read the sketch from the an A5 input file.
+                          [Experimental] [default ''] 
+     --a5-sketch-input-group Group name to read the sketch from. 
+                          Defaults to --a5-input-group. 
+                          [Experimental] [default ''] 
+     --a5-sketch-input-name The name of the data section. Defaults to
+                          'target-sketch'. [Experimental] [default 
+                          ''] 
+     --a5-feature-effects-input-global Read the feature effects global A5 input
+                          file. [Experimental] [default 'false'] 
+     --a5-feature-effects-input-file Read the feature effects from the an A5
+                          input file. [Experimental] [default ''] 
+     --a5-feature-effects-input-group Group name to read the feature effects 
+                          from. Defaults to --a5-input-group.
+                          [Experimental] [default ''] 
+     --a5-feature-effects-input-name The name of the data section. Defaults to
+                          XXX.feature-response where XXX is the
+                          analysis name and quant method. IE
+                          'brlmm-p.plier'. [Experimental] [default 
+                          ''] 
+ Engine Options (Not used on command line)
+     --cels Cel files to process. [default ''] 
+     --result-files CHP file names to output. Must be paired
+                          with cels. [default ''] 
+     --annotation-file NetAffx Annotation database file. [default
+                          ''] 
+     --time-start The time the engine run was started 
+                          [default ''] 
+     --time-end The time the engine run ended [default ''] 
+     --time-run-minutes The run time in minutes. [default ''] 
+     --analysis-guid The GUID for the analysis run. [default ''] 
+
+Standard Methods:
+ 'dabg'                 pm-only,dabg
+ 'gc-dabg-median'       gc-correction,pm-only,dabg.usepercentile=true.percentile=0.50
+ 'gc-sst-rma-sketch'    gc-correction,scale-intensities,rma-bg,quant-norm.sketch=-1.usepm=true.bioc=true,pm-only,med-polish
+ 'gc-sstgl-rma-sketch'  gc-correction,scale-intensities.gain_lock_pct=0.75,rma-bg,quant-norm.sketch=-1.usepm=true.bioc=true,pm-only,med-polish
+ 'plier-gcbg'           quant-norm.sketch=0.bioc=false,pm-gcbg,plier
+ 'plier-gcbg-sketch'    quant-norm.sketch=-1.bioc=false,pm-gcbg,plier
+ 'plier-mm'             quant-norm.sketch=0.bioc=false,pm-mm,plier
+ 'plier-mm-sketch'      quant-norm.sketch=-1.bioc=false,pm-mm,plier
+ 'rma'                  rma-bg,quant-norm.sketch=0.usepm=true.bioc=true,pm-only,med-polish
+ 'rma-gc-scale'         gc-correction,scale-intensities,rma-bg,quant-norm.sketch=0.usepm=true.bioc=true,pm-only,med-polish
+ 'rma-sketch'           rma-bg,quant-norm.sketch=-1.usepm=true.bioc=true,pm-only,med-polish
+ 'rma-sketch-gc-scale'  gc-correction,scale-intensities,rma-bg,quant-norm.sketch=-1.usepm=true.bioc=true,pm-only,med-polish
+
+Data transformations:
+   rma-bg               Performs an RMA style background adjustment 
+                        as described in Irizarry et al 2003. 
+   quant-norm           Class for doing quantile normalization. Can 
+                        do sketch and full quantile (just set sketch
+                        to chip size or zero) and supports
+                        bioconductor compatibility. 
+   artifact-reduction   Class for artifact reduction. 
+   med-norm             Class for doing median normalization. Adjust
+                        intensities such that all chips have the same
+                        median (or average). 
+   adapter-type-norm    Class for doing adapter type normalization.
+                        Adjust intensities by adapter type. 
+   gc-bg                Subtract bacground based on median intensity
+                        of probes with similar GC content. 
+   gc-correction        Correct feature intensity for variations in
+                        gc_count. 
+   scale-intensities    Scale cel intensities. 
+   intensity-reporter   Class for dumping intensity values to a file. 
+   no-trans             Placeholder chipstream that does no
+                        transformation 
+
+Pm Intensity Adjustments:
+   pm-only   No adjustment. Just uses unmodified PM intensity values. 
+   pm-mm     Use mismatch probe as adjustment for perfect match. Has
+             strength of being unbiased, but often the mismatch probe
+             binds the match target. 
+   pm-gcbg   Do an adjustment based on the median intensity of probes
+             with similar GC content. 
+   pm-sum    Add itensity of PM probe for other allele to PM probes. 
+
+Quantification Methods:
+   plier        The PLIER (Probe Logarithmic Error Intensity 
+                Estimate) method produces an improved signal by
+                accounting for experimentally observed patterns in
+                feature behavior and handling error at the
+                appropriately at low and high signal values. This
+                version of PLIER differs from the previous version by
+                the addition of a SafteyZero, NumericalTolerance, and
+                FixPrecomputed. These options are intended to improve
+                the stability of PLIER results when using precomputed
+                feature reponse values. To get the older PLIER
+                behavior set SafetyZero to 0.0, NumericalTolerance to
+                0.0, and FixPrecomputed to false. 
+   sea          The SEA (Simplified Expression Analysis) method
+                provides a simple signal estimate, using the
+                initialization algorithm from the PLIER (Probe
+                Logarithmic Error Intensity Estimate) method and
+                omitting the PLIER parameter fitting. SEA is useful
+                for single chip signal estimation. The version of
+                PLIER used by SEA differs from the previous version 
+                by the addition of a SafteyZero, NumericalTolerance,
+                and FixPrecomputed. These options are intended to
+                improve the stability of PLIER results when using
+                precomputed feature reponse values. To get the older
+                PLIER behavior set SafetyZero to 0.0,
+                NumericalTolerance to 0.0, and FixPrecomputed to
+                false. 
+   iter-plier   Do probe set quantification estimate by iteratively
+                calling PLIER with the probes that best correlate 
+                with signal estimate. The version of PLIER used by
+                IterPLIER differs from the previous version by the
+                addition of a SafteyZero, NumericalTolerance, and
+                FixPrecomputed. These options are intended to improve
+                the stability of PLIER results when using precomputed
+                feature reponse values. To get the older PLIER
+                behavior set SafetyZero to 0.0, NumericalTolerance to
+                0.0, and FixPrecomputed to false. 
+   med-polish   Performs a median polish to estimate target and probe
+                effects. Resulting summaries are in log2 space by
+                default. Used in summary step of RMA as described in
+                Irizarry et al 2003. 
+   dabg         Calculates the p-value that the intensities in a
+                probeset could have been observed by chance in a
+                background distribution. Used as a substitute for
+                standard absent/present calls when mismatch probes 
+                are not available. 
+   avgdiff      Calculates the average measurement for a probeset
+                using the MAS 4 average difference algorithm, namely
+                the average difference between the pm and mm probe
+                signal. 
+   median       Use the median of probes for a particular chip as the
+                summary. 
+
+Analysis Streams:
+   expr           Does expression summarization on probesets. 
+   pca-select     Determines PCA for probes and picks probes that are
+                  near the principal component as the probes to use
+                  for downstream analysis. 
+   spect-select   Picks probes that are similar to each other based 
+                  on spectral cluster and normalized cut. 
+version: 1.20.0 svn://svn.affymetrix.com/apt/projects/apt/branches/APT_1_20_0_BRANCH/sdk/release@58265
+
+Resource usage statistics from testing apt-probeset-summarize:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: apt-probeset-summarize-2.10.0-h7d875b9_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
