@@ -1,0 +1,73 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-test-file-contents-0.23-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmphc8_ygtz/info/recipe/conda_build_config.yaml
+  Package                    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                      5.26.2  hbcb3906_1008  conda-forge/osx-64                        14 MB
+  + perl-algorithm-diff       1.1903  pl526_2        bioconda/osx-64                           34 KB
+  + perl-app-cpanminus        1.7044  pl526_1        bioconda/osx-64                          235 KB
+  + perl-devel-symdump          2.18  pl526_1        bioconda/osx-64                           11 KB
+  + perl-digest-md5             2.55  pl526_0        bioconda/osx-64                           17 KB
+  + perl-file-spec           3.48_01  pl526_1        bioconda/osx-64                            3 KB
+  + perl-pod-coverage           0.23  pl526_3        bioconda/osx-64                           15 KB
+  + perl-pod-parser             1.63  pl526_1        bioconda/osx-64                           44 KB
+  + perl-test-file-contents     0.23  pl526_2        /Users/runner/conda/conda-bld/osx-64      11 KB
+  + perl-test-pod               1.52  pl526_0        bioconda/osx-64                           10 KB
+  + perl-test-pod-coverage      1.10  pl526_2        bioconda/osx-64                           10 KB
+  + perl-text-diff              1.45  pl526_0        bioconda/osx-64                           20 KB
+
+  Summary:
+
+  Install: 12 packages
+
+  Total download: 15 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-test-file-contents_1630903843964/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-algorithm-diff:     1.1903-pl526_2       bioconda   
+    perl-app-cpanminus:      1.7044-pl526_1       bioconda   
+    perl-devel-symdump:      2.18-pl526_1         bioconda   
+    perl-digest-md5:         2.55-pl526_0         bioconda   
+    perl-file-spec:          3.48_01-pl526_1      bioconda   
+    perl-pod-coverage:       0.23-pl526_3         bioconda   
+    perl-pod-parser:         1.63-pl526_1         bioconda   
+    perl-test-file-contents: 0.23-pl526_2         local      
+    perl-test-pod:           1.52-pl526_0         bioconda   
+    perl-test-pod-coverage:  1.10-pl526_2         bioconda   
+    perl-text-diff:          1.45-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-test-file-contents_1630903843964/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-test-file-contents_1630903843964/test_tmp
+import: Test::File::Contents
+	using version 0.23
+import: Test::File::Contents
+	using version 0.23
+
+Resource usage statistics from testing perl-test-file-contents:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-test-file-contents-0.23-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

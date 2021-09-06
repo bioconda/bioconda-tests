@@ -1,0 +1,108 @@
+  Package        Version  Build       Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + llvm-openmp   12.0.1  hda6cdc1_1  conda-forge/osx-64                       287 KB
+  + sumaclust     1.0.31  hb4d813b_3  /Users/runner/conda/conda-bld/osx-64      38 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 325 KB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: sumaclust-1.0.31-hb4d813b_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/sumaclust_1630903740862/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    llvm-openmp: 12.0.1-hda6cdc1_1 conda-forge
+    sumaclust:   1.0.31-hb4d813b_3 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/sumaclust_1630903740862/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/sumaclust_1630903740862/test_tmp
+------------------------------------------------------------
+ SUMACLUST Version 1.0.31
+------------------------------------------------------------
+ Synopsis : star clustering of sequences.
+ Usage: sumaclust [options] <dataset>
+------------------------------------------------------------
+ Options:
+ -h       : [H]elp - print <this> help
+
+ -l       : Reference sequence length is the shortest. 
+
+ -L       : Reference sequence length is the largest. 
+
+ -a       : Reference sequence length is the alignment length (default). 
+
+ -n       : Score is normalized by reference sequence length (default).
+
+ -r       : Raw score, not normalized. 
+
+ -d       : Score is expressed in distance (default : score is expressed in similarity). 
+
+ -t ##.## : Score threshold for clustering. If the score is normalized and expressed in similarity (default),
+            it is an identity, e.g. 0.95 for an identity of 95%. If the score is normalized
+            and expressed in distance, it is (1.0 - identity), e.g. 0.05 for an identity of 95%.
+            If the score is not normalized and expressed in similarity, it is the length of the
+            Longest Common Subsequence. If the score is not normalized and expressed in distance,
+            it is (reference length - LCS length).
+            Only sequences with a similarity above ##.## with the center sequence of a cluster
+            are assigned to that cluster. Default: 0.97.
+
+ -e       : Exact option : A sequence is assigned to the cluster with the center sequence presenting the
+            highest similarity score > threshold, as opposed to the default 'fast' option where a sequence is
+            assigned to the first cluster found with a center sequence presenting a score > threshold.
+
+ -R ##    : Maximum ratio between the counts of two sequences so that the less abundant one can be considered
+            as a variant of the more abundant one. Default: 1.0.
+
+ -p ##    : Multithreading with ## threads using openMP.
+
+ -s ####  : Sorting by ####. Must be 'None' for no sorting, or a key in the fasta header of each sequence,
+            except for the count that can be computed (default : sorting by count).
+
+ -o       : Sorting is in ascending order (default : descending).
+
+ -g       : n's are replaced with a's (default: sequences with n's are discarded).
+
+ -B ###   : Output of the OTU table in BIOM format is activated, and written to file ###.
+
+ -O ###   : Output of the OTU map (observation map) is activated, and written to file ###.
+
+ -F ###   : Output in FASTA format is written to file ### instead of standard output.
+
+ -f       : Output in FASTA format is deactivated.
+
+------------------------------------------------------------
+ Argument : the nucleotide dataset to cluster (or nothing   
+            if the standard input should be used).          
+------------------------------------------------------------
+ http://metabarcoding.org/sumaclust
+------------------------------------------------------------
+
+
+Resource usage statistics from testing sumaclust:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: sumaclust-1.0.31-hb4d813b_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
