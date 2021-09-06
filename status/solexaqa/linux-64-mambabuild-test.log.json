@@ -1,0 +1,82 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + boost-cpp       1.74.0  h312852a_4     conda-forge/linux-64                     16 MB
+  + bzip2            1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + icu               68.1  h58526e2_0     conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + lz4-c            1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + solexaqa       3.1.7.1  hc7320fa_2     /home/vsts/conda/conda-bld/linux-64     157 KB
+  + xz               5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd             1.5.0  ha95c52a_0     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 13 packages
+
+  Total download: 16 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: solexaqa-3.1.7.1-hc7320fa_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/solexaqa_1630927109176/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    boost-cpp:     1.74.0-h312852a_4    conda-forge
+    bzip2:         1.0.8-h7f98852_4     conda-forge
+    icu:           68.1-h58526e2_0      conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    lz4-c:         1.9.3-h9c3ff4c_1     conda-forge
+    solexaqa:      3.1.7.1-hc7320fa_2   local      
+    xz:            5.2.5-h516909a_1     conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+    zstd:          1.5.0-ha95c52a_0     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/solexaqa_1630927109176/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/solexaqa_1630927109176/test_tmp
+
+SolexaQA++ v3.1.7.1
+Released under GNU General Public License version 3
+C++ version developed by Mauro Truglio (M.Truglio@massey.ac.nz)
+Info: Using default quality cutoff of p=0.05 (change with -p or -h flag)
+
+Working on $SRC_DIR/tiny.fastq
+Automatic format detection: Sanger FASTQ format
+  0% [                                                  ]
+100% [==================================================]
+Writing files....
+
+Info: tiny.fastq: mean segment length = 101.0, median segment length = 101
+
+Resource usage statistics from testing solexaqa:
+   Process count: 5
+   CPU time: Sys=0:00:00.0, User=0:00:00.4
+   Memory: 81.4M
+   Disk usage: 36B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: solexaqa-3.1.7.1-hc7320fa_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

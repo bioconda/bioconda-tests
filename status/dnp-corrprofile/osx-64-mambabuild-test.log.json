@@ -1,0 +1,95 @@
+  Package            Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2              1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + dnp-corrprofile      1.0  h14b862d_2     /Users/runner/conda/conda-bld/osx-64     156 KB
+  + libcxx            12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + zlib              1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 156 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: dnp-corrprofile-1.0-h14b862d_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/dnp-corrprofile_1630927755612/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4     conda-forge
+    dnp-corrprofile: 1.0-h14b862d_2       local      
+    libcxx:          12.0.1-habf9029_0    conda-forge
+    zlib:            1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/dnp-corrprofile_1630927755612/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/dnp-corrprofile_1630927755612/test_tmp
+corrprofile - Correlations between Dinucleotide Profiles
+========================================================
+
+SYNOPSIS
+    corrprofile [OPTIONS] "dinucleotideProfilesFile"
+
+DESCRIPTION
+    This program computes correlations between the profiles of dinucleotide
+    frequency on forward and reverse complent sequences within a sliding
+    window.
+
+REQUIRED ARGUMENTS
+    PROFILE_FILE STRING
+
+OPTIONS
+    -h, --help
+          Display the help message.
+    --version-check BOOL
+          Turn this option off to disable version update notifications of the
+          application. One of 1, ON, TRUE, T, YES, 0, OFF, FALSE, F, and NO.
+          Default: 1.
+    -w, --window INTEGER
+          Sliding window size, < than length. In range [10..146]. Default: 10.
+    -n, --length INTEGER
+          Dinucleotide profile sequence length. In range [25..600]. Default:
+          600.
+    -v, --verbose
+          Print parameters and variables.
+    --version
+          Display version information.
+
+EXAMPLES
+    corrprofile -w 146 -n 400 path/to/profiles/file
+          Compute correlations at each position in 400bp long profile within
+          the sliding 146bp window
+
+OUTPUT
+    Column of correlation coefficients
+          between forward and reverse profile at each position
+
+VERSION
+    Last update: April 2017
+    corrprofile version: 1.0
+    SeqAn version: 2.4.0
+
+Resource usage statistics from testing dnp-corrprofile:
+   Process count: 6
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 17.4M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.0
+
+
+TEST END: dnp-corrprofile-1.0-h14b862d_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
