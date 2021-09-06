@@ -1,0 +1,59 @@
+  Package         Version  Build       Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + cgmlst-dists    0.4.0  hb4d813b_1  /Users/runner/conda/conda-bld/osx-64     21 KB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 21 KB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: cgmlst-dists-0.4.0-hb4d813b_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/cgmlst-dists_1630952384490/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    cgmlst-dists: 0.4.0-hb4d813b_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/cgmlst-dists_1630952384490/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/cgmlst-dists_1630952384490/test_tmp
+cgmlst-dists 0.4.0
+SYNOPSIS
+  Pairwise CG-MLST distance matrix from allele call tables
+USAGE
+  cgmlst-dists [options] chewbbaca.tab > distances.tsv
+OPTIONS
+  -h	Show this help
+  -v	Print version and exit
+  -q	Quiet mode; do not print progress information
+  -c	Use comma instead of tab in output
+  -m N	Output: 1=lower-tri 2=upper-tri 3=full [3]
+  -x N	Stop calculating beyond this distance [9999]
+URL
+  https://github.com/tseemann/cgmlst-dists
+
+Resource usage statistics from testing cgmlst-dists:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: cgmlst-dists-0.4.0-hb4d813b_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

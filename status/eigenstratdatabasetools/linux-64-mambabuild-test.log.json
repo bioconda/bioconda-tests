@@ -1,0 +1,175 @@
+  Package                      Version  Build                Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                  0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex                  4.5  1_gnu                conda-forge/linux-64                    Cached
+  + ca-certificates          2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + eigenstratdatabasetools      1.0.2  hdfd78af_1           /home/vsts/conda/conda-bld/linux-64      23 KB
+  + ld_impl_linux-64            2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                      3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                     3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                         3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng                   11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng              11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5                11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                     11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                    3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas                 0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng                11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + ncurses                        6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                       1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                     1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pandas                       1.3.2  py39hde0f152_0       conda-forge/linux-64                     13 MB
+  + pip                         21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python                       3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python-dateutil              2.8.2  pyhd8ed1ab_0         conda-forge/noarch                      240 KB
+  + python_abi                     3.9  2_cp39               conda-forge/linux-64                    Cached
+  + pytz                        2021.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + readline                       8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools                  57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sh                          1.13.1  py39hf3d152e_2       conda-forge/linux-64                     65 KB
+  + six                         1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite                      3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                          8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                       2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                       0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                           5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                        1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 34 packages
+
+  Total download: 20 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: eigenstratdatabasetools-1.0.2-hdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/eigenstratdatabasetools_1630952742327/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge            conda-forge
+    _openmp_mutex:           4.5-1_gnu                  conda-forge
+    ca-certificates:         2021.5.30-ha878542_0       conda-forge
+    eigenstratdatabasetools: 1.0.2-hdfd78af_1           local      
+    ld_impl_linux-64:        2.36.1-hea4e1c9_2          conda-forge
+    libblas:                 3.9.0-11_linux64_openblas  conda-forge
+    libcblas:                3.9.0-11_linux64_openblas  conda-forge
+    libffi:                  3.3-h58526e2_2             conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:          11.1.0-h69a702a_8          conda-forge
+    libgfortran5:            11.1.0-h6c583b3_8          conda-forge
+    libgomp:                 11.1.0-hc902ee8_8          conda-forge
+    liblapack:               3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:             0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:            11.1.0-h56837e0_8          conda-forge
+    ncurses:                 6.2-h58526e2_4             conda-forge
+    numpy:                   1.21.2-py39hdbf815f_0      conda-forge
+    openssl:                 1.1.1l-h7f98852_0          conda-forge
+    pandas:                  1.3.2-py39hde0f152_0       conda-forge
+    pip:                     21.2.4-pyhd8ed1ab_0        conda-forge
+    python:                  3.9.7-h49503c6_0_cpython   conda-forge
+    python-dateutil:         2.8.2-pyhd8ed1ab_0         conda-forge
+    python_abi:              3.9-2_cp39                 conda-forge
+    pytz:                    2021.1-pyhd8ed1ab_0        conda-forge
+    readline:                8.1-h46c0cb4_0             conda-forge
+    setuptools:              57.4.0-py39hf3d152e_0      conda-forge
+    sh:                      1.13.1-py39hf3d152e_2      conda-forge
+    six:                     1.16.0-pyh6c4a22f_0        conda-forge
+    sqlite:                  3.36.0-h9cd32fc_0          conda-forge
+    tk:                      8.6.11-h27826a3_1          conda-forge
+    tzdata:                  2021a-he74cb21_1           conda-forge
+    wheel:                   0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:                      5.2.5-h516909a_1           conda-forge
+    zlib:                    1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/eigenstratdatabasetools_1630952742327/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/eigenstratdatabasetools_1630952742327/test_tmp
+usage: eigenstrat_database_tools (-i <Input file prefix>) (-c <input ind file> | -R | -E) [-L <SAMPLE LIST> | -S Ind [-S Ind2]] [-o <OUTPUT FILE PREFIX>]
+
+A tool to check two different EingenStrat databses for shared individuals, and
+extract or remove individuals from an EigenStrat database.
+
+Available options:
+  -h, --help            show this help message and exit
+  -i <INPUT FILES PREFIX>, --Input <INPUT FILES PREFIX>
+                        The desired input file prefix. Input files are assumed
+                        to be <INPUT PREFIX>.geno, <INPUT PREFIX>.snp and
+                        <INPUT PREFIX>.ind .
+  -o <OUTPUT FILES PREFIX>, --Output <OUTPUT FILES PREFIX>
+                        The desired output file prefix. Three output files are
+                        created, <OUTPUT FILES PREFIX>.geno , <OUTPUT FILES
+                        PREFIX>.snp and <OUTPUT FILES PREFIX>.ind .
+  -s <INPUT FILE SUFFIX>, --Suffix <INPUT FILE SUFFIX>
+                        The suffix (if any) that follows .geno/.snp/.ind in
+                        the input files. For example, specifying '-s .txt'
+                        will treat <INPUT PREFIX>.{geno,snp,ind}.txt as the
+                        desired input files.
+  -C <INPUT FILE>, --Check <INPUT FILE>
+                        Check the -i .ind file and the second .ind file for
+                        duplicate individuals. Population assignment and/or
+                        individual sex are not checked, only individual names.
+                        Names are case sensitive.
+  -E, --Extract         Extract the selected individuals from the EigenStrat
+                        database, creating a new set of EigenStrat files with
+                        the selected individuals only.
+  -R, --Remove          Remove the selected individuals from the EigenStrat
+                        database, creating a new set of EigenStrat files
+                        without the selected individuals.
+  -L <INDIVIDUAL LIST FILE>, --SampleList <INDIVIDUAL LIST FILE>
+                        A list of samples to be Extracted (-E) or Removed (-R)
+                        from the database. Can be a list of individual names
+                        (1 per line), or the output of duplicate check (-C).
+                        Required with -E or -R. Mutually exclusive with -S.
+  -S <INDIVIDUAL>, --Sample <INDIVIDUAL>
+                        A samples to be Extracted (-E) or Removed (-R) from
+                        the database. Can be called multiple times. Required
+                        with -E or -R. Mutually exclusive with -L.
+  -v, --version         Print the version and exit.
+usage: eigenstrat_snp_coverage (-i <Input file prefix>) [-s <Input file suffix>] [-o <Output filepath>] [-j | --json]
+
+A tool to check two different EingenStrat databses for shared individuals, and
+extract or remove individuals from an EigenStrat database.
+
+Available options:
+  -h, --help            show this help message and exit
+  -i <INPUT FILES PREFIX>, --Input <INPUT FILES PREFIX>
+                        The desired input file prefix. Input files are assumed
+                        to be <INPUT PREFIX>.geno, <INPUT PREFIX>.snp and
+                        <INPUT PREFIX>.ind .
+  -s <INPUT FILE SUFFIX>, --Suffix <INPUT FILE SUFFIX>
+                        The suffix (if any) that follows .geno/.snp/.ind in
+                        the input files. For example, specifying '-s .txt'
+                        will treat <INPUT PREFIX>.{geno,snp,ind}.txt as the
+                        desired input files.
+  -o <OUTPUT FILEPATH>, --Output <OUTPUT FILEPATH>
+                        The filepath where the output table should be saved.
+                        Omit to print to stdout.
+  -j <JSON OUTPUT FILEPATH>, --json <JSON OUTPUT FILEPATH>
+                        Create additional json formatted output file named
+                        <JSON OUTPUT FILEPATH> .
+  -v, --version         Print the version and exit.
+
+Resource usage statistics from testing eigenstratdatabasetools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: eigenstratdatabasetools-1.0.2-hdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
