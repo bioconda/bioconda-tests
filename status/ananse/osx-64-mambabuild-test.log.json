@@ -1,0 +1,655 @@
+  Package                           Version  Build                 Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _py-xgboost-mutex                   2.0  cpu_0                 conda-forge/osx-64                         8 KB
+  + abseil-cpp                   20210324.2  he49afe7_0            conda-forge/osx-64                       937 KB
+  + adjusttext                      0.7.3.1  py_1                  conda-forge/noarch                        11 KB
+  + ananse                            0.3.0  pyhdfd78af_0          /Users/runner/conda/conda-bld/osx-64      32 MB
+  + appdirs                           1.4.4  pyh9f0ad1d_0          conda-forge/noarch                        13 KB
+  + arrow-cpp                         5.0.0  py39he899e69_4_cpu    conda-forge/osx-64                        18 MB
+  + aws-c-cal                        0.5.11  hd2e2f4b_0            conda-forge/osx-64                        30 KB
+  + aws-c-common                      0.6.2  h0d85af4_0            conda-forge/osx-64                       150 KB
+  + aws-c-event-stream                0.2.7  hb9330a7_13           conda-forge/osx-64                        40 KB
+  + aws-c-io                         0.10.5  h35aa462_0            conda-forge/osx-64                       109 KB
+  + aws-checksums                    0.1.11  h0010a65_7            conda-forge/osx-64                        48 KB
+  + aws-sdk-cpp                     1.8.186  h766a74d_3            conda-forge/osx-64                         4 MB
+  + bedtools                         2.30.0  haa7f73a_2            bioconda/osx-64                          807 KB
+  + biofluff                          3.0.4  py_0                  bioconda/noarch                           32 KB
+  + biopython                          1.79  py39h89e85a6_0        conda-forge/osx-64                         3 MB
+  + biothings_client                  0.2.6  pyh5e36f6f_0          bioconda/noarch                           31 KB
+  + blosc                            1.21.0  he49afe7_0            conda-forge/osx-64                       920 KB
+  + bokeh                             2.3.3  py39h6e9494a_0        conda-forge/osx-64                         8 MB
+  + boltons                          21.0.0  pyhd8ed1ab_0          conda-forge/noarch                       211 KB
+  + brotlipy                          0.7.0  py39h89e85a6_1001     conda-forge/osx-64                       Cached
+  + bucketcache                      0.12.1  py39hde42818_2        conda-forge/osx-64                        31 KB
+  + bzip2                             1.0.8  h0d85af4_4            conda-forge/osx-64                       Cached
+  + c-ares                           1.17.2  h0d85af4_0            conda-forge/osx-64                       Cached
+  + ca-certificates               2021.5.30  h033912b_0            conda-forge/osx-64                       Cached
+  + certifi                       2021.5.30  py39h6e9494a_0        conda-forge/osx-64                       Cached
+  + cffi                             1.14.6  py39hb71fe58_0        conda-forge/osx-64                       Cached
+  + chardet                           4.0.0  py39h6e9494a_1        conda-forge/osx-64                       Cached
+  + charset-normalizer                2.0.0  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + click                             8.0.1  py39h6e9494a_0        conda-forge/osx-64                       146 KB
+  + cloudpickle                       1.6.0  py_0                  conda-forge/noarch                        22 KB
+  + colorama                          0.4.4  pyh9f0ad1d_0          conda-forge/noarch                       Cached
+  + configparser                      5.0.2  pyhd8ed1ab_0          conda-forge/noarch                        21 KB
+  + cryptography                      3.4.7  py39ha2c9959_0        conda-forge/osx-64                       Cached
+  + cycler                           0.10.0  py_2                  conda-forge/noarch                         9 KB
+  + cytoolz                          0.11.0  py39h89e85a6_3        conda-forge/osx-64                       351 KB
+  + dask                           2021.9.0  pyhd8ed1ab_0          conda-forge/noarch                         4 KB
+  + dask-core                      2021.9.0  pyhd8ed1ab_0          conda-forge/noarch                       767 KB
+  + decorator                         4.4.2  py_0                  conda-forge/noarch                        11 KB
+  + diskcache                         5.2.1  pyh44b312d_0          conda-forge/noarch                        36 KB
+  + distributed                    2021.9.0  py39h6e9494a_0        conda-forge/osx-64                         1 MB
+  + dnspython                         2.1.0  pyhd8ed1ab_0          conda-forge/noarch                       120 KB
+  + et_xmlfile                        1.0.1  py_1001               conda-forge/noarch                        11 KB
+  + expat                            2.2.10  h1c7c35f_0            conda-forge/osx-64                       128 KB
+  + feather-format                    0.4.1  pyh9f0ad1d_0          conda-forge/noarch                         5 KB
+  + freetype                         2.10.4  h4cff582_1            conda-forge/osx-64                       Cached
+  + fsspec                         2021.8.1  pyhd8ed1ab_0          conda-forge/noarch                        82 KB
+  + future                           0.18.2  py39h6e9494a_3        conda-forge/osx-64                       Cached
+  + gadem                             1.3.1  hb4d813b_3            bioconda/osx-64                          117 KB
+  + genomepy                         0.10.0  pyhdfd78af_0          bioconda/noarch                           62 KB
+  + gflags                            2.2.2  hb1e8313_1004         conda-forge/osx-64                        92 KB
+  + ghostscript                      9.54.0  he49afe7_1            conda-forge/osx-64                        56 MB
+  + gimmemotifs                      0.16.1  py39he2a1a62_1        bioconda/osx-64                            9 MB
+  + glog                              0.5.0  h25b26a9_0            conda-forge/osx-64                        94 KB
+  + grpc-cpp                         1.39.1  h3acd2d4_1            conda-forge/osx-64                         3 MB
+  + hdf5                             1.12.1  nompi_h2f0ef1a_100    conda-forge/osx-64                         4 MB
+  + heapdict                          1.0.1  py_0                  conda-forge/noarch                         7 KB
+  + homer                              4.10  pl526h770b8ee_0       bioconda/osx-64                           28 MB
+  + htseq                            0.13.5  py39hdd6a155_1        bioconda/osx-64                          277 KB
+  + icu                                68.1  h74dc148_0            conda-forge/osx-64                       Cached
+  + idna                                3.1  pyhd3deb0d_0          conda-forge/noarch                       Cached
+  + jbig                                2.1  h0d85af4_2003         conda-forge/osx-64                       Cached
+  + jdcal                             1.4.1  py_0                  conda-forge/noarch                         9 KB
+  + jinja2                            3.0.1  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + joblib                            1.0.1  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + jpeg                                 9d  hbcb3906_0            conda-forge/osx-64                       Cached
+  + kiwisolver                        1.3.2  py39hf018cea_0        conda-forge/osx-64                        59 KB
+  + krb5                             1.19.2  hcfbf3a7_0            conda-forge/osx-64                       Cached
+  + lcms2                              2.12  h577c468_0            conda-forge/osx-64                       404 KB
+  + lerc                              2.2.1  h046ec9c_0            conda-forge/osx-64                       Cached
+  + libblas                           3.9.0  11_osx64_openblas     conda-forge/osx-64                       Cached
+  + libbrotlicommon                   1.0.9  h0d85af4_5            conda-forge/osx-64                        63 KB
+  + libbrotlidec                      1.0.9  h0d85af4_5            conda-forge/osx-64                        32 KB
+  + libbrotlienc                      1.0.9  h0d85af4_5            conda-forge/osx-64                       324 KB
+  + libcblas                          3.9.0  11_osx64_openblas     conda-forge/osx-64                       Cached
+  + libcurl                          7.78.0  hf45b732_0            conda-forge/osx-64                       Cached
+  + libcxx                           12.0.1  habf9029_0            conda-forge/osx-64                       Cached
+  + libdeflate                          1.7  h35c211d_5            conda-forge/osx-64                       Cached
+  + libedit                    3.1.20191231  h0678c8f_2            conda-forge/osx-64                       Cached
+  + libev                              4.33  haf1e3a3_1            conda-forge/osx-64                       Cached
+  + libevent                         2.1.10  hddc9c9b_3            conda-forge/osx-64                         1 MB
+  + libffi                              3.3  h046ec9c_2            conda-forge/osx-64                       Cached
+  + libgcc                            4.8.5  1                     conda-forge/osx-64                       Cached
+  + libgfortran                       5.0.0  9_3_0_h6c81a4c_23     conda-forge/osx-64                       Cached
+  + libgfortran5                      9.3.0  h6c81a4c_23           conda-forge/osx-64                       Cached
+  + libiconv                           1.16  haf1e3a3_0            conda-forge/osx-64                       Cached
+  + liblapack                         3.9.0  11_osx64_openblas     conda-forge/osx-64                       Cached
+  + libllvm10                        10.0.1  h009f743_3            conda-forge/osx-64                        21 MB
+  + libnghttp2                       1.43.0  h07e645a_0            conda-forge/osx-64                       Cached
+  + libopenblas                      0.3.17  openmp_h3351f45_1     conda-forge/osx-64                       Cached
+  + libpng                           1.6.37  h7cec526_2            conda-forge/osx-64                       Cached
+  + libprotobuf                      3.16.0  hcf210ce_0            conda-forge/osx-64                         2 MB
+  + libssh2                          1.10.0  h52ee1ee_0            conda-forge/osx-64                       Cached
+  + libthrift                        0.14.2  hab56fdc_1            conda-forge/osx-64                       346 KB
+  + libtiff                           4.3.0  h1167814_1            conda-forge/osx-64                       Cached
+  + libutf8proc                       2.6.1  h35c211d_0            conda-forge/osx-64                        93 KB
+  + libuuid                          2.32.1  h35c211d_1000         conda-forge/osx-64                        23 KB
+  + libwebp-base                      1.2.1  h0d85af4_0            conda-forge/osx-64                       Cached
+  + libxgboost                        1.4.0  he49afe7_0            conda-forge/osx-64                         2 MB
+  + libxml2                          2.9.12  h93ec3fd_0            conda-forge/osx-64                       Cached
+  + libxslt                          1.1.33  h5739fc3_2            conda-forge/osx-64                       488 KB
+  + llvm-openmp                      12.0.1  hda6cdc1_1            conda-forge/osx-64                       Cached
+  + llvmlite                         0.36.0  py39h798a4f4_0        conda-forge/osx-64                       234 KB
+  + locket                            0.2.0  py_2                  conda-forge/noarch                         6 KB
+  + logbook                           1.5.3  py39hcbf5805_4        conda-forge/osx-64                       105 KB
+  + logomaker                           0.8  pyh864c0ab_1          bioconda/noarch                           11 MB
+  + loguru                            0.5.3  py39h6e9494a_2        conda-forge/osx-64                        85 KB
+  + lz4-c                             1.9.3  he49afe7_1            conda-forge/osx-64                       Cached
+  + markupsafe                        2.0.1  py39h89e85a6_0        conda-forge/osx-64                       Cached
+  + matplotlib                        3.4.3  py39h6e9494a_0        conda-forge/osx-64                         7 KB
+  + matplotlib-base                   3.4.3  py39hb07454d_0        conda-forge/osx-64                         7 MB
+  + meme                              5.3.0  py39pl5262hd110924_2  bioconda/osx-64                           13 MB
+  + mock                              4.0.3  py39h6e9494a_1        conda-forge/osx-64                        51 KB
+  + mpi                                 1.0  openmpi               conda-forge/osx-64                         4 KB
+  + msgpack-python                    1.0.2  py39hf018cea_1        conda-forge/osx-64                        82 KB
+  + mygene                            3.2.2  pyh5e36f6f_0          bioconda/noarch                           10 KB
+  + mysql-common                     8.0.25  h694c41f_2            conda-forge/osx-64                         2 MB
+  + mysql-connector-c                6.1.11  h0f02589_1007         conda-forge/osx-64                         4 MB
+  + mysql-connector-python           8.0.25  py39h2bc8f48_0        conda-forge/osx-64                       618 KB
+  + mysql-libs                       8.0.25  h115446f_2            conda-forge/osx-64                         2 MB
+  + natsort                           7.1.1  pyhd8ed1ab_0          conda-forge/noarch                        33 KB
+  + ncls                             0.0.60  py39ha492530_0        bioconda/osx-64                          580 KB
+  + ncurses                             6.2  h2e338ed_4            conda-forge/osx-64                       Cached
+  + networkx                          2.6.2  pyhd8ed1ab_0          conda-forge/noarch                         1 MB
+  + norns                             0.1.6  pyh5e36f6f_0          bioconda/noarch                            8 KB
+  + nose                              1.3.7  py_1006               conda-forge/noarch                       118 KB
+  + numba                            0.53.1  py39h32e38f5_1        conda-forge/osx-64                         4 MB
+  + numexpr                           2.7.3  py39h4d6be9b_0        conda-forge/osx-64                       131 KB
+  + numpy                            1.21.2  py39h7eed0ac_0        conda-forge/osx-64                         6 MB
+  + olefile                            0.46  pyh9f0ad1d_1          conda-forge/noarch                        32 KB
+  + openjdk                        11.0.9.1  hcf210ce_1            conda-forge/osx-64                       Cached
+  + openjpeg                          2.4.0  h6e7aa92_1            conda-forge/osx-64                       374 KB
+  + openmpi                           4.1.1  hd3cd54c_0            conda-forge/osx-64                         3 MB
+  + openpyxl                          3.0.7  pyhd8ed1ab_0          conda-forge/noarch                       154 KB
+  + openssl                          1.1.1l  h0d85af4_0            conda-forge/osx-64                       Cached
+  + orc                              1.6.10  hfe4c36d_0            conda-forge/osx-64                       389 KB
+  + packaging                          21.0  pyhd8ed1ab_0          conda-forge/noarch                        35 KB
+  + palettable                        3.3.0  py_0                  conda-forge/noarch                        86 KB
+  + pandas                            1.2.5  py39h4d6be9b_0        conda-forge/osx-64                        11 MB
+  + parquet-cpp                       1.5.1  1                     conda-forge/osx-64                         3 KB
+  + partd                             1.2.0  pyhd8ed1ab_0          conda-forge/noarch                        18 KB
+  + pathlib                           1.0.1  py39h6e9494a_4        conda-forge/osx-64                         4 KB
+  + patsy                             0.5.1  py_0                  conda-forge/noarch                       187 KB
+  + perl                             5.26.2  hbcb3906_1008         conda-forge/osx-64                       Cached
+  + perl-algorithm-cluster             1.58  pl526h1de35cc_0       bioconda/osx-64                           50 KB
+  + perl-app-cpanminus               1.7044  pl526_1               bioconda/osx-64                          Cached
+  + perl-base                          2.23  pl526_1               bioconda/osx-64                          Cached
+  + perl-carp                          1.38  pl526_3               bioconda/osx-64                          Cached
+  + perl-cgi                           4.44  pl526h1de35cc_1       bioconda/osx-64                          116 KB
+  + perl-common-sense                  3.74  pl526_2               bioconda/osx-64                          Cached
+  + perl-constant                      1.33  pl526_1               bioconda/osx-64                          Cached
+  + perl-dbi                          1.642  pl526_0               bioconda/osx-64                          543 KB
+  + perl-encode                        2.88  pl526_1               bioconda/osx-64                          Cached
+  + perl-exporter                      5.72  pl526_1               bioconda/osx-64                          Cached
+  + perl-extutils-makemaker            7.36  pl526_1               bioconda/osx-64                          Cached
+  + perl-file-path                     2.16  pl526_0               bioconda/osx-64                          Cached
+  + perl-file-temp                   0.2304  pl526_2               bioconda/osx-64                          Cached
+  + perl-file-which                    1.23  pl526_0               bioconda/osx-64                           12 KB
+  + perl-html-parser                   3.72  pl526h04f5b5a_5       bioconda/osx-64                          Cached
+  + perl-html-tagset                   3.20  pl526_3               bioconda/osx-64                          Cached
+  + perl-html-template                 2.97  pl526_1               bioconda/osx-64                           44 KB
+  + perl-html-tree                     5.07  pl526_1               bioconda/osx-64                          Cached
+  + perl-json                          4.02  pl526_0               bioconda/osx-64                          Cached
+  + perl-json-xs                       2.34  pl526h04f5b5a_3       bioconda/osx-64                          Cached
+  + perl-log-log4perl                  1.49  pl526_0               bioconda/osx-64                          197 KB
+  + perl-math-cdf                       0.1  pl526h1de35cc_5       bioconda/osx-64                           68 KB
+  + perl-parent                       0.236  pl526_1               bioconda/osx-64                          Cached
+  + perl-scalar-list-utils             1.52  pl526h01d97ff_0       bioconda/osx-64                          Cached
+  + perl-types-serialiser               1.0  pl526_2               bioconda/osx-64                          Cached
+  + perl-xml-namespacesupport          1.12  pl526_0               bioconda/osx-64                          Cached
+  + perl-xml-parser                 2.44_01  pl526hb1d6bea_1002    conda-forge/osx-64                       161 KB
+  + perl-xml-sax                       1.02  pl526_0               bioconda/noarch                          Cached
+  + perl-xml-sax-base                  1.09  pl526_0               bioconda/osx-64                          Cached
+  + perl-xml-sax-expat                 0.51  pl526_3               bioconda/osx-64                          Cached
+  + perl-xml-simple                    2.25  pl526_1               bioconda/osx-64                          Cached
+  + perl-xsloader                      0.24  pl526_0               bioconda/osx-64                          Cached
+  + perl-yaml                          1.29  pl526_0               bioconda/noarch                           41 KB
+  + pillow                            8.3.2  py39he9bb72f_0        conda-forge/osx-64                       660 KB
+  + pip                              21.2.4  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + prosampler                          1.0  h770b8ee_0            bioconda/osx-64                          183 KB
+  + protobuf                         3.16.0  py39h9fcab8e_0        conda-forge/osx-64                       327 KB
+  + psutil                            5.8.0  py39h89e85a6_1        conda-forge/osx-64                       Cached
+  + py-xgboost                        1.4.0  py39h6e9494a_0        conda-forge/osx-64                       141 KB
+  + pyarrow                           5.0.0  py39hc3b5b9c_4_cpu    conda-forge/osx-64                         3 MB
+  + pybedtools                        0.8.2  py39h33336d3_1        bioconda/osx-64                           12 MB
+  + pybigwig                         0.3.18  py39h8b2de0f_1        bioconda/osx-64                           69 KB
+  + pycparser                          2.20  pyh9f0ad1d_2          conda-forge/noarch                       Cached
+  + pyfaidx                           0.6.2  pyh5e36f6f_0          bioconda/noarch                           29 KB
+  + pyopenssl                        20.0.1  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + pyparsing                         2.4.7  pyh9f0ad1d_0          conda-forge/noarch                        60 KB
+  + pyranges                        0.0.104  pyh5e36f6f_0          bioconda/noarch                          672 KB
+  + pyrle                            0.0.33  py39ha492530_0        bioconda/osx-64                          446 KB
+  + pysam                          0.16.0.1  py39h56703ae_3        bioconda/osx-64                            2 MB
+  + pysocks                           1.7.1  py39h6e9494a_3        conda-forge/osx-64                       Cached
+  + pytables                          3.6.1  py39hfd850c7_4        conda-forge/osx-64                         1 MB
+  + python                            3.9.7  hd187cdc_0_cpython    conda-forge/osx-64                       Cached
+  + python-dateutil                   2.8.2  pyhd8ed1ab_0          conda-forge/noarch                       240 KB
+  + python-xxhash                     2.0.2  py39h89e85a6_0        conda-forge/osx-64                        19 KB
+  + python_abi                          3.9  2_cp39                conda-forge/osx-64                       Cached
+  + pytz                             2021.1  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + pyyaml                            5.4.1  py39h89e85a6_1        conda-forge/osx-64                       Cached
+  + qnorm                             0.8.0  pyh6c4a22f_0          conda-forge/noarch                        16 KB
+  + re2                          2021.09.01  he49afe7_0            conda-forge/osx-64                       194 KB
+  + readline                            8.1  h05e3726_0            conda-forge/osx-64                       Cached
+  + represent                         1.6.0  py39hb5aae12_2        conda-forge/osx-64                        22 KB
+  + requests                         2.26.0  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + scikit-learn                     0.24.2  py39hd2caeff_1        conda-forge/osx-64                         7 MB
+  + scipy                             1.7.1  py39h056f1c0_0        conda-forge/osx-64                        20 MB
+  + seaborn                          0.11.2  hd8ed1ab_0            conda-forge/noarch                         4 KB
+  + seaborn-base                     0.11.2  pyhd8ed1ab_0          conda-forge/noarch                       223 KB
+  + setuptools                       57.4.0  py39h6e9494a_0        conda-forge/osx-64                       Cached
+  + six                              1.16.0  pyh6c4a22f_0          conda-forge/noarch                       Cached
+  + snappy                            1.1.8  hb1e8313_3            conda-forge/osx-64                        29 KB
+  + sorted_nearest                   0.0.33  py39hb75ba9e_0        bioconda/osx-64                            1 MB
+  + sortedcontainers                  2.4.0  pyhd8ed1ab_0          conda-forge/noarch                        26 KB
+  + sqlite                           3.36.0  h23a322b_0            conda-forge/osx-64                       Cached
+  + statsmodels                      0.12.2  py39hc89836e_0        conda-forge/osx-64                        11 MB
+  + tabulate                          0.8.9  pyhd8ed1ab_0          conda-forge/noarch                        26 KB
+  + tblib                             1.7.0  pyhd8ed1ab_0          conda-forge/noarch                        15 KB
+  + threadpoolctl                     2.2.0  pyh8a188c0_0          conda-forge/noarch                        16 KB
+  + tk                               8.6.11  h5dbffcc_1            conda-forge/osx-64                       Cached
+  + toolz                            0.11.1  py_0                  conda-forge/noarch                        46 KB
+  + tornado                             6.1  py39h89e85a6_1        conda-forge/osx-64                       645 KB
+  + tqdm                             4.62.2  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + trawler                             2.0  pl526_2               bioconda/osx-64                            5 MB
+  + typing_extensions              3.10.0.0  pyha770c72_0          conda-forge/noarch                       Cached
+  + tzdata                            2021a  he74cb21_1            conda-forge/noarch                       Cached
+  + ucsc-bedtogenepred                  377  h516baf0_1            bioconda/osx-64                          841 KB
+  + ucsc-bigbedtobed                    377  h516baf0_1            bioconda/osx-64                          431 KB
+  + ucsc-genepredtobed                  377  h516baf0_3            bioconda/osx-64                          838 KB
+  + ucsc-genepredtogtf                  377  h516baf0_3            bioconda/osx-64                          842 KB
+  + ucsc-gff3togenepred                 377  h516baf0_1            bioconda/osx-64                          848 KB
+  + ucsc-gtftogenepred                  377  h516baf0_3            bioconda/osx-64                          839 KB
+  + urllib3                          1.26.6  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + weeder                              2.0  hb280591_5            bioconda/osx-64                           94 MB
+  + wheel                            0.37.0  pyhd8ed1ab_1          conda-forge/noarch                       Cached
+  + xdg                               5.1.1  pyhd8ed1ab_0          conda-forge/noarch                         8 KB
+  + xgboost                           1.4.0  py39h0f1f8f7_0        conda-forge/osx-64                        11 KB
+  + xxhash                            0.8.0  h35c211d_3            conda-forge/osx-64                        86 KB
+  + xxmotif                             1.6  0                     bioconda/osx-64                          356 KB
+  + xz                                5.2.5  haf1e3a3_1            conda-forge/osx-64                       Cached
+  + yaml                              0.2.5  haf1e3a3_0            conda-forge/osx-64                       Cached
+  + zict                              2.0.0  py_0                  conda-forge/noarch                        10 KB
+  + zlib                             1.2.11  h7795811_1010         conda-forge/osx-64                       Cached
+  + zstd                              1.5.0  h582d3a0_0            conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 244 packages
+
+  Total download: 430 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: ananse-0.3.0-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/ananse_1630957075857/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _py-xgboost-mutex:         2.0-cpu_0                  conda-forge
+    abseil-cpp:                20210324.2-he49afe7_0      conda-forge
+    adjusttext:                0.7.3.1-py_1               conda-forge
+    ananse:                    0.3.0-pyhdfd78af_0         local      
+    appdirs:                   1.4.4-pyh9f0ad1d_0         conda-forge
+    arrow-cpp:                 5.0.0-py39he899e69_4_cpu   conda-forge
+    aws-c-cal:                 0.5.11-hd2e2f4b_0          conda-forge
+    aws-c-common:              0.6.2-h0d85af4_0           conda-forge
+    aws-c-event-stream:        0.2.7-hb9330a7_13          conda-forge
+    aws-c-io:                  0.10.5-h35aa462_0          conda-forge
+    aws-checksums:             0.1.11-h0010a65_7          conda-forge
+    aws-sdk-cpp:               1.8.186-h766a74d_3         conda-forge
+    bedtools:                  2.30.0-haa7f73a_2          bioconda   
+    biofluff:                  3.0.4-py_0                 bioconda   
+    biopython:                 1.79-py39h89e85a6_0        conda-forge
+    biothings_client:          0.2.6-pyh5e36f6f_0         bioconda   
+    blosc:                     1.21.0-he49afe7_0          conda-forge
+    bokeh:                     2.3.3-py39h6e9494a_0       conda-forge
+    boltons:                   21.0.0-pyhd8ed1ab_0        conda-forge
+    brotlipy:                  0.7.0-py39h89e85a6_1001    conda-forge
+    bucketcache:               0.12.1-py39hde42818_2      conda-forge
+    bzip2:                     1.0.8-h0d85af4_4           conda-forge
+    c-ares:                    1.17.2-h0d85af4_0          conda-forge
+    ca-certificates:           2021.5.30-h033912b_0       conda-forge
+    certifi:                   2021.5.30-py39h6e9494a_0   conda-forge
+    cffi:                      1.14.6-py39hb71fe58_0      conda-forge
+    chardet:                   4.0.0-py39h6e9494a_1       conda-forge
+    charset-normalizer:        2.0.0-pyhd8ed1ab_0         conda-forge
+    click:                     8.0.1-py39h6e9494a_0       conda-forge
+    cloudpickle:               1.6.0-py_0                 conda-forge
+    colorama:                  0.4.4-pyh9f0ad1d_0         conda-forge
+    configparser:              5.0.2-pyhd8ed1ab_0         conda-forge
+    cryptography:              3.4.7-py39ha2c9959_0       conda-forge
+    cycler:                    0.10.0-py_2                conda-forge
+    cytoolz:                   0.11.0-py39h89e85a6_3      conda-forge
+    dask:                      2021.9.0-pyhd8ed1ab_0      conda-forge
+    dask-core:                 2021.9.0-pyhd8ed1ab_0      conda-forge
+    decorator:                 4.4.2-py_0                 conda-forge
+    diskcache:                 5.2.1-pyh44b312d_0         conda-forge
+    distributed:               2021.9.0-py39h6e9494a_0    conda-forge
+    dnspython:                 2.1.0-pyhd8ed1ab_0         conda-forge
+    et_xmlfile:                1.0.1-py_1001              conda-forge
+    expat:                     2.2.10-h1c7c35f_0          conda-forge
+    feather-format:            0.4.1-pyh9f0ad1d_0         conda-forge
+    freetype:                  2.10.4-h4cff582_1          conda-forge
+    fsspec:                    2021.8.1-pyhd8ed1ab_0      conda-forge
+    future:                    0.18.2-py39h6e9494a_3      conda-forge
+    gadem:                     1.3.1-hb4d813b_3           bioconda   
+    genomepy:                  0.10.0-pyhdfd78af_0        bioconda   
+    gflags:                    2.2.2-hb1e8313_1004        conda-forge
+    ghostscript:               9.54.0-he49afe7_1          conda-forge
+    gimmemotifs:               0.16.1-py39he2a1a62_1      bioconda   
+    glog:                      0.5.0-h25b26a9_0           conda-forge
+    grpc-cpp:                  1.39.1-h3acd2d4_1          conda-forge
+    hdf5:                      1.12.1-nompi_h2f0ef1a_100  conda-forge
+    heapdict:                  1.0.1-py_0                 conda-forge
+    homer:                     4.10-pl526h770b8ee_0       bioconda   
+    htseq:                     0.13.5-py39hdd6a155_1      bioconda   
+    icu:                       68.1-h74dc148_0            conda-forge
+    idna:                      3.1-pyhd3deb0d_0           conda-forge
+    jbig:                      2.1-h0d85af4_2003          conda-forge
+    jdcal:                     1.4.1-py_0                 conda-forge
+    jinja2:                    3.0.1-pyhd8ed1ab_0         conda-forge
+    joblib:                    1.0.1-pyhd8ed1ab_0         conda-forge
+    jpeg:                      9d-hbcb3906_0              conda-forge
+    kiwisolver:                1.3.2-py39hf018cea_0       conda-forge
+    krb5:                      1.19.2-hcfbf3a7_0          conda-forge
+    lcms2:                     2.12-h577c468_0            conda-forge
+    lerc:                      2.2.1-h046ec9c_0           conda-forge
+    libblas:                   3.9.0-11_osx64_openblas    conda-forge
+    libbrotlicommon:           1.0.9-h0d85af4_5           conda-forge
+    libbrotlidec:              1.0.9-h0d85af4_5           conda-forge
+    libbrotlienc:              1.0.9-h0d85af4_5           conda-forge
+    libcblas:                  3.9.0-11_osx64_openblas    conda-forge
+    libcurl:                   7.78.0-hf45b732_0          conda-forge
+    libcxx:                    12.0.1-habf9029_0          conda-forge
+    libdeflate:                1.7-h35c211d_5             conda-forge
+    libedit:                   3.1.20191231-h0678c8f_2    conda-forge
+    libev:                     4.33-haf1e3a3_1            conda-forge
+    libevent:                  2.1.10-hddc9c9b_3          conda-forge
+    libffi:                    3.3-h046ec9c_2             conda-forge
+    libgcc:                    4.8.5-1                    conda-forge
+    libgfortran:               5.0.0-9_3_0_h6c81a4c_23    conda-forge
+    libgfortran5:              9.3.0-h6c81a4c_23          conda-forge
+    libiconv:                  1.16-haf1e3a3_0            conda-forge
+    liblapack:                 3.9.0-11_osx64_openblas    conda-forge
+    libllvm10:                 10.0.1-h009f743_3          conda-forge
+    libnghttp2:                1.43.0-h07e645a_0          conda-forge
+    libopenblas:               0.3.17-openmp_h3351f45_1   conda-forge
+    libpng:                    1.6.37-h7cec526_2          conda-forge
+    libprotobuf:               3.16.0-hcf210ce_0          conda-forge
+    libssh2:                   1.10.0-h52ee1ee_0          conda-forge
+    libthrift:                 0.14.2-hab56fdc_1          conda-forge
+    libtiff:                   4.3.0-h1167814_1           conda-forge
+    libutf8proc:               2.6.1-h35c211d_0           conda-forge
+    libuuid:                   2.32.1-h35c211d_1000       conda-forge
+    libwebp-base:              1.2.1-h0d85af4_0           conda-forge
+    libxgboost:                1.4.0-he49afe7_0           conda-forge
+    libxml2:                   2.9.12-h93ec3fd_0          conda-forge
+    libxslt:                   1.1.33-h5739fc3_2          conda-forge
+    llvm-openmp:               12.0.1-hda6cdc1_1          conda-forge
+    llvmlite:                  0.36.0-py39h798a4f4_0      conda-forge
+    locket:                    0.2.0-py_2                 conda-forge
+    logbook:                   1.5.3-py39hcbf5805_4       conda-forge
+    logomaker:                 0.8-pyh864c0ab_1           bioconda   
+    loguru:                    0.5.3-py39h6e9494a_2       conda-forge
+    lz4-c:                     1.9.3-he49afe7_1           conda-forge
+    markupsafe:                2.0.1-py39h89e85a6_0       conda-forge
+    matplotlib:                3.4.3-py39h6e9494a_0       conda-forge
+    matplotlib-base:           3.4.3-py39hb07454d_0       conda-forge
+    meme:                      5.3.0-py39pl5262hd110924_2 bioconda   
+    mock:                      4.0.3-py39h6e9494a_1       conda-forge
+    mpi:                       1.0-openmpi                conda-forge
+    msgpack-python:            1.0.2-py39hf018cea_1       conda-forge
+    mygene:                    3.2.2-pyh5e36f6f_0         bioconda   
+    mysql-common:              8.0.25-h694c41f_2          conda-forge
+    mysql-connector-c:         6.1.11-h0f02589_1007       conda-forge
+    mysql-connector-python:    8.0.25-py39h2bc8f48_0      conda-forge
+    mysql-libs:                8.0.25-h115446f_2          conda-forge
+    natsort:                   7.1.1-pyhd8ed1ab_0         conda-forge
+    ncls:                      0.0.60-py39ha492530_0      bioconda   
+    ncurses:                   6.2-h2e338ed_4             conda-forge
+    networkx:                  2.6.2-pyhd8ed1ab_0         conda-forge
+    norns:                     0.1.6-pyh5e36f6f_0         bioconda   
+    nose:                      1.3.7-py_1006              conda-forge
+    numba:                     0.53.1-py39h32e38f5_1      conda-forge
+    numexpr:                   2.7.3-py39h4d6be9b_0       conda-forge
+    numpy:                     1.21.2-py39h7eed0ac_0      conda-forge
+    olefile:                   0.46-pyh9f0ad1d_1          conda-forge
+    openjdk:                   11.0.9.1-hcf210ce_1        conda-forge
+    openjpeg:                  2.4.0-h6e7aa92_1           conda-forge
+    openmpi:                   4.1.1-hd3cd54c_0           conda-forge
+    openpyxl:                  3.0.7-pyhd8ed1ab_0         conda-forge
+    openssl:                   1.1.1l-h0d85af4_0          conda-forge
+    orc:                       1.6.10-hfe4c36d_0          conda-forge
+    packaging:                 21.0-pyhd8ed1ab_0          conda-forge
+    palettable:                3.3.0-py_0                 conda-forge
+    pandas:                    1.2.5-py39h4d6be9b_0       conda-forge
+    parquet-cpp:               1.5.1-1                    conda-forge
+    partd:                     1.2.0-pyhd8ed1ab_0         conda-forge
+    pathlib:                   1.0.1-py39h6e9494a_4       conda-forge
+    patsy:                     0.5.1-py_0                 conda-forge
+    perl:                      5.26.2-hbcb3906_1008       conda-forge
+    perl-algorithm-cluster:    1.58-pl526h1de35cc_0       bioconda   
+    perl-app-cpanminus:        1.7044-pl526_1             bioconda   
+    perl-base:                 2.23-pl526_1               bioconda   
+    perl-carp:                 1.38-pl526_3               bioconda   
+    perl-cgi:                  4.44-pl526h1de35cc_1       bioconda   
+    perl-common-sense:         3.74-pl526_2               bioconda   
+    perl-constant:             1.33-pl526_1               bioconda   
+    perl-dbi:                  1.642-pl526_0              bioconda   
+    perl-encode:               2.88-pl526_1               bioconda   
+    perl-exporter:             5.72-pl526_1               bioconda   
+    perl-extutils-makemaker:   7.36-pl526_1               bioconda   
+    perl-file-path:            2.16-pl526_0               bioconda   
+    perl-file-temp:            0.2304-pl526_2             bioconda   
+    perl-file-which:           1.23-pl526_0               bioconda   
+    perl-html-parser:          3.72-pl526h04f5b5a_5       bioconda   
+    perl-html-tagset:          3.20-pl526_3               bioconda   
+    perl-html-template:        2.97-pl526_1               bioconda   
+    perl-html-tree:            5.07-pl526_1               bioconda   
+    perl-json:                 4.02-pl526_0               bioconda   
+    perl-json-xs:              2.34-pl526h04f5b5a_3       bioconda   
+    perl-log-log4perl:         1.49-pl526_0               bioconda   
+    perl-math-cdf:             0.1-pl526h1de35cc_5        bioconda   
+    perl-parent:               0.236-pl526_1              bioconda   
+    perl-scalar-list-utils:    1.52-pl526h01d97ff_0       bioconda   
+    perl-types-serialiser:     1.0-pl526_2                bioconda   
+    perl-xml-namespacesupport: 1.12-pl526_0               bioconda   
+    perl-xml-parser:           2.44_01-pl526hb1d6bea_1002 conda-forge
+    perl-xml-sax:              1.02-pl526_0               bioconda   
+    perl-xml-sax-base:         1.09-pl526_0               bioconda   
+    perl-xml-sax-expat:        0.51-pl526_3               bioconda   
+    perl-xml-simple:           2.25-pl526_1               bioconda   
+    perl-xsloader:             0.24-pl526_0               bioconda   
+    perl-yaml:                 1.29-pl526_0               bioconda   
+    pillow:                    8.3.2-py39he9bb72f_0       conda-forge
+    pip:                       21.2.4-pyhd8ed1ab_0        conda-forge
+    prosampler:                1.0-h770b8ee_0             bioconda   
+    protobuf:                  3.16.0-py39h9fcab8e_0      conda-forge
+    psutil:                    5.8.0-py39h89e85a6_1       conda-forge
+    py-xgboost:                1.4.0-py39h6e9494a_0       conda-forge
+    pyarrow:                   5.0.0-py39hc3b5b9c_4_cpu   conda-forge
+    pybedtools:                0.8.2-py39h33336d3_1       bioconda   
+    pybigwig:                  0.3.18-py39h8b2de0f_1      bioconda   
+    pycparser:                 2.20-pyh9f0ad1d_2          conda-forge
+    pyfaidx:                   0.6.2-pyh5e36f6f_0         bioconda   
+    pyopenssl:                 20.0.1-pyhd8ed1ab_0        conda-forge
+    pyparsing:                 2.4.7-pyh9f0ad1d_0         conda-forge
+    pyranges:                  0.0.104-pyh5e36f6f_0       bioconda   
+    pyrle:                     0.0.33-py39ha492530_0      bioconda   
+    pysam:                     0.16.0.1-py39h56703ae_3    bioconda   
+    pysocks:                   1.7.1-py39h6e9494a_3       conda-forge
+    pytables:                  3.6.1-py39hfd850c7_4       conda-forge
+    python:                    3.9.7-hd187cdc_0_cpython   conda-forge
+    python-dateutil:           2.8.2-pyhd8ed1ab_0         conda-forge
+    python-xxhash:             2.0.2-py39h89e85a6_0       conda-forge
+    python_abi:                3.9-2_cp39                 conda-forge
+    pytz:                      2021.1-pyhd8ed1ab_0        conda-forge
+    pyyaml:                    5.4.1-py39h89e85a6_1       conda-forge
+    qnorm:                     0.8.0-pyh6c4a22f_0         conda-forge
+    re2:                       2021.09.01-he49afe7_0      conda-forge
+    readline:                  8.1-h05e3726_0             conda-forge
+    represent:                 1.6.0-py39hb5aae12_2       conda-forge
+    requests:                  2.26.0-pyhd8ed1ab_0        conda-forge
+    scikit-learn:              0.24.2-py39hd2caeff_1      conda-forge
+    scipy:                     1.7.1-py39h056f1c0_0       conda-forge
+    seaborn:                   0.11.2-hd8ed1ab_0          conda-forge
+    seaborn-base:              0.11.2-pyhd8ed1ab_0        conda-forge
+    setuptools:                57.4.0-py39h6e9494a_0      conda-forge
+    six:                       1.16.0-pyh6c4a22f_0        conda-forge
+    snappy:                    1.1.8-hb1e8313_3           conda-forge
+    sorted_nearest:            0.0.33-py39hb75ba9e_0      bioconda   
+    sortedcontainers:          2.4.0-pyhd8ed1ab_0         conda-forge
+    sqlite:                    3.36.0-h23a322b_0          conda-forge
+    statsmodels:               0.12.2-py39hc89836e_0      conda-forge
+    tabulate:                  0.8.9-pyhd8ed1ab_0         conda-forge
+    tblib:                     1.7.0-pyhd8ed1ab_0         conda-forge
+    threadpoolctl:             2.2.0-pyh8a188c0_0         conda-forge
+    tk:                        8.6.11-h5dbffcc_1          conda-forge
+    toolz:                     0.11.1-py_0                conda-forge
+    tornado:                   6.1-py39h89e85a6_1         conda-forge
+    tqdm:                      4.62.2-pyhd8ed1ab_0        conda-forge
+    trawler:                   2.0-pl526_2                bioconda   
+    typing_extensions:         3.10.0.0-pyha770c72_0      conda-forge
+    tzdata:                    2021a-he74cb21_1           conda-forge
+    ucsc-bedtogenepred:        377-h516baf0_1             bioconda   
+    ucsc-bigbedtobed:          377-h516baf0_1             bioconda   
+    ucsc-genepredtobed:        377-h516baf0_3             bioconda   
+    ucsc-genepredtogtf:        377-h516baf0_3             bioconda   
+    ucsc-gff3togenepred:       377-h516baf0_1             bioconda   
+    ucsc-gtftogenepred:        377-h516baf0_3             bioconda   
+    urllib3:                   1.26.6-pyhd8ed1ab_0        conda-forge
+    weeder:                    2.0-hb280591_5             bioconda   
+    wheel:                     0.37.0-pyhd8ed1ab_1        conda-forge
+    xdg:                       5.1.1-pyhd8ed1ab_0         conda-forge
+    xgboost:                   1.4.0-py39h0f1f8f7_0       conda-forge
+    xxhash:                    0.8.0-h35c211d_3           conda-forge
+    xxmotif:                   1.6-0                      bioconda   
+    xz:                        5.2.5-haf1e3a3_1           conda-forge
+    yaml:                      0.2.5-haf1e3a3_0           conda-forge
+    zict:                      2.0.0-py_0                 conda-forge
+    zlib:                      1.2.11-h7795811_1010       conda-forge
+    zstd:                      1.5.0-h582d3a0_0           conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... 
+Trawler is installed.
+
+Use the following command to run Trawler:
+
+    trawler
+
+
+done
+export PREFIX=/Users/runner/conda/conda-bld/ananse_1630957075857/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/ananse_1630957075857/test_tmp
+import: 'ananse'
+import: 'ananse'
+usage: ananse [-h] <command> [options]
+
+ANANSE: ANalysis Algorithm for Networks Specified by Enhancers
+
+positional arguments:
+  {binding,network,influence,view}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -v, --version         show program's version number and exit
+
+    commands:
+        binding     predict TF binding sites in cis-regulatory region
+        network     infer gene regulatory network
+        influence   prioritize transcription factors
+        view        view binding file
+    
+usage: ananse [-h] <command> [options] binding [-A BAM [BAM ...]]
+                                               [-H BAM [BAM ...]] [-o]
+                                               [-R PATH] [-r  [...]]
+                                               [-g GENOME] [-d] [-p]
+                                               [-f [TF ...]] [-n NCPUS]
+                                               [--pfmscorefile] [-h]
+
+Required arguments:
+  -A BAM [BAM ...], --atac-bams BAM [BAM ...]
+                        ATAC-seq input BAM file(s), can be used alone or in
+                        combination with the -H option
+  -H BAM [BAM ...], --histone-bams BAM [BAM ...]
+                        H3K27ac ChIP-seq input BAM file(s), can be used alone
+                        or in combibation with the -A option
+
+Optional arguments:
+  -o , --outdir         Directory where you wish to store the output (default:
+                        ./ANANSE_binding)
+  -R PATH, --reference PATH
+                        Path to reference data directory
+  -r  [ ...], --regionfiles  [ ...]
+                        One or more BED format files with putative enhancer
+                        regions (e.g. BED, narrowPeak, broadPeak)
+  -g GENOME, --genome GENOME
+                        Genome name, as managed by genomepy, or path to the
+                        genome FASTA used to align the bams and peaks to
+  -d , --dist-func      bam reads are normalized to the selected distribution
+                        (default: an empirical distribution)
+  -p , --pfmfile        PFM file of the transcription factors to search for
+                        (default gimme.vertebrate.v5.0)
+  -f [TF ...], --factors [TF ...]
+                        Transcription factors to use. Either a space-separated
+                        list or a file with one TF per line.
+  -n NCPUS, --ncpus NCPUS
+                        Number of processes to use for motif scanning
+  --pfmscorefile        use precomputed gimmemotifs scores (gimme scan -T -g
+                        GENOME INPUTFILE)
+  -h, --help            show this help message and exit
+usage: ananse [-h] <command> [options] network -b FILE -e FILE [FILE ...] -o
+                                               FILE [-g NAME] [-a BED]
+                                               [-n NCORE] [--include-promoter]
+                                               [--include-enhancer] [-h]
+
+required arguments:
+  -b FILE, --binding FILE
+                        TF binding prediction file (from ananse binding).
+  -e FILE [FILE ...], --expression FILE [FILE ...]
+                        Gene-level expression expression levels. The gene name
+                        (HGNC symbol in case of human) should be present in
+                        the first column and there should be a column named
+                        tpm. This file can be created by summarizing
+                        transcript-level TPMs (the quant.sf from salmon or the
+                        abundances.tsv from kallisto) to gene-level TPMs with
+                        tximeta.
+  -o FILE, --outfile FILE
+                        Name of output file
+
+optional arguments:
+  -g NAME, --genome NAME
+                        Genome (genomepy name or FASTA file).
+  -a BED, --annotation BED
+                        Gene annotation in BED12 format. Not necessary if you
+                        use a genome that was installed using genomepy with
+                        the --annotation flag.
+  -n NCORE, --ncore NCORE
+                        Number of core used.
+  --include-promoter, --exclude-promoter
+                        Include or exclude promoter peaks (<= TSS +/- 2kb) in
+                        network inference. By default promoter peaks are
+                        included.
+  --include-enhancer, --exclude-enhancer
+                        Include or exclude enhancer peaks (> TSS +/- 2kb) in
+                        network inference. By default enhancer peaks are
+                        included.
+  -h, --help            show this help message and exit
+usage: ananse [-h] <command> [options] influence -t FILE -d FILE -o FILE
+                                                 [-s FILE] [-i EDGES] [-p]
+                                                 [-n NCORE] [-h]
+
+required arguments:
+  -t FILE, --target FILE
+                        Network of target cell type.
+  -d FILE, --degenes FILE
+                        File with differential gene expression (DEseq2 output
+                        file).
+  -o FILE, --outfile FILE
+                        Output file.
+
+optional arguments:
+  -s FILE, --source FILE
+                        Network of source cell type.
+  -i EDGES, --edges EDGES
+                        Number of top edges used (default is 100,000).
+  -p, --plot            Create influence score plot.
+  -n NCORE, --ncore NCORE
+                        Number of cores to use.
+  -h, --help            show this help message and exit
+
+Resource usage statistics from testing ananse:
+   Process count: 5
+   CPU time: Sys=0:00:03.6, User=0:00:10.5
+   Memory: 229.4M
+   Disk usage: 20B
+   Time elapsed: 0:01:08.1
+
+
+TEST END: ananse-0.3.0-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
