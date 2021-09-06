@@ -1,0 +1,83 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + log4cpp          1.1.3  h9c3ff4c_1002  /home/vsts/conda/conda-bld/linux-64     259 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 259 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: log4cpp-1.1.3-h9c3ff4c_1002.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/log4cpp_1630916640367/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge     conda-forge
+    _openmp_mutex: 4.5-1_gnu           conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8   conda-forge
+    libgomp:       11.1.0-hc902ee8_8   conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8   conda-forge
+    log4cpp:       1.1.3-h9c3ff4c_1002 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/log4cpp_1630916640367/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/log4cpp_1630916640367/test_tmp
+All available options:
+  --prefix=DIR and   change $prefix and $exec-prefix
+  --exec-prefix=DIR  (affects all other options)
+  --prefix           $prefix        $PREFIX
+  --exec_prefix  or... 
+  --eprefix          $exec_prefix   $PREFIX
+  --version          $version        1.1
+  --cflags           -I$includedir  unless it is /usr/include
+  --libs             -L$libdir $LIBS  -llog4cpp  
+  --package          $package       log4cpp
+  --bindir           $bindir        $PREFIX/bin
+  --sbindir          $sbindir       $PREFIX/sbin
+  --libexecdir       $libexecdir    $PREFIX/libexec
+  --datadir          $datadir       $PREFIX/share
+  --sysconfdir       $sysconfdir    $PREFIX/etc
+  --sharedstatedir   $sharedstatedir$PREFIX/com
+  --localstatedir    $localstatedir $PREFIX/var
+  --libdir           $libdir        $PREFIX/lib
+  --infodir          $infodir       $PREFIX/share/info
+  --mandir           $mandir        $PREFIX/share/man
+  --target           $target        
+  --host             $host          x86_64-conda-linux-gnu
+  --build            $build         x86_64-conda-linux-gnu
+  --pkgdatadir       $datadir/$package    $PREFIX/share/log4cpp
+  --pkglibdir        $libdir/$package     $PREFIX/lib/log4cpp
+  --pkgincludedir    $includedir/$package $PREFIX/include/log4cpp
+  --template-version $template_version     1.0.0
+  --help
+
+Resource usage statistics from testing log4cpp:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: log4cpp-1.1.3-h9c3ff4c_1002.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
