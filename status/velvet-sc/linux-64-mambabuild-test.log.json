@@ -1,0 +1,137 @@
+  Package          Version  Build             Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge       conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu             conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + perl            5.32.1  0_h7f98852_perl5  conda-forge/linux-64                     14 MB
+  + velvet-sc       0.7.62  h5bf99c6_4        /home/vsts/conda/conda-bld/linux-64     144 KB
+  + zlib            1.2.11  h516909a_1010     conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 15 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: velvet-sc-0.7.62-h5bf99c6_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/velvet-sc_1630886641307/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge         conda-forge
+    _openmp_mutex: 4.5-1_gnu               conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8       conda-forge
+    libgomp:       11.1.0-hc902ee8_8       conda-forge
+    perl:          5.32.1-0_h7f98852_perl5 conda-forge
+    velvet-sc:     0.7.62-h5bf99c6_4       local      
+    zlib:          1.2.11-h516909a_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/velvet-sc_1630886641307/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/velvet-sc_1630886641307/test_tmp
+Usage:
+./velvetg directory [options]
+
+	directory			: working directory name
+
+Standard options:
+	-cov_cutoff <floating-point|auto>	: removal of low coverage nodes AFTER tour bus or allow the system to infer it
+		(default: no removal)
+	-ins_length <integer>		: expected distance between two paired end reads (default: no read pairing)
+	-read_trkg <yes|no>		: tracking of short read positions in assembly (default: no tracking)
+	-min_contig_lgth <integer>	: minimum contig length exported to contigs.fa file (default: hash length * 2)
+	-amos_file <yes|no>		: export assembly to AMOS file (default: no export)
+	-exp_cov <floating point|auto>	: expected coverage of unique regions or allow the system to infer it
+		(default: no long or paired-end read resolution)
+
+Advanced options:
+	-ins_length2 <integer>		: expected distance between two paired-end reads in the second short-read dataset (default: no read pairing)
+	-ins_length_long <integer>	: expected distance between two long paired-end reads (default: no read pairing)
+	-ins_length*_sd <integer>	: est. standard deviation of respective dataset (default: 10% of corresponding length)
+		[replace '*' by nothing, '2' or '_long' as necessary]
+	-scaffolding <yes|no>		: scaffolding of contigs used paired end information (default: on)
+	-max_branch_length <integer>	: maximum length in base pair of bubble (default: 100)
+	-max_divergence <floating-point>: maximum divergence rate between two branches in a bubble (default: 0.2)
+	-max_gap_count <integer>	: maximum number of gaps allowed in the alignment of the two branches of a bubble (default: 3)
+	-min_pair_count <integer>	: minimum number of paired end connections to justify the scaffolding of two long contigs (default: 10)
+	-max_coverage <floating point>	: removal of high coverage nodes AFTER tour bus (default: no removal)
+	-long_mult_cutoff <int>		: minimum number of long reads required to merge contigs (default: 2)
+	-unused_reads <yes|no>		: export unused reads in UnusedReads.fa file (default: no)
+
+Output:
+	directory/contigs.fa		: fasta file of contigs longer than twice hash length
+	directory/stats.txt		: stats file (tab-spaced) useful for determining appropriate coverage cutoff
+	directory/LastGraph		: special formatted file with all the information on the final graph
+	directory/velvet_asm.afg	: (if requested) AMOS compatible assembly file
+velveth - simple hashing program
+Version 0.7.62
+
+Copyright 2007, 2008 Daniel Zerbino (zerbino@ebi.ac.uk)
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Compilation settings:
+CATEGORIES = 4
+MAXKMERLENGTH = 64
+
+Usage:
+./velveth directory hash_length {[-file_format][-read_type] filename} [options]
+
+	directory		: directory name for output files
+	hash_length		: odd integer (if even, it will be decremented) <= 64 (if above, will be reduced)
+	filename		: path to sequence file or - for standard input
+
+File format options:
+	-fasta
+	-fastq
+	-fasta.gz
+	-fastq.gz
+	-sam
+	-bam
+	-eland
+	-gerald
+
+Read type options:
+	-short
+	-shortPaired
+	-short2
+	-shortPaired2
+	-long
+	-longPaired
+
+Options:
+	-strand_specific	: for strand specific transcriptome sequencing data (default: off)
+
+Output:
+	directory/Roadmaps
+	directory/Sequences
+		[Both files are picked up by graph, so please leave them there]
+Usage: $PREFIX/bin/shuffleSequences_fasta.pl forward_reads.fa reverse_reaads.fa outfile.fa
+	forward_reads.fa / reverse_reads.fa : paired reads to be merged
+	outfile.fa : outfile to be created
+
+Resource usage statistics from testing velvet-sc:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: velvet-sc-0.7.62-h5bf99c6_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
