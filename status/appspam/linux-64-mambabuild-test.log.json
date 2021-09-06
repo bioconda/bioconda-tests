@@ -1,0 +1,113 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + appspam           1.03  h7d875b9_1   /home/vsts/conda/conda-bld/linux-64       2 MB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 2 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: appspam-1.03-h7d875b9_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/appspam_1630948089227/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    appspam:       1.03-h7d875b9_1   local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/appspam_1630948089227/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/appspam_1630948089227/test_tmp
+------------------------------------------------
+ Alignment-free phylogenetic placement algorithm
+           based on spaced word matches         
+------------------------------------------------
+
+
+Execute appspam with:
+	./appspam -s <references> -t <tree> -q <queries> [optional parameters]
+------------------------------------------------------------
+A typical call might look like:
+	./appspam -h
+	./appspam -s references.fasta -q query.fasta -t tree.nwk
+	./appspam -s references.fasta -q query.fasta -t tree.nwk -d 10 -w 8
+
+The following parameters are necessary:
+    -s 	Reference sequences.
+        Full path to fasta file with references.
+    -q 	Query sequences.
+        Full path to fasta file with query sequences.
+    -t	Reference tree.
+        File of reference tree in newick format.
+        (Rooted, bifurcating tree in newick format.
+        All leaves must have identical names to reference sequences.)
+
+The following parameters are optional.
+    -o  --out_jplace        Path and name to JPlace output file.
+
+    -w  --weight            Weight of pattern.
+
+    -d  --dontCare          Number of don't care positions.
+
+    -m  --mode              Placement-mode.
+                            One of [MINDIST, SPAMCOUNT, LCADIST, LCACOUNT, SPAMX]
+
+    -x  --spamx             Threshold when to place at leaves for SPAMX.
+
+    -u  --unassembled       Use unassembled references, 
+                            see github repository for more information.
+
+        --delimiter         Delimiter used for unassembled references.
+		
+    -p  --pattern           Number of patterns.
+
+        --threads           Number of threads.
+
+        --sampling          Experimental: Samples the spaced word matches.
+
+    -b  --readBlockSize     Read block size.
+
+        --threshold         Threshold used for filtering spaced word matches. 
+
+Following additional flags exist:
+    -h                      Print out help and exit.
+    -v                      Turn on verbose mode with additional 
+	                        information printed to std_out.
+        --write-scores      Write all query-reference distances to files.
+        --write-histogram   Write scores for all spaced word matches to file.
+
+
+Resource usage statistics from testing appspam:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: appspam-1.03-h7d875b9_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,72 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + lca               0.21  h9a82719_1     /home/vsts/conda/conda-bld/linux-64      61 KB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 61 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: lca-0.21-h9a82719_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/lca_1630947877381/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    lca:           0.21-h9a82719_1      local      
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/lca_1630947877381/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/lca_1630947877381/test_tmp
+LCA help
+Usage: ./LCA [[ optional_args ]] -i [blast m8 output] -r [taxonomy database] -o [output file]
+Required arguments:
+  -i mapping assignments of sequences to ref database in blast .m8 tab delimited format
+  -r taxonomy file with entries corresponding to sequences in ref database, that was mapped against
+  -o output file containing the sequence name and the assigned taxonomy against the ref database
+Optional arguments:
+  -matHigh       calculate abundance of reads at different taxonomic levels. An extra file (derriving from -o) per tax level is written
+  -showHitRead   if a hit can be uniquely assigned to a single entry in the ref database, this is reported in the -o file.
+  -no_bl_filter  use only, if custom scripts were used to pre-filter filter -i file and in-built filter should be deactivated
+  -readInput     [miTag / OTU] changes the tags attached to single reads
+  -LCAfrac       [0-1] the fraction of matching taxonomies required to accept this taxonomy on the different levels. Default="0.8"
+  -id            comma seperated list of min %identity, to accept a database hit as applicable to this taxonomic level, starting from Species and going to Kingdom. Default="97,95,93,91,88,78,0"
+  -cover         [0-1] fraction of query coverage required to accept a hit. Default=0.5
+
+
+Resource usage statistics from testing lca:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: lca-0.21-h9a82719_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

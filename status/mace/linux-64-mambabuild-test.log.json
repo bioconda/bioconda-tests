@@ -1,0 +1,155 @@
+  Package                 Version  Build                  Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge            conda-forge/linux-64                     Cached
+  + _openmp_mutex             4.5  1_gnu                  conda-forge/linux-64                     Cached
+  + bx-python               0.8.9  py27h54ae540_2         bioconda/linux-64                       1021 KB
+  + ca-certificates     2021.5.30  ha878542_0             conda-forge/linux-64                     Cached
+  + certifi            2019.11.28  py27h8c360ce_1         conda-forge/linux-64                     149 KB
+  + gsl                       2.6  he838d99_2             conda-forge/linux-64                       3 MB
+  + ld_impl_linux-64       2.36.1  hea4e1c9_2             conda-forge/linux-64                     Cached
+  + libblas                 3.9.0  11_linux64_openblas    conda-forge/linux-64                      12 KB
+  + libcblas                3.9.0  11_linux64_openblas    conda-forge/linux-64                      11 KB
+  + libffi                  3.2.1  he1b5a44_1007          conda-forge/linux-64                      47 KB
+  + libgcc-ng              11.1.0  hc902ee8_8             conda-forge/linux-64                     Cached
+  + libgfortran-ng         11.1.0  h69a702a_8             conda-forge/linux-64                      19 KB
+  + libgfortran5           11.1.0  h6c583b3_8             conda-forge/linux-64                       2 MB
+  + libgomp                11.1.0  hc902ee8_8             conda-forge/linux-64                     Cached
+  + liblapack               3.9.0  11_linux64_openblas    conda-forge/linux-64                      11 KB
+  + libopenblas            0.3.17  pthreads_h8fe5266_1    conda-forge/linux-64                       9 MB
+  + libpng                 1.6.37  h21135ba_2             conda-forge/linux-64                     306 KB
+  + libstdcxx-ng           11.1.0  h56837e0_8             conda-forge/linux-64                     Cached
+  + libuuid                2.32.1  h7f98852_1000          conda-forge/linux-64                      28 KB
+  + lzo                      2.10  h516909a_1000          conda-forge/linux-64                     Cached
+  + mace                      1.2  py27hdeff1b7_3         /home/vsts/conda/conda-bld/linux-64        2 MB
+  + mysql-connector-c      6.1.11  h6eb9d5d_1007          conda-forge/linux-64                       3 MB
+  + ncurses                   6.2  h58526e2_4             conda-forge/linux-64                     Cached
+  + numpy                  1.16.5  py27h95a1406_0         conda-forge/linux-64                       4 MB
+  + openssl                1.1.1l  h7f98852_0             conda-forge/linux-64                     Cached
+  + pip                    20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python                 2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                      12 MB
+  + python-lzo               1.12  py27h42e1302_1001      conda-forge/linux-64                      18 KB
+  + python_abi                2.7  1_cp27mu               conda-forge/linux-64                       4 KB
+  + readline                  8.1  h46c0cb4_0             conda-forge/linux-64                     Cached
+  + setuptools             44.0.0  py27_0                 conda-forge/linux-64                     663 KB
+  + six                    1.16.0  pyh6c4a22f_0           conda-forge/noarch                       Cached
+  + sqlite                 3.36.0  h9cd32fc_0             conda-forge/linux-64                     Cached
+  + tk                     8.6.11  h27826a3_1             conda-forge/linux-64                     Cached
+  + ucsc-wigtobigwig          377  h0b8a92a_2             bioconda/linux-64                        155 KB
+  + wheel                  0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                   1.2.11  h516909a_1010          conda-forge/linux-64                     Cached
+
+  Summary:
+
+  Install: 37 packages
+
+  Total download: 38 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mace-1.2-py27hdeff1b7_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mace_1630947949979/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:     0.1-conda_forge              conda-forge
+    _openmp_mutex:     4.5-1_gnu                    conda-forge
+    bx-python:         0.8.9-py27h54ae540_2         bioconda   
+    ca-certificates:   2021.5.30-ha878542_0         conda-forge
+    certifi:           2019.11.28-py27h8c360ce_1    conda-forge
+    gsl:               2.6-he838d99_2               conda-forge
+    ld_impl_linux-64:  2.36.1-hea4e1c9_2            conda-forge
+    libblas:           3.9.0-11_linux64_openblas    conda-forge
+    libcblas:          3.9.0-11_linux64_openblas    conda-forge
+    libffi:            3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:         11.1.0-hc902ee8_8            conda-forge
+    libgfortran-ng:    11.1.0-h69a702a_8            conda-forge
+    libgfortran5:      11.1.0-h6c583b3_8            conda-forge
+    libgomp:           11.1.0-hc902ee8_8            conda-forge
+    liblapack:         3.9.0-11_linux64_openblas    conda-forge
+    libopenblas:       0.3.17-pthreads_h8fe5266_1   conda-forge
+    libpng:            1.6.37-h21135ba_2            conda-forge
+    libstdcxx-ng:      11.1.0-h56837e0_8            conda-forge
+    libuuid:           2.32.1-h7f98852_1000         conda-forge
+    lzo:               2.10-h516909a_1000           conda-forge
+    mace:              1.2-py27hdeff1b7_3           local      
+    mysql-connector-c: 6.1.11-h6eb9d5d_1007         conda-forge
+    ncurses:           6.2-h58526e2_4               conda-forge
+    numpy:             1.16.5-py27h95a1406_0        conda-forge
+    openssl:           1.1.1l-h7f98852_0            conda-forge
+    pip:               20.1.1-pyh9f0ad1d_0          conda-forge
+    python:            2.7.15-h5a48372_1011_cpython conda-forge
+    python-lzo:        1.12-py27h42e1302_1001       conda-forge
+    python_abi:        2.7-1_cp27mu                 conda-forge
+    readline:          8.1-h46c0cb4_0               conda-forge
+    setuptools:        44.0.0-py27_0                conda-forge
+    six:               1.16.0-pyh6c4a22f_0          conda-forge
+    sqlite:            3.36.0-h9cd32fc_0            conda-forge
+    tk:                8.6.11-h27826a3_1            conda-forge
+    ucsc-wigtobigwig:  377-h0b8a92a_2               bioconda   
+    wheel:             0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:              1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/mace_1630947949979/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/mace_1630947949979/test_tmp
+Usage: mace.py [options]
+
+Options:
+  --version             show program's version number and exit
+  -h, --help            show this help message and exit
+  -f FORWARD_BW, --forward=FORWARD_BW
+                        BigWig format file containing coverage calcualted from
+                        reads mapped to *forward* strand.
+  -r REVERSE_BW, --reverse=REVERSE_BW
+                        BigWig format file containing coverage calcualted from
+                        reads mapped to *reverse* strand.
+  -s CHROMSIZE, --chromSize=CHROMSIZE
+                        Chromosome size file. Tab or space separated text file
+                        with 2 columns: first column contains chromosome name,
+                        second column contains chromosome size. Example:chr1
+                        249250621 <NewLine> chr2        243199373 <NewLine>
+                        chr3        198022430 <NewLine> ...
+  -o OUTPUT_PREFIX, --out-prefix=OUTPUT_PREFIX
+                        Prefix of output files. NOTE: if 'prefix.border.bed'
+                        exists and was non-empty, peak calling step will be
+                        skipped! So if you want to rerun mace.py from scratch,
+                        use different 'prefix' or delete old
+                        'prefix.border.bed' before starting.
+  -p PVALUE_CUTOFF, --pvalue=PVALUE_CUTOFF
+                        Pvalue cutoff for border detection and subsequent
+                        border pairing. default=0.05
+  -m MAX_DISTANCE, --max-dist=MAX_DISTANCE
+                        Maximum distance allowed for border pairing.
+                        default=100
+  -e FUZZY_SIZE, --fz-window=FUZZY_SIZE
+                        Peaks located closely within this window will be
+                        merged. default=5 (bp)
+  -w WINDOW_SIZE, --bg-window=WINDOW_SIZE
+                        Background window size used to determine background
+                        signal level. default=100 (bp)
+  -n SIGNAL_FOLD, --fold=SIGNAL_FOLD
+                        Minmum coverage signal used to build model (i.e.
+                        estimate optimal peak pair size). default=2.0
+
+Resource usage statistics from testing mace:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: mace-1.2-py27hdeff1b7_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
