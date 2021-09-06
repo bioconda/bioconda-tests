@@ -1,0 +1,83 @@
+  Package     Version  Build       Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx     12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+  + qgrs-cpp      1.0  h589c0e0_1  /Users/runner/conda/conda-bld/osx-64      59 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 59 KB
+
+────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: qgrs-cpp-1.0-h589c0e0_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/qgrs-cpp_1630895041258/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:   12.0.1-habf9029_0 conda-forge
+    qgrs-cpp: 1.0-h589c0e0_1    local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/qgrs-cpp_1630895041258/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/qgrs-cpp_1630895041258/test_tmp
+-----------------------------------------------------------------------------------------------------------
+ Command line options
+-----------------------------------------------------------------------------------------------------------
+-h                    help (this)
+-csv                  output in csv mode
+-json                 output in JSON mode
+-i [input filename]   read input from a file as specified (defaults to stdin)
+-o [output filename]  write output to file as specified (defaults to stdout)
+-t [n]                filter output to QGRS with number tetrads equal to or greater than n (defaults to 2)
+-s [n]                filter output to QGRS with g-score equal to or greater than n (defaults to 17)
+-g [c]                replace all G characters within tetrads with given character.
+-v                    include overlapping QGRS in output (very large outputs may be generated)
+-notitle              omit column titles in output (does not apply to JSON)
+
+-----------------------------------------------------------------------------------------------------------
+ Output (default or csv)
+-----------------------------------------------------------------------------------------------------------
+Column 1 - ID (order found in sequence).  x.y where x is the primary id, and y is number assigned overlaps.  
+           For example, all QGRS listed as 2.y overlap QGRS listed with ID 2 - where 2 is the QGRS resulting
+           in the highest G-Score in the group.
+Column 2 - Position of the start of the first tetrad (relative to beginning of input sequence)
+Column 3 - Position of the start of the second tetrad (relative to beginning of input sequence)
+Column 4 - Position of the start of the third tetrad (relative to beginning of input sequence)
+Column 5 - Position of the start of the fourth tetrad (relative to beginning of input sequence)
+Column 6 - Number of tetrads
+Column 7 - G-Score
+Column 8 - Sequence
+
+-----------------------------------------------------------------------------------------------------------
+ Manual sequence entry)
+-----------------------------------------------------------------------------------------------------------
+When you run this program without the -i option, the sequence must be entered via stdin.  Unless you are piping 
+in file contents, you will need to actually copy/paste or type the sequence data.  The program expects an EOF
+signal at the end of the sequence - which will signal that it has received all input.  On the keyboard, type 
+Ctrl+D to enter the EOF signal!
+-----------------------------------------------------------------------------------------------------------
+
+Resource usage statistics from testing qgrs-cpp:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: qgrs-cpp-1.0-h589c0e0_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
