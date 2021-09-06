@@ -1,0 +1,122 @@
+  Package                        Version  Build        Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                    0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex                    4.5  1_gnu        conda-forge/linux-64                    Cached
+  + libgcc-ng                     11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp                       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng                  11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+  + mapping-iterative-assembler      1.0  h1b792b2_2   /home/vsts/conda/conda-bld/linux-64      90 KB
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 90 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: mapping-iterative-assembler-1.0-h1b792b2_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/mapping-iterative-assembler_1630946226789/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:               0.1-conda_forge   conda-forge
+    _openmp_mutex:               4.5-1_gnu         conda-forge
+    libgcc-ng:                   11.1.0-hc902ee8_8 conda-forge
+    libgomp:                     11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:                11.1.0-h56837e0_8 conda-forge
+    mapping-iterative-assembler: 1.0-h1b792b2_2    local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/mapping-iterative-assembler_1630946226789/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/mapping-iterative-assembler_1630946226789/test_tmp
+
+
+MIA -- Mapping Iterativ Assembler V 1.0
+       A tool for creating short read assemblies.
+
+Copyright Richard E. Green, Michael Siebauer 2008-2009
+Report bugs to <green@eva.mpg.de>.
+===============================+++++++++++++==
+
+Usage:
+mia -r <reference sequence>
+    -f <fasta or fastq file of fragments to align>
+    -s <substitution matrix file> (if not supplied an default matrix is used)
+    -m <root file name for maln output file(s)> (assembly.maln.iter)
+    
+FILTER parameters:
+    -u fasta database has repeat sequences, keep one based on alignment score
+    -U fasta database has repeat sequences, keep one based on sum of q-scores
+    -C<tolerance> collapse sequences with same start, end, strand info into a single sequence
+       Allow <tolerance> bases difference for start and end coordinates
+       Important: keep NO SPACE between parameter and value: e.g. -C3
+    -A use adapter presence and coordinate information to more aggressively
+       remove repeat sequences - suitable only for 454 sequences that have not
+       already been adapter trimmed
+    -T fasta database has adapters, trim these
+    -a <adapter sequence or code>
+    -k <use kmer filter with kmers of this length>
+    -I <filename of list of sequence IDs to use, ignoring all others>
+    
+ALIGNMENT parameters:
+    -p <consensus calling code; default = 1>
+    -c means reference/assembly is circular
+    -i iterate assembly until convergence (default)
+    -n do not iterate assembly until convergence
+    -F <only output the FINAL assembly, not each iteration>
+    -D <distantly related reference sequence>
+    -h give special discount for homopolymer gaps
+    -M <use lower-case soft-masking of kmers>
+    -H <do not do dynamic score cutoff, instead use this Hard score cutoff>
+    -S <slope of length/score cutoff line>
+    -N <intercept of length/score cutoff line>
+The default substitution matrix used the following parameters:
+  MATCH=200, MISMATCH=-600, N=-100 for all positions
+The procedure for removing bad-scoring alignments from the assembly is:
+Default: fit a line to length versus score and remove reads that are
+less that SCORE_CUTOFF_BUFFER than the average score for its length.
+If -H is specified then this hard score cutoff is applied to all reads.
+This is preferable if all reads are the same length.
+If -S or -N are specified, then these are used as the slope and intercept
+of a length/score line. Reads must score above this line to be included.
+If only one of -S or -N is specified then the default values are used for
+the other (default S = 200.0; default N = 0.0)
+The kmer filter requires that a sequence fragment have at least one
+kmer of the specified length in common with the reference sequence in
+order to align it. For 36nt Solexa data, a value of 12 works well.
+The -p option specifies how the new consensus assembly sequence is called
+at each iteration:
+1 => Any base whose aggregate score is MIN_SC_DIFF_CONS better than all
+      others is the assembly base. If none is, then N is the assembly base.
+2 => The best scoring base whose aggregate score is better than MIN_SCORE_CONS
+     is the assembly base. If none is, then N is the assembly base.
+If -T is specified, mia will attempt to find and trim adapters on
+each sequence. The adapter sequence itself can be specified by a
+one letter code as argument to -a. N or n => Neandertal adapter
+                  any other single letter => Standard GS FLX adapter
+              sequence (less than 127 nt) => user-specified adapter
+Usage: ccheck [-r <ref.fa>] [-a] [-t] [-s M-N] [-v] <aln.maln> 
+
+Resource usage statistics from testing mapping-iterative-assembler:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: mapping-iterative-assembler-1.0-h1b792b2_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
