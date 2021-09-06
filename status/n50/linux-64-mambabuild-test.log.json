@@ -1,0 +1,86 @@
+  Package                    Version  Build             Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                0.1  conda_forge       conda-forge/linux-64                    Cached
+  + _openmp_mutex                4.5  1_gnu             conda-forge/linux-64                    Cached
+  + libgcc-ng                 11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libgomp                   11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + n50                        1.4.1  pl5262hdfd78af_0  /home/vsts/conda/conda-bld/linux-64      22 KB
+  + perl                      5.26.2  h36c2ea0_1008     conda-forge/linux-64                    Cached
+  + perl-capture-tiny           0.48  pl526_0           bioconda/linux-64                       Cached
+  + perl-carp                   1.38  pl526_3           bioconda/linux-64                       Cached
+  + perl-encode                 2.88  pl526_1           bioconda/linux-64                       Cached
+  + perl-exporter               5.72  pl526_1           bioconda/linux-64                       Cached
+  + perl-extutils-makemaker     7.36  pl526_1           bioconda/linux-64                       Cached
+  + perl-fastx-reader          1.1.0  pl5262hdfd78af_0  bioconda/noarch                          23 KB
+  + perl-file-which             1.23  pl526_0           bioconda/linux-64                       Cached
+  + perl-getopt-long            2.50  pl526_1           bioconda/linux-64                       Cached
+  + perl-json-pp                4.04  pl526_0           bioconda/noarch                          30 KB
+  + perl-parent                0.236  pl526_1           bioconda/linux-64                       Cached
+  + perl-pod-escapes            1.07  pl526_1           bioconda/linux-64                       Cached
+  + perl-pod-usage              1.69  pl526_1           bioconda/linux-64                       Cached
+  + perl-test                   1.26  pl526_1           bioconda/linux-64                       Cached
+  + perl-test-harness           3.42  pl526_0           bioconda/linux-64                       Cached
+  + perl-text-asciitable        0.22  pl526_2           bioconda/linux-64                        21 KB
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 96 KB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: n50-1.4.1-pl5262hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/n50_1630930326205/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge        conda-forge
+    _openmp_mutex:           4.5-1_gnu              conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8      conda-forge
+    libgomp:                 11.1.0-hc902ee8_8      conda-forge
+    n50:                     1.4.1-pl5262hdfd78af_0 local      
+    perl:                    5.26.2-h36c2ea0_1008   conda-forge
+    perl-capture-tiny:       0.48-pl526_0           bioconda   
+    perl-carp:               1.38-pl526_3           bioconda   
+    perl-encode:             2.88-pl526_1           bioconda   
+    perl-exporter:           5.72-pl526_1           bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1           bioconda   
+    perl-fastx-reader:       1.1.0-pl5262hdfd78af_0 bioconda   
+    perl-file-which:         1.23-pl526_0           bioconda   
+    perl-getopt-long:        2.50-pl526_1           bioconda   
+    perl-json-pp:            4.04-pl526_0           bioconda   
+    perl-parent:             0.236-pl526_1          bioconda   
+    perl-pod-escapes:        1.07-pl526_1           bioconda   
+    perl-pod-usage:          1.69-pl526_1           bioconda   
+    perl-test:               1.26-pl526_1           bioconda   
+    perl-test-harness:       3.42-pl526_0           bioconda   
+    perl-text-asciitable:    0.22-pl526_2           bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/n50_1630930326205/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/n50_1630930326205/test_tmp
+Calculating N50 of test.fa: 640 [PASS]
+
+Resource usage statistics from testing n50:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: n50-1.4.1-pl5262hdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

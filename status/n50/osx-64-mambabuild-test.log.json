@@ -1,0 +1,78 @@
+  Package                    Version  Build             Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + n50                        1.4.1  pl5262hdfd78af_0  /Users/runner/conda/conda-bld/osx-64      22 KB
+  + perl                      5.26.2  hbcb3906_1008     conda-forge/osx-64                       Cached
+  + perl-capture-tiny           0.48  pl526_0           bioconda/osx-64                          Cached
+  + perl-carp                   1.38  pl526_3           bioconda/osx-64                          Cached
+  + perl-encode                 2.88  pl526_1           bioconda/osx-64                          Cached
+  + perl-exporter               5.72  pl526_1           bioconda/osx-64                          Cached
+  + perl-extutils-makemaker     7.36  pl526_1           bioconda/osx-64                          Cached
+  + perl-fastx-reader          1.1.0  pl5262hdfd78af_0  bioconda/noarch                           23 KB
+  + perl-file-which             1.23  pl526_0           bioconda/osx-64                          Cached
+  + perl-getopt-long            2.50  pl526_1           bioconda/osx-64                          Cached
+  + perl-json-pp                4.04  pl526_0           bioconda/noarch                           30 KB
+  + perl-parent                0.236  pl526_1           bioconda/osx-64                          Cached
+  + perl-pod-escapes            1.07  pl526_1           bioconda/osx-64                          Cached
+  + perl-pod-usage              1.69  pl526_1           bioconda/osx-64                          Cached
+  + perl-test                   1.26  pl526_1           bioconda/osx-64                          Cached
+  + perl-test-harness           3.42  pl526_0           bioconda/osx-64                          Cached
+  + perl-text-asciitable        0.22  pl526_2           bioconda/osx-64                           21 KB
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 96 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: n50-1.4.1-pl5262hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/n50_1630930765820/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    n50:                     1.4.1-pl5262hdfd78af_0 local      
+    perl:                    5.26.2-hbcb3906_1008   conda-forge
+    perl-capture-tiny:       0.48-pl526_0           bioconda   
+    perl-carp:               1.38-pl526_3           bioconda   
+    perl-encode:             2.88-pl526_1           bioconda   
+    perl-exporter:           5.72-pl526_1           bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1           bioconda   
+    perl-fastx-reader:       1.1.0-pl5262hdfd78af_0 bioconda   
+    perl-file-which:         1.23-pl526_0           bioconda   
+    perl-getopt-long:        2.50-pl526_1           bioconda   
+    perl-json-pp:            4.04-pl526_0           bioconda   
+    perl-parent:             0.236-pl526_1          bioconda   
+    perl-pod-escapes:        1.07-pl526_1           bioconda   
+    perl-pod-usage:          1.69-pl526_1           bioconda   
+    perl-test:               1.26-pl526_1           bioconda   
+    perl-test-harness:       3.42-pl526_0           bioconda   
+    perl-text-asciitable:    0.22-pl526_2           bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/n50_1630930765820/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/Users/runner/conda/conda-bld/n50_1630930765820/test_tmp
+Calculating N50 of test.fa: 640 [PASS]
+
+Resource usage statistics from testing n50:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: n50-1.4.1-pl5262hdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
