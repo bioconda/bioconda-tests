@@ -1,0 +1,198 @@
+  Package                 Version  Build               Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu               conda-forge/linux-64                    Cached
+  + appdirs                 1.4.4  pyh9f0ad1d_0        conda-forge/noarch                       13 KB
+  + argparse                1.4.0  py36_0              bioconda/linux-64                        46 KB
+  + brotlipy                0.7.0  py36h8f6f2f9_1001   conda-forge/linux-64                    341 KB
+  + ca-certificates     2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + cerberus                1.3.2  py_0                conda-forge/noarch                       43 KB
+  + certifi             2021.5.30  py36h5fab9bb_0      conda-forge/linux-64                    141 KB
+  + cffi                   1.14.6  py36hc120d54_0      conda-forge/linux-64                    224 KB
+  + chardet                 4.0.0  py36h5fab9bb_1      conda-forge/linux-64                    219 KB
+  + charset-normalizer      2.0.0  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + cryptography            3.4.7  py36hb60f036_0      conda-forge/linux-64                      1 MB
+  + idna                      3.1  pyhd3deb0d_0        conda-forge/noarch                      Cached
+  + irida-uploader          0.6.2  py36hdfd78af_1      /home/vsts/conda/conda-bld/linux-64      89 KB
+  + ld_impl_linux-64       2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                    3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + pip                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pycparser                2.20  pyh9f0ad1d_2        conda-forge/noarch                      Cached
+  + pyopenssl              20.0.1  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pysocks                 1.7.1  py36h5fab9bb_3      conda-forge/linux-64                     27 KB
+  + python                 3.6.13  hffdb5ce_0_cpython  conda-forge/linux-64                     38 MB
+  + python_abi                3.6  2_cp36m             conda-forge/linux-64                      4 KB
+  + rauth                   0.7.3  py_0                conda-forge/noarch                       15 KB
+  + readline                  8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + requests               2.26.0  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + requests-toolbelt       0.9.1  py_0                conda-forge/noarch                       40 KB
+  + setuptools             57.4.0  py36h5fab9bb_0      conda-forge/linux-64                    933 KB
+  + six                    1.16.0  pyh6c4a22f_0        conda-forge/noarch                      Cached
+  + sqlite                 3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + urllib3                1.26.6  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                      5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 39 packages
+
+  Total download: 42 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: irida-uploader-0.6.2-py36hdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/irida-uploader_1630938419402/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:      0.1-conda_forge           conda-forge
+    _openmp_mutex:      4.5-1_gnu                 conda-forge
+    appdirs:            1.4.4-pyh9f0ad1d_0        conda-forge
+    argparse:           1.4.0-py36_0              bioconda   
+    brotlipy:           0.7.0-py36h8f6f2f9_1001   conda-forge
+    ca-certificates:    2021.5.30-ha878542_0      conda-forge
+    cerberus:           1.3.2-py_0                conda-forge
+    certifi:            2021.5.30-py36h5fab9bb_0  conda-forge
+    cffi:               1.14.6-py36hc120d54_0     conda-forge
+    chardet:            4.0.0-py36h5fab9bb_1      conda-forge
+    charset-normalizer: 2.0.0-pyhd8ed1ab_0        conda-forge
+    cryptography:       3.4.7-py36hb60f036_0      conda-forge
+    idna:               3.1-pyhd3deb0d_0          conda-forge
+    irida-uploader:     0.6.2-py36hdfd78af_1      local      
+    ld_impl_linux-64:   2.36.1-hea4e1c9_2         conda-forge
+    libffi:             3.3-h58526e2_2            conda-forge
+    libgcc-ng:          11.1.0-hc902ee8_8         conda-forge
+    libgomp:            11.1.0-hc902ee8_8         conda-forge
+    libstdcxx-ng:       11.1.0-h56837e0_8         conda-forge
+    ncurses:            6.2-h58526e2_4            conda-forge
+    openssl:            1.1.1l-h7f98852_0         conda-forge
+    pip:                21.2.4-pyhd8ed1ab_0       conda-forge
+    pycparser:          2.20-pyh9f0ad1d_2         conda-forge
+    pyopenssl:          20.0.1-pyhd8ed1ab_0       conda-forge
+    pysocks:            1.7.1-py36h5fab9bb_3      conda-forge
+    python:             3.6.13-hffdb5ce_0_cpython conda-forge
+    python_abi:         3.6-2_cp36m               conda-forge
+    rauth:              0.7.3-py_0                conda-forge
+    readline:           8.1-h46c0cb4_0            conda-forge
+    requests:           2.26.0-pyhd8ed1ab_0       conda-forge
+    requests-toolbelt:  0.9.1-py_0                conda-forge
+    setuptools:         57.4.0-py36h5fab9bb_0     conda-forge
+    six:                1.16.0-pyh6c4a22f_0       conda-forge
+    sqlite:             3.36.0-h9cd32fc_0         conda-forge
+    tk:                 8.6.11-h27826a3_1         conda-forge
+    urllib3:            1.26.6-pyhd8ed1ab_0       conda-forge
+    wheel:              0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:                 5.2.5-h516909a_1          conda-forge
+    zlib:               1.2.11-h516909a_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/irida-uploader_1630938419402/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/irida-uploader_1630938419402/test_tmp
+usage: irida-uploader -d DIRECTORY [-h] [--version] [-c CONFIG] [-f] [-p] [-b]
+                                   [-u UPLOAD_MODE] [-ci [CONFIG_CLIENT_ID]]
+                                   [-cs [CONFIG_CLIENT_SECRET]]
+                                   [-cu [CONFIG_USERNAME]]
+                                   [-cp [CONFIG_PASSWORD]]
+                                   [-cb [CONFIG_BASE_URL]]
+                                   [-cr [CONFIG_PARSER]] [-r] [-cd [DELAY]]
+                                   [-ct [CONFIG_TIMEOUT]]
+
+This program parses sequencing runs and uploads them to IRIDA.
+
+required arguments:
+  --d DIRECTORY, --directory DIRECTORY
+                        Location of sequencing run to upload.
+                        Directory must be writable.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+  -c CONFIG, --config CONFIG
+                        Path to an alternative configuration file. This
+                        overrides the default config file in the config
+                        directory
+  -f, --force           Uploader will ignore the status file, and try to
+                        upload even when a run is in non new status.
+  -p, --continue_partial
+                        Uploader will continue an existing upload run when
+                        upload status is partial.
+  -b, --batch           Uploader will expect a directory containing a
+                        sequencing run directories, and upload in batch. The
+                        list of runs is generated at start time (Runs added to
+                        directory mid upload will not be uploaded).
+  -u UPLOAD_MODE, --upload_mode UPLOAD_MODE
+                        Choose which upload mode to use. Supported modes:
+                        ['default', 'assemblies', 'fast5']
+  -ci [CONFIG_CLIENT_ID], --config_client_id [CONFIG_CLIENT_ID]
+                        Override the "client_id" field in config file. This is
+                        for the uploader client created in IRIDA, used to
+                        handle the data upload
+  -cs [CONFIG_CLIENT_SECRET], --config_client_secret [CONFIG_CLIENT_SECRET]
+                        Override "client_secret" in config file. This is for
+                        the uploader client created in IRIDA, used to handle
+                        the data upload
+  -cu [CONFIG_USERNAME], --config_username [CONFIG_USERNAME]
+                        Override "username" in config file. This is your IRIDA
+                        account username.
+  -cp [CONFIG_PASSWORD], --config_password [CONFIG_PASSWORD]
+                        Override "password" in config file. This corresponds
+                        to your IRIDA account.
+  -cb [CONFIG_BASE_URL], --config_base_url [CONFIG_BASE_URL]
+                        Override "base_url" in config file. The api url for
+                        your irida instance (example:
+                        https://my.irida.server/api/)
+  -cr [CONFIG_PARSER], --config_parser [CONFIG_PARSER]
+                        Override "parser" in config file. Choose the type of
+                        sequencer data that is being uploaded. Supported
+                        parsers: ['miseq', 'miseq_v26', 'miseq_v31',
+                        'miseq_win10_jun2021', 'miniseq', 'nextseq',
+                        'nextseq2k_nml', 'iseq', 'directory',
+                        'nanopore_assemblies', 'seqfu']
+  -r, --readonly        Upload in Read Only mode, does not write status or log
+                        file to run directory.
+  -cd [DELAY], --delay [DELAY]
+                        Accepts an Integer for minutes to delay. When set, new
+                        runs will have their status set to delayed. When
+                        uploading a run with the delayed status, the run will
+                        only upload if the given amount of minutes has passes
+                        since it was set to delayed. Default = 0: When set to
+                        0, runs will not be given delayed status.
+  -ct [CONFIG_TIMEOUT], --config_timeout [CONFIG_TIMEOUT]
+                        Accepts an Integer for the expected transfer time in
+                        seconds per MB. Default is 10 second for every MB of
+                        data to transfer (100kb/s). Increasing this number can
+                        reduce timeout errors when your transfer speed is very
+                        slow.
+
+-c* options can be used without a parameter to prompt for input.
+
+Resource usage statistics from testing irida-uploader:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: irida-uploader-0.6.2-py36hdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
