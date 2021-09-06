@@ -1,0 +1,132 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: pyscaf-0.12a4-py27_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpcwsv29kq/info/recipe/conda_build_config.yaml
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + fastaindex            0.11c  py27_2                 bioconda/osx-64                           16 KB
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + openssl              1.1.1l  h0d85af4_0             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + pyscaf               0.12a4  py27_2                 /Users/runner/conda/conda-bld/osx-64      39 KB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 14 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/pyscaf_1630892620903/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    fastaindex:      0.11c-py27_2                 bioconda   
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    openssl:         1.1.1l-h0d85af4_0            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    pyscaf:          0.12a4-py27_2                local      
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python_abi:      2.7-1_cp27m                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    setuptools:      44.0.0-py27_0                conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/pyscaf_1630892620903/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/pyscaf_1630892620903/test_tmp
+usage: pyScaf [-h] -f FASTA [-o OUTPUT] [-t THREADS] [--log LOG]
+              [--dotplot {,png,gif,pdf}] [-r REF] [--identity IDENTITY]
+              [--overlap OVERLAP] [-g MAXGAP] [--norearrangements]
+              [-n LONGREADS [LONGREADS ...]] [-i FASTQ [FASTQ ...]] [-j JOINS]
+              [-a LINKRATIO] [-l LOAD] [-q MAPQ] [--version]
+
+Perform scaffolding of contigs using information from (in this order):
+- paired-end (PE) and/or mate-pair (MP) libraries (!!!NOT IMPLEMENTED YET!!!)
+- long reads
+- synteny to reference genome
+
+More info at: https://github.com/lpryszcz/pyScaf
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FASTA, --fasta FASTA
+                        assembly FASTA file
+  -o OUTPUT, --output OUTPUT
+                        output stream [scaffolds.fa]
+  -t THREADS, --threads THREADS
+                        max no. of threads to run [4]
+  --log LOG             output log to [stderr]
+  --dotplot {,png,gif,pdf}
+                        generate dotplot as [png]
+  --version             show program's version number and exit
+
+Reference-based scaffolding options:
+  -r REF, --ref REF, --reference REF
+                        reference FastA file
+  --identity IDENTITY   min. identity [0.33]
+  --overlap OVERLAP     min. overlap  [0.66]
+  -g MAXGAP, --maxgap MAXGAP
+                        max. distance between adjacent contigs [0.01 * assembly_size]
+  --norearrangements    high identity mode (rearrangements not allowed)
+
+long read-based scaffolding options (EXPERIMENTAL!):
+  -n LONGREADS [LONGREADS ...], --longreads LONGREADS [LONGREADS ...]
+                        FastQ/FastA file(s) with PacBio/ONT reads
+
+NGS-based scaffolding options (!NOT IMPLEMENTED!):
+  -i FASTQ [FASTQ ...], --fastq FASTQ [FASTQ ...]
+                        FASTQ PE/MP files
+  -j JOINS, --joins JOINS
+                        min pairs to join contigs [5]
+  -a LINKRATIO, --linkratio LINKRATIO
+                        max link ratio between two best contig pairs [0.7]
+  -l LOAD, --load LOAD  align subset of reads [0.2]
+  -q MAPQ, --mapq MAPQ  min mapping quality [10]
+
+Author:
+l.p.pryszcz@gmail.com
+
+Warsaw, 12/03/2016
+
+Resource usage statistics from testing pyscaf:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 20.6M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: pyscaf-0.12a4-py27_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
