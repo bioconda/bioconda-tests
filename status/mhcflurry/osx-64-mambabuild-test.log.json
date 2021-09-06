@@ -1,0 +1,982 @@
+  Package                        Version  Build                   Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + abseil-cpp                20210324.0  he49afe7_0              conda-forge/osx-64                       936 KB
+  + absl-py                       0.13.0  pyhd8ed1ab_0            conda-forge/noarch                        97 KB
+  + aiohttp                  3.7.4.post0  py39h89e85a6_0          conda-forge/osx-64                       596 KB
+  + appdirs                        1.4.4  pyh9f0ad1d_0            conda-forge/noarch                        13 KB
+  + astor                          0.8.1  pyh9f0ad1d_0            conda-forge/noarch                        25 KB
+  + astunparse                     1.6.3  pyhd8ed1ab_0            conda-forge/noarch                        15 KB
+  + async-timeout                  3.0.1  py_1000                 conda-forge/noarch                        11 KB
+  + attrs                         21.2.0  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + blinker                          1.4  py_1                    conda-forge/noarch                        13 KB
+  + brotlipy                       0.7.0  py39h89e85a6_1001       conda-forge/osx-64                       Cached
+  + c-ares                        1.17.2  h0d85af4_0              conda-forge/osx-64                       Cached
+  + ca-certificates            2021.5.30  h033912b_0              conda-forge/osx-64                       Cached
+  + cachetools                     4.2.2  pyhd8ed1ab_0            conda-forge/noarch                        12 KB
+  + certifi                    2021.5.30  py39h6e9494a_0          conda-forge/osx-64                       Cached
+  + cffi                          1.14.6  py39hb71fe58_0          conda-forge/osx-64                       Cached
+  + chardet                        4.0.0  py39h6e9494a_1          conda-forge/osx-64                       Cached
+  + charset-normalizer             2.0.0  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + click                          8.0.1  py39h6e9494a_0          conda-forge/osx-64                       146 KB
+  + colorama                       0.4.4  pyh9f0ad1d_0            conda-forge/noarch                       Cached
+  + cryptography                   3.4.7  py39ha2c9959_0          conda-forge/osx-64                       Cached
+  + dataclasses                      0.8  pyhc8e2a94_3            conda-forge/noarch                       Cached
+  + future                        0.18.2  py39h6e9494a_3          conda-forge/osx-64                       Cached
+  + gast                           0.3.3  py_0                    conda-forge/noarch                        12 KB
+  + giflib                         5.2.1  hbcb3906_2              conda-forge/osx-64                        71 KB
+  + google-auth                   1.35.0  pyh6c4a22f_0            conda-forge/noarch                        81 KB
+  + google-auth-oauthlib           0.4.6  pyhd8ed1ab_0            conda-forge/noarch                        19 KB
+  + google-pasta                   0.2.0  pyh8c360ce_0            conda-forge/noarch                        42 KB
+  + grpc-cpp                      1.37.1  h541e7bd_0              conda-forge/osx-64                         3 MB
+  + grpcio                        1.37.1  py39hb974310_0          conda-forge/osx-64                         2 MB
+  + h5py                          2.10.0  nompi_py39h1bb8402_106  conda-forge/osx-64                       941 KB
+  + hdf5                          1.10.6  nompi_hc5d9132_1114     conda-forge/osx-64                         3 MB
+  + icu                             68.1  h74dc148_0              conda-forge/osx-64                       Cached
+  + idna                             3.1  pyhd3deb0d_0            conda-forge/noarch                       Cached
+  + importlib-metadata             4.8.1  py39h6e9494a_0          conda-forge/osx-64                       Cached
+  + joblib                         1.0.1  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + jpeg                              9d  hbcb3906_0              conda-forge/osx-64                       Cached
+  + keras-preprocessing            1.1.2  pyhd8ed1ab_0            conda-forge/noarch                        34 KB
+  + krb5                          1.19.2  hcfbf3a7_0              conda-forge/osx-64                       Cached
+  + libblas                        3.9.0  11_osx64_openblas       conda-forge/osx-64                       Cached
+  + libcblas                       3.9.0  11_osx64_openblas       conda-forge/osx-64                       Cached
+  + libcurl                       7.78.0  hf45b732_0              conda-forge/osx-64                       Cached
+  + libcxx                        12.0.1  habf9029_0              conda-forge/osx-64                       Cached
+  + libedit                 3.1.20191231  h0678c8f_2              conda-forge/osx-64                       Cached
+  + libev                           4.33  haf1e3a3_1              conda-forge/osx-64                       Cached
+  + libffi                           3.3  h046ec9c_2              conda-forge/osx-64                       Cached
+  + libgfortran                    5.0.0  9_3_0_h6c81a4c_23       conda-forge/osx-64                       Cached
+  + libgfortran5                   9.3.0  h6c81a4c_23             conda-forge/osx-64                       Cached
+  + liblapack                      3.9.0  11_osx64_openblas       conda-forge/osx-64                       Cached
+  + libnghttp2                    1.43.0  h07e645a_0              conda-forge/osx-64                       Cached
+  + libopenblas                   0.3.17  openmp_h3351f45_1       conda-forge/osx-64                       Cached
+  + libpng                        1.6.37  h7cec526_2              conda-forge/osx-64                       Cached
+  + libprotobuf                   3.15.8  hcf210ce_0              conda-forge/osx-64                         2 MB
+  + libssh2                       1.10.0  h52ee1ee_0              conda-forge/osx-64                       Cached
+  + llvm-openmp                   12.0.1  hda6cdc1_1              conda-forge/osx-64                       Cached
+  + markdown                       3.3.4  pyhd8ed1ab_0            conda-forge/noarch                        67 KB
+  + mhcflurry                      2.0.1  pyh864c0ab_0            /Users/runner/conda/conda-bld/osx-64      90 KB
+  + mhcnames                       0.4.8  pyh864c0ab_1            bioconda/noarch                           17 KB
+  + multidict                      5.1.0  py39h89e85a6_1          conda-forge/osx-64                        61 KB
+  + ncurses                          6.2  h2e338ed_4              conda-forge/osx-64                       Cached
+  + np_utils                    0.5.12.1  pyh9f0ad1d_0            conda-forge/noarch                        50 KB
+  + numpy                         1.21.2  py39h7eed0ac_0          conda-forge/osx-64                         6 MB
+  + oauthlib                       3.1.1  pyhd8ed1ab_0            conda-forge/noarch                        87 KB
+  + openssl                       1.1.1l  h0d85af4_0              conda-forge/osx-64                       Cached
+  + opt_einsum                     3.3.0  pyhd8ed1ab_1            conda-forge/noarch                        53 KB
+  + pandas                         1.3.2  py39h4d6be9b_0          conda-forge/osx-64                        12 MB
+  + pip                           21.2.4  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + protobuf                      3.15.8  py39h9fcab8e_0          conda-forge/osx-64                       317 KB
+  + pyasn1                         0.4.8  py_0                    conda-forge/noarch                        53 KB
+  + pyasn1-modules                 0.2.7  py_0                    conda-forge/noarch                        60 KB
+  + pycparser                       2.20  pyh9f0ad1d_2            conda-forge/noarch                       Cached
+  + pyjwt                          2.1.0  pyhd8ed1ab_0            conda-forge/noarch                        17 KB
+  + pyopenssl                     20.0.1  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + pysocks                        1.7.1  py39h6e9494a_3          conda-forge/osx-64                       Cached
+  + python                         3.9.7  hd187cdc_0_cpython      conda-forge/osx-64                       Cached
+  + python-dateutil                2.8.2  pyhd8ed1ab_0            conda-forge/noarch                       240 KB
+  + python-flatbuffers              1.12  pyhd8ed1ab_1            conda-forge/noarch                        19 KB
+  + python_abi                       3.9  2_cp39                  conda-forge/osx-64                       Cached
+  + pytz                          2021.1  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + pyu2f                          0.1.5  pyhd8ed1ab_0            conda-forge/noarch                        31 KB
+  + pyyaml                         5.4.1  py39h89e85a6_1          conda-forge/osx-64                       Cached
+  + re2                       2021.04.01  he49afe7_0              conda-forge/osx-64                       190 KB
+  + readline                         8.1  h05e3726_0              conda-forge/osx-64                       Cached
+  + requests                      2.26.0  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + requests-oauthlib              1.3.0  pyh9f0ad1d_0            conda-forge/noarch                        21 KB
+  + rsa                            4.7.2  pyh44b312d_0            conda-forge/noarch                        28 KB
+  + scikit-learn                  0.24.2  py39hd4eea88_1          conda-forge/osx-64                         7 MB
+  + scipy                          1.7.1  py39h056f1c0_0          conda-forge/osx-64                        20 MB
+  + setuptools                    57.4.0  py39h6e9494a_0          conda-forge/osx-64                       Cached
+  + six                           1.16.0  pyh6c4a22f_0            conda-forge/noarch                       Cached
+  + snappy                         1.1.8  hb1e8313_3              conda-forge/osx-64                        29 KB
+  + sqlite                        3.36.0  h23a322b_0              conda-forge/osx-64                       Cached
+  + tensorboard                    2.4.1  pyhd8ed1ab_1            conda-forge/noarch                         9 MB
+  + tensorboard-plugin-wit         1.8.0  pyh44b312d_0            conda-forge/noarch                       670 KB
+  + tensorflow                     2.4.1  py39h6e9494a_0          conda-forge/osx-64                        25 KB
+  + tensorflow-base                2.4.1  py39h9e0eb93_0          conda-forge/osx-64                       116 MB
+  + tensorflow-estimator           2.4.0  pyh9656e83_0            conda-forge/noarch                       289 KB
+  + termcolor                      1.1.0  py_2                    conda-forge/noarch                         6 KB
+  + threadpoolctl                  2.2.0  pyh8a188c0_0            conda-forge/noarch                        16 KB
+  + tk                            8.6.11  h5dbffcc_1              conda-forge/osx-64                       Cached
+  + tqdm                          4.62.2  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + typing-extensions           3.10.0.0  hd8ed1ab_0              conda-forge/noarch                         8 KB
+  + typing_extensions           3.10.0.0  pyha770c72_0            conda-forge/noarch                       Cached
+  + tzdata                         2021a  he74cb21_1              conda-forge/noarch                       Cached
+  + urllib3                       1.26.6  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + werkzeug                       2.0.1  pyhd8ed1ab_0            conda-forge/noarch                       219 KB
+  + wheel                         0.37.0  pyhd8ed1ab_1            conda-forge/noarch                       Cached
+  + wrapt                         1.12.1  py39h89e85a6_3          conda-forge/osx-64                        43 KB
+  + xz                             5.2.5  haf1e3a3_1              conda-forge/osx-64                       Cached
+  + yaml                           0.2.5  haf1e3a3_0              conda-forge/osx-64                       Cached
+  + yarl                           1.6.3  py39h89e85a6_2          conda-forge/osx-64                       132 KB
+  + zipp                           3.5.0  pyhd8ed1ab_0            conda-forge/noarch                       Cached
+  + zlib                          1.2.11  h7795811_1010           conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 112 packages
+
+  Total download: 185 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: mhcflurry-2.0.1-pyh864c0ab_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/mhcflurry_1630899575103/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    abseil-cpp:             20210324.0-he49afe7_0         conda-forge
+    absl-py:                0.13.0-pyhd8ed1ab_0           conda-forge
+    aiohttp:                3.7.4.post0-py39h89e85a6_0    conda-forge
+    appdirs:                1.4.4-pyh9f0ad1d_0            conda-forge
+    astor:                  0.8.1-pyh9f0ad1d_0            conda-forge
+    astunparse:             1.6.3-pyhd8ed1ab_0            conda-forge
+    async-timeout:          3.0.1-py_1000                 conda-forge
+    attrs:                  21.2.0-pyhd8ed1ab_0           conda-forge
+    blinker:                1.4-py_1                      conda-forge
+    brotlipy:               0.7.0-py39h89e85a6_1001       conda-forge
+    c-ares:                 1.17.2-h0d85af4_0             conda-forge
+    ca-certificates:        2021.5.30-h033912b_0          conda-forge
+    cachetools:             4.2.2-pyhd8ed1ab_0            conda-forge
+    certifi:                2021.5.30-py39h6e9494a_0      conda-forge
+    cffi:                   1.14.6-py39hb71fe58_0         conda-forge
+    chardet:                4.0.0-py39h6e9494a_1          conda-forge
+    charset-normalizer:     2.0.0-pyhd8ed1ab_0            conda-forge
+    click:                  8.0.1-py39h6e9494a_0          conda-forge
+    colorama:               0.4.4-pyh9f0ad1d_0            conda-forge
+    cryptography:           3.4.7-py39ha2c9959_0          conda-forge
+    dataclasses:            0.8-pyhc8e2a94_3              conda-forge
+    future:                 0.18.2-py39h6e9494a_3         conda-forge
+    gast:                   0.3.3-py_0                    conda-forge
+    giflib:                 5.2.1-hbcb3906_2              conda-forge
+    google-auth:            1.35.0-pyh6c4a22f_0           conda-forge
+    google-auth-oauthlib:   0.4.6-pyhd8ed1ab_0            conda-forge
+    google-pasta:           0.2.0-pyh8c360ce_0            conda-forge
+    grpc-cpp:               1.37.1-h541e7bd_0             conda-forge
+    grpcio:                 1.37.1-py39hb974310_0         conda-forge
+    h5py:                   2.10.0-nompi_py39h1bb8402_106 conda-forge
+    hdf5:                   1.10.6-nompi_hc5d9132_1114    conda-forge
+    icu:                    68.1-h74dc148_0               conda-forge
+    idna:                   3.1-pyhd3deb0d_0              conda-forge
+    importlib-metadata:     4.8.1-py39h6e9494a_0          conda-forge
+    joblib:                 1.0.1-pyhd8ed1ab_0            conda-forge
+    jpeg:                   9d-hbcb3906_0                 conda-forge
+    keras-preprocessing:    1.1.2-pyhd8ed1ab_0            conda-forge
+    krb5:                   1.19.2-hcfbf3a7_0             conda-forge
+    libblas:                3.9.0-11_osx64_openblas       conda-forge
+    libcblas:               3.9.0-11_osx64_openblas       conda-forge
+    libcurl:                7.78.0-hf45b732_0             conda-forge
+    libcxx:                 12.0.1-habf9029_0             conda-forge
+    libedit:                3.1.20191231-h0678c8f_2       conda-forge
+    libev:                  4.33-haf1e3a3_1               conda-forge
+    libffi:                 3.3-h046ec9c_2                conda-forge
+    libgfortran:            5.0.0-9_3_0_h6c81a4c_23       conda-forge
+    libgfortran5:           9.3.0-h6c81a4c_23             conda-forge
+    liblapack:              3.9.0-11_osx64_openblas       conda-forge
+    libnghttp2:             1.43.0-h07e645a_0             conda-forge
+    libopenblas:            0.3.17-openmp_h3351f45_1      conda-forge
+    libpng:                 1.6.37-h7cec526_2             conda-forge
+    libprotobuf:            3.15.8-hcf210ce_0             conda-forge
+    libssh2:                1.10.0-h52ee1ee_0             conda-forge
+    llvm-openmp:            12.0.1-hda6cdc1_1             conda-forge
+    markdown:               3.3.4-pyhd8ed1ab_0            conda-forge
+    mhcflurry:              2.0.1-pyh864c0ab_0            local      
+    mhcnames:               0.4.8-pyh864c0ab_1            bioconda   
+    multidict:              5.1.0-py39h89e85a6_1          conda-forge
+    ncurses:                6.2-h2e338ed_4                conda-forge
+    np_utils:               0.5.12.1-pyh9f0ad1d_0         conda-forge
+    numpy:                  1.21.2-py39h7eed0ac_0         conda-forge
+    oauthlib:               3.1.1-pyhd8ed1ab_0            conda-forge
+    openssl:                1.1.1l-h0d85af4_0             conda-forge
+    opt_einsum:             3.3.0-pyhd8ed1ab_1            conda-forge
+    pandas:                 1.3.2-py39h4d6be9b_0          conda-forge
+    pip:                    21.2.4-pyhd8ed1ab_0           conda-forge
+    protobuf:               3.15.8-py39h9fcab8e_0         conda-forge
+    pyasn1:                 0.4.8-py_0                    conda-forge
+    pyasn1-modules:         0.2.7-py_0                    conda-forge
+    pycparser:              2.20-pyh9f0ad1d_2             conda-forge
+    pyjwt:                  2.1.0-pyhd8ed1ab_0            conda-forge
+    pyopenssl:              20.0.1-pyhd8ed1ab_0           conda-forge
+    pysocks:                1.7.1-py39h6e9494a_3          conda-forge
+    python:                 3.9.7-hd187cdc_0_cpython      conda-forge
+    python-dateutil:        2.8.2-pyhd8ed1ab_0            conda-forge
+    python-flatbuffers:     1.12-pyhd8ed1ab_1             conda-forge
+    python_abi:             3.9-2_cp39                    conda-forge
+    pytz:                   2021.1-pyhd8ed1ab_0           conda-forge
+    pyu2f:                  0.1.5-pyhd8ed1ab_0            conda-forge
+    pyyaml:                 5.4.1-py39h89e85a6_1          conda-forge
+    re2:                    2021.04.01-he49afe7_0         conda-forge
+    readline:               8.1-h05e3726_0                conda-forge
+    requests:               2.26.0-pyhd8ed1ab_0           conda-forge
+    requests-oauthlib:      1.3.0-pyh9f0ad1d_0            conda-forge
+    rsa:                    4.7.2-pyh44b312d_0            conda-forge
+    scikit-learn:           0.24.2-py39hd4eea88_1         conda-forge
+    scipy:                  1.7.1-py39h056f1c0_0          conda-forge
+    setuptools:             57.4.0-py39h6e9494a_0         conda-forge
+    six:                    1.16.0-pyh6c4a22f_0           conda-forge
+    snappy:                 1.1.8-hb1e8313_3              conda-forge
+    sqlite:                 3.36.0-h23a322b_0             conda-forge
+    tensorboard:            2.4.1-pyhd8ed1ab_1            conda-forge
+    tensorboard-plugin-wit: 1.8.0-pyh44b312d_0            conda-forge
+    tensorflow:             2.4.1-py39h6e9494a_0          conda-forge
+    tensorflow-base:        2.4.1-py39h9e0eb93_0          conda-forge
+    tensorflow-estimator:   2.4.0-pyh9656e83_0            conda-forge
+    termcolor:              1.1.0-py_2                    conda-forge
+    threadpoolctl:          2.2.0-pyh8a188c0_0            conda-forge
+    tk:                     8.6.11-h5dbffcc_1             conda-forge
+    tqdm:                   4.62.2-pyhd8ed1ab_0           conda-forge
+    typing-extensions:      3.10.0.0-hd8ed1ab_0           conda-forge
+    typing_extensions:      3.10.0.0-pyha770c72_0         conda-forge
+    tzdata:                 2021a-he74cb21_1              conda-forge
+    urllib3:                1.26.6-pyhd8ed1ab_0           conda-forge
+    werkzeug:               2.0.1-pyhd8ed1ab_0            conda-forge
+    wheel:                  0.37.0-pyhd8ed1ab_1           conda-forge
+    wrapt:                  1.12.1-py39h89e85a6_3         conda-forge
+    xz:                     5.2.5-haf1e3a3_1              conda-forge
+    yaml:                   0.2.5-haf1e3a3_0              conda-forge
+    yarl:                   1.6.3-py39h89e85a6_2          conda-forge
+    zipp:                   3.5.0-pyhd8ed1ab_0            conda-forge
+    zlib:                   1.2.11-h7795811_1010          conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/mhcflurry_1630899575103/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/mhcflurry_1630899575103/test_tmp
+import: 'mhcflurry'
+import: 'mhcflurry'
+usage: mhcflurry-downloads [-h] [--quiet] [--verbose]
+                           {fetch,info,path,url} ...
+
+Download MHCflurry released datasets and trained models.
+
+Examples
+
+Fetch the default downloads:
+    $ mhcflurry-downloads fetch
+
+Fetch a specific download:
+    $ mhcflurry-downloads fetch models_class1_pan
+
+Get the path to a download:
+    $ mhcflurry-downloads path models_class1_pan
+
+Get the URL of a download:
+    $ mhcflurry-downloads url models_class1_pan
+
+Summarize available and fetched downloads:
+    $ mhcflurry-downloads info
+
+positional arguments:
+  {fetch,info,path,url}
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --quiet               Output less
+  --verbose, -v         Output more
+usage: mhcflurry-predict [-h] [--list-supported-alleles]
+                         [--list-supported-peptide-lengths] [--version]
+                         [--alleles ALLELE [ALLELE ...]]
+                         [--peptides PEPTIDE [PEPTIDE ...]]
+                         [--allele-column NAME] [--peptide-column NAME]
+                         [--n-flank-column NAME] [--c-flank-column NAME]
+                         [--no-throw] [--out OUTPUT.csv]
+                         [--prediction-column-prefix NAME]
+                         [--output-delimiter CHAR] [--no-affinity-percentile]
+                         [--always-include-best-allele] [--models DIR]
+                         [--affinity-only] [--no-flanking]
+                         [INPUT.csv]
+
+Run MHCflurry predictor on specified peptides.
+
+By default, the presentation predictor is used, and predictions for
+MHC I binding affinity, antigen processing, and the composite presentation score
+are returned. If you just want binding affinity predictions, pass
+--affinity-only.
+
+Examples:
+
+Write a CSV file containing the contents of INPUT.csv plus additional columns
+giving MHCflurry predictions:
+
+$ mhcflurry-predict INPUT.csv --out RESULT.csv
+
+The input CSV file is expected to contain columns "allele", "peptide", and,
+optionally, "n_flank", and "c_flank".
+
+If `--out` is not specified, results are written to stdout.
+
+You can also run on alleles and peptides specified on the commandline, in
+which case predictions are written for *all combinations* of alleles and
+peptides:
+
+$ mhcflurry-predict --alleles HLA-A0201 H-2Kb --peptides SIINFEKL DENDREKLLL
+
+Instead of individual alleles (in a CSV or on the command line), you can also
+give a comma separated list of alleles giving a sample genotype. In this case,
+the tightest binding affinity across the alleles for the sample will be
+returned. For example:
+
+$ mhcflurry-predict --peptides SIINFEKL DENDREKLLL     --alleles         HLA-A*02:01,HLA-A*03:01,HLA-B*57:01,HLA-B*45:01,HLA-C*02:01,HLA-C*07:02         HLA-A*01:01,HLA-A*02:06,HLA-B*44:02,HLA-B*07:02,HLA-C*01:01,HLA-C*03:01
+
+will give the tightest predicted affinities across alleles for each of the two
+genotypes specified for each peptide.
+
+Help:
+  -h, --help            Show this help message and exit
+  --list-supported-alleles
+                        Prints the list of supported alleles and exits
+  --list-supported-peptide-lengths
+                        Prints the list of supported peptide lengths and exits
+  --version             show program's version number and exit
+
+Input (required):
+  INPUT.csv             Input CSV
+  --alleles ALLELE [ALLELE ...]
+                        Alleles to predict (exclusive with passing an input
+                        CSV)
+  --peptides PEPTIDE [PEPTIDE ...]
+                        Peptides to predict (exclusive with passing an input
+                        CSV)
+
+Input options:
+  --allele-column NAME  Input column name for alleles. Default: 'allele'
+  --peptide-column NAME
+                        Input column name for peptides. Default: 'peptide'
+  --n-flank-column NAME
+                        Column giving N-terminal flanking sequence. Default:
+                        'n_flank'
+  --c-flank-column NAME
+                        Column giving C-terminal flanking sequence. Default:
+                        'c_flank'
+  --no-throw            Return NaNs for unsupported alleles or peptides
+                        instead of raising
+
+Output options:
+  --out OUTPUT.csv      Output CSV
+  --prediction-column-prefix NAME
+                        Prefix for output column names. Default: 'mhcflurry_'
+  --output-delimiter CHAR
+                        Delimiter character for results. Default: ','
+  --no-affinity-percentile
+                        Do not include affinity percentile rank
+  --always-include-best-allele
+                        Always include the best_allele column even when it is
+                        identical to the allele column (i.e. all queries are
+                        monoallelic).
+
+Model options:
+  --models DIR          Directory containing models. Either a binding affinity
+                        predictor or a presentation predictor can be used.
+                        Default: /Users/runner/Library/Application Support/mhc
+                        flurry/4/2.0.0/models_class1_presentation/models
+  --affinity-only       Affinity prediction only (no antigen processing or
+                        presentation)
+  --no-flanking         Do not use flanking sequence information even when
+                        available
+usage: mhcflurry-predict-scan [-h] [--list-supported-alleles]
+                              [--list-supported-peptide-lengths] [--version]
+                              [--input-format {guess,csv,fasta}]
+                              [--alleles ALLELE [ALLELE ...]]
+                              [--sequences SEQ [SEQ ...]]
+                              [--sequence-id-column NAME]
+                              [--sequence-column NAME] [--no-throw]
+                              [--peptide-lengths L] [--results-all]
+                              [--results-best {presentation_score,processing_score,affinity,affinity_percentile}]
+                              [--results-filtered {presentation_score,processing_score,affinity,affinity_percentile}]
+                              [--threshold-presentation-score THRESHOLD_PRESENTATION_SCORE]
+                              [--threshold-processing-score THRESHOLD_PROCESSING_SCORE]
+                              [--threshold-affinity THRESHOLD_AFFINITY]
+                              [--threshold-affinity-percentile THRESHOLD_AFFINITY_PERCENTILE]
+                              [--out OUTPUT.csv] [--output-delimiter CHAR]
+                              [--no-affinity-percentile] [--models DIR]
+                              [--no-flanking]
+                              [INPUT]
+
+Scan protein sequences using the MHCflurry presentation predictor.
+
+By default, sub-sequences (peptides) with affinity percentile ranks less than
+2.0 are returned. You can also specify --results-all to return predictions for
+all peptides, or --results-best to return the top peptide for each sequence.
+
+Examples:
+
+Scan a set of sequences in a FASTA file for binders to any alleles in a MHC I
+genotype:
+
+$ mhcflurry-predict-scan     test/data/example.fasta     --alleles HLA-A*02:01,HLA-A*03:01,HLA-B*57:01,HLA-B*45:01,HLA-C*02:01,HLA-C*07:02
+
+Instead of a FASTA, you can also pass a CSV that has "sequence_id" and "sequence"
+columns.
+
+You can also specify multiple MHC I genotypes to scan as space-separated
+arguments to the --alleles option:
+
+$ mhcflurry-predict-scan     test/data/example.fasta     --alleles         HLA-A*02:01,HLA-A*03:01,HLA-B*57:01,HLA-B*45:01,HLA-C*02:02,HLA-C*07:02         HLA-A*01:01,HLA-A*02:06,HLA-B*44:02,HLA-B*07:02,HLA-C*01:02,HLA-C*03:01
+
+If `--out` is not specified, results are written to standard out.
+
+You can also specify sequences on the commandline:
+
+mhcflurry-predict-scan     --sequences MGYINVFAFPFTIYSLLLCRMNSRNYIAQVDVVNFNLT     --alleles HLA-A*02:01,HLA-A*03:01,HLA-B*57:01,HLA-B*45:01,HLA-C*02:02,HLA-C*07:02
+
+Help:
+  -h, --help            Show this help message and exit
+  --list-supported-alleles
+                        Print the list of supported alleles and exits
+  --list-supported-peptide-lengths
+                        Print the list of supported peptide lengths and exits
+  --version             show program's version number and exit
+
+Input options:
+  INPUT                 Input CSV or FASTA
+  --input-format {guess,csv,fasta}
+                        Format of input file. By default, it is guessed from
+                        the file extension.
+  --alleles ALLELE [ALLELE ...]
+                        Alleles to predict
+  --sequences SEQ [SEQ ...]
+                        Sequences to predict (exclusive with passing an input
+                        file)
+  --sequence-id-column NAME
+                        Input CSV column name for sequence IDs. Default:
+                        'sequence_id'
+  --sequence-column NAME
+                        Input CSV column name for sequences. Default:
+                        'sequence'
+  --no-throw            Return NaNs for unsupported alleles or peptides
+                        instead of raising
+
+Result options:
+  --peptide-lengths L   Peptide lengths to consider. Pass as START-END (e.g.
+                        8-11) or a comma-separated list (8,9,10,11). When
+                        using START-END, the range is INCLUSIVE on both ends.
+                        Default: 8-11.
+  --results-all         Return results for all peptides regardless of
+                        affinity, etc.
+  --results-best {presentation_score,processing_score,affinity,affinity_percentile}
+                        Take the top result for each sequence according to the
+                        specified predicted quantity
+  --results-filtered {presentation_score,processing_score,affinity,affinity_percentile}
+                        Filter results by the specified quantity.
+  --threshold-presentation-score THRESHOLD_PRESENTATION_SCORE
+                        Threshold if filtering by presentation score. Default:
+                        0.7
+  --threshold-processing-score THRESHOLD_PROCESSING_SCORE
+                        Threshold if filtering by processing score. Default:
+                        0.5
+  --threshold-affinity THRESHOLD_AFFINITY
+                        Threshold if filtering by affinity. Default: 500
+  --threshold-affinity-percentile THRESHOLD_AFFINITY_PERCENTILE
+                        Threshold if filtering by affinity percentile.
+                        Default: 2.0
+
+Output options:
+  --out OUTPUT.csv      Output CSV
+  --output-delimiter CHAR
+                        Delimiter character for results. Default: ','
+  --no-affinity-percentile
+                        Do not include affinity percentile rank
+
+Model options:
+  --models DIR          Directory containing presentation models.Default:
+                        /Users/runner/Library/Application Support/mhcflurry/4/
+                        2.0.0/models_class1_presentation/models
+  --no-flanking         Do not use flanking sequence information in
+                        predictions
+To show stack trace, run:
+kill -s USR1 12968
+usage: 
+Train Class1 single allele models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Training data CSV. Expected columns: allele, peptide,
+                        measurement_value
+  --out-models-dir DIR  Directory to write models and manifest
+  --hyperparameters FILE.json
+                        JSON or YAML of hyperparameters
+  --allele ALLELE [ALLELE ...]
+                        Alleles to train models for. If not specified, all
+                        alleles with enough measurements will be used.
+  --min-measurements-per-allele N
+                        Train models for alleles with >=N measurements.
+  --held-out-fraction-reciprocal N
+                        Hold out 1/N fraction of data (for e.g. subsequent
+                        model selection. For example, specify 5 to hold out 20
+                        percent of the data.
+  --held-out-fraction-seed N
+                        Seed for randomizing which measurements are held out.
+                        Only matters when --held-out-fraction is specified.
+                        Default: 0.
+  --ignore-inequalities
+                        Do not use affinity value inequalities even when
+                        present in data
+  --n-models N          Ensemble size, i.e. how many models to train for each
+                        architecture. If specified here it overrides any
+                        'n_models' specified in the hyperparameters.
+  --max-epochs N        Max training epochs. If specified here it overrides
+                        any 'max_epochs' specified in the hyperparameters.
+  --allele-sequences FILE.csv
+                        Allele sequences file. Used for computing allele
+                        similarity matrix.
+  --save-interval N     Write models to disk every N seconds. Only affects
+                        parallel runs; serial runs write each model to disk as
+                        it is trained.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+To show stack trace, run:
+kill -s USR1 12997
+usage: 
+Train Class1 pan-allele models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Training data CSV. Expected columns: allele, peptide,
+                        measurement_value
+  --pretrain-data FILE.csv
+                        Pre-training data CSV. Expected columns: allele,
+                        peptide, measurement_value
+  --out-models-dir DIR  Directory to write models and manifest
+  --hyperparameters FILE.json
+                        JSON or YAML of hyperparameters
+  --held-out-measurements-per-allele-fraction-and-max X X
+                        Fraction of measurements per allele to hold out, and
+                        maximum number
+  --ignore-inequalities
+                        Do not use affinity value inequalities even when
+                        present in data
+  --num-folds N         Number of training folds.
+  --num-replicates N    Number of replicates per (architecture, fold) pair to
+                        train.
+  --max-epochs N        Max training epochs. If specified here it overrides
+                        any 'max_epochs' specified in the hyperparameters.
+  --allele-sequences FILE.csv
+                        Allele sequences file.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+  --debug               Launch python debugger on error
+  --continue-incomplete
+                        Continue training models from an incomplete training
+                        run. If this is specified then the only required
+                        argument is --out-models-dir
+  --only-initialize     Do not actually train models. The initialized run can
+                        be continued later with --continue-incomplete.
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+
+Cluster parallelism:
+  --cluster-parallelism
+  --cluster-submit-command CLUSTER_SUBMIT_COMMAND
+                        Default: sh
+  --cluster-results-workdir CLUSTER_RESULTS_WORKDIR
+                        Default: ./cluster-workdir
+  --additional-complete-file ADDITIONAL_COMPLETE_FILE
+                        Additional file to monitor for job completion.
+                        Default: STDERR
+  --cluster-script-prefix-path CLUSTER_SCRIPT_PREFIX_PATH
+  --cluster-max-retries CLUSTER_MAX_RETRIES
+                        How many times to rerun failing jobs. Default: 3
+To show stack trace, run:
+kill -s USR1 13015
+usage: 
+Train Class1 processing models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Training data CSV. Expected columns: peptide, n_flank,
+                        c_flank, hit
+  --out-models-dir DIR  Directory to write models and manifest
+  --hyperparameters FILE.json
+                        JSON or YAML of hyperparameters
+  --held-out-samples N  Number of experiments to hold out per fold
+  --num-folds N         Number of training folds.
+  --num-replicates N    Number of replicates per (architecture, fold) pair to
+                        train.
+  --max-epochs N        Max training epochs. If specified here it overrides
+                        any 'max_epochs' specified in the hyperparameters.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+  --debug               Launch python debugger on error
+  --continue-incomplete
+                        Continue training models from an incomplete training
+                        run. If this is specified then the only required
+                        argument is --out-models-dir
+  --only-initialize     Do not actually train models. The initialized run can
+                        be continued later with --continue-incomplete.
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+
+Cluster parallelism:
+  --cluster-parallelism
+  --cluster-submit-command CLUSTER_SUBMIT_COMMAND
+                        Default: sh
+  --cluster-results-workdir CLUSTER_RESULTS_WORKDIR
+                        Default: ./cluster-workdir
+  --additional-complete-file ADDITIONAL_COMPLETE_FILE
+                        Additional file to monitor for job completion.
+                        Default: STDERR
+  --cluster-script-prefix-path CLUSTER_SCRIPT_PREFIX_PATH
+  --cluster-max-retries CLUSTER_MAX_RETRIES
+                        How many times to rerun failing jobs. Default: 3
+To show stack trace, run:
+kill -s USR1 13031
+usage: 
+Model select class1 single allele models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Model selection data CSV. Expected columns: allele,
+                        peptide, measurement_value
+  --exclude-data FILE.csv
+                        Data to EXCLUDE from model selection. Useful to
+                        specify the original training data used
+  --models-dir DIR      Directory to read models
+  --out-models-dir DIR  Directory to write selected models
+  --out-unselected-predictions FILE.csv
+                        Write predictions for validation data using unselected
+                        predictor to FILE.csv
+  --unselected-accuracy-scorer SCORER
+  --unselected-accuracy-scorer-num-samples UNSELECTED_ACCURACY_SCORER_NUM_SAMPLES
+  --unselected-accuracy-percentile-threshold X
+  --allele ALLELE [ALLELE ...]
+                        Alleles to select models for. If not specified, all
+                        alleles with enough measurements will be used.
+  --combined-min-models N
+                        Min number of models to select per allele when using
+                        combined selector
+  --combined-max-models N
+                        Max number of models to select per allele when using
+                        combined selector
+  --combined-min-contribution-percent X
+                        Use only model selectors that can contribute at least
+                        X % to the total score. Default: 1.0
+  --mass-spec-min-measurements N
+                        Min number of measurements required for an allele to
+                        use mass-spec model selection
+  --mass-spec-min-models N
+                        Min number of models to select per allele when using
+                        mass-spec selector
+  --mass-spec-max-models N
+                        Max number of models to select per allele when using
+                        mass-spec selector
+  --mse-min-measurements N
+                        Min number of measurements required for an allele to
+                        use MSE model selection
+  --mse-min-models N    Min number of models to select per allele when using
+                        MSE selector
+  --mse-max-models N    Max number of models to select per allele when using
+                        MSE selector
+  --scoring SCORING [SCORING ...]
+                        Scoring procedures to use in order
+  --consensus-min-models N
+                        Min number of models to select per allele when using
+                        consensus selector
+  --consensus-max-models N
+                        Max number of models to select per allele when using
+                        consensus selector
+  --consensus-num-peptides-per-length CONSENSUS_NUM_PEPTIDES_PER_LENGTH
+                        Num peptides per length to use for consensus scoring
+  --mass-spec-regex REGEX
+                        Regular expression for mass-spec data. Runs on
+                        measurement_source col.Default: mass[- ]spec.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+To show stack trace, run:
+kill -s USR1 13046
+usage: 
+Model select class1 pan-allele models.
+
+APPROACH: For each training fold, we select at least min and at most max models
+(where min and max are set by the --{min/max}-models-per-fold argument) using a
+step-up (forward) selection procedure. The final ensemble is the union of all
+selected models across all folds.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Model selection data CSV. Expected columns: allele,
+                        peptide, measurement_value
+  --models-dir DIR      Directory to read models
+  --out-models-dir DIR  Directory to write selected models
+  --min-models-per-fold N
+                        Min number of models to select per fold
+  --max-models-per-fold N
+                        Max number of models to select per fold
+  --mass-spec-regex REGEX
+                        Regular expression for mass-spec data. Runs on
+                        measurement_source col.Default: mass[- ]spec.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+
+Cluster parallelism:
+  --cluster-parallelism
+  --cluster-submit-command CLUSTER_SUBMIT_COMMAND
+                        Default: sh
+  --cluster-results-workdir CLUSTER_RESULTS_WORKDIR
+                        Default: ./cluster-workdir
+  --additional-complete-file ADDITIONAL_COMPLETE_FILE
+                        Additional file to monitor for job completion.
+                        Default: STDERR
+  --cluster-script-prefix-path CLUSTER_SCRIPT_PREFIX_PATH
+  --cluster-max-retries CLUSTER_MAX_RETRIES
+                        How many times to rerun failing jobs. Default: 3
+To show stack trace, run:
+kill -s USR1 13057
+usage: 
+Model select antigen processing models.
+
+APPROACH: For each training fold, we select at least min and at most max models
+(where min and max are set by the --{min/max}-models-per-fold argument) using a
+step-up (forward) selection procedure. The final ensemble is the union of all
+selected models across all folds. AUC is used as the metric.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Model selection data CSV. Expected columns: peptide,
+                        hit, fold_0, ..., fold_N
+  --models-dir DIR      Directory to read models
+  --out-models-dir DIR  Directory to write selected models
+  --min-models-per-fold N
+                        Min number of models to select per fold
+  --max-models-per-fold N
+                        Max number of models to select per fold
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+
+Cluster parallelism:
+  --cluster-parallelism
+  --cluster-submit-command CLUSTER_SUBMIT_COMMAND
+                        Default: sh
+  --cluster-results-workdir CLUSTER_RESULTS_WORKDIR
+                        Default: ./cluster-workdir
+  --additional-complete-file ADDITIONAL_COMPLETE_FILE
+                        Additional file to monitor for job completion.
+                        Default: STDERR
+  --cluster-script-prefix-path CLUSTER_SCRIPT_PREFIX_PATH
+  --cluster-max-retries CLUSTER_MAX_RETRIES
+                        How many times to rerun failing jobs. Default: 3
+To show stack trace, run:
+kill -s USR1 13077
+usage: 
+Calibrate percentile ranks for models. Runs in-place.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --predictor-kind {class1_affinity,class1_presentation}
+                        Type of predictor to calibrate
+  --models-dir DIR      Directory to read and write models
+  --allele ALLELE [ALLELE ...]
+                        Alleles to calibrate percentile ranks for. If not
+                        specified all alleles are used
+  --match-amino-acid-distribution-data MATCH_AMINO_ACID_DISTRIBUTION_DATA
+                        Sample random peptides from the amino acid
+                        distribution of the peptides listed in the supplied
+                        CSV file, which must have a 'peptide' column. If not
+                        specified a uniform distribution is used.
+  --alleles-file ALLELES_FILE
+                        Use alleles in supplied CSV file, which must have an
+                        'allele' column.
+  --num-peptides-per-length N
+                        Number of peptides per length to use to calibrate
+                        percent ranks. Default: 100000.
+  --num-genotypes N     Used when calibrrating a presentation predictor.
+                        Number of genotypesto sample
+  --alleles-per-genotype N
+                        Used when calibrating a presentation predictor. Number
+                        of alleles per genotype. Use 1 to calibrate for single
+                        alleles. Default: 6
+  --motif-summary       Calculate motifs and length preferences for each
+                        allele
+  --summary-top-peptide-fraction X [X ...]
+                        The top X fraction of predictions (i.e. tightest
+                        binders) to use to generate motifs and length
+                        preferences. Default: [0.0001, 0.001, 0.01, 0.1, 1.0]
+  --length-range LENGTH_RANGE LENGTH_RANGE
+                        Min and max peptide length to calibrate, inclusive.
+                        Default: (8, 15)
+  --prediction-batch-size PREDICTION_BATCH_SIZE
+                        Keras batch size for predictions
+  --alleles-per-work-chunk N
+                        Number of alleles per work chunk. Default: 1.
+  --verbosity VERBOSITY
+                        Keras verbosity. Default: 0
+
+Local parallelism:
+  --num-jobs N          Number of local processes to parallelize training
+                        over. Set to 0 for serial run. Default: 0.
+  --backend {tensorflow-gpu,tensorflow-cpu,tensorflow-default}
+                        Keras backend. If not specified will use system
+                        default.
+  --gpus N              Number of GPUs to attempt to parallelize across.
+                        Requires running in parallel.
+  --max-workers-per-gpu N
+                        Maximum number of workers to assign to a GPU.
+                        Additional tasks will run on CPU.
+  --max-tasks-per-worker N
+                        Restart workers after N tasks. Workaround for
+                        tensorflow memory leaks. Requires Python >=3.2.
+  --worker-log-dir WORKER_LOG_DIR
+                        Write worker stdout and stderr logs to given
+                        directory.
+
+Cluster parallelism:
+  --cluster-parallelism
+  --cluster-submit-command CLUSTER_SUBMIT_COMMAND
+                        Default: sh
+  --cluster-results-workdir CLUSTER_RESULTS_WORKDIR
+                        Default: ./cluster-workdir
+  --additional-complete-file ADDITIONAL_COMPLETE_FILE
+                        Additional file to monitor for job completion.
+                        Default: STDERR
+  --cluster-script-prefix-path CLUSTER_SCRIPT_PREFIX_PATH
+  --cluster-max-retries CLUSTER_MAX_RETRIES
+                        How many times to rerun failing jobs. Default: 3
+To show stack trace, run:
+kill -s USR1 13087
+usage: 
+Train Class1 presentation models.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --data FILE.csv       Training data CSV. Expected columns: peptide, n_flank,
+                        c_flank, hit
+  --out-models-dir DIR  Directory to write models and manifest
+  --affinity-predictor DIR
+                        Affinity predictor models dir
+  --processing-predictor-with-flanks DIR
+                        Processing predictor with flanks
+  --processing-predictor-without-flanks DIR
+                        Processing predictor without flanks
+  --verbosity VERBOSITY
+                        Default: 1
+  --debug               Launch python debugger on error
+  --hla-column HLA_COLUMN
+                        Column in data giving space-separated MHC I alleles
+  --target-column TARGET_COLUMN
+                        Column in data giving hit (1) vs decoy (0)
+
+Resource usage statistics from testing mhcflurry:
+   Process count: 4
+   CPU time: Sys=0:00:01.9, User=0:00:06.9
+   Memory: 96.7M
+   Disk usage: 20B
+   Time elapsed: 0:00:26.8
+
+
+TEST END: mhcflurry-2.0.1-pyh864c0ab_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
