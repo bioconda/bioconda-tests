@@ -1,0 +1,173 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + cromshell            0.5.1  hdfd78af_0          /Users/runner/conda/conda-bld/osx-64      24 KB
+  + jq                     1.6  hc929b4f_1000       conda-forge/osx-64                       368 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + oniguruma          6.9.7.1  h0d85af4_0          conda-forge/osx-64                       371 KB
+  + openjdk            8.0.302  h0d85af4_0          conda-forge/osx-64                        45 MB
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + womtool                 61  hdfd78af_0          bioconda/noarch                          127 MB
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 21 packages
+
+  Total download: 172 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: cromshell-0.5.1-hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/cromshell_1630888066907/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    cromshell:       0.5.1-hdfd78af_0         local      
+    jq:              1.6-hc929b4f_1000        conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    oniguruma:       6.9.7.1-h0d85af4_0       conda-forge
+    openjdk:         8.0.302-h0d85af4_0       conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    womtool:         61-hdfd78af_0            bioconda   
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/cromshell_1630888066907/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/cromshell_1630888066907/test_tmp
+Usage:    cromshell [-t TIMEOUT] SUB-COMMAND [options]
+Run and inspect workflows on a Cromwell server.
+
+CROMWELL_URL=
+
+If no workflow-id is specified then the last submitted workflow-id is assumed.
+Alternatively, negative numbers can be used to refer to previous workflows.
+
+  example usage:
+      cromshell submit workflow.wdl inputs.json options.json dependencies.zip
+      cromshell status
+      cromshell -t 50 status
+      cromshell logs -2
+
+Supported Flags:
+  -t TIMEOUT             Set the curl connect timeout to TIMEOUT seconds.
+                         Also sets the curl max timeout to 2*TIMEOUT seconds.
+                         TIMEOUT must be an integer.
+
+Supported Subcommands:
+
+  Start/Stop workflows:
+   submit [-w] <wdl> <inputs_json> [options_json] [included_wdl_zip_file] Submit a new workflow
+        -w                     Wait for workflow to transition from 'Submitted' to some other status
+                               before cromshell exits
+        included_wdl_zip_file  Zip file containing any WDL files included in the input WDL
+
+   abort [workflow-id] [[workflow-id]...]                            Abort a running workflow.
+
+  Workflow information:
+
+   alias workflow-id alias                                           Label the given workflow ID with the given alias.
+                                                                     Aliases can be used in place of workflow IDs to reference
+                                                                     jobs.
+
+  Query workflow status:
+   status [workflow-id] [[workflow-id]...]                           Check the status of a workflow.
+   metadata [workflow-id] [[workflow-id]...]                         Get the full metadata of a workflow.
+   slim-metadata [workflow-id] [[workflow-id]...]                    Get a subset of the metadata from a workflow.
+   execution-status-count, counts [-p] [-x] [workflow-id] [[workflow-id]...] Get the summarized status of all jobs in the workflow.
+         -p               Enable pretty-printing.
+         -x               Expand sub-workflow information.
+   timing [workflow-id] [[workflow-id]...]                           Open the timing diagram in a browser.
+
+  Logs:
+   logs [workflow-id] [[workflow-id]...]                             List the log files produced by a workflow.
+   fetch-logs [workflow-id] [[workflow-id]...]                       Download all logs produced by a workflow.
+
+  Job Outputs:
+   list-outputs [workflow-id] [[workflow-id]...]                     List all output files produced by a workflow.
+   fetch-all [workflow-id] [[workflow-id]...]                        Download all output files produced by a workflow.
+
+  Get email notification on job completion:
+   notify [workflow-id] [daemon-server] email [cromwell-server]
+        email             Email address to which to send the notification.
+        daemon-server     Server on which to run the notification daemon.
+
+  Display a list jobs submitted through cromshell:
+   list [-c] [-u]                                            
+         -c               Color the output by completion status.
+         -u               Check completion status of all unfinished jobs.
+
+  Clean up local cached list:
+   cleanup [-s STATUS]    Remove completed jobs from local list.
+                          Will remove all jobs from the local list that are in a completed state,
+                          where a completed state is one of: Succeeded,Failed,Aborted
+         -s STATUS        If provided, will only remove jobs with the given STATUS from the local list.
+  Update cromwell server:
+   update-server          Change which cromwell server jobs will be submitted to.
+
+  Get cost for a workflow
+   cost [workflow-id] [[workflow-id]...]                  Get the cost for a workflow.
+                                                          Only works for workflows that completed
+                                                          more than 8 hours ago on GCS.
+                                                          Requires the 'gcp_bq_cost_table.config'
+                                                          configuration file to exist and contain
+                                                          the big query cost table for your organization.
+   cost-detailed [workflow-id] [[workflow-id]...]         Get the cost for a workflow at the task level.
+                                                          Only works for workflows that completed
+                                                          more than 8 hours ago on GCS.
+                                                          Requires the 'gcp_bq_cost_table.config'
+                                                          configuration file to exist and contain
+                                                          the big query cost table for your organization.
+
+Return values:
+  0                  SUCCESS
+  ANYTHING_BUT_ZERO  FAILURE/ERROR
+
+
+Resource usage statistics from testing cromshell:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: cromshell-0.5.1-hdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
