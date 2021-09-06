@@ -1,0 +1,204 @@
+  Package            Version  Build          Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex        0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex        4.5  1_llvm         conda-forge/linux-64                      5 KB
+  + bgenix             1.1.7  h07db3ab_3     conda-forge/linux-64                      1 MB
+  + blas                2.20  mkl            conda-forge/linux-64                     11 KB
+  + boost-cpp         1.74.0  hc6e9bd1_3     conda-forge/linux-64                     16 MB
+  + bzip2              1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + icu                 68.1  h58526e2_0     conda-forge/linux-64                    Cached
+  + libblas            3.8.0  20_mkl         conda-forge/linux-64                     11 KB
+  + libcblas           3.8.0  20_mkl         conda-forge/linux-64                     11 KB
+  + libgcc-ng         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgfortran-ng     7.5.0  h14aa051_19    conda-forge/linux-64                     22 KB
+  + libgfortran4       7.5.0  h14aa051_19    conda-forge/linux-64                      1 MB
+  + liblapack          3.8.0  20_mkl         conda-forge/linux-64                     11 KB
+  + liblapacke         3.8.0  20_mkl         conda-forge/linux-64                     11 KB
+  + libstdcxx-ng      11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + llvm-openmp       12.0.1  h4bd325d_1     conda-forge/linux-64                      3 MB
+  + lz4-c              1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + mkl               2020.4  h726a3e6_304   conda-forge/linux-64                    216 MB
+  + mkl-include     2021.3.0  h726a3e6_557   conda-forge/linux-64                    682 KB
+  + ncurses              6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + readline             8.1  h46c0cb4_0     conda-forge/linux-64                    Cached
+  + regenie          1.0.6.9  h9487012_0     /home/vsts/conda/conda-bld/linux-64     569 KB
+  + sqlite            3.36.0  h9cd32fc_0     conda-forge/linux-64                    Cached
+  + xz                 5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib              1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd               1.4.9  ha95c52a_0     conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 239 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: regenie-1.0.6.9-h9487012_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/regenie_1630954320042/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:  0.1-conda_forge       conda-forge
+    _openmp_mutex:  4.5-1_llvm            conda-forge
+    bgenix:         1.1.7-h07db3ab_3      conda-forge
+    blas:           2.20-mkl              conda-forge
+    boost-cpp:      1.74.0-hc6e9bd1_3     conda-forge
+    bzip2:          1.0.8-h7f98852_4      conda-forge
+    icu:            68.1-h58526e2_0       conda-forge
+    libblas:        3.8.0-20_mkl          conda-forge
+    libcblas:       3.8.0-20_mkl          conda-forge
+    libgcc-ng:      11.1.0-hc902ee8_8     conda-forge
+    libgfortran-ng: 7.5.0-h14aa051_19     conda-forge
+    libgfortran4:   7.5.0-h14aa051_19     conda-forge
+    liblapack:      3.8.0-20_mkl          conda-forge
+    liblapacke:     3.8.0-20_mkl          conda-forge
+    libstdcxx-ng:   11.1.0-h56837e0_8     conda-forge
+    llvm-openmp:    12.0.1-h4bd325d_1     conda-forge
+    lz4-c:          1.9.3-h9c3ff4c_1      conda-forge
+    mkl:            2020.4-h726a3e6_304   conda-forge
+    mkl-include:    2021.3.0-h726a3e6_557 conda-forge
+    ncurses:        6.2-h58526e2_4        conda-forge
+    readline:       8.1-h46c0cb4_0        conda-forge
+    regenie:        1.0.6.9-h9487012_0    local      
+    sqlite:         3.36.0-h9cd32fc_0     conda-forge
+    xz:             5.2.5-h516909a_1      conda-forge
+    zlib:           1.2.11-h516909a_1010  conda-forge
+    zstd:           1.4.9-ha95c52a_0      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/regenie_1630954320042/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/regenie_1630954320042/test_tmp
+              |==============================|
+              |      REGENIE v1.0.6.9.gz     |
+              |==============================|
+
+Copyright (c) 2020 Joelle Mbatchou and Jonathan Marchini.
+Distributed under the MIT License.
+Compiled with Boost Iostream library.
+Using Intel MKL with Eigen.
+
+
+Usage:
+  regenie [OPTION...]
+
+  -h, --help      print list of available options
+      --helpFull  print list of all available options
+
+ Main options:
+      --step INT                specify if fitting null model (=1) or
+                                association testing (=2)
+      --bed PREFIX              prefix to PLINK .bed/.bim/.fam files
+      --pgen PREFIX             prefix to PLINK2 .pgen/.pvar/.psam files
+      --bgen FILE               BGEN file
+      --sample FILE             sample file corresponding to BGEN file
+      --ref-first               use the first allele as the reference for
+                                BGEN or PLINK bed/bim/fam input format [default
+                                assumes reference is last]
+      --keep FILE               file listing samples to retain in the
+                                analysis (no header; starts with FID IID)
+      --remove FILE             file listing samples to remove from the
+                                analysis (no header; starts with FID IID)
+      --extract FILE            file with IDs of variants to retain in the
+                                analysis
+      --exclude FILE            file with IDs of variants to remove from the
+                                analysis
+  -p, --phenoFile FILE          phenotype file (header required starting with
+                                FID IID)
+      --phenoCol STRING         phenotype name in header (use for each
+                                phenotype to keep)
+      --phenoColList STRING,..,STRING
+                                comma separated list of phenotype names to
+                                keep
+  -c, --covarFile FILE          covariate file (header required starting with
+                                FID IID)
+      --covarCol STRING         covariate name in header (use for each
+                                covariate to keep)
+      --covarColList STRING,..,STRING
+                                comma separated list of covariate names to
+                                keep
+      --bt                      analyze phenotypes as binary
+  -1, --cc12                    use control=1,case=2,missing=NA encoding for
+                                binary traits
+  -b, --bsize INT               size of genotype blocks
+      --cv INT(=5)              number of cross validation (CV) folds
+      --loocv                   use leave-one out cross validation (LOOCV)
+      --l0 INT(=5)              number of ridge parameters to use when
+                                fitting models within blocks [evenly spaced in
+                                (0,1)]
+      --l1 INT(=5)              number of ridge parameters to use when
+                                fitting model across blocks [evenly spaced in (0,1)]
+      --lowmem                  reduce memory usage by writing level 0
+                                predictions to temporary files
+      --lowmem-prefix PREFIX    prefix where to write the temporary files in
+                                step 1 (default is to use prefix from --out)
+      --strict                  remove all samples with missingness at any of
+                                the traits
+      --print-prs               also output polygenic predictions without
+                                using LOCO (=whole genome PRS)
+  -o, --out PREFIX              prefix for output files
+      --threads INT             number of threads
+      --pred FILE               file containing the list of predictions files
+                                from step 1
+      --ignore-pred             skip reading predictions from step 1
+                                (equivalent to linear/logistic regression with only
+                                covariates)
+      --use-prs                 when using whole genome PRS step 1 output in
+                                '--pred'
+      --force-impute            keep and impute missing observations when in
+                                step 2 (default is to drop missing for each
+                                trait)
+      --write-samples           write IDs of samples included for each trait
+                                (only in step 2)
+      --minMAC INT(=5)          minimum minor allele count (MAC) for tested
+                                variants
+      --minINFO DOUBLE(=0)      minimum imputation info score (Impute/Mach
+                                R^2) for tested variants
+      --split                   split asssociation results into separate
+                                files for each trait
+      --firth                   use Firth correction for p-values less than
+                                threshold
+      --approx                  use approximation to Firth correction for
+                                computational speedup
+      --spa                     use Saddlepoint approximation (SPA) for
+                                p-values less than threshold
+      --pThresh FLOAT(=0.05)    P-value threshold below which to apply
+                                Firth/SPA correction
+      --chr STRING              specify chromosome to test in step 2 (use for
+                                each chromosome)
+      --chrList STRING,..,STRING
+                                Comma separated list of chromosomes to test
+                                in step 2
+      --range CHR:MINPOS-MAXPOS
+                                to specify a physical position window for
+                                variants to test in step 2
+      --test STRING             'dominant' or 'recessive' (default is
+                                additive test)
+      --gz                      compress output files (gzip format)
+
+For more information, use option '--help' or visit the website: https://rgcgithub.github.io/regenie/
+
+
+Resource usage statistics from testing regenie:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: regenie-1.0.6.9-h9487012_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

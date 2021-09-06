@@ -1,0 +1,979 @@
+  Package                            Version  Build                Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                        0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex                        4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython                           1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + blast                             2.12.0  pl5262h3289130_0     bioconda/linux-64                       Cached
+  + boost-cpp                         1.74.0  h312852a_4           conda-forge/linux-64                     16 MB
+  + bzip2                              1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                            1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates                2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + curl                              7.78.0  hea6ffbf_0           conda-forge/linux-64                    Cached
+  + diamond                           2.0.11  hdcc8f71_0           bioconda/linux-64                         2 MB
+  + entrez-direct                       13.9  pl5262he881be0_2     bioconda/linux-64                       Cached
+  + expat                              2.4.1  h9c3ff4c_0           conda-forge/linux-64                    Cached
+  + hmmer                              3.3.2  h1b792b2_1           bioconda/linux-64                       Cached
+  + icu                                 68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + infernal                           1.1.4  h779adbc_0           bioconda/linux-64                         3 MB
+  + krb5                              1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64                  2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                            3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                           3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                           7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit                     3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                               4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                               3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng                         11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng                    11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5                      11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                           11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                          3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2                        1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas                       0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libssh2                           1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng                      11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + lz4-c                              1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + mummer4                         4.0.0rc1  pl5262h1b792b2_1     bioconda/linux-64                       584 KB
+  + ncurses                              6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                             1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                           1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pcre                                8.45  h9c3ff4c_0           conda-forge/linux-64                    Cached
+  + perl                              5.26.2  h36c2ea0_1008        conda-forge/linux-64                    Cached
+  + perl-app-cpanminus                1.7044  pl526_1              bioconda/linux-64                       Cached
+  + perl-archive-tar                    2.32  pl526_0              bioconda/linux-64                       Cached
+  + perl-base                           2.23  pl526_1              bioconda/linux-64                       Cached
+  + perl-business-isbn                 3.004  pl526_0              bioconda/linux-64                       Cached
+  + perl-business-isbn-data     20140910.003  pl526_0              bioconda/linux-64                       Cached
+  + perl-carp                           1.38  pl526_3              bioconda/linux-64                       Cached
+  + perl-common-sense                   3.74  pl526_2              bioconda/linux-64                       Cached
+  + perl-compress-raw-bzip2            2.087  pl526he1b5a44_0      bioconda/linux-64                       Cached
+  + perl-compress-raw-zlib             2.087  pl526hc9558a2_0      bioconda/linux-64                       Cached
+  + perl-constant                       1.33  pl526_1              bioconda/linux-64                       Cached
+  + perl-data-dumper                   2.173  pl526_0              bioconda/linux-64                       Cached
+  + perl-digest-hmac                    1.03  pl526_3              bioconda/linux-64                       Cached
+  + perl-digest-md5                     2.55  pl526_0              bioconda/linux-64                       Cached
+  + perl-encode                         2.88  pl526_1              bioconda/linux-64                       Cached
+  + perl-encode-locale                  1.05  pl526_6              bioconda/linux-64                       Cached
+  + perl-exporter                       5.72  pl526_1              bioconda/linux-64                       Cached
+  + perl-exporter-tiny              1.002001  pl526_0              bioconda/linux-64                       Cached
+  + perl-extutils-makemaker             7.36  pl526_1              bioconda/linux-64                       Cached
+  + perl-file-listing                   6.04  pl526_1              bioconda/linux-64                       Cached
+  + perl-file-path                      2.16  pl526_0              bioconda/linux-64                       Cached
+  + perl-file-temp                    0.2304  pl526_2              bioconda/linux-64                       Cached
+  + perl-html-parser                    3.72  pl526h6bb024c_5      bioconda/linux-64                       Cached
+  + perl-html-tagset                    3.20  pl526_3              bioconda/linux-64                       Cached
+  + perl-html-tree                      5.07  pl526_1              bioconda/linux-64                       Cached
+  + perl-http-cookies                   6.04  pl526_0              bioconda/linux-64                       Cached
+  + perl-http-daemon                    6.01  pl526_1              bioconda/linux-64                       Cached
+  + perl-http-date                      6.02  pl526_3              bioconda/linux-64                       Cached
+  + perl-http-message                   6.18  pl526_0              bioconda/linux-64                       Cached
+  + perl-http-negotiate                 6.01  pl526_3              bioconda/linux-64                       Cached
+  + perl-io-compress                   2.087  pl526he1b5a44_0      bioconda/linux-64                       Cached
+  + perl-io-html                       1.001  pl526_2              bioconda/linux-64                       Cached
+  + perl-io-socket-ssl                 2.066  pl526_0              bioconda/linux-64                       Cached
+  + perl-io-zlib                        1.10  pl526_2              bioconda/linux-64                       Cached
+  + perl-json                           4.02  pl526_0              bioconda/linux-64                       Cached
+  + perl-json-xs                        2.34  pl526h6bb024c_3      bioconda/linux-64                       Cached
+  + perl-libwww-perl                    6.39  pl526_0              bioconda/noarch                         Cached
+  + perl-list-moreutils                0.428  pl526_1              bioconda/linux-64                       Cached
+  + perl-list-moreutils-xs             0.428  pl526_0              bioconda/linux-64                       Cached
+  + perl-lwp-mediatypes                 6.04  pl526_0              bioconda/linux-64                       Cached
+  + perl-lwp-protocol-https             6.07  pl526_4              bioconda/linux-64                       Cached
+  + perl-mime-base64                    3.15  pl526_1              bioconda/linux-64                       Cached
+  + perl-mozilla-ca                 20180117  pl526_1              bioconda/linux-64                       Cached
+  + perl-net-http                       6.19  pl526_0              bioconda/noarch                         Cached
+  + perl-net-ssleay                     1.88  pl526h90d6eec_0      bioconda/linux-64                       Cached
+  + perl-ntlm                           1.09  pl526_4              bioconda/linux-64                       Cached
+  + perl-parent                        0.236  pl526_1              bioconda/linux-64                       Cached
+  + perl-pathtools                      3.75  pl526h14c3975_1      bioconda/linux-64                       Cached
+  + perl-scalar-list-utils              1.52  pl526h516909a_0      bioconda/linux-64                       Cached
+  + perl-socket                        2.027  pl526_1              bioconda/linux-64                       Cached
+  + perl-storable                       3.15  pl526h14c3975_0      bioconda/linux-64                       Cached
+  + perl-test-requiresinternet          0.05  pl526_0              bioconda/linux-64                       Cached
+  + perl-time-local                     1.28  pl526_1              bioconda/linux-64                       Cached
+  + perl-try-tiny                       0.30  pl526_1              bioconda/linux-64                       Cached
+  + perl-types-serialiser                1.0  pl526_2              bioconda/linux-64                       Cached
+  + perl-uri                            1.76  pl526_0              bioconda/linux-64                       Cached
+  + perl-www-robotrules                 6.02  pl526_3              bioconda/linux-64                       Cached
+  + perl-xml-namespacesupport           1.12  pl526_0              bioconda/linux-64                       Cached
+  + perl-xml-parser                  2.44_01  pl5262hc3e0081_1002  conda-forge/linux-64                    Cached
+  + perl-xml-sax                        1.02  pl526_0              bioconda/noarch                         Cached
+  + perl-xml-sax-base                   1.09  pl526_0              bioconda/linux-64                       Cached
+  + perl-xml-sax-expat                  0.51  pl526_3              bioconda/linux-64                       Cached
+  + perl-xml-simple                     2.25  pl526_1              bioconda/linux-64                       Cached
+  + perl-xsloader                       0.24  pl526_0              bioconda/linux-64                       Cached
+  + pip                               21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + platon                               1.6  pyhdfd78af_1         /home/vsts/conda/conda-bld/linux-64      37 KB
+  + prodigal                           2.6.3  h779adbc_3           bioconda/linux-64                       Cached
+  + python                             3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi                           3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                             8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools                        57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite                            3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                                8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                             2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                             0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                                 5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                              1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                               1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 116 packages
+
+  Total download: 31 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: platon-1.6-pyhdfd78af_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/platon_1630954745544/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:              0.1-conda_forge             conda-forge
+    _openmp_mutex:              4.5-1_gnu                   conda-forge
+    biopython:                  1.79-py39h3811e60_0         conda-forge
+    blast:                      2.12.0-pl5262h3289130_0     bioconda   
+    boost-cpp:                  1.74.0-h312852a_4           conda-forge
+    bzip2:                      1.0.8-h7f98852_4            conda-forge
+    c-ares:                     1.17.2-h7f98852_0           conda-forge
+    ca-certificates:            2021.5.30-ha878542_0        conda-forge
+    curl:                       7.78.0-hea6ffbf_0           conda-forge
+    diamond:                    2.0.11-hdcc8f71_0           bioconda   
+    entrez-direct:              13.9-pl5262he881be0_2       bioconda   
+    expat:                      2.4.1-h9c3ff4c_0            conda-forge
+    hmmer:                      3.3.2-h1b792b2_1            bioconda   
+    icu:                        68.1-h58526e2_0             conda-forge
+    infernal:                   1.1.4-h779adbc_0            bioconda   
+    krb5:                       1.19.2-hcc1bbae_0           conda-forge
+    ld_impl_linux-64:           2.36.1-hea4e1c9_2           conda-forge
+    libblas:                    3.9.0-11_linux64_openblas   conda-forge
+    libcblas:                   3.9.0-11_linux64_openblas   conda-forge
+    libcurl:                    7.78.0-h2574ce0_0           conda-forge
+    libedit:                    3.1.20191231-he28a2e2_2     conda-forge
+    libev:                      4.33-h516909a_1             conda-forge
+    libffi:                     3.3-h58526e2_2              conda-forge
+    libgcc-ng:                  11.1.0-hc902ee8_8           conda-forge
+    libgfortran-ng:             11.1.0-h69a702a_8           conda-forge
+    libgfortran5:               11.1.0-h6c583b3_8           conda-forge
+    libgomp:                    11.1.0-hc902ee8_8           conda-forge
+    liblapack:                  3.9.0-11_linux64_openblas   conda-forge
+    libnghttp2:                 1.43.0-h812cca2_0           conda-forge
+    libopenblas:                0.3.17-pthreads_h8fe5266_1  conda-forge
+    libssh2:                    1.10.0-ha56f1ee_0           conda-forge
+    libstdcxx-ng:               11.1.0-h56837e0_8           conda-forge
+    lz4-c:                      1.9.3-h9c3ff4c_1            conda-forge
+    mummer4:                    4.0.0rc1-pl5262h1b792b2_1   bioconda   
+    ncurses:                    6.2-h58526e2_4              conda-forge
+    numpy:                      1.21.2-py39hdbf815f_0       conda-forge
+    openssl:                    1.1.1l-h7f98852_0           conda-forge
+    pcre:                       8.45-h9c3ff4c_0             conda-forge
+    perl:                       5.26.2-h36c2ea0_1008        conda-forge
+    perl-app-cpanminus:         1.7044-pl526_1              bioconda   
+    perl-archive-tar:           2.32-pl526_0                bioconda   
+    perl-base:                  2.23-pl526_1                bioconda   
+    perl-business-isbn:         3.004-pl526_0               bioconda   
+    perl-business-isbn-data:    20140910.003-pl526_0        bioconda   
+    perl-carp:                  1.38-pl526_3                bioconda   
+    perl-common-sense:          3.74-pl526_2                bioconda   
+    perl-compress-raw-bzip2:    2.087-pl526he1b5a44_0       bioconda   
+    perl-compress-raw-zlib:     2.087-pl526hc9558a2_0       bioconda   
+    perl-constant:              1.33-pl526_1                bioconda   
+    perl-data-dumper:           2.173-pl526_0               bioconda   
+    perl-digest-hmac:           1.03-pl526_3                bioconda   
+    perl-digest-md5:            2.55-pl526_0                bioconda   
+    perl-encode:                2.88-pl526_1                bioconda   
+    perl-encode-locale:         1.05-pl526_6                bioconda   
+    perl-exporter:              5.72-pl526_1                bioconda   
+    perl-exporter-tiny:         1.002001-pl526_0            bioconda   
+    perl-extutils-makemaker:    7.36-pl526_1                bioconda   
+    perl-file-listing:          6.04-pl526_1                bioconda   
+    perl-file-path:             2.16-pl526_0                bioconda   
+    perl-file-temp:             0.2304-pl526_2              bioconda   
+    perl-html-parser:           3.72-pl526h6bb024c_5        bioconda   
+    perl-html-tagset:           3.20-pl526_3                bioconda   
+    perl-html-tree:             5.07-pl526_1                bioconda   
+    perl-http-cookies:          6.04-pl526_0                bioconda   
+    perl-http-daemon:           6.01-pl526_1                bioconda   
+    perl-http-date:             6.02-pl526_3                bioconda   
+    perl-http-message:          6.18-pl526_0                bioconda   
+    perl-http-negotiate:        6.01-pl526_3                bioconda   
+    perl-io-compress:           2.087-pl526he1b5a44_0       bioconda   
+    perl-io-html:               1.001-pl526_2               bioconda   
+    perl-io-socket-ssl:         2.066-pl526_0               bioconda   
+    perl-io-zlib:               1.10-pl526_2                bioconda   
+    perl-json:                  4.02-pl526_0                bioconda   
+    perl-json-xs:               2.34-pl526h6bb024c_3        bioconda   
+    perl-libwww-perl:           6.39-pl526_0                bioconda   
+    perl-list-moreutils:        0.428-pl526_1               bioconda   
+    perl-list-moreutils-xs:     0.428-pl526_0               bioconda   
+    perl-lwp-mediatypes:        6.04-pl526_0                bioconda   
+    perl-lwp-protocol-https:    6.07-pl526_4                bioconda   
+    perl-mime-base64:           3.15-pl526_1                bioconda   
+    perl-mozilla-ca:            20180117-pl526_1            bioconda   
+    perl-net-http:              6.19-pl526_0                bioconda   
+    perl-net-ssleay:            1.88-pl526h90d6eec_0        bioconda   
+    perl-ntlm:                  1.09-pl526_4                bioconda   
+    perl-parent:                0.236-pl526_1               bioconda   
+    perl-pathtools:             3.75-pl526h14c3975_1        bioconda   
+    perl-scalar-list-utils:     1.52-pl526h516909a_0        bioconda   
+    perl-socket:                2.027-pl526_1               bioconda   
+    perl-storable:              3.15-pl526h14c3975_0        bioconda   
+    perl-test-requiresinternet: 0.05-pl526_0                bioconda   
+    perl-time-local:            1.28-pl526_1                bioconda   
+    perl-try-tiny:              0.30-pl526_1                bioconda   
+    perl-types-serialiser:      1.0-pl526_2                 bioconda   
+    perl-uri:                   1.76-pl526_0                bioconda   
+    perl-www-robotrules:        6.02-pl526_3                bioconda   
+    perl-xml-namespacesupport:  1.12-pl526_0                bioconda   
+    perl-xml-parser:            2.44_01-pl5262hc3e0081_1002 conda-forge
+    perl-xml-sax:               1.02-pl526_0                bioconda   
+    perl-xml-sax-base:          1.09-pl526_0                bioconda   
+    perl-xml-sax-expat:         0.51-pl526_3                bioconda   
+    perl-xml-simple:            2.25-pl526_1                bioconda   
+    perl-xsloader:              0.24-pl526_0                bioconda   
+    pip:                        21.2.4-pyhd8ed1ab_0         conda-forge
+    platon:                     1.6-pyhdfd78af_1            local      
+    prodigal:                   2.6.3-h779adbc_3            bioconda   
+    python:                     3.9.7-h49503c6_0_cpython    conda-forge
+    python_abi:                 3.9-2_cp39                  conda-forge
+    readline:                   8.1-h46c0cb4_0              conda-forge
+    setuptools:                 57.4.0-py39hf3d152e_0       conda-forge
+    sqlite:                     3.36.0-h9cd32fc_0           conda-forge
+    tk:                         8.6.11-h27826a3_1           conda-forge
+    tzdata:                     2021a-he74cb21_1            conda-forge
+    wheel:                      0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:                         5.2.5-h516909a_1            conda-forge
+    zlib:                       1.2.11-h516909a_1010        conda-forge
+    zstd:                       1.5.0-ha95c52a_0            conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/platon_1630954745544/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/platon_1630954745544/test_tmp
+usage: platon [--db DB] [--prefix PREFIX] [--output OUTPUT]
+              [--mode {sensitivity,accuracy,specificity}] [--characterize]
+              [--help] [--verbose] [--threads THREADS] [--version]
+              <genome>
+
+Identification and characterization of bacterial plasmid contigs from short-read draft assemblies.
+
+Input / Output:
+  <genome>              draft genome in fasta format
+  --db DB, -d DB        database path (default = <platon_path>/db)
+  --prefix PREFIX, -p PREFIX
+                        Prefix for output files
+  --output OUTPUT, -o OUTPUT
+                        Output directory (default = current working directory)
+
+Workflow:
+  --mode {sensitivity,accuracy,specificity}, -m {sensitivity,accuracy,specificity}
+                        applied filter mode: sensitivity: RDS only (>= 95%
+                        sensitivity); specificity: RDS only (>=99.9%
+                        specificity); accuracy: RDS & characterization
+                        heuristics (highest accuracy) (default = accuracy)
+  --characterize, -c    deactivate filters; characterize all contigs
+
+General:
+  --help, -h            Show this help message and exit
+  --verbose, -v         Print verbose information
+  --threads THREADS, -t THREADS
+                        Number of threads to use (default = number of
+                        available CPUs)
+  --version             show program's version number and exit
+
+Citation:
+Schwengers O., Barth P., Falgenhauer L., Hain T., Chakraborty T., & Goesmann A. (2020).
+Platon: identification and characterization of bacterial plasmid contigs in short-read draft assemblies exploiting protein sequence-based replicon distribution scores.
+Microbial Genomics, 95, 295. https://doi.org/10.1099/mgen.0.000398
+
+GitHub:
+https://github.com/oschwengers/platon
+diamond v2.0.11.149 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+Syntax: diamond COMMAND [OPTIONS]
+
+Commands:
+makedb	Build DIAMOND database from a FASTA file
+blastp	Align amino acid query sequences against a protein reference database
+blastx	Align DNA query sequences against a protein reference database
+view	View DIAMOND alignment archive (DAA) formatted file
+help	Produce help message
+version	Display version information
+getseq	Retrieve sequences from a DIAMOND database file
+dbinfo	Print information about a DIAMOND database file
+test	Run regression tests
+makeidx	Make database index
+
+General options:
+--threads (-p)           number of CPU threads
+--db (-d)                database file
+--out (-o)               output file
+--outfmt (-f)            output format
+	0   = BLAST pairwise
+	5   = BLAST XML
+	6   = BLAST tabular
+	100 = DIAMOND alignment archive (DAA)
+	101 = SAM
+
+	Value 6 may be followed by a space-separated list of these keywords:
+
+	qseqid means Query Seq - id
+	qlen means Query sequence length
+	sseqid means Subject Seq - id
+	sallseqid means All subject Seq - id(s), separated by a ';'
+	slen means Subject sequence length
+	qstart means Start of alignment in query
+	qend means End of alignment in query
+	sstart means Start of alignment in subject
+	send means End of alignment in subject
+	qseq means Aligned part of query sequence
+	qseq_translated means Aligned part of query sequence (translated)
+	full_qseq means Query sequence
+	full_qseq_mate means Query sequence of the mate
+	sseq means Aligned part of subject sequence
+	full_sseq means Subject sequence
+	evalue means Expect value
+	bitscore means Bit score
+	score means Raw score
+	length means Alignment length
+	pident means Percentage of identical matches
+	nident means Number of identical matches
+	mismatch means Number of mismatches
+	positive means Number of positive - scoring matches
+	gapopen means Number of gap openings
+	gaps means Total number of gaps
+	ppos means Percentage of positive - scoring matches
+	qframe means Query frame
+	btop means Blast traceback operations(BTOP)
+	cigar means CIGAR string
+	staxids means unique Subject Taxonomy ID(s), separated by a ';' (in numerical order)
+	sscinames means unique Subject Scientific Name(s), separated by a ';'
+	sskingdoms means unique Subject Super Kingdom(s), separated by a ';'
+	skingdoms means unique Subject Kingdom(s), separated by a ';'
+	sphylums means unique Subject Phylum(s), separated by a ';'
+	stitle means Subject Title
+	salltitles means All Subject Title(s), separated by a '<>'
+	qcovhsp means Query Coverage Per HSP
+	scovhsp means Subject Coverage Per HSP
+	qtitle means Query title
+	qqual means Query quality values for the aligned part of the query
+	full_qqual means Query quality values
+	qstrand means Query strand
+
+	Default: qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore
+--verbose (-v)           verbose console output
+--log                    enable debug log
+--quiet                  disable console output
+--header                 Write header lines to blast tabular format.
+
+Makedb options:
+--in                     input reference file in FASTA format
+--taxonmap               protein accession to taxid mapping file
+--taxonnodes             taxonomy nodes.dmp from NCBI
+--taxonnames             taxonomy names.dmp from NCBI
+
+Aligner options:
+--query (-q)             input query file
+--strand                 query strands to search (both/minus/plus)
+--un                     file for unaligned queries
+--al                     file or aligned queries
+--unfmt                  format of unaligned query file (fasta/fastq)
+--alfmt                  format of aligned query file (fasta/fastq)
+--unal                   report unaligned queries (0=no, 1=yes)
+--max-target-seqs (-k)   maximum number of target sequences to report alignments for (default=25)
+--top                    report alignments within this percentage range of top alignment score (overrides --max-target-seqs)
+--max-hsps               maximum number of HSPs per target sequence to report for each query (default=1)
+--range-culling          restrict hit culling to overlapping query ranges
+--compress               compression for output files (0=none, 1=gzip, zstd)
+--evalue (-e)            maximum e-value to report alignments (default=0.001)
+--min-score              minimum bit score to report alignments (overrides e-value setting)
+--id                     minimum identity% to report an alignment
+--query-cover            minimum query cover% to report an alignment
+--subject-cover          minimum subject cover% to report an alignment
+--fast                   enable fast mode
+--mid-sensitive          enable mid-sensitive mode
+--sensitive              enable sensitive mode)
+--more-sensitive         enable more sensitive mode
+--very-sensitive         enable very sensitive mode
+--ultra-sensitive        enable ultra sensitive mode
+--iterate                iterated search with increasing sensitivity
+--global-ranking (-g)    number of targets for global ranking
+--block-size (-b)        sequence block size in billions of letters (default=2.0)
+--index-chunks (-c)      number of chunks for index processing (default=4)
+--tmpdir (-t)            directory for temporary files
+--parallel-tmpdir        directory for temporary files used by multiprocessing
+--gapopen                gap open penalty
+--gapextend              gap extension penalty
+--frameshift (-F)        frame shift penalty (default=disabled)
+--long-reads             short for --range-culling --top 10 -F 15
+--matrix                 score matrix for protein alignment (default=BLOSUM62)
+--custom-matrix          file containing custom scoring matrix
+--comp-based-stats       composition based statistics mode (0-4)
+--masking                enable tantan masking of repeat regions (0/1=default)
+--query-gencode          genetic code to use to translate query (see user manual)
+--salltitles             include full subject titles in DAA file
+--sallseqid              include all subject ids in DAA file
+--no-self-hits           suppress reporting of identical self hits
+--taxonlist              restrict search to list of taxon ids (comma-separated)
+--taxon-exclude          exclude list of taxon ids (comma-separated)
+--seqidlist              filter the database by list of accessions
+--skip-missing-seqids    ignore accessions missing in the database
+
+Advanced options:
+--algo                   Seed search algorithm (0=double-indexed/1=query-indexed/ctg=contiguous-seed)
+--bin                    number of query bins for seed search
+--min-orf (-l)           ignore translated sequences without an open reading frame of at least this length
+--freq-sd                number of standard deviations for ignoring frequent seeds
+--id2                    minimum number of identities for stage 1 hit
+--xdrop (-x)             xdrop for ungapped alignment
+--gapped-filter-evalue   E-value threshold for gapped filter (auto)
+--band                   band for dynamic programming computation
+--shapes (-s)            number of seed shapes (default=all available)
+--shape-mask             seed shapes
+--multiprocessing        enable distributed-memory parallel processing
+--mp-init                initialize multiprocessing run
+--mp-recover             enable continuation of interrupted multiprocessing run
+--mp-query-chunk         process only a single query chunk as specified
+--ext-chunk-size         chunk size for adaptive ranking (default=auto)
+--no-ranking             disable ranking heuristic
+--ext                    Extension mode (banded-fast/banded-slow/full)
+--culling-overlap        minimum range overlap with higher scoring hit to delete a hit (default=50%)
+--taxon-k                maximum number of targets to report per species
+--range-cover            percentage of query range to be covered for range culling (default=50%)
+--dbsize                 effective database size (in letters)
+--no-auto-append         disable auto appending of DAA and DMND file extensions
+--xml-blord-format       Use gnl|BL_ORD_ID| style format in XML output
+--stop-match-score       Set the match score of stop codons against each other.
+--tantan-minMaskProb     minimum repeat probability for masking (default=0.9)
+--file-buffer-size       file buffer size in bytes (default=67108864)
+--memory-limit (-M)      Memory limit for extension stage in GB
+--no-unlink              Do not unlink temporary files.
+--target-indexed         Enable target-indexed mode
+--ignore-warnings        Ignore warnings
+
+View options:
+--daa (-a)               DIAMOND alignment archive (DAA) file
+--forwardonly            only show alignments of forward strand
+
+Getseq options:
+--seq                    Sequence numbers to display.
+
+Online documentation at http://www.diamondsearch.org
+# cmscan :: search sequence(s) against a CM database
+# INFERNAL 1.1.4 (Dec 2020)
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Usage: cmscan [-options] <cmdb> <seqfile>
+
+Basic options:
+  -h        : show brief help on version and usage
+  -g        : configure CM for glocal alignment [default: local]
+  -Z <x>    : set search space size in *Mb* to <x> for E-value calculations  (x>0)
+  --devhelp : show list of otherwise hidden developer/expert options
+
+Options directing output:
+  -o <f>       : direct output to file <f>, not stdout
+  --tblout <f> : save parseable table of hits to file <s>
+  --fmt <n>    : set hit table format to <n>  (1<=n<=2)
+  --acc        : prefer accessions over names in output
+  --noali      : don't output alignments, so output is smaller
+  --notextw    : unlimit ASCII text output line width
+  --textw <n>  : set max width of ASCII text output lines  [120]  (n>=120)
+  --verbose    : report extra information; mainly useful for debugging
+
+Options controlling reporting thresholds:
+  -E <x> : report sequences <= this E-value threshold in output  [10.0]  (x>0)
+  -T <x> : report sequences >= this score threshold in output
+
+Options controlling inclusion (significance) thresholds:
+  --incE <x> : consider sequences <= this E-value threshold as significant  [0.01]
+  --incT <x> : consider sequences >= this score threshold as significant
+
+Options controlling model-specific reporting thresholds:
+  --cut_ga : use CM's GA gathering cutoffs as reporting thresholds
+  --cut_nc : use CM's NC noise cutoffs as reporting thresholds
+  --cut_tc : use CM's TC trusted cutoffs as reporting thresholds
+
+Options controlling acceleration heuristics*:
+  --max      : turn all heuristic filters off (slow)
+  --nohmm    : skip all HMM filter stages, use only CM (slow)
+  --mid      : skip first two HMM filter stages (SSV & Vit)
+  --default  : default: run search space size-dependent pipeline  [default]
+  --rfam     : set heuristic filters at Rfam-level (fast)
+  --hmmonly  : use HMM only, don't use a CM at all
+  --FZ <x>   : set filters to defaults used for a search space of size <x> Mb
+  --Fmid <x> : with --mid, set P-value threshold for HMM stages to <x>  [0.02]
+
+Other options*:
+  --notrunc     : do not allow truncated hits at sequence termini
+  --anytrunc    : allow full and truncated hits anywhere within sequences
+  --nohmmonly   : never run HMM-only mode, not even for models with 0 basepairs
+  --nonull3     : turn off the NULL3 post hoc additional null model
+  --mxsize <x>  : set max allowed alnment mx size to <x> Mb [df: autodetermined]
+  --smxsize <x> : set max allowed size of search DP matrices to <x> Mb  [128.]
+  --cyk         : use scanning CM CYK algorithm, not Inside in final stage
+  --acyk        : align hits with CYK, not optimal accuracy
+  --wcx <x>     : set W (expected max hit len) as <x> * cm->clen (model len)
+  --toponly     : only search the top strand
+  --bottomonly  : only search the bottom strand
+  --qformat <s> : assert query <seqfile> is in format <s>: no autodetection
+  --glist <f>   : configure CMs listed in file <f> in glocal mode, others in local
+  --clanin <f>  : read clan information from file <f>
+  --oclan       : w/'--fmt 2' and '--tblout', only mark overlaps within clans
+  --oskip       : w/'--fmt 2' and '--tblout', do not output lower scoring overlaps
+  --cpu <n>     : number of parallel CPU workers to use for multithreads
+
+*Use --devhelp to show additional expert options.
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.3.2 (Nov 2020); http://hmmer.org/
+# Copyright (C) 2020 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Usage: hmmsearch [options] <hmmfile> <seqdb>
+
+Basic options:
+  -h : show brief help on version and usage
+
+Options directing output:
+  -o <f>           : direct output to file <f>, not stdout
+  -A <f>           : save multiple alignment of all hits to file <f>
+  --tblout <f>     : save parseable table of per-sequence hits to file <f>
+  --domtblout <f>  : save parseable table of per-domain hits to file <f>
+  --pfamtblout <f> : save table of hits and domains to file, in Pfam format <f>
+  --acc            : prefer accessions over names in output
+  --noali          : don't output alignments, so output is smaller
+  --notextw        : unlimit ASCII text output line width
+  --textw <n>      : set max width of ASCII text output lines  [120]  (n>=120)
+
+Options controlling reporting thresholds:
+  -E <x>     : report sequences <= this E-value threshold in output  [10.0]  (x>0)
+  -T <x>     : report sequences >= this score threshold in output
+  --domE <x> : report domains <= this E-value threshold in output  [10.0]  (x>0)
+  --domT <x> : report domains >= this score cutoff in output
+
+Options controlling inclusion (significance) thresholds:
+  --incE <x>    : consider sequences <= this E-value threshold as significant
+  --incT <x>    : consider sequences >= this score threshold as significant
+  --incdomE <x> : consider domains <= this E-value threshold as significant
+  --incdomT <x> : consider domains >= this score threshold as significant
+
+Options controlling model-specific thresholding:
+  --cut_ga : use profile's GA gathering cutoffs to set all thresholding
+  --cut_nc : use profile's NC noise cutoffs to set all thresholding
+  --cut_tc : use profile's TC trusted cutoffs to set all thresholding
+
+Options controlling acceleration heuristics:
+  --max    : Turn all heuristic filters off (less speed, more power)
+  --F1 <x> : Stage 1 (MSV) threshold: promote hits w/ P <= F1  [0.02]
+  --F2 <x> : Stage 2 (Vit) threshold: promote hits w/ P <= F2  [1e-3]
+  --F3 <x> : Stage 3 (Fwd) threshold: promote hits w/ P <= F3  [1e-5]
+  --nobias : turn off composition bias filter
+
+Other expert options:
+  --nonull2     : turn off biased composition score corrections
+  -Z <x>        : set # of comparisons done, for E-value calculation
+  --domZ <x>    : set # of significant seqs, for domain E-value calculation
+  --seed <n>    : set RNG seed to <n> (if 0: one-time arbitrary seed)  [42]
+  --tformat <s> : assert target <seqfile> is in format <s>: no autodetection
+  --cpu <n>     : number of parallel CPU workers to use for multithreads  [2]
+4.0.0rc1
+USAGE
+  blastn [-h] [-help] [-import_search_strategy filename]
+    [-export_search_strategy filename] [-task task_name] [-db database_name]
+    [-dbsize num_letters] [-gilist filename] [-seqidlist filename]
+    [-negative_gilist filename] [-negative_seqidlist filename]
+    [-taxids taxids] [-negative_taxids taxids] [-taxidlist filename]
+    [-negative_taxidlist filename] [-entrez_query entrez_query]
+    [-db_soft_mask filtering_algorithm] [-db_hard_mask filtering_algorithm]
+    [-subject subject_input_file] [-subject_loc range] [-query input_file]
+    [-out output_file] [-evalue evalue] [-word_size int_value]
+    [-gapopen open_penalty] [-gapextend extend_penalty]
+    [-perc_identity float_value] [-qcov_hsp_perc float_value]
+    [-max_hsps int_value] [-xdrop_ungap float_value] [-xdrop_gap float_value]
+    [-xdrop_gap_final float_value] [-searchsp int_value]
+    [-sum_stats bool_value] [-penalty penalty] [-reward reward] [-no_greedy]
+    [-min_raw_gapped_score int_value] [-template_type type]
+    [-template_length int_value] [-dust DUST_options]
+    [-filtering_db filtering_database]
+    [-window_masker_taxid window_masker_taxid]
+    [-window_masker_db window_masker_db] [-soft_masking soft_masking]
+    [-ungapped] [-culling_limit int_value] [-best_hit_overhang float_value]
+    [-best_hit_score_edge float_value] [-subject_besthit]
+    [-window_size int_value] [-off_diagonal_range int_value]
+    [-use_index boolean] [-index_name string] [-lcase_masking]
+    [-query_loc range] [-strand strand] [-parse_deflines] [-outfmt format]
+    [-show_gis] [-num_descriptions int_value] [-num_alignments int_value]
+    [-line_length line_length] [-html] [-sorthits sort_hits]
+    [-sorthsps sort_hsps] [-max_target_seqs num_sequences]
+    [-num_threads int_value] [-mt_mode int_value] [-remote] [-version]
+
+DESCRIPTION
+   Nucleotide-Nucleotide BLAST 2.12.0+
+
+OPTIONAL ARGUMENTS
+ -h
+   Print USAGE and DESCRIPTION;  ignore all other parameters
+ -help
+   Print USAGE, DESCRIPTION and ARGUMENTS; ignore all other parameters
+ -version
+   Print version number;  ignore other arguments
+
+ *** Input query options
+ -query <File_In>
+   Input file name
+   Default = `-'
+ -query_loc <String>
+   Location on the query sequence in 1-based offsets (Format: start-stop)
+ -strand <String, `both', `minus', `plus'>
+   Query strand(s) to search against database/subject
+   Default = `both'
+
+ *** General search options
+ -task <String, Permissible values: 'blastn' 'blastn-short' 'dc-megablast'
+                'megablast' 'rmblastn' >
+   Task to execute
+   Default = `megablast'
+ -db <String>
+   BLAST database name
+    * Incompatible with:  subject, subject_loc
+ -out <File_Out>
+   Output file name
+   Default = `-'
+ -evalue <Real>
+   Expectation value (E) threshold for saving hits 
+   Default = `10'
+ -word_size <Integer, >=4>
+   Word size for wordfinder algorithm (length of best perfect match)
+ -gapopen <Integer>
+   Cost to open a gap
+ -gapextend <Integer>
+   Cost to extend a gap
+ -penalty <Integer, <=0>
+   Penalty for a nucleotide mismatch
+ -reward <Integer, >=0>
+   Reward for a nucleotide match
+ -use_index <Boolean>
+   Use MegaBLAST database index
+   Default = `false'
+ -index_name <String>
+   MegaBLAST database index name (deprecated; use only for old style indices)
+
+ *** BLAST-2-Sequences options
+ -subject <File_In>
+   Subject sequence(s) to search
+    * Incompatible with:  db, gilist, seqidlist, negative_gilist,
+   negative_seqidlist, taxids, taxidlist, negative_taxids, negative_taxidlist,
+   db_soft_mask, db_hard_mask
+ -subject_loc <String>
+   Location on the subject sequence in 1-based offsets (Format: start-stop)
+    * Incompatible with:  db, gilist, seqidlist, negative_gilist,
+   negative_seqidlist, taxids, taxidlist, negative_taxids, negative_taxidlist,
+   db_soft_mask, db_hard_mask, remote
+
+ *** Formatting options
+ -outfmt <String>
+   alignment view options:
+     0 = Pairwise,
+     1 = Query-anchored showing identities,
+     2 = Query-anchored no identities,
+     3 = Flat query-anchored showing identities,
+     4 = Flat query-anchored no identities,
+     5 = BLAST XML,
+     6 = Tabular,
+     7 = Tabular with comment lines,
+     8 = Seqalign (Text ASN.1),
+     9 = Seqalign (Binary ASN.1),
+    10 = Comma-separated values,
+    11 = BLAST archive (ASN.1),
+    12 = Seqalign (JSON),
+    13 = Multiple-file BLAST JSON,
+    14 = Multiple-file BLAST XML2,
+    15 = Single-file BLAST JSON,
+    16 = Single-file BLAST XML2,
+    17 = Sequence Alignment/Map (SAM),
+    18 = Organism Report
+   
+   Options 6, 7, 10 and 17 can be additionally configured to produce
+   a custom format specified by space delimited format specifiers,
+   or in the case of options 6, 7, and 10, by a token specified
+   by the delim keyword. E.g.: "17 delim=@ qacc sacc score".
+   The delim keyword must appear after the numeric output format
+   specification.
+   The supported format specifiers for options 6, 7 and 10 are:
+   	    qseqid means Query Seq-id
+   	       qgi means Query GI
+   	      qacc means Query accesion
+   	   qaccver means Query accesion.version
+   	      qlen means Query sequence length
+   	    sseqid means Subject Seq-id
+   	 sallseqid means All subject Seq-id(s), separated by a ';'
+   	       sgi means Subject GI
+   	    sallgi means All subject GIs
+   	      sacc means Subject accession
+   	   saccver means Subject accession.version
+   	   sallacc means All subject accessions
+   	      slen means Subject sequence length
+   	    qstart means Start of alignment in query
+   	      qend means End of alignment in query
+   	    sstart means Start of alignment in subject
+   	      send means End of alignment in subject
+   	      qseq means Aligned part of query sequence
+   	      sseq means Aligned part of subject sequence
+   	    evalue means Expect value
+   	  bitscore means Bit score
+   	     score means Raw score
+   	    length means Alignment length
+   	    pident means Percentage of identical matches
+   	    nident means Number of identical matches
+   	  mismatch means Number of mismatches
+   	  positive means Number of positive-scoring matches
+   	   gapopen means Number of gap openings
+   	      gaps means Total number of gaps
+   	      ppos means Percentage of positive-scoring matches
+   	    frames means Query and subject frames separated by a '/'
+   	    qframe means Query frame
+   	    sframe means Subject frame
+   	      btop means Blast traceback operations (BTOP)
+   	    staxid means Subject Taxonomy ID
+   	  ssciname means Subject Scientific Name
+   	  scomname means Subject Common Name
+   	sblastname means Subject Blast Name
+   	 sskingdom means Subject Super Kingdom
+   	   staxids means unique Subject Taxonomy ID(s), separated by a ';'
+   			 (in numerical order)
+   	 sscinames means unique Subject Scientific Name(s), separated by a ';'
+   	 scomnames means unique Subject Common Name(s), separated by a ';'
+   	sblastnames means unique Subject Blast Name(s), separated by a ';'
+   			 (in alphabetical order)
+   	sskingdoms means unique Subject Super Kingdom(s), separated by a ';'
+   			 (in alphabetical order) 
+   	    stitle means Subject Title
+   	salltitles means All Subject Title(s), separated by a '<>'
+   	   sstrand means Subject Strand
+   	     qcovs means Query Coverage Per Subject
+   	   qcovhsp means Query Coverage Per HSP
+   	    qcovus means Query Coverage Per Unique Subject (blastn only)
+   When not provided, the default value is:
+   'qaccver saccver pident length mismatch gapopen qstart qend sstart send
+   evalue bitscore', which is equivalent to the keyword 'std'
+   The supported format specifier for option 17 is:
+   	        SQ means Include Sequence Data
+   	        SR means Subject as Reference Seq
+   Default = `0'
+ -show_gis
+   Show NCBI GIs in deflines?
+ -num_descriptions <Integer, >=0>
+   Number of database sequences to show one-line descriptions for
+   Not applicable for outfmt > 4
+   Default = `500'
+    * Incompatible with:  max_target_seqs
+ -num_alignments <Integer, >=0>
+   Number of database sequences to show alignments for
+   Default = `250'
+    * Incompatible with:  max_target_seqs
+ -line_length <Integer, >=1>
+   Line length for formatting alignments
+   Not applicable for outfmt > 4
+   Default = `60'
+ -html
+   Produce HTML output?
+ -sorthits <Integer, (>=0 and =<4)>
+   Sorting option for hits:
+   alignment view options:
+     0 = Sort by evalue,
+     1 = Sort by bit score,
+     2 = Sort by total score,
+     3 = Sort by percent identity,
+     4 = Sort by query coverage
+   Not applicable for outfmt > 4
+ -sorthsps <Integer, (>=0 and =<4)>
+   Sorting option for hps:
+     0 = Sort by hsp evalue,
+     1 = Sort by hsp score,
+     2 = Sort by hsp query start,
+     3 = Sort by hsp percent identity,
+     4 = Sort by hsp subject start
+   Not applicable for outfmt != 0
+
+ *** Query filtering options
+ -dust <String>
+   Filter query sequence with DUST (Format: 'yes', 'level window linker', or
+   'no' to disable)
+   Default = `20 64 1'
+ -filtering_db <String>
+   BLAST database containing filtering elements (i.e.: repeats)
+ -window_masker_taxid <Integer>
+   Enable WindowMasker filtering using a Taxonomic ID
+ -window_masker_db <String>
+   Enable WindowMasker filtering using this repeats database.
+ -soft_masking <Boolean>
+   Apply filtering locations as soft masks
+   Default = `true'
+ -lcase_masking
+   Use lower case filtering in query and subject sequence(s)?
+
+ *** Restrict search or results
+ -gilist <String>
+   Restrict search of database to list of GIs
+    * Incompatible with:  seqidlist, taxids, taxidlist, negative_gilist,
+   negative_seqidlist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -seqidlist <String>
+   Restrict search of database to list of SeqIDs
+    * Incompatible with:  gilist, taxids, taxidlist, negative_gilist,
+   negative_seqidlist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -negative_gilist <String>
+   Restrict search of database to everything except the specified GIs
+    * Incompatible with:  gilist, seqidlist, taxids, taxidlist,
+   negative_seqidlist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -negative_seqidlist <String>
+   Restrict search of database to everything except the specified SeqIDs
+    * Incompatible with:  gilist, seqidlist, taxids, taxidlist,
+   negative_gilist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -taxids <String>
+   Restrict search of database to include only the specified taxonomy IDs
+   (multiple IDs delimited by ',')
+    * Incompatible with:  gilist, seqidlist, taxidlist, negative_gilist,
+   negative_seqidlist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -negative_taxids <String>
+   Restrict search of database to everything except the specified taxonomy IDs
+   (multiple IDs delimited by ',')
+    * Incompatible with:  gilist, seqidlist, taxids, taxidlist,
+   negative_gilist, negative_seqidlist, negative_taxidlist, remote, subject,
+   subject_loc
+ -taxidlist <String>
+   Restrict search of database to include only the specified taxonomy IDs
+    * Incompatible with:  gilist, seqidlist, taxids, negative_gilist,
+   negative_seqidlist, negative_taxids, negative_taxidlist, remote, subject,
+   subject_loc
+ -negative_taxidlist <String>
+   Restrict search of database to everything except the specified taxonomy IDs
+    * Incompatible with:  gilist, seqidlist, taxids, taxidlist,
+   negative_gilist, negative_seqidlist, negative_taxids, remote, subject,
+   subject_loc
+ -entrez_query <String>
+   Restrict search with the given Entrez query
+    * Requires:  remote
+ -db_soft_mask <String>
+   Filtering algorithm ID to apply to the BLAST database as soft masking
+    * Incompatible with:  db_hard_mask, subject, subject_loc
+ -db_hard_mask <String>
+   Filtering algorithm ID to apply to the BLAST database as hard masking
+    * Incompatible with:  db_soft_mask, subject, subject_loc
+ -perc_identity <Real, 0..100>
+   Percent identity
+ -qcov_hsp_perc <Real, 0..100>
+   Percent query coverage per hsp
+ -max_hsps <Integer, >=1>
+   Set maximum number of HSPs per subject sequence to save for each query
+ -culling_limit <Integer, >=0>
+   If the query range of a hit is enveloped by that of at least this many
+   higher-scoring hits, delete the hit
+    * Incompatible with:  best_hit_overhang, best_hit_score_edge
+ -best_hit_overhang <Real, (>0 and <0.5)>
+   Best Hit algorithm overhang value (recommended value: 0.1)
+    * Incompatible with:  culling_limit
+ -best_hit_score_edge <Real, (>0 and <0.5)>
+   Best Hit algorithm score edge value (recommended value: 0.1)
+    * Incompatible with:  culling_limit
+ -subject_besthit
+   Turn on best hit per subject sequence
+ -max_target_seqs <Integer, >=1>
+   Maximum number of aligned sequences to keep 
+   (value of 5 or more is recommended)
+   Default = `500'
+    * Incompatible with:  num_descriptions, num_alignments
+
+ *** Discontiguous MegaBLAST options
+ -template_type <String, `coding', `coding_and_optimal', `optimal'>
+   Discontiguous MegaBLAST template type
+    * Requires:  template_length
+ -template_length <Integer, Permissible values: '16' '18' '21' >
+   Discontiguous MegaBLAST template length
+    * Requires:  template_type
+
+ *** Statistical options
+ -dbsize <Int8>
+   Effective length of the database 
+ -searchsp <Int8, >=0>
+   Effective length of the search space
+ -sum_stats <Boolean>
+   Use sum statistics
+
+ *** Search strategy options
+ -import_search_strategy <File_In>
+   Search strategy to use
+    * Incompatible with:  export_search_strategy
+ -export_search_strategy <File_Out>
+   File name to record the search strategy used
+    * Incompatible with:  import_search_strategy
+
+ *** Extension options
+ -xdrop_ungap <Real>
+   X-dropoff value (in bits) for ungapped extensions
+ -xdrop_gap <Real>
+   X-dropoff value (in bits) for preliminary gapped extensions
+ -xdrop_gap_final <Real>
+   X-dropoff value (in bits) for final gapped alignment
+ -no_greedy
+   Use non-greedy dynamic programming extension
+ -min_raw_gapped_score <Integer>
+   Minimum raw gapped score to keep an alignment in the preliminary gapped and
+   traceback stages
+ -ungapped
+   Perform ungapped alignment only?
+ -window_size <Integer, >=0>
+   Multiple hits window size, use 0 to specify 1-hit algorithm
+ -off_diagonal_range <Integer, >=0>
+   Number of off-diagonals to search for the 2nd hit, use 0 to turn off
+   Default = `0'
+
+ *** Miscellaneous options
+ -parse_deflines
+   Should the query and subject defline(s) be parsed?
+ -num_threads <Integer, >=1>
+   Number of threads (CPUs) to use in the BLAST search
+   Default = `1'
+    * Incompatible with:  remote
+ -mt_mode <Integer, (>=0 and =<1)>
+   Multi-thread mode to use in BLAST search:
+    0 (auto) split by database 
+    1 split by queries
+   Default = `0'
+    * Requires:  num_threads
+ -remote
+   Execute search remotely?
+    * Incompatible with:  gilist, seqidlist, taxids, taxidlist,
+   negative_gilist, negative_seqidlist, negative_taxids, negative_taxidlist,
+   subject_loc, num_threads
+
+
+Resource usage statistics from testing platon:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: platon-1.6-pyhdfd78af_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
