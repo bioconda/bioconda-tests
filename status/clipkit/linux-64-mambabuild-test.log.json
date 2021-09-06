@@ -1,0 +1,196 @@
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython              1.79  py39h3811e60_0       conda-forge/linux-64                    Cached
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + clipkit               1.1.5  pyhdfd78af_0         /home/vsts/conda/conda-bld/linux-64      17 KB
+  + colorama              0.4.4  pyh9f0ad1d_0         conda-forge/noarch                      Cached
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                1.21.2  py39hdbf815f_0       conda-forge/linux-64                    Cached
+  + openssl              1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python                3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools           57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tqdm                 4.62.2  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + tzdata                2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 32 packages
+
+  Total download: 17 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: clipkit-1.1.5-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/clipkit_1630960694389/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py39h3811e60_0        conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    clipkit:          1.1.5-pyhdfd78af_0         local      
+    colorama:         0.4.4-pyh9f0ad1d_0         conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1l-h7f98852_0          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    python:           3.9.7-h49503c6_0_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    tqdm:             4.62.2-pyhd8ed1ab_0        conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/clipkit_1630960694389/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/clipkit_1630960694389/test_tmp
+import: 'clipkit'
+import: 'clipkit'
+      _____ _ _       _  _______ _______ 
+     / ____| (_)     | |/ /_   _|__   __|
+    | |    | |_ _ __ | ' /  | |    | |   
+    | |    | | | '_ \|  <   | |    | |   
+    | |____| | | |_) | . \ _| |_   | |   
+     \_____|_|_| .__/|_|\_\_____|  |_|   
+               | |                       
+               |_|  
+
+Version: 1.1.5
+Citation: Steenwyk et al. 2020, PLOS Biology. doi: 10.1371/journal.pbio.3001007
+https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001007
+
+ClipKIT trims multiple sequence alignments and maintains phylogenetically informative sites.
+
+Usage: clipkit <input> [optional arguments]
+
+required arguments:
+  <input>                                     input file
+                                              (must be the first argument)
+
+optional arguments:
+  -o, --output <output_file_name>             output file name 
+                                              (default: input file named with '.clipkit' suffix)
+  
+  -m, --mode <smart-gap,                      trimming mode 
+              gappy,                          (default: smart-gap)
+              kpic,
+              kpic-smart-gap,           
+              kpic-gappy,                
+              kpi,
+              kpi-smart-gap,
+              kpi-gappy>                      
+  
+  -g, --gaps <threshold of gaps>              specifies gaps threshold
+                                              (default: 0.9)
+  
+  -if, --input_file_format <file_format>      specifies input file format
+                                              (default: auto-detect)    
+  
+  -of, --output_file_format <file_format>     specifies output file format
+                                              (default: same as input file format)
+  
+  -l, --log                                   creates a log file
+                                              (input file named with '.log' suffix)
+  
+  -c, --complementary                         creates complementary alignment of trimmed sequences
+                                              (input file named with '.log' suffix)
+  
+  -h, --help                                  help message
+  -v, --version                               print version
+  
+  -------------------------------------
+  | Detailed explanation of arguments | 
+  -------------------------------------
+  Modes
+      smart-gap: dynamic determination of gaps threshold
+      gappy: trim sites that are greater than the gaps threshold
+      kpic: keeps parismony informative and constant sites
+      kpic-smart-gap: a combination of kpic- and smart-gap-based trimming
+      kpic-gappy: a combination of kpic- and gappy-based trimming
+      kpi: keep only parsimony informative sites
+      kpi-smart-gap: a combination of kpi- and smart-gap-based trimming
+      kpi-gappy: a combination of kpi- and gappy-based trimming
+  
+  Gaps
+      Positions with gappyness greater than threshold will be trimmed. 
+      Must be between 0 and 1. (Default: 0.9). This argument is ignored
+      when using the kpi and kpic mdoes of trimming as well as an 
+      iteration of trimming that uses smart-gap.
+  
+  Input and output file formats
+      Supported input and output files include:
+      fasta, clustal, maf, mauve, phylip, phylip-sequential, 
+      phylip-relaxed, and stockholm
+  
+  Log
+      Creates a log file that summarizes the characteristics of each position.
+      The log file has four columns.
+      - Column 1 is the position in the alignment (starting at 1), 
+      - Column 2 reports if the site was trimmed or kept (trim and keep, respectively),
+      - Column 3 reports if the site is a parsimony informative site or not (PI and nPI, respectively), or
+        a constant site or not (Const, nConst), or neither (nConst, nPI)
+      - Column 4 reports the gappyness of the the position (number of gaps / entries in alignment)
+  
+  Complementary
+      Creates an alignment file of only the trimmed sequences
+
+Resource usage statistics from testing clipkit:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.6M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: clipkit-1.1.5-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
