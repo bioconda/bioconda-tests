@@ -1,0 +1,68 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "hbcb3906_1008",
+        "build_number": 1008,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "perl-5.26.2-hbcb3906_1008.tar.bz2",
+        "license": "Perl Artistic",
+        "name": "perl",
+        "sha256": "c90834a11a90edb7e09aef265c0556b8549060c1e65c160a44346e9d37e428f8",
+        "size": 14944981,
+        "subdir": "",
+        "timestamp": 1603925824000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/perl-5.26.2-hbcb3906_1008.tar.bz2",
+        "version": "5.26.2"
+      },
+      {
+        "build": "pl526_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "perl >=5.26.2,<5.26.3.0a0"
+        ],
+        "fn": "perl-test-without-module-0.20-pl526_0.tar.bz2",
+        "license": "perl_5",
+        "name": "perl-test-without-module",
+        "sha256": "c7fec3a790d78639add3bb7ced873edbe463e9959f2e1e5ea28a18d23a557441",
+        "size": 8159,
+        "subdir": "",
+        "timestamp": 1532040143000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/perl-test-without-module-0.20-pl526_0.tar.bz2",
+        "version": "0.20"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1008,
+        "build_string": "hbcb3906_1008",
+        "channel": "conda-forge",
+        "dist_name": "perl-5.26.2-hbcb3906_1008",
+        "name": "perl",
+        "platform": "",
+        "version": "5.26.2"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 0,
+        "build_string": "pl526_0",
+        "channel": "bioconda",
+        "dist_name": "perl-test-without-module-0.20-pl526_0",
+        "name": "perl-test-without-module",
+        "platform": "",
+        "version": "0.20"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}
