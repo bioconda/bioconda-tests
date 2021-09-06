@@ -1,0 +1,92 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bamtools             2.5.1  h87af4ef_9          bioconda/osx-64                          801 KB
+  + bwa                 0.7.17  h188c3c3_8          bioconda/osx-64                          208 KB
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + kmer-jellyfish       2.3.0  hb280591_2          bioconda/osx-64                          327 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libgcc               4.8.5  hdbeacc1_10         conda-forge/osx-64                       302 KB
+  + libgfortran          3.0.1  0                   conda-forge/osx-64                       495 KB
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + perl                5.32.1  0_h0d85af4_perl5    conda-forge/osx-64                        13 MB
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + repdenovo            0.0.1  h0d9c8f9_1          /Users/runner/conda/conda-bld/osx-64     188 KB
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + velvet              1.2.10  1                   bioconda/osx-64                          224 KB
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 24 packages
+
+  Total download: 16 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: repdenovo-0.0.1-h0d9c8f9_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/repdenovo_1630959823913/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    bamtools:        2.5.1-h87af4ef_9         bioconda   
+    bwa:             0.7.17-h188c3c3_8        bioconda   
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    kmer-jellyfish:  2.3.0-hb280591_2         bioconda   
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libgcc:          4.8.5-hdbeacc1_10        conda-forge
+    libgfortran:     3.0.1-0                  conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    perl:            5.32.1-0_h0d85af4_perl5  conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    repdenovo:       0.0.1-h0d9c8f9_1         local      
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    velvet:          1.2.10-1                 bioconda   
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/repdenovo_1630959823913/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/repdenovo_1630959823913/test_tmp
+Please check parameters setting!
+
+Resource usage statistics from testing repdenovo:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: repdenovo-0.0.1-h0d9c8f9_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
