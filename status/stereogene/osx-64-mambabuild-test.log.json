@@ -1,0 +1,343 @@
+  Package       Version  Build       Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx       12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+  + stereogene     2.20  h589c0e0_3  /Users/runner/conda/conda-bld/osx-64     382 KB
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 382 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: stereogene-2.20-h589c0e0_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/stereogene_1630917604108/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:     12.0.1-habf9029_0 conda-forge
+    stereogene: 2.20-h589c0e0_3   local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/stereogene_1630917604108/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/stereogene_1630917604108/test_tmp
+
+The StereoGene program compares pairs of tracks and calculates kernel correlations
+Usage:
+$ ./StereoGene [-parameters] trackFile_1 trackFile_2 ... trackFile_n
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-resPath <string>	path for results
+-confounder <string>	confounder filename
+-statistics <string>	cumulative file with statistics
+-params <string>	cumulative file with parameters
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+-pcorProfile <string>	Track for partial correlation
+-NA 	use NA values as unknown and fill them by noise
+-threshold <int>	threshold for input data for removing too small values: 0..250
+
+====================== Analysis parameters ====================== 
+-kernelSigma <float>	Kernel width
+-wSize <int>	Window size
+-maxNA <float>	Max number of NA values in window (percent)
+-maxZero <float>	Max number of zero values in window (percent)
+-nShuffle <int>	Number of shuffles for background calculation
+-sp 	the data is sparce
+
+====================== Output parameters ====================== 
+-outSpectr <0|1>	write fourier spectrums
+-outChrom <0|1>	write statistics by chromosomes
+-writeDistr <NONE|SHORT|DETAIL> 	write foreground and background distributions
+-r 	write R script for the result presentation
+-crossWidth 	Width of cross-correlation plot
+-Distances 	Write distance correlations
+-lc 	produce profile correlation
+-LCScale <LOG|LIN> 	Local correlation scale: LOG | LIN
+-L_FDR <float>	threshold on left FDR when write the local correlation
+-R_FDR <float>	threshold on right FDR when write the local correlation
+-outRes <NONE|XML|TAB|BOTH> 	format for results in statistics file
+
+====================== Happy correlations! ====================== 
+
+The Binning program create a track with binned data
+Usage:
+$ ./binning [-parameters] track1 track2 ...
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-resPath <string>	path for results
+-confounder <string>	confounder filename
+-statistics <string>	cumulative file with statistics
+-params <string>	cumulative file with parameters
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+-pcorProfile <string>	Track for partial correlation
+-NA 	use NA values as unknown and fill them by noise
+-threshold <int>	threshold for input data for removing too small values: 0..250
+
+====================== Analysis parameters ====================== 
+-kernelSigma <float>	Kernel width
+-wSize <int>	Window size
+-maxNA <float>	Max number of NA values in window (percent)
+-maxZero <float>	Max number of zero values in window (percent)
+-nShuffle <int>	Number of shuffles for background calculation
+-sp 	the data is sparce
+
+====================== Output parameters ====================== 
+-outSpectr <0|1>	write fourier spectrums
+-outChrom <0|1>	write statistics by chromosomes
+-writeDistr <NONE|SHORT|DETAIL> 	write foreground and background distributions
+-r 	write R script for the result presentation
+-crossWidth 	Width of cross-correlation plot
+-Distances 	Write distance correlations
+-lc 	produce profile correlation
+-LCScale <LOG|LIN> 	Local correlation scale: LOG | LIN
+-L_FDR <float>	threshold on left FDR when write the local correlation
+-R_FDR <float>	threshold on right FDR when write the local correlation
+-outRes <NONE|XML|TAB|BOTH> 	format for results in statistics file
+
+====================== Happy correlations! ====================== 
+
+The Confounder program creates a confounder track using set of the tracks
+Usage:
+$ ./parse_genes [-parameters] [RefSeq or GENECODE file]
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-resPath <string>	path for results
+-confounder <string>	confounder filename
+-statistics <string>	cumulative file with statistics
+-params <string>	cumulative file with parameters
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+-pcorProfile <string>	Track for partial correlation
+-NA 	use NA values as unknown and fill them by noise
+-threshold <int>	threshold for input data for removing too small values: 0..250
+
+====================== Analysis parameters ====================== 
+-kernelSigma <float>	Kernel width
+-wSize <int>	Window size
+-maxNA <float>	Max number of NA values in window (percent)
+-maxZero <float>	Max number of zero values in window (percent)
+-nShuffle <int>	Number of shuffles for background calculation
+-sp 	the data is sparce
+
+====================== Output parameters ====================== 
+-outSpectr <0|1>	write fourier spectrums
+-outChrom <0|1>	write statistics by chromosomes
+-writeDistr <NONE|SHORT|DETAIL> 	write foreground and background distributions
+-r 	write R script for the result presentation
+-crossWidth 	Width of cross-correlation plot
+-Distances 	Write distance correlations
+-lc 	produce profile correlation
+-LCScale <LOG|LIN> 	Local correlation scale: LOG | LIN
+-L_FDR <float>	threshold on left FDR when write the local correlation
+-R_FDR <float>	threshold on right FDR when write the local correlation
+-outRes <NONE|XML|TAB|BOTH> 	format for results in statistics file
+
+====================== Happy correlations! ====================== 
+
+The parse_genes program creates bed files for genes/exons/introns starts/bodies/ends
+Usage:
+$ ./parse_genes [-parameters] [RefSeq or GENECODE file]
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+-smoothZ <float>	Z-Score for smoothed profile
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-confounder <string>	confounder filename
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+
+====================== Happy correlations! ====================== 
+
+The Projection program creates tracks with exclusion of the defined confounder
+Usage:
+$ ./Projection [-parameters] track1 track2 ...
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-resPath <string>	path for results
+-confounder <string>	confounder filename
+-statistics <string>	cumulative file with statistics
+-params <string>	cumulative file with parameters
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+-pcorProfile <string>	Track for partial correlation
+-NA 	use NA values as unknown and fill them by noise
+-threshold <int>	threshold for input data for removing too small values: 0..250
+
+====================== Analysis parameters ====================== 
+-kernelSigma <float>	Kernel width
+-wSize <int>	Window size
+-maxNA <float>	Max number of NA values in window (percent)
+-maxZero <float>	Max number of zero values in window (percent)
+-nShuffle <int>	Number of shuffles for background calculation
+-sp 	the data is sparce
+
+====================== Output parameters ====================== 
+-outSpectr <0|1>	write fourier spectrums
+-outChrom <0|1>	write statistics by chromosomes
+-writeDistr <NONE|SHORT|DETAIL> 	write foreground and background distributions
+-r 	write R script for the result presentation
+-crossWidth 	Width of cross-correlation plot
+-Distances 	Write distance correlations
+-lc 	produce profile correlation
+-LCScale <LOG|LIN> 	Local correlation scale: LOG | LIN
+-L_FDR <float>	threshold on left FDR when write the local correlation
+-R_FDR <float>	threshold on right FDR when write the local correlation
+-outRes <NONE|XML|TAB|BOTH> 	format for results in statistics file
+
+====================== Happy correlations! ====================== 
+
+The Smoother program creates smoothed track using a kernel
+Usage:
+$ ./Smoother [-parameters] track1 track2 ...
+
+
+====================== common parameters ====================== 
+-v 	verbose
+-syntax 	strong syntax control in input files
+-verbose <0|1>	verbose
+-s 	no output to stdout
+-silent <0|1>	no output to stdout
+
+====================== preparation parameters ====================== 
+-bin <int>	bin size for input averaging
+-clear <0|1>	force binary profile preparation
+-c 	force  binary profile preparation
+-smoothZ <float>	Z-Score for smoothed profile
+
+====================== paths and files ====================== 
+-cfg <string>	config file
+-profPath <string>	path for binary profiles
+-trackPath <string>	path for tracks
+-confounder <string>	confounder filename
+-log <string>	cumulative log-file
+
+====================== input parameters ====================== 
+-chrom <string>	chromosome file
+-BufSize <int>	Buffer Size
+-bpType <SCORE|SIGNAL|LOGPVAL> 	The value used as a score for BroadPeak input file
+
+====================== Happy correlations! ====================== 
+
+Resource usage statistics from testing stereogene:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: stereogene-2.20-h589c0e0_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

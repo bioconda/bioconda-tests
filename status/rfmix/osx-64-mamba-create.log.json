@@ -1,0 +1,96 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "habf9029_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "libcxx-12.0.1-habf9029_0.tar.bz2",
+        "license": "Apache-2.0 WITH LLVM-exception",
+        "name": "libcxx",
+        "sha256": "1c671f293fee0e680a728f77b31189316456ba8b9e57e35218ce02b371f2a7f0",
+        "size": 1104124,
+        "subdir": "",
+        "timestamp": 1626161047000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/libcxx-12.0.1-habf9029_0.tar.bz2",
+        "version": "12.0.1"
+      },
+      {
+        "build": "hc929b4f_1001",
+        "build_number": 1001,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "pthread-stubs-0.4-hc929b4f_1001.tar.bz2",
+        "license": "MIT",
+        "name": "pthread-stubs",
+        "sha256": "6e3900bb241bcdec513d4e7180fe9a19186c1a38f0b4080ed619d26014222c53",
+        "size": 5653,
+        "subdir": "",
+        "timestamp": 1606147699000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/pthread-stubs-0.4-hc929b4f_1001.tar.bz2",
+        "version": "0.4"
+      },
+      {
+        "build": "h589c0e0_2",
+        "build_number": 2,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "pthread-stubs",
+          "libcxx >=11.1.0"
+        ],
+        "fn": "rfmix-2.03.r0.9505bfa-h589c0e0_2.tar.bz2",
+        "license": "Free for Academic Use",
+        "name": "rfmix",
+        "sha256": "7c5ff2796c079e7bfce8eedbc6b16672c890cfe75fe0052b04ec3fbe2d1aed61",
+        "size": 68994,
+        "subdir": "",
+        "timestamp": 1616727985000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/rfmix-2.03.r0.9505bfa-h589c0e0_2.tar.bz2",
+        "version": "2.03.r0.9505bfa"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "habf9029_0",
+        "channel": "conda-forge",
+        "dist_name": "libcxx-12.0.1-habf9029_0",
+        "name": "libcxx",
+        "platform": "",
+        "version": "12.0.1"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 1001,
+        "build_string": "hc929b4f_1001",
+        "channel": "conda-forge",
+        "dist_name": "pthread-stubs-0.4-hc929b4f_1001",
+        "name": "pthread-stubs",
+        "platform": "",
+        "version": "0.4"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 2,
+        "build_string": "h589c0e0_2",
+        "channel": "bioconda",
+        "dist_name": "rfmix-2.03.r0.9505bfa-h589c0e0_2",
+        "name": "rfmix",
+        "platform": "",
+        "version": "2.03.r0.9505bfa"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}
