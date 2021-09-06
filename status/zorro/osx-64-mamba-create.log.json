@@ -1,0 +1,96 @@
+{
+  "actions": {
+    "FETCH": [
+      {
+        "build": "hbcb3906_0",
+        "build_number": 0,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "perl-5.32.0-hbcb3906_0.tar.bz2",
+        "license": "Artistic-1.0-Perl",
+        "name": "perl",
+        "sha256": "2136feab1efa820d0bf8f24772a3d70ed628633412730e7cb275eb430f928411",
+        "size": 16374332,
+        "subdir": "",
+        "timestamp": 1604805753000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge/osx-64/perl-5.32.0-hbcb3906_0.tar.bz2",
+        "version": "5.32.0"
+      },
+      {
+        "build": "pl5320hb4d813b_2",
+        "build_number": 2,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [
+          "fasttree",
+          "perl >=5.32.0,<5.32.1.0a0"
+        ],
+        "fn": "zorro-2011.12.01-pl5320hb4d813b_2.tar.bz2",
+        "license": "Apache License 2.0",
+        "name": "zorro",
+        "sha256": "74bced6bfac0713c9968f5f6c889a4ef6238755c3cac8a5761dd57966143cfb1",
+        "size": 99356,
+        "subdir": "",
+        "timestamp": 1617317444000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/zorro-2011.12.01-pl5320hb4d813b_2.tar.bz2",
+        "version": "2011.12.01"
+      },
+      {
+        "build": "hb4d813b_5",
+        "build_number": 5,
+        "channel": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64",
+        "constrains": [],
+        "depends": [],
+        "fn": "fasttree-2.1.10-hb4d813b_5.tar.bz2",
+        "license": "GPL v2",
+        "name": "fasttree",
+        "sha256": "e2b4a4d28a3c2f6370898ef8a6cd1f052f1f99efc408812da7684cb5ed07f400",
+        "size": 150549,
+        "subdir": "",
+        "timestamp": 1616635939000,
+        "track_features": "",
+        "url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda/osx-64/fasttree-2.1.10-hb4d813b_5.tar.bz2",
+        "version": "2.1.10"
+      }
+    ],
+    "LINK": [
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 5,
+        "build_string": "hb4d813b_5",
+        "channel": "bioconda",
+        "dist_name": "fasttree-2.1.10-hb4d813b_5",
+        "name": "fasttree",
+        "platform": "",
+        "version": "2.1.10"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/conda-forge",
+        "build_number": 0,
+        "build_string": "hbcb3906_0",
+        "channel": "conda-forge",
+        "dist_name": "perl-5.32.0-hbcb3906_0",
+        "name": "perl",
+        "platform": "",
+        "version": "5.32.0"
+      },
+      {
+        "base_url": "https://github.com/bioconda/bioconda-repodata-archive/raw/2.2.1.2021.09.06.00.36.06/repodata/https=3A=2F/conda.anaconda.org/bioconda",
+        "build_number": 2,
+        "build_string": "pl5320hb4d813b_2",
+        "channel": "bioconda",
+        "dist_name": "zorro-2011.12.01-pl5320hb4d813b_2",
+        "name": "zorro",
+        "platform": "",
+        "version": "2011.12.01"
+      }
+    ],
+    "PREFIX": "/Users/runner/conda/envs/solve"
+  },
+  "dry_run": true,
+  "prefix": "/Users/runner/conda/envs/solve",
+  "success": true
+}

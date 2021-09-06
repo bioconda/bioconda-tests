@@ -1,0 +1,70 @@
+  Package             Version  Build             Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex         0.1  conda_forge       conda-forge/linux-64                    Cached
+  + _openmp_mutex         4.5  1_gnu             conda-forge/linux-64                    Cached
+  + fasttree           2.1.10  h779adbc_5        bioconda/linux-64                       338 KB
+  + libgcc-ng          11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + libgomp            11.1.0  hc902ee8_8        conda-forge/linux-64                    Cached
+  + perl               5.32.1  0_h7f98852_perl5  conda-forge/linux-64                     14 MB
+  + zorro          2011.12.01  h779adbc_2        /home/vsts/conda/conda-bld/linux-64      86 KB
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 15 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: zorro-2011.12.01-h779adbc_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/zorro_1630943507385/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge         conda-forge
+    _openmp_mutex: 4.5-1_gnu               conda-forge
+    fasttree:      2.1.10-h779adbc_5       bioconda   
+    libgcc-ng:     11.1.0-hc902ee8_8       conda-forge
+    libgomp:       11.1.0-hc902ee8_8       conda-forge
+    perl:          5.32.1-0_h7f98852_perl5 conda-forge
+    zorro:         2011.12.01-h779adbc_2   local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/zorro_1630943507385/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/zorro_1630943507385/test_tmp
+File not specified
+Usage: zorro [options] filename > outputfile
+
+ZORRO Options 
+
+-sample          : Sampling pairs to calculate alignment reliabilty [Off By Default]
+-nosample        : No Sampling i.e. using every pair to calculate alignment reliabilty [On By Default]
+-noweighting     : Using sum of pairs instead of weighted sum of pairs to calculate column confidence [Off By Default]
+-ignoregaps      : Ignore pair-gaps in columns when calculating column confidences [Off By Default]
+-Nsample NUMBER  : Tells ZORRO to sample #NUMBER pairs when sampling, automatically turns on -sample option [Samples 10*Nseq sequences By Default]
+-treeprog PROGRAM: Tells ZORRO to use PROGRAM instead of the default FastTree to create guide tree [FastTree By Default]
+-guide treefile  : User provided guide tree
+
+
+Resource usage statistics from testing zorro:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.5M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: zorro-2011.12.01-h779adbc_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
