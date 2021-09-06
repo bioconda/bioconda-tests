@@ -1,0 +1,131 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-log-any-1.045-pl526_1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp2xt9zgmi/info/recipe/conda_build_config.yaml
+  Package                     Version  Build            Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                       5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-apache-test             1.40  pl526_1          bioconda/osx-64                          115 KB
+  + perl-app-cpanminus         1.7044  pl526_1          bioconda/osx-64                          235 KB
+  + perl-carp                    1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-constant                1.33  pl526_1          bioconda/osx-64                           10 KB
+  + perl-exporter                5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker      7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-file-path               2.16  pl526_0          bioconda/osx-64                           17 KB
+  + perl-file-temp             0.2304  pl526_2          bioconda/osx-64                           26 KB
+  + perl-log-any                1.045  pl526_1          /Users/runner/conda/conda-bld/osx-64      31 KB
+  + perl-parent                 0.236  pl526_1          bioconda/osx-64                            6 KB
+  + perl-pathtools               3.75  pl526h1de35cc_1  bioconda/osx-64                           39 KB
+  + perl-storable                3.15  pl526h1de35cc_0  bioconda/osx-64                           56 KB
+  + perl-test-simple         1.302164  pl526_0          bioconda/osx-64                          132 KB
+  + perl-xsloader                0.24  pl526_0          bioconda/osx-64                            8 KB
+
+  Summary:
+
+  Install: 15 packages
+
+  Total download: 15 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-log-any_1630905762318/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-apache-test:        1.40-pl526_1         bioconda   
+    perl-app-cpanminus:      1.7044-pl526_1       bioconda   
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-constant:           1.33-pl526_1         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-file-path:          2.16-pl526_0         bioconda   
+    perl-file-temp:          0.2304-pl526_2       bioconda   
+    perl-log-any:            1.045-pl526_1        local      
+    perl-parent:             0.236-pl526_1        bioconda   
+    perl-pathtools:          3.75-pl526h1de35cc_1 bioconda   
+    perl-storable:           3.15-pl526h1de35cc_0 bioconda   
+    perl-test-simple:        1.302164-pl526_0     bioconda   
+    perl-xsloader:           0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-log-any_1630905762318/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-log-any_1630905762318/test_tmp
+import: Log::Any
+	using version 1.045
+import: Log::Any::Adapter
+	using version 1.045
+import: Log::Any::Adapter::Base
+	using version 1.045
+import: Log::Any::Adapter::File
+	using version 1.045
+import: Log::Any::Adapter::Null
+	using version 1.045
+import: Log::Any::Adapter::Stderr
+	using version 1.045
+import: Log::Any::Adapter::Stdout
+	using version 1.045
+import: Log::Any::Adapter::Test
+	using version 1.045
+import: Log::Any::Adapter::Util
+	using version 1.045
+import: Log::Any::Manager
+	using version 1.045
+import: Log::Any::Proxy
+	using version 1.045
+import: Log::Any::Proxy::Null
+	using version 1.045
+import: Log::Any::Proxy::Test
+	using version 1.045
+import: Log::Any::Test
+	using version 1.045
+import: Log::Any
+	using version 1.045
+import: Log::Any::Adapter
+	using version 1.045
+import: Log::Any::Adapter::Base
+	using version 1.045
+import: Log::Any::Adapter::File
+	using version 1.045
+import: Log::Any::Adapter::Null
+	using version 1.045
+import: Log::Any::Adapter::Stderr
+	using version 1.045
+import: Log::Any::Adapter::Stdout
+	using version 1.045
+import: Log::Any::Adapter::Test
+	using version 1.045
+import: Log::Any::Adapter::Util
+	using version 1.045
+import: Log::Any::Manager
+	using version 1.045
+import: Log::Any::Proxy
+	using version 1.045
+import: Log::Any::Proxy::Null
+	using version 1.045
+import: Log::Any::Proxy::Test
+	using version 1.045
+import: Log::Any::Test
+	using version 1.045
+
+Resource usage statistics from testing perl-log-any:
+   Process count: 3
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.8M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-log-any-1.045-pl526_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
