@@ -1,0 +1,457 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-ppi-1.236-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmph2b745od/info/recipe/conda_build_config.yaml
+  Package                     Version  Build            Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                 0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex                 4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                  11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                    11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libstdcxx-ng               11.1.0  h56837e0_8       conda-forge/linux-64                    Cached
+  + perl                       5.26.2  h36c2ea0_1008    conda-forge/linux-64                     15 MB
+  + perl-autoloader              5.74  pl526_2          bioconda/linux-64                         5 KB
+  + perl-carp                    1.38  pl526_3          bioconda/linux-64                        15 KB
+  + perl-class-xsaccessor        1.19  pl526_2          bioconda/linux-64                        35 KB
+  + perl-clone                   0.42  pl526h516909a_0  bioconda/linux-64                        13 KB
+  + perl-digest-md5              2.55  pl526_0          bioconda/linux-64                        18 KB
+  + perl-dynaloader              1.25  pl526_1          bioconda/linux-64                         3 KB
+  + perl-exporter                5.72  pl526_1          bioconda/linux-64                        13 KB
+  + perl-exporter-tiny       1.002001  pl526_0          bioconda/linux-64                        23 KB
+  + perl-extutils-makemaker      7.36  pl526_1          bioconda/linux-64                       153 KB
+  + perl-file-spec            3.48_01  pl526_1          bioconda/linux-64                         3 KB
+  + perl-hook-lexwrap            0.26  pl526_1          bioconda/linux-64                        11 KB
+  + perl-io-string               1.08  pl526_3          bioconda/linux-64                        10 KB
+  + perl-list-moreutils         0.428  pl526_1          bioconda/linux-64                        28 KB
+  + perl-list-moreutils-xs      0.428  pl526_0          bioconda/linux-64                        43 KB
+  + perl-list-util               1.38  pl526_1          bioconda/linux-64                         3 KB
+  + perl-params-util             1.07  pl526h6bb024c_4  bioconda/linux-64                        14 KB
+  + perl-ppi                    1.236  pl526_2          /home/vsts/conda/conda-bld/linux-64     147 KB
+  + perl-task-weaken             1.06  pl526_0          bioconda/linux-64                         8 KB
+  + perl-time-hires            1.9760  pl526h14c3975_1  bioconda/linux-64                        25 KB
+  + perl-xsloader                0.24  pl526_0          bioconda/linux-64                         8 KB
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 16 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-ppi_1630909273668/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:           0.1-conda_forge        conda-forge
+    _openmp_mutex:           4.5-1_gnu              conda-forge
+    libgcc-ng:               11.1.0-hc902ee8_8      conda-forge
+    libgomp:                 11.1.0-hc902ee8_8      conda-forge
+    libstdcxx-ng:            11.1.0-h56837e0_8      conda-forge
+    perl:                    5.26.2-h36c2ea0_1008   conda-forge
+    perl-autoloader:         5.74-pl526_2           bioconda   
+    perl-carp:               1.38-pl526_3           bioconda   
+    perl-class-xsaccessor:   1.19-pl526_2           bioconda   
+    perl-clone:              0.42-pl526h516909a_0   bioconda   
+    perl-digest-md5:         2.55-pl526_0           bioconda   
+    perl-dynaloader:         1.25-pl526_1           bioconda   
+    perl-exporter:           5.72-pl526_1           bioconda   
+    perl-exporter-tiny:      1.002001-pl526_0       bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1           bioconda   
+    perl-file-spec:          3.48_01-pl526_1        bioconda   
+    perl-hook-lexwrap:       0.26-pl526_1           bioconda   
+    perl-io-string:          1.08-pl526_3           bioconda   
+    perl-list-moreutils:     0.428-pl526_1          bioconda   
+    perl-list-moreutils-xs:  0.428-pl526_0          bioconda   
+    perl-list-util:          1.38-pl526_1           bioconda   
+    perl-params-util:        1.07-pl526h6bb024c_4   bioconda   
+    perl-ppi:                1.236-pl526_2          local      
+    perl-task-weaken:        1.06-pl526_0           bioconda   
+    perl-time-hires:         1.9760-pl526h14c3975_1 bioconda   
+    perl-xsloader:           0.24-pl526_0           bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-ppi_1630909273668/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-ppi_1630909273668/test_tmp
+import: PPI
+	using version 1.236
+import: PPI::Cache
+	using version 1.236
+import: PPI::Document
+	using version 1.236
+import: PPI::Document::File
+	using version 1.236
+import: PPI::Document::Fragment
+	using version 1.236
+import: PPI::Document::Normalized
+	using version 1.236
+import: PPI::Dumper
+	using version 1.236
+import: PPI::Element
+	using version 1.236
+import: PPI::Exception
+	using version 1.236
+import: PPI::Exception::ParserRejection
+	using version 1.236
+import: PPI::Find
+	using version 1.236
+import: PPI::Lexer
+	using version 1.236
+import: PPI::Node
+	using version 1.236
+import: PPI::Normal
+	using version 1.236
+import: PPI::Normal::Standard
+	using version 1.236
+import: PPI::Statement
+	using version 1.236
+import: PPI::Statement::Break
+	using version 1.236
+import: PPI::Statement::Compound
+	using version 1.236
+import: PPI::Statement::Data
+	using version 1.236
+import: PPI::Statement::End
+	using version 1.236
+import: PPI::Statement::Expression
+	using version 1.236
+import: PPI::Statement::Given
+	using version 1.236
+import: PPI::Statement::Include
+	using version 1.236
+import: PPI::Statement::Include::Perl6
+	using version 1.236
+import: PPI::Statement::Null
+	using version 1.236
+import: PPI::Statement::Package
+	using version 1.236
+import: PPI::Statement::Scheduled
+	using version 1.236
+import: PPI::Statement::Sub
+	using version 1.236
+import: PPI::Statement::Unknown
+	using version 1.236
+import: PPI::Statement::UnmatchedBrace
+	using version 1.236
+import: PPI::Statement::Variable
+	using version 1.236
+import: PPI::Statement::When
+	using version 1.236
+import: PPI::Structure
+	using version 1.236
+import: PPI::Structure::Block
+	using version 1.236
+import: PPI::Structure::Condition
+	using version 1.236
+import: PPI::Structure::Constructor
+	using version 1.236
+import: PPI::Structure::For
+	using version 1.236
+import: PPI::Structure::Given
+	using version 1.236
+import: PPI::Structure::List
+	using version 1.236
+import: PPI::Structure::Subscript
+	using version 1.236
+import: PPI::Structure::Unknown
+	using version 1.236
+import: PPI::Structure::When
+	using version 1.236
+import: PPI::Token
+	using version 1.236
+import: PPI::Token::ArrayIndex
+	using version 1.236
+import: PPI::Token::Attribute
+	using version 1.236
+import: PPI::Token::BOM
+	using version 1.236
+import: PPI::Token::Cast
+	using version 1.236
+import: PPI::Token::Comment
+	using version 1.236
+import: PPI::Token::DashedWord
+	using version 1.236
+import: PPI::Token::Data
+	using version 1.236
+import: PPI::Token::End
+	using version 1.236
+import: PPI::Token::HereDoc
+	using version 1.236
+import: PPI::Token::Label
+	using version 1.236
+import: PPI::Token::Magic
+	using version 1.236
+import: PPI::Token::Number
+	using version 1.236
+import: PPI::Token::Number::Binary
+	using version 1.236
+import: PPI::Token::Number::Exp
+	using version 1.236
+import: PPI::Token::Number::Float
+	using version 1.236
+import: PPI::Token::Number::Hex
+	using version 1.236
+import: PPI::Token::Number::Octal
+	using version 1.236
+import: PPI::Token::Number::Version
+	using version 1.236
+import: PPI::Token::Operator
+	using version 1.236
+import: PPI::Token::Pod
+	using version 1.236
+import: PPI::Token::Prototype
+	using version 1.236
+import: PPI::Token::Quote
+	using version 1.236
+import: PPI::Token::Quote::Double
+	using version 1.236
+import: PPI::Token::Quote::Interpolate
+	using version 1.236
+import: PPI::Token::Quote::Literal
+	using version 1.236
+import: PPI::Token::Quote::Single
+	using version 1.236
+import: PPI::Token::QuoteLike
+	using version 1.236
+import: PPI::Token::QuoteLike::Backtick
+	using version 1.236
+import: PPI::Token::QuoteLike::Command
+	using version 1.236
+import: PPI::Token::QuoteLike::Readline
+	using version 1.236
+import: PPI::Token::QuoteLike::Regexp
+	using version 1.236
+import: PPI::Token::QuoteLike::Words
+	using version 1.236
+import: PPI::Token::Regexp
+	using version 1.236
+import: PPI::Token::Regexp::Match
+	using version 1.236
+import: PPI::Token::Regexp::Substitute
+	using version 1.236
+import: PPI::Token::Regexp::Transliterate
+	using version 1.236
+import: PPI::Token::Separator
+	using version 1.236
+import: PPI::Token::Structure
+	using version 1.236
+import: PPI::Token::Symbol
+	using version 1.236
+import: PPI::Token::Unknown
+	using version 1.236
+import: PPI::Token::Whitespace
+	using version 1.236
+import: PPI::Token::Word
+	using version 1.236
+import: PPI::Tokenizer
+	using version 1.236
+import: PPI::Transform
+	using version 1.236
+import: PPI::Transform::UpdateCopyright
+	using version 1.236
+import: PPI::Util
+	using version 1.236
+import: PPI::XSAccessor
+	using version 1.236
+import: PPI
+	using version 1.236
+import: PPI::Cache
+	using version 1.236
+import: PPI::Document
+	using version 1.236
+import: PPI::Document::File
+	using version 1.236
+import: PPI::Document::Fragment
+	using version 1.236
+import: PPI::Document::Normalized
+	using version 1.236
+import: PPI::Dumper
+	using version 1.236
+import: PPI::Element
+	using version 1.236
+import: PPI::Exception
+	using version 1.236
+import: PPI::Exception::ParserRejection
+	using version 1.236
+import: PPI::Find
+	using version 1.236
+import: PPI::Lexer
+	using version 1.236
+import: PPI::Node
+	using version 1.236
+import: PPI::Normal
+	using version 1.236
+import: PPI::Normal::Standard
+	using version 1.236
+import: PPI::Statement
+	using version 1.236
+import: PPI::Statement::Break
+	using version 1.236
+import: PPI::Statement::Compound
+	using version 1.236
+import: PPI::Statement::Data
+	using version 1.236
+import: PPI::Statement::End
+	using version 1.236
+import: PPI::Statement::Expression
+	using version 1.236
+import: PPI::Statement::Given
+	using version 1.236
+import: PPI::Statement::Include
+	using version 1.236
+import: PPI::Statement::Include::Perl6
+	using version 1.236
+import: PPI::Statement::Null
+	using version 1.236
+import: PPI::Statement::Package
+	using version 1.236
+import: PPI::Statement::Scheduled
+	using version 1.236
+import: PPI::Statement::Sub
+	using version 1.236
+import: PPI::Statement::Unknown
+	using version 1.236
+import: PPI::Statement::UnmatchedBrace
+	using version 1.236
+import: PPI::Statement::Variable
+	using version 1.236
+import: PPI::Statement::When
+	using version 1.236
+import: PPI::Structure
+	using version 1.236
+import: PPI::Structure::Block
+	using version 1.236
+import: PPI::Structure::Condition
+	using version 1.236
+import: PPI::Structure::Constructor
+	using version 1.236
+import: PPI::Structure::For
+	using version 1.236
+import: PPI::Structure::Given
+	using version 1.236
+import: PPI::Structure::List
+	using version 1.236
+import: PPI::Structure::Subscript
+	using version 1.236
+import: PPI::Structure::Unknown
+	using version 1.236
+import: PPI::Structure::When
+	using version 1.236
+import: PPI::Token
+	using version 1.236
+import: PPI::Token::ArrayIndex
+	using version 1.236
+import: PPI::Token::Attribute
+	using version 1.236
+import: PPI::Token::BOM
+	using version 1.236
+import: PPI::Token::Cast
+	using version 1.236
+import: PPI::Token::Comment
+	using version 1.236
+import: PPI::Token::DashedWord
+	using version 1.236
+import: PPI::Token::Data
+	using version 1.236
+import: PPI::Token::End
+	using version 1.236
+import: PPI::Token::HereDoc
+	using version 1.236
+import: PPI::Token::Label
+	using version 1.236
+import: PPI::Token::Magic
+	using version 1.236
+import: PPI::Token::Number
+	using version 1.236
+import: PPI::Token::Number::Binary
+	using version 1.236
+import: PPI::Token::Number::Exp
+	using version 1.236
+import: PPI::Token::Number::Float
+	using version 1.236
+import: PPI::Token::Number::Hex
+	using version 1.236
+import: PPI::Token::Number::Octal
+	using version 1.236
+import: PPI::Token::Number::Version
+	using version 1.236
+import: PPI::Token::Operator
+	using version 1.236
+import: PPI::Token::Pod
+	using version 1.236
+import: PPI::Token::Prototype
+	using version 1.236
+import: PPI::Token::Quote
+	using version 1.236
+import: PPI::Token::Quote::Double
+	using version 1.236
+import: PPI::Token::Quote::Interpolate
+	using version 1.236
+import: PPI::Token::Quote::Literal
+	using version 1.236
+import: PPI::Token::Quote::Single
+	using version 1.236
+import: PPI::Token::QuoteLike
+	using version 1.236
+import: PPI::Token::QuoteLike::Backtick
+	using version 1.236
+import: PPI::Token::QuoteLike::Command
+	using version 1.236
+import: PPI::Token::QuoteLike::Readline
+	using version 1.236
+import: PPI::Token::QuoteLike::Regexp
+	using version 1.236
+import: PPI::Token::QuoteLike::Words
+	using version 1.236
+import: PPI::Token::Regexp
+	using version 1.236
+import: PPI::Token::Regexp::Match
+	using version 1.236
+import: PPI::Token::Regexp::Substitute
+	using version 1.236
+import: PPI::Token::Regexp::Transliterate
+	using version 1.236
+import: PPI::Token::Separator
+	using version 1.236
+import: PPI::Token::Structure
+	using version 1.236
+import: PPI::Token::Symbol
+	using version 1.236
+import: PPI::Token::Unknown
+	using version 1.236
+import: PPI::Token::Whitespace
+	using version 1.236
+import: PPI::Token::Word
+	using version 1.236
+import: PPI::Tokenizer
+	using version 1.236
+import: PPI::Transform
+	using version 1.236
+import: PPI::Transform::UpdateCopyright
+	using version 1.236
+import: PPI::Util
+	using version 1.236
+import: PPI::XSAccessor
+	using version 1.236
+
+Resource usage statistics from testing perl-ppi:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 84B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-ppi-1.236-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
