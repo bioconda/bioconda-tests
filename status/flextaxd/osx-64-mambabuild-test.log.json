@@ -1,0 +1,218 @@
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + flextaxd             0.4.2  pyhdfd78af_0        /Users/runner/conda/conda-bld/osx-64      65 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 17 packages
+
+  Total download: 65 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: flextaxd-0.4.2-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/flextaxd_1630951054091/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    flextaxd:        0.4.2-pyhdfd78af_0       local      
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/flextaxd_1630951054091/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/flextaxd_1630951054091/test_tmp
+import: 'flextaxd'
+import: 'flextaxd.modules'
+import: 'flextaxd.modules.database'
+import: 'flextaxd'
+import: 'flextaxd.modules'
+import: 'flextaxd.modules.database'
+usage: flextaxd [-h] [-db] [-o] [--dump] [--dump_mini] [--force] [--validate]
+                [--stats] [-tf] [-tt] [--taxid_base] [-mf] [-md] [-gt] [-gp]
+                [-p] [--replace] [--clean_database] [--skip_annotation]
+                [--dbprogram] [--dump_prefix] [--dump_sep]
+                [--dump_descriptions] [--visualise_node] [--vis_type]
+                [--vis_depth] [--logs] [--verbose] [--debug] [--supress]
+                [--quiet]
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+required:
+  Required
+
+  -db , --database , --db 
+                        FlexTaxD taxonomy sqlite3 database file (fullpath)
+
+basic:
+  Basic commands
+
+  -o , --outdir         Output directory
+  --dump                Write database to names.dmp and nodes.dmp
+  --dump_mini           Dump minimal file with tab as separator
+  --force               use when script is implemented in pipeline to avoid
+                        security questions on overwrite!
+  --validate            Validate database format
+  --stats               Print some statistics from the database
+
+read_opts:
+  Source options
+
+  -tf , --taxonomy_file 
+                        Taxonomy source file
+  -tt , --taxonomy_type 
+                        Source format of taxonomy input file
+                        (NCBI,QIIME,SILVA,CanSNPer)
+  --taxid_base          The base for internal taxonomy ID numbers, when using
+                        NCBI as base select base at minimum 3000000 (default =
+                        1)
+
+mod_opts:
+  Database modification options
+
+  -mf , --mod_file      File contaning modifications parent,child,(taxonomy
+                        level)
+  -md , --mod_database 
+                        Database file containing modifications
+  -gt , --genomeid2taxid 
+                        File that lists which node a genome should be assigned
+                        to
+  -gp , --genomes_path 
+                        Path to genome folder is required when using
+                        NCBI_taxonomy as source
+  -p , --parent         Parent from which to add (replace see below) branch
+  --replace             Add if existing children of parents should be removed!
+  --clean_database      Clean up database from unannotated nodes
+  --skip_annotation     Do not automatically add annotation when creating GTDB
+                        database
+
+output_opts:
+  Output options
+
+  --dbprogram           Adjust output file to certain output specifications
+                        [kraken2, krakenuniq, ganon, centrifuge, bracken]
+  --dump_prefix         change dump prefix reqires two names
+                        default(names,nodes)
+  --dump_sep            Set output separator default(NCBI) also adds extra
+                        trailing columns for kraken
+  --dump_descriptions   Dump description names instead of database integers
+
+vis_opts:
+  Visualisation options
+
+  --visualise_node      Visualise tree from selected node
+  --vis_type            Choices [newick, newick_vis, tree]
+  --vis_depth           Maximum depth from node to visualise default 3, 0 =
+                        all levels
+
+Logging and debug options:
+  --logs                Specify log directory
+  --verbose             Verbose output
+  --debug               Debug output
+  --supress             Supress warnings
+  --quiet               Dont show logging messages in terminal!
+usage: flextaxd-create [-h] [-o] [-db] [-p] [--download] [-r] [--rep_path URL]
+                       [--force_download] [--genomes_path] [--create_db]
+                       [--dbprogram] [--db_name] [--params] [--test] [--keep]
+                       [--skip] [-kp] [--logs] [--verbose] [--debug]
+                       [--supress]
+
+optional arguments:
+  -h, --help            show this help message and exit
+
+basic:
+  Basic commands
+
+  -o , --outdir         Output directory (same directory as
+                        custom_taxonomy_databases dump)
+  -db , --database , --db 
+                        Custom taxonomy sqlite3 database file
+
+download_opts:
+  Download and file handling
+
+  -p , --processes      Use multiple cores for downloading genomes and kraken
+                        if -kp is not set
+  --download            Download additional sequences
+  -r, --representative  Download GTDB representative genomes
+  --rep_path URL        Specify GTDB representative version URL full path
+  --force_download      Download sequences from genbank if not in refseq
+                        (WARNING: might include genome withdrawals)
+  --genomes_path        path to genomes
+
+classifier_opts:
+  Classifier options
+
+  --create_db           Start create db after loading databases
+  --dbprogram           Select one of the supported programs [kraken2,
+                        krakenuniq, ganon]
+  --db_name             database directory (fullpath)
+  --params              Add extra params to create command (supports kraken*)
+  --test                test database structure, only use 100 seqs
+  --keep                Keep temporary files
+  --skip                Do not include genomes within this taxonomy (child
+                        tree) in the database (works for kraken), can be a
+                        file ending with txt and genome ids one per row
+  -kp , --build_processes 
+                        Use a different number of cores for kraken
+                        classification
+
+Logging and debug options:
+  --logs                Specify log directory
+  --verbose             Verbose output
+  --debug               Debug output
+  --supress             Supress warnings
+
+Resource usage statistics from testing flextaxd:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 11.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: flextaxd-0.4.2-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
