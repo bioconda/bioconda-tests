@@ -1,0 +1,131 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: amused-1.0-1.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp56k0_l3h/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + amused                 1.0  1                   /Users/runner/conda/conda-bld/osx-64      20 KB
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + gdbm                  1.18  h8a0c380_2          conda-forge/osx-64                       131 KB
+  + gettext           0.19.8.1  h7937167_1005       conda-forge/osx-64                       Cached
+  + gmp                  6.2.1  h2e338ed_0          conda-forge/osx-64                       Cached
+  + jemalloc             5.2.1  h046ec9c_5          conda-forge/osx-64                       273 KB
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libiconv              1.16  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python               3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.9  2_cp39              conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + ruby                 2.7.2  h36135d8_3          conda-forge/osx-64                         6 MB
+  + ruby-dna-tools         1.0  1                   bioconda/osx-64                           25 KB
+  + setuptools          57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata               2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + yaml                 0.2.5  haf1e3a3_0          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 25 packages
+
+  Total download: 6 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/amused_1630900651438/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    amused:          1.0-1                    local      
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    gdbm:            1.18-h8a0c380_2          conda-forge
+    gettext:         0.19.8.1-h7937167_1005   conda-forge
+    gmp:             6.2.1-h2e338ed_0         conda-forge
+    jemalloc:        5.2.1-h046ec9c_5         conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libiconv:        1.16-haf1e3a3_0          conda-forge
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    readline:        8.1-h05e3726_0           conda-forge
+    ruby:            2.7.2-h36135d8_3         conda-forge
+    ruby-dna-tools:  1.0-1                    bioconda   
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    yaml:            0.2.5-haf1e3a3_0         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/amused_1630900651438/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/amused_1630900651438/test_tmp
+Usage: AMUSED -q <inFPQuery>  -o <outFP> [-b <inFPBG> | -r <randomizeNMer>] [-s <maxTreeSize>]
+  -q <inFPQuery> = query sequences
+  -b <inFPBG> = compare seqs to these background seqs
+  -bp <bgPseudo> = pseudocount to add to background [default=0.5]
+  -o <outFP> = output file
+  -s <maxTreeSize> = max n-mer to consider [default=8]
+  -z <subZCutoff> = minimum absolute Sub-Z-score [default = 0; print all]
+  -t <numThreads> = number of CPU threads to use [default=1]
+  -1p = sequences not in fasta format: each line is a full sequence
+  -ng = no inserting gaps
+  -nu = no changing to upper case before scan (non ATGC bases are discarded)
+  -ds = double stranded (reverse complement sequences too)
+  -ns = don't sort
+  -do = descriptive output: lots of intermediate values also output (but many columns)
+  -bc = add lines to output for base content
+  -nsz = don't calculate super Zs
+Usage: AMUSED-KS -q <inFPQuery>  -o <outFP> [-b <backgroundSeqs>] [-s <maxTreeSize>] [-m <smoothBy>] [-t <numThreads] [-p] [-1p]
+  -q <inFPQuery> = query sequences
+  -b <inFPBG> = compare seqs to these background seqs
+  -o <outFP> = output file
+  -s <maxTreeSize> = max n-mer to consider [default=8]
+  -m <smoothBy> = smooth data over how many bases to generate expected distribution for one-sample KS test (when no background set is included) [default=5]
+  -t <numThreads> = number of CPU threads to use [default=1]
+  -ds = double stranded (reverse complement sequences too)
+  -1p = sequences not in fasta format: each line is a full sequence
+  -nu = no changing to upper case before scan (non ATGC bases are discarded)
+Usage: alignKMers -i <inFile> -o <outFile> -l <logFile> -v <minOverlap> -m <mismatchPenalty>
+ -i <inFile> = unaligned k-mers
+ -v <minOverlap> = minimum overlap to align [default=3]
+ -r = also reverse complement
+ -m <mismatchPenalty> = penalty for mismatches [default=1]
+ -i <inFile> = 
+ -o <outFile> = where to output results [default=stdout]
+ -l <logFile> = where to output results [default=stderr]
+$PREFIX/bin/shuffleCodons.rb
+$PREFIX/bin/shuffleCodonsAddMotifs.rb
+
+Resource usage statistics from testing amused:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: amused-1.0-1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
