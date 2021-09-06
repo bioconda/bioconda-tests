@@ -1,0 +1,163 @@
+  Package                  Version  Build                Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex              0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex              4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython                 1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + c-ares                  1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates      2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + ditasic                    0.2  h9ee0642_2           /home/vsts/conda/conda-bld/linux-64       6 MB
+  + hdf5                    1.10.6  nompi_h6a2412b_1114  conda-forge/linux-64                      3 MB
+  + kallisto                0.46.2  h60f4f9f_2           bioconda/linux-64                       553 KB
+  + krb5                    1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64        2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                  3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas                 3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcurl                 7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit           3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                     4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                     3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng               11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng          11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5            11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp                 11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libnghttp2              1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas             0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libssh2                 1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng            11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + mason                    2.0.9  h9ee0642_1           bioconda/linux-64                         7 MB
+  + ncurses                    6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                   1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                 1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pip                     21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python                   3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi                 3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                   8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools              57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite                  3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                      8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                   2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                   0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                       5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                    1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 40 packages
+
+  Total download: 25 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: ditasic-0.2-h9ee0642_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/ditasic_1630925565029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py39h3811e60_0        conda-forge
+    c-ares:           1.17.2-h7f98852_0          conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    ditasic:          0.2-h9ee0642_2             local      
+    hdf5:             1.10.6-nompi_h6a2412b_1114 conda-forge
+    kallisto:         0.46.2-h60f4f9f_2          bioconda   
+    krb5:             1.19.2-hcc1bbae_0          conda-forge
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libcurl:          7.78.0-h2574ce0_0          conda-forge
+    libedit:          3.1.20191231-he28a2e2_2    conda-forge
+    libev:            4.33-h516909a_1            conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libnghttp2:       1.43.0-h812cca2_0          conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libssh2:          1.10.0-ha56f1ee_0          conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    mason:            2.0.9-h9ee0642_1           bioconda   
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1l-h7f98852_0          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    python:           3.9.7-h49503c6_0_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       57.4.0-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/ditasic_1630925565029/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/ditasic_1630925565029/test_tmp
+Usage: ditasic_matrix.py [options] FILES 
+
+    Calculate the similarity matrix.
+
+    First, a set of reads is simulated for every reference genome using the mason
+    read simulator.
+    Second, the simulated reads of each species are mapped against all reference
+    genomes using the Kallisto read mapper.
+    Third, the resulting tsv-files are analyzed to calculate the similarity
+    matrix. The similarity matrix is stored as a numpy file (-o).
+
+    Input:
+    FILES: Files with absolute paths to the reference sequences that we use. 
+
+    See the provided LICENSE file or source code for license information.
+    
+
+Options:
+  -h, --help            show this help message and exit
+  --startprob=STARTPROB
+                        Mismatch probability at the first base.
+  --avgprob=AVGPROB     Average per base mismatch probability.
+  --endprob=ENDPROB     Mismatch probability at the last base.
+  --prob-file=PROB_FILE
+                        File with mismatch (start, avg, end) probabilities for
+                        each reference.
+  -l LENGTH, --length=LENGTH
+                        Length of reads used in similarity matrix creation
+                        (Required).
+  -n NUMBER             Number of reads sampled from each reference. [default:
+                        250000]
+  -i INDEX, --index=INDEX
+                        Path to existing kallisto index for all files (has to
+                        be constructed in same order as the paths in FILES).
+  -t TEMP, --temp=TEMP  Directory to store temporary simulated datasets and
+                        TSV files. [default: ./temp]
+  --skip                Skip read simulation (assume existing reads in temp)
+                        [default: False].
+  -o OUT, --output=OUT  Output similarity matrix file. [default:
+                        similarity_matrix.npy]
+
+Resource usage statistics from testing ditasic:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: ditasic-0.2-h9ee0642_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
