@@ -1,0 +1,128 @@
+  Package                     Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                 0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex                 4.5  1_gnu          conda-forge/linux-64                    Cached
+  + binutils_impl_linux-64     2.36.1  h193b22a_2     conda-forge/linux-64                     10 MB
+  + binutils_linux-64            2.36  hf3e587d_33    conda-forge/linux-64                     22 KB
+  + fsm-lite                      1.0  h7d875b9_2     /home/vsts/conda/conda-bld/linux-64     300 KB
+  + gcc_impl_linux-64           7.5.0  habd7529_19    conda-forge/linux-64                     38 MB
+  + gcc_linux-64                7.5.0  h47867f9_33    conda-forge/linux-64                     23 KB
+  + gxx_impl_linux-64           7.5.0  hd0bb8aa_19    conda-forge/linux-64                      9 MB
+  + gxx_linux-64                7.5.0  h555fc39_33    conda-forge/linux-64                     23 KB
+  + kernel-headers_linux-64    2.6.32  he073ed8_14    conda-forge/noarch                      708 KB
+  + ld_impl_linux-64           2.36.1  hea4e1c9_2     conda-forge/linux-64                    Cached
+  + libgcc-devel_linux-64       7.5.0  hda03d7c_19    conda-forge/linux-64                      4 MB
+  + libgcc-ng                  11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                    11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-devel_linux-64    7.5.0  hb016644_19    conda-forge/linux-64                      9 MB
+  + libstdcxx-ng               11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + sdsl-lite                   2.1.1  hc9558a2_1001  conda-forge/linux-64                      1 MB
+  + sysroot_linux-64             2.12  he073ed8_14    conda-forge/noarch                       32 MB
+
+  Summary:
+
+  Install: 18 packages
+
+  Total download: 105 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: fsm-lite-1.0-h7d875b9_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/fsm-lite_1630911949878/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:            0.1-conda_forge     conda-forge
+    _openmp_mutex:            4.5-1_gnu           conda-forge
+    binutils_impl_linux-64:   2.36.1-h193b22a_2   conda-forge
+    binutils_linux-64:        2.36-hf3e587d_33    conda-forge
+    fsm-lite:                 1.0-h7d875b9_2      local      
+    gcc_impl_linux-64:        7.5.0-habd7529_19   conda-forge
+    gcc_linux-64:             7.5.0-h47867f9_33   conda-forge
+    gxx_impl_linux-64:        7.5.0-hd0bb8aa_19   conda-forge
+    gxx_linux-64:             7.5.0-h555fc39_33   conda-forge
+    kernel-headers_linux-64:  2.6.32-he073ed8_14  conda-forge
+    ld_impl_linux-64:         2.36.1-hea4e1c9_2   conda-forge
+    libgcc-devel_linux-64:    7.5.0-hda03d7c_19   conda-forge
+    libgcc-ng:                11.1.0-hc902ee8_8   conda-forge
+    libgomp:                  11.1.0-hc902ee8_8   conda-forge
+    libstdcxx-devel_linux-64: 7.5.0-hb016644_19   conda-forge
+    libstdcxx-ng:             11.1.0-h56837e0_8   conda-forge
+    sdsl-lite:                2.1.1-hc9558a2_1001 conda-forge
+    sysroot_linux-64:         2.12-he073ed8_14    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/fsm-lite_1630911949878/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/fsm-lite_1630911949878/test_tmp
+INFO: activate-binutils_linux-64.sh made the following environmental changes:
++ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
++AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
++AS=$PREFIX/bin/x86_64-conda-linux-gnu-as
++CXXFILT=$PREFIX/bin/x86_64-conda-linux-gnu-c++filt
++ELFEDIT=$PREFIX/bin/x86_64-conda-linux-gnu-elfedit
++GPROF=$PREFIX/bin/x86_64-conda-linux-gnu-gprof
++LD=$PREFIX/bin/x86_64-conda-linux-gnu-ld
++LD_GOLD=$PREFIX/bin/x86_64-conda-linux-gnu-ld.gold
++NM=$PREFIX/bin/x86_64-conda-linux-gnu-nm
++OBJCOPY=$PREFIX/bin/x86_64-conda-linux-gnu-objcopy
++OBJDUMP=$PREFIX/bin/x86_64-conda-linux-gnu-objdump
++RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib
++READELF=$PREFIX/bin/x86_64-conda-linux-gnu-readelf
++SIZE=$PREFIX/bin/x86_64-conda-linux-gnu-size
++STRINGS=$PREFIX/bin/x86_64-conda-linux-gnu-strings
++STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip
+INFO: activate-gcc_linux-64.sh made the following environmental changes:
++BUILD=x86_64-conda-linux-gnu
++CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
++CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
++CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/fsm-lite-1.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/fsm-lite_1630911949878/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
++CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
++CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
++CONDA_TOOLCHAIN_HOST=x86_64-conda-linux-gnu
++CPP=$PREFIX/bin/x86_64-conda-linux-gnu-cpp
++CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem $PREFIX/include
++DEBUG_CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/fsm-lite-1.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++DEBUG_CPPFLAGS=-D_DEBUG -D_FORTIFY_SOURCE=2 -Og -isystem $PREFIX/include
++GCC=$PREFIX/bin/x86_64-conda-linux-gnu-gcc
++GCC_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar
++GCC_NM=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-nm
++GCC_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib
++HOST=x86_64-conda-linux-gnu
++LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,$PREFIX/lib -Wl,-rpath-link,$PREFIX/lib -L$PREFIX/lib
++_CONDA_PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_x86_64_conda_cos6_linux_gnu
++build_alias=x86_64-conda-linux-gnu
++host_alias=x86_64-conda-linux-gnu
+-BUILD=x86_64-conda_cos6-linux-gnu
+-CONDA_BUILD_SYSROOT=
+INFO: activate-gxx_linux-64.sh made the following environmental changes:
++CXX=$PREFIX/bin/x86_64-conda-linux-gnu-c++
++CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/fsm-lite-1.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++CXX_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-c++
++DEBUG_CXXFLAGS=-fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-all -fno-plt -Og -g -Wall -Wextra -fvar-tracking-assignments -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/fsm-lite-1.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
++GXX=$PREFIX/bin/x86_64-conda-linux-gnu-g++
+  -l,--list <file>     Text file that lists all input files as whitespace-separated pairs 
+
+Resource usage statistics from testing fsm-lite:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: fsm-lite-1.0-h7d875b9_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
