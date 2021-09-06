@@ -1,0 +1,205 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                   1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + duplomap                0.9.5  h188c3c3_1     /Users/runner/conda/conda-bld/osx-64       3 MB
+  + htslib                   1.13  hc38c3fb_0     bioconda/osx-64                            2 MB
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5     conda-forge/osx-64                        67 KB
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + openssl                1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + samtools                 1.13  h7596a89_0     bioconda/osx-64                          404 KB
+  + tk                     8.6.11  h5dbffcc_1     conda-forge/osx-64                       Cached
+  + xz                      5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 6 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: duplomap-0.9.5-h188c3c3_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/duplomap_1630929477356/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    duplomap:        0.9.5-h188c3c3_1        local      
+    htslib:          1.13-hc38c3fb_0         bioconda   
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    openssl:         1.1.1l-h0d85af4_0       conda-forge
+    samtools:        1.13-h7596a89_0         bioconda   
+    tk:              8.6.11-h5dbffcc_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/duplomap_1630929477356/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/duplomap_1630929477356/test_tmp
+duplomap 0.9.5
+Timofey Prodanov, Vikas Bansal
+Realign reads overlapping segmental duplications.
+
+USAGE:
+    duplomap -i <bam> -r <fasta> -d <psv-database> -o <dir> [args]
+
+OPTIONS:
+    -i, --input <FILE>                                Input reads in the sorted and indexed bam format.
+    -d, --database <FILE|DIR+>                        Database file or directory (multiple entries allowed).
+    -r, --reference <FILE>                            Reference genome in the indexed fasta format.
+    -o, --output <DIR>                                Output directory.
+    -@, --threads <INT>                               Number of threads to use. [default: 4]
+    -f, --force                                       Force work with non-empty output directory.
+        --continue
+            Continue duplomap run in the same output directory. In that case duplomap will skip already analyzed
+            duplications clusters (be careful to use the same command line arguments).
+    -n, --iterations <INT>                            Maximum number of iterations of EM-algorithm. [default: 100]
+        --log <LEVEL>
+            Logging level in log files (stderr shows logs with info level and higher). [default: debug]  [possible
+            values: trace, debug, info, warning, error, critical, none]
+        --samtools <PATH>                             Path to Samtools executable. [default: samtools]
+        --minimap-kmer <INT>                          Minimap2 k-mer size. [default: 11]
+    -x, --preset <STR>
+            Minimap2 alignment preset. Possible values: pacbio [pb] and nanopore [ont] [default: pacbio]  [possible
+            values: pacbio, pb, nanopore, ont]
+        --gt-prior <FLOAT>                            Reference genotype prior. [default: 0.95]
+        --relative-padding <FLOAT>
+            Padding added to the sides of possible read locations. For example, for a read with with length 3,000 and
+            relative-padding 0.01, possible locations would be padded by 30 bp on both sides. [default: 0.01]
+        --psv-complexity <FLOAT> <FLOAT>
+            Keep PSVs that have complexity higher than FLOAT[1] for substitutions (0.6 by default), and FLOAT[2] for
+            indels (0.8 by default).
+        --psv-size-diff <INT>
+            Maximal difference in sizes of the PSV sequences (including anchors). PSVs with bigger difference are not
+            used, but influence pre-PSV LCS comparison. [default: 10]
+        --gt-min-mapq <INT>
+            Do not use reads with MAPQ lower than INT to determine genotype probabilities. [default: 30]
+
+        --read-psv-impact <FLOAT>
+            Maximal read-PSV impact. A single read cannot decrease genotype probability of a PSV by more than 10^FLOAT,
+            and a single PSV cannot affect location probabilities by more than 10^FLOAT. [default: 3]
+        --ambiguous <FLOAT> <FLOAT>
+            A read is aligned to a PSV ambiguously if local alignment probabilities between the read and the PSV alleles
+            are within FLOAT[1]-fold range (max(probabilities) < min(probabilities) * FLOAT[1]). If the PSV has more
+            than FLOAT[2] percent ambiguously aligned reads, it is not used.
+            [default: 4 30]
+        --copy-num-perc <FLOAT>
+            Do not realign reads that overlap high copy number regions by more than FLOAT %. High copy number regions
+            are defined in duplomap-prepare with --skip-copy-num. [default: 50]
+        --unknown-regions <realign|keep-old|mapq0>
+            How to process reads that overlap unknown regions in the reference:
+             realign  - Realign a read and assign appropriate MAPQ,
+             keep-old - Keep an old alignment and MAPQ,
+             mapq0    - Keep an old alignment and set MAPQ to 0.
+             [default: realign]  [possible values: realign, keep-old, mapq0]
+        --filtering-kmer <INT>
+            k-mer size used for filtering possible location for a read. [default: 11]
+
+        --filtering-p-value <FLOAT>
+            We compare LCS paths of a read and its possible locations. If location A is better than location B with p-
+            value lower than FLOAT, location B may be discarded. [default: 1e-4]
+        --max-locations <INT>
+            Maximal number of locations after filtering. If read can align to more than INT locations, it will get the
+            original alignment and MAPQ 0. [default: 50]
+        --conflicts-p-value <FLOAT>
+            Each read is put through Binomial test with the number of conflicting PSVs out of all homozygous PSVs. All
+            reads that fail the test are assigned low MAPQ. The threshold p-value is divided by the number of reads in
+            each component according to the Bonferroni correction. [default: 0.05]
+        --min-conflicts <INT>
+            Minimal number of conflicts between a read and PSVs to discard the read. [default: 5]
+
+        --skip-mapq <INT|none>
+            Skip reads with mapping quality at least INT in the original alignment. These reads will be used to estimate
+            genotypes, but will not be realigned. [default: none]
+        --secondary <INT|all>
+            Output at most INT secondary alignments for each realigned read. Use "all" to output all secondary
+            alignments. [default: 0]
+        --first <INT> <INT>
+            Use first INT[1] databases and first INT[2] reads for each database. Use all databases/reads when INT = 0.
+
+        --generated                                   Reads are generated and the true position is known.
+        --skip-unique                                 Do not output reads from unique (not duplicated) regions.
+        --skip-vcf                                    Do not output vcf file with genotyped PSVs.
+        --keep                                        Do not clean, keep all output files.
+        --default-hmm                                 Use default HMM parameters (instead of estimating using reads).
+        --output-debug                                Output additional CSV files.
+    -h, --help                                        Prints help information
+    -V, --version                                     Prints version information
+duplomap-prepare 0.9.5
+Timofey Prodanov, Vikas Bansal
+Prepare a PSV database for segmental duplications
+
+USAGE:
+    duplomap-prepare -i <csv> -r <fasta> [-a <gff>] -o <dir> [args]
+
+OPTIONS:
+    -i, --input <FILE>                 Csv file with segmental duplications
+    -r, --reference <FILE>             Reference genome in the indexed fasta format
+    -a, --annotate <FILE>              Optional: gene annotation in the GFF format, used for database annotation
+    -o, --output <DIR>                 Output directory
+    -f, --force                        Force work with non-empty output directory
+        --anchor <INT>                 Anchor size [default: 6]
+        --area <INT>                   Anchor should be unique in the area with radius INT [default: 20]
+        --length <INT>                 Discard duplication pairs if at least one of the sequences is shorter than INT
+                                       [default: 5000]
+        --seq-similarity <FLOAT>       Discard duplication pairs with sequence similarity (fracMatch) less that FLOAT
+                                       [default: 0.97]
+        --minimap-kmer <INT>           Minimap2 k-mer size [default: 15]
+        --window-size <INT>            Window size used for the identification of diverse regions [default: 100]
+        --min-windows <INT>            Number of consecutive windows necessary to mark a region as similar or diverse
+                                       [default: 3]
+        --window-similarity <FLOAT>    Window similarity threshold (diverse regions have similarity lower than FLOAT)
+                                       [default: 95.0]
+        --comp-dist <INT>              Distance between components containing segmental duplications [default: 500]
+        --skip-copy-num <INT> <INT>    Do not analyze regions with copy number higher or equal than INT[1]. If region
+                                       length is less than INT[2], PSVs in the region are not constructed. 
+                                       [default 6 3000]
+        --log <LEVEL>                  Logging level in log files (stderr shows logs with info level and higher)
+                                       [default: debug]  [possible values: trace, debug, info, warning, error, critical,
+                                       none]
+        --human                        Human readable database (currently cannot be loaded)
+    -h, --help                         Prints help information
+    -V, --version                      Prints version information
+
+Resource usage statistics from testing duplomap:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: duplomap-0.9.5-h188c3c3_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
