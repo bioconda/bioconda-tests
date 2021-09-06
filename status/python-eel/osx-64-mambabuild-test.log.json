@@ -1,0 +1,314 @@
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + openssl              1.1.1l  h0d85af4_0             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python-eel              1.0  py27hda86cd0_2         /Users/runner/conda/conda-bld/osx-64     378 KB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 16 packages
+
+  Total download: 14 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: python-eel-1.0-py27hda86cd0_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/python-eel_1630955646105/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    openssl:         1.1.1l-h0d85af4_0            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python-eel:      1.0-py27hda86cd0_2           local      
+    python_abi:      2.7-1_cp27m                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    setuptools:      44.0.0-py27_0                conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/python-eel_1630955646105/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/python-eel_1630955646105/test_tmp
+import: 'eellib.align'
+import: 'eellib.align'
+Not running on tty device
+'?', 'h', 'help'
+	Arguments: none
+	prints this help
+
+'about'
+	Arguments: none
+	Prints Information about the program
+
+'addMatrix', 'am'
+	Arguments: filelist
+	reads matrices from files
+
+'addSequence', 'as'
+	Arguments: filelist
+	reads sequences from files
+
+'addSingleSequence', 'ass'
+	Arguments: filelist
+	Gzipped and Fasta formated sequence files. One sequence in file.
+
+'align'
+	Arguments: [filename[,num_of_align,[lambda[,xi[,mu[,nu,[,nuc_per_rotation, [Seq1, Seq2]]]]]]]]
+	aligns the computed BS or optional the BS from a gff file
+	filename specifies a file in gff format is you want to be aligned
+	num_of_align        specifies how many alignments you want. (Default 3)
+	lambda   Bonus factor for hit (Default 2)
+	xi       Penalty factor for rotation (Default 1.0)
+	mu       Penalty factor for average distance between sites (Default 0.5)
+	nu       Penalty factor for distance difference between sites (Default 1.0)
+	nuc_per_rotation    specifies how many nucletides there are per rotation. (Default 10.4)
+	Seq1,Seq2 Sequences to be aligned.
+	If you want to skip a argument just  write '.' for it.
+	If you use '.' as filename the local data are aligned.
+
+'cd'
+	Arguments: [path]
+	Change or display the current working directory.
+
+'computeKLdistances'
+	Arguments: File to save the result
+	Computes the distance matrix between all pairs of TFBS matrixes.
+
+'dir'
+	Arguments: [path/pattern]
+	List files matching the given pattern. Defaults to "*" in current working directory.
+	
+
+'getTFBS'
+	Arguments: [bound]
+	computes the scores of all matrices and all sequences which are
+	better than log2(bound) + maxscore. maxscore is the highest reachable
+	score of the actual matrix with respect to the background
+	The default value for bound is 0.1 i.e. ~3.3 below the maximum score.
+
+'getTFBSabsolute'
+	Arguments: [cutoff]
+	computes the scores of all matrices and all sequences which are
+	better than cutoff.
+	The default value for cutoff is 9.0
+
+'getTFBSpvalue'
+	Arguments: [pvalue]
+	computes the scores of all matrices and all sequences. Report scores
+	better than given p-value.
+	The default value for pvalue is 1e-6
+
+'more'
+	Arguments: [number of alignments]
+	        prints more alignments from previously run alignment matrix
+
+'multiFromPairwise'
+	Arguments: filename,pwfilename[,gaplimit[,numofalign[,buffer[,lambda[,xi[,mu[,nu,[,nuc_per_rotation]]]]]]
+	Computes multiple alignments from places selected from pairwise alignments of the BS from a gff file
+	filename   specifies a file in gff format is you want to be aligned
+	pwfilename specifies a file in alignment gff format where the pairwise alignments are
+	gaplimit   specifies how many sequences can have gaps at the same point (Default 0)
+	numofalign        specifies how many alignments you want. (Default 1)
+	buffer     Specifies the size of buffer to be added to the found areas before multiple aligning in nukleotides (Default 1000)
+	lambda     Bonus factor for hit (Default 2)
+	xi         Penalty factor for rotation (Default 1.0)
+	mu         Penalty factor for average distance between sites (Default 0.5)
+	nu         Penalty factor for distance difference between sites (Default 1.0)
+	nuc_per_rotation    Specifies how many nucletides there are per rotation. (Default 10.4)
+	If you want to skip a argument just  write '.' for it.
+
+'multipleAlign'
+	Arguments: [filename[,num_of_align,[lambda[,xi[,mu[,nu,[,nuc_per_rotation]]]]]]]
+	Computes multiple alignment of the BS or optionally the BS from a gff file
+	filename specifies a file in gff format is you want to be aligned
+	num_of_align        specifies how many alignments you want. (Default 3)
+	lambda   Bonus factor for hit (Default 2)
+	xi       Penalty factor for rotation (Default 1.0)
+	mu       Penalty factor for average distance between sites (Default 0.5)
+	nu       Penalty factor for distance difference between sites (Default 1.0)
+	nuc_per_rotation    specifies how many nucletides there are per rotation. (Default 10.4)
+	If you want to skip a argument just  write '.' for it.
+	If you use '.' as filename the local data are aligned.
+
+'no-gui'
+	Arguments: none
+	Gives command line interface
+
+'nodeAlignments'
+	Fetch and print alignments from nodes of the tree after treeMultipleAlign
+
+'pm', 'printMatrices'
+	Arguments: none
+	prints the matrices
+
+'pmw', 'printMatrixWeights'
+	Arguments: none
+	prints the matrix weights (with background)
+
+'printSeqNames', 'ps'
+	Arguments: none
+	prints the names of the sequences
+
+'q', 'quit'
+	Arguments: none
+	to exit the program
+
+'removeMatrix', 'rm'
+	Arguments: Matrixnumber
+	removes a matrix
+
+'removeSequence', 'rs'
+	Arguments: Sequencename
+	removes a sequence
+
+'reset'
+	Arguments: none
+	removes all matrices and sequences
+
+'resetMatrices', 'resm'
+	Arguments: none
+	removes all matrices
+
+'resetSequences', 'ress'
+	Arguments: none
+	removes all sequences
+
+'sa', 'showalign'
+	Arguments: none
+	prints the computed alignment to stdout
+
+'saveMarkovBackground'
+	Arguments: filename
+	Name of the file where to store the background model.
+	
+
+'savealign'
+	Arguments: [filename]
+	saves the alignment to disk
+	The default filename is 'eel_[Date+Time].align'
+	e.g. eel_2003_9_16_11_48.align
+
+'savealignAnchor'
+	Arguments: [filename]
+	saves the alignment to disk in Anchor format for DIALIGN
+	The default filename is 'eel_[Date+Time]_align.anc'
+	e.g. eel_2003_9_16_11_48_align.anc
+
+'savealignGFF'
+	Arguments: [filename]
+	saves the alignment to disk in GFF format
+	The default filename is 'eel_[Date+Time]_align.gff'
+	e.g. eel_2003_9_16_11_48_align.gff
+
+'savematch'
+	Arguments: [filename]
+	saves the results of the matching in gff format
+	See http://www.sanger.ac.uk/Software/formats/GFF/
+	The default filename is 'eel_[Date+Time].gff'
+	e.g. eel_2003_8_27_15_48.gff
+
+'savepwbase'
+	Arguments: filename
+	saves the pairwise alignments the multiple alignment was based on
+
+'setBGfreq'
+	Arguments: A C G T|bgSampleSequence
+	Background nucleotide frequencies. Removes markov background.
+
+'setMarkovBG'
+	Arguments: bgSampleSequence [order]
+	Background sample sequence and order of the model or saved background file.
+
+'setpseudocount'
+	Arguments: [pseudocount]
+	Set the amount of pseudocounts on matricies. Default 1.0
+
+'shortMultipleAlign'
+	Arguments: filename[,gaplimit[,numofalign[,lambda[,xi[,mu[,nu,[,nuc_per_rotation]]]]]]
+	Computes multiple alignment of the BS from a gff file
+	filename specifies a file in gff format is you want to be aligned
+	gaplimit specifies how many sequences can have gaps at the same point (Default 0)
+	numofalign        specifies how many alignments you want. (Default 3)
+	lambda   Bonus factor for hit (Default 2)
+	xi       Penalty factor for rotation (Default 1.0)
+	mu       Penalty factor for average distance between sites (Default 0.5)
+	nu       Penalty factor for distance difference between sites (Default 1.0)
+	nuc_per_rotation    Specifies how many nucletides there are per rotation. (Default 10.4)
+	If you want to skip a argument just  write '.' for it.
+
+'showmatch', 'sm'
+	Arguments: none
+	prints the computed scores to stdout
+
+'showpwbase'
+	Arguments: none
+	prints the pairwise alignments the multiple alignment was based on to stdout
+
+'suboptimals'
+	Arguments: [number of alignments]
+	        prints more suboptimal alignments from previously run matrix
+
+'suboptimalsDownTo'
+	Arguments: Lower bound on the module score
+	        Fetch suboptimal alignments down to given bound (and one below the bound)
+
+'treeMultipleAlign'
+	Arguments: filename,treefilename[,method[,k[,numofalign[,lambda[,xi[,mu[,nu,[,nuc_per_rotation[,pwfiles]]]]]]]]]
+	Computes multiple alignment of the BS from a gff file
+	filename specifies a file in gff format is you want to be aligned
+	treefilename specifies a file in Newick tree format with the phylogenetic tree
+	method specifies which method of scoring is used. 1=Sum of pairs, 2=Score generalized from pairwise, 3=Score based on representative sequences. (Default 1)
+	k specifies how many local alignments are kept at each level (Default 100)
+	numofalign        specifies how many alignments you want. (Default 3)
+	lambda   Bonus factor for hit (Default 2)
+	xi       Penalty factor for rotation (Default 1.0)
+	mu       Penalty factor for average distance between sites (Default 0.5)
+	nu       Penalty factor for distance difference between sites (Default 1.0)
+	nuc_per_rotation    Specifies how many nucletides there are per rotation. (Default 10.4)
+	pwfiles	 If the needed pairwise alignments are calculated beforehand, the path to the directory they are in.
+	If you want to skip a argument just  write '.' for it.
+
+
+Resource usage statistics from testing python-eel:
+   Process count: 4
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 17.0M
+   Disk usage: 16B
+   Time elapsed: 0:00:04.3
+
+
+TEST END: python-eel-1.0-py27hda86cd0_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

@@ -1,0 +1,76 @@
+  Package              Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + ca-certificates  2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + expat               2.2.10  h1c7c35f_0     conda-forge/osx-64                       128 KB
+  + fastqc-rs            0.2.2  hbc51a4c_0     /Users/runner/conda/conda-bld/osx-64       2 MB
+  + freetype            2.10.4  h4cff582_1     conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libpng              1.6.37  h7cec526_2     conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 9 packages
+
+  Total download: 3 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: fastqc-rs-0.2.2-hbc51a4c_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/fastqc-rs_1630955771464/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4     conda-forge
+    ca-certificates: 2021.5.30-h033912b_0 conda-forge
+    expat:           2.2.10-h1c7c35f_0    conda-forge
+    fastqc-rs:       0.2.2-hbc51a4c_0     local      
+    freetype:        2.10.4-h4cff582_1    conda-forge
+    libcxx:          12.0.1-habf9029_0    conda-forge
+    libpng:          1.6.37-h7cec526_2    conda-forge
+    openssl:         1.1.1l-h0d85af4_0    conda-forge
+    zlib:            1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/fastqc-rs_1630955771464/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/fastqc-rs_1630955771464/test_tmp
+fastqc-rs 0.1
+Felix W. <fxwiegand@wgdnet.de>
+A quality control tool for FASTQ files written in rust
+
+USAGE:
+    fqc [OPTIONS] --fastq <fastq>
+
+FLAGS:
+    -h, --help       Prints help information
+    -V, --version    Prints version information
+
+OPTIONS:
+    -q, --fastq <fastq>    The input FASTQ file to use.
+    -k <k>                 The length k of k-mers for k-mer counting. [default: 5]
+    -s <summary>           Creates an output file for usage with MultiQC under the given path.
+
+Resource usage statistics from testing fastqc-rs:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: fastqc-rs-0.2.2-hbc51a4c_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
