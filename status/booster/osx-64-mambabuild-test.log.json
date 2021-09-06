@@ -1,0 +1,66 @@
+  Package        Version  Build       Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + booster        0.1.2  hb4d813b_3  /Users/runner/conda/conda-bld/osx-64      50 KB
+  + llvm-openmp   12.0.1  hda6cdc1_1  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 50 KB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: booster-0.1.2-hb4d813b_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/booster_1630939555131/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    booster:     0.1.2-hb4d813b_3  local      
+    llvm-openmp: 12.0.1-hda6cdc1_1 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/booster_1630939555131/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/booster_1630939555131/test_tmp
+Usage: booster -i <ref tree file (newick)> -b <bootstrap tree file (newick)> [-@ <cpus> -d <dist_cutoff> -r <raw distance output tree file> -S <stat file> -o <output tree> -v]
+Options:
+      -i, --input            : Input tree file
+      -b, --boot             : Bootstrap tree file (1 file containing all bootstrap trees)
+      -o, --out              : Output file (optional) with normalized support values, default : stdout
+      -r, --out-raw          : Output file (optional) with raw support values in the form of id|avgdist|depth, default : none
+      -@, --num-threads      : Number of threads (default 1)
+      -S, --stat-file        : Prints output statistics for each branch in the given output file (optional)
+      -c, --count-per-branch : Prints individual taxa moves for each branches in the log file (only with -S & -a tbe)
+      -d, --dist-cutoff      : Distance cutoff to consider a branch for taxa transfer index computation (-a tbe only, default 0.3)
+      -a, --algo             : tbe or fbp (default tbe)
+      -q, --quiet            : Does not print progress messages during analysis
+      -v, --version          : Prints version (optional)
+      -h, --help             : Prints this help
+
+If you use BOOSTER, please cite:
+Renewing Felsenstein's Phylogenetic Bootstrap in the Era of Big Data
+F. Lemoine, J.-B. Domelevo-Entfellner, E. Wilkinson, D. Correia, M. Davila Felipe, T. De Oliveira, O. Gascuel.
+Nature 556, 452-456 (2018)
+
+Resource usage statistics from testing booster:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: booster-0.1.2-hb4d813b_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
