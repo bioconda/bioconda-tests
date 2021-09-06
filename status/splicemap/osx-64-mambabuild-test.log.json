@@ -1,0 +1,88 @@
+  Package              Version  Build                 Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bowtie               1.2.3  py37h770b8ee_0        bioconda/osx-64                            1 MB
+  + ca-certificates  2021.5.30  h033912b_0            conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0            conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2            conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4            conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0            conda-forge/osx-64                       Cached
+  + perl                5.32.1  0_h0d85af4_perl5      conda-forge/osx-64                        13 MB
+  + pip                 21.2.4  pyhd8ed1ab_0          conda-forge/noarch                       Cached
+  + python              3.7.10  h7728216_100_cpython  conda-forge/osx-64                        24 MB
+  + python_abi             3.7  2_cp37m               conda-forge/osx-64                         4 KB
+  + readline               8.1  h05e3726_0            conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py37hf985489_0        conda-forge/osx-64                       963 KB
+  + splicemap          3.3.5.2  hb280591_3            /Users/runner/conda/conda-bld/osx-64     404 KB
+  + sqlite              3.36.0  h23a322b_0            conda-forge/osx-64                       Cached
+  + tbb               2021.3.0  h940c156_0            conda-forge/osx-64                       162 KB
+  + tk                  8.6.11  h5dbffcc_1            conda-forge/osx-64                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1          conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1            conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010         conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 40 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: splicemap-3.3.5.2-hb280591_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/splicemap_1630920995760/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    bowtie:          1.2.3-py37h770b8ee_0        bioconda   
+    ca-certificates: 2021.5.30-h033912b_0        conda-forge
+    libcxx:          12.0.1-habf9029_0           conda-forge
+    libffi:          3.3-h046ec9c_2              conda-forge
+    ncurses:         6.2-h2e338ed_4              conda-forge
+    openssl:         1.1.1l-h0d85af4_0           conda-forge
+    perl:            5.32.1-0_h0d85af4_perl5     conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0         conda-forge
+    python:          3.7.10-h7728216_100_cpython conda-forge
+    python_abi:      3.7-2_cp37m                 conda-forge
+    readline:        8.1-h05e3726_0              conda-forge
+    setuptools:      57.4.0-py37hf985489_0       conda-forge
+    splicemap:       3.3.5.2-hb280591_3          local      
+    sqlite:          3.36.0-h23a322b_0           conda-forge
+    tbb:             2021.3.0-h940c156_0         conda-forge
+    tk:              8.6.11-h5dbffcc_1           conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1         conda-forge
+    xz:              5.2.5-haf1e3a3_1            conda-forge
+    zlib:            1.2.11-h7795811_1010        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/splicemap_1630920995760/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/splicemap_1630920995760/test_tmp
+---== Welcome to SpliceMap 3.3.5.2 (55) ==---
+Developed by Kin Fai Au and John C. Mu
+http://www.stanford.edu/group/wonglab/SpliceMap/
+__________
+usage: ./runSpliceMap run.cfg
+  run.cfg  --  Configuration options for this run, see comments in file for details
+See website for further details
+
+Resource usage statistics from testing splicemap:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.1
+   Memory: 16.0M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: splicemap-3.3.5.2-hb280591_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
