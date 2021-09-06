@@ -1,0 +1,194 @@
+  Package                 Version  Build               Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2                   1.0.8  h0d85af4_4          conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0          conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + htslib                   1.13  hc38c3fb_0          bioconda/osx-64                            2 MB
+  + irissv                  1.0.4  hdfd78af_2          bioconda/noarch                           61 KB
+  + jasminesv               1.1.4  hdfd78af_0          /Users/runner/conda/conda-bld/osx-64     176 KB
+  + k8                      0.2.5  h87af4ef_1          bioconda/osx-64                            1 MB
+  + krb5                   1.19.2  hcfbf3a7_0          conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0          conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5          conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2          conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + libffi                    3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0          conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0          conda-forge/osx-64                       Cached
+  + minimap2                 2.22  h188c3c3_0          bioconda/osx-64                          147 KB
+  + ncurses                   6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openjdk              11.0.9.1  hcf210ce_1          conda-forge/osx-64                       169 MB
+  + openssl                1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                    21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python                  3.9.7  hd187cdc_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi                3.9  2_cp39              conda-forge/osx-64                       Cached
+  + racon                  1.4.20  h87af4ef_1          bioconda/osx-64                          157 KB
+  + readline                  8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + samtools                 1.13  h7596a89_0          bioconda/osx-64                          404 KB
+  + setuptools             57.4.0  py39h6e9494a_0      conda-forge/osx-64                       Cached
+  + sqlite                 3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + tzdata                  2021a  he74cb21_1          conda-forge/noarch                       Cached
+  + wheel                  0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                      5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 33 packages
+
+  Total download: 173 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: jasminesv-1.1.4-hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/jasminesv_1630950232890/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:           1.0.8-h0d85af4_4         conda-forge
+    c-ares:          1.17.2-h0d85af4_0        conda-forge
+    ca-certificates: 2021.5.30-h033912b_0     conda-forge
+    htslib:          1.13-hc38c3fb_0          bioconda   
+    irissv:          1.0.4-hdfd78af_2         bioconda   
+    jasminesv:       1.1.4-hdfd78af_0         local      
+    k8:              0.2.5-h87af4ef_1         bioconda   
+    krb5:            1.19.2-hcfbf3a7_0        conda-forge
+    libcurl:         7.78.0-hf45b732_0        conda-forge
+    libcxx:          12.0.1-habf9029_0        conda-forge
+    libdeflate:      1.7-h35c211d_5           conda-forge
+    libedit:         3.1.20191231-h0678c8f_2  conda-forge
+    libev:           4.33-haf1e3a3_1          conda-forge
+    libffi:          3.3-h046ec9c_2           conda-forge
+    libnghttp2:      1.43.0-h07e645a_0        conda-forge
+    libssh2:         1.10.0-h52ee1ee_0        conda-forge
+    minimap2:        2.22-h188c3c3_0          bioconda   
+    ncurses:         6.2-h2e338ed_4           conda-forge
+    openjdk:         11.0.9.1-hcf210ce_1      conda-forge
+    openssl:         1.1.1l-h0d85af4_0        conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0      conda-forge
+    python:          3.9.7-hd187cdc_0_cpython conda-forge
+    python_abi:      3.9-2_cp39               conda-forge
+    racon:           1.4.20-h87af4ef_1        bioconda   
+    readline:        8.1-h05e3726_0           conda-forge
+    samtools:        1.13-h7596a89_0          bioconda   
+    setuptools:      57.4.0-py39h6e9494a_0    conda-forge
+    sqlite:          3.36.0-h23a322b_0        conda-forge
+    tk:              8.6.11-h5dbffcc_1        conda-forge
+    tzdata:          2021a-he74cb21_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:              5.2.5-haf1e3a3_1         conda-forge
+    zlib:            1.2.11-h7795811_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/jasminesv_1630950232890/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/Users/runner/conda/conda-bld/jasminesv_1630950232890/test_tmp
+Error: No list of VCFs specified
+
+
+Jasmine version 1.1.4
+Usage: jasmine [args]
+  Example: jasmine file_list=filelist.txt out_file=out.vcf
+
+Required args:
+  file_list (String) - a file listing paths to unzipped VCF files to merge (on separate lines)
+  out_file  (String) - the name of the file to output the merged variants to
+
+Optional args:
+  max_dist_linear (float)  [0.5]      - the proportion of the length of each variant to set distance threshold to
+  max_dist        (int)    [inf]      - the maximum distance variants can be apart when being merged
+  min_dist        (int)    [100]      - the minimum distance threshold a variant can have when using max_dist_linear
+  kd_tree_norm    (int)    [2]        - the power to use in kd-tree distances (1 is Manhattan, 2 is Euclidean, etc.)
+  min_seq_id      (float)  [0]        - the minimum sequence identity for two insertions to be merged
+  k_jaccard       (int)    [9]        - the kmer size to use when computing Jaccard similarity of insertions
+  max_dup_length  (int)    [10k]      - the maximum length of duplication that can be converted to an insertion
+  min_support     (int)    [1]        - the minimum number of callsets a variant must be in to be output
+  threads         (int)    [1]        - the number of threads to use for merging the variants
+  spec_reads      (int)    [10]       - the minimum number of reads a variant needs to be in the specific callset
+  spec_len        (int)    [30]       - the minimum length a variant needs to be in the specific callset
+  genome_file     (String) []         - the reference genome being used
+  bam_list        (String) []         - a file listing paths to BAMs in the same order as the VCFs
+  iris_args       (String) []         - a comma-separated list of optional arguments to pass to Iris
+  out_dir         (String) [output]   - the directory where intermediate files go
+  samtools_path   (String) [samtools] - the path to the samtools executable used for coverting duplications
+  chr_norm_file   (String) []         - the path to a file containing chromosome name mappings, if they are being normalized
+  sample_dists    (String) []         - the path to a file containing distance thresholds for each sample, one per line
+  min_overlap     (float)  [0]        - the minimum reciprocal overlap for DEL/INV/DUP SVs
+  --ignore_strand                     - allow variants with different strands to be merged
+  --ignore_type                       - allow variants with different types to be merged
+  --dup_to_ins                        - convert duplications to insertions for SV merging and then convert them back
+  --mark_specific                     - mark calls in the original VCF files that have enough support to called specific
+  --run_iris                          - run Iris before merging for refining the sequences of insertions
+  --pre_normalize                     - run type normalization before merging
+  --use_edit_dist                     - use edit distance for comparing insertion sequences instead of Jaccard
+  --preprocess_only                   - only run the preprocessing and not the actual merging or post-processing
+  --postprocess_only                  - only run the postprocessing and not the actual merging or pre-processing
+  --keep_var_ids                      - don't change variant IDs (should only be used if input IDs are unique across samples)
+  --use_end                           - use the end coordinate as the second coordinate instead of the variant length
+  --output_genotypes                  - print the genotypes of the consensus variants in all of the samples they came from
+  --ignore_merged_inputs              - ignore merging info such as support vectors which is already present in the inputs
+  --centroid_merging                  - require every group to have a centroid which is within the distance threshold of each variant
+  --clique_merging                    - require every group to have each pair within in it be mergeable
+  --allow_intrasample                 - allow variants in the same sample to be merged
+  --normalize_type                    - convert all variants to INS/DEL/DUP/INV/TRA
+  --leave_breakpoints                 - leave breakpoints as they are even if they are inconsistent
+  --require_first_sample              - only output merged variants which include a variant from the first sample
+  --comma_filelist                    - input VCFs are given comma-separated instead of providing a txt file
+  --normalize_chrs                    - normalize chromosome names (to NCBI standards - without "chr" - by default)
+  --non_mutual_distance               - no longer require a pair of points to be within both of their distance thresholds
+  --default_zero_genotype             - marks genotype as 0|0 instead of ./. for any samples in which a merged variant is absent
+  --nonlinear_dist                    - disable distance threshold depending on variant length and use max_dist instead
+
+Notes:
+  genome_file is required if the dup_to_ins option or the run_iris option is used.
+  bam_list is required if the run_iris option is used.
+  Setting both max_dist_linear and max_dist sets thresholds to minimum of max_dist and max_dist_linear * sv_length.
+  Setting both max_dist_linear and min_dist sets thresholds to maximum of min_dist and max_dist_linear * sv_length.
+  Setting min_dist to -1 removes the minimum threshold.
+
+
+Jasmine IGV Screenshot Maker
+Usage: igv_jasmine [args]
+  Example: igv_jasmine vcf_file=merged.vcf genome_file=genome.fa bam_filelist=bams.txt out_prefix=igv
+
+Required args:
+  vcf_file      (String) - the VCF file with merged SVs
+  genome_file   (String) - the FASTA file with the reference genome
+  bam_filelist  (String) - a comma-separated list of BAM files
+  out_prefix    (String) - the prefix of the output directory and filenames
+
+Optional args:
+  info_filter=KEY,VALUE  - filter by an INFO field value (multiple allowed) e.g., info_filter=SUPP_VEC,101
+  grep_filter=QUERY      - filter to only lines containing a given QUERY
+  vcf_filelist  (String) - the txt file with a list of input VCFs in the same order as BAM files
+  bed_file      (String) - a bed file with a list of ranges (use instead of vcf_file)
+  --precise              - require variant to contain "PRECISE" as an INFO field
+  --specific             - shorthand for info_filter=IS_SPECIFIC,1
+  --squish               - squishes tracks to fit more reads
+  --svg                  - save as an SVG instead of a PNG
+  --normalize_chr_names  - normalize the VCF chromosome names to strip "chr"
+
+
+Resource usage statistics from testing jasminesv:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: jasminesv-1.1.4-hdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
