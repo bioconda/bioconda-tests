@@ -1,0 +1,93 @@
+  Package           Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu                conda-forge/linux-64                    Cached
+  + boost-cpp        1.74.0  h312852a_4           conda-forge/linux-64                     16 MB
+  + bzip2             1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + gsl                 2.6  he838d99_2           conda-forge/linux-64                      3 MB
+  + icu                68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + ldhelmet           1.10  hbc3b911_2           /home/vsts/conda/conda-bld/linux-64     298 KB
+  + libblas           3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas          3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng   11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5     11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libopenblas      0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng     11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + lz4-c             1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + xz                5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib             1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd              1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 19 packages
+
+  Total download: 20 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: ldhelmet-1.10-hbc3b911_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/ldhelmet_1630928274984/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:  0.1-conda_forge            conda-forge
+    _openmp_mutex:  4.5-1_gnu                  conda-forge
+    boost-cpp:      1.74.0-h312852a_4          conda-forge
+    bzip2:          1.0.8-h7f98852_4           conda-forge
+    gsl:            2.6-he838d99_2             conda-forge
+    icu:            68.1-h58526e2_0            conda-forge
+    ldhelmet:       1.10-hbc3b911_2            local      
+    libblas:        3.9.0-11_linux64_openblas  conda-forge
+    libcblas:       3.9.0-11_linux64_openblas  conda-forge
+    libgcc-ng:      11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng: 11.1.0-h69a702a_8          conda-forge
+    libgfortran5:   11.1.0-h6c583b3_8          conda-forge
+    libgomp:        11.1.0-hc902ee8_8          conda-forge
+    libopenblas:    0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:   11.1.0-h56837e0_8          conda-forge
+    lz4-c:          1.9.3-h9c3ff4c_1           conda-forge
+    xz:             5.2.5-h516909a_1           conda-forge
+    zlib:           1.2.11-h516909a_1010       conda-forge
+    zstd:           1.5.0-ha95c52a_0           conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/ldhelmet_1630928274984/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/ldhelmet_1630928274984/test_tmp
+Version: 1.9
+Usage: ldhelmet <command> [args]
+
+Available commands:
+  find_confs
+  table_gen
+  convert_table
+  pade
+  rjmcmc
+  post_to_text
+  max_lk
+
+
+Resource usage statistics from testing ldhelmet:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: ldhelmet-1.10-hbc3b911_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

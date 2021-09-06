@@ -1,0 +1,92 @@
+  Package           Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+  + bzip2             1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + dnp-binstrings      1.0  h14b862d_2     /Users/runner/conda/conda-bld/osx-64     202 KB
+  + libcxx           12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + zlib             1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 202 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: dnp-binstrings-1.0-h14b862d_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/dnp-binstrings_1630928765360/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    bzip2:          1.0.8-h0d85af4_4     conda-forge
+    dnp-binstrings: 1.0-h14b862d_2       local      
+    libcxx:         12.0.1-habf9029_0    conda-forge
+    zlib:           1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/dnp-binstrings_1630928765360/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/dnp-binstrings_1630928765360/test_tmp
+binstrings - Binary strings from fasta
+======================================
+
+SYNOPSIS
+    binstrings [OPTIONS] "fastaFile.fa"
+
+DESCRIPTION
+    This program reads the fasta file and each sequence is transformed into
+    0011 form in which ones denotedinucleotides and zeros are elsewhere.Binary
+    sequence is printed. The last lneis the profile of the dinucleotide
+    appearance.
+
+REQUIRED ARGUMENTS
+    FASTA_FILE STRING
+
+OPTIONS
+    -h, --help
+          Display the help message.
+    --version-check BOOL
+          Turn this option off to disable version update notifications of the
+          application. One of 1, ON, TRUE, T, YES, 0, OFF, FALSE, F, and NO.
+          Default: 1.
+    -di, --dinucleotide STRING
+          Dinucleotide that is to identify in fasta sequences One of AA, AC,
+          AG, AT, CA, CC, CG, CT, GA, GC, GG, GT, TA, TC, TG, and TT. Default:
+          CC.
+    --version
+          Display version information.
+
+EXAMPLES
+    binstrings -di CC path/to/fasta/file.fa
+          Compute binary strings matching CC in fasta sequences.
+
+OUTPUT
+    100000000111000 CC chr9:42475963-42476182 CCAGGCAGACCCCATA 4
+          binary string, CC, fasta id, DNA sequence, occurrences
+
+VERSION
+    Last update: September 2018
+    binstrings version: 1.0
+    SeqAn version: 2.4.0
+
+Resource usage statistics from testing dnp-binstrings:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: dnp-binstrings-1.0-h14b862d_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

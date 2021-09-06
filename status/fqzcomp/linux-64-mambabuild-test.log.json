@@ -1,0 +1,88 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + fqzcomp            4.6  h9a82719_2     /home/vsts/conda/conda-bld/linux-64     136 KB
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 136 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: fqzcomp-4.6-h9a82719_2.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/fqzcomp_1630928519940/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    fqzcomp:       4.6-h9a82719_2       local      
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/fqzcomp_1630928519940/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/fqzcomp_1630928519940/test_tmp
+fqz_comp v4.6. Author James Bonfield, 2011-2013
+The range coder is derived from Eugene Shelwien.
+
+To compress:
+  fqz_comp [options] [input_file [output_file]]
+
+    -Q <num>       Perform lossy compression with all quality values
+                   being within 'num' distance from their original value.
+                   Default is lossless, i.e. "-q 0"
+
+    -s <level>     Sequence compression level. 1-9 [Def. 3]
+                   Specifying '+' on the end (eg -s5+) will use
+                   models of multiple sizes for improved compression.
+
+    -b             Use both strands in sequence hash table.
+
+    -e             Extra seq compression: 16-bit vs 8-bit counters.
+
+    -q <level>     Quality compression level.  1-3 [Def. 2]
+
+    -n <level>     Name compression level.  1-2 [Def. 2]
+
+    -P             Disable multi-threading
+
+    -X             Disable generation/verification of check sums
+
+    -S             SOLiD format
+
+To decompress:
+   fqz_comp -d < foo.fqz > foo.fastq
+or fqz_comp -d foo.fqz foo.fastq
+
+Resource usage statistics from testing fqzcomp:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: fqzcomp-4.6-h9a82719_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
