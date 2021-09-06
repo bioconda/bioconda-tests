@@ -1,0 +1,340 @@
+  Package           Version  Build        Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex       0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex       4.5  1_gnu        conda-forge/linux-64                    Cached
+  + libgcc-ng        11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp          11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + sfs_code       20150910  h779adbc_3   /home/vsts/conda/conda-bld/linux-64     182 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 182 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: sfs_code-20150910-h779adbc_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/sfs_code_1630921892193/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge     conda-forge
+    _openmp_mutex: 4.5-1_gnu           conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8   conda-forge
+    libgomp:       11.1.0-hc902ee8_8   conda-forge
+    sfs_code:      20150910-h779adbc_3 local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/sfs_code_1630921892193/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/sfs_code_1630921892193/test_tmp
+PROGRAM:  	Selection on Finite Sites under COmplex DemographicEffects
+		(SFS_CODE)
+DEVELOPER: 	Ryan D. Hernandez
+COPYRIGHT (C):	2007
+DESCRIPTION:
+	SFS_CODE simulates population genetic data under a wide range of
+	demographic and selective models.
+
+USAGE: ./sfs_code <NPOP> <ITER> [--option <argument(s)>]...
+	where <NPOP> is the total number of populations to be simulated
+	and <ITER> is the number of iterations you would like to run.
+
+OPTIONS:
+	(Note: arguments in '<..>' are required, in '[..]' are optional.
+	Including the optional argument '[P <pop>]' will set the
+	parameters just for population <pop>.  Both short name [single -,
+	single letter] and long name [double --, full name] are provided,
+	but you only need to enter one of them. * indicates that the option can 
+	be used as a timed event (-T).)
+
+	--mutation <time> [P <population>] [L <locus>] [S <site>] [G <gamma>]
+		Add mutation at specified time in a particular [P]opulation, [L]ocus, 
+		[S]ite, or selection effect [G]amma.
+
+	--printGen
+		print the generation throughout the simulation.  only useful for long
+		simulations when the generations take a long time to run and you want
+		status updates.
+
+	--printLocus <locus>
+		The default is to print output for all loci.  Use this option to print the output of just a single locus (or repeat to print multiple loci).
+
+	--trackAncestry [a] <file>
+		print the ancestry of each position simulated
+
+	--trackTrajectory [T <time>] [P <pop>] [L <locus>] [S <site>] [R <min_freq> <max_freq> [S] [A [G <gens>]] [M <max_reps>]] [F [a] <file>]
+		track the frequency each generation.  [R <min_freq> <max_freq> [S]] sets 
+		the desired freq range at time of sampling ([S]topping first time in
+		range).  [A] causes simulation to restart immediately after loss, or at (or
+		some [G]enerations after) time of fixation if max_freq=1.
+
+-A  --noSeq
+		don't print ancestral sequence
+
+-a	--annotate    [F <filename>] [<a1> [<a2>...<aR>] [R]]
+		indicate whether each locus is coding/non-coding
+
+-B	--BURN  <burn>
+		set initial burn-in length, generations/P/N
+
+-b	--BURN2  <burn>
+		set burn-in length of subsequent iterations > 1
+
+-C*	--PSI  [P <pop>] <psi>
+		set the CpG mutation bias
+
+-c*	--constraint  [P <pop>] [L <locus>] <f0>
+		set the non-lethal mutation rate
+
+-TD  <t> <i> <j> <allele_freq> <N> [locus]
+		only used with -T to create a domesticated population at time <t>
+from pop <i> to pop <j> with given <allele_freq> and resulting pop
+size <N> at an optional [locus].
+
+-Td  <t> [P <pop>] <v>
+		only used with -T to set the demographic effects
+
+-TE  <t> [pop]
+		only used with -T to end the simulation for a population at time t
+
+-e	--errfile  [a] <file> 
+		print error to specific file
+
+-F	--popFreq  [a] <file>
+		create file with population & sample frequencies for each event
+		
+-f	--propFemale [P <pop>] <pf>
+		set the proportion of females in a population
+		
+-G*	--GenEffect  <pop> <G>
+		set the generation effect for a population
+		
+-Tg  [P <pop>] <alpha>
+		only used with -T to set the exponential population growth rate
+
+-H*	--geneConversion  [P <pop>] [B <BGC>] <f> <lambda> 
+		set parameters for gene conversion
+
+-h	--help 
+		help menu
+
+-I	--INF_SITES 
+		simulate infinite-sites model.  This only pertains to segregating
+		variants.  For long simulations, sites that previously received a
+		fixation can mutate again.
+
+-i*	--self  [P <pop>] <s>
+		set the selfing [not really inbreeding] rate
+
+-TJ  --admix <gen> <new_p> <size> <n_pop> <P_1>...<P_npop> [M <m_1>...<m_npop>] <f_1>...<f_npop>
+		create new population with specified size by joining <n_pops> existing
+		populations
+
+[-j	/* not used... */]
+
+-K*	--KAPPA  [P <pop>] <kappa> 
+		set transition transversion rate
+
+-Tk  [P <pop>] <K> <r>
+		used with -T to implement logistic growth rate
+		
+-L  --length  <nloci> <L1> [<L2>...<Ln>] [R]
+		set sequence lengths and number of loci
+
+-l	--linkage  <p/g> <d1> [<d2>...<dn-1>] [R]
+		set linkage between adjacent loci
+
+-M	--substMod  <mod> [args]
+		set the substitution model
+
+-m*	--mig_mat {see documentation...}
+		set the migration rates to and from populations
+
+-N*	--popSize  [P <pop>] <size>
+		set the effective size of a population
+
+-n*	--sampSize  [P <pop>] [R <tau_d>] [S <tau_1>]] <SS1> [<SS2>...<SSNpops>]
+		set the number of individuals sampled from a population.  When used
+		as -Tn, a time must be specified for sampling, and opens the ability for
+		[R]ecurrent sampling starting at the pre-specified time, and repeat every
+		tau_d*PN_A generations until the end of the simulation, or a specified
+		[S]top time tau_1.  Note that the sample size must be specified at the
+		end (either a single number to be applied to all populations or include
+		a number for every population).  You can use -Tn multiple times.
+
+[-O	/* not used...*/]
+
+-o	--outfile  [a] <file>
+		print output to specific file
+
+-P	--ploidy  <P>
+		set the ploidy, P=1 is haploid, P=2 is diploid, P=4 is tetraploid
+
+-p	--tetraType  <0/1>
+		set the type of tetraploid [allo- or auto-]
+
+[-Q	/* not used... */]
+
+-q*   --baseFreq [P <pop>] <pi_C> <pi_G> <pi_T> <pi_A>
+		set the equilibrium base frequencies (default = 0.25)
+
+-R	--ReportBurnFixed
+		report mutations that fixed during burn-in
+
+-r*	--rho  [P <pop>] [F <filename>] <rho>
+		set the recombination rate for a population
+
+-TS  <t> <i> <j>
+		used with -T to split the population at a given time
+
+-s	--seed  <value>
+		set seed for random number generator
+
+-T*
+		used in combination with other parameters for timed effects
+
+-t*	[P <pop>] <theta>
+		set the value of theta for a population
+		
+-U*	--longIndel  [P <pop>] <INSrate> <DELrate> <mean_length>
+		rate of insertion/deletions with Poisson length distribution
+
+-u*	--indel  [P <pop>] <INSrate> <DELrate> <mean_length> 
+		rate of insertion/deletions with geometric length distribution
+
+-V	--rateClassSites  [P <pop>] <nclasses> <alpha> 
+		mutation rate variation among SITES
+
+-v	--rateClassLoci  [P <pop>] <nclasses> <alpha>
+		mutation rate variation among LOCI
+
+-W*  --selDistType  [P <pop>] [L <locus>] [F <allele_freq> [w] [T [R <min_freq> <max_freq> [S] [A [G <gens>]] [M <max_reps>]] [F [a] <file>]]] <type> [args]
+		set distribution of selective effects.  See documentation for proper
+		usage of <type> [args].  Set the distribution for a [P]opulation or
+		[L]ocus.  In -TW mode, change selection coefficient of an existing
+		polymorphism with a particular [F]requency.  If a frequency is specified,
+		you can [T]rack the allele to ensure that it achieves a particular
+		frequency [R]ange at time of sampling ([S]top the first time in range), 
+		[A]utomatically restart if the allele is lost (up to a [M]aximal number of
+		tries), and output the trajectory to a [F]ile (or [a]ppend to existing).
+		Note that tracking a mutation here prevents you from tracking a locus using
+		--trackTrajectory.  Unfortunately, tracking only occurs after selection
+		coefficient changes.
+
+-w*	--neutPop  <pop>
+		allow a population to be neutral
+
+[-X	/* not used... */]
+
+-x	--sex  <x1> [<x2 >..<xR>] [R]
+		indicate whether each locus is autosomal/sex
+
+-Y*	--pMaleRec  [P <pop>] <p>
+		proportion of recombinants occuring in male meioses vs female.
+
+-y*	--pMaleMig  [P <pop>] <pmale>
+		proportion of migrants that are male
+
+-Z	--additive 
+		specify an additive model of selective effects instead of multiplicative
+
+-z*	--inversions  [P <pop>] <INVrate> <mean_length>
+		rate of inversions with Poisson length distribution
+PROGRAM:       convertSFS_CODE
+DEVELOPER:     Ryan D. Hernandez
+RELEASE DATE:  ???
+
+DESCRIPTION:
+	Convert simulated data output from sfs_code to a more useful
+	form.  Examples are the overall site-frequency spectrum, or
+	the input into another program such as structure, or the
+	fasta sequence alignment.
+
+USAGE:  ./convertSFS_CODE <input_file> [options]
+
+OPTIONS:
+	--help (-h)
+		Print this help menu
+	--alignment (-a) [A] [F <filename>] [P <#pops> <P1>..<P#pops>] 
+		  [I <#indiv> <I1>..<I#indiv>] [P.I <#comb> <P1.I1>..<Pn.In>]
+		  [L <#loci> <L1>..<L#loci>] [ITS <#its>]
+		Print the alignment in fasta format.  Use "A" option to print
+		ancestral sequences.  Use "F" option
+		to print the output to the file <filename>.  Use "P" option
+		to print only specific populations, or "I" option for
+		specific individuals.  Use "P.I" option to print only
+		spcific individuals from specific populations, and use "L"
+		to print output from specific loci.  Use "T" option to
+		print only first <#its> iterations.  Note: cannot use
+		both "P" and "I" options (use "P.I" instead).  By
+		default, a fasta style alignment of all individuals across
+		all loci and iterations will be printed to the screen.
+
+	--MK (-m) <ingroup> <outgroup> [OBS] [F [a] <file>]
+		   [L <#loci> <L1>..<L#loc>] [ITS [#its]] [OGSS <OG_size>
+		Extract McDonald-Kreitman (MK) tables for comparing <ingroup>
+		to <outgroup>.  By default, will print the MK table for the
+		true data (saved during simulation) summed over all loci &
+		iterations, with each entry space delimited.  Using "OBS"
+		option will print the observed MK table based on parsimony
+		(by default a single sequence from the outgroup will be used
+		for divergence, but specifying OG_size can change this).
+		Use "F" to print output to the file <file> (include 'a'
+		to append to file instead of over-writing it).  Use "L" to
+		print specific loci (<#loci> = -1 prints seperate MK tables at
+		each locus).  To print each iteration indepdently, use 
+		'ITS' option (to print only a subset of iterations, 
+		include the number of iterations [#its].  Using the "OGSS"
+		option sets the outgroup size to <OG_size>, such that any
+		mutation carried by the first <OG_size> chromosomes in the
+		outgroup will be considered a fixed difference (setting
+		<OG_size> = -1 is uses the entire sample size).
+		Each MK table is printed in the following order:
+		<PS> <PN> <FS> <FN>, where 'P' refers to polymorphic,
+		'F' fixed, 'S' synonymous and 'N' is nonsynonymous.
+
+	--SFS (-s) [OBS <P1> <P2> [OG_size]] [T <0/1/2>] [F [a] <file>]
+		   [L <#loci> <L1>..<L#loc>] [P <#pops> <P1>..<P#pops>]
+		   [ITS [#its]]
+		Extract Site-Frequency Spectra.  By default, will print the
+		SFS for the true data (saved during simulation) summed
+		over all loci & iterations, each entry space delimited and
+		populations separated by a tab.  Using "OBS" option will
+		print the observed SFS for population <P1> using <P2> as an 
+		outgroup to parsimoniously determine the ancestral state of
+		each SNP (arbitrarily chooses first sequence from outgroup as
+		reference unless OG_size is specified).  Use "T" option to
+		change the type of SFS extracted:
+		0=synonymous, 1=nonsynonymous, 2=all mutants (default).
+		Use "F" to print output to the file <file> (include 'a'
+		to append to file instead of over-writing it).  Use "L" to
+		print specific loci (<#loci> = -1 prints seperate SFS for
+		each locus).  Use "P" to print the SFS only from specific
+		populations (only valid for true data, i.e. not when using
+		OBS flag).  To print each iteration indepdently, use 'ITS'
+		flag (to print only a subset of iterations, include the
+		number of iterations [#its].
+
+Resource usage statistics from testing sfs_code:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: sfs_code-20150910-h779adbc_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

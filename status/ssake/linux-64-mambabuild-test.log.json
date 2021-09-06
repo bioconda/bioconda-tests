@@ -1,0 +1,190 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: ssake-4.0-py27pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpov04vz6f/info/recipe/conda_build_config.yaml
+  Package                           Version  Build                  Channel                                   Size
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                       0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex                       4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + ca-certificates               2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi                      2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + ld_impl_linux-64                 2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libffi                            3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng                        11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgomp                          11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libstdcxx-ng                     11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                             6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + openssl                          1.1.1l  h7f98852_0             conda-forge/linux-64                    Cached
+  + perl                             5.26.2  h36c2ea0_1008          conda-forge/linux-64                     15 MB
+  + perl-exporter-tiny             1.002001  pl526_0                bioconda/linux-64                        23 KB
+  + perl-list-moreutils               0.428  pl526_1                bioconda/linux-64                        28 KB
+  + perl-list-moreutils-xs            0.428  pl526_0                bioconda/linux-64                        43 KB
+  + perl-statistics-descriptive      3.0702  pl526_0                bioconda/linux-64                        32 KB
+  + perl-xsloader                      0.24  pl526_0                bioconda/linux-64                         8 KB
+  + pip                              20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + python                           2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi                          2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                            8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + setuptools                       44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                           3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + ssake                               4.0  py27pl526_2            /home/vsts/conda/conda-bld/linux-64      42 KB
+  + tk                               8.6.11  h27826a3_1             conda-forge/linux-64                    Cached
+  + wheel                            0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + zlib                             1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 27 packages
+
+  Total download: 30 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/ssake_1630922019941/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:               0.1-conda_forge              conda-forge
+    _openmp_mutex:               4.5-1_gnu                    conda-forge
+    ca-certificates:             2021.5.30-ha878542_0         conda-forge
+    certifi:                     2019.11.28-py27h8c360ce_1    conda-forge
+    ld_impl_linux-64:            2.36.1-hea4e1c9_2            conda-forge
+    libffi:                      3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:                   11.1.0-hc902ee8_8            conda-forge
+    libgomp:                     11.1.0-hc902ee8_8            conda-forge
+    libstdcxx-ng:                11.1.0-h56837e0_8            conda-forge
+    ncurses:                     6.2-h58526e2_4               conda-forge
+    openssl:                     1.1.1l-h7f98852_0            conda-forge
+    perl:                        5.26.2-h36c2ea0_1008         conda-forge
+    perl-exporter-tiny:          1.002001-pl526_0             bioconda   
+    perl-list-moreutils:         0.428-pl526_1                bioconda   
+    perl-list-moreutils-xs:      0.428-pl526_0                bioconda   
+    perl-statistics-descriptive: 3.0702-pl526_0               bioconda   
+    perl-xsloader:               0.24-pl526_0                 bioconda   
+    pip:                         20.1.1-pyh9f0ad1d_0          conda-forge
+    python:                      2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:                  2.7-1_cp27mu                 conda-forge
+    readline:                    8.1-h46c0cb4_0               conda-forge
+    setuptools:                  44.0.0-py27_0                conda-forge
+    sqlite:                      3.36.0-h9cd32fc_0            conda-forge
+    ssake:                       4.0-py27pl526_2              local      
+    tk:                          8.6.11-h27826a3_1            conda-forge
+    wheel:                       0.37.0-pyhd8ed1ab_1          conda-forge
+    zlib:                        1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/ssake_1630922019941/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/ssake_1630922019941/test_tmp
+
+Usage: $PREFIX/bin/SSAKE [v4.0]
+-f  File containing all the [paired (-p 1)] reads (required)
+	  With -p 1:
+	! Target insert size must be indicated at the end of the header line (e.g. :400 for a 400bp fragment/insert size)
+	! Paired reads must be separated by ":"
+	  >header:400 (or >header_barcode:400)
+	  ACGACACTATGCATAAGCAGACGAGCAGCGACGCAGCACG:GCGCACGACGCAGCACAGCAGCAGACGAC
+-g  Fasta file containing unpaired sequence reads (optional)
+-w  Minimum depth of coverage allowed for contigs (e.g. -w 1 = process all reads [v3.7 behavior], required, recommended -w 5)
+    *The assembly will stop when 50+ contigs with coverage < -w have been seen.*
+-s  Fasta file containing sequences to use as seeds exclusively (specify only if different from read set, optional)
+	-i Independent (de novo) assembly  i.e Targets used to recruit reads for de novo assembly, not guide/seed reference-based assemblies (-i 1 = yes (default), 0 = no, optional)
+	-j Target sequence word size to hash (default -j 15)
+	-u Apply read space restriction to seeds while -s option in use (-u 1 = yes, default = no, optional)
+-m  Minimum number of overlapping bases with the seed/contig during overhang consensus build up (default -m 20)
+-o  Minimum number of reads needed to call a base during an extension (default -o 2)
+-r  Minimum base ratio used to accept a overhang consensus base (default -r 0.7)
+-t  Trim up to -t base(s) on the contig end when all possibilities have been exhausted for an extension (default -t 0, optional)
+-c  Track base coverage and read position for each contig (default -c 0, optional)
+-y  Ignore read mapping to consensus (-y 1 = yes, default = no, optional)
+-h  Ignore read name/header *will use less RAM if set to -h 1* (-h 1 = yes, default = no, optional)
+-b  Base name for your output files (optional)
+-z  Minimum contig size to track base coverage and read position (default -z 100, optional)
+-q  Break tie when no consensus base at position, pick random base (-q 1 = yes, default = no, optional)
+-p  Paired-end reads used? (-p 1 = yes, default = no, optional)
+-v  Runs in verbose mode (-v 1 = yes, default = no, optional)
+============ scaffolding options below only considered with -p 1 ============
+-e  Error (%) allowed on mean distance   e.g. -e 0.75  == distance +/- 75% (default -e 0.75, optional)
+-l  Minimum number of links (read pairs) to compute scaffold (default -k 5, optional)
+-a  Maximum link ratio between two best contig pairs *higher values lead to least accurate scaffolding* (default -a 0.3, optional)
+Usage: $PREFIX/bin/TQSfastq.pl [v1.2]
+-f  File of filenames corresponding to fasta/fastq files with reads to interrogate
+ -q Phred quality score threshold (bases less than -q XX will be clipped, default -q 10, optional)
+ -n Number of consecutive -q 10 bases (default -n 30, optional)
+-e  ASCII offset (33=standard 64=illumina, default -n 33, optional)
+Usage: TQSexport.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -f EXPORTFILE, --export file=EXPORTFILE
+                        Illumina export file - Output format from the Genome
+                        Analyzer
+  -t THRESHOLD, --Phred quality threshold=THRESHOLD
+                        Base intensity threshold value (Phred quality scores 0
+                        to 40, default=10)
+  -c CONSEC, --consec=CONSEC
+                        Minimum number of consecutive bases passing threshold
+                        values (default=20)
+  -v, --verbose         Runs in Verbose mode.
+Usage: TQSfastq.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -f FASTQFILE, --fastq file=FASTQFILE
+                        fastq (fq) file - standard (ASCII+33) encoded PHRED
+                        quality scores / illumina (ASCII+64) encoded PHRED
+                        quality scores
+  -t THRESHOLD, --Phred quality threshold=THRESHOLD
+                        Base intensity threshold value (Phred quality scores,
+                        default=10)
+  -c CONSEC, --consec=CONSEC
+                        Minimum number of consecutive bases passing threshold
+                        values (default=20)
+  -e ENCODING, --ASCII encoding type: 33 or 64=ENCODING
+                        Type of ASCII encoding: 33 (standard) or 64 (illumina)
+                        (default=33)
+  -v, --verbose         Runs in Verbose mode.
+Usage: TQS.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  -f SEQFILE, --sequence file=SEQFILE
+                        Illumina sequence file - Output format from the 1G
+                        Genome Analyzer (_seq.txt):
+                        7       1       255     669
+                        AACCCCCACTCCTACAACGCCATCATTCCCCTCGAC
+  -q QUALFILE, --qual file=QUALFILE
+                        A prb file containing all the Illumina intensities, as
+                        outputted by the 1G Genome Analyzer (_prb.txt)
+  -l MER, --length=MER  Length of sequence reads (i.e. Number of sequencing
+                        cycles, default=36)
+  -t THRESHOLD, --threshold=THRESHOLD
+                        Base intensity threshold value (-40 to 40, default=5)
+  -d DIFF, --difference=DIFF
+                        Base intensity difference between top intensity and
+                        second best (1 to 80, default=5)
+  -c CONSEC, --consec=CONSEC
+                        Minimum number of consecutive bases passing threshold
+                        values (default=20)
+  -v, --verbose         Runs in Verbose mode.
+
+Resource usage statistics from testing ssake:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: ssake-4.0-py27pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
