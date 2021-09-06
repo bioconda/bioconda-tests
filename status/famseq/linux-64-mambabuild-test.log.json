@@ -1,0 +1,92 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + famseq           1.0.3  h7d875b9_3   /home/vsts/conda/conda-bld/linux-64       1 MB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 6 packages
+
+  Total download: 1 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: famseq-1.0.3-h7d875b9_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/famseq_1630891089323/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    famseq:        1.0.3-h7d875b9_3  local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/famseq_1630891089323/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/famseq_1630891089323/test_tmp
+FamSeq: Version: 1.0.2
+Usage:	FamSeq <input type> [options]
+
+FamSeq accepts two kinds of input files: vcf file and likelihood only format file. If the input is vcf file, type 'FamSeq vcf [options]' in the command line. Type 'FamSeq LK [options]' if the input is likelihood only format. The user can only use only of them.
+
+Options:
+
+-vcfFile	The name of input vcf file.
+
+-lkFile		The name of input likelihood only format file.
+
+-lkType	The likelihood type stored in the likelihood only format file. n:normal(default); log10: log10 scaled; ln: ln scaled; PS: phred scaled.
+
+-pedFile	The name of the file storing the pedigree information.
+
+-output		The name of output file
+
+-method		Choose the method used in variant calling. 1(default): Bayesian network; 2: Elston-Stewart algorithm; 3: MCMC.
+
+-mRate		Mutation rate. The default value is 1e-7
+
+-v		Only record the position at which the genotype is not RR in the output file. (R: reference allele, A: alternative allele).
+
+-a		Record all the position in the output file.
+
+-genoProbN	Genotype probability of three kinds of genotype for autosome in population (Pr(G)) when the variant is not in dbSNP. The default value is:  0.9985, 0.001 and 0.0005. The dbSNP position should be provided in column ID in input vcf file. 
+
+-genoProbK	Genotype probability of three kinds of genotype for autosome in population (Pr(G)) when the variant is in dbSNP. The default value is: 0.45, 0.1 and 0.45.
+
+-genoProbXN	Genotype probability of two kinds of genotype for chromosome X for male in population (Pr(G)) when the variant is not in dbSNP. The default value is: 0.999 and 0.001.
+
+-genoProbXK	Genotype probability of two kinds of genotype for chromosome X for male in population (Pr(G)) when the variant is in dbSNP. The default value is: 0.5 and 0.5.
+
+-numBurnIn	Number of burn in when the user chooses the MCMC method. The default value is 1,000n, where n is the number of individuals in the pedigree.
+
+-numRep		Number of iteration times when the user chooses MCMC method. The default value is 20,000n. 
+
+
+Resource usage statistics from testing famseq:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: famseq-1.0.3-h7d875b9_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
