@@ -1,0 +1,103 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + spring           1.0.1  h9a82719_1     /home/vsts/conda/conda-bld/linux-64     974 KB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 974 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: spring-1.0.1-h9a82719_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/spring_1630935318091/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    spring:        1.0.1-h9a82719_1     local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/spring_1630935318091/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/spring_1630935318091/test_tmp
+Allowed options:
+  -h [ --help ]                   produce help message
+  -c [ --compress ]               compress
+  -d [ --decompress ]             decompress
+  --decompress-range arg          --decompress-range start end
+                                  (optional) decompress only reads (or read 
+                                  pairs for PE datasets) from start to end 
+                                  (both inclusive) (1 <= start <= end <= 
+                                  num_reads (or num_read_pairs for PE)). If -r 
+                                  was specified during compression, the range 
+                                  of reads does not correspond to the original 
+                                  order of reads in the FASTQ file.
+  -i [ --input-file ] arg         input file name (two files for paired end)
+  -o [ --output-file ] arg        output file name (for paired end 
+                                  decompression, if only one file is specified,
+                                  two output files will be created by suffixing
+                                  .1 and .2.)
+  -w [ --working-dir ] arg (=.)   directory to create temporary files (default 
+                                  current directory)
+  -t [ --num-threads ] arg (=8)   number of threads (default 8)
+  -r [ --allow-read-reordering ]  do not retain read order during compression 
+                                  (paired reads still remain paired)
+  --no-quality                    do not retain quality values during 
+                                  compression
+  --no-ids                        do not retain read identifiers during 
+                                  compression
+  -q [ --quality-opts ] arg       quality mode: possible modes are
+                                  1. -q lossless (default)
+                                  2. -q qvz qv_ratio (QVZ lossy compression, 
+                                  parameter qv_ratio roughly corresponds to 
+                                  bits used per quality value)
+                                  3. -q ill_bin (Illumina 8-level binning)
+                                  4. -q binary thr high low (binary (2-level) 
+                                  thresholding, quality binned to high if >= 
+                                  thr and to low if < thr)
+  -l [ --long ]                   Use for compression of arbitrarily long read 
+                                  lengths. Can also provide better compression 
+                                  for reads with significant number of indels. 
+                                  -r disabled in this mode. For Illumina short 
+                                  reads, compression is better without -l flag.
+  -g [ --gzipped-fastq ]          enable if compression input is gzipped fastq 
+                                  or to output gzipped fastq during 
+                                  decompression
+  --fasta-input                   enable if compression input is fasta file 
+                                  (i.e., no qualities)
+
+
+Resource usage statistics from testing spring:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: spring-1.0.1-h9a82719_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
