@@ -1,0 +1,396 @@
+  Package                            Version  Build                Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                        0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex                        4.5  1_gnu                conda-forge/linux-64                    Cached
+  + alive-progress                     1.6.2  pyhd3deb0d_0         conda-forge/noarch                       32 KB
+  + aragorn                           1.2.38  h779adbc_4           bioconda/linux-64                       131 KB
+  + bakta                              1.1.1  pyhdfd78af_0         /home/vsts/conda/conda-bld/linux-64      74 KB
+  + biopython                           1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + blast                             2.12.0  pl5262h3289130_0     bioconda/linux-64                        22 MB
+  + boost-cpp                         1.74.0  h312852a_4           conda-forge/linux-64                     16 MB
+  + brotlipy                           0.7.0  py39h3811e60_1001    conda-forge/linux-64                    Cached
+  + bzip2                              1.0.8  h7f98852_4           conda-forge/linux-64                    Cached
+  + c-ares                            1.17.2  h7f98852_0           conda-forge/linux-64                    Cached
+  + ca-certificates                2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + certifi                        2021.5.30  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + cffi                              1.14.6  py39he32792d_0       conda-forge/linux-64                    Cached
+  + chardet                            4.0.0  py39hf3d152e_1       conda-forge/linux-64                    Cached
+  + charset-normalizer                 2.0.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + cryptography                       3.4.7  py39hbca0aa6_0       conda-forge/linux-64                    Cached
+  + curl                              7.78.0  hea6ffbf_0           conda-forge/linux-64                    148 KB
+  + diamond                           2.0.11  hdcc8f71_0           bioconda/linux-64                         2 MB
+  + entrez-direct                       13.9  pl5262he881be0_2     bioconda/linux-64                         5 MB
+  + expat                              2.4.1  h9c3ff4c_0           conda-forge/linux-64                    182 KB
+  + hmmer                              3.3.2  h1b792b2_1           bioconda/linux-64                        10 MB
+  + icu                                 68.1  h58526e2_0           conda-forge/linux-64                    Cached
+  + idna                                 3.1  pyhd3deb0d_0         conda-forge/noarch                      Cached
+  + infernal                           1.1.4  h779adbc_0           bioconda/linux-64                         3 MB
+  + isa-l                             2.30.0  ha770c72_4           conda-forge/linux-64                    192 KB
+  + krb5                              1.19.2  hcc1bbae_0           conda-forge/linux-64                    Cached
+  + ld_impl_linux-64                  2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas                            3.9.0  11_linux64_openblas  conda-forge/linux-64                     12 KB
+  + libcblas                           3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libcurl                           7.78.0  h2574ce0_0           conda-forge/linux-64                    Cached
+  + libedit                     3.1.20191231  he28a2e2_2           conda-forge/linux-64                    Cached
+  + libev                               4.33  h516909a_1           conda-forge/linux-64                    Cached
+  + libffi                               3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng                         11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng                    11.1.0  h69a702a_8           conda-forge/linux-64                     19 KB
+  + libgfortran5                      11.1.0  h6c583b3_8           conda-forge/linux-64                      2 MB
+  + libgomp                           11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack                          3.9.0  11_linux64_openblas  conda-forge/linux-64                     11 KB
+  + libnghttp2                        1.43.0  h812cca2_0           conda-forge/linux-64                    Cached
+  + libopenblas                       0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                      9 MB
+  + libssh2                           1.10.0  ha56f1ee_0           conda-forge/linux-64                    Cached
+  + libstdcxx-ng                      11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + lz4-c                              1.9.3  h9c3ff4c_1           conda-forge/linux-64                    Cached
+  + ncbi-amrfinderplus               3.10.14  h17dc2d4_0           bioconda/linux-64                       759 KB
+  + ncurses                              6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                             1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl                           1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pcre                                8.45  h9c3ff4c_0           conda-forge/linux-64                    253 KB
+  + perl                              5.26.2  h36c2ea0_1008        conda-forge/linux-64                     15 MB
+  + perl-app-cpanminus                1.7044  pl526_1              bioconda/linux-64                       234 KB
+  + perl-archive-tar                    2.32  pl526_0              bioconda/linux-64                        31 KB
+  + perl-base                           2.23  pl526_1              bioconda/linux-64                        10 KB
+  + perl-business-isbn                 3.004  pl526_0              bioconda/linux-64                        15 KB
+  + perl-business-isbn-data     20140910.003  pl526_0              bioconda/linux-64                        15 KB
+  + perl-carp                           1.38  pl526_3              bioconda/linux-64                        15 KB
+  + perl-common-sense                   3.74  pl526_2              bioconda/linux-64                        11 KB
+  + perl-compress-raw-bzip2            2.087  pl526he1b5a44_0      bioconda/linux-64                        44 KB
+  + perl-compress-raw-zlib             2.087  pl526hc9558a2_0      bioconda/linux-64                        72 KB
+  + perl-constant                       1.33  pl526_1              bioconda/linux-64                        10 KB
+  + perl-data-dumper                   2.173  pl526_0              bioconda/linux-64                        35 KB
+  + perl-digest-hmac                    1.03  pl526_3              bioconda/linux-64                         9 KB
+  + perl-digest-md5                     2.55  pl526_0              bioconda/linux-64                        18 KB
+  + perl-encode                         2.88  pl526_1              bioconda/linux-64                         2 MB
+  + perl-encode-locale                  1.05  pl526_6              bioconda/linux-64                        11 KB
+  + perl-exporter                       5.72  pl526_1              bioconda/linux-64                        13 KB
+  + perl-exporter-tiny              1.002001  pl526_0              bioconda/linux-64                        23 KB
+  + perl-extutils-makemaker             7.36  pl526_1              bioconda/linux-64                       153 KB
+  + perl-file-listing                   6.04  pl526_1              bioconda/linux-64                         9 KB
+  + perl-file-path                      2.16  pl526_0              bioconda/linux-64                        17 KB
+  + perl-file-temp                    0.2304  pl526_2              bioconda/linux-64                        26 KB
+  + perl-html-parser                    3.72  pl526h6bb024c_5      bioconda/linux-64                        66 KB
+  + perl-html-tagset                    3.20  pl526_3              bioconda/linux-64                        12 KB
+  + perl-html-tree                      5.07  pl526_1              bioconda/linux-64                       129 KB
+  + perl-http-cookies                   6.04  pl526_0              bioconda/linux-64                        19 KB
+  + perl-http-daemon                    6.01  pl526_1              bioconda/linux-64                        14 KB
+  + perl-http-date                      6.02  pl526_3              bioconda/linux-64                        10 KB
+  + perl-http-message                   6.18  pl526_0              bioconda/linux-64                        51 KB
+  + perl-http-negotiate                 6.01  pl526_3              bioconda/linux-64                        13 KB
+  + perl-io-compress                   2.087  pl526he1b5a44_0      bioconda/linux-64                        81 KB
+  + perl-io-html                       1.001  pl526_2              bioconda/linux-64                        13 KB
+  + perl-io-socket-ssl                 2.066  pl526_0              bioconda/linux-64                       151 KB
+  + perl-io-zlib                        1.10  pl526_2              bioconda/linux-64                         9 KB
+  + perl-json                           4.02  pl526_0              bioconda/linux-64                        52 KB
+  + perl-json-xs                        2.34  pl526h6bb024c_3      bioconda/linux-64                        63 KB
+  + perl-libwww-perl                    6.39  pl526_0              bioconda/noarch                          94 KB
+  + perl-list-moreutils                0.428  pl526_1              bioconda/linux-64                        28 KB
+  + perl-list-moreutils-xs             0.428  pl526_0              bioconda/linux-64                        43 KB
+  + perl-lwp-mediatypes                 6.04  pl526_0              bioconda/linux-64                        22 KB
+  + perl-lwp-protocol-https             6.07  pl526_4              bioconda/linux-64                         9 KB
+  + perl-mime-base64                    3.15  pl526_1              bioconda/linux-64                        15 KB
+  + perl-mozilla-ca                 20180117  pl526_1              bioconda/linux-64                       140 KB
+  + perl-net-http                       6.19  pl526_0              bioconda/noarch                          19 KB
+  + perl-net-ssleay                     1.88  pl526h90d6eec_0      bioconda/linux-64                       289 KB
+  + perl-ntlm                           1.09  pl526_4              bioconda/linux-64                        15 KB
+  + perl-parent                        0.236  pl526_1              bioconda/linux-64                         5 KB
+  + perl-pathtools                      3.75  pl526h14c3975_1      bioconda/linux-64                        41 KB
+  + perl-scalar-list-utils              1.52  pl526h516909a_0      bioconda/linux-64                        38 KB
+  + perl-socket                        2.027  pl526_1              bioconda/linux-64                        31 KB
+  + perl-storable                       3.15  pl526h14c3975_0      bioconda/linux-64                        63 KB
+  + perl-test-requiresinternet          0.05  pl526_0              bioconda/linux-64                         7 KB
+  + perl-time-local                     1.28  pl526_1              bioconda/linux-64                        10 KB
+  + perl-try-tiny                       0.30  pl526_1              bioconda/linux-64                        17 KB
+  + perl-types-serialiser                1.0  pl526_2              bioconda/linux-64                        10 KB
+  + perl-uri                            1.76  pl526_0              bioconda/linux-64                        55 KB
+  + perl-www-robotrules                 6.02  pl526_3              bioconda/linux-64                        12 KB
+  + perl-xml-namespacesupport           1.12  pl526_0              bioconda/linux-64                        11 KB
+  + perl-xml-parser                  2.44_01  pl5262hc3e0081_1002  conda-forge/linux-64                    165 KB
+  + perl-xml-sax                        1.02  pl526_0              bioconda/noarch                          36 KB
+  + perl-xml-sax-base                   1.09  pl526_0              bioconda/linux-64                        19 KB
+  + perl-xml-sax-expat                  0.51  pl526_3              bioconda/linux-64                        10 KB
+  + perl-xml-simple                     2.25  pl526_1              bioconda/linux-64                        48 KB
+  + perl-xsloader                       0.24  pl526_0              bioconda/linux-64                         8 KB
+  + pigz                                 2.6  h27826a3_0           conda-forge/linux-64                     87 KB
+  + piler-cr                            1.06  h7d875b9_1           bioconda/linux-64                        99 KB
+  + pip                               21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + prodigal                           2.6.3  h779adbc_3           bioconda/linux-64                       776 KB
+  + pycparser                           2.20  pyh9f0ad1d_2         conda-forge/noarch                      Cached
+  + pyopenssl                         20.0.1  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + pysocks                            1.7.1  py39hf3d152e_3       conda-forge/linux-64                    Cached
+  + python                             3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python-isal                       0.11.1  py39h3811e60_0       conda-forge/linux-64                    139 KB
+  + python_abi                           3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                             8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + requests                          2.26.0  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + setuptools                        57.4.0  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + six                               1.16.0  pyh6c4a22f_0         conda-forge/noarch                      Cached
+  + sqlite                            3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                                8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + trnascan-se                        2.0.9  pl5262h779adbc_1     bioconda/linux-64                         3 MB
+  + tzdata                             2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + urllib3                           1.26.6  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + wheel                             0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xopen                              1.1.0  py39hf3d152e_3       conda-forge/linux-64                     20 KB
+  + xz                                 5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                              1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+  + zstd                               1.5.0  ha95c52a_0           conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 137 packages
+
+  Total download: 105 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: bakta-1.1.1-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/bakta_1630971206612/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:              0.1-conda_forge             conda-forge
+    _openmp_mutex:              4.5-1_gnu                   conda-forge
+    alive-progress:             1.6.2-pyhd3deb0d_0          conda-forge
+    aragorn:                    1.2.38-h779adbc_4           bioconda   
+    bakta:                      1.1.1-pyhdfd78af_0          local      
+    biopython:                  1.79-py39h3811e60_0         conda-forge
+    blast:                      2.12.0-pl5262h3289130_0     bioconda   
+    boost-cpp:                  1.74.0-h312852a_4           conda-forge
+    brotlipy:                   0.7.0-py39h3811e60_1001     conda-forge
+    bzip2:                      1.0.8-h7f98852_4            conda-forge
+    c-ares:                     1.17.2-h7f98852_0           conda-forge
+    ca-certificates:            2021.5.30-ha878542_0        conda-forge
+    certifi:                    2021.5.30-py39hf3d152e_0    conda-forge
+    cffi:                       1.14.6-py39he32792d_0       conda-forge
+    chardet:                    4.0.0-py39hf3d152e_1        conda-forge
+    charset-normalizer:         2.0.0-pyhd8ed1ab_0          conda-forge
+    cryptography:               3.4.7-py39hbca0aa6_0        conda-forge
+    curl:                       7.78.0-hea6ffbf_0           conda-forge
+    diamond:                    2.0.11-hdcc8f71_0           bioconda   
+    entrez-direct:              13.9-pl5262he881be0_2       bioconda   
+    expat:                      2.4.1-h9c3ff4c_0            conda-forge
+    hmmer:                      3.3.2-h1b792b2_1            bioconda   
+    icu:                        68.1-h58526e2_0             conda-forge
+    idna:                       3.1-pyhd3deb0d_0            conda-forge
+    infernal:                   1.1.4-h779adbc_0            bioconda   
+    isa-l:                      2.30.0-ha770c72_4           conda-forge
+    krb5:                       1.19.2-hcc1bbae_0           conda-forge
+    ld_impl_linux-64:           2.36.1-hea4e1c9_2           conda-forge
+    libblas:                    3.9.0-11_linux64_openblas   conda-forge
+    libcblas:                   3.9.0-11_linux64_openblas   conda-forge
+    libcurl:                    7.78.0-h2574ce0_0           conda-forge
+    libedit:                    3.1.20191231-he28a2e2_2     conda-forge
+    libev:                      4.33-h516909a_1             conda-forge
+    libffi:                     3.3-h58526e2_2              conda-forge
+    libgcc-ng:                  11.1.0-hc902ee8_8           conda-forge
+    libgfortran-ng:             11.1.0-h69a702a_8           conda-forge
+    libgfortran5:               11.1.0-h6c583b3_8           conda-forge
+    libgomp:                    11.1.0-hc902ee8_8           conda-forge
+    liblapack:                  3.9.0-11_linux64_openblas   conda-forge
+    libnghttp2:                 1.43.0-h812cca2_0           conda-forge
+    libopenblas:                0.3.17-pthreads_h8fe5266_1  conda-forge
+    libssh2:                    1.10.0-ha56f1ee_0           conda-forge
+    libstdcxx-ng:               11.1.0-h56837e0_8           conda-forge
+    lz4-c:                      1.9.3-h9c3ff4c_1            conda-forge
+    ncbi-amrfinderplus:         3.10.14-h17dc2d4_0          bioconda   
+    ncurses:                    6.2-h58526e2_4              conda-forge
+    numpy:                      1.21.2-py39hdbf815f_0       conda-forge
+    openssl:                    1.1.1l-h7f98852_0           conda-forge
+    pcre:                       8.45-h9c3ff4c_0             conda-forge
+    perl:                       5.26.2-h36c2ea0_1008        conda-forge
+    perl-app-cpanminus:         1.7044-pl526_1              bioconda   
+    perl-archive-tar:           2.32-pl526_0                bioconda   
+    perl-base:                  2.23-pl526_1                bioconda   
+    perl-business-isbn:         3.004-pl526_0               bioconda   
+    perl-business-isbn-data:    20140910.003-pl526_0        bioconda   
+    perl-carp:                  1.38-pl526_3                bioconda   
+    perl-common-sense:          3.74-pl526_2                bioconda   
+    perl-compress-raw-bzip2:    2.087-pl526he1b5a44_0       bioconda   
+    perl-compress-raw-zlib:     2.087-pl526hc9558a2_0       bioconda   
+    perl-constant:              1.33-pl526_1                bioconda   
+    perl-data-dumper:           2.173-pl526_0               bioconda   
+    perl-digest-hmac:           1.03-pl526_3                bioconda   
+    perl-digest-md5:            2.55-pl526_0                bioconda   
+    perl-encode:                2.88-pl526_1                bioconda   
+    perl-encode-locale:         1.05-pl526_6                bioconda   
+    perl-exporter:              5.72-pl526_1                bioconda   
+    perl-exporter-tiny:         1.002001-pl526_0            bioconda   
+    perl-extutils-makemaker:    7.36-pl526_1                bioconda   
+    perl-file-listing:          6.04-pl526_1                bioconda   
+    perl-file-path:             2.16-pl526_0                bioconda   
+    perl-file-temp:             0.2304-pl526_2              bioconda   
+    perl-html-parser:           3.72-pl526h6bb024c_5        bioconda   
+    perl-html-tagset:           3.20-pl526_3                bioconda   
+    perl-html-tree:             5.07-pl526_1                bioconda   
+    perl-http-cookies:          6.04-pl526_0                bioconda   
+    perl-http-daemon:           6.01-pl526_1                bioconda   
+    perl-http-date:             6.02-pl526_3                bioconda   
+    perl-http-message:          6.18-pl526_0                bioconda   
+    perl-http-negotiate:        6.01-pl526_3                bioconda   
+    perl-io-compress:           2.087-pl526he1b5a44_0       bioconda   
+    perl-io-html:               1.001-pl526_2               bioconda   
+    perl-io-socket-ssl:         2.066-pl526_0               bioconda   
+    perl-io-zlib:               1.10-pl526_2                bioconda   
+    perl-json:                  4.02-pl526_0                bioconda   
+    perl-json-xs:               2.34-pl526h6bb024c_3        bioconda   
+    perl-libwww-perl:           6.39-pl526_0                bioconda   
+    perl-list-moreutils:        0.428-pl526_1               bioconda   
+    perl-list-moreutils-xs:     0.428-pl526_0               bioconda   
+    perl-lwp-mediatypes:        6.04-pl526_0                bioconda   
+    perl-lwp-protocol-https:    6.07-pl526_4                bioconda   
+    perl-mime-base64:           3.15-pl526_1                bioconda   
+    perl-mozilla-ca:            20180117-pl526_1            bioconda   
+    perl-net-http:              6.19-pl526_0                bioconda   
+    perl-net-ssleay:            1.88-pl526h90d6eec_0        bioconda   
+    perl-ntlm:                  1.09-pl526_4                bioconda   
+    perl-parent:                0.236-pl526_1               bioconda   
+    perl-pathtools:             3.75-pl526h14c3975_1        bioconda   
+    perl-scalar-list-utils:     1.52-pl526h516909a_0        bioconda   
+    perl-socket:                2.027-pl526_1               bioconda   
+    perl-storable:              3.15-pl526h14c3975_0        bioconda   
+    perl-test-requiresinternet: 0.05-pl526_0                bioconda   
+    perl-time-local:            1.28-pl526_1                bioconda   
+    perl-try-tiny:              0.30-pl526_1                bioconda   
+    perl-types-serialiser:      1.0-pl526_2                 bioconda   
+    perl-uri:                   1.76-pl526_0                bioconda   
+    perl-www-robotrules:        6.02-pl526_3                bioconda   
+    perl-xml-namespacesupport:  1.12-pl526_0                bioconda   
+    perl-xml-parser:            2.44_01-pl5262hc3e0081_1002 conda-forge
+    perl-xml-sax:               1.02-pl526_0                bioconda   
+    perl-xml-sax-base:          1.09-pl526_0                bioconda   
+    perl-xml-sax-expat:         0.51-pl526_3                bioconda   
+    perl-xml-simple:            2.25-pl526_1                bioconda   
+    perl-xsloader:              0.24-pl526_0                bioconda   
+    pigz:                       2.6-h27826a3_0              conda-forge
+    piler-cr:                   1.06-h7d875b9_1             bioconda   
+    pip:                        21.2.4-pyhd8ed1ab_0         conda-forge
+    prodigal:                   2.6.3-h779adbc_3            bioconda   
+    pycparser:                  2.20-pyh9f0ad1d_2           conda-forge
+    pyopenssl:                  20.0.1-pyhd8ed1ab_0         conda-forge
+    pysocks:                    1.7.1-py39hf3d152e_3        conda-forge
+    python:                     3.9.7-h49503c6_0_cpython    conda-forge
+    python-isal:                0.11.1-py39h3811e60_0       conda-forge
+    python_abi:                 3.9-2_cp39                  conda-forge
+    readline:                   8.1-h46c0cb4_0              conda-forge
+    requests:                   2.26.0-pyhd8ed1ab_0         conda-forge
+    setuptools:                 57.4.0-py39hf3d152e_0       conda-forge
+    six:                        1.16.0-pyh6c4a22f_0         conda-forge
+    sqlite:                     3.36.0-h9cd32fc_0           conda-forge
+    tk:                         8.6.11-h27826a3_1           conda-forge
+    trnascan-se:                2.0.9-pl5262h779adbc_1      bioconda   
+    tzdata:                     2021a-he74cb21_1            conda-forge
+    urllib3:                    1.26.6-pyhd8ed1ab_0         conda-forge
+    wheel:                      0.37.0-pyhd8ed1ab_1         conda-forge
+    xopen:                      1.1.0-py39hf3d152e_3        conda-forge
+    xz:                         5.2.5-h516909a_1            conda-forge
+    zlib:                       1.2.11-h516909a_1010        conda-forge
+    zstd:                       1.5.0-ha95c52a_0            conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/bakta_1630971206612/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/bakta_1630971206612/test_tmp
+usage: bakta [--db DB] [--min-contig-length MIN_CONTIG_LENGTH]
+             [--prefix PREFIX] [--output OUTPUT] [--genus GENUS]
+             [--species SPECIES] [--strain STRAIN] [--plasmid PLASMID]
+             [--complete] [--prodigal-tf PRODIGAL_TF]
+             [--translation-table {11,4}] [--gram {+,-,?}] [--locus LOCUS]
+             [--locus-tag LOCUS_TAG] [--keep-contig-headers]
+             [--replicons REPLICONS] [--compliant] [--skip-trna]
+             [--skip-tmrna] [--skip-rrna] [--skip-ncrna] [--skip-ncrna-region]
+             [--skip-crispr] [--skip-cds] [--skip-sorf] [--skip-gap]
+             [--skip-ori] [--help] [--verbose] [--threads THREADS]
+             [--tmp-dir TMP_DIR] [--version]
+             <genome>
+
+Rapid & standardized annotation of bacterial genomes & plasmids.
+
+positional arguments:
+  <genome>              Genome sequences in (zipped) fasta format
+
+Input / Output:
+  --db DB, -d DB        Database path (default = <bakta_path>/db). Can also be
+                        provided as BAKTA_DB environment variable.
+  --min-contig-length MIN_CONTIG_LENGTH, -m MIN_CONTIG_LENGTH
+                        Minimum contig size (default = 1; 200 in compliant
+                        mode)
+  --prefix PREFIX, -p PREFIX
+                        Prefix for output files
+  --output OUTPUT, -o OUTPUT
+                        Output directory (default = current working directory)
+
+Organism:
+  --genus GENUS         Genus name
+  --species SPECIES     Species name
+  --strain STRAIN       Strain name
+  --plasmid PLASMID     Plasmid name
+
+Annotation:
+  --complete            All sequences are complete replicons
+                        (chromosome/plasmid[s])
+  --prodigal-tf PRODIGAL_TF
+                        Path to existing Prodigal training file to use for CDS
+                        prediction
+  --translation-table {11,4}
+                        Translation table: 11/4 (default = 11)
+  --gram {+,-,?}        Gram type: +/-/? (default = '?')
+  --locus LOCUS         Locus prefix (default = 'contig')
+  --locus-tag LOCUS_TAG
+                        Locus tag prefix (default = autogenerated)
+  --keep-contig-headers
+                        Keep original contig headers
+  --replicons REPLICONS, -r REPLICONS
+                        Replicon information table (tsv/csv)
+  --compliant           Force Genbank/ENA/DDJB compliance
+
+Workflow:
+  --skip-trna           Skip tRNA detection & annotation
+  --skip-tmrna          Skip tmRNA detection & annotation
+  --skip-rrna           Skip rRNA detection & annotation
+  --skip-ncrna          Skip ncRNA detection & annotation
+  --skip-ncrna-region   Skip ncRNA region detection & annotation
+  --skip-crispr         Skip CRISPR array detection & annotation
+  --skip-cds            Skip CDS detection & annotation
+  --skip-sorf           Skip sORF detection & annotation
+  --skip-gap            Skip gap detection & annotation
+  --skip-ori            Skip oriC/oriT detection & annotation
+
+General:
+  --help, -h            Show this help message and exit
+  --verbose, -v         Print verbose information
+  --threads THREADS, -t THREADS
+                        Number of threads to use (default = number of
+                        available CPUs)
+  --tmp-dir TMP_DIR     Location for temporary files (default = system
+                        dependent auto detection)
+  --version             show program's version number and exit
+
+Citation:
+Schwengers et al. (2021)
+Bakta: comprehensive and rapid annotation of bacterial genomes.
+GitHub https://github.com/oschwengers/bakta
+
+Resource usage statistics from testing bakta:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: bakta-1.1.1-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
