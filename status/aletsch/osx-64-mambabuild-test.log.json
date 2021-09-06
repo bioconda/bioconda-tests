@@ -1,0 +1,119 @@
+  Package                 Version  Build          Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + aletsch                 1.0.3  h381b8fc_1     /Users/runner/conda/conda-bld/osx-64     384 KB
+  + boost-cpp              1.74.0  hff03dee_4     conda-forge/osx-64                        16 MB
+  + bzip2                   1.0.8  h0d85af4_4     conda-forge/osx-64                       Cached
+  + c-ares                 1.17.2  h0d85af4_0     conda-forge/osx-64                       Cached
+  + ca-certificates     2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + htslib                   1.12  hc38c3fb_1     bioconda/osx-64                            2 MB
+  + icu                      68.1  h74dc148_0     conda-forge/osx-64                       Cached
+  + krb5                   1.19.2  hcfbf3a7_0     conda-forge/osx-64                       Cached
+  + libcurl                7.78.0  hf45b732_0     conda-forge/osx-64                       Cached
+  + libcxx                 12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libdeflate                1.7  h35c211d_5     conda-forge/osx-64                       Cached
+  + libedit          3.1.20191231  h0678c8f_2     conda-forge/osx-64                       Cached
+  + libev                    4.33  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + libnghttp2             1.43.0  h07e645a_0     conda-forge/osx-64                       Cached
+  + libssh2                1.10.0  h52ee1ee_0     conda-forge/osx-64                       Cached
+  + lz4-c                   1.9.3  he49afe7_1     conda-forge/osx-64                       Cached
+  + ncurses                   6.2  h2e338ed_4     conda-forge/osx-64                       Cached
+  + openssl                1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + tk                     8.6.11  h5dbffcc_1     conda-forge/osx-64                       Cached
+  + xz                      5.2.5  haf1e3a3_1     conda-forge/osx-64                       Cached
+  + zlib                   1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+  + zstd                    1.5.0  h582d3a0_0     conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 22 packages
+
+  Total download: 18 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: aletsch-1.0.3-h381b8fc_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/aletsch_1630907545523/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    aletsch:         1.0.3-h381b8fc_1        local      
+    boost-cpp:       1.74.0-hff03dee_4       conda-forge
+    bzip2:           1.0.8-h0d85af4_4        conda-forge
+    c-ares:          1.17.2-h0d85af4_0       conda-forge
+    ca-certificates: 2021.5.30-h033912b_0    conda-forge
+    htslib:          1.12-hc38c3fb_1         bioconda   
+    icu:             68.1-h74dc148_0         conda-forge
+    krb5:            1.19.2-hcfbf3a7_0       conda-forge
+    libcurl:         7.78.0-hf45b732_0       conda-forge
+    libcxx:          12.0.1-habf9029_0       conda-forge
+    libdeflate:      1.7-h35c211d_5          conda-forge
+    libedit:         3.1.20191231-h0678c8f_2 conda-forge
+    libev:           4.33-haf1e3a3_1         conda-forge
+    libnghttp2:      1.43.0-h07e645a_0       conda-forge
+    libssh2:         1.10.0-h52ee1ee_0       conda-forge
+    lz4-c:           1.9.3-he49afe7_1        conda-forge
+    ncurses:         6.2-h2e338ed_4          conda-forge
+    openssl:         1.1.1l-h0d85af4_0       conda-forge
+    tk:              8.6.11-h5dbffcc_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1        conda-forge
+    zlib:            1.2.11-h7795811_1010    conda-forge
+    zstd:            1.5.0-h582d3a0_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/aletsch_1630907545523/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/aletsch_1630907545523/test_tmp
+Aletsch 1.0.3 (c) 2020 Mingfu Shao, The Pennsylvania State University
+
+Usage: aletsch -i <input-bam-list> -o <output.gtf> [options]
+
+Options:
+ --help                                          print usage of aletsch and exit
+ --version                                       print current version of aletsch and exit
+ --profile                                       profiling individual samples and exit (will write to files if -p provided)
+ --boost_precision                               reduce false positives, default: not to do so
+ -l/--chrm_list_string <string>                  list of chromosomes that will be assembled, default: N/A (i.e., assemble all)
+ -L/--chrm_list_file <string>                    file with chromosomes that will be assembled, default: N/A (i.e., assemble all)
+ -d/--output_gtf_dir <string>                    existing directory for individual transcripts, default: N/A
+ -b/--output_bridged_bam_dir <string>            existing directory for individual bridged alignments, default: N/A
+ -p/--profile_dir <string>                       existing directory for saving/loading profiles of each samples, default: N/A
+ -t/--max_threads <integer>                      maximized number of threads, default: 10
+ -c/--max_group_size <integer>                   the maximized number of splice graphs that will be combined, default: 20
+ -s/--min_grouping_similarity <float>            the minimized similarity for two graphs to be combined, default: 0.2
+ --min_bridging_score <float>                    the minimum score for bridging a paired-end reads, default: 1.5
+ --min_splice_bundary_hits <integer>             the minimum number of spliced reads required to support a junction, default: 1
+ --min_transcript_coverage <float>               minimum coverage required for a multi-exon transcript, default: 1.0
+ --min_transcript_length_base <integer>          default: 150
+ --min_transcript_length_increase <integer>      default: 50, minimum length of a transcript: base + #exons * increase
+ --min_single_exon_coverage <float>              minimum coverage required for a single-exon transcript, default: 20
+ --min_single_exon_transcript_length <integer>   minimum length of single-exon transcript, default: 250
+ --min_single_exon_clustering_overlap <float>    minimum overlaping ratio to merge two single-exon transcripts, default: 0.8
+ --min_mapping_quality <integer>                 ignore reads with mapping quality less than this value, default: 1
+ --max_num_cigar <integer>                       ignore reads with CIGAR size larger than this value, default: 1000
+ --min_bundle_gap <integer>                      minimum distances required to start a new bundle, default: 50
+ --min_num_hits_in_bundle <integer>              minimum number of reads required in a bundle, default: 20
+ --min_flank_length <integer>                    minimum match length in each side for a spliced read, default: 3
+ --min_boundary_log_ratio <float>                minimum log-ratio to identify a new boundary, default: 2.0
+
+
+Resource usage statistics from testing aletsch:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: aletsch-1.0.3-h381b8fc_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
