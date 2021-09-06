@@ -1,0 +1,134 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: teloclip-0.0.3-py36_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmplfa3eq3n/info/recipe/conda_build_config.yaml
+  Package              Version  Build               Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0          conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                       Cached
+  + libffi                 3.3  h046ec9c_2          conda-forge/osx-64                       Cached
+  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                       Cached
+  + openssl             1.1.1l  h0d85af4_0          conda-forge/osx-64                       Cached
+  + pip                 21.2.4  pyhd8ed1ab_0        conda-forge/noarch                       Cached
+  + python              3.6.13  h7728216_0_cpython  conda-forge/osx-64                       Cached
+  + python_abi             3.6  2_cp36m             conda-forge/osx-64                       Cached
+  + readline               8.1  h05e3726_0          conda-forge/osx-64                       Cached
+  + setuptools          57.4.0  py36h79c6626_0      conda-forge/osx-64                       Cached
+  + sqlite              3.36.0  h23a322b_0          conda-forge/osx-64                       Cached
+  + teloclip             0.0.3  py36_0              /Users/runner/conda/conda-bld/osx-64      24 KB
+  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                       Cached
+  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                       Cached
+  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010       conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 16 packages
+
+  Total download: 24 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/teloclip_1630919002443/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0      conda-forge
+    libcxx:          12.0.1-habf9029_0         conda-forge
+    libffi:          3.3-h046ec9c_2            conda-forge
+    ncurses:         6.2-h2e338ed_4            conda-forge
+    openssl:         1.1.1l-h0d85af4_0         conda-forge
+    pip:             21.2.4-pyhd8ed1ab_0       conda-forge
+    python:          3.6.13-h7728216_0_cpython conda-forge
+    python_abi:      3.6-2_cp36m               conda-forge
+    readline:        8.1-h05e3726_0            conda-forge
+    setuptools:      57.4.0-py36h79c6626_0     conda-forge
+    sqlite:          3.36.0-h23a322b_0         conda-forge
+    teloclip:        0.0.3-py36_0              local      
+    tk:              8.6.11-h5dbffcc_1         conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge
+    xz:              5.2.5-haf1e3a3_1          conda-forge
+    zlib:            1.2.11-h7795811_1010      conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/teloclip_1630919002443/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/teloclip_1630919002443/test_tmp
+import: 'teloclip'
+import: 'teloclip'
+usage: teloclip [-h] --refIdx REFIDX [--minClip MINCLIP] [--maxBreak MAXBREAK]
+                [--motifs MOTIFS] [--noRev] [--noPoly] [--matchAny]
+                [--version]
+                [samfile]
+
+Filter SAM file for clipped alignments containing unassembled telomeric
+repeats.
+
+positional arguments:
+  samfile
+
+optional arguments:
+  -h, --help           show this help message and exit
+  --refIdx REFIDX      Path to fai index for reference fasta. Index fasta
+                       using `samtools faidx FASTA`
+  --minClip MINCLIP    Require clip to extend past ref contig end by at least
+                       N bases.
+  --maxBreak MAXBREAK  Tolerate max N unaligned bases at contig ends.
+  --motifs MOTIFS      If set keep only reads containing given motif/s from
+                       comma delimited list of strings. By default also search
+                       for reverse complement of motifs. i.e. TTAGGG,TTAAGGG
+                       will also match CCCTAA,CCCTTAA
+  --noRev              If set do NOT search for reverse complement of
+                       specified motifs.
+  --noPoly             If set collapse homopolymer tracks within motifs before
+                       searching overhangs. i.e.
+                       "TTAGGGTTAGGGTTAGGGTTAGGGTTAGGG" -> "TAGTAGTAGTAGTAG".
+                       Useful for PacBio or ONP long reads homopolymer length
+                       errors. Default: Off
+  --matchAny           If set motif match may occur in unclipped region of
+                       alignment.
+  --version            show program's version number and exit
+usage: teloclip-extract [-h] --refIdx REFIDX [--prefix PREFIX]
+                        [--extractReads] [--extractDir EXTRACTDIR]
+                        [--minClip MINCLIP] [--maxBreak MAXBREAK] [--version]
+                        [samfile]
+
+Extract overhanging reads for each end of each reference contig. Write to
+fasta.
+
+positional arguments:
+  samfile
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --refIdx REFIDX       Path to fai index for reference fasta. Index fasta
+                        using `samtools faidx FASTA`
+  --prefix PREFIX       Use this prefix for output files. Default: None.
+  --extractReads        If set, write overhang reads to fasta by contig.
+  --extractDir EXTRACTDIR
+                        Write extracted reads to this directory. Default: cwd.
+  --minClip MINCLIP     Require clip to extend past ref contig end by at least
+                        N bases.
+  --maxBreak MAXBREAK   Tolerate max N unaligned bases at contig ends.
+  --version             show program's version number and exit
+
+Resource usage statistics from testing teloclip:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: teloclip-0.0.3-py36_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
