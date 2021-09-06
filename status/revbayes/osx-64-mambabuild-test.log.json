@@ -1,0 +1,105 @@
+  Package         Version  Build              Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+  + boost-cpp      1.75.0  ha8c80a0_0         conda-forge/osx-64                        16 MB
+  + bzip2           1.0.8  h0d85af4_4         conda-forge/osx-64                       Cached
+  + icu              68.1  h74dc148_0         conda-forge/osx-64                       Cached
+  + libcxx         12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran     5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                        19 KB
+  + libgfortran5    9.3.0  h6c81a4c_23        conda-forge/osx-64                         2 MB
+  + llvm-openmp    12.0.1  hda6cdc1_1         conda-forge/osx-64                       287 KB
+  + lz4-c           1.9.3  he49afe7_1         conda-forge/osx-64                       Cached
+  + mpi               1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openmpi         4.1.1  hd3cd54c_0         conda-forge/osx-64                         3 MB
+  + revbayes       1.0.13  h95d8a6f_4         /Users/runner/conda/conda-bld/osx-64      13 MB
+  + xz              5.2.5  haf1e3a3_1         conda-forge/osx-64                       Cached
+  + zlib           1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+  + zstd            1.4.9  h582d3a0_0         conda-forge/osx-64                       460 KB
+
+  Summary:
+
+  Install: 14 packages
+
+  Total download: 35 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: revbayes-1.0.13-h95d8a6f_4.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/revbayes_1630951645596/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    boost-cpp:    1.75.0-ha8c80a0_0       conda-forge
+    bzip2:        1.0.8-h0d85af4_4        conda-forge
+    icu:          68.1-h74dc148_0         conda-forge
+    libcxx:       12.0.1-habf9029_0       conda-forge
+    libgfortran:  5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5: 9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:  12.0.1-hda6cdc1_1       conda-forge
+    lz4-c:        1.9.3-he49afe7_1        conda-forge
+    mpi:          1.0-openmpi             conda-forge
+    openmpi:      4.1.1-hd3cd54c_0        conda-forge
+    revbayes:     1.0.13-h95d8a6f_4       local      
+    xz:           5.2.5-haf1e3a3_1        conda-forge
+    zlib:         1.2.11-h7795811_1010    conda-forge
+    zstd:         1.4.9-h582d3a0_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/revbayes_1630951645596/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/revbayes_1630951645596/test_tmp
+1.0.12
+Usage: rb [OPTIONS]
+       rb [OPTIONS] <file1> [<file2> ...]
+Bayesian phylogenetic inference using probabilistic graphical models and an interpreted language
+
+Options:
+  -h [ --help ]         Show information on flags.
+  -v [ --version ]      Show version and exit.
+  -b [ --batch ]        Run in batch mode.
+  --args arg            Command line arguments to initialize RevBayes 
+                        variables.
+  --cmd arg             Script and command line arguments to initialize 
+                        RevBayes variables.
+  --file arg            File(s) to source.
+  --setOption arg       Set an option key=value.
+
+See http://revbayes.github.io for more information.
+1.0.12
+Usage: rb [OPTIONS]
+       rb [OPTIONS] <file1> [<file2> ...]
+Bayesian phylogenetic inference using probabilistic graphical models and an interpreted language
+
+Options:
+  -h [ --help ]         Show information on flags.
+  -v [ --version ]      Show version and exit.
+  -b [ --batch ]        Run in batch mode.
+  --args arg            Command line arguments to initialize RevBayes 
+                        variables.
+  --cmd arg             Script and command line arguments to initialize 
+                        RevBayes variables.
+  --file arg            File(s) to source.
+  --setOption arg       Set an option key=value.
+
+See http://revbayes.github.io for more information.
+
+Resource usage statistics from testing revbayes:
+   Process count: 5
+   CPU time: Sys=0:00:00.1, User=0:00:00.1
+   Memory: 34.4M
+   Disk usage: 12B
+   Time elapsed: 0:00:14.8
+
+
+TEST END: revbayes-1.0.13-h95d8a6f_4.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
