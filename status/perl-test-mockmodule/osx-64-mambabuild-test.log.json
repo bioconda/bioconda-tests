@@ -1,0 +1,63 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: perl-test-mockmodule-0.13-pl526_2.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpkazonqnm/info/recipe/conda_build_config.yaml
+  Package                       Version  Build            Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + perl                         5.26.2  hbcb3906_1008    conda-forge/osx-64                        14 MB
+  + perl-carp                      1.38  pl526_3          bioconda/osx-64                           15 KB
+  + perl-exporter                  5.72  pl526_1          bioconda/osx-64                           13 KB
+  + perl-extutils-makemaker        7.36  pl526_1          bioconda/osx-64                          153 KB
+  + perl-sub-identify              0.14  pl526h1de35cc_0  bioconda/osx-64                           11 KB
+  + perl-super               1.20190531  pl526_0          bioconda/noarch                           11 KB
+  + perl-test-mockmodule           0.13  pl526_2          /Users/runner/conda/conda-bld/osx-64      12 KB
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 14 MB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/perl-test-mockmodule_1630910218406/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    perl:                    5.26.2-hbcb3906_1008 conda-forge
+    perl-carp:               1.38-pl526_3         bioconda   
+    perl-exporter:           5.72-pl526_1         bioconda   
+    perl-extutils-makemaker: 7.36-pl526_1         bioconda   
+    perl-sub-identify:       0.14-pl526h1de35cc_0 bioconda   
+    perl-super:              1.20190531-pl526_0   bioconda   
+    perl-test-mockmodule:    0.13-pl526_2         local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/perl-test-mockmodule_1630910218406/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-test-mockmodule_1630910218406/test_tmp
+import: Test::MockModule
+	using version 0.13
+import: Test::MockModule
+	using version 0.13
+
+Resource usage statistics from testing perl-test-mockmodule:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.3M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: perl-test-mockmodule-0.13-pl526_2.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
