@@ -1,0 +1,72 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + genometester4      4.0  h779adbc_3   /home/vsts/conda/conda-bld/linux-64     109 KB
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 109 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: genometester4-4.0-h779adbc_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/genometester4_1630915416511/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    genometester4: 4.0-h779adbc_3    local      
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/genometester4_1630915416511/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/genometester4_1630915416511/test_tmp
+Usage: glistcompare INPUTLIST1 [INPUTLIST2...] METHOD [OPTIONS]
+Options:
+    -v, --version            - print version information and exit
+    -h, --help               - print this usage screen and exit
+    -u, --union              - union of input lists
+    -i, --intersection       - intersection of input lists
+    -d, --difference         - difference of input lists
+    -dd, --double_difference - double difference of input lists
+    -du, --diff_union        - subtract first list from the second and finds difference
+    -mm, --mismatch   NUMBER - specify number of mismatches (default 0, can be used with -diff and -ddiff)
+    -c, --cutoff NUMBER      - specify frequency cut-off (default 1)
+    -o, --outputname STRING  - specify output name (default "out")
+    -r, --rule STRING        - specify rule how final frequencies are calculated (default, add, subtract, min, max, first, second, 1, 2)
+                               NOTE: rules min, subtract, first and second can only be used with finding the intersection.
+    -ss, --subset METHOD SIZE - make subset with given method (rand, rand_unique)
+    --count_only             - output count of k-mers instead of k-mers themself
+    --disable_scouts         - disable list read-ahead in background thread
+    -D                       - increase debug level
+glistcompare v4.0
+
+Resource usage statistics from testing genometester4:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: genometester4-4.0-h779adbc_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
