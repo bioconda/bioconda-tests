@@ -1,0 +1,65 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: perl-parallel-iterator-1.00-pl526_0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmpsuof20jw/info/recipe/conda_build_config.yaml
+  Package                   Version  Build            Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex               0.1  conda_forge      conda-forge/linux-64                    Cached
+  + _openmp_mutex               4.5  1_gnu            conda-forge/linux-64                    Cached
+  + libgcc-ng                11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + libgomp                  11.1.0  hc902ee8_8       conda-forge/linux-64                    Cached
+  + perl                     5.26.2  h36c2ea0_1008    conda-forge/linux-64                     15 MB
+  + perl-parallel-iterator     1.00  pl526_0          /home/vsts/conda/conda-bld/linux-64      16 KB
+  + perl-storable              3.15  pl526h14c3975_0  bioconda/linux-64                        63 KB
+  + perl-xsloader              0.24  pl526_0          bioconda/linux-64                         8 KB
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 16 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-parallel-iterator_1630940750358/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge      conda-forge
+    _openmp_mutex:          4.5-1_gnu            conda-forge
+    libgcc-ng:              11.1.0-hc902ee8_8    conda-forge
+    libgomp:                11.1.0-hc902ee8_8    conda-forge
+    perl:                   5.26.2-h36c2ea0_1008 conda-forge
+    perl-parallel-iterator: 1.00-pl526_0         local      
+    perl-storable:          3.15-pl526h14c3975_0 bioconda   
+    perl-xsloader:          0.24-pl526_0         bioconda   
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-parallel-iterator_1630940750358/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-parallel-iterator_1630940750358/test_tmp
+import: Parallel::Iterator
+	using version 1.00
+import: Parallel::Iterator
+	using version 1.00
+
+Resource usage statistics from testing perl-parallel-iterator:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: perl-parallel-iterator-1.00-pl526_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
