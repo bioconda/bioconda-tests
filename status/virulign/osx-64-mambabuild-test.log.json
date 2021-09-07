@@ -1,0 +1,53 @@
+  Package        Version  Build       Channel                                    Size
+───────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx        12.0.1  habf9029_0  conda-forge/osx-64                       Cached
+  + llvm-openmp    8.0.1  h770b8ee_0  conda-forge/osx-64                       253 KB
+  + openmp         8.0.1  0           conda-forge/osx-64                         8 KB
+  + virulign       1.1.1  hb280591_1  /Users/runner/conda/conda-bld/osx-64     115 KB
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 375 KB
+
+───────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: virulign-1.1.1-hb280591_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/virulign_1631009057449/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:      12.0.1-habf9029_0 conda-forge
+    llvm-openmp: 8.0.1-h770b8ee_0  conda-forge
+    openmp:      8.0.1-0           conda-forge
+    virulign:    1.1.1-hb280591_1  local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/virulign_1631009057449/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/virulign_1631009057449/test_tmp
+Usage: virulign [reference.fasta orf-description.xml] sequences.fasta
+   virulign ref.xml sequence.fasta > alignment.mutations 2> alignment.err
+
+Resource usage statistics from testing virulign:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: virulign-1.1.1-hb280591_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
