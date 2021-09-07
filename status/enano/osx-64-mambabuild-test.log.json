@@ -1,0 +1,71 @@
+  Package        Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────
+
+  + enano            1.0  h2dec4b4_1     /Users/runner/conda/conda-bld/osx-64      35 KB
+  + libcxx        12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + llvm-openmp   12.0.1  hda6cdc1_1     conda-forge/osx-64                       287 KB
+  + zlib          1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 322 KB
+
+──────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: enano-1.0-h2dec4b4_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/enano_1631021795497/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+
+
+The following NEW packages will be INSTALLED:
+
+    enano:       1.0-h2dec4b4_1       local      
+    libcxx:      12.0.1-habf9029_0    conda-forge
+    llvm-openmp: 12.0.1-hda6cdc1_1    conda-forge
+    zlib:        1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/enano_1631021795497/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/enano_1631021795497/test_tmp
+Enano v1.0 Author Guillermo Dufort y Alvarez, 2019-2020
+The methods used for encoding the reads identifiers, and to model frequency counters, 
+are the ones proposed by James Bonefield in FQZComp, with some modifications.
+The range coder is derived from Eugene Shelwien.
+
+To compress:
+  enano [options] [input_file [output_file]]
+
+    -c             To use MAX COMPRESION MODE. Default is FAST MODE.
+
+    -k <length>    Base sequence context length. Default is 7 (max 13).
+
+    -l <lenght>    Length of the DNA sequence context. Default is 6.
+
+    -t <num>       Maximum number of threads allowed to use by the compressor. Default is 8.
+
+To decompress:
+   enano -d [options] foo.enano foo.fastq
+    -t <num>       Maximum number of threads allowed to use by the decompressor. Default is 8.
+
+
+Resource usage statistics from testing enano:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.0
+
+
+TEST END: enano-1.0-h2dec4b4_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
