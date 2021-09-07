@@ -1,0 +1,113 @@
+  Package                 Version  Build          Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex             0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex             4.5  1_gnu          conda-forge/linux-64                    Cached
+  + boost-cpp              1.70.0  h7b93d67_3     conda-forge/linux-64                     21 MB
+  + bzip2                   1.0.8  h7f98852_4     conda-forge/linux-64                    Cached
+  + c-ares                 1.17.2  h7f98852_0     conda-forge/linux-64                    Cached
+  + ca-certificates     2021.5.30  ha878542_0     conda-forge/linux-64                    Cached
+  + coral                   1.0.0  hf5e1fbb_1     /home/vsts/conda/conda-bld/linux-64     127 KB
+  + htslib                 1.10.2  hd3b49d5_1     bioconda/linux-64                         2 MB
+  + icu                      67.1  he1b5a44_0     conda-forge/linux-64                     13 MB
+  + krb5                   1.19.2  hcc1bbae_0     conda-forge/linux-64                    Cached
+  + libcurl                7.78.0  h2574ce0_0     conda-forge/linux-64                    Cached
+  + libdeflate                1.6  h516909a_0     conda-forge/linux-64                     60 KB
+  + libedit          3.1.20191231  he28a2e2_2     conda-forge/linux-64                    Cached
+  + libev                    4.33  h516909a_1     conda-forge/linux-64                    Cached
+  + libgcc-ng              11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp                11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libnghttp2             1.43.0  h812cca2_0     conda-forge/linux-64                    Cached
+  + libssh2                1.10.0  ha56f1ee_0     conda-forge/linux-64                    Cached
+  + libstdcxx-ng           11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + lz4-c                   1.9.3  h9c3ff4c_1     conda-forge/linux-64                    Cached
+  + ncurses                   6.2  h58526e2_4     conda-forge/linux-64                    Cached
+  + openssl                1.1.1l  h7f98852_0     conda-forge/linux-64                    Cached
+  + tk                     8.6.11  h27826a3_1     conda-forge/linux-64                    Cached
+  + xz                      5.2.5  h516909a_1     conda-forge/linux-64                    Cached
+  + zlib                   1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+  + zstd                    1.4.9  ha95c52a_0     conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 36 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: coral-1.0.0-hf5e1fbb_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/coral_1630976674251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:   0.1-conda_forge         conda-forge
+    _openmp_mutex:   4.5-1_gnu               conda-forge
+    boost-cpp:       1.70.0-h7b93d67_3       conda-forge
+    bzip2:           1.0.8-h7f98852_4        conda-forge
+    c-ares:          1.17.2-h7f98852_0       conda-forge
+    ca-certificates: 2021.5.30-ha878542_0    conda-forge
+    coral:           1.0.0-hf5e1fbb_1        local      
+    htslib:          1.10.2-hd3b49d5_1       bioconda   
+    icu:             67.1-he1b5a44_0         conda-forge
+    krb5:            1.19.2-hcc1bbae_0       conda-forge
+    libcurl:         7.78.0-h2574ce0_0       conda-forge
+    libdeflate:      1.6-h516909a_0          conda-forge
+    libedit:         3.1.20191231-he28a2e2_2 conda-forge
+    libev:           4.33-h516909a_1         conda-forge
+    libgcc-ng:       11.1.0-hc902ee8_8       conda-forge
+    libgomp:         11.1.0-hc902ee8_8       conda-forge
+    libnghttp2:      1.43.0-h812cca2_0       conda-forge
+    libssh2:         1.10.0-ha56f1ee_0       conda-forge
+    libstdcxx-ng:    11.1.0-h56837e0_8       conda-forge
+    lz4-c:           1.9.3-h9c3ff4c_1        conda-forge
+    ncurses:         6.2-h58526e2_4          conda-forge
+    openssl:         1.1.1l-h7f98852_0       conda-forge
+    tk:              8.6.11-h27826a3_1       conda-forge
+    xz:              5.2.5-h516909a_1        conda-forge
+    zlib:            1.2.11-h516909a_1010    conda-forge
+    zstd:            1.4.9-ha95c52a_0        conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/coral_1630976674251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/coral_1630976674251/test_tmp
+Coral v1.0.0 (c) 2019 Mingfu Shao, The Pennsylvania State University
+
+Usage: coral -i <input-bam-file> -o <output-bam-file> [-r <refernece>] [options]
+
+Options:
+ --help                                      print usage of Coral and exit
+ --version                                   print current version of Coral and exit
+ --preview                                   determine fragment-length-range and library-type and exit
+ --library_type <first, second, unstranded>  library type of the sample, default: unstranded
+ --min_bridging_score <double>               the minimized bottleneck weight in bridging path, default: 0.5
+ --dp_solution_size <integer>                candidate number of bridgign paths, default: 10
+ --dp_stack_size <integer>                   number of weights maintained for each bridging path, default: 5
+ --max_clustring_flank <integer>             maximized basepair difference for being in an equivalent class, default: 30
+ --flank_tiny_length <integer>               maximized length for reconsidering error correction, default:  10
+ --flank_tiny_ratio <integer>                maximized ratio for reconsidering error correction, default:  0.4
+ --min_splice_bundary_hits <integer>         minimum number of spliced reads required for a junction, default: 1
+ --max_num_cigar <integer>                   ignore reads with CIGAR size larger than this value, default: 1000
+
+
+Resource usage statistics from testing coral:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: coral-1.0.0-hf5e1fbb_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
