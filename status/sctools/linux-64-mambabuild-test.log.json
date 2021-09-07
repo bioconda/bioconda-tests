@@ -1,0 +1,109 @@
+  Package          Version  Build          Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge    conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu          conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8     conda-forge/linux-64                    Cached
+  + libstdcxx-ng    11.1.0  h56837e0_8     conda-forge/linux-64                    Cached
+  + sctools          1.0.0  h9a82719_1     /home/vsts/conda/conda-bld/linux-64     654 KB
+  + zlib            1.2.11  h516909a_1010  conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 7 packages
+
+  Total download: 654 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: sctools-1.0.0-h9a82719_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/sctools_1630978476764/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge      conda-forge
+    _openmp_mutex: 4.5-1_gnu            conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8    conda-forge
+    libgomp:       11.1.0-hc902ee8_8    conda-forge
+    libstdcxx-ng:  11.1.0-h56837e0_8    conda-forge
+    sctools:       1.0.0-h9a82719_1     local      
+    zlib:          1.2.11-h516909a_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/sctools_1630978476764/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/sctools_1630978476764/test_tmp
+sctools_demultiplex - Alignment files barcode-based de-multiplexer.
+===================================================================
+
+SYNOPSIS
+
+DESCRIPTION
+    sctools_demultiplex is a tool for de-multiplexing alignment BAM or SAM
+    files splitting its records indifferent output files, according to the
+    barcode of eachalignment record.
+
+REQUIRED ARGUMENTS
+    ALIGNMENTS INPUT_FILE
+          Path of the SAM or BAM file containing the alignments records to be
+          de-multiplexed. Valid filetypes are: .sam[.*] and .bam, where * is
+          any of the following extensions: gz and bgzf for transparent
+          (de)compression.
+
+OPTIONS
+    -h, --help
+          Display the help message.
+    --version
+          Display version information.
+
+  Input/Output options:
+    --barcodes-csv INPUT_FILE
+          Path to the CSV file storing the barcodes to be de-multiplexed.
+          Notice that the barcode value is expected to be found in first
+          position.
+    -o, --output-directory STRING
+          Path of the directory where de-multiplexed files are stored.
+          Default: ..
+    --alignment-records-batch INTEGER
+          Maximum size of the batch of alignment records loaded in main
+          memory. Default: 1048576.
+    -b, --bed
+          Ouput bed files alongside bam ones.
+
+  Filter options:
+    --forbidden-tags STRING
+          Coma-separated list of tags that are forbidden in any valid
+          alignment records. If an alignment record contains any of the tags
+          specified here, it is not considered for the purpose of the
+          de-multiplexing procedure.
+    --min-mapq INTEGER
+          Minimum mapping quality any alignment record must have, to be
+          considered for the purpose of the de-multiplexing procedure.
+          Default: 0.
+
+VERSION
+    Last update: 2019
+    sctools_demultiplex version: 0.1.0.0
+    SeqAn version: 2.4.0
+
+Resource usage statistics from testing sctools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: sctools-1.0.0-h9a82719_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
