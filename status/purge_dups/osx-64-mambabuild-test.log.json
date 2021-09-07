@@ -1,0 +1,59 @@
+  Package       Version  Build          Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + k8            0.2.5  h87af4ef_1     bioconda/osx-64                            1 MB
+  + libcxx       12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + minimap2       2.22  h188c3c3_0     bioconda/osx-64                          147 KB
+  + purge_dups    1.2.5  h188c3c3_1     /Users/runner/conda/conda-bld/osx-64      63 KB
+  + zlib         1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 2 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: purge_dups-1.2.5-h188c3c3_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/purge_dups_1631008160106/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+
+
+The following NEW packages will be INSTALLED:
+
+    k8:         0.2.5-h87af4ef_1     bioconda   
+    libcxx:     12.0.1-habf9029_0    conda-forge
+    minimap2:   2.22-h188c3c3_0      bioconda   
+    purge_dups: 1.2.5-h188c3c3_1     local      
+    zlib:       1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/purge_dups_1631008160106/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/purge_dups_1631008160106/test_tmp
+Usage: purge_dups [options] <PAF>
+Usage: split_fa  [<options>] <STAT> ...
+Usage: aa_pb [options] <PAF_FILE> ...
+Usage: ngscstat [options] <BAM_FILEs> ...
+Usage: calcuts  [<options>] <STAT> ...
+Usage: get_seqs  [<options>] <DUPs.BED> <FASTA> 
+
+Resource usage statistics from testing purge_dups:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.1M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: purge_dups-1.2.5-h188c3c3_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
