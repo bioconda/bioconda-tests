@@ -1,0 +1,71 @@
+  Package          Version  Build        Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex      0.1  conda_forge  conda-forge/linux-64                    Cached
+  + _openmp_mutex      4.5  1_gnu        conda-forge/linux-64                    Cached
+  + libgcc-ng       11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + libgomp         11.1.0  hc902ee8_8   conda-forge/linux-64                    Cached
+  + sfld               1.1  h779adbc_1   /home/vsts/conda/conda-bld/linux-64     192 KB
+
+  Summary:
+
+  Install: 5 packages
+
+  Total download: 192 KB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: sfld-1.1-h779adbc_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/sfld_1631027007126/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex: 0.1-conda_forge   conda-forge
+    _openmp_mutex: 4.5-1_gnu         conda-forge
+    libgcc-ng:     11.1.0-hc902ee8_8 conda-forge
+    libgomp:       11.1.0-hc902ee8_8 conda-forge
+    sfld:          1.1-h779adbc_1    local      
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/sfld_1631027007126/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/sfld_1631027007126/test_tmp
+Pre-process SFLD alignments/HMMs
+Usage sfld_preprocess: options:
+	--hmm         | -m FILE    HMM file (input)
+	--sites       | -s FILE    sites file (output)
+	--alignments  | -a FILE    alignments file (input)
+	--hmm_dir     | -d DIR     SFLD HMM directory (overrides $SFLD_LIB_DIR)
+
+Post-process results of HMMER search on SFLD HMMs
+Usage sfld_postprocess: options:
+	--nosearch    | -S         don't run search if output files exist
+	--hmmerpath   | -p PATH    path to hmm* binaries (overrides $HMMER_PATH)
+	--alignments  | -a         HMMER alignment file
+	--dom         | -d         HMMER domtblout file
+	--hmmer-out   | -O         HMMER output file
+	--site-info   | -s         SFLD reside annotation file
+	--format      | -f FORMAT  output text format [not implemented]
+	--output      | -o FILE    output file (otherwise STDOUT)
+
+
+Resource usage statistics from testing sfld:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: sfld-1.1-h779adbc_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+

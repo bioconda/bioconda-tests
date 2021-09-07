@@ -1,0 +1,63 @@
+  Package  Version  Build       Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────
+
+  + sfld       1.1  h7c4e147_1  /Users/runner/conda/conda-bld/osx-64     197 KB
+
+  Summary:
+
+  Install: 1 packages
+
+  Total download: 197 KB
+
+─────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: sfld-1.1-h7c4e147_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/sfld_1631027071639/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    sfld: 1.1-h7c4e147_1 local
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/sfld_1631027071639/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/sfld_1631027071639/test_tmp
+Pre-process SFLD alignments/HMMs
+Usage sfld_preprocess: options:
+	--hmm         | -m FILE    HMM file (input)
+	--sites       | -s FILE    sites file (output)
+	--alignments  | -a FILE    alignments file (input)
+	--hmm_dir     | -d DIR     SFLD HMM directory (overrides $SFLD_LIB_DIR)
+
+Post-process results of HMMER search on SFLD HMMs
+Usage sfld_postprocess: options:
+	--nosearch    | -S         don't run search if output files exist
+	--hmmerpath   | -p PATH    path to hmm* binaries (overrides $HMMER_PATH)
+	--alignments  | -a         HMMER alignment file
+	--dom         | -d         HMMER domtblout file
+	--hmmer-out   | -O         HMMER output file
+	--site-info   | -s         SFLD reside annotation file
+	--format      | -f FORMAT  output text format [not implemented]
+	--output      | -o FILE    output file (otherwise STDOUT)
+
+
+Resource usage statistics from testing sfld:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: sfld-1.1-h7c4e147_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
