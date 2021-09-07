@@ -1,0 +1,87 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: nextclade_js-0.14.4-h527b516_0.tar.bz2
+Renaming work directory '/Users/runner/conda/conda-bld/work' to '/Users/runner/conda/conda-bld/nextclade_js_1631047158551/work_moved_nextclade_js-0.14.4-h527b516_0_osx-64'
+shutil.move(work)=/Users/runner/conda/conda-bld/work, dest=/Users/runner/conda/conda-bld/nextclade_js_1631047158551/work_moved_nextclade_js-0.14.4-h527b516_0_osx-64)
+  Package              Version  Build          Channel                                    Size
+────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + ca-certificates  2021.5.30  h033912b_0     conda-forge/osx-64                       Cached
+  + icu                   68.1  h74dc148_0     conda-forge/osx-64                       Cached
+  + libcxx              12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + libuv               1.41.1  h0d85af4_0     conda-forge/osx-64                       420 KB
+  + nextclade_js        0.14.4  h527b516_0     /Users/runner/conda/conda-bld/osx-64     863 KB
+  + nodejs             15.14.0  hb529b34_0     conda-forge/osx-64                        12 MB
+  + openssl             1.1.1l  h0d85af4_0     conda-forge/osx-64                       Cached
+  + zlib                1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 8 packages
+
+  Total download: 13 MB
+
+────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/nextclade_js_1631047158551/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+
+
+The following NEW packages will be INSTALLED:
+
+    ca-certificates: 2021.5.30-h033912b_0 conda-forge
+    icu:             68.1-h74dc148_0      conda-forge
+    libcxx:          12.0.1-habf9029_0    conda-forge
+    libuv:           1.41.1-h0d85af4_0    conda-forge
+    nextclade_js:    0.14.4-h527b516_0    local      
+    nodejs:          15.14.0-hb529b34_0   conda-forge
+    openssl:         1.1.1l-h0d85af4_0    conda-forge
+    zlib:            1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/nextclade_js_1631047158551/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/Users/runner/conda/conda-bld/nextclade_js_1631047158551/test_tmp
+Nextclade: Clade assignment, mutation calling, and sequence quality checks
+
+Usage: nextclade [options]
+       nextclade completion
+
+Commands:
+  nextclade completion  Generate shell autocompletion script
+
+Options:
+  --help                    Show help  [boolean]
+  --version                 Show version number  [boolean]
+  --jobs, -j                Number of CPU threads used by the algorithm. If not specified, using number of logical CPU cores, as detected by Node.js runtime  [number] [default: 3]
+  --input-fasta, -i         Path to a .fasta or a .txt file with input sequences  [string] [required]
+  --input-root-seq, -r      Path to plain text file containing custom root sequence  [string]
+  --input-tree, -a          (optional) Path to Auspice JSON v2 file containing custom reference tree. See https://nextstrain.org/docs/bioinformatics/data-formats  [string]
+  --input-qc-config, -q     (optional) Path to a JSON file containing custom configuration of Quality Control rules.
+                            For an example format see: https://github.com/nextstrain/nextclade/blob/20a9fda5b8046ce26669de2023770790c650daae/packages/web/src/algorithms/defaults/sars-cov-2/qcRulesConfig.ts  [string]
+  --input-gene-map, -g      (optional) Path to a JSON file containing custom gene map. Gene map (sometimes also called "gene annotations") is used to resolve aminoacid changes in genes.
+                            For an example see https://github.com/nextstrain/nextclade/blob/20a9fda5b8046ce26669de2023770790c650daae/packages/web/src/algorithms/defaults/sars-cov-2/geneMap.json  [string]
+  --input-pcr-primers, -p   (optional) Path to a CSV file containing a list of custom PCR primer sites. These are used to report mutations in these sites.
+                            For an example see https://github.com/nextstrain/nextclade/blob/20a9fda5b8046ce26669de2023770790c650daae/packages/web/src/algorithms/defaults/sars-cov-2/pcrPrimers.csv  [string]
+  --output-json, -o         Path to output JSON results file  [string]
+  --output-csv, -c          Path to output CSV results file  [string]
+  --output-tsv-clades-only  Path to output CSV clades-only file  [string]
+  --output-tsv, -t          Path to output TSV results file  [string]
+  --output-tree, -T         Path to output Auspice JSON V2 results file. See https://nextstrain.org/docs/bioinformatics/data-formats  [string]
+
+Resource usage statistics from testing nextclade_js:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 11.7M
+   Disk usage: 12B
+   Time elapsed: 0:00:04.2
+
+
+TEST END: nextclade_js-0.14.4-h527b516_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
