@@ -1,0 +1,131 @@
+  Package                Version  Build                  Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex            0.1  conda_forge            conda-forge/linux-64                    Cached
+  + _openmp_mutex            4.5  1_gnu                  conda-forge/linux-64                    Cached
+  + bedtools              2.30.0  h7d7f7ad_2             bioconda/linux-64                        18 MB
+  + bzip2                  1.0.8  h7f98852_4             conda-forge/linux-64                    Cached
+  + ca-certificates    2021.5.30  ha878542_0             conda-forge/linux-64                    Cached
+  + certifi           2019.11.28  py27h8c360ce_1         conda-forge/linux-64                    149 KB
+  + hydra-multi            0.5.4  py27h2e03b76_1         /home/vsts/conda/conda-bld/linux-64     126 KB
+  + ld_impl_linux-64      2.36.1  hea4e1c9_2             conda-forge/linux-64                    Cached
+  + libffi                 3.2.1  he1b5a44_1007          conda-forge/linux-64                     47 KB
+  + libgcc-ng             11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libgomp               11.1.0  hc902ee8_8             conda-forge/linux-64                    Cached
+  + libstdcxx-ng          11.1.0  h56837e0_8             conda-forge/linux-64                    Cached
+  + ncurses                  6.2  h58526e2_4             conda-forge/linux-64                    Cached
+  + openssl               1.1.1l  h7f98852_0             conda-forge/linux-64                    Cached
+  + pip                   20.1.1  pyh9f0ad1d_0           conda-forge/noarch                        1 MB
+  + pysam                  0.7.7  py27h8c2299e_5         bioconda/linux-64                       818 KB
+  + python                2.7.15  h5a48372_1011_cpython  conda-forge/linux-64                     12 MB
+  + python_abi               2.7  1_cp27mu               conda-forge/linux-64                      4 KB
+  + readline                 8.1  h46c0cb4_0             conda-forge/linux-64                    Cached
+  + samtools              0.1.19  h270b39a_9             bioconda/linux-64                         4 MB
+  + setuptools            44.0.0  py27_0                 conda-forge/linux-64                    663 KB
+  + sqlite                3.36.0  h9cd32fc_0             conda-forge/linux-64                    Cached
+  + tk                    8.6.11  h27826a3_1             conda-forge/linux-64                    Cached
+  + wheel                 0.37.0  pyhd8ed1ab_1           conda-forge/noarch                      Cached
+  + xz                     5.2.5  h516909a_1             conda-forge/linux-64                    Cached
+  + zlib                  1.2.11  h516909a_1010          conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 26 packages
+
+  Total download: 37 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: hydra-multi-0.5.4-py27h2e03b76_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/hydra-multi_1631081138768/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge              conda-forge
+    _openmp_mutex:    4.5-1_gnu                    conda-forge
+    bedtools:         2.30.0-h7d7f7ad_2            bioconda   
+    bzip2:            1.0.8-h7f98852_4             conda-forge
+    ca-certificates:  2021.5.30-ha878542_0         conda-forge
+    certifi:          2019.11.28-py27h8c360ce_1    conda-forge
+    hydra-multi:      0.5.4-py27h2e03b76_1         local      
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2            conda-forge
+    libffi:           3.2.1-he1b5a44_1007          conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8            conda-forge
+    libgomp:          11.1.0-hc902ee8_8            conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8            conda-forge
+    ncurses:          6.2-h58526e2_4               conda-forge
+    openssl:          1.1.1l-h7f98852_0            conda-forge
+    pip:              20.1.1-pyh9f0ad1d_0          conda-forge
+    pysam:            0.7.7-py27h8c2299e_5         bioconda   
+    python:           2.7.15-h5a48372_1011_cpython conda-forge
+    python_abi:       2.7-1_cp27mu                 conda-forge
+    readline:         8.1-h46c0cb4_0               conda-forge
+    samtools:         0.1.19-h270b39a_9            bioconda   
+    setuptools:       44.0.0-py27_0                conda-forge
+    sqlite:           3.36.0-h9cd32fc_0            conda-forge
+    tk:               8.6.11-h27826a3_1            conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1          conda-forge
+    xz:               5.2.5-h516909a_1             conda-forge
+    zlib:             1.2.11-h516909a_1010         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/hydra-multi_1631081138768/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/hydra-multi_1631081138768/test_tmp
+usage:$PREFIX/bin/combine-assembled-files.sh <path to assembled files> <master assembly file> <crumbs>
+Usage: pairDiscordants.py -i <file> -n <numMappings, default=100> -o <order, default="size"> -d <distance, default=1000000> -l <readLength, default=42> -x <minSpan, default=100> -y <minConcLength, default=0> -z <maxConcLenth, default=600> -m <mode, default="discordant">
+Usage: mergeBreakpoints.py -i <master>
+Usage: make_hydra_config.py -i <config_stub>
+Usage: hydraToBreakpoint.py -b <bedpe> -c <contigFile.bedpe> [options]
+Usage: frequency.py [options]
+Usage: forceOneClusterPerPairMem.py -i <master>
+Usage: finalizeBreakpoints.py -i <master>
+Usage: extract_discordants.py -c <config file> -d <dataset>
+usage:$PREFIX/bin/extract_all_discordants.sh <hydra config file> <number of processes>
+Usage: dedupDiscordantsMultiPass.py -i <BEDPE> -s <INT, default=1>
+Usage: bedpeToBed12.py -i <file> -n <name> -d <dist>
+Usage: bedpeToBam.py -i <file> -n <name> -d <dist>
+usage:$PREFIX/bin/assemble-routed-files.sh <file w/ list of routed files> <hydra config file> <number of processes> <punt parameter>
+	usage: hydra-multi.sh <command> [options] <positional args>
+Usage:   hydra -config
+Downloading 3 sample files from 1000 Genomes (~1.5Gb total)...
+done
+creating a basic configuration file from the downloaded 1000G files...
+done
+creating a complete configuration file by sampling BAM to create library stats...
+done
+extracting discordant alignments from BAM files...
+done
+running hydra router on the discordant alignments...
+done
+running hydra-assembler on the routed files of discordant alignments...
+done
+re-combining the individual assembled files...
+	Cleaning up old files...
+	Cleaning up old files...
+done
+finalizing SV breakpoint calls... 
+done
+Usage:   hydra [OPTIONS] -in FILE1 FILE2 ... FILEn -out <breakpoints> -mld <bp> -mno <bp>
+Usage:   hydra [OPTIONS] -config FILE -routed FILE -out STRING
+
+Resource usage statistics from testing hydra-multi:
+   Process count: 4
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 15.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:04.1
+
+
+TEST END: hydra-multi-0.5.4-py27h2e03b76_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
