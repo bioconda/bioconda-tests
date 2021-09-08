@@ -28,7 +28,7 @@ stages:
         set -xeuo pipefail
         pip install ntplib
         PYTHONPATH="$( pwd )/src" \
-          python -m select_packages.select_packages \
+          python -m bioconda_tests.select_packages \
           --num-packages=10 \
           --output-dir='$(Pipeline.Workspace)/selected_packages'
       name: select_packages
@@ -40,6 +40,10 @@ stages:
       name: install_deploy_key
     - bash: |
         set -xeuo pipefail
+        ntp_time="$(
+          PYTHONPATH=$(pwd)/src \
+            python -m bioconda_tests.ntp_time
+        )"
         git checkout main
         git remote get-url origin \
           | sed \
@@ -47,11 +51,6 @@ stages:
             -e 's|$|.git|' \
           | xargs git remote set-url origin
         git pull
-        ntp_time="$(
-          PYTHONPATH=$(pwd)/src \
-            python -c \
-              'import select_packages.ntp_time as t; print(t.format_utc_time(t.get_ntp_time()))'
-        )"
         results_dir=./status
         mkdir -p "${results_dir}"
         cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
@@ -68,10 +67,17 @@ stages:
         git commit -m \
         "Set state=running at ${ntp_time} ***NO_CI***
 
+        repodata archive: $(select_repodata_archive.REPODATA)
+        packages:
+
         $( cat '$(Pipeline.Workspace)/selected_packages/'*.txt | sort -u )
         "
-        git push
+        echo "##vso[task.setvariable variable=NTP_TIME;isOutput=true]${ntp_time}"
       name: mark_as_running
+    - bash: |
+        git push
+      condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+      name: push_marks
     - publish: $(Pipeline.Workspace)/selected_packages
       artifact: selected_packages
 
@@ -88,7 +94,7 @@ stages:
     steps:
     - bash: |
         set -xeuo pipefail
-        SUBDIR=linux-64 REPODATA="$(REPODATA)" bash setup-conda.sh
+        SUBDIR=linux-64 REPODATA="$(REPODATA)" bash src/setup-conda.sh
         . "${HOME}/conda/etc/profile.d/conda.sh"
         conda activate base
         conda info -a
@@ -101,7 +107,11 @@ stages:
         set -xeuo pipefail
         . "${HOME}/conda/etc/profile.d/conda.sh"
         conda activate base
-        src/test_packages '$(Pipeline.Workspace)' linux-64 noarch
+        PYTHONPATH=$(pwd)/src \
+          python -m bioconda_tests.test_packages \
+            --workspace='$(Pipeline.Workspace)' \
+            --subdir=linux-64 \
+            --subdir=noarch
       name: test_packages
     - publish: $(Pipeline.Workspace)/linux-64
       artifact: linux-64
@@ -112,7 +122,7 @@ stages:
     steps:
     - bash: |
         set -xeuo pipefail
-        SUBDIR=osx-64 REPODATA="$(REPODATA)" bash setup-conda.sh
+        SUBDIR=osx-64 REPODATA="$(REPODATA)" bash src/setup-conda.sh
         . "${HOME}/conda/etc/profile.d/conda.sh"
         conda activate base
         conda info -a
@@ -125,7 +135,11 @@ stages:
         set -xeuo pipefail
         . "${HOME}/conda/etc/profile.d/conda.sh"
         conda activate base
-        src/test_packages '$(Pipeline.Workspace)' osx-64 noarch
+        PYTHONPATH=$(pwd)/src \
+          python -m bioconda_tests.test_packages \
+            --workspace='$(Pipeline.Workspace)' \
+            --subdir=osx-64 \
+            --subdir=noarch
       name: test_packages
     - publish: $(Pipeline.Workspace)/osx-64
       artifact: osx-64
@@ -140,7 +154,12 @@ stages:
 
 
 - stage: gather
-  dependsOn: test
+  dependsOn:
+    - prepare
+    - test
+  variables:
+    REPODATA: $[ stageDependencies.prepare.prepare.outputs['select_repodata_archive.REPODATA'] ]
+    NTP_TIME: $[ stageDependencies.prepare.prepare.outputs['mark_as_running.NTP_TIME'] ]
   condition: succeededOrFailed()
   jobs:
   - job: gather
@@ -153,6 +172,7 @@ stages:
         knownHostsEntry: github.com ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAq2A7hRGmdnm9tUDbO9IDSwBK6TbQa+PXYPCPy6rbTrTtw7PHkccKrpp0yVhp5HdEIcKr6pLlVDBfOLX9QUsyCOV0wzfjIJNlGEYsdlLJizHhbn2mUjvSAHQqZETYP81eFzLQNnPHt4EVVUh7VfDESU84KezmD5QlWpXLmvU31/yMf+Se8xhHTvKSCZIFImWwoG6mbUoWf9nzpIoaSjB+weqqUUmpaaasXVal72J+UX2B+2RPW3RcT0eOzQgqlJL3RKrTJvdsjE3JEAvGq3lGHSZXy28G3skua2SmVi/w4yCE6gbODqnTWlg7+wC604ydGXA8VJiS5ap43JXiUFFAaQ==
         sshPublicKey: $(BiocondaBot_deploy_bioconda_tests)
         sshKeySecureFile: BiocondaBot-deploy-bioconda-tests
+      condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
       name: install_deploy_key
     - bash: |
         set -xeuo pipefail
@@ -167,25 +187,54 @@ stages:
         cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
           | sort -u \
           | while read package ; do
-            sed -i 's/"running"/"completed"/' "${results_dir}/${package}/status.json"
-            git add "${results_dir}/${package}/status.json"
-            find "${results_dir}/${package}" -mindepth 1 -maxdepth 1 -type f \! -name 'status.json' -exec git rm {} +
-            mkdir -p "${results_dir}/${package}"
+            package_results_dir="${results_dir}/${package}"
+            if [ -d "${package_results_dir}" ] ; then
+              find "${package_results_dir}" -mindepth 1 -maxdepth 1 -type f \! -name 'status.json' -exec git rm {} +
+            fi
+            mkdir -p "${package_results_dir}"
             for subdir in linux-64 osx-64 ; do
-              platform_results_dir='$(Pipeline.Workspace)/'"${subdir}/${package}"
-              if [ -d "${platform_results_dir}" ] ; then
-                for file in "${platform_results_dir}/"* ; do
-                  cp -f "${file}" "${results_dir}/${package}/${subdir}-${file##*/}"
+              platform_workspace_dir='$(Pipeline.Workspace)/'"${subdir}/${package}"
+              if [ -f "${platform_workspace_dir}/status.json" ] ; then
+                python -c '
+        import json, pathlib, sys
+        status_path = pathlib.Path(sys.argv[1])
+        if status_path.is_file():
+            with status_path.open() as status_file:
+                status = json.load(status_file)
+        else:
+            status = {}
+        status["state"] = "completed"
+        if "status" not in status:
+            status["status"] = []
+        with pathlib.Path(sys.argv[2]).open() as platform_status_file:
+            status["status"].append(json.load(platform_status_file))
+        with status_path.open("w") as status_file:
+            json.dump(status, status_file, indent=1, sort_keys=True)
+        ' "${package_results_dir}/status.json" "${platform_workspace_dir}/status.json"
+                for file in "${platform_workspace_dir}/"* ; do
+                  filename="${file##*/}"
+                  if ! [ "${filename}" = 'status.json' ] ; then
+                    dest="${package_results_dir}/${subdir}-${filename}"
+                    cp -f "${file}" "${dest}"
+                    git add -- "${dest}"
+                  fi
                 done
               fi
             done
-            git add "${results_dir}/${package}/"*
+            git add "${package_results_dir}/status.json"
           done
         git config --global user.email "47040946+BiocondaBot@users.noreply.github.com"
         git config --global user.name "BiocondaBot"
         git commit -m \
-        "Commit status ***NO_CI***
+        "Commit status for $(NTP_TIME) ***NO_CI***
+
+        repodata archive: $(select_repodata_archive.REPODATA)
+        packages:
 
         $( cat '$(Pipeline.Workspace)/selected_packages/'*.txt | sort -u )
         "
+      name: gather_results
+    - bash: |
         git push
+      condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
+      name: push_results

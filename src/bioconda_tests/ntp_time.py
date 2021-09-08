@@ -38,4 +38,4 @@ def parse_utc_time(utc_time_str: str) -> datetime:
 
 
 if __name__ == "__main__":
-    print(get_ntp_time())
+    print(format_utc_time(get_ntp_time()))
