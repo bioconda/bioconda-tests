@@ -5,6 +5,7 @@ import sys
 
 from argparse import ArgumentParser
 from json import dump, loads
+from logging import INFO, basicConfig, getLogger
 from pathlib import Path
 from re import sub
 from signal import SIGINT
@@ -13,6 +14,8 @@ from tempfile import TemporaryDirectory
 from typing import Any, Dict, Generator, List, Optional, Tuple
 
 from urllib3 import PoolManager
+
+_log = getLogger(__name__)
 
 
 STATUS_SUCCESS = "success"
@@ -59,6 +62,7 @@ def test_build(
         "https://",
         archive_url,
     )
+    _log.info("Test using %s package from URL %s", conda_build_impl, download_url)
     file_name = package_fetch_info["fn"]
     subdir = package_fetch_info["subdir"]
     with TemporaryDirectory() as temp_dir:
@@ -99,6 +103,7 @@ def test_build(
 def solve(
     output_root: Path, package: str, timeout: int, conda_impl: str
 ) -> Tuple[str, Dict[str, Any]]:
+    _log.info("Solve using %s for package %s", conda_impl, package)
     fetch_info: Optional[Dict[str, Any]] = None
     env = os.environ.copy()
     env["CONDA_QUIET"] = "1"
@@ -205,9 +210,12 @@ def main(args: Optional[List[str]] = None) -> None:
         for subdir in subdirs
         for package in get_lines(workspace / "selected_packages" / f"{subdir}.txt")
     })
+    _log.info("Packages to test:\n%s", "\n".join(f"  {package}" for package in packages))
     for i, package in enumerate(packages, 1):
+        _log.info("Start solve/test for %s (%d/%d)", package, i, len(packages))
         test_package(output_root, platform, package)
 
 
 if __name__ == "__main__":
+    basicConfig(level=INFO)
     main()

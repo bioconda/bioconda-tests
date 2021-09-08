@@ -5,12 +5,15 @@ from collections import defaultdict
 from datetime import datetime, timezone
 from functools import partial
 from json import loads
+from logging import INFO, basicConfig, getLogger
 from pathlib import Path
 from subprocess import DEVNULL, check_call
 from tempfile import TemporaryDirectory
 from typing import Any, Dict, List, Optional
 
 from .ntp_time import format_utc_time, get_ntp_time, parse_utc_time
+
+_log = getLogger(__name__)
 
 
 def git(*args: str, **kwargs: Any) -> None:
@@ -137,4 +140,5 @@ def main(args: Optional[List[str]] = None) -> None:
 
 
 if __name__ == "__main__":
+    basicConfig(level=INFO)
     main()
