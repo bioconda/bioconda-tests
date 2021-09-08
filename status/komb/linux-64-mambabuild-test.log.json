@@ -1,0 +1,193 @@
+  Package               Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu               conda-forge/linux-64                    Cached
+  + abyss                 2.3.1  hd403d74_0          bioconda/linux-64                         2 MB
+  + bifrost               1.0.5  h2e03b76_1          bioconda/linux-64                         1 MB
+  + bowtie2               2.4.4  py39hbb4e92a_0      bioconda/linux-64                        15 MB
+  + ca-certificates   2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + gmp                   6.2.1  h58526e2_0          conda-forge/linux-64                    806 KB
+  + icu                    68.1  h58526e2_0          conda-forge/linux-64                    Cached
+  + igraph                0.8.3  h689f727_2          conda-forge/linux-64                      4 MB
+  + komb                    1.0  py39h39abbe0_3      /home/vsts/conda/conda-bld/linux-64       2 MB
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8          conda-forge/linux-64                     19 KB
+  + libgfortran5         11.1.0  h6c583b3_8          conda-forge/linux-64                      2 MB
+  + libgomp              11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libiconv               1.16  h516909a_0          conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + libxml2              2.9.12  h72842e0_0          conda-forge/linux-64                    Cached
+  + lz4-c                 1.9.3  h9c3ff4c_1          conda-forge/linux-64                    Cached
+  + make                    4.3  hd18ef5c_1          conda-forge/linux-64                    507 KB
+  + mpi                     1.0  openmpi             conda-forge/linux-64                      4 KB
+  + ncurses                 6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openmpi               4.1.1  hbfc84c5_0          conda-forge/linux-64                      4 MB
+  + openssl              1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + perl                 5.32.1  0_h7f98852_perl5    conda-forge/linux-64                     14 MB
+  + pip                  21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + pthread-stubs           0.4  h36c2ea0_1001       conda-forge/linux-64                      5 KB
+  + python                3.9.7  h49503c6_0_cpython  conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39              conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools           58.0.2  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tbb                  2020.2  h4bd325d_4          conda-forge/linux-64                      1 MB
+  + tk                   8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + util-linux             2.36  py39h28948ff_1      conda-forge/linux-64                      3 MB
+  + wheel                0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+  + zstd                  1.4.9  ha95c52a_0          conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 41 packages
+
+  Total download: 52 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: komb-1.0-py39h39abbe0_3.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/komb_1631072010020/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge          conda-forge
+    _openmp_mutex:    4.5-1_gnu                conda-forge
+    abyss:            2.3.1-hd403d74_0         bioconda   
+    bifrost:          1.0.5-h2e03b76_1         bioconda   
+    bowtie2:          2.4.4-py39hbb4e92a_0     bioconda   
+    ca-certificates:  2021.5.30-ha878542_0     conda-forge
+    gmp:              6.2.1-h58526e2_0         conda-forge
+    icu:              68.1-h58526e2_0          conda-forge
+    igraph:           0.8.3-h689f727_2         conda-forge
+    komb:             1.0-py39h39abbe0_3       local      
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2        conda-forge
+    libffi:           3.3-h58526e2_2           conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8        conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8        conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8        conda-forge
+    libgomp:          11.1.0-hc902ee8_8        conda-forge
+    libiconv:         1.16-h516909a_0          conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8        conda-forge
+    libxml2:          2.9.12-h72842e0_0        conda-forge
+    lz4-c:            1.9.3-h9c3ff4c_1         conda-forge
+    make:             4.3-hd18ef5c_1           conda-forge
+    mpi:              1.0-openmpi              conda-forge
+    ncurses:          6.2-h58526e2_4           conda-forge
+    openmpi:          4.1.1-hbfc84c5_0         conda-forge
+    openssl:          1.1.1l-h7f98852_0        conda-forge
+    perl:             5.32.1-0_h7f98852_perl5  conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0      conda-forge
+    pthread-stubs:    0.4-h36c2ea0_1001        conda-forge
+    python:           3.9.7-h49503c6_0_cpython conda-forge
+    python_abi:       3.9-2_cp39               conda-forge
+    readline:         8.1-h46c0cb4_0           conda-forge
+    setuptools:       58.0.2-py39hf3d152e_0    conda-forge
+    sqlite:           3.36.0-h9cd32fc_0        conda-forge
+    tbb:              2020.2-h4bd325d_4        conda-forge
+    tk:               8.6.11-h27826a3_1        conda-forge
+    tzdata:           2021a-he74cb21_1         conda-forge
+    util-linux:       2.36-py39h28948ff_1      conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:               5.2.5-h516909a_1         conda-forge
+    zlib:             1.2.11-h516909a_1010     conda-forge
+    zstd:             1.4.9-ha95c52a_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working...  
+For Linux 64, Open MPI is built with CUDA awareness but this support is disabled by default.
+To enable it, please set the environment variable OMPI_MCA_opal_cuda_support=true before
+launching your MPI processes. Equivalently, you can set the MCA parameter in the command line:
+mpiexec --mca opal_cuda_support 1 ...
+ 
+In addition, the UCX support is also built but disabled by default.
+To enable it, first install UCX (conda install -c conda-forge ucx). Then, set the environment
+variables OMPI_MCA_pml="ucx" OMPI_MCA_osc="ucx" before launching your MPI processes.
+Equivalently, you can set the MCA parameters in the command line:
+mpiexec --mca pml ucx --mca osc ucx ...
+Note that you might also need to set UCX_MEMTYPE_CACHE=n for CUDA awareness via UCX.
+Please consult UCX's documentation for detail.
+ 
+
+done
+export PREFIX=/home/vsts/conda/conda-bld/komb_1631072010020/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/komb_1631072010020/test_tmp
+
+USAGE: 
+
+   komb  [-o <string>] [-t <int>] [-k <int>] [-n <int>] [-l <int>] -r
+         <string> [-a] [-f] [-b] [-s] [--] [--version] [-h]
+
+
+Where: 
+
+   -o <string>,  --output <string>
+     Output directory [Default: output_yyyymmdd_hhmmss]
+
+   -t <int>,  --threads <int>
+     Number of Threads [Default: Max]
+
+   -k <int>,  --kmer <int>
+     Kmer size for Abyss, Bifrost uses 31 [Default: 31]
+
+   -n <int>,  --numhits <int>
+     Bowtie2 maximum number of hits [Default: 1000]
+
+   -l <int>,  --readlen <int>
+     Read Length (can be average) [Default: 100]
+
+   -r <string>,  --reads <string>
+     (required)  Paired-read file separated by ',' [Default: read1.fq
+     ,read2.fq]
+
+   -a,  --alignment
+     Keep alignment files [Default: delete alignment]
+
+   -f,  --fasta
+     Reads provided are fasta files [Default: fastq]
+
+   -b,  --bifrost
+     Run bifrost instead of abyss [Default: run abyss]
+
+   -s,  --spades
+     Runs spades and uses GFA graph instead of bifrost + bowtie2 [Default:
+     run abyss]
+
+   --,  --ignore_rest
+     Ignores the rest of the labeled arguments following this flag.
+
+   --version
+     Displays version information and exits.
+
+   -h,  --help
+     Displays usage information and exits.
+
+
+   KOMB: Taxonomy-oblivious characterization of metagenome dynamics
+
+
+Resource usage statistics from testing komb:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.3M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: komb-1.0-py39h39abbe0_3.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
