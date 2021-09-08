@@ -1,0 +1,121 @@
+  Package               Version  Build                  Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + boost-cpp            1.74.0  hff03dee_4             conda-forge/osx-64                        16 MB
+  + bzip2                 1.0.8  h0d85af4_4             conda-forge/osx-64                       Cached
+  + ca-certificates   2021.5.30  h033912b_0             conda-forge/osx-64                       Cached
+  + certifi          2019.11.28  py27h8c360ce_1         conda-forge/osx-64                       149 KB
+  + decorator             4.4.2  py_0                   conda-forge/noarch                        11 KB
+  + icu                    68.1  h74dc148_0             conda-forge/osx-64                       Cached
+  + libcxx               12.0.1  habf9029_0             conda-forge/osx-64                       Cached
+  + libffi                3.2.1  hb1e8313_1007          conda-forge/osx-64                        42 KB
+  + lz4-c                 1.9.3  he49afe7_1             conda-forge/osx-64                       Cached
+  + ncurses                 6.2  h2e338ed_4             conda-forge/osx-64                       Cached
+  + networkx               1.11  py27_0                 conda-forge/osx-64                         1 MB
+  + openssl              1.1.1l  h0d85af4_0             conda-forge/osx-64                       Cached
+  + pip                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch                         1 MB
+  + python               2.7.15  h8e446fc_1011_cpython  conda-forge/osx-64                        12 MB
+  + python_abi              2.7  1_cp27m                conda-forge/osx-64                         4 KB
+  + readline                8.1  h05e3726_0             conda-forge/osx-64                       Cached
+  + salsa2                  2.3  py27h7361148_0         /Users/runner/conda/conda-bld/osx-64     106 KB
+  + setuptools           44.0.0  py27_0                 conda-forge/osx-64                       649 KB
+  + sqlite               3.36.0  h23a322b_0             conda-forge/osx-64                       Cached
+  + tk                   8.6.11  h5dbffcc_1             conda-forge/osx-64                       Cached
+  + wheel                0.37.0  pyhd8ed1ab_1           conda-forge/noarch                       Cached
+  + xz                    5.2.5  haf1e3a3_1             conda-forge/osx-64                       Cached
+  + zlib                 1.2.11  h7795811_1010          conda-forge/osx-64                       Cached
+  + zstd                  1.5.0  h582d3a0_0             conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 24 packages
+
+  Total download: 31 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: salsa2-2.3-py27h7361148_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/salsa2_1631067727942/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    boost-cpp:       1.74.0-hff03dee_4            conda-forge
+    bzip2:           1.0.8-h0d85af4_4             conda-forge
+    ca-certificates: 2021.5.30-h033912b_0         conda-forge
+    certifi:         2019.11.28-py27h8c360ce_1    conda-forge
+    decorator:       4.4.2-py_0                   conda-forge
+    icu:             68.1-h74dc148_0              conda-forge
+    libcxx:          12.0.1-habf9029_0            conda-forge
+    libffi:          3.2.1-hb1e8313_1007          conda-forge
+    lz4-c:           1.9.3-he49afe7_1             conda-forge
+    ncurses:         6.2-h2e338ed_4               conda-forge
+    networkx:        1.11-py27_0                  conda-forge
+    openssl:         1.1.1l-h0d85af4_0            conda-forge
+    pip:             20.1.1-pyh9f0ad1d_0          conda-forge
+    python:          2.7.15-h8e446fc_1011_cpython conda-forge
+    python_abi:      2.7-1_cp27m                  conda-forge
+    readline:        8.1-h05e3726_0               conda-forge
+    salsa2:          2.3-py27h7361148_0           local      
+    setuptools:      44.0.0-py27_0                conda-forge
+    sqlite:          3.36.0-h23a322b_0            conda-forge
+    tk:              8.6.11-h5dbffcc_1            conda-forge
+    wheel:           0.37.0-pyhd8ed1ab_1          conda-forge
+    xz:              5.2.5-haf1e3a3_1             conda-forge
+    zlib:            1.2.11-h7795811_1010         conda-forge
+    zstd:            1.5.0-h582d3a0_0             conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/salsa2_1631067727942/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/salsa2_1631067727942/test_tmp
+usage: run_pipeline.py [-h] -a ASSEMBLY -l LENGTH -b BED [-o OUTPUT]
+                       [-c CUTOFF] [-g GFA] [-e ENZYME] [-i ITER] [-x DUP]
+                       [-s EXP] [-m CLEAN] [-f FILTER] [-p PRNT]
+
+SALSA Iterative Pipeline
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -a ASSEMBLY, --assembly ASSEMBLY
+                        Path to initial assembly
+  -l LENGTH, --length LENGTH
+                        Length of contigs at start
+  -b BED, --bed BED     Bed file of alignments sorted by read names
+  -o OUTPUT, --output OUTPUT
+                        Output directory to put results
+  -c CUTOFF, --cutoff CUTOFF
+                        Minimum contig length to scaffold, default=1000
+  -g GFA, --gfa GFA     GFA file for assembly
+  -e ENZYME, --enzyme ENZYME
+                        Restriction Enzyme used for experiment
+  -i ITER, --iter ITER  Number of iterations to run, default = 3
+  -x DUP, --dup DUP     File containing duplicated contig information
+  -s EXP, --exp EXP     Expected Genome size of the assembled genome
+  -m CLEAN, --clean CLEAN
+                        Set this option to "yes" if you want to find
+                        misassemblies in input assembly
+  -f FILTER, --filter FILTER
+                        Filter bed file for contigs present in the assembly
+  -p PRNT, --prnt PRNT  Set this option to "yes" if you want to output the
+                        scaffolds sequence and agp file for each iteration
+
+Resource usage statistics from testing salsa2:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: salsa2-2.3-py27h7361148_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
