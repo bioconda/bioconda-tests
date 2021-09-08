@@ -15,6 +15,8 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
+    - checkout: self
+      fetchDepth: 1
     - bash: |
         set -xeuo pipefail
         tag="$(
@@ -44,13 +46,9 @@ stages:
           PYTHONPATH=$(pwd)/src \
             python -m bioconda_tests.ntp_time
         )"
+        git fetch --depth=1 origin main
         git checkout main
-        git remote get-url origin \
-          | sed \
-            -e 's|^https://github.com|git@github.com:|' \
-            -e 's|$|.git|' \
-          | xargs git remote set-url origin
-        git pull
+        git reset --hard FETCH_HEAD
         results_dir=./status
         mkdir -p "${results_dir}"
         cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
@@ -75,6 +73,11 @@ stages:
         echo "##vso[task.setvariable variable=NTP_TIME;isOutput=true]${ntp_time}"
       name: mark_as_running
     - bash: |
+        git remote get-url origin \
+          | sed \
+            -e 's|^https://github.com|git@github.com:|' \
+            -e 's|$|.git|' \
+          | xargs git remote set-url origin
         git push
       condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
       name: push_marks
@@ -92,6 +95,8 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
+    - checkout: self
+      fetchDepth: 1
     - bash: |
         set -xeuo pipefail
         SUBDIR=linux-64 REPODATA="$(REPODATA)" bash src/setup-conda.sh
@@ -120,6 +125,8 @@ stages:
     pool:
       vmImage: 'macOS-latest'
     steps:
+    - checkout: self
+      fetchDepth: 1
     - bash: |
         set -xeuo pipefail
         SUBDIR=osx-64 REPODATA="$(REPODATA)" bash src/setup-conda.sh
@@ -166,6 +173,8 @@ stages:
     pool:
       vmImage: 'ubuntu-latest'
     steps:
+    - checkout: self
+      fetchDepth: 1
     - download: current
     - task: InstallSSHKey@0
       inputs:
@@ -176,13 +185,9 @@ stages:
       name: install_deploy_key
     - bash: |
         set -xeuo pipefail
+        git fetch --depth=1 origin main
         git checkout main
-        git remote get-url origin \
-          | sed \
-            -e 's|^https://github.com|git@github.com:|' \
-            -e 's|$|.git|' \
-          | xargs git remote set-url origin
-        git pull
+        git reset --hard FETCH_HEAD
         results_dir=./status
         cat '$(Pipeline.Workspace)/selected_packages/'*.txt \
           | sort -u \
@@ -235,6 +240,11 @@ stages:
         "
       name: gather_results
     - bash: |
+        git remote get-url origin \
+          | sed \
+            -e 's|^https://github.com|git@github.com:|' \
+            -e 's|$|.git|' \
+          | xargs git remote set-url origin
         git push
       condition: and(succeeded(), eq(variables['Build.SourceBranch'], 'refs/heads/main'))
       name: push_results
