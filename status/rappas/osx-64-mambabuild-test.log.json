@@ -1,0 +1,309 @@
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: rappas-1.21-0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpivo2ax4_/info/recipe/conda_build_config.yaml
+  Package                           Version  Build              Channel                                    Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + font-ttf-dejavu-sans-mono          2.37  hab24e00_0         conda-forge/noarch                       Cached
+  + libcxx                           12.0.1  habf9029_0         conda-forge/osx-64                       Cached
+  + libgfortran                       5.0.0  9_3_0_h6c81a4c_23  conda-forge/osx-64                       Cached
+  + libgfortran5                      9.3.0  h6c81a4c_23        conda-forge/osx-64                       Cached
+  + llvm-openmp                      12.0.1  hda6cdc1_1         conda-forge/osx-64                       Cached
+  + mpi                                 1.0  openmpi            conda-forge/osx-64                         4 KB
+  + openjdk                        11.0.9.1  hcf210ce_1         conda-forge/osx-64                       169 MB
+  + openmpi                           4.0.5  h5807002_4         conda-forge/osx-64                         3 MB
+  + phyml                      3.3.20190909  h15ae403_1         bioconda/osx-64                            2 MB
+  + rappas                             1.21  0                  /Users/runner/conda/conda-bld/osx-64      32 MB
+  + zlib                             1.2.11  h7795811_1010      conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 11 packages
+
+  Total download: 206 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/rappas_1631063930657/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+
+
+The following NEW packages will be INSTALLED:
+
+    font-ttf-dejavu-sans-mono: 2.37-hab24e00_0         conda-forge
+    libcxx:                    12.0.1-habf9029_0       conda-forge
+    libgfortran:               5.0.0-9_3_0_h6c81a4c_23 conda-forge
+    libgfortran5:              9.3.0-h6c81a4c_23       conda-forge
+    llvm-openmp:               12.0.1-hda6cdc1_1       conda-forge
+    mpi:                       1.0-openmpi             conda-forge
+    openjdk:                   11.0.9.1-hcf210ce_1     conda-forge
+    openmpi:                   4.0.5-h5807002_4        conda-forge
+    phyml:                     3.3.20190909-h15ae403_1 bioconda   
+    rappas:                    1.21-0                  local      
+    zlib:                      1.2.11-h7795811_1010    conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/rappas_1631063930657/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/rappas_1631063930657/test_tmp
+################################################
+## RAPPAS v1.21
+## ---------------------------------------------
+## Rapid Alignment-free Phylogenetic Placement 
+## via Ancestral Sequences
+## Linard B, Swenson KM, Pardi F.
+## LIRMM, Univ. of Montpellier, CNRS, France
+## Citation:
+## https://doi.org/10.1093/bioinformatics/btz068
+## benjamin/dot/linard/at/lirmm/dot/fr
+################################################
+
+--------------------------------------------------------------------
+ Minimum usage:
+
+ 1. For building the phylo-kmers database:
+    java -jar RAPPAS.jar -p b -s [nucl|amino] -b ARbinary 
+    -w workdir -r alignment.fasta -t tree.newick
+   
+ 2. For placing sequences, using the database (DB) built in step 1:
+    java -jar RAPPAS.jar -p p -d DB.union -q queries.fa 
+    
+ Note: For large references or high values of k, allocate more RAM :
+       ex: java -Xms1024m -Xmx16g -jar RAPPAS.jar [options] 
+       -Xms -> memory allocated at startup. (m=MegaByte, g=GigaByte)
+       -Xmx -> maximum memory allocated to the process.  
+---------------------------------------------------------------------
+
+Main options:     Default values are in [].
+---------------------------------------------------------------------
+-b (--arbinary)   [file] Binary for marginal AR, currently 'phyml' and 
+                  'baseml' (from PAML) are supported. (b phase)
+-d (--database)   [file] The database of ancestral kmers. (b|p phase) 
+-p (--phase)      [b|p] One of 'b' for "Build" or 'p' for "Place"
+                  b: Build DB of phylo-kmers (done 1 time). 
+                  p: Phylogenetic placement itself (done n times)
+                     requires the DB generated during 'build' phase.
+-r (--refalign)   [file] Reference alignment in fasta format.
+                  It must be the multiple alignment from which was 
+                  built the reference tree loaded with -t. (b phase) 
+-s (--states)     ['nucl'|'amino'] States used in analysis. (b|p phase) 
+-t (--reftree)    [file] Reference tree, in newick format.
+-q (--queries)    [file[,file,...]] Fasta queries to place on the tree.
+                  Can be a list of files separated by ','. (b|p phase)
+-v (--verbosity)  [0] Verbosity level: -1=none ; 0=default ; 1=high
+-w (--workdir)    [path] Working directory for temp files. (b|p phase)
+
+Outputs options:  Jplace, log files...  
+---------------------------------------------------------------------
+--keep-at-most    [7] Max number of placement per query kept in 
+                  the jplace output. (p phase)
+--keep-factor     [0.01] Report placement with likelihood_ratio higher
+                  than (factor x best_likelihood_ratio). (p phase)
+--write-reduction [file] Write reduced alignment to file. (b phase)
+--guppy-compat    [] Ensures output is Guppy compatible. (p phase)
+--dbfilename      [string] Set DB filename. (b phase)
+
+Algo options:     Use only if you know what you are doing...    
+---------------------------------------------------------------------
+-a (--alpha)      [1.0] Gammma shape parameter used in AR . (b phase)
+-c (--categories) [4] # categories used in AR . (b phase)
+-g (--ghosts)     [1] # ghost nodes injected per branches. (b phase)
+-k (--k)          [8] k-mer length used at DB build. (b mode)
+-m (--model)      [GTR|LG] Model used in AR, one of the following:
+                  nucl  : JC69, HKY85, K80, F81, TN93, GTR 
+                  amino : LG, WAG, JTT, Dayhoff, DCMut, CpREV,
+                          mMtREV, MtMam, MtArt 
+--arparameters    [string] Parameters passed to the software used for
+                  anc. seq. reconstuct. Overrides -a,-c,-m options.
+                  Value must be quoted by ' or ". Do not set options
+                  -i,-u,--ancestral (managed by RAPPAS). (b phase)
+                  PhyML example: "-m HIVw -c 10 -f m -v 0.0 --r_seed 1"
+--convertUO       [] U,O amino acids are converted to C,L. (b|p phase)
+--force-root      [] Root input tree (if unrooted) by adding a root
+                  node on righmost branch of the trifurcation.(b phase)
+--gap-jump-thresh [0.3] Gap ratio above which gap jumps are activated.
+--no-reduction    [] Do not operate alignment reduction. This will 
+                  keep all sites of input reference alignment and 
+                  may produce erroneous ancestral k-mers. (b phase)
+--ratio-reduction [0.99] Ratio for alignment reduction, e.g. sites 
+                  holding >99% gaps are ignored. (b phase)
+--omega           [1.0] Modifier levelling the threshold used during
+                  phylo-kmer filtering, T=(omega/#states)^k .(b phase)
+--use_unrooted    [] Confirms you accept to use an unrooted reference
+                  tree (option -t). The trifurcation described by the
+                  newick file will be considered as root. Be aware that
+                  meaningless roots may impact accuracy. (b phase)
+
+Debug options:    Use only if you know what you are doing...    
+---------------------------------------------------------------------
+--ambwithmax      [] Treat ambiguities with max, not mean. (p phase)
+--ardir           [dir] Skip ancestral sequence reconstruction, and 
+                  uses outputs from the specified directory. (b phase)
+--arinputonly     [] Generate only AR inputs. (b phase)
+--aronly          [] Launch AR, but not DB build. (b phase)
+--dbinram         [] Build DB, do not save it to a file, but directly
+                     place queries given via -q instead.
+--do-n-jumps      [] Shifts from 1 to n jumps. (b phase) 
+--force-gap-jump  [] Forces gap jump even if %gap<thresh. (b phase) 
+--jsondb          [] DB written as json. (careful, huge file outputs!)
+--noamb           [] Do not treat ambiguous states. (p phase)
+--threads         [4] #threads used in AR (if raxml-ng). (b phase)
+
+Final note:
+---------------------------------------------------------------------
+When you use this software, please cite RAPPAS and the binary used for 
+ancestral reconstruction, e.g. one of :
+ * phyml: Oliva et al, 2019. doi: 10.1093/bioinformatics/btz249
+ * paml: Yang Z, 2007. doi: 10.1093/molbev/msm088
+ * raxml-ng: Kzlov et al, 2019. doi: 10.1093/bioinformatics/btz305
+wordDir: $SRC_DIR/test
+Using AR binary provided by user: $PREFIX/bin/phyml
+User confirmed to use an unrooted tree.
+Default ratio-reduction=0.99 will be used.
+Default injectionPerBranch=1 will be used.
+################################################
+## RAPPAS v1.21
+## ---------------------------------------------
+## Rapid Alignment-free Phylogenetic Placement 
+## via Ancestral Sequences
+## Linard B, Swenson KM, Pardi F
+## LIRMM, Univ. of Montpellier, CNRS, France
+## https://doi.org/10.1101/328740
+## benjamin/dot/linard/at/lirmm/dot/fr
+################################################
+workDir=$SRC_DIR/test
+Starting db_build pipeline...
+Set analysis for DNA
+User did not set model parameters, using default: m=GTR;a=1.0;c=4;
+Some ambiguous states were found in the alignment. (use '-v 1' to know more)
+Alignment reduction based on ratio=0.99
+Before reduction: Dimension: 1269x150 (colxline)
+After reduction: Dimension: 1269x150 (colxline)
+Injecting fake nodes...
+I guess, from binary name, we are using PhyML (phyml).
+Launching ancestral reconstruction...
+Testing phyml version : found - PhyML 3.3.20190909 -
+Testing phyml 'duplicates' option : SUPPORTED
+Output from external software:
+
+
+. Command line: $PREFIX/bin/phyml --ancestral --no_memory_check -i $SRC_DIR/test/extended_trees/extended_align.phylip -u $SRC_DIR/test/extended_trees/extended_tree_withBL_withoutInterLabels.tree -m GTR -c 4 -b 0 -v 0.0 -o r -a 1.0 -f e --leave_duplicates 
+
+
+
+
+
+  ////////////////////////////////////.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.//////////////////////////////////////////
+
+        . Sequence filename:				 extended_align.phylip
+        . Data type:					 dna
+        . Alphabet size:				 4
+        . Sequence format:				 interleaved
+        . Number of data sets:				 1
+        . Nb of bootstrapped data sets:			 0
+        . Model name:					 GTR
+        . Proportion of invariable sites:		 0.000000
+        . Number of subst. rate catgs:			 4
+        . Gamma distribution parameter:			 1.000000
+        . 'Middle' of each rate class:			 mean
+        . Nucleotide equilibrium frequencies:		 empirical
+        . Optimise tree topology:			 no
+        . Evaluated tree:				 "user tree (extended_tree_withBL_withoutInterLabels.tree)"
+        . Optimise branch lengths:			 no
+        . Minimum length of an edge:			 1e-08
+        . Optimise substitution model parameters:	 yes
+        . Run ID:					 none
+        . Random seed:					 1631064018
+        . Subtree patterns aliasing:			 no
+        . Version:					 3.3.20190909
+        . Byte alignment:				 16
+        . AVX enabled:					 no
+        . SSE enabled:					 yes
+
+  ////////////////////////////////////.\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.//////////////////////////////////////////
+
+
+
+. 1130 patterns found (out of a total of 1269 sites). 
+
+. 256 sites without polymorphism (20.17%).
+
+
+. WARNING: this analysis requires at least 471 MB of memory space.
+
+. (   13 sec) [    -40035.4353] [Tree scale         ]
+. (   24 sec) [    -40035.3055] [GTR parameters     ]
+. (   36 sec) [    -40035.2982] [Tree scale         ][  0.867606]
+. (   46 sec) [    -40035.2981] [Tree scale         ][  0.867606]
+
+. Printing the most likely tree in file 'extended_align.phylip_phyml_tree.txt'.
+Ancestral reconstruction finished. Return to RAPPAS process.
+Parsing Ancestral reconstruction results...
+Using kmer compression.
+Building hash...
+Union hash used.
+Node: 0 (0.0%)
+Node: 59 (9.932659932659933%)
+Node: 118 (19.865319865319865%)
+Node: 177 (29.797979797979796%)
+Node: 236 (39.73063973063973%)
+Node: 295 (49.66329966329967%)
+Node: 354 (59.59595959595959%)
+Node: 413 (69.52861952861953%)
+Node: 472 (79.46127946127946%)
+Node: 531 (89.39393939393939%)
+Node: 590 (99.32659932659934%)
+Node: LAST (100%)
+Hash construction took: 39339.0 ms
+k-mers in the hash: 4096
+Tuples explored:1825261
+Serialization of the database...
+Database saved in: $SRC_DIR/test/DB_session_k6_o2.0.union
+Have a coffee, you "built" your world.
+Total execution time: 171981 ms (2 min)
+wordDir: $SRC_DIR/test
+################################################
+## RAPPAS v1.21
+## ---------------------------------------------
+## Rapid Alignment-free Phylogenetic Placement 
+## via Ancestral Sequences
+## Linard B, Swenson KM, Pardi F
+## LIRMM, Univ. of Montpellier, CNRS, France
+## https://doi.org/10.1101/328740
+## benjamin/dot/linard/at/lirmm/dot/fr
+################################################
+workDir=$SRC_DIR/test
+Starting placement pipeline...
+Loading ancestral words DB... (DB_session_k6_o2.0.union)
+Loading the database took 1235 ms
+DB was built on 'nucl' states.
+Memory: used:46.00MB (4,050.00MB free), from allocated:4,096.00MB (max alloc allowed:4,096.00MB)
+Analyzing query sequences...
+Starting to place queries...
+535/535 queries analyzed (100.0%)
+535 different placements reported in JPlace output.
+(Note: 0.0% of the queries are duplicates)
+Have a coffee, you "placed" your world.
+Total execution time: 9065 ms (0 min)
+All tests successful !
+
+Resource usage statistics from testing rappas:
+   Process count: 5
+   CPU time: Sys=0:00:36.8, User=0:02:04.3
+   Memory: 702.6M
+   Disk usage: 65.3K
+   Time elapsed: 0:03:09.0
+
+
+TEST END: rappas-1.21-0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
