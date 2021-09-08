@@ -1,0 +1,257 @@
+  Package                   Version  Build               Channel                                   Size
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex               0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex               4.5  1_gnu               conda-forge/linux-64                    Cached
+  + bowtie2                   2.4.4  py39hbb4e92a_0      bioconda/linux-64                        15 MB
+  + bzip2                     1.0.8  h7f98852_4          conda-forge/linux-64                    Cached
+  + c-ares                   1.17.2  h7f98852_0          conda-forge/linux-64                    Cached
+  + ca-certificates       2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + conduit-assembler         0.1.2  h14cfee4_1          /home/vsts/conda/conda-bld/linux-64     659 KB
+  + htslib                     1.12  h9093b5e_1          bioconda/linux-64                         2 MB
+  + krb5                     1.19.2  hcc1bbae_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64         2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libcurl                  7.78.0  h2574ce0_0          conda-forge/linux-64                    Cached
+  + libdeflate                  1.7  h7f98852_5          conda-forge/linux-64                     67 KB
+  + libedit            3.1.20191231  he28a2e2_2          conda-forge/linux-64                    Cached
+  + libev                      4.33  h516909a_1          conda-forge/linux-64                    Cached
+  + libffi                      3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng                11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                  11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libnghttp2               1.43.0  h812cca2_0          conda-forge/linux-64                    Cached
+  + libssh2                  1.10.0  ha56f1ee_0          conda-forge/linux-64                    Cached
+  + libstdcxx-ng             11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + lz4-c                     1.9.3  h9c3ff4c_1          conda-forge/linux-64                    Cached
+  + ncurses                     6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                  1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + perl                     5.32.1  0_h7f98852_perl5    conda-forge/linux-64                     14 MB
+  + pip                      21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + python                    3.9.7  h49503c6_0_cpython  conda-forge/linux-64                    Cached
+  + python_abi                  3.9  2_cp39              conda-forge/linux-64                    Cached
+  + readline                    8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + samtools                   1.12  h9aed4be_1          bioconda/linux-64                       386 KB
+  + setuptools               58.0.3  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite                   3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tbb                      2020.2  h4bd325d_4          conda-forge/linux-64                      1 MB
+  + tk                       8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + tzdata                    2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + wheel                    0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                        5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + zlib                     1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+  + zstd                      1.4.9  ha95c52a_0          conda-forge/linux-64                    431 KB
+
+  Summary:
+
+  Install: 38 packages
+
+  Total download: 35 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: conduit-assembler-0.1.2-h14cfee4_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/conduit-assembler_1631098120128/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:     0.1-conda_forge          conda-forge
+    _openmp_mutex:     4.5-1_gnu                conda-forge
+    bowtie2:           2.4.4-py39hbb4e92a_0     bioconda   
+    bzip2:             1.0.8-h7f98852_4         conda-forge
+    c-ares:            1.17.2-h7f98852_0        conda-forge
+    ca-certificates:   2021.5.30-ha878542_0     conda-forge
+    conduit-assembler: 0.1.2-h14cfee4_1         local      
+    htslib:            1.12-h9093b5e_1          bioconda   
+    krb5:              1.19.2-hcc1bbae_0        conda-forge
+    ld_impl_linux-64:  2.36.1-hea4e1c9_2        conda-forge
+    libcurl:           7.78.0-h2574ce0_0        conda-forge
+    libdeflate:        1.7-h7f98852_5           conda-forge
+    libedit:           3.1.20191231-he28a2e2_2  conda-forge
+    libev:             4.33-h516909a_1          conda-forge
+    libffi:            3.3-h58526e2_2           conda-forge
+    libgcc-ng:         11.1.0-hc902ee8_8        conda-forge
+    libgomp:           11.1.0-hc902ee8_8        conda-forge
+    libnghttp2:        1.43.0-h812cca2_0        conda-forge
+    libssh2:           1.10.0-ha56f1ee_0        conda-forge
+    libstdcxx-ng:      11.1.0-h56837e0_8        conda-forge
+    lz4-c:             1.9.3-h9c3ff4c_1         conda-forge
+    ncurses:           6.2-h58526e2_4           conda-forge
+    openssl:           1.1.1l-h7f98852_0        conda-forge
+    perl:              5.32.1-0_h7f98852_perl5  conda-forge
+    pip:               21.2.4-pyhd8ed1ab_0      conda-forge
+    python:            3.9.7-h49503c6_0_cpython conda-forge
+    python_abi:        3.9-2_cp39               conda-forge
+    readline:          8.1-h46c0cb4_0           conda-forge
+    samtools:          1.12-h9aed4be_1          bioconda   
+    setuptools:        58.0.3-py39hf3d152e_0    conda-forge
+    sqlite:            3.36.0-h9cd32fc_0        conda-forge
+    tbb:               2020.2-h4bd325d_4        conda-forge
+    tk:                8.6.11-h27826a3_1        conda-forge
+    tzdata:            2021a-he74cb21_1         conda-forge
+    wheel:             0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                5.2.5-h516909a_1         conda-forge
+    zlib:              1.2.11-h516909a_1010     conda-forge
+    zstd:              1.4.9-ha95c52a_0         conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/conduit-assembler_1631098120128/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/conduit-assembler_1631098120128/test_tmp
+CONDUIT - CONsensus Decomposition Utility In Transcriptome-assembly:
+CONDUIT Version 0.1.2 by Nathan Roach ( nroach2@jhu.edu, https://github.com/NatPRoach/conduit/ )
+Usage:
+  ./conduit <nano | hybrid>
+NOTE: nano mode not yet implemented... coming soon
+      to run the equivalent of nano mode, run hybrid mode with -i:0 and --no-final-polish
+      this will still require 'illumina' files to be passed, but will not check that they actually exist
+      so including -U this_file_does_not_exist.fq should run.
+CONDUIT - CONsensus Decomposition Utility In Transcriptome-assembly:
+CONDUIT Version 0.1.2 by Nathan Roach ( nroach2@jhu.edu, https://github.com/NatPRoach/conduit/ )
+Usage:
+  ./conduit hybrid [options] <clustersDirectory> {-1 <m1> -2 <m2> | -U <r> | --interleaved <i> | -b <bam>}
+  <clustersDirectory>   Directory containing the .fasta/.fa or .fastq/.fq files of reads separated by gene cluster
+                         NOTE: .gz support coming for nanopore scaffold data, but is not an option at this time
+
+  Illumina data is aligned with Bowtie2, therefore Illumina data is provided in the same format as Bowtie2, namely:
+
+    <m1>                   Files with #1 mates, paired with files in <m2>
+                           Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).
+    <m2>                   Files with #2 mates, paired with files in <m1>
+                           Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).
+    <r>                    Files with unpaired reads
+                           Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).
+    <i>                    File with interleaved paired-end FASTQ/FASTA reads
+                           Could be gzip'ed (extension: .gz) or bzip2'ed (extension: .bz2).
+    <bam>                  Files are unaligned BAM sorted by read name.
+
+  <m1>, <m2>, <r> can be comma-separated lists (no whitespace) and can be specified many times.
+  E.g. '-U file1.fq,file2.fq -U file3.fq'.
+
+Options (defaults in parentheses):
+  Scaffold Type:
+    --drna (default)
+        Scaffold reads are stranded forward relative to coding strand, enforces --UtoT
+    --cdna-rev-stranded
+        Scaffold reads are stranded reverse complemented relative to coding strand
+    --cdna
+        Scaffold reads are NOT stranded
+    --sfq (default)
+        Scaffold reads are in FASTQ format, enforces --UtoT
+    --sfa
+        Scaffold reads are in FASTA format
+    --UtoT (default)
+        Scaffold reads contain Us instead of Ts. Converts U nucleotides to Ts in the sequences
+        NOTE: This adds a bit of I/O overhead but doesn't affect things if your sequences are already U free
+    --noUtoT
+        Scaffold reads do not contain Us and do not need to be converted.
+  Illumina Type:
+    -u, --unstranded
+        Illumina reads are unstranded
+    -f, --fwd-stranded
+        Illumina reads are stranded s.t. the first mate originates from the RNA strand
+        Ignored if scaffold reads are not stranded
+    -r, --rev-stranded (default)
+        Illumina reads are stranded s.t. the first mate is the reverse complement of the RNA strand
+        Ignored if scaffold reads are not stranded
+    --ifq (default)
+        Illumina reads are in FASTQ format; Mutually exclusive with --ifa
+    --ifa
+        Illumina reads are in FASTA format; Mutually exclusive with --ifq
+  Consensus Collapsing:
+    -m, --score-matrix <path>
+        Provide an alternative scoring matrix to use in partial order alignment
+        Example formatting for the score matrix can be found at poaV2/myNUC3.4.4.mat
+    -d, --isoform-delta (35)
+        Maximum indel size to be 'corrected', beyond this size a new isoform is declared. Must be between 2 and 255
+    -e, --ends-delta (35)
+        Maximum size at the ends of isoforms to 'correct' before splitting. Must be between 2 and 255
+    -i, --max-iterations (5)
+        Maximum number of iterations to align to and correct scaffolds. Does not include optional final polshing step
+        Note: Providing a value of 0 will not perform any graph based illumina correction
+    -w, --illumina-weight (10)
+        Weight of illumina reads relative to nanopore reads when generating consensus
+    --final-polish (default)
+        Include a final correction of individual isoforms, not in a splice graph
+    --no-final-polish
+        Do not do a final correction of individual isoforms, not in a splice graph
+    --stringent (default)
+        Enforce that every base / edge in each final reported isoform is supported by an Illumina read, excluding --stringent-tolerance bp on each end of each isoform
+    --no-stringent
+        Do not enforce that every base / edge in each final reported isoform is supported by an Illumina read
+    --stringent-tolerance (100)
+        Number of bases at the end of each isoform that do not have to have Illumina reads supporting them when run in --stringent mode; ignored when run with --no-stringents
+  Ouput:
+    -o, --output-dir <path> (conduit/)
+        <path> where corrected clusters will be written
+        NOTE: THIS WILL OVERWRITE EXISTING FILES!
+    -n, --no-intermediates (default)
+        Does not save FASTA file generated for intermediate rounds of polishing
+    -s, --save-intermediates
+        Saves the FASTA file generated for intermediate rounds of polishing
+  Bowtie2:
+    --end-to-end (default)
+        Align Illumina reads to ONT scaffolds in end-to-end alignment mode
+    --local
+        Align Illumina reads to ONT scaffolds in local alignment mode
+    -k,--bowtie2-max-alignments (50)
+        Maximum number of alignments per Illumina read to be used in final polishing step
+  SAMtools:
+    --samtools-thread-memory (768 MiB)
+        Memory amount to use per SAMtools thread
+        Specified either in bytes or with a K, M, or G suffix
+  Miscellaneous:
+    -h, --help
+        Display this help message and exit
+    -v, --version
+        Display the installed version number of CONDUIT and exit
+    --tmp-dir <path> (conduit-tmp/)
+        <path> where temporary files will be created
+    -t, --threads (4)
+        Number of threads to run in parallel (used for both Bowtie2 and Partial Order Graph correction)
+CONDUIT - CONsensus Decomposition Utility In Transcriptome-assembly:
+CONDUIT Utilities Version 0.1.2 by Nathan Roach ( nroach2@jhu.edu, https://github.com/NatPRoach/conduit/ )
+Usage:
+  ./conduitUtils <function>
+Where <function> is one of the following:
+  translate   - Translates FASTA/Q nucleotide sequences into protein based on their longest ORF
+
+  bed2gtf     - Converts BED12 files to well structured GTF file suitable for use in GFFcompare
+
+  parseBLASTP   - Parses BLASTP output and outputs closest match for each query transcript as determined by BLASTP
+
+  compareBLASTP - Compares BLASTP output and reference proteome to determine the # of TP, FP, and FN for a sample
+
+  compareFASTA  - Compares two FASTA files, an input and a reference, to determine the # of TP, FP, and FN for a sample
+
+  splitFASTA    - Splits CONDUIT produced FASTA file based on the number of reads supporting each isoform
+
+  filterFASTA   - Filters CONDUIT produced FASTA file based on number of reads supporting each isoform
+
+  extractIntrons   - Extracts out intronic sequences from BED12 formatted input and outputs as BED6
+
+  callNonCanonical - Reads in a FASTA file and reports the readIDs of sequences that dont begin with GT and end with AG
+
+  callNovelNonCanonical - Compares introns described by reference GTF file to introns described by a list of readIDs in the format produced by `bedtools getfasta -name` function, outputs the novel introns in BED format
+
+  callOverlapping - Compares two files of readIDs specifying introns in the format produced by `bedtools getfasta -name`, and reports the introns that are shared between the two files (not stranded)
+
+
+Resource usage statistics from testing conduit-assembler:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 16B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: conduit-assembler-0.1.2-h14cfee4_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
