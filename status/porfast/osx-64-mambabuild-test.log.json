@@ -1,0 +1,67 @@
+  Package    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + porfast    0.8.0  hbbe82c9_1     /Users/runner/conda/conda-bld/osx-64     116 KB
+  + zlib      1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 2 packages
+
+  Total download: 116 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: porfast-0.8.0-hbbe82c9_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/porfast_1631082191111/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    porfast: 0.8.0-hbbe82c9_1     local      
+    zlib:    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/porfast_1631082191111/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/porfast_1631082191111/test_tmp
+porfast
+
+Extract ORFs from Paired-End reads.
+
+Usage:
+  porfast [options] 
+
+Options:
+  -1, --R1=R1                FASTQ file, first pair
+  -2, --R2=R2                FASTQ file, second pair
+  -m, --min-size=MIN_SIZE    Minimum ORF size (aa) (default: 26)
+  -p, --prefix=PREFIX        Rename reads using this prefix
+  --pool-size=POOL_SIZE      Size of the batch of reads to process per thread (default: 250)
+  -v, --verbose              Print verbose info
+  -j, --join                 Try joining paired ends
+  --min-overlap=MIN_OVERLAP  Minimum PE overlap (default: 12)
+  --max-overlap=MAX_OVERLAP  Maximum PE overlap (default: 200)
+  --min-identity=MIN_IDENTITY
+                             Minimum sequence identity in overlap (default: 0.85)
+  -h, --help                 Show this help
+
+Resource usage statistics from testing porfast:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 9.4M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.2
+
+
+TEST END: porfast-0.8.0-hbbe82c9_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
