@@ -1,0 +1,290 @@
+  Package               Version  Build                Channel                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex           0.1  conda_forge          conda-forge/linux-64                    Cached
+  + _openmp_mutex           4.5  1_gnu                conda-forge/linux-64                    Cached
+  + biopython              1.79  py39h3811e60_0       conda-forge/linux-64                      3 MB
+  + ca-certificates   2021.5.30  ha878542_0           conda-forge/linux-64                    Cached
+  + krakentools             1.2  pyh5e36f6f_0         /home/vsts/conda/conda-bld/linux-64      24 KB
+  + ld_impl_linux-64     2.36.1  hea4e1c9_2           conda-forge/linux-64                    Cached
+  + libblas               3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libcblas              3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libffi                  3.3  h58526e2_2           conda-forge/linux-64                    Cached
+  + libgcc-ng            11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + libgfortran-ng       11.1.0  h69a702a_8           conda-forge/linux-64                    Cached
+  + libgfortran5         11.1.0  h6c583b3_8           conda-forge/linux-64                    Cached
+  + libgomp              11.1.0  hc902ee8_8           conda-forge/linux-64                    Cached
+  + liblapack             3.9.0  11_linux64_openblas  conda-forge/linux-64                    Cached
+  + libopenblas          0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64                    Cached
+  + libstdcxx-ng         11.1.0  h56837e0_8           conda-forge/linux-64                    Cached
+  + ncurses                 6.2  h58526e2_4           conda-forge/linux-64                    Cached
+  + numpy                1.21.2  py39hdbf815f_0       conda-forge/linux-64                      6 MB
+  + openssl              1.1.1l  h7f98852_0           conda-forge/linux-64                    Cached
+  + pip                  21.2.4  pyhd8ed1ab_0         conda-forge/noarch                      Cached
+  + python                3.9.7  h49503c6_0_cpython   conda-forge/linux-64                    Cached
+  + python_abi              3.9  2_cp39               conda-forge/linux-64                    Cached
+  + readline                8.1  h46c0cb4_0           conda-forge/linux-64                    Cached
+  + setuptools           58.0.2  py39hf3d152e_0       conda-forge/linux-64                    Cached
+  + sqlite               3.36.0  h9cd32fc_0           conda-forge/linux-64                    Cached
+  + tk                   8.6.11  h27826a3_1           conda-forge/linux-64                    Cached
+  + tzdata                2021a  he74cb21_1           conda-forge/noarch                      Cached
+  + wheel                0.37.0  pyhd8ed1ab_1         conda-forge/noarch                      Cached
+  + xz                    5.2.5  h516909a_1           conda-forge/linux-64                    Cached
+  + zlib                 1.2.11  h516909a_1010        conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 30 packages
+
+  Total download: 9 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: krakentools-1.2-pyh5e36f6f_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/krakentools_1631085429584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:    0.1-conda_forge            conda-forge
+    _openmp_mutex:    4.5-1_gnu                  conda-forge
+    biopython:        1.79-py39h3811e60_0        conda-forge
+    ca-certificates:  2021.5.30-ha878542_0       conda-forge
+    krakentools:      1.2-pyh5e36f6f_0           local      
+    ld_impl_linux-64: 2.36.1-hea4e1c9_2          conda-forge
+    libblas:          3.9.0-11_linux64_openblas  conda-forge
+    libcblas:         3.9.0-11_linux64_openblas  conda-forge
+    libffi:           3.3-h58526e2_2             conda-forge
+    libgcc-ng:        11.1.0-hc902ee8_8          conda-forge
+    libgfortran-ng:   11.1.0-h69a702a_8          conda-forge
+    libgfortran5:     11.1.0-h6c583b3_8          conda-forge
+    libgomp:          11.1.0-hc902ee8_8          conda-forge
+    liblapack:        3.9.0-11_linux64_openblas  conda-forge
+    libopenblas:      0.3.17-pthreads_h8fe5266_1 conda-forge
+    libstdcxx-ng:     11.1.0-h56837e0_8          conda-forge
+    ncurses:          6.2-h58526e2_4             conda-forge
+    numpy:            1.21.2-py39hdbf815f_0      conda-forge
+    openssl:          1.1.1l-h7f98852_0          conda-forge
+    pip:              21.2.4-pyhd8ed1ab_0        conda-forge
+    python:           3.9.7-h49503c6_0_cpython   conda-forge
+    python_abi:       3.9-2_cp39                 conda-forge
+    readline:         8.1-h46c0cb4_0             conda-forge
+    setuptools:       58.0.2-py39hf3d152e_0      conda-forge
+    sqlite:           3.36.0-h9cd32fc_0          conda-forge
+    tk:               8.6.11-h27826a3_1          conda-forge
+    tzdata:           2021a-he74cb21_1           conda-forge
+    wheel:            0.37.0-pyhd8ed1ab_1        conda-forge
+    xz:               5.2.5-h516909a_1           conda-forge
+    zlib:             1.2.11-h516909a_1010       conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/krakentools_1631085429584/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/home/vsts/conda/conda-bld/krakentools_1631085429584/test_tmp
+usage: combine_kreports.py [-h] -r R_FILES [R_FILES ...] -o OUTPUT
+                           [--display-headers] [--no-headers]
+                           [--sample-names S_NAMES [S_NAMES ...]]
+                           [--only-combined]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r R_FILES [R_FILES ...], --report-file R_FILES [R_FILES ...], --report-files R_FILES [R_FILES ...], --report R_FILES [R_FILES ...], --reports R_FILES [R_FILES ...]
+                        Input kraken report files to combine (separate by
+                        spaces)
+  -o OUTPUT, --output OUTPUT
+                        Output kraken report file with combined information
+  --display-headers     Include header lines
+  --no-headers          Do not include header lines
+  --sample-names S_NAMES [S_NAMES ...]
+                        Sample names to use as headers in the new report
+  --only-combined       Include only the total combined reads column, not the
+                        individual sample cols
+usage: extract_kraken_reads.py [-h] -k KRAKEN_FILE -s SEQ_FILE1
+                               [-s2 SEQ_FILE2] -t TAXID [TAXID ...] -o
+                               OUTPUT_FILE [-o2 OUTPUT_FILE2] [--append]
+                               [--noappend] [--max MAX_READS] [-r REPORT_FILE]
+                               [--include-parents] [--include-children]
+                               [--exclude] [--fastq-output]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -k KRAKEN_FILE        Kraken output file to parse
+  -s SEQ_FILE1, -s1 SEQ_FILE1, -1 SEQ_FILE1, -U SEQ_FILE1
+                        FASTA/FASTQ File containing the raw sequence letters.
+  -s2 SEQ_FILE2, -2 SEQ_FILE2
+                        2nd FASTA/FASTQ File containing the raw sequence
+                        letters (paired).
+  -t TAXID [TAXID ...], --taxid TAXID [TAXID ...]
+                        Taxonomy ID[s] of reads to extract (space-delimited)
+  -o OUTPUT_FILE, --output OUTPUT_FILE
+                        Output FASTA/Q file containing the reads and sample
+                        IDs
+  -o2 OUTPUT_FILE2, --output2 OUTPUT_FILE2
+                        Output FASTA/Q file containig the second pair of reads
+                        [required for paired input]
+  --append              Append the sequences to the end of the output FASTA
+                        file specified.
+  --noappend            Create a new FASTA file containing sample sequences
+                        and IDs (rewrite if existing) [default].
+  --max MAX_READS       Maximum number of reads to save [default: 100,000,000]
+  -r REPORT_FILE, --report REPORT_FILE
+                        Kraken report file. [required only if --include-
+                        parents/children is specified]
+  --include-parents     Include reads classified at parent levels of the
+                        specified taxids
+  --include-children    Include reads classified more specifically than the
+                        specified taxids
+  --exclude             Instead of finding reads matching specified taxids,
+                        finds all reads NOT matching specified taxids
+  --fastq-output        Print output FASTQ reads [requires input FASTQ,
+                        default: output is FASTA]
+usage: filter_bracken.out.py [-h] -i IN_FILE -o OUT_FILE
+                             [--include [T_INCLUDE ...]]
+                             [--exclude [T_EXCLUDE ...]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IN_FILE, --input-file IN_FILE
+                        Input bracken OUTPUT file. [NOT the report file]
+  -o OUT_FILE, --output OUT_FILE, --output-file OUT_FILE
+                        Output bracken OUTPUT file.
+  --include [T_INCLUDE ...]
+                        List of taxonomy IDs to include in output [space-
+                        delimited] - default=All
+  --exclude [T_EXCLUDE ...]
+                        List of taxonomy IDs to exclude in output [space-
+                        delimited] - default=None
+usage: fix_unmapped.py [-h] -i IN_FILE --accession2taxid REF_FILES
+                       [REF_FILES ...] -o OUT_FILE [-r REM_FILE]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IN_FILE, --input IN_FILE, --input_file IN_FILE
+                        Input file containing accession IDs to map. Multi-
+                        column files accepted. Only accessions in the first
+                        column will be mapped.
+  --accession2taxid REF_FILES [REF_FILES ...]
+                        Accession2taxid reference mappings to search. NCBI
+                        accession2taxid format required: 4 columns with
+                        accessions in column 1 and taxonomy IDs in column 3.
+  -o OUT_FILE, --output OUT_FILE, --output_file OUT_FILE
+                        Output file with 2 tab-delimited columns for
+                        accessions and taxids
+  -r REM_FILE, --remaining REM_FILE
+                        Name of text file containing non-found accessions from
+                        input file
+usage: kreport2krona.py [-h] -r R_FILE -o O_FILE [--intermediate-ranks]
+                        [--no-intermediate-ranks]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r R_FILE, --report-file R_FILE, --report R_FILE
+                        Input kraken report file for converting
+  -o O_FILE, --output O_FILE
+                        Output krona-report file name
+  --intermediate-ranks  Include non-traditional taxonomic ranks in output
+  --no-intermediate-ranks
+                        Do not include non-traditional taxonomic ranks in
+                        output [default: no intermediate ranks]
+usage: make_kreport.py [-h] -i KRAKEN_FILE -t TAX_FILE -o OUT_FILE
+                       [--use-read-len]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i KRAKEN_FILE, --input KRAKEN_FILE, -k KRAKEN_FILE, --kraken KRAKEN_FILE
+                        Kraken output file (5 tab-delimited columns, taxid in
+                        3rd column)
+  -t TAX_FILE, --taxonomy TAX_FILE
+                        Output taxonomy file from make_ktaxonomy.py
+  -o OUT_FILE, --output OUT_FILE
+                        Output kraken report file
+  --use-read-len        Make report file using sum of read lengths [default:
+                        read counts]
+usage: make_ktaxonomy.py [-h] --nodes NODES_FILE --names NAMES_FILE
+                         --seqid2taxid S2T_FILE -o OUT_FILE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --nodes NODES_FILE    nodes.dmp file from taxonomy
+  --names NAMES_FILE    names.dmp file from taxonomy
+  --seqid2taxid S2T_FILE
+                        seqid2taxid.map file
+  -o OUT_FILE, --output OUT_FILE
+                        output taxonomy file
+usage: kreport2mpa.py [-h] -r R_FILE -o O_FILE [--display-header]
+                      [--read_count] [--percentages] [--intermediate-ranks]
+                      [--no-intermediate-ranks]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -r R_FILE, --report-file R_FILE, --report R_FILE
+                        Input kraken report file for converting
+  -o O_FILE, --output O_FILE
+                        Output mpa-report file name
+  --display-header      Include header [Kraken report filename] in mpa-report
+                        file [default: no header]
+  --read_count          Use read count for output [default]
+  --percentages         Use percentages for output [instead of reads]
+  --intermediate-ranks  Include non-traditional taxonomic ranks in output
+  --no-intermediate-ranks
+                        Do not include non-traditional taxonomic ranks in
+                        output [default]
+usage: combine_mpa.py [-h] -i IN_FILES [IN_FILES ...] -o O_FILE
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IN_FILES [IN_FILES ...], --input IN_FILES [IN_FILES ...]
+                        Input files for this program (files generated by
+                        kreport2mpa.py)
+  -o O_FILE, --output O_FILE
+                        Single mpa-report file name
+usage: alpha_diversity.py [-h] [-f FILENAME] [-a VALUE]
+
+Pick an alpha diversity.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FILENAME, --filename FILENAME
+                        bracken file with species abundance estimates
+  -a VALUE, --alpha VALUE
+                        type of alpha diversity to calculate Sh, BP, Si, ISi,
+                        F, default = Sh
+usage: beta_diversity.py [-h] -i IN_FILES [IN_FILES ...]
+                         [--type {single,simple,bracken,kreport,kreport2,krona}]
+                         [--cols COLS] [--level {all,S,G,F,O}]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -i IN_FILES [IN_FILES ...], --input IN_FILES [IN_FILES ...], --input-files IN_FILES [IN_FILES ...], --inputs IN_FILES [IN_FILES ...]
+                        Input files (one per community) for which to compare
+                        for bray-curtis dissimiliarity metrics
+  --type {single,simple,bracken,kreport,kreport2,krona}
+                        Type of input file[s]: single, simple [tab-delimited,
+                        specify --cols], bracken, kreport, kreport2, krona.
+                        See docs for details
+  --cols COLS, --columns COLS
+                        Specify category/counts separated by single comma:
+                        cat,counts (1 = first col)
+  --level {all,S,G,F,O}, -l {all,S,G,F,O}
+                        For Kraken or Krona files, taxonomy level for which to
+                        compare samples. Default: all
+
+Resource usage statistics from testing krakentools:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 20B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: krakentools-1.2-pyh5e36f6f_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
