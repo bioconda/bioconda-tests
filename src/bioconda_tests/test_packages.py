@@ -104,7 +104,7 @@ def solve(
     output_root: Path, package: str, timeout: int, conda_impl: str
 ) -> Tuple[str, Dict[str, Any]]:
     _log.info("Solve using %s for package %s", conda_impl, package)
-    fetch_info: Optional[Dict[str, Any]] = None
+    package_fetch_info: Optional[Dict[str, Any]] = None
     env = os.environ.copy()
     env["CONDA_QUIET"] = "1"
     env["CONDA_RC"] = str(Path.home() / "solve_only_condarc")
