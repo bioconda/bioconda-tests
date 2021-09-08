@@ -1,0 +1,123 @@
+  Package                     Version  Build               Channel                                   Size
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                 0.1  conda_forge         conda-forge/linux-64                    Cached
+  + _openmp_mutex                 4.5  1_gnu               conda-forge/linux-64                    Cached
+  + biowdl-input-converter      0.3.0  pyhdfd78af_0        /home/vsts/conda/conda-bld/linux-64      15 KB
+  + ca-certificates         2021.5.30  ha878542_0          conda-forge/linux-64                    Cached
+  + ld_impl_linux-64           2.36.1  hea4e1c9_2          conda-forge/linux-64                    Cached
+  + libffi                        3.3  h58526e2_2          conda-forge/linux-64                    Cached
+  + libgcc-ng                  11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libgomp                    11.1.0  hc902ee8_8          conda-forge/linux-64                    Cached
+  + libstdcxx-ng               11.1.0  h56837e0_8          conda-forge/linux-64                    Cached
+  + ncurses                       6.2  h58526e2_4          conda-forge/linux-64                    Cached
+  + openssl                    1.1.1l  h7f98852_0          conda-forge/linux-64                    Cached
+  + pip                        21.2.4  pyhd8ed1ab_0        conda-forge/noarch                      Cached
+  + python                      3.9.7  h49503c6_0_cpython  conda-forge/linux-64                    Cached
+  + python_abi                    3.9  2_cp39              conda-forge/linux-64                    Cached
+  + pyyaml                      5.4.1  py39h3811e60_1      conda-forge/linux-64                    Cached
+  + readline                      8.1  h46c0cb4_0          conda-forge/linux-64                    Cached
+  + setuptools                 58.0.3  py39hf3d152e_0      conda-forge/linux-64                    Cached
+  + sqlite                     3.36.0  h9cd32fc_0          conda-forge/linux-64                    Cached
+  + tk                         8.6.11  h27826a3_1          conda-forge/linux-64                    Cached
+  + tzdata                      2021a  he74cb21_1          conda-forge/noarch                      Cached
+  + wheel                      0.37.0  pyhd8ed1ab_1        conda-forge/noarch                      Cached
+  + xz                          5.2.5  h516909a_1          conda-forge/linux-64                    Cached
+  + yaml                        0.2.5  h516909a_0          conda-forge/linux-64                    Cached
+  + zlib                       1.2.11  h516909a_1010       conda-forge/linux-64                    Cached
+
+  Summary:
+
+  Install: 24 packages
+
+  Total download: 15 KB
+
+───────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: biowdl-input-converter-0.3.0-pyhdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/biowdl-input-converter_1631093982728/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge          conda-forge
+    _openmp_mutex:          4.5-1_gnu                conda-forge
+    biowdl-input-converter: 0.3.0-pyhdfd78af_0       local      
+    ca-certificates:        2021.5.30-ha878542_0     conda-forge
+    ld_impl_linux-64:       2.36.1-hea4e1c9_2        conda-forge
+    libffi:                 3.3-h58526e2_2           conda-forge
+    libgcc-ng:              11.1.0-hc902ee8_8        conda-forge
+    libgomp:                11.1.0-hc902ee8_8        conda-forge
+    libstdcxx-ng:           11.1.0-h56837e0_8        conda-forge
+    ncurses:                6.2-h58526e2_4           conda-forge
+    openssl:                1.1.1l-h7f98852_0        conda-forge
+    pip:                    21.2.4-pyhd8ed1ab_0      conda-forge
+    python:                 3.9.7-h49503c6_0_cpython conda-forge
+    python_abi:             3.9-2_cp39               conda-forge
+    pyyaml:                 5.4.1-py39h3811e60_1     conda-forge
+    readline:               8.1-h46c0cb4_0           conda-forge
+    setuptools:             58.0.3-py39hf3d152e_0    conda-forge
+    sqlite:                 3.36.0-h9cd32fc_0        conda-forge
+    tk:                     8.6.11-h27826a3_1        conda-forge
+    tzdata:                 2021a-he74cb21_1         conda-forge
+    wheel:                  0.37.0-pyhd8ed1ab_1      conda-forge
+    xz:                     5.2.5-h516909a_1         conda-forge
+    yaml:                   0.2.5-h516909a_0         conda-forge
+    zlib:                   1.2.11-h516909a_1010     conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/biowdl-input-converter_1631093982728/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/biowdl-input-converter_1631093982728/test_tmp
+import: 'biowdl_input_converter'
+import: 'biowdl_input_converter'
+usage: biowdl-input-converter [-h] [-f FORMAT] [-o OUTPUT] [--validate]
+                              [--old] [--skip-file-check]
+                              [--skip-duplicate-check] [--check-file-md5sums]
+                              samplesheet
+
+Parse samplesheets for BioWDL pipelines.
+
+positional arguments:
+  samplesheet           The input samplesheet. Format will be automatically
+                        detected from file suffix if --format argument not
+                        provided
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f FORMAT, --format FORMAT
+                        The input samplesheet format - tsv, csv, json, or yaml
+  -o OUTPUT, --output OUTPUT
+                        The output file to which the json is written. Default:
+                        stdout
+  --validate            Do not generate output but only validate the
+                        samplesheet.
+  --old                 Output old style JSON as used in BioWDL germline-DNA
+                        and RNA-seq version 1 pipelines
+  --skip-file-check     Skip the checking if files in the samplesheet are
+                        present.
+  --skip-duplicate-check
+                        Skip the checks for duplicate files in the
+                        samplesheet.
+  --check-file-md5sums  Do a md5sum check for reads which have md5sums added
+                        in the samplesheet.
+
+Resource usage statistics from testing biowdl-input-converter:
+   Process count: 1
+   CPU time: Sys=0:00:00.0, User=-
+   Memory: 3.4M
+   Disk usage: 24B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: biowdl-input-converter-0.3.0-pyhdfd78af_0.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
