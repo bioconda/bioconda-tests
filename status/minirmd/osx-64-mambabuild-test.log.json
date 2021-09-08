@@ -1,0 +1,64 @@
+  Package    Version  Build          Channel                                    Size
+──────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx    12.0.1  habf9029_0     conda-forge/osx-64                       Cached
+  + minirmd      1.1  h87af4ef_1     /Users/runner/conda/conda-bld/osx-64      62 KB
+  + zlib      1.2.11  h7795811_1010  conda-forge/osx-64                       Cached
+
+  Summary:
+
+  Install: 3 packages
+
+  Total download: 62 KB
+
+──────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: minirmd-1.1-h87af4ef_1.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/minirmd_1631080176594/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:  12.0.1-habf9029_0    conda-forge
+    minirmd: 1.1-h87af4ef_1       local      
+    zlib:    1.2.11-h7795811_1010 conda-forge
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/minirmd_1631080176594/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/minirmd_1631080176594/test_tmp
+minirmd v1, by Yuansheng Liu, October 2020.
+Usage: minirmd -i <file> -f <file> -o <output> [option parameters]
+	 options:
+		 -i reads file
+		 -f reads file, if paired end
+		 -o the output file
+		 -d number of allowed mismatch
+		 -k the file to store values of k
+		 -r remove duplicates on reverse-complement strand
+		 -t the number of threads
+		 -h print help message
+Example:
+		./minirmd -i test.fastq -o test_rm_1.fastq -d 1
+		./minirmd -i test_1.fastq -f test_2.fastq -o test_rm_2.fastq -d 2
+
+
+Resource usage statistics from testing minirmd:
+   Process count: 2
+   CPU time: Sys=0:00:00.0, User=0:00:00.0
+   Memory: 10.2M
+   Disk usage: 12B
+   Time elapsed: 0:00:02.1
+
+
+TEST END: minirmd-1.1-h87af4ef_1.tar.bz2
+--dirty flag and --keep-old-work not specified. Removing build/test folder after successful build/test.
+
