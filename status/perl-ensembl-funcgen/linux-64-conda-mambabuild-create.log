@@ -1,0 +1,72 @@
+Updating build index: /home/vsts/conda/conda-bld
+
+TEST START: /tmp/tmp4j_z20gn/noarch/perl-ensembl-funcgen-98-0.tar.bz2
+Adding in variants from internal_defaults
+Adding in variants from /tmp/tmp7mt4hlf6/info/recipe/conda_build_config.yaml
+  Package                    Version  Build          Channel                       Size
+─────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+─────────────────────────────────────────────────────────────────────────────────────────
+
+  + _libgcc_mutex                0.1  conda_forge    conda-forge/linux-64        Cached
+  + _openmp_mutex                4.5  1_gnu          conda-forge/linux-64        Cached
+  + libgcc-ng                 11.1.0  hc902ee8_8     conda-forge/linux-64        Cached
+  + libgomp                   11.1.0  hc902ee8_8     conda-forge/linux-64        Cached
+  + perl                      5.26.2  h36c2ea0_1008  conda-forge/linux-64         15 MB
+  + perl-ensembl-core             98  hdfd78af_1     bioconda/noarch             592 KB
+  + perl-ensembl-funcgen          98  0              /tmp/tmp4j_z20gn/noarch     284 KB
+  + perl-exporter               5.72  pl526_1        bioconda/linux-64            13 KB
+  + perl-exporter-tiny      1.002001  pl526_0        bioconda/linux-64            23 KB
+  + perl-list-moreutils        0.428  pl526_1        bioconda/linux-64            28 KB
+  + perl-list-moreutils-xs     0.428  pl526_0        bioconda/linux-64            43 KB
+  + perl-role-tiny          2.000008  pl526_0        bioconda/noarch              15 KB
+  + perl-xsloader               0.24  pl526_0        bioconda/linux-64             8 KB
+
+  Summary:
+
+  Install: 13 packages
+
+  Total download: 16 MB
+
+─────────────────────────────────────────────────────────────────────────────────────────
+
+
+## Package Plan ##
+
+  environment location: /home/vsts/conda/conda-bld/perl-ensembl-funcgen_1631212187294/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+
+
+The following NEW packages will be INSTALLED:
+
+    _libgcc_mutex:          0.1-conda_forge      conda-forge            
+    _openmp_mutex:          4.5-1_gnu            conda-forge            
+    libgcc-ng:              11.1.0-hc902ee8_8    conda-forge            
+    libgomp:                11.1.0-hc902ee8_8    conda-forge            
+    perl:                   5.26.2-h36c2ea0_1008 conda-forge            
+    perl-ensembl-core:      98-hdfd78af_1        bioconda               
+    perl-ensembl-funcgen:   98-0                 file:///tmp/tmp4j_z20gn
+    perl-exporter:          5.72-pl526_1         bioconda               
+    perl-exporter-tiny:     1.002001-pl526_0     bioconda               
+    perl-list-moreutils:    0.428-pl526_1        bioconda               
+    perl-list-moreutils-xs: 0.428-pl526_0        bioconda               
+    perl-role-tiny:         2.000008-pl526_0     bioconda               
+    perl-xsloader:          0.24-pl526_0         bioconda               
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/home/vsts/conda/conda-bld/perl-ensembl-funcgen_1631212187294/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-ensembl-funcgen_1631212187294/test_tmp
+
+Leaving build/test directories:
+  Work:
+ /home/vsts/conda/conda-bld/work 
+  Test:
+ /home/vsts/conda/conda-bld/test_tmp 
+Leaving build/test environments:
+  Test:
+source activate  /home/vsts/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh 
+  Build:
+source activate  /home/vsts/conda/conda-bld/_build_env 
+
+
