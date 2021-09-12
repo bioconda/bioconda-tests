@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-09-12T16:16:35+00:00"}
+{
+ "started_at": "2021-09-12T16:16:35+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-mgug4122a.db",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-mgug4122a.db",
+      "subdir": "linux-64",
+      "version": "3.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
