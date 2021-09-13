@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-09-13T10:31:37+00:00"}
+{
+ "started_at": "2021-09-13T10:31:37+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-runibic",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h832b226_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-runibic",
+      "subdir": "osx-64",
+      "version": "1.14.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
