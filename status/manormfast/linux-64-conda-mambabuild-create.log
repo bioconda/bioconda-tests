@@ -1,6 +1,23 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: bioconductor-prot2d-1.20.0-r351_0.tar.bz2
+TEST START: /tmp/tmp9o21_k44/linux-64/manormfast-0.1.2-py36_1.tar.bz2
+Adding in variants from internal_defaults
+Mamba failed to solve:
+ - manormfast 0.1.2 py39_1
+ - python
+ - numpy
+ - scipy
+ - statsmodels
+ - matplotlib
+ - python
+
+with channels:
+ - file:///tmp/tmp9o21_k44
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested manormfast 0.1.2 py39_1
+   
 
 Leaving build/test directories:
   Work:
