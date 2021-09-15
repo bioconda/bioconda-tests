@@ -1,0 +1,54 @@
+  Package     Version  Build          Channel                                                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  Install:
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  + libcxx     12.0.1  habf9029_0     conda-forge/osx-64                                                      Cached
+  + malt         0.53  hdfd78af_0     /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpnkeykfpu/noarch     134 MB
+  + openjdk  11.0.9.1  hcf210ce_1     conda-forge/osx-64                                                      Cached
+  + zlib       1.2.11  h7795811_1010  conda-forge/osx-64                                                      Cached
+
+  Summary:
+
+  Install: 4 packages
+
+  Total download: 134 MB
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+Updating build index: /Users/runner/conda/conda-bld
+
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpnkeykfpu/noarch/malt-0.53-hdfd78af_0.tar.bz2
+
+## Package Plan ##
+
+  environment location: /Users/runner/conda/conda-bld/malt_1631677172205/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+
+
+The following NEW packages will be INSTALLED:
+
+    libcxx:  12.0.1-habf9029_0    conda-forge                                                        
+    malt:    0.53-hdfd78af_0      file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpnkeykfpu
+    openjdk: 11.0.9.1-hcf210ce_1  conda-forge                                                        
+    zlib:    1.2.11-h7795811_1010 conda-forge                                                        
+
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+export PREFIX=/Users/runner/conda/conda-bld/malt_1631677172205/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/malt_1631677172205/test_tmp
+Error occurred during initialization of boot layer
+java.lang.module.FindException: Module javafx.swing not found, required by megan
+
+Leaving build/test directories:
+  Work:
+ /Users/runner/conda/conda-bld/work 
+  Test:
+ /Users/runner/conda/conda-bld/test_tmp 
+Leaving build/test environments:
+  Test:
+source activate  /Users/runner/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla 
+  Build:
+source activate  /Users/runner/conda/conda-bld/_build_env 
+
+
