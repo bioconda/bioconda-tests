@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-09-16T04:16:28+00:00"}
+{
+ "started_at": "2021-09-16T04:16:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "sonicparanoid",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py37h76c42b7_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "sonicparanoid",
+      "subdir": "osx-64",
+      "version": "1.0.14"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
