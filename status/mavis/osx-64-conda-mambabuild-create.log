@@ -1,8 +1,8 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyovgyrm8/noarch/mavis-2.2.6-py_0.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpjdcf727u/noarch/mavis-2.2.6-py_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0waxmhq1/info/recipe/conda_build_config.yaml
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp9lgtp5la/info/recipe/conda_build_config.yaml
   Package                    Version  Build                 Channel                                                                   Size
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
   Install:
@@ -17,9 +17,9 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
   + ca-certificates        2021.5.30  h033912b_0            conda-forge/osx-64                                                      Cached
   + colour                     0.1.5  py_0                  conda-forge/noarch                                                       17 KB
   + coverage                     5.5  py37h271585c_0        conda-forge/osx-64                                                      255 KB
-  + decorator                  5.0.9  pyhd8ed1ab_0          conda-forge/noarch                                                       11 KB
+  + decorator                  5.1.0  pyhd8ed1ab_0          conda-forge/noarch                                                       11 KB
   + distance                   0.1.3  py_0                  conda-forge/noarch                                                       19 KB
-  + distlib                    0.3.2  pyhd8ed1ab_0          conda-forge/noarch                                                      248 KB
+  + distlib                    0.3.3  pyhd8ed1ab_0          conda-forge/noarch                                                      368 KB
   + filelock                  3.0.12  pyh9f0ad1d_0          conda-forge/noarch                                                      Cached
   + geos                       3.9.1  he49afe7_2            conda-forge/osx-64                                                      909 KB
   + importlib-metadata         1.7.0  py37hc8dfbb8_0        conda-forge/osx-64                                                       44 KB
@@ -28,12 +28,12 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
   + krb5                      1.19.2  hcfbf3a7_0            conda-forge/osx-64                                                      Cached
   + libblas                    3.9.0  11_osx64_openblas     conda-forge/osx-64                                                      Cached
   + libcblas                   3.9.0  11_osx64_openblas     conda-forge/osx-64                                                      Cached
-  + libcurl                   7.78.0  hf45b732_0            conda-forge/osx-64                                                      Cached
+  + libcurl                   7.79.1  hf45b732_0            conda-forge/osx-64                                                      Cached
   + libcxx                    12.0.1  habf9029_0            conda-forge/osx-64                                                      Cached
   + libdeflate                   1.7  h35c211d_5            conda-forge/osx-64                                                      Cached
   + libedit             3.1.20191231  h0678c8f_2            conda-forge/osx-64                                                      Cached
   + libev                       4.33  haf1e3a3_1            conda-forge/osx-64                                                      Cached
-  + libffi                       3.3  h046ec9c_2            conda-forge/osx-64                                                      Cached
+  + libffi                     3.4.2  he49afe7_2            conda-forge/osx-64                                                      Cached
   + libgfortran                5.0.0  9_3_0_h6c81a4c_23     conda-forge/osx-64                                                      Cached
   + libgfortran5               9.3.0  h6c81a4c_23           conda-forge/osx-64                                                      Cached
   + liblapack                  3.9.0  11_osx64_openblas     conda-forge/osx-64                                                      Cached
@@ -43,8 +43,8 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
   + libssh2                   1.10.0  h52ee1ee_0            conda-forge/osx-64                                                      Cached
   + libuuid                   2.32.1  h35c211d_1000         conda-forge/osx-64                                                      Cached
   + llvm-openmp               12.0.1  hda6cdc1_1            conda-forge/osx-64                                                      Cached
-  + mavis                      2.2.6  py_0                  /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyovgyrm8/noarch     157 KB
-  + more-itertools             8.9.0  pyhd8ed1ab_0          conda-forge/noarch                                                       41 KB
+  + mavis                      2.2.6  py_0                  /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpjdcf727u/noarch     157 KB
+  + more-itertools            8.10.0  pyhd8ed1ab_0          conda-forge/noarch                                                       44 KB
   + mysql-connector-c         6.1.11  h0f02589_1007         conda-forge/osx-64                                                      Cached
   + ncurses                      6.2  h2e338ed_4            conda-forge/osx-64                                                      Cached
   + networkx                    1.11  py37_1                pkgs/main/osx-64                                                          1 MB
@@ -59,11 +59,11 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
   + pysam                   0.16.0.1  py37h505b978_3        bioconda/osx-64                                                           2 MB
   + pytest                     6.2.5  py37hf985489_0        conda-forge/osx-64                                                      431 KB
   + pytest-cov                2.12.1  pyhd8ed1ab_0          conda-forge/noarch                                                       21 KB
-  + python                    3.7.10  h7728216_100_cpython  conda-forge/osx-64                                                       24 MB
-  + python_abi                   3.7  2_cp37m               conda-forge/osx-64                                                        4 KB
+  + python                    3.7.10  haf480d7_101_cpython  conda-forge/osx-64                                                      Cached
+  + python_abi                   3.7  2_cp37m               conda-forge/osx-64                                                      Cached
   + pyvcf                      0.6.8  py37hc8dfbb8_1002     conda-forge/osx-64                                                       65 KB
   + readline                     8.1  h05e3726_0            conda-forge/osx-64                                                      Cached
-  + setuptools                58.0.4  py37hf985489_0        conda-forge/osx-64                                                      964 KB
+  + setuptools                58.0.4  py37hf985489_1        conda-forge/osx-64                                                      Cached
   + shapely                    1.7.1  py37hf313787_5        conda-forge/osx-64                                                      407 KB
   + shortuuid                  1.0.1  py37hf985489_4        conda-forge/osx-64                                                       15 KB
   + six                       1.16.0  pyh6c4a22f_0          conda-forge/noarch                                                      Cached
@@ -72,7 +72,7 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
   + timeout-decorator          0.5.0  pyhd8ed1ab_0          conda-forge/noarch                                                        9 KB
   + tk                        8.6.11  h5dbffcc_1            conda-forge/osx-64                                                      Cached
   + toml                      0.10.2  pyhd8ed1ab_0          conda-forge/noarch                                                       18 KB
-  + tox                       3.24.3  py37hf985489_0        conda-forge/osx-64                                                      131 KB
+  + tox                       3.24.4  py37hf985489_0        conda-forge/osx-64                                                      131 KB
   + ucsc-blat                    377  h516baf0_2            bioconda/osx-64                                                         417 KB
   + virtualenv                20.4.7  py37hf985489_0        conda-forge/osx-64                                                        7 MB
   + wheel                     0.37.0  pyhd8ed1ab_1          conda-forge/noarch                                                      Cached
@@ -84,14 +84,14 @@ Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0wax
 
   Install: 71 packages
 
-  Total download: 47 MB
+  Total download: 22 MB
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/mavis_1631235168222/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+  environment location: /Users/runner/conda/conda-bld/mavis_1632341580648/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
 
 
 The following NEW packages will be INSTALLED:
@@ -105,9 +105,9 @@ The following NEW packages will be INSTALLED:
     ca-certificates:    2021.5.30-h033912b_0        conda-forge                                                        
     colour:             0.1.5-py_0                  conda-forge                                                        
     coverage:           5.5-py37h271585c_0          conda-forge                                                        
-    decorator:          5.0.9-pyhd8ed1ab_0          conda-forge                                                        
+    decorator:          5.1.0-pyhd8ed1ab_0          conda-forge                                                        
     distance:           0.1.3-py_0                  conda-forge                                                        
-    distlib:            0.3.2-pyhd8ed1ab_0          conda-forge                                                        
+    distlib:            0.3.3-pyhd8ed1ab_0          conda-forge                                                        
     filelock:           3.0.12-pyh9f0ad1d_0         conda-forge                                                        
     geos:               3.9.1-he49afe7_2            conda-forge                                                        
     importlib-metadata: 1.7.0-py37hc8dfbb8_0        conda-forge                                                        
@@ -116,12 +116,12 @@ The following NEW packages will be INSTALLED:
     krb5:               1.19.2-hcfbf3a7_0           conda-forge                                                        
     libblas:            3.9.0-11_osx64_openblas     conda-forge                                                        
     libcblas:           3.9.0-11_osx64_openblas     conda-forge                                                        
-    libcurl:            7.78.0-hf45b732_0           conda-forge                                                        
+    libcurl:            7.79.1-hf45b732_0           conda-forge                                                        
     libcxx:             12.0.1-habf9029_0           conda-forge                                                        
     libdeflate:         1.7-h35c211d_5              conda-forge                                                        
     libedit:            3.1.20191231-h0678c8f_2     conda-forge                                                        
     libev:              4.33-haf1e3a3_1             conda-forge                                                        
-    libffi:             3.3-h046ec9c_2              conda-forge                                                        
+    libffi:             3.4.2-he49afe7_2            conda-forge                                                        
     libgfortran:        5.0.0-9_3_0_h6c81a4c_23     conda-forge                                                        
     libgfortran5:       9.3.0-h6c81a4c_23           conda-forge                                                        
     liblapack:          3.9.0-11_osx64_openblas     conda-forge                                                        
@@ -131,8 +131,8 @@ The following NEW packages will be INSTALLED:
     libssh2:            1.10.0-h52ee1ee_0           conda-forge                                                        
     libuuid:            2.32.1-h35c211d_1000        conda-forge                                                        
     llvm-openmp:        12.0.1-hda6cdc1_1           conda-forge                                                        
-    mavis:              2.2.6-py_0                  file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyovgyrm8
-    more-itertools:     8.9.0-pyhd8ed1ab_0          conda-forge                                                        
+    mavis:              2.2.6-py_0                  file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpjdcf727u
+    more-itertools:     8.10.0-pyhd8ed1ab_0         conda-forge                                                        
     mysql-connector-c:  6.1.11-h0f02589_1007        conda-forge                                                        
     ncurses:            6.2-h2e338ed_4              conda-forge                                                        
     networkx:           1.11-py37_1                                                                                    
@@ -147,11 +147,11 @@ The following NEW packages will be INSTALLED:
     pysam:              0.16.0.1-py37h505b978_3     bioconda                                                           
     pytest:             6.2.5-py37hf985489_0        conda-forge                                                        
     pytest-cov:         2.12.1-pyhd8ed1ab_0         conda-forge                                                        
-    python:             3.7.10-h7728216_100_cpython conda-forge                                                        
+    python:             3.7.10-haf480d7_101_cpython conda-forge                                                        
     python_abi:         3.7-2_cp37m                 conda-forge                                                        
     pyvcf:              0.6.8-py37hc8dfbb8_1002     conda-forge                                                        
     readline:           8.1-h05e3726_0              conda-forge                                                        
-    setuptools:         58.0.4-py37hf985489_0       conda-forge                                                        
+    setuptools:         58.0.4-py37hf985489_1       conda-forge                                                        
     shapely:            1.7.1-py37hf313787_5        conda-forge                                                        
     shortuuid:          1.0.1-py37hf985489_4        conda-forge                                                        
     six:                1.16.0-pyh6c4a22f_0         conda-forge                                                        
@@ -160,7 +160,7 @@ The following NEW packages will be INSTALLED:
     timeout-decorator:  0.5.0-pyhd8ed1ab_0          conda-forge                                                        
     tk:                 8.6.11-h5dbffcc_1           conda-forge                                                        
     toml:               0.10.2-pyhd8ed1ab_0         conda-forge                                                        
-    tox:                3.24.3-py37hf985489_0       conda-forge                                                        
+    tox:                3.24.4-py37hf985489_0       conda-forge                                                        
     ucsc-blat:          377-h516baf0_2              bioconda                                                           
     virtualenv:         20.4.7-py37hf985489_0       conda-forge                                                        
     wheel:              0.37.0-pyhd8ed1ab_1         conda-forge                                                        
@@ -171,8 +171,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/mavis_1631235168222/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
-export SRC_DIR=/Users/runner/conda/conda-bld/mavis_1631235168222/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/mavis_1632341580648/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/Users/runner/conda/conda-bld/mavis_1632341580648/test_tmp
 import: 'mavis'
 import: 'mavis.annotate'
 import: 'mavis.bam'
