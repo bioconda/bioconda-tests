@@ -5,13 +5,13 @@
 
   + _libgcc_mutex       0.1  conda_forge          conda-forge/linux-64          Cached
   + _openmp_mutex       4.5  1_gnu                conda-forge/linux-64          Cached
-  + gemma            0.98.3  hb4ccc14_0           /tmp/tmp6bmmpuac/linux-64       1 MB
-  + libgcc-ng        11.1.0  hc902ee8_8           conda-forge/linux-64          Cached
-  + libgfortran-ng   11.1.0  h69a702a_8           conda-forge/linux-64          Cached
-  + libgfortran5     11.1.0  h6c583b3_8           conda-forge/linux-64          Cached
-  + libgomp          11.1.0  hc902ee8_8           conda-forge/linux-64          Cached
+  + gemma            0.98.3  hb4ccc14_0           /tmp/tmpvjq7m4x5/linux-64       1 MB
+  + libgcc-ng        11.2.0  h1d223b6_8           conda-forge/linux-64          Cached
+  + libgfortran-ng   11.2.0  h69a702a_8           conda-forge/linux-64          Cached
+  + libgfortran5     11.2.0  h5c6108e_8           conda-forge/linux-64          Cached
+  + libgomp          11.2.0  h1d223b6_8           conda-forge/linux-64          Cached
   + libopenblas      0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64          Cached
-  + libstdcxx-ng     11.1.0  h56837e0_8           conda-forge/linux-64          Cached
+  + libstdcxx-ng     11.2.0  he4da1e4_8           conda-forge/linux-64          Cached
   + openblas         0.3.17  pthreads_h4748800_1  conda-forge/linux-64           10 MB
   + zlib             1.2.11  h516909a_1010        conda-forge/linux-64          Cached
 
@@ -25,32 +25,32 @@
 
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp6bmmpuac/linux-64/gemma-0.98.3-hb4ccc14_0.tar.bz2
+TEST START: /tmp/tmpvjq7m4x5/linux-64/gemma-0.98.3-hb4ccc14_0.tar.bz2
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/gemma_1631653122484/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+  environment location: /home/vsts/conda/conda-bld/gemma_1632756415819/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
 
 
 The following NEW packages will be INSTALLED:
 
     _libgcc_mutex:  0.1-conda_forge            conda-forge            
     _openmp_mutex:  4.5-1_gnu                  conda-forge            
-    gemma:          0.98.3-hb4ccc14_0          file:///tmp/tmp6bmmpuac
-    libgcc-ng:      11.1.0-hc902ee8_8          conda-forge            
-    libgfortran-ng: 11.1.0-h69a702a_8          conda-forge            
-    libgfortran5:   11.1.0-h6c583b3_8          conda-forge            
-    libgomp:        11.1.0-hc902ee8_8          conda-forge            
+    gemma:          0.98.3-hb4ccc14_0          file:///tmp/tmpvjq7m4x5
+    libgcc-ng:      11.2.0-h1d223b6_8          conda-forge            
+    libgfortran-ng: 11.2.0-h69a702a_8          conda-forge            
+    libgfortran5:   11.2.0-h5c6108e_8          conda-forge            
+    libgomp:        11.2.0-h1d223b6_8          conda-forge            
     libopenblas:    0.3.17-pthreads_h8fe5266_1 conda-forge            
-    libstdcxx-ng:   11.1.0-h56837e0_8          conda-forge            
+    libstdcxx-ng:   11.2.0-he4da1e4_8          conda-forge            
     openblas:       0.3.17-pthreads_h4748800_1 conda-forge            
     zlib:           1.2.11-h516909a_1010       conda-forge            
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/gemma_1631653122484/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
-export SRC_DIR=/home/vsts/conda/conda-bld/gemma_1631653122484/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/gemma_1632756415819/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/gemma_1632756415819/test_tmp
 GEMMA 0.98.3 (2020-11-28) by Xiang Zhou and team (C) 2012-2020
 
  type ./gemma -h [num] for detailed help
