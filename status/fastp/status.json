@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-04T00:04:06+00:00"}
+{
+ "started_at": "2021-10-04T00:04:06+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fastp",
+      "subdir": "linux-64",
+      "version": "0.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "fastp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfd59bb5_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "fastp",
+      "subdir": "osx-64",
+      "version": "0.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
