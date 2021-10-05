@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-05T10:46:18+00:00"}
+{
+ "started_at": "2021-10-05T10:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metilene",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "metilene",
+      "subdir": "linux-64",
+      "version": "0.2.8"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
