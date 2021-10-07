@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-07T11:01:16+00:00"}
+{
+ "started_at": "2021-10-07T11:01:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "modeltest-ng",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h19e7193_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "modeltest-ng",
+      "subdir": "linux-64",
+      "version": "0.1.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
