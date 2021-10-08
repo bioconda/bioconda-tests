@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-08T03:01:53+00:00"}
+{
+ "started_at": "2021-10-08T03:01:53+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "augustus",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262h5a9fe7b_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "augustus",
+      "subdir": "linux-64",
+      "version": "3.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "augustus",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262h64cdd90_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "augustus",
+      "subdir": "osx-64",
+      "version": "3.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
