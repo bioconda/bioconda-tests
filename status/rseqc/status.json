@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-08T03:16:16+00:00"}
+{
+ "started_at": "2021-10-08T03:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rseqc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h38f01e4_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rseqc",
+      "subdir": "linux-64",
+      "version": "4.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "rseqc",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39ha492530_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "rseqc",
+      "subdir": "osx-64",
+      "version": "4.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
