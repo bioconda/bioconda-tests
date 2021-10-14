@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-14T18:01:23+00:00"}
+{
+ "started_at": "2021-10-14T18:01:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mztosqlite",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h5e36f6f_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "mztosqlite",
+      "subdir": "noarch",
+      "version": "2.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "mztosqlite",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h5e36f6f_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "mztosqlite",
+      "subdir": "noarch",
+      "version": "2.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
