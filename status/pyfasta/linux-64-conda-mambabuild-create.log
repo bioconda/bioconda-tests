@@ -1,7 +1,22 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpnr18x7v_/linux-64/pyfasta-0.5.2-py36_0.tar.bz2
+TEST START: /tmp/tmpckeuhliq/linux-64/pyfasta-0.5.2-py36_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - pyfasta 0.5.2.* py39_0
+ - python
+ - numpy
+ - nose
+ - python
+
+with channels:
+ - file:///tmp/tmpckeuhliq
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested pyfasta 0.5.2.* py39_0
+   
 
 Leaving build/test directories:
   Work:
