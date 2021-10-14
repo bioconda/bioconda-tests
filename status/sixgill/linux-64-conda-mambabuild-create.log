@@ -1,7 +1,22 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpee445uf2/linux-64/sixgill-0.2.4-py36_1.tar.bz2
+TEST START: /tmp/tmpta5uybct/linux-64/sixgill-0.2.4-py36_1.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - sixgill 0.2.4.* py39_1
+ - python
+ - biopython
+ - pysam >=0.9.0
+ - python
+
+with channels:
+ - file:///tmp/tmpta5uybct
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested sixgill 0.2.4.* py39_1
+   
 
 Leaving build/test directories:
   Work:
