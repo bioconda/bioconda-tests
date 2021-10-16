@@ -1,7 +1,22 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpjhht_fih/linux-64/genomicassertions-0.2.5-py36_0.tar.bz2
+TEST START: /tmp/tmpl0pam511/linux-64/genomicassertions-0.2.5-py36_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - genomicassertions 0.2.5.* py39_0
+ - python
+ - pyvcf
+ - pysam
+ - python
+
+with channels:
+ - file:///tmp/tmpl0pam511
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested genomicassertions 0.2.5.* py39_0
+   
 
 Leaving build/test directories:
   Work:
