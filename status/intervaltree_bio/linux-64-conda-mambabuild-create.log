@@ -1,7 +1,22 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpvm1vvz44/linux-64/intervaltree_bio-1.0.1-py36_0.tar.bz2
+TEST START: /tmp/tmpz5lj2tp5/linux-64/intervaltree_bio-1.0.1-py36_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - intervaltree_bio 1.0.1.* py39_0
+ - python
+ - intervaltree
+ - pytest
+ - python
+
+with channels:
+ - file:///tmp/tmpz5lj2tp5
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested intervaltree_bio 1.0.1.* py39_0
+   
 
 Leaving build/test directories:
   Work:
