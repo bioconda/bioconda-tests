@@ -1,7 +1,23 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmppd0tezg2/linux-64/samsifter-1.0.0-py35_0.tar.bz2
+TEST START: /tmp/tmp06vj3kd6/linux-64/samsifter-1.0.0-py35_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - samsifter 1.0.0.* py39_0
+ - python
+ - matplotlib >=1.3.1
+ - pandas >=0.14.1
+ - numpy >=1.6.1
+ - python
+
+with channels:
+ - file:///tmp/tmp06vj3kd6
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested samsifter 1.0.0.* py39_0
+   
 
 Leaving build/test directories:
   Work:
