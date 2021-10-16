@@ -1,7 +1,31 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpd7h04llh/osx-64/phylotoast-1.4.0rc2-py27_0.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp38jksuod/osx-64/phylotoast-1.4.0rc2-py27_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /Users/runner/conda/conda-bld
+Mamba failed to solve:
+ - phylotoast 1.4.0rc2 py39_0
+ - python
+ - numpy
+ - scipy
+ - matplotlib <=1.5.3
+ - biopython >=1.60
+ - scikit-bio <=0.4.2
+ - scikit-learn
+ - pandas
+ - statsmodels
+ - palettable
+ - biom-format >=2.1.5
+ - h5py
+ - python
+
+with channels:
+ - file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp38jksuod
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested phylotoast 1.4.0rc2 py39_0
+   
 
 Leaving build/test directories:
   Work:
