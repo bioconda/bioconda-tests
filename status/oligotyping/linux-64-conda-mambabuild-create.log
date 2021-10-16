@@ -1,7 +1,34 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpm823ak95/linux-64/oligotyping-2.1-py27_0.tar.bz2
+TEST START: /tmp/tmp3sefs1ri/linux-64/oligotyping-2.1-py27_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - oligotyping 2.1.* py39_0
+ - python
+ - matplotlib
+ - biopython
+ - scipy
+ - django
+ - blast
+ - r-vegan
+ - r-ggplot2
+ - r-gplots
+ - r-gtools
+ - r-reshape
+ - r-optparse
+ - r-pheatmap
+ - r-rcolorbrewer
+ - r-compute.es
+ - python
+
+with channels:
+ - file:///tmp/tmp3sefs1ri
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested oligotyping 2.1.* py39_0
+   
 
 Leaving build/test directories:
   Work:
