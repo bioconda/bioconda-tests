@@ -1,7 +1,20 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp6200q1_u/linux-64/zifa-0.1.0-py36_0.tar.bz2
+TEST START: /tmp/tmpvmcrgpnq/linux-64/zifa-0.1.0-py36_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - zifa 0.1.0.* py39_0
+ - python
+ - python
+
+with channels:
+ - file:///tmp/tmpvmcrgpnq
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested zifa 0.1.0.* py39_0
+   
 
 Leaving build/test directories:
   Work:
