@@ -1,7 +1,23 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpp5doyiyp/linux-64/smashbenchmarking-1.0.1-py27_0.tar.bz2
+TEST START: /tmp/tmp5audmcbv/linux-64/smashbenchmarking-1.0.1-py27_0.tar.bz2
 Adding in variants from internal_defaults
+Reloading output folder: /home/vsts/conda/conda-bld
+Mamba failed to solve:
+ - smashbenchmarking 1.0.1.* py39_0
+ - python
+ - pyvcf
+ - pyfasta
+ - numpy
+ - python
+
+with channels:
+ - file:///tmp/tmp5audmcbv
+
+The reported errors are:
+   Encountered problems while solving:
+     - nothing provides requested smashbenchmarking 1.0.1.* py39_0
+   
 
 Leaving build/test directories:
   Work:
