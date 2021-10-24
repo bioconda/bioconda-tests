@@ -1,231 +1,225 @@
-Updating build index: /home/vsts/conda/conda-bld
+Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /tmp/tmpd016bmab/linux-64/scikit-bio-0.5.6-py39h16ac069_4.tar.bz2
-Reloading output folder: /home/vsts/conda/conda-bld
-  Package                            Version  Build                Channel                         Size
-─────────────────────────────────────────────────────────────────────────────────────────────────────────
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyn93uqwt/osx-64/scikit-bio-0.5.6-py39hbaf7cf3_4.tar.bz2
+Reloading output folder: /Users/runner/conda/conda-bld
+  Package                            Version  Build               Channel                                                                   Size
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
   Install:
-─────────────────────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-  + _libgcc_mutex                        0.1  conda_forge          conda-forge/linux-64          Cached
-  + _openmp_mutex                        4.5  1_gnu                conda-forge/linux-64          Cached
-  + attrs                             21.2.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + backcall                           0.2.0  pyh9f0ad1d_0         conda-forge/noarch             13 KB
-  + backports                            1.0  py_2                 conda-forge/noarch            Cached
-  + backports.functools_lru_cache      1.6.4  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + brotlipy                           0.7.0  py39h3811e60_1001    conda-forge/linux-64          Cached
-  + ca-certificates                2021.10.8  ha878542_0           conda-forge/linux-64          Cached
-  + cachecontrol                      0.12.6  py_0                 conda-forge/noarch             18 KB
-  + certifi                        2021.10.8  py39hf3d152e_0       conda-forge/linux-64          Cached
-  + cffi                              1.14.6  py39h4bc2ebd_1       conda-forge/linux-64          Cached
-  + chardet                            4.0.0  py39hf3d152e_1       conda-forge/linux-64          Cached
-  + charset-normalizer                 2.0.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + cryptography                      35.0.0  py39hbca0aa6_0       conda-forge/linux-64          Cached
-  + cycler                            0.10.0  py_2                 conda-forge/noarch            Cached
-  + cython                           0.29.24  py39he80948d_0       conda-forge/linux-64            2 MB
-  + decorator                          5.1.0  pyhd8ed1ab_0         conda-forge/noarch             11 KB
-  + freetype                          2.10.4  h0708190_1           conda-forge/linux-64          Cached
-  + hdmedians                         0.14.2  py39hce5d2b2_0       conda-forge/linux-64          155 KB
-  + idna                                 3.1  pyhd3deb0d_0         conda-forge/noarch            Cached
-  + iniconfig                          1.1.1  pyh9f0ad1d_0         conda-forge/noarch              8 KB
-  + ipython                           7.28.0  py39hef51801_0       conda-forge/linux-64            1 MB
-  + jbig                                 2.1  h7f98852_2003        conda-forge/linux-64          Cached
-  + jedi                              0.18.0  py39hf3d152e_2       conda-forge/linux-64          922 KB
-  + joblib                             1.1.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + jpeg                                  9d  h36c2ea0_0           conda-forge/linux-64          Cached
-  + kiwisolver                         1.3.2  py39h1a9c180_0       conda-forge/linux-64          Cached
-  + lcms2                               2.12  hddcbb42_0           conda-forge/linux-64          Cached
-  + ld_impl_linux-64                  2.36.1  hea4e1c9_2           conda-forge/linux-64          Cached
-  + lerc                                 3.0  h9c3ff4c_0           conda-forge/linux-64          Cached
-  + libblas                            3.9.0  12_linux64_openblas  conda-forge/linux-64          Cached
-  + libcblas                           3.9.0  12_linux64_openblas  conda-forge/linux-64          Cached
-  + libdeflate                           1.8  h7f98852_0           conda-forge/linux-64          Cached
-  + libffi                             3.4.2  h9c3ff4c_4           conda-forge/linux-64          Cached
-  + libgcc-ng                         11.2.0  h1d223b6_11          conda-forge/linux-64          Cached
-  + libgfortran-ng                    11.2.0  h69a702a_11          conda-forge/linux-64          Cached
-  + libgfortran5                      11.2.0  h5c6108e_11          conda-forge/linux-64          Cached
-  + libgomp                           11.2.0  h1d223b6_11          conda-forge/linux-64          Cached
-  + liblapack                          3.9.0  12_linux64_openblas  conda-forge/linux-64          Cached
-  + libopenblas                       0.3.18  pthreads_h8fe5266_0  conda-forge/linux-64          Cached
-  + libpng                            1.6.37  h21135ba_2           conda-forge/linux-64          Cached
-  + libstdcxx-ng                      11.2.0  he4da1e4_11          conda-forge/linux-64          Cached
-  + libtiff                            4.3.0  h6f004c6_2           conda-forge/linux-64          Cached
-  + libwebp-base                       1.2.1  h7f98852_0           conda-forge/linux-64          Cached
-  + libzlib                           1.2.11  h36c2ea0_1013        conda-forge/linux-64          Cached
-  + lockfile                          0.12.2  py_1                 conda-forge/noarch             11 KB
-  + lz4-c                              1.9.3  h9c3ff4c_1           conda-forge/linux-64          Cached
-  + matplotlib-base                    3.4.3  py39h2fa2bec_1       conda-forge/linux-64          Cached
-  + matplotlib-inline                  0.1.3  pyhd8ed1ab_0         conda-forge/noarch             11 KB
-  + more-itertools                    8.10.0  pyhd8ed1ab_0         conda-forge/noarch             44 KB
-  + msgpack-python                     1.0.2  py39h1a9c180_1       conda-forge/linux-64           92 KB
-  + natsort                            7.1.1  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + ncurses                              6.2  h58526e2_4           conda-forge/linux-64          Cached
-  + numpy                             1.21.3  py39hdbf815f_0       conda-forge/linux-64          Cached
-  + olefile                             0.46  pyh9f0ad1d_1         conda-forge/noarch            Cached
-  + openjpeg                           2.4.0  hb52868f_1           conda-forge/linux-64          Cached
-  + openssl                           1.1.1l  h7f98852_0           conda-forge/linux-64          Cached
-  + packaging                           21.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + pandas                             1.3.4  py39hde0f152_0       conda-forge/linux-64          Cached
-  + parso                              0.8.2  pyhd8ed1ab_0         conda-forge/noarch             68 KB
-  + pexpect                            4.8.0  pyh9f0ad1d_2         conda-forge/noarch             47 KB
-  + pickleshare                        0.7.5  py39hde42818_1002    conda-forge/linux-64           13 KB
-  + pillow                             8.3.2  py39ha612740_0       conda-forge/linux-64          Cached
-  + pip                               21.3.1  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + pluggy                             1.0.0  py39hf3d152e_1       conda-forge/linux-64           25 KB
-  + prompt-toolkit                    3.0.21  pyha770c72_0         conda-forge/noarch            Cached
-  + ptyprocess                         0.7.0  pyhd3deb0d_0         conda-forge/noarch             16 KB
-  + py                                1.10.0  pyhd3deb0d_0         conda-forge/noarch             73 KB
-  + pycparser                           2.20  pyh9f0ad1d_2         conda-forge/noarch            Cached
-  + pygments                          2.10.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + pyopenssl                         21.0.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + pyparsing                          2.4.7  pyh9f0ad1d_0         conda-forge/noarch            Cached
-  + pysocks                            1.7.1  py39hf3d152e_3       conda-forge/linux-64          Cached
-  + pytest                             6.2.5  py39hf3d152e_0       conda-forge/linux-64          433 KB
-  + python                             3.9.7  hb7a2778_3_cpython   conda-forge/linux-64          Cached
-  + python-dateutil                    2.8.2  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + python_abi                           3.9  2_cp39               conda-forge/linux-64          Cached
-  + pytz                              2021.3  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + readline                             8.1  h46c0cb4_0           conda-forge/linux-64          Cached
-  + requests                          2.26.0  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + scikit-bio                         0.5.6  py39h16ac069_4       /tmp/tmpd016bmab/linux-64       1 MB
-  + scikit-learn                         1.0  py39h7c5d8c9_1       conda-forge/linux-64          Cached
-  + scipy                              1.7.1  py39hee8e79c_0       conda-forge/linux-64          Cached
-  + setuptools                        58.2.0  py39hf3d152e_0       conda-forge/linux-64          Cached
-  + six                               1.16.0  pyh6c4a22f_0         conda-forge/noarch            Cached
-  + sqlite                            3.36.0  h9cd32fc_2           conda-forge/linux-64          Cached
-  + threadpoolctl                      3.0.0  pyh8a188c0_0         conda-forge/noarch            Cached
-  + tk                                8.6.11  h27826a3_1           conda-forge/linux-64          Cached
-  + toml                              0.10.2  pyhd8ed1ab_0         conda-forge/noarch             18 KB
-  + tornado                              6.1  py39h3811e60_1       conda-forge/linux-64          Cached
-  + traitlets                          5.1.0  pyhd8ed1ab_0         conda-forge/noarch             82 KB
-  + tzdata                             2021e  he74cb21_0           conda-forge/noarch            Cached
-  + urllib3                           1.26.7  pyhd8ed1ab_0         conda-forge/noarch            Cached
-  + wcwidth                            0.2.5  pyh9f0ad1d_2         conda-forge/noarch            Cached
-  + wheel                             0.37.0  pyhd8ed1ab_1         conda-forge/noarch            Cached
-  + xz                                 5.2.5  h516909a_1           conda-forge/linux-64          Cached
-  + zlib                              1.2.11  h36c2ea0_1013        conda-forge/linux-64          Cached
-  + zstd                               1.5.0  ha95c52a_0           conda-forge/linux-64          Cached
+  + appnope                            0.1.2  py39h6e9494a_1      conda-forge/osx-64                                                       10 KB
+  + attrs                             21.2.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + backcall                           0.2.0  pyh9f0ad1d_0        conda-forge/noarch                                                       13 KB
+  + backports                            1.0  py_2                conda-forge/noarch                                                      Cached
+  + backports.functools_lru_cache      1.6.4  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + brotlipy                           0.7.0  py39h89e85a6_1001   conda-forge/osx-64                                                      Cached
+  + ca-certificates                2021.10.8  h033912b_0          conda-forge/osx-64                                                      Cached
+  + cachecontrol                      0.12.6  py_0                conda-forge/noarch                                                       18 KB
+  + certifi                        2021.10.8  py39h6e9494a_0      conda-forge/osx-64                                                      Cached
+  + cffi                              1.14.6  py39he338e87_1      conda-forge/osx-64                                                      Cached
+  + chardet                            4.0.0  py39h6e9494a_1      conda-forge/osx-64                                                      Cached
+  + charset-normalizer                 2.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + cryptography                      35.0.0  py39heaea23e_0      conda-forge/osx-64                                                      Cached
+  + cycler                            0.10.0  py_2                conda-forge/noarch                                                      Cached
+  + cython                           0.29.24  py39h9fcab8e_0      conda-forge/osx-64                                                        2 MB
+  + decorator                          5.1.0  pyhd8ed1ab_0        conda-forge/noarch                                                       11 KB
+  + freetype                          2.10.4  h4cff582_1          conda-forge/osx-64                                                      Cached
+  + hdmedians                         0.14.2  py39hc89836e_0      conda-forge/osx-64                                                      134 KB
+  + idna                                 3.1  pyhd3deb0d_0        conda-forge/noarch                                                      Cached
+  + iniconfig                          1.1.1  pyh9f0ad1d_0        conda-forge/noarch                                                        8 KB
+  + ipython                           7.28.0  py39h71a6800_0      conda-forge/osx-64                                                        1 MB
+  + jbig                                 2.1  h0d85af4_2003       conda-forge/osx-64                                                      Cached
+  + jedi                              0.18.0  py39h6e9494a_2      conda-forge/osx-64                                                      932 KB
+  + joblib                             1.1.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + jpeg                                  9d  hbcb3906_0          conda-forge/osx-64                                                      Cached
+  + kiwisolver                         1.3.2  py39hf018cea_0      conda-forge/osx-64                                                      Cached
+  + lcms2                               2.12  h577c468_0          conda-forge/osx-64                                                      Cached
+  + lerc                                 3.0  he49afe7_0          conda-forge/osx-64                                                      Cached
+  + libblas                            3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
+  + libcblas                           3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
+  + libcxx                            12.0.1  habf9029_0          conda-forge/osx-64                                                      Cached
+  + libdeflate                           1.8  h0d85af4_0          conda-forge/osx-64                                                      Cached
+  + libffi                             3.4.2  he49afe7_4          conda-forge/osx-64                                                      Cached
+  + libgfortran                        5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                                                      Cached
+  + libgfortran5                       9.3.0  h6c81a4c_23         conda-forge/osx-64                                                      Cached
+  + liblapack                          3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
+  + libopenblas                       0.3.18  openmp_h3351f45_0   conda-forge/osx-64                                                      Cached
+  + libpng                            1.6.37  h7cec526_2          conda-forge/osx-64                                                      Cached
+  + libtiff                            4.3.0  hd146c10_2          conda-forge/osx-64                                                      Cached
+  + libwebp-base                       1.2.1  h0d85af4_0          conda-forge/osx-64                                                      Cached
+  + libzlib                           1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
+  + llvm-openmp                       12.0.1  hda6cdc1_1          conda-forge/osx-64                                                      Cached
+  + lockfile                          0.12.2  py_1                conda-forge/noarch                                                       11 KB
+  + lz4-c                              1.9.3  he49afe7_1          conda-forge/osx-64                                                      Cached
+  + matplotlib-base                    3.4.3  py39hb07454d_1      conda-forge/osx-64                                                      Cached
+  + matplotlib-inline                  0.1.3  pyhd8ed1ab_0        conda-forge/noarch                                                       11 KB
+  + more-itertools                    8.10.0  pyhd8ed1ab_0        conda-forge/noarch                                                       44 KB
+  + msgpack-python                     1.0.2  py39hf018cea_1      conda-forge/osx-64                                                       82 KB
+  + natsort                            7.1.1  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + ncurses                              6.2  h2e338ed_4          conda-forge/osx-64                                                      Cached
+  + numpy                             1.21.3  py39h7eed0ac_0      conda-forge/osx-64                                                      Cached
+  + olefile                             0.46  pyh9f0ad1d_1        conda-forge/noarch                                                      Cached
+  + openjpeg                           2.4.0  h6e7aa92_1          conda-forge/osx-64                                                      Cached
+  + openssl                           1.1.1l  h0d85af4_0          conda-forge/osx-64                                                      Cached
+  + packaging                           21.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + pandas                             1.3.4  py39h4d6be9b_0      conda-forge/osx-64                                                      Cached
+  + parso                              0.8.2  pyhd8ed1ab_0        conda-forge/noarch                                                       68 KB
+  + pexpect                            4.8.0  pyh9f0ad1d_2        conda-forge/noarch                                                       47 KB
+  + pickleshare                        0.7.5  py39hde42818_1002   conda-forge/osx-64                                                       13 KB
+  + pillow                             8.3.2  py39he9bb72f_0      conda-forge/osx-64                                                      Cached
+  + pip                               21.3.1  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + pluggy                             1.0.0  py39h6e9494a_1      conda-forge/osx-64                                                       25 KB
+  + prompt-toolkit                    3.0.21  pyha770c72_0        conda-forge/noarch                                                      Cached
+  + ptyprocess                         0.7.0  pyhd3deb0d_0        conda-forge/noarch                                                       16 KB
+  + py                                1.10.0  pyhd3deb0d_0        conda-forge/noarch                                                       73 KB
+  + pycparser                           2.20  pyh9f0ad1d_2        conda-forge/noarch                                                      Cached
+  + pygments                          2.10.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + pyopenssl                         21.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + pyparsing                          2.4.7  pyh9f0ad1d_0        conda-forge/noarch                                                      Cached
+  + pysocks                            1.7.1  py39h6e9494a_3      conda-forge/osx-64                                                      Cached
+  + pytest                             6.2.5  py39h6e9494a_0      conda-forge/osx-64                                                      432 KB
+  + python                             3.9.7  h1248fe1_3_cpython  conda-forge/osx-64                                                      Cached
+  + python-dateutil                    2.8.2  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + python_abi                           3.9  2_cp39              conda-forge/osx-64                                                      Cached
+  + pytz                              2021.3  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + readline                             8.1  h05e3726_0          conda-forge/osx-64                                                      Cached
+  + requests                          2.26.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + scikit-bio                         0.5.6  py39hbaf7cf3_4      /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyn93uqwt/osx-64       1 MB
+  + scikit-learn                         1.0  py39hd2caeff_1      conda-forge/osx-64                                                      Cached
+  + scipy                              1.7.1  py39h056f1c0_0      conda-forge/osx-64                                                      Cached
+  + setuptools                        58.2.0  py39h6e9494a_0      conda-forge/osx-64                                                      Cached
+  + six                               1.16.0  pyh6c4a22f_0        conda-forge/noarch                                                      Cached
+  + sqlite                            3.36.0  h23a322b_2          conda-forge/osx-64                                                      Cached
+  + threadpoolctl                      3.0.0  pyh8a188c0_0        conda-forge/noarch                                                      Cached
+  + tk                                8.6.11  h5dbffcc_1          conda-forge/osx-64                                                      Cached
+  + toml                              0.10.2  pyhd8ed1ab_0        conda-forge/noarch                                                       18 KB
+  + tornado                              6.1  py39h89e85a6_1      conda-forge/osx-64                                                      Cached
+  + traitlets                          5.1.0  pyhd8ed1ab_0        conda-forge/noarch                                                       82 KB
+  + tzdata                             2021e  he74cb21_0          conda-forge/noarch                                                      Cached
+  + urllib3                           1.26.7  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + wcwidth                            0.2.5  pyh9f0ad1d_2        conda-forge/noarch                                                      Cached
+  + wheel                             0.37.0  pyhd8ed1ab_1        conda-forge/noarch                                                      Cached
+  + xz                                 5.2.5  haf1e3a3_1          conda-forge/osx-64                                                      Cached
+  + zlib                              1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
+  + zstd                               1.5.0  h582d3a0_0          conda-forge/osx-64                                                      Cached
 
   Summary:
 
-  Install: 98 packages
+  Install: 95 packages
 
-  Total download: 7 MB
+  Total download: 6 MB
 
-─────────────────────────────────────────────────────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/scikit-bio_1635042544652/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /Users/runner/conda/conda-bld/scikit-bio_1635042857684/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
 
 
 The following NEW packages will be INSTALLED:
 
-    _libgcc_mutex:                 0.1-conda_forge            conda-forge            
-    _openmp_mutex:                 4.5-1_gnu                  conda-forge            
-    attrs:                         21.2.0-pyhd8ed1ab_0        conda-forge            
-    backcall:                      0.2.0-pyh9f0ad1d_0         conda-forge            
-    backports:                     1.0-py_2                   conda-forge            
-    backports.functools_lru_cache: 1.6.4-pyhd8ed1ab_0         conda-forge            
-    brotlipy:                      0.7.0-py39h3811e60_1001    conda-forge            
-    ca-certificates:               2021.10.8-ha878542_0       conda-forge            
-    cachecontrol:                  0.12.6-py_0                conda-forge            
-    certifi:                       2021.10.8-py39hf3d152e_0   conda-forge            
-    cffi:                          1.14.6-py39h4bc2ebd_1      conda-forge            
-    chardet:                       4.0.0-py39hf3d152e_1       conda-forge            
-    charset-normalizer:            2.0.0-pyhd8ed1ab_0         conda-forge            
-    cryptography:                  35.0.0-py39hbca0aa6_0      conda-forge            
-    cycler:                        0.10.0-py_2                conda-forge            
-    cython:                        0.29.24-py39he80948d_0     conda-forge            
-    decorator:                     5.1.0-pyhd8ed1ab_0         conda-forge            
-    freetype:                      2.10.4-h0708190_1          conda-forge            
-    hdmedians:                     0.14.2-py39hce5d2b2_0      conda-forge            
-    idna:                          3.1-pyhd3deb0d_0           conda-forge            
-    iniconfig:                     1.1.1-pyh9f0ad1d_0         conda-forge            
-    ipython:                       7.28.0-py39hef51801_0      conda-forge            
-    jbig:                          2.1-h7f98852_2003          conda-forge            
-    jedi:                          0.18.0-py39hf3d152e_2      conda-forge            
-    joblib:                        1.1.0-pyhd8ed1ab_0         conda-forge            
-    jpeg:                          9d-h36c2ea0_0              conda-forge            
-    kiwisolver:                    1.3.2-py39h1a9c180_0       conda-forge            
-    lcms2:                         2.12-hddcbb42_0            conda-forge            
-    ld_impl_linux-64:              2.36.1-hea4e1c9_2          conda-forge            
-    lerc:                          3.0-h9c3ff4c_0             conda-forge            
-    libblas:                       3.9.0-12_linux64_openblas  conda-forge            
-    libcblas:                      3.9.0-12_linux64_openblas  conda-forge            
-    libdeflate:                    1.8-h7f98852_0             conda-forge            
-    libffi:                        3.4.2-h9c3ff4c_4           conda-forge            
-    libgcc-ng:                     11.2.0-h1d223b6_11         conda-forge            
-    libgfortran-ng:                11.2.0-h69a702a_11         conda-forge            
-    libgfortran5:                  11.2.0-h5c6108e_11         conda-forge            
-    libgomp:                       11.2.0-h1d223b6_11         conda-forge            
-    liblapack:                     3.9.0-12_linux64_openblas  conda-forge            
-    libopenblas:                   0.3.18-pthreads_h8fe5266_0 conda-forge            
-    libpng:                        1.6.37-h21135ba_2          conda-forge            
-    libstdcxx-ng:                  11.2.0-he4da1e4_11         conda-forge            
-    libtiff:                       4.3.0-h6f004c6_2           conda-forge            
-    libwebp-base:                  1.2.1-h7f98852_0           conda-forge            
-    libzlib:                       1.2.11-h36c2ea0_1013       conda-forge            
-    lockfile:                      0.12.2-py_1                conda-forge            
-    lz4-c:                         1.9.3-h9c3ff4c_1           conda-forge            
-    matplotlib-base:               3.4.3-py39h2fa2bec_1       conda-forge            
-    matplotlib-inline:             0.1.3-pyhd8ed1ab_0         conda-forge            
-    more-itertools:                8.10.0-pyhd8ed1ab_0        conda-forge            
-    msgpack-python:                1.0.2-py39h1a9c180_1       conda-forge            
-    natsort:                       7.1.1-pyhd8ed1ab_0         conda-forge            
-    ncurses:                       6.2-h58526e2_4             conda-forge            
-    numpy:                         1.21.3-py39hdbf815f_0      conda-forge            
-    olefile:                       0.46-pyh9f0ad1d_1          conda-forge            
-    openjpeg:                      2.4.0-hb52868f_1           conda-forge            
-    openssl:                       1.1.1l-h7f98852_0          conda-forge            
-    packaging:                     21.0-pyhd8ed1ab_0          conda-forge            
-    pandas:                        1.3.4-py39hde0f152_0       conda-forge            
-    parso:                         0.8.2-pyhd8ed1ab_0         conda-forge            
-    pexpect:                       4.8.0-pyh9f0ad1d_2         conda-forge            
-    pickleshare:                   0.7.5-py39hde42818_1002    conda-forge            
-    pillow:                        8.3.2-py39ha612740_0       conda-forge            
-    pip:                           21.3.1-pyhd8ed1ab_0        conda-forge            
-    pluggy:                        1.0.0-py39hf3d152e_1       conda-forge            
-    prompt-toolkit:                3.0.21-pyha770c72_0        conda-forge            
-    ptyprocess:                    0.7.0-pyhd3deb0d_0         conda-forge            
-    py:                            1.10.0-pyhd3deb0d_0        conda-forge            
-    pycparser:                     2.20-pyh9f0ad1d_2          conda-forge            
-    pygments:                      2.10.0-pyhd8ed1ab_0        conda-forge            
-    pyopenssl:                     21.0.0-pyhd8ed1ab_0        conda-forge            
-    pyparsing:                     2.4.7-pyh9f0ad1d_0         conda-forge            
-    pysocks:                       1.7.1-py39hf3d152e_3       conda-forge            
-    pytest:                        6.2.5-py39hf3d152e_0       conda-forge            
-    python:                        3.9.7-hb7a2778_3_cpython   conda-forge            
-    python-dateutil:               2.8.2-pyhd8ed1ab_0         conda-forge            
-    python_abi:                    3.9-2_cp39                 conda-forge            
-    pytz:                          2021.3-pyhd8ed1ab_0        conda-forge            
-    readline:                      8.1-h46c0cb4_0             conda-forge            
-    requests:                      2.26.0-pyhd8ed1ab_0        conda-forge            
-    scikit-bio:                    0.5.6-py39h16ac069_4       file:///tmp/tmpd016bmab
-    scikit-learn:                  1.0-py39h7c5d8c9_1         conda-forge            
-    scipy:                         1.7.1-py39hee8e79c_0       conda-forge            
-    setuptools:                    58.2.0-py39hf3d152e_0      conda-forge            
-    six:                           1.16.0-pyh6c4a22f_0        conda-forge            
-    sqlite:                        3.36.0-h9cd32fc_2          conda-forge            
-    threadpoolctl:                 3.0.0-pyh8a188c0_0         conda-forge            
-    tk:                            8.6.11-h27826a3_1          conda-forge            
-    toml:                          0.10.2-pyhd8ed1ab_0        conda-forge            
-    tornado:                       6.1-py39h3811e60_1         conda-forge            
-    traitlets:                     5.1.0-pyhd8ed1ab_0         conda-forge            
-    tzdata:                        2021e-he74cb21_0           conda-forge            
-    urllib3:                       1.26.7-pyhd8ed1ab_0        conda-forge            
-    wcwidth:                       0.2.5-pyh9f0ad1d_2         conda-forge            
-    wheel:                         0.37.0-pyhd8ed1ab_1        conda-forge            
-    xz:                            5.2.5-h516909a_1           conda-forge            
-    zlib:                          1.2.11-h36c2ea0_1013       conda-forge            
-    zstd:                          1.5.0-ha95c52a_0           conda-forge            
+    appnope:                       0.1.2-py39h6e9494a_1     conda-forge                                                        
+    attrs:                         21.2.0-pyhd8ed1ab_0      conda-forge                                                        
+    backcall:                      0.2.0-pyh9f0ad1d_0       conda-forge                                                        
+    backports:                     1.0-py_2                 conda-forge                                                        
+    backports.functools_lru_cache: 1.6.4-pyhd8ed1ab_0       conda-forge                                                        
+    brotlipy:                      0.7.0-py39h89e85a6_1001  conda-forge                                                        
+    ca-certificates:               2021.10.8-h033912b_0     conda-forge                                                        
+    cachecontrol:                  0.12.6-py_0              conda-forge                                                        
+    certifi:                       2021.10.8-py39h6e9494a_0 conda-forge                                                        
+    cffi:                          1.14.6-py39he338e87_1    conda-forge                                                        
+    chardet:                       4.0.0-py39h6e9494a_1     conda-forge                                                        
+    charset-normalizer:            2.0.0-pyhd8ed1ab_0       conda-forge                                                        
+    cryptography:                  35.0.0-py39heaea23e_0    conda-forge                                                        
+    cycler:                        0.10.0-py_2              conda-forge                                                        
+    cython:                        0.29.24-py39h9fcab8e_0   conda-forge                                                        
+    decorator:                     5.1.0-pyhd8ed1ab_0       conda-forge                                                        
+    freetype:                      2.10.4-h4cff582_1        conda-forge                                                        
+    hdmedians:                     0.14.2-py39hc89836e_0    conda-forge                                                        
+    idna:                          3.1-pyhd3deb0d_0         conda-forge                                                        
+    iniconfig:                     1.1.1-pyh9f0ad1d_0       conda-forge                                                        
+    ipython:                       7.28.0-py39h71a6800_0    conda-forge                                                        
+    jbig:                          2.1-h0d85af4_2003        conda-forge                                                        
+    jedi:                          0.18.0-py39h6e9494a_2    conda-forge                                                        
+    joblib:                        1.1.0-pyhd8ed1ab_0       conda-forge                                                        
+    jpeg:                          9d-hbcb3906_0            conda-forge                                                        
+    kiwisolver:                    1.3.2-py39hf018cea_0     conda-forge                                                        
+    lcms2:                         2.12-h577c468_0          conda-forge                                                        
+    lerc:                          3.0-he49afe7_0           conda-forge                                                        
+    libblas:                       3.9.0-12_osx64_openblas  conda-forge                                                        
+    libcblas:                      3.9.0-12_osx64_openblas  conda-forge                                                        
+    libcxx:                        12.0.1-habf9029_0        conda-forge                                                        
+    libdeflate:                    1.8-h0d85af4_0           conda-forge                                                        
+    libffi:                        3.4.2-he49afe7_4         conda-forge                                                        
+    libgfortran:                   5.0.0-9_3_0_h6c81a4c_23  conda-forge                                                        
+    libgfortran5:                  9.3.0-h6c81a4c_23        conda-forge                                                        
+    liblapack:                     3.9.0-12_osx64_openblas  conda-forge                                                        
+    libopenblas:                   0.3.18-openmp_h3351f45_0 conda-forge                                                        
+    libpng:                        1.6.37-h7cec526_2        conda-forge                                                        
+    libtiff:                       4.3.0-hd146c10_2         conda-forge                                                        
+    libwebp-base:                  1.2.1-h0d85af4_0         conda-forge                                                        
+    libzlib:                       1.2.11-h9173be1_1013     conda-forge                                                        
+    llvm-openmp:                   12.0.1-hda6cdc1_1        conda-forge                                                        
+    lockfile:                      0.12.2-py_1              conda-forge                                                        
+    lz4-c:                         1.9.3-he49afe7_1         conda-forge                                                        
+    matplotlib-base:               3.4.3-py39hb07454d_1     conda-forge                                                        
+    matplotlib-inline:             0.1.3-pyhd8ed1ab_0       conda-forge                                                        
+    more-itertools:                8.10.0-pyhd8ed1ab_0      conda-forge                                                        
+    msgpack-python:                1.0.2-py39hf018cea_1     conda-forge                                                        
+    natsort:                       7.1.1-pyhd8ed1ab_0       conda-forge                                                        
+    ncurses:                       6.2-h2e338ed_4           conda-forge                                                        
+    numpy:                         1.21.3-py39h7eed0ac_0    conda-forge                                                        
+    olefile:                       0.46-pyh9f0ad1d_1        conda-forge                                                        
+    openjpeg:                      2.4.0-h6e7aa92_1         conda-forge                                                        
+    openssl:                       1.1.1l-h0d85af4_0        conda-forge                                                        
+    packaging:                     21.0-pyhd8ed1ab_0        conda-forge                                                        
+    pandas:                        1.3.4-py39h4d6be9b_0     conda-forge                                                        
+    parso:                         0.8.2-pyhd8ed1ab_0       conda-forge                                                        
+    pexpect:                       4.8.0-pyh9f0ad1d_2       conda-forge                                                        
+    pickleshare:                   0.7.5-py39hde42818_1002  conda-forge                                                        
+    pillow:                        8.3.2-py39he9bb72f_0     conda-forge                                                        
+    pip:                           21.3.1-pyhd8ed1ab_0      conda-forge                                                        
+    pluggy:                        1.0.0-py39h6e9494a_1     conda-forge                                                        
+    prompt-toolkit:                3.0.21-pyha770c72_0      conda-forge                                                        
+    ptyprocess:                    0.7.0-pyhd3deb0d_0       conda-forge                                                        
+    py:                            1.10.0-pyhd3deb0d_0      conda-forge                                                        
+    pycparser:                     2.20-pyh9f0ad1d_2        conda-forge                                                        
+    pygments:                      2.10.0-pyhd8ed1ab_0      conda-forge                                                        
+    pyopenssl:                     21.0.0-pyhd8ed1ab_0      conda-forge                                                        
+    pyparsing:                     2.4.7-pyh9f0ad1d_0       conda-forge                                                        
+    pysocks:                       1.7.1-py39h6e9494a_3     conda-forge                                                        
+    pytest:                        6.2.5-py39h6e9494a_0     conda-forge                                                        
+    python:                        3.9.7-h1248fe1_3_cpython conda-forge                                                        
+    python-dateutil:               2.8.2-pyhd8ed1ab_0       conda-forge                                                        
+    python_abi:                    3.9-2_cp39               conda-forge                                                        
+    pytz:                          2021.3-pyhd8ed1ab_0      conda-forge                                                        
+    readline:                      8.1-h05e3726_0           conda-forge                                                        
+    requests:                      2.26.0-pyhd8ed1ab_0      conda-forge                                                        
+    scikit-bio:                    0.5.6-py39hbaf7cf3_4     file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyn93uqwt
+    scikit-learn:                  1.0-py39hd2caeff_1       conda-forge                                                        
+    scipy:                         1.7.1-py39h056f1c0_0     conda-forge                                                        
+    setuptools:                    58.2.0-py39h6e9494a_0    conda-forge                                                        
+    six:                           1.16.0-pyh6c4a22f_0      conda-forge                                                        
+    sqlite:                        3.36.0-h23a322b_2        conda-forge                                                        
+    threadpoolctl:                 3.0.0-pyh8a188c0_0       conda-forge                                                        
+    tk:                            8.6.11-h5dbffcc_1        conda-forge                                                        
+    toml:                          0.10.2-pyhd8ed1ab_0      conda-forge                                                        
+    tornado:                       6.1-py39h89e85a6_1       conda-forge                                                        
+    traitlets:                     5.1.0-pyhd8ed1ab_0       conda-forge                                                        
+    tzdata:                        2021e-he74cb21_0         conda-forge                                                        
+    urllib3:                       1.26.7-pyhd8ed1ab_0      conda-forge                                                        
+    wcwidth:                       0.2.5-pyh9f0ad1d_2       conda-forge                                                        
+    wheel:                         0.37.0-pyhd8ed1ab_1      conda-forge                                                        
+    xz:                            5.2.5-haf1e3a3_1         conda-forge                                                        
+    zlib:                          1.2.11-h9173be1_1013     conda-forge                                                        
+    zstd:                          1.5.0-h582d3a0_0         conda-forge                                                        
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/scikit-bio_1635042544652/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/home/vsts/conda/conda-bld/scikit-bio_1635042544652/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/scikit-bio_1635042857684/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/scikit-bio_1635042857684/test_tmp
 import: 'skbio'
 import: 'skbio.alignment'
 import: 'skbio.alignment._lib'
@@ -285,7 +279,7 @@ import: 'skbio.tree.tests'
 import: 'skbio.util'
 import: 'skbio.util.tests'
 ============================= test session starts ==============================
-platform linux -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+platform darwin -- Python 3.9.7, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
 rootdir: $SRC_DIR
 collected 2574 items
 
@@ -458,31 +452,31 @@ self = <skbio.alignment.tests.test_tabular_msa.TestLoc testMethod=test_multiinde
                                     positional_metadata=None,
                                     index=[]))
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/tests/test_tabular_msa.py:1390: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/tests/test_tabular_msa.py:1390: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/tests/test_tabular_msa.py:1271: in get
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/tests/test_tabular_msa.py:1271: in get
     return obj.loc[indexable]
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/_indexing.py:39: in __getitem__
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/_indexing.py:39: in __getitem__
     return self._handle_both_axes(*indexable)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/_indexing.py:53: in _handle_both_axes
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/_indexing.py:53: in _handle_both_axes
     r = self._slice_on_first_axis(self._obj, seq_index)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/_indexing.py:77: in _slice_on_first_axis
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/_indexing.py:77: in _slice_on_first_axis
     return self._slice_sequences(obj, indexable)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/_indexing.py:203: in _slice_sequences
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/_indexing.py:203: in _slice_sequences
     return obj._slice_sequences_loc_(indexable)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/alignment/_tabular_msa.py:1192: in _slice_sequences_loc_
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/alignment/_tabular_msa.py:1192: in _slice_sequences_loc_
     new_seqs = self._seqs.loc[l]
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexing.py:925: in __getitem__
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexing.py:925: in __getitem__
     return self._getitem_tuple(key)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexing.py:1100: in _getitem_tuple
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexing.py:1100: in _getitem_tuple
     return self._getitem_lowerdim(tup)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexing.py:822: in _getitem_lowerdim
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexing.py:822: in _getitem_lowerdim
     return self._getitem_nested_tuple(tup)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexing.py:892: in _getitem_nested_tuple
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexing.py:892: in _getitem_nested_tuple
     return self._getitem_axis(tup, axis=axis)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexing.py:1157: in _getitem_axis
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexing.py:1157: in _getitem_axis
     locs = labels.get_locs(key)
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexes/multi.py:3347: in get_locs
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexes/multi.py:3347: in get_locs
     indexer = _update_indexer(
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -500,7 +494,7 @@ key = ([False, True, False, True], 'x', 2)
 >           raise KeyError(key)
 E           KeyError: ([False, True, False, True], 'x', 2)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/pandas/core/indexes/multi.py:3296: KeyError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/pandas/core/indexes/multi.py:3296: KeyError
 ______________ [doctest] skbio.stats.distance._permdisp.permdisp _______________
 130     ...                       ['s1', 's2', 's3', 's4', 's5', 's6'])
 131     >>> grouping = ['G1', 'G1', 'G1', 'G2', 'G2', 'G2']
@@ -544,9 +538,9 @@ self = <skbio.stats.distance.tests.test_bioenv.BIOENVTests testMethod=test_bioen
         obs = bioenv(self.dm_vegan, self.df_vegan)
 >       assert_data_frame_almost_equal(obs, self.exp_results_vegan)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_bioenv.py:149: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_bioenv.py:149: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/util/_testing.py:285: in assert_data_frame_almost_equal
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/util/_testing.py:285: in assert_data_frame_almost_equal
     pdt.assert_frame_equal(left, right,
 pandas/_libs/testing.pyx:53: in pandas._libs.testing.assert_almost_equal
     ???
@@ -575,16 +569,16 @@ self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_ce
     
 >       obs = _compute_groups(dm, 'centroid', self.grouping_eq)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:121: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:121: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
     groups.append(cdist(df.values[:, :-1], [centroids.loc[label].values],
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 XA = array([[-1.72493421729429, 0.4245950661770303, -0.4421150498378113,
-        -0.8800986337268081, 0.0, 0.0],
+        -0.8800986337268083, 0.0, 0.0],
        [-0...     [-1.813911896152713, 0.2501246313543305, 0.4241563824665491,
-        0.9643046100830303, 0.0, 0.0]], dtype=object)
+        0.9643046100830305, 0.0, 0.0]], dtype=object)
 XB = array([[-1.19938106, -0.22670737, -0.50629061,  0.0977458 ,  0.        ,
          0.        ]])
 metric = 'euclidean', out = None, kwargs = {}, s = (3, 6), sB = (1, 6), mA = 3
@@ -931,7 +925,7 @@ mB = 1, n = 6, mstr = 'euclidean'
 >               return cdist_fn(XA, XB, out=out, **kwargs)
 E               ValueError: Unsupported dtype object
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
 ___________________ testPERMDISP.test_centroids_mixedgroups ____________________
 
 self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_centroids_mixedgroups>
@@ -949,14 +943,14 @@ self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_ce
     
 >       obs_mixed = _compute_groups(dm, 'centroid', self.grouping_un_mixed)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:158: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:158: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
     groups.append(cdist(df.values[:, :-1], [centroids.loc[label].values],
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-XA = array([[1.0559100095568088, 1.529792582176189, 1.5885925999277588,
-        -0.27423308995024553, -0.9980655246587443, ...8515286858, -1.8614901635882684,
+XA = array([[1.0559100095568086, 1.5297925821761884, 1.5885925999277586,
+        -0.27423308995024553, -0.9980655246587443,...5152868578, -1.8614901635882684,
         0.018065319797415245, 0.18781865676804546, 0.0, 0.0, 0.0, 0.0]], dtype=object)
 XB = array([[ 0.96679999,  0.24357552, -0.42381734,  0.41217343, -0.29276908,
          0.        ,  0.        ,  0.        ,  0.        ]])
@@ -1304,7 +1298,7 @@ mB = 1, n = 9, mstr = 'euclidean'
 >               return cdist_fn(XA, XB, out=out, **kwargs)
 E               ValueError: Unsupported dtype object
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
 _______________________ testPERMDISP.test_centroids_null _______________________
 
 self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_centroids_null>
@@ -1315,9 +1309,9 @@ self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_ce
     
 >       obs_null = _compute_groups(dm, 'centroid', self.grouping_eq)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:165: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:165: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
     groups.append(cdist(df.values[:, :-1], [centroids.loc[label].values],
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
@@ -1668,7 +1662,7 @@ kwargs = {}, s = (3, 6), sB = (1, 6), mA = 3, mB = 1, n = 6, mstr = 'euclidean'
 >               return cdist_fn(XA, XB, out=out, **kwargs)
 E               ValueError: Unsupported dtype object
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
 ___________________ testPERMDISP.test_centroids_uneq_groups ____________________
 
 self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_centroids_uneq_groups>
@@ -1689,14 +1683,14 @@ self = <skbio.stats.distance.tests.test_permdisp.testPERMDISP testMethod=test_ce
     
 >       obs = _compute_groups(dm, 'centroid', self.grouping_uneq)
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:141: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permdisp.py:141: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/_permdisp.py:251: in _compute_groups
     groups.append(cdist(df.values[:, :-1], [centroids.loc[label].values],
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-XA = array([[1.0559100095568088, 1.529792582176189, 1.5885925999277588,
-        -0.27423308995024553, -0.9980655246587443, ...8515286858, -1.8614901635882684,
+XA = array([[1.0559100095568086, 1.5297925821761884, 1.5885925999277586,
+        -0.27423308995024553, -0.9980655246587443,...5152868578, -1.8614901635882684,
         0.018065319797415245, 0.18781865676804546, 0.0, 0.0, 0.0, 0.0]], dtype=object)
 XB = array([[ 0.96679999,  0.24357552, -0.42381734,  0.41217343, -0.29276908,
          0.        ,  0.        ,  0.        ,  0.        ]])
@@ -2044,7 +2038,7 @@ mB = 1, n = 9, mstr = 'euclidean'
 >               return cdist_fn(XA, XB, out=out, **kwargs)
 E               ValueError: Unsupported dtype object
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/scipy/spatial/distance.py:2954: ValueError
 _____________________ GradientTests.test_weight_by_vector ______________________
 
 self = <skbio.stats.tests.test_gradient.GradientTests testMethod=test_weight_by_vector>
@@ -2102,7 +2096,7 @@ self = <skbio.stats.tests.test_gradient.GradientTests testMethod=test_weight_by_
         obs = _weight_by_vector(trajectory, w_vector)
 >       assert_data_frame_almost_equal(obs.sort_index(), exp.sort_index())
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/tests/test_gradient.py:268: 
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/tests/test_gradient.py:268: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 left =     0
@@ -2176,17 +2170,17 @@ E       Attribute "dtype" are different
 E       [left]:  int64
 E       [right]: float64
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/util/_testing.py:285: AssertionError
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/util/_testing.py:285: AssertionError
 =============================== warnings summary ===============================
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/util/_exception.py:10
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/util/_exception.py:10
   $PREFIX/lib/python3.9/site-packages/skbio/util/_exception.py:10: PytestCollectionWarning: cannot collect test class 'TestingUtilError' because it has a __init__ constructor (from: io/tests/test_registry.py)
     class TestingUtilError(Exception):
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/sequence/tests/test_sequence.py:14
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/sequence/tests/test_sequence.py:14
   $PREFIX/lib/python3.9/site-packages/skbio/sequence/tests/test_sequence.py:14: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.10 it will stop working
     from collections import Hashable
 
-../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permanova.py:15
+../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permanova.py:15
   $PREFIX/lib/python3.9/site-packages/skbio/stats/distance/tests/test_permanova.py:15: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead.
     from pandas.util.testing import assert_series_equal
 
@@ -2537,8 +2531,20 @@ stats/distance/tests/test_permdisp.py::testPERMDISP::test_not_distance_matrix
     proportion_explained = eigvals / sum_eigenvalues
 
 stats/distance/tests/test_permdisp.py::testPERMDISP::test_confirm_betadispr_results
-  $PREFIX/lib/python3.9/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:143: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.0077583251477806444 and the largest is 2.707792948946924.
+  $PREFIX/lib/python3.9/site-packages/skbio/stats/ordination/_principal_coordinate_analysis.py:143: RuntimeWarning: The result contains negative eigenvalues. Please compare their magnitude with the magnitude of some of the largest positive eigenvalues. If the negative ones are smaller, it's probably safe to ignore them, but if they are large in magnitude, the results won't be useful. See the Notes section for more details. The smallest eigenvalue is -0.00775832514778066 and the largest is 2.7077929489469232.
     warn(
+
+stats/ordination/__init__.py::skbio.stats.ordination
+stats/ordination/tests/test_canonical_correspondence_analysis.py::TestCCAResults1::test_scaling1
+stats/ordination/tests/test_canonical_correspondence_analysis.py::TestCCAResults1::test_scaling2
+  $PREFIX/lib/python3.9/site-packages/skbio/stats/ordination/_canonical_correspondence_analysis.py:158: RuntimeWarning: invalid value encountered in reciprocal
+    U_hat = Q_bar.dot(U) * s**-1
+
+stats/ordination/__init__.py::skbio.stats.ordination
+stats/ordination/tests/test_canonical_correspondence_analysis.py::TestCCAResults1::test_scaling1
+stats/ordination/tests/test_canonical_correspondence_analysis.py::TestCCAResults1::test_scaling2
+  $PREFIX/lib/python3.9/site-packages/skbio/stats/ordination/_canonical_correspondence_analysis.py:189: RuntimeWarning: invalid value encountered in reciprocal
+    Z_scaling2 = Z_scaling1 * s**-1
 
 stats/ordination/tests/test_principal_coordinate_analysis.py::TestPCoA::test_fsvd
 stats/ordination/tests/test_principal_coordinate_analysis.py::TestPCoA::test_fsvd_inplace
@@ -2601,17 +2607,17 @@ FAILED stats/distance/tests/test_permdisp.py::testPERMDISP::test_centroids_mixed
 FAILED stats/distance/tests/test_permdisp.py::testPERMDISP::test_centroids_null
 FAILED stats/distance/tests/test_permdisp.py::testPERMDISP::test_centroids_uneq_groups
 FAILED stats/tests/test_gradient.py::GradientTests::test_weight_by_vector - A...
-==== 8 failed, 2536 passed, 30 skipped, 19757 warnings in 74.66s (0:01:14) =====
+==== 8 failed, 2536 passed, 30 skipped, 19763 warnings in 101.24s (0:01:41) ====
 
 Leaving build/test directories:
   Work:
- /home/vsts/conda/conda-bld/work 
+ /Users/runner/conda/conda-bld/work 
   Test:
- /home/vsts/conda/conda-bld/test_tmp 
+ /Users/runner/conda/conda-bld/test_tmp 
 Leaving build/test environments:
   Test:
-source activate  /home/vsts/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh 
+source activate  /Users/runner/conda/conda-bld/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla 
   Build:
-source activate  /home/vsts/conda/conda-bld/_build_env 
+source activate  /Users/runner/conda/conda-bld/_build_env 
 
 
