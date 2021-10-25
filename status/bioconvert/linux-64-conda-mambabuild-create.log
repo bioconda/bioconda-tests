@@ -1,8 +1,8 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpt9_4dl3l/noarch/bioconvert-0.4.3-py_0.tar.bz2
+TEST START: /tmp/tmpwn8nzlnp/noarch/bioconvert-0.4.3-py_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpejuecxai/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmp4l3w4swz/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                           Version  Build                Channel                        Size
 ───────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -17,7 +17,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + bedops                           2.4.39  h7d875b9_1           bioconda/linux-64             10 MB
   + bedtools                         2.30.0  h7d7f7ad_2           bioconda/linux-64             18 MB
   + bioawk                              1.0  h5bf99c6_6           bioconda/linux-64            188 KB
-  + bioconvert                        0.4.3  py_0                 /tmp/tmpt9_4dl3l/noarch        1 MB
+  + bioconvert                        0.4.3  py_0                 /tmp/tmpwn8nzlnp/noarch        1 MB
   + biopython                          1.79  py39h3811e60_0       conda-forge/linux-64           3 MB
   + boost-cpp                        1.74.0  h312852a_4           conda-forge/linux-64          16 MB
   + bzip2                             1.0.8  h7f98852_4           conda-forge/linux-64         Cached
@@ -39,8 +39,8 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + fontconfig                       2.13.1  hba837de_1005        conda-forge/linux-64         Cached
   + freetype                         2.10.4  h0708190_1           conda-forge/linux-64         Cached
   + gettext                        0.19.8.1  h73d1719_1008        conda-forge/linux-64         Cached
-  + glib                             2.68.4  h9c3ff4c_1           conda-forge/linux-64         440 KB
-  + glib-tools                       2.68.4  h9c3ff4c_1           conda-forge/linux-64          86 KB
+  + glib                             2.70.0  h780b84a_1           conda-forge/linux-64         430 KB
+  + glib-tools                       2.70.0  h780b84a_1           conda-forge/linux-64         107 KB
   + go                               1.10.3  hfc679d8_3           conda-forge/linux-64           6 KB
   + go-core                          1.10.3  h26a2512_3           conda-forge/linux-64          89 MB
   + go_linux-64                      1.10.3  h0f5337a_3           conda-forge/linux-64           8 MB
@@ -59,8 +59,8 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + ldc                              1.13.0  h02c9852_1           conda-forge/linux-64          37 MB
   + lerc                              2.2.1  h9c3ff4c_0           conda-forge/linux-64         213 KB
   + libbigwig                         0.4.6  h1b8c3c0_1           bioconda/linux-64            331 KB
-  + libblas                           3.9.0  11_linux64_openblas  conda-forge/linux-64         Cached
-  + libcblas                          3.9.0  11_linux64_openblas  conda-forge/linux-64         Cached
+  + libblas                           3.9.0  12_linux64_openblas  conda-forge/linux-64         Cached
+  + libcblas                          3.9.0  12_linux64_openblas  conda-forge/linux-64         Cached
   + libclang                         11.1.0  default_ha53f305_1   conda-forge/linux-64          19 MB
   + libcurl                          7.79.1  h2574ce0_1           conda-forge/linux-64         Cached
   + libdeflate                          1.7  h7f98852_5           conda-forge/linux-64          67 KB
@@ -72,14 +72,14 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libgfortran                       3.0.0  1                    conda-forge/linux-64         281 KB
   + libgfortran-ng                   11.2.0  h69a702a_11          conda-forge/linux-64         Cached
   + libgfortran5                     11.2.0  h5c6108e_11          conda-forge/linux-64         Cached
-  + libglib                          2.68.4  h174f98d_1           conda-forge/linux-64         Cached
+  + libglib                          2.70.0  h174f98d_1           conda-forge/linux-64         Cached
   + libgomp                          11.2.0  h1d223b6_11          conda-forge/linux-64         Cached
   + libiconv                           1.16  h516909a_0           conda-forge/linux-64         Cached
-  + liblapack                         3.9.0  11_linux64_openblas  conda-forge/linux-64         Cached
+  + liblapack                         3.9.0  12_linux64_openblas  conda-forge/linux-64         Cached
   + libllvm11                        11.1.0  hf817b99_2           conda-forge/linux-64          29 MB
   + libnghttp2                       1.43.0  h812cca2_1           conda-forge/linux-64         Cached
   + libogg                            1.3.4  h7f98852_1           conda-forge/linux-64         206 KB
-  + libopenblas                      0.3.17  pthreads_h8fe5266_1  conda-forge/linux-64         Cached
+  + libopenblas                      0.3.18  pthreads_h8fe5266_0  conda-forge/linux-64         Cached
   + libopus                           1.3.1  h7f98852_1           conda-forge/linux-64         255 KB
   + libpng                           1.6.37  h21135ba_2           conda-forge/linux-64         Cached
   + libpq                              13.3  hd57d9b9_1           conda-forge/linux-64           3 MB
@@ -101,20 +101,20 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + matplotlib                        3.4.3  py39hf3d152e_1       conda-forge/linux-64           7 KB
   + matplotlib-base                   3.4.3  py39h2fa2bec_1       conda-forge/linux-64           7 MB
   + mawk                              1.3.4  h779adbc_4           bioconda/linux-64             99 KB
-  + mysql-common                     8.0.25  ha770c72_3           conda-forge/linux-64           2 MB
+  + mysql-common                     8.0.26  ha770c72_0           conda-forge/linux-64           2 MB
   + mysql-connector-c                6.1.11  h6eb9d5d_1007        conda-forge/linux-64           3 MB
-  + mysql-libs                       8.0.25  hfa10184_3           conda-forge/linux-64           2 MB
+  + mysql-libs                       8.0.26  hfa10184_0           conda-forge/linux-64           2 MB
   + ncbi-ngs-sdk                     2.11.2  hff44eed_0           bioconda/linux-64              2 MB
   + ncurses                             6.2  h58526e2_4           conda-forge/linux-64         Cached
   + networkx                          2.6.3  pyhd8ed1ab_0         conda-forge/noarch             1 MB
   + nspr                               4.30  h9c3ff4c_0           conda-forge/linux-64         233 KB
   + nss                                3.69  hb5efdd6_1           conda-forge/linux-64           2 MB
-  + numpy                            1.21.2  py39hdbf815f_0       conda-forge/linux-64           6 MB
+  + numpy                            1.21.3  py39hdbf815f_0       conda-forge/linux-64           6 MB
   + olefile                            0.46  pyh9f0ad1d_1         conda-forge/noarch            32 KB
   + openjpeg                          2.4.0  hb52868f_1           conda-forge/linux-64         444 KB
   + openssl                          1.1.1l  h7f98852_0           conda-forge/linux-64         Cached
   + ossuuid                           1.6.2  hf484d3e_1000        conda-forge/linux-64          56 KB
-  + pandas                            1.3.3  py39hde0f152_0       conda-forge/linux-64          13 MB
+  + pandas                            1.3.4  py39hde0f152_0       conda-forge/linux-64          13 MB
   + pbzip2                           1.1.13  0                    conda-forge/linux-64         114 KB
   + pcre                               8.45  h9c3ff4c_0           conda-forge/linux-64         Cached
   + perl                             5.26.2  h36c2ea0_1008        conda-forge/linux-64          15 MB
@@ -140,7 +140,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + pexpect                           4.8.0  pyh9f0ad1d_2         conda-forge/noarch            47 KB
   + pigz                                2.6  h27826a3_0           conda-forge/linux-64          87 KB
   + pillow                            8.3.2  py39ha612740_0       conda-forge/linux-64         701 KB
-  + pip                                21.3  pyhd8ed1ab_0         conda-forge/noarch           Cached
+  + pip                              21.3.1  pyhd8ed1ab_0         conda-forge/noarch           Cached
   + plink                         1.90b6.21  h779adbc_1           bioconda/linux-64              7 MB
   + plotly                            5.3.1  pyhd8ed1ab_0         conda-forge/noarch             7 MB
   + pthread-stubs                       0.4  h36c2ea0_1001        conda-forge/linux-64         Cached
@@ -163,7 +163,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + python-dateutil                   2.8.2  pyhd8ed1ab_0         conda-forge/noarch           240 KB
   + python_abi                          3.9  2_cp39               conda-forge/linux-64         Cached
   + pytz                             2021.3  pyhd8ed1ab_0         conda-forge/noarch           Cached
-  + pyyaml                            5.4.1  py39h3811e60_1       conda-forge/linux-64         Cached
+  + pyyaml                              6.0  py39h3811e60_0       conda-forge/linux-64         Cached
   + qt                               5.12.9  hda022c4_4           conda-forge/linux-64         100 MB
   + readline                            8.1  h46c0cb4_0           conda-forge/linux-64         Cached
   + sambamba                          0.6.8  h89e63da_2           bioconda/linux-64              4 MB
@@ -180,7 +180,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + texttable                         1.6.4  pyhd8ed1ab_0         conda-forge/noarch            16 KB
   + tk                               8.6.11  h27826a3_1           conda-forge/linux-64         Cached
   + tornado                             6.1  py39h3811e60_1       conda-forge/linux-64         646 KB
-  + tzdata                            2021c  he74cb21_0           conda-forge/noarch           Cached
+  + tzdata                            2021e  he74cb21_0           conda-forge/noarch           Cached
   + ucsc-bedgraphtobigwig               377  h0b8a92a_2           bioconda/linux-64            155 KB
   + ucsc-bigwigtobedgraph               377  h0b8a92a_5           bioconda/linux-64            156 KB
   + ucsc-fatotwobit                     377  h0b8a92a_4           bioconda/linux-64            134 KB
@@ -207,7 +207,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/bioconvert_1634211670405/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /home/vsts/conda/conda-bld/bioconvert_1635144957670/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
@@ -220,7 +220,7 @@ The following NEW packages will be INSTALLED:
     bedops:                    2.4.39-h7d875b9_1          bioconda               
     bedtools:                  2.30.0-h7d7f7ad_2          bioconda               
     bioawk:                    1.0-h5bf99c6_6             bioconda               
-    bioconvert:                0.4.3-py_0                 file:///tmp/tmpt9_4dl3l
+    bioconvert:                0.4.3-py_0                 file:///tmp/tmpwn8nzlnp
     biopython:                 1.79-py39h3811e60_0        conda-forge            
     boost-cpp:                 1.74.0-h312852a_4          conda-forge            
     bzip2:                     1.0.8-h7f98852_4           conda-forge            
@@ -242,8 +242,8 @@ The following NEW packages will be INSTALLED:
     fontconfig:                2.13.1-hba837de_1005       conda-forge            
     freetype:                  2.10.4-h0708190_1          conda-forge            
     gettext:                   0.19.8.1-h73d1719_1008     conda-forge            
-    glib:                      2.68.4-h9c3ff4c_1          conda-forge            
-    glib-tools:                2.68.4-h9c3ff4c_1          conda-forge            
+    glib:                      2.70.0-h780b84a_1          conda-forge            
+    glib-tools:                2.70.0-h780b84a_1          conda-forge            
     go:                        1.10.3-hfc679d8_3          conda-forge            
     go-core:                   1.10.3-h26a2512_3          conda-forge            
     go_linux-64:               1.10.3-h0f5337a_3          conda-forge            
@@ -262,8 +262,8 @@ The following NEW packages will be INSTALLED:
     ldc:                       1.13.0-h02c9852_1          conda-forge            
     lerc:                      2.2.1-h9c3ff4c_0           conda-forge            
     libbigwig:                 0.4.6-h1b8c3c0_1           bioconda               
-    libblas:                   3.9.0-11_linux64_openblas  conda-forge            
-    libcblas:                  3.9.0-11_linux64_openblas  conda-forge            
+    libblas:                   3.9.0-12_linux64_openblas  conda-forge            
+    libcblas:                  3.9.0-12_linux64_openblas  conda-forge            
     libclang:                  11.1.0-default_ha53f305_1  conda-forge            
     libcurl:                   7.79.1-h2574ce0_1          conda-forge            
     libdeflate:                1.7-h7f98852_5             conda-forge            
@@ -275,14 +275,14 @@ The following NEW packages will be INSTALLED:
     libgfortran:               3.0.0-1                    conda-forge            
     libgfortran-ng:            11.2.0-h69a702a_11         conda-forge            
     libgfortran5:              11.2.0-h5c6108e_11         conda-forge            
-    libglib:                   2.68.4-h174f98d_1          conda-forge            
+    libglib:                   2.70.0-h174f98d_1          conda-forge            
     libgomp:                   11.2.0-h1d223b6_11         conda-forge            
     libiconv:                  1.16-h516909a_0            conda-forge            
-    liblapack:                 3.9.0-11_linux64_openblas  conda-forge            
+    liblapack:                 3.9.0-12_linux64_openblas  conda-forge            
     libllvm11:                 11.1.0-hf817b99_2          conda-forge            
     libnghttp2:                1.43.0-h812cca2_1          conda-forge            
     libogg:                    1.3.4-h7f98852_1           conda-forge            
-    libopenblas:               0.3.17-pthreads_h8fe5266_1 conda-forge            
+    libopenblas:               0.3.18-pthreads_h8fe5266_0 conda-forge            
     libopus:                   1.3.1-h7f98852_1           conda-forge            
     libpng:                    1.6.37-h21135ba_2          conda-forge            
     libpq:                     13.3-hd57d9b9_1            conda-forge            
@@ -304,20 +304,20 @@ The following NEW packages will be INSTALLED:
     matplotlib:                3.4.3-py39hf3d152e_1       conda-forge            
     matplotlib-base:           3.4.3-py39h2fa2bec_1       conda-forge            
     mawk:                      1.3.4-h779adbc_4           bioconda               
-    mysql-common:              8.0.25-ha770c72_3          conda-forge            
+    mysql-common:              8.0.26-ha770c72_0          conda-forge            
     mysql-connector-c:         6.1.11-h6eb9d5d_1007       conda-forge            
-    mysql-libs:                8.0.25-hfa10184_3          conda-forge            
+    mysql-libs:                8.0.26-hfa10184_0          conda-forge            
     ncbi-ngs-sdk:              2.11.2-hff44eed_0          bioconda               
     ncurses:                   6.2-h58526e2_4             conda-forge            
     networkx:                  2.6.3-pyhd8ed1ab_0         conda-forge            
     nspr:                      4.30-h9c3ff4c_0            conda-forge            
     nss:                       3.69-hb5efdd6_1            conda-forge            
-    numpy:                     1.21.2-py39hdbf815f_0      conda-forge            
+    numpy:                     1.21.3-py39hdbf815f_0      conda-forge            
     olefile:                   0.46-pyh9f0ad1d_1          conda-forge            
     openjpeg:                  2.4.0-hb52868f_1           conda-forge            
     openssl:                   1.1.1l-h7f98852_0          conda-forge            
     ossuuid:                   1.6.2-hf484d3e_1000        conda-forge            
-    pandas:                    1.3.3-py39hde0f152_0       conda-forge            
+    pandas:                    1.3.4-py39hde0f152_0       conda-forge            
     pbzip2:                    1.1.13-0                   conda-forge            
     pcre:                      8.45-h9c3ff4c_0            conda-forge            
     perl:                      5.26.2-h36c2ea0_1008       conda-forge            
@@ -343,7 +343,7 @@ The following NEW packages will be INSTALLED:
     pexpect:                   4.8.0-pyh9f0ad1d_2         conda-forge            
     pigz:                      2.6-h27826a3_0             conda-forge            
     pillow:                    8.3.2-py39ha612740_0       conda-forge            
-    pip:                       21.3-pyhd8ed1ab_0          conda-forge            
+    pip:                       21.3.1-pyhd8ed1ab_0        conda-forge            
     plink:                     1.90b6.21-h779adbc_1       bioconda               
     plotly:                    5.3.1-pyhd8ed1ab_0         conda-forge            
     pthread-stubs:             0.4-h36c2ea0_1001          conda-forge            
@@ -366,7 +366,7 @@ The following NEW packages will be INSTALLED:
     python-dateutil:           2.8.2-pyhd8ed1ab_0         conda-forge            
     python_abi:                3.9-2_cp39                 conda-forge            
     pytz:                      2021.3-pyhd8ed1ab_0        conda-forge            
-    pyyaml:                    5.4.1-py39h3811e60_1       conda-forge            
+    pyyaml:                    6.0-py39h3811e60_0         conda-forge            
     qt:                        5.12.9-hda022c4_4          conda-forge            
     readline:                  8.1-h46c0cb4_0             conda-forge            
     sambamba:                  0.6.8-h89e63da_2           bioconda               
@@ -383,7 +383,7 @@ The following NEW packages will be INSTALLED:
     texttable:                 1.6.4-pyhd8ed1ab_0         conda-forge            
     tk:                        8.6.11-h27826a3_1          conda-forge            
     tornado:                   6.1-py39h3811e60_1         conda-forge            
-    tzdata:                    2021c-he74cb21_0           conda-forge            
+    tzdata:                    2021e-he74cb21_0           conda-forge            
     ucsc-bedgraphtobigwig:     377-h0b8a92a_2             bioconda               
     ucsc-bigwigtobedgraph:     377-h0b8a92a_5             bioconda               
     ucsc-fatotwobit:           377-h0b8a92a_4             bioconda               
@@ -402,8 +402,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/bioconvert_1634211670405/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/home/vsts/conda/conda-bld/bioconvert_1634211670405/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/bioconvert_1635144957670/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/bioconvert_1635144957670/test_tmp
 import: 'bioconvert'
 
 Leaving build/test directories:
