@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T19:01:20+00:00"}
+{
+ "started_at": "2021-10-27T19:01:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "circos-tools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "circos-tools",
+      "subdir": "linux-64",
+      "version": "0.23"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "circos-tools",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "circos-tools",
+      "subdir": "osx-64",
+      "version": "0.23"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
