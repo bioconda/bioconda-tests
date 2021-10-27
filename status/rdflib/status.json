@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T20:01:25+00:00"}
+{
+ "started_at": "2021-10-27T20:01:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rdflib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hf3d152e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "rdflib",
+      "subdir": "linux-64",
+      "version": "6.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "rdflib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h6e9494a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "rdflib",
+      "subdir": "osx-64",
+      "version": "6.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
