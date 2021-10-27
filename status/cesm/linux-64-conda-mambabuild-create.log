@@ -1,6 +1,6 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpn2jisook/linux-64/cesm-2.1.3-py39pl5262hab58d13_5.tar.bz2
+TEST START: /tmp/tmpibb1sm4f/linux-64/cesm-2.1.3-py39pl5262hab58d13_5.tar.bz2
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                           Version  Build                 Channel                         Size
 ─────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -13,9 +13,9 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + binutils_impl_linux-64           2.36.1  h193b22a_2            conda-forge/linux-64          Cached
   + binutils_linux-64                  2.36  hf3e587d_1            conda-forge/linux-64          Cached
   + bzip2                             1.0.8  h7f98852_4            conda-forge/linux-64          Cached
-  + c-ares                           1.17.2  h7f98852_0            conda-forge/linux-64          Cached
+  + c-ares                           1.18.0  h7f98852_0            conda-forge/linux-64          Cached
   + ca-certificates               2021.10.8  ha878542_0            conda-forge/linux-64          Cached
-  + cesm                              2.1.3  py39pl5262hab58d13_5  /tmp/tmpn2jisook/linux-64      22 MB
+  + cesm                              2.1.3  py39pl5262hab58d13_5  /tmp/tmpibb1sm4f/linux-64      22 MB
   + cmake                            3.21.3  h8897547_0            conda-forge/linux-64           15 MB
   + curl                             7.79.1  h2574ce0_1            conda-forge/linux-64          153 KB
   + cyrus-sasl                       2.1.27  h230043b_4            conda-forge/linux-64          228 KB
@@ -88,7 +88,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + perl-xml-namespacesupport          1.12  pl526_0               bioconda/linux-64              11 KB
   + perl-xml-sax                       1.02  pl526_0               bioconda/noarch                36 KB
   + perl-xml-sax-base                  1.09  pl526_0               bioconda/linux-64              19 KB
-  + pip                                21.3  pyhd8ed1ab_0          conda-forge/noarch            Cached
+  + pip                              21.3.1  pyhd8ed1ab_0          conda-forge/noarch            Cached
   + python                            3.9.7  hb7a2778_3_cpython    conda-forge/linux-64          Cached
   + python_abi                          3.9  2_cp39                conda-forge/linux-64          Cached
   + readline                            8.1  h46c0cb4_0            conda-forge/linux-64          Cached
@@ -98,10 +98,10 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + sqlite                           3.36.0  h9cd32fc_2            conda-forge/linux-64          Cached
   + subversion                       1.14.1  h818a5c0_0            conda-forge/linux-64            3 MB
   + sysroot_linux-64                   2.12  he073ed8_14           conda-forge/noarch            Cached
-  + tbb                            2021.3.0  h4bd325d_0            conda-forge/linux-64            2 MB
+  + tbb                            2021.4.0  h4bd325d_0            conda-forge/linux-64            2 MB
   + tcsh                            6.22.04  h46c0cb4_0            conda-forge/linux-64          409 KB
   + tk                               8.6.11  h27826a3_1            conda-forge/linux-64          Cached
-  + tzdata                            2021c  he74cb21_0            conda-forge/noarch            Cached
+  + tzdata                            2021e  he74cb21_0            conda-forge/noarch            Cached
   + wget                             1.20.3  ha56f1ee_1            conda-forge/linux-64          804 KB
   + wheel                            0.37.0  pyhd8ed1ab_1          conda-forge/noarch            Cached
   + xz                                5.2.5  h516909a_1            conda-forge/linux-64          Cached
@@ -119,7 +119,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/cesm_1634356830553/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+  environment location: /home/vsts/conda/conda-bld/cesm_1635344331173/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
 
 
 The following NEW packages will be INSTALLED:
@@ -130,9 +130,9 @@ The following NEW packages will be INSTALLED:
     binutils_impl_linux-64:    2.36.1-h193b22a_2           conda-forge            
     binutils_linux-64:         2.36-hf3e587d_1             conda-forge            
     bzip2:                     1.0.8-h7f98852_4            conda-forge            
-    c-ares:                    1.17.2-h7f98852_0           conda-forge            
+    c-ares:                    1.18.0-h7f98852_0           conda-forge            
     ca-certificates:           2021.10.8-ha878542_0        conda-forge            
-    cesm:                      2.1.3-py39pl5262hab58d13_5  file:///tmp/tmpn2jisook
+    cesm:                      2.1.3-py39pl5262hab58d13_5  file:///tmp/tmpibb1sm4f
     cmake:                     3.21.3-h8897547_0           conda-forge            
     curl:                      7.79.1-h2574ce0_1           conda-forge            
     cyrus-sasl:                2.1.27-h230043b_4           conda-forge            
@@ -205,7 +205,7 @@ The following NEW packages will be INSTALLED:
     perl-xml-namespacesupport: 1.12-pl526_0                bioconda               
     perl-xml-sax:              1.02-pl526_0                bioconda               
     perl-xml-sax-base:         1.09-pl526_0                bioconda               
-    pip:                       21.3-pyhd8ed1ab_0           conda-forge            
+    pip:                       21.3.1-pyhd8ed1ab_0         conda-forge            
     python:                    3.9.7-hb7a2778_3_cpython    conda-forge            
     python_abi:                3.9-2_cp39                  conda-forge            
     readline:                  8.1-h46c0cb4_0              conda-forge            
@@ -215,10 +215,10 @@ The following NEW packages will be INSTALLED:
     sqlite:                    3.36.0-h9cd32fc_2           conda-forge            
     subversion:                1.14.1-h818a5c0_0           conda-forge            
     sysroot_linux-64:          2.12-he073ed8_14            conda-forge            
-    tbb:                       2021.3.0-h4bd325d_0         conda-forge            
+    tbb:                       2021.4.0-h4bd325d_0         conda-forge            
     tcsh:                      6.22.04-h46c0cb4_0          conda-forge            
     tk:                        8.6.11-h27826a3_1           conda-forge            
-    tzdata:                    2021c-he74cb21_0            conda-forge            
+    tzdata:                    2021e-he74cb21_0            conda-forge            
     wget:                      1.20.3-ha56f1ee_1           conda-forge            
     wheel:                     0.37.0-pyhd8ed1ab_1         conda-forge            
     xz:                        5.2.5-h516909a_1            conda-forge            
@@ -228,8 +228,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/cesm_1634356830553/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
-export SRC_DIR=/home/vsts/conda/conda-bld/cesm_1634356830553/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/cesm_1635344331173/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/cesm_1635344331173/test_tmp
 INFO: activate-binutils_linux-64.sh made the following environmental changes:
 +ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
 +AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
@@ -252,7 +252,7 @@ INFO: activate-gcc_linux-64.sh made the following environmental changes:
 +CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/cesm-2.1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
-+CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/cesm_1634356830553/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/cesm_1635344331173/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
 +CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
 +CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
 +CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
