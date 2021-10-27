@@ -1,6 +1,6 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp5iszpi5r/linux-64/nucleoatac-0.3.4-py27hf119a78_5.tar.bz2
+TEST START: /tmp/tmpmf_os1yr/linux-64/nucleoatac-0.3.4-py27hf119a78_5.tar.bz2
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                               Version  Build                  Channel                         Size
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -13,7 +13,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + backports.functools_lru_cache         1.6.1  py_0                   conda-forge/noarch              8 KB
   + backports_abc                           0.5  py27_0                 conda-forge/linux-64            6 KB
   + bzip2                                 1.0.8  h7f98852_4             conda-forge/linux-64          Cached
-  + c-ares                               1.17.2  h7f98852_0             conda-forge/linux-64          Cached
+  + c-ares                               1.18.0  h7f98852_0             conda-forge/linux-64          Cached
   + ca-certificates                   2021.10.8  ha878542_0             conda-forge/linux-64          Cached
   + certifi                          2019.11.28  py27h8c360ce_1         conda-forge/linux-64          Cached
   + cycler                               0.10.0  py27_0                 conda-forge/linux-64           13 KB
@@ -45,7 +45,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libzlib                              1.2.11  h36c2ea0_1013          conda-forge/linux-64          Cached
   + matplotlib-base                       2.2.5  py27h250f245_1         conda-forge/linux-64            7 MB
   + ncurses                                 6.2  h58526e2_4             conda-forge/linux-64          Cached
-  + nucleoatac                            0.3.4  py27hf119a78_5         /tmp/tmp5iszpi5r/linux-64     365 KB
+  + nucleoatac                            0.3.4  py27hf119a78_5         /tmp/tmpmf_os1yr/linux-64     365 KB
   + numpy                                1.16.5  py27h95a1406_0         conda-forge/linux-64            4 MB
   + openssl                              1.1.1l  h7f98852_0             conda-forge/linux-64          Cached
   + pip                                  20.1.1  pyh9f0ad1d_0           conda-forge/noarch            Cached
@@ -79,7 +79,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/nucleoatac_1634339634461/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /home/vsts/conda/conda-bld/nucleoatac_1635304329734/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
@@ -90,7 +90,7 @@ The following NEW packages will be INSTALLED:
     backports.functools_lru_cache: 1.6.1-py_0                   conda-forge            
     backports_abc:                 0.5-py27_0                   conda-forge            
     bzip2:                         1.0.8-h7f98852_4             conda-forge            
-    c-ares:                        1.17.2-h7f98852_0            conda-forge            
+    c-ares:                        1.18.0-h7f98852_0            conda-forge            
     ca-certificates:               2021.10.8-ha878542_0         conda-forge            
     certifi:                       2019.11.28-py27h8c360ce_1    conda-forge            
     cycler:                        0.10.0-py27_0                conda-forge            
@@ -122,7 +122,7 @@ The following NEW packages will be INSTALLED:
     libzlib:                       1.2.11-h36c2ea0_1013         conda-forge            
     matplotlib-base:               2.2.5-py27h250f245_1         conda-forge            
     ncurses:                       6.2-h58526e2_4               conda-forge            
-    nucleoatac:                    0.3.4-py27hf119a78_5         file:///tmp/tmp5iszpi5r
+    nucleoatac:                    0.3.4-py27hf119a78_5         file:///tmp/tmpmf_os1yr
     numpy:                         1.16.5-py27h95a1406_0        conda-forge            
     openssl:                       1.1.1l-h7f98852_0            conda-forge            
     pip:                           20.1.1-pyh9f0ad1d_0          conda-forge            
@@ -148,11 +148,11 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/nucleoatac_1634339634461/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/home/vsts/conda/conda-bld/nucleoatac_1634339634461/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/nucleoatac_1635304329734/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/nucleoatac_1635304329734/test_tmp
 Command run:  $PREFIX/bin/nucleoatac run --help
 nucleoatac version 0.3.4
-start run at: 2021-10-15 23:14
+start run at: 2021-10-27 03:12
 usage: nucleoatac run [-h] --bed bed_file --bam bam_file --out output_basename
                       --fasta genome_seq [--pwm Tn5_PWM] [--cores num_cores]
                       [--write_all]
@@ -180,7 +180,7 @@ General options:
   --write_all           write all tracks
 Command run:  $PREFIX/bin/pyatac --help
 pyatac version 0.3.4
-start run at: 2021-10-15 23:14
+start run at: 2021-10-27 03:12
 usage: pyatac [-h] [--version]
               {nucleotide,vplot,bias_vplot,pwm,signal,ins,cov,bias,sizes,counts}
               ...
