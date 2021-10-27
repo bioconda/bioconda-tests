@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T18:46:19+00:00"}
+{
+ "started_at": "2021-10-27T18:46:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-micropan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-micropan",
+      "subdir": "noarch",
+      "version": "2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-micropan",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-micropan",
+      "subdir": "noarch",
+      "version": "2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
