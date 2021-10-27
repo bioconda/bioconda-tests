@@ -1,8 +1,8 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpuzvx6w06/linux-64/bctools-0.2.2-1.tar.bz2
+TEST START: /tmp/tmp9mzesss2/linux-64/bctools-0.2.2-1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpmq7xdpqu/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmpszh4uqil/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                  Version  Build                Channel                         Size
 ───────────────────────────────────────────────────────────────────────────────────────────────
@@ -11,11 +11,11 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
   + _libgcc_mutex              0.1  conda_forge          conda-forge/linux-64          Cached
   + _openmp_mutex              4.5  1_gnu                conda-forge/linux-64          Cached
-  + bctools                  0.2.2  1                    /tmp/tmpuzvx6w06/linux-64      11 KB
+  + bctools                  0.2.2  1                    /tmp/tmp9mzesss2/linux-64      11 KB
   + bedtools                2.30.0  h7d7f7ad_2           bioconda/linux-64              18 MB
   + biopython                 1.79  py39h3811e60_0       conda-forge/linux-64            3 MB
   + bzip2                    1.0.8  h7f98852_4           conda-forge/linux-64          Cached
-  + c-ares                  1.17.2  h7f98852_0           conda-forge/linux-64          Cached
+  + c-ares                  1.18.0  h7f98852_0           conda-forge/linux-64          Cached
   + ca-certificates      2021.10.8  ha878542_0           conda-forge/linux-64          Cached
   + datamash                   1.7  h516909a_0           conda-forge/linux-64          766 KB
   + future                  0.18.2  py39hf3d152e_3       conda-forge/linux-64          Cached
@@ -39,11 +39,11 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libstdcxx-ng            11.2.0  he4da1e4_11          conda-forge/linux-64          Cached
   + libzlib                 1.2.11  h36c2ea0_1013        conda-forge/linux-64          Cached
   + ncurses                    6.2  h58526e2_4           conda-forge/linux-64          Cached
-  + numpy                   1.21.2  py39hdbf815f_0       conda-forge/linux-64            6 MB
+  + numpy                   1.21.3  py39hdbf815f_0       conda-forge/linux-64            6 MB
   + openssl                 1.1.1l  h7f98852_0           conda-forge/linux-64          Cached
-  + pandas                   1.3.3  py39hde0f152_0       conda-forge/linux-64           13 MB
+  + pandas                   1.3.4  py39hde0f152_0       conda-forge/linux-64           13 MB
   + perl                    5.32.1  1_h7f98852_perl5     conda-forge/linux-64           14 MB
-  + pip                       21.3  pyhd8ed1ab_0         conda-forge/noarch            Cached
+  + pip                     21.3.1  pyhd8ed1ab_0         conda-forge/noarch            Cached
   + pybedtools               0.8.2  py39h39abbe0_1       bioconda/linux-64              12 MB
   + pysam                   0.17.0  py39h051187c_0       bioconda/linux-64               3 MB
   + python                   3.9.7  hb7a2778_3_cpython   conda-forge/linux-64          Cached
@@ -55,7 +55,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + six                     1.16.0  pyh6c4a22f_0         conda-forge/noarch            Cached
   + sqlite                  3.36.0  h9cd32fc_2           conda-forge/linux-64          Cached
   + tk                      8.6.11  h27826a3_1           conda-forge/linux-64          Cached
-  + tzdata                   2021c  he74cb21_0           conda-forge/noarch            Cached
+  + tzdata                   2021e  he74cb21_0           conda-forge/noarch            Cached
   + wheel                   0.37.0  pyhd8ed1ab_1         conda-forge/noarch            Cached
   + xz                       5.2.5  h516909a_1           conda-forge/linux-64          Cached
   + zlib                    1.2.11  h36c2ea0_1013        conda-forge/linux-64          Cached
@@ -71,18 +71,18 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/bctools_1634337162848/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+  environment location: /home/vsts/conda/conda-bld/bctools_1635301964666/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
 
 
 The following NEW packages will be INSTALLED:
 
     _libgcc_mutex:    0.1-conda_forge            conda-forge            
     _openmp_mutex:    4.5-1_gnu                  conda-forge            
-    bctools:          0.2.2-1                    file:///tmp/tmpuzvx6w06
+    bctools:          0.2.2-1                    file:///tmp/tmp9mzesss2
     bedtools:         2.30.0-h7d7f7ad_2          bioconda               
     biopython:        1.79-py39h3811e60_0        conda-forge            
     bzip2:            1.0.8-h7f98852_4           conda-forge            
-    c-ares:           1.17.2-h7f98852_0          conda-forge            
+    c-ares:           1.18.0-h7f98852_0          conda-forge            
     ca-certificates:  2021.10.8-ha878542_0       conda-forge            
     datamash:         1.7-h516909a_0             conda-forge            
     future:           0.18.2-py39hf3d152e_3      conda-forge            
@@ -106,11 +106,11 @@ The following NEW packages will be INSTALLED:
     libstdcxx-ng:     11.2.0-he4da1e4_11         conda-forge            
     libzlib:          1.2.11-h36c2ea0_1013       conda-forge            
     ncurses:          6.2-h58526e2_4             conda-forge            
-    numpy:            1.21.2-py39hdbf815f_0      conda-forge            
+    numpy:            1.21.3-py39hdbf815f_0      conda-forge            
     openssl:          1.1.1l-h7f98852_0          conda-forge            
-    pandas:           1.3.3-py39hde0f152_0       conda-forge            
+    pandas:           1.3.4-py39hde0f152_0       conda-forge            
     perl:             5.32.1-1_h7f98852_perl5    conda-forge            
-    pip:              21.3-pyhd8ed1ab_0          conda-forge            
+    pip:              21.3.1-pyhd8ed1ab_0        conda-forge            
     pybedtools:       0.8.2-py39h39abbe0_1       bioconda               
     pysam:            0.17.0-py39h051187c_0      bioconda               
     python:           3.9.7-hb7a2778_3_cpython   conda-forge            
@@ -122,7 +122,7 @@ The following NEW packages will be INSTALLED:
     six:              1.16.0-pyh6c4a22f_0        conda-forge            
     sqlite:           3.36.0-h9cd32fc_2          conda-forge            
     tk:               8.6.11-h27826a3_1          conda-forge            
-    tzdata:           2021c-he74cb21_0           conda-forge            
+    tzdata:           2021e-he74cb21_0           conda-forge            
     wheel:            0.37.0-pyhd8ed1ab_1        conda-forge            
     xz:               5.2.5-h516909a_1           conda-forge            
     zlib:             1.2.11-h36c2ea0_1013       conda-forge            
@@ -130,8 +130,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/bctools_1634337162848/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
-export SRC_DIR=/home/vsts/conda/conda-bld/bctools_1634337162848/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/bctools_1635301964666/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/home/vsts/conda/conda-bld/bctools_1635301964666/test_tmp
 
 Leaving build/test directories:
   Work:
