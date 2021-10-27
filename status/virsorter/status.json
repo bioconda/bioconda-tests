@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T19:16:20+00:00"}
+{
+ "started_at": "2021-10-27T19:16:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "virsorter",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "virsorter",
+      "subdir": "noarch",
+      "version": "2.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "virsorter",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "virsorter",
+      "subdir": "noarch",
+      "version": "2.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
