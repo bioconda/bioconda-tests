@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T04:31:18+00:00"}
+{
+ "started_at": "2021-10-27T04:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-slgi",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-slgi",
+      "subdir": "noarch",
+      "version": "1.52.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-slgi",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-slgi",
+      "subdir": "noarch",
+      "version": "1.52.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
