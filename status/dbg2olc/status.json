@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T23:01:47+00:00"}
+{
+ "started_at": "2021-10-27T23:01:47+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dbg2olc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "dbg2olc",
+      "subdir": "linux-64",
+      "version": "20180222"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "dbg2olc",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h87af4ef_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "dbg2olc",
+      "subdir": "osx-64",
+      "version": "20180222"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
