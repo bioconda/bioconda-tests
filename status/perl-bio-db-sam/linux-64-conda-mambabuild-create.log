@@ -1,6 +1,6 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpphfy_79y/linux-64/perl-bio-db-sam-1.41-2.tar.bz2
+TEST START: /tmp/tmpsc1d6ir9/linux-64/perl-bio-db-sam-1.41-2.tar.bz2
 Adding in variants from internal_defaults
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                                       Version  Build                 Channel                          Size
@@ -10,7 +10,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
   + _libgcc_mutex                                   0.1  conda_forge           conda-forge/linux-64           Cached
   + _openmp_mutex                                   4.5  1_gnu                 conda-forge/linux-64           Cached
-  + c-ares                                       1.17.2  h7f98852_0            conda-forge/linux-64           Cached
+  + c-ares                                       1.18.0  h7f98852_0            conda-forge/linux-64           Cached
   + ca-certificates                           2021.10.8  ha878542_0            conda-forge/linux-64           Cached
   + cairo                                        1.16.0  h6cf1ce9_1008         conda-forge/linux-64           Cached
   + clustalw                                        2.1  h7d875b9_6            bioconda/linux-64              318 KB
@@ -36,7 +36,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libgcc                                        7.2.0  h69d50b8_2            conda-forge/linux-64           304 KB
   + libgcc-ng                                    11.2.0  h1d223b6_11           conda-forge/linux-64           Cached
   + libgd                                         2.2.5  h8e06009_4            pkgs/main/linux-64             229 KB
-  + libglib                                      2.68.4  h174f98d_1            conda-forge/linux-64           Cached
+  + libglib                                      2.70.0  h174f98d_1            conda-forge/linux-64           Cached
   + libgomp                                      11.2.0  h1d223b6_11           conda-forge/linux-64           Cached
   + libiconv                                       1.16  h516909a_0            conda-forge/linux-64           Cached
   + libnghttp2                                   1.43.0  h812cca2_1            conda-forge/linux-64           Cached
@@ -70,7 +70,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + perl-base                                      2.23  pl526_1               bioconda/linux-64               10 KB
   + perl-bio-asn1-entrezgene                       1.73  pl526_0               bioconda/linux-64               22 KB
   + perl-bio-coordinate                        1.007001  pl526_0               bioconda/linux-64               33 KB
-  + perl-bio-db-sam                                1.41  2                     /tmp/tmpphfy_79y/linux-64      322 KB
+  + perl-bio-db-sam                                1.41  2                     /tmp/tmpsc1d6ir9/linux-64      322 KB
   + perl-bio-featureio                          1.6.905  pl526_1               bioconda/linux-64               37 KB
   + perl-bio-phylo                                 0.58  pl526_1               bioconda/linux-64              302 KB
   + perl-bio-samtools                              1.43  pl526h1341992_1       bioconda/linux-64              172 KB
@@ -264,10 +264,10 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + perl-xml-xpathengine                           0.14  pl526_2               bioconda/linux-64               26 KB
   + perl-xsloader                                  0.24  pl526_0               bioconda/linux-64                8 KB
   + perl-yaml                                      1.29  pl526_0               bioconda/noarch                 41 KB
-  + pip                                            21.3  pyhd8ed1ab_0          conda-forge/noarch             Cached
+  + pip                                          21.3.1  pyhd8ed1ab_0          conda-forge/noarch             Cached
   + pixman                                       0.40.0  h36c2ea0_0            conda-forge/linux-64           Cached
   + pthread-stubs                                   0.4  h36c2ea0_1001         conda-forge/linux-64           Cached
-  + python                                       3.7.10  hb7a2778_104_cpython  conda-forge/linux-64            57 MB
+  + python                                       3.7.12  hb7a2778_100_cpython  conda-forge/linux-64            57 MB
   + python_abi                                      3.7  2_cp37m               conda-forge/linux-64             4 KB
   + readline                                        8.1  h46c0cb4_0            conda-forge/linux-64           Cached
   + setuptools                                   58.2.0  py37h89c1867_0        conda-forge/linux-64          1008 KB
@@ -297,21 +297,21 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
   Install: 284 packages
 
-  Total download: 165 MB
+  Total download: 166 MB
 
 ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/perl-bio-db-sam_1634333150345/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+  environment location: /home/vsts/conda/conda-bld/perl-bio-db-sam_1635297215998/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
 
 
 The following NEW packages will be INSTALLED:
 
     _libgcc_mutex:                         0.1-conda_forge             conda-forge            
     _openmp_mutex:                         4.5-1_gnu                   conda-forge            
-    c-ares:                                1.17.2-h7f98852_0           conda-forge            
+    c-ares:                                1.18.0-h7f98852_0           conda-forge            
     ca-certificates:                       2021.10.8-ha878542_0        conda-forge            
     cairo:                                 1.16.0-h6cf1ce9_1008        conda-forge            
     clustalw:                              2.1-h7d875b9_6              bioconda               
@@ -337,7 +337,7 @@ The following NEW packages will be INSTALLED:
     libgcc:                                7.2.0-h69d50b8_2            conda-forge            
     libgcc-ng:                             11.2.0-h1d223b6_11          conda-forge            
     libgd:                                 2.2.5-h8e06009_4                                   
-    libglib:                               2.68.4-h174f98d_1           conda-forge            
+    libglib:                               2.70.0-h174f98d_1           conda-forge            
     libgomp:                               11.2.0-h1d223b6_11          conda-forge            
     libiconv:                              1.16-h516909a_0             conda-forge            
     libnghttp2:                            1.43.0-h812cca2_1           conda-forge            
@@ -371,7 +371,7 @@ The following NEW packages will be INSTALLED:
     perl-base:                             2.23-pl526_1                bioconda               
     perl-bio-asn1-entrezgene:              1.73-pl526_0                bioconda               
     perl-bio-coordinate:                   1.007001-pl526_0            bioconda               
-    perl-bio-db-sam:                       1.41-2                      file:///tmp/tmpphfy_79y
+    perl-bio-db-sam:                       1.41-2                      file:///tmp/tmpsc1d6ir9
     perl-bio-featureio:                    1.6.905-pl526_1             bioconda               
     perl-bio-phylo:                        0.58-pl526_1                bioconda               
     perl-bio-samtools:                     1.43-pl526h1341992_1        bioconda               
@@ -565,10 +565,10 @@ The following NEW packages will be INSTALLED:
     perl-xml-xpathengine:                  0.14-pl526_2                bioconda               
     perl-xsloader:                         0.24-pl526_0                bioconda               
     perl-yaml:                             1.29-pl526_0                bioconda               
-    pip:                                   21.3-pyhd8ed1ab_0           conda-forge            
+    pip:                                   21.3.1-pyhd8ed1ab_0         conda-forge            
     pixman:                                0.40.0-h36c2ea0_0           conda-forge            
     pthread-stubs:                         0.4-h36c2ea0_1001           conda-forge            
-    python:                                3.7.10-hb7a2778_104_cpython conda-forge            
+    python:                                3.7.12-hb7a2778_100_cpython conda-forge            
     python_abi:                            3.7-2_cp37m                 conda-forge            
     readline:                              8.1-h46c0cb4_0              conda-forge            
     setuptools:                            58.2.0-py37h89c1867_0       conda-forge            
@@ -597,8 +597,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/perl-bio-db-sam_1634333150345/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
-export SRC_DIR=/home/vsts/conda/conda-bld/perl-bio-db-sam_1634333150345/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/perl-bio-db-sam_1635297215998/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+export SRC_DIR=/home/vsts/conda/conda-bld/perl-bio-db-sam_1635297215998/test_tmp
 import: Bio::DB::Sam
 
 Leaving build/test directories:
