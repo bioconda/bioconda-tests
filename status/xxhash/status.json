@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T12:16:16+00:00"}
+{
+ "started_at": "2021-10-27T12:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "xxhash",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7f98852_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "xxhash",
+      "subdir": "linux-64",
+      "version": "0.8.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "xxhash",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h35c211d_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "xxhash",
+      "subdir": "osx-64",
+      "version": "0.8.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
