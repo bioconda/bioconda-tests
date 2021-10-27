@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-27T00:02:57+00:00"}
+{
+ "started_at": "2021-10-27T00:02:57+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pispino",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pispino",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pispino",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pispino",
+      "subdir": "osx-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
