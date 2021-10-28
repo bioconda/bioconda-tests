@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T06:02:13+00:00"}
+{
+ "started_at": "2021-10-28T06:02:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-venndiagram",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h6115d3f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-venndiagram",
+      "subdir": "linux-64",
+      "version": "1.6.20"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-venndiagram",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h6115d3f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-venndiagram",
+      "subdir": "osx-64",
+      "version": "1.6.20"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

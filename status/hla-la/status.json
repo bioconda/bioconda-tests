@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T06:02:13+00:00"}
+{
+ "started_at": "2021-10-28T06:02:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hla-la",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h22a709c_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "hla-la",
+      "subdir": "linux-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
