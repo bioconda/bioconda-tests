@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T14:16:18+00:00"}
+{
+ "started_at": "2021-10-28T14:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "suds-jurko",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hf3d152e_1005",
+      "build_number": 1005,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "suds-jurko",
+      "subdir": "linux-64",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "suds-jurko",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h6e9494a_1005",
+      "build_number": 1005,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "suds-jurko",
+      "subdir": "osx-64",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
