@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T15:31:30+00:00"}
+{
+ "started_at": "2021-10-28T15:31:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-rphylip",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.4.1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-rphylip",
+      "subdir": "linux-64",
+      "version": "0.1_23"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-rphylip",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.4.1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-rphylip",
+      "subdir": "osx-64",
+      "version": "0.1_23"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
