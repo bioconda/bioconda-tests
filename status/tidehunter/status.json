@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T21:16:17+00:00"}
+{
+ "started_at": "2021-10-28T21:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tidehunter",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "tidehunter",
+      "subdir": "linux-64",
+      "version": "1.5.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "tidehunter",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfd59bb5_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "tidehunter",
+      "subdir": "osx-64",
+      "version": "1.5.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
