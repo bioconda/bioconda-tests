@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T07:31:26+00:00"}
+{
+ "started_at": "2021-10-28T07:31:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gdal",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h218ed2d_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "gdal",
+      "subdir": "linux-64",
+      "version": "3.3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
