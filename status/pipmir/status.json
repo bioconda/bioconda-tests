@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-10-28T15:01:24+00:00"}
+{
+ "started_at": "2021-10-28T15:01:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pipmir",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pipmir",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pipmir",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
