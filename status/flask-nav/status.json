@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T13:16:14+00:00"}
+{
+ "started_at": "2021-10-28T13:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "flask-nav",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "flask-nav",
+      "subdir": "noarch",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "flask-nav",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "flask-nav",
+      "subdir": "noarch",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
