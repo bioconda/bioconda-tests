@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T18:46:18+00:00"}
+{
+ "started_at": "2021-10-28T18:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ectyper",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ectyper",
+      "subdir": "noarch",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ectyper",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ectyper",
+      "subdir": "noarch",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
