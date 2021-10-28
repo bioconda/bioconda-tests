@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T06:31:30+00:00"}
+{
+ "started_at": "2021-10-28T06:31:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "nf-core",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "nf-core",
+      "subdir": "noarch",
+      "version": "2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "nf-core",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "nf-core",
+      "subdir": "noarch",
+      "version": "2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

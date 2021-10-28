@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T06:31:30+00:00"}
+{
+ "started_at": "2021-10-28T06:31:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "emmix",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he991be0_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "emmix",
+      "subdir": "linux-64",
+      "version": "1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
