@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T17:01:27+00:00"}
+{
+ "started_at": "2021-10-28T17:01:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pindel",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h05f6578_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pindel",
+      "subdir": "linux-64",
+      "version": "0.2.5b9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
