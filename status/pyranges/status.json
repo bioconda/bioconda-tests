@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T16:46:14+00:00"}
+{
+ "started_at": "2021-10-28T16:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyranges",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyranges",
+      "subdir": "noarch",
+      "version": "0.0.112"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyranges",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyranges",
+      "subdir": "noarch",
+      "version": "0.0.112"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
