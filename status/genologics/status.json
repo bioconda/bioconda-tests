@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T17:31:22+00:00"}
+{
+ "started_at": "2021-10-28T17:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "genologics",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "genologics",
+      "subdir": "noarch",
+      "version": "0.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "genologics",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "genologics",
+      "subdir": "noarch",
+      "version": "0.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
