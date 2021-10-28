@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T07:46:17+00:00"}
+{
+ "started_at": "2021-10-28T07:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyega3",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyega3",
+      "subdir": "noarch",
+      "version": "3.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyega3",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyega3",
+      "subdir": "noarch",
+      "version": "3.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
