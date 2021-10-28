@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T08:46:20+00:00"}
+{
+ "started_at": "2021-10-28T08:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "targqc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py37hb3f55d8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "targqc",
+      "subdir": "linux-64",
+      "version": "1.8.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "targqc",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py37h86efe34_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "targqc",
+      "subdir": "osx-64",
+      "version": "1.8.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
