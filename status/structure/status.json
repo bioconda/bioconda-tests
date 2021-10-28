@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T14:01:28+00:00"}
+{
+ "started_at": "2021-10-28T14:01:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "structure",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "structure",
+      "subdir": "linux-64",
+      "version": "2.3.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "structure",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb4d813b_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "structure",
+      "subdir": "osx-64",
+      "version": "2.3.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
