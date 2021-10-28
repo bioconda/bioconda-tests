@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T11:01:26+00:00"}
+{
+ "started_at": "2021-10-28T11:01:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ucsc-paratestjob",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h0b8a92a_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ucsc-paratestjob",
+      "subdir": "linux-64",
+      "version": "377"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ucsc-paratestjob",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h516baf0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ucsc-paratestjob",
+      "subdir": "osx-64",
+      "version": "377"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
