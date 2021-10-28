@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T00:31:28+00:00"}
+{
+ "started_at": "2021-10-28T00:31:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fast5-research",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fast5-research",
+      "subdir": "noarch",
+      "version": "1.2.22"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fast5-research",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fast5-research",
+      "subdir": "noarch",
+      "version": "1.2.22"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

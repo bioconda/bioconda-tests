@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T00:31:28+00:00"}
+{
+ "started_at": "2021-10-28T00:31:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pymisc-utils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39ha5cef99_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pymisc-utils",
+      "subdir": "linux-64",
+      "version": "0.2.11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
