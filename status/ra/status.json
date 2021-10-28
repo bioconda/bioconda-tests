@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-28T07:16:26+00:00"}
+{
+ "started_at": "2021-10-28T07:16:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ra",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ra",
+      "subdir": "linux-64",
+      "version": "0.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ra",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hd174df1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ra",
+      "subdir": "osx-64",
+      "version": "0.2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
