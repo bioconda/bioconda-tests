@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T05:31:22+00:00"}
+{
+ "started_at": "2021-10-28T05:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cap-mirseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.2.2_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "cap-mirseq",
+      "subdir": "linux-64",
+      "version": "version"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
