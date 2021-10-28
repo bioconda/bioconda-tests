@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T23:01:53+00:00"}
+{
+ "started_at": "2021-10-28T23:01:53+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "slang",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h4cd885f_1002",
+      "build_number": 1002,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "slang",
+      "subdir": "linux-64",
+      "version": "2.3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
