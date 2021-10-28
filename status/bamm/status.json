@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-28T04:01:19+00:00"}
+{
+ "started_at": "2021-10-28T04:01:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bamm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27hf4361d6_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bamm",
+      "subdir": "linux-64",
+      "version": "1.7.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
