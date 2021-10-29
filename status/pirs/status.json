@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T12:31:29+00:00"}
+{
+ "started_at": "2021-10-29T12:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pirs",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hd85b1e3_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pirs",
+      "subdir": "linux-64",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
