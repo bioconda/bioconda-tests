@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T09:46:17+00:00"}
+{
+ "started_at": "2021-10-29T09:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-ddrtree",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h9c3ff4c_1004",
+      "build_number": 1004,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-ddrtree",
+      "subdir": "linux-64",
+      "version": "0.1.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
