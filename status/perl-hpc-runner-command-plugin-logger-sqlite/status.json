@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T10:16:48+00:00"}
+{
+ "started_at": "2021-10-29T10:16:48+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-hpc-runner-command-plugin-logger-sqlite",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h65ede16_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-hpc-runner-command-plugin-logger-sqlite",
+      "subdir": "linux-64",
+      "version": "0.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
