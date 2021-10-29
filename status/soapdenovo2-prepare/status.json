@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T02:31:16+00:00"}
+{
+ "started_at": "2021-10-29T02:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "soapdenovo2-prepare",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "soapdenovo2-prepare",
+      "subdir": "linux-64",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "soapdenovo2-prepare",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h188c3c3_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "soapdenovo2-prepare",
+      "subdir": "osx-64",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
