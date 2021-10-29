@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T20:01:25+00:00"}
+{
+ "started_at": "2021-10-29T20:01:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "soapsplice",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9ee0642_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "soapsplice",
+      "subdir": "linux-64",
+      "version": "1.10"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
