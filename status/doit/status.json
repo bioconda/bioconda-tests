@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T18:46:15+00:00"}
+{
+ "started_at": "2021-10-29T18:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "doit",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hde42818_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "doit",
+      "subdir": "linux-64",
+      "version": "0.33.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
