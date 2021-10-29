@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T15:16:24+00:00"}
+{
+ "started_at": "2021-10-29T15:16:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-seurat-scripts",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r341_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-seurat-scripts",
+      "subdir": "linux-64",
+      "version": "0.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-seurat-scripts",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r341_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-seurat-scripts",
+      "subdir": "osx-64",
+      "version": "0.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
