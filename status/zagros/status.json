@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T15:46:15+00:00"}
+{
+ "started_at": "2021-10-29T15:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "zagros",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h0b691a7_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "zagros",
+      "subdir": "linux-64",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
