@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T19:46:26+00:00"}
+{
+ "started_at": "2021-10-29T19:46:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "platypus-conquistador",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "platypus-conquistador",
+      "subdir": "linux-64",
+      "version": "0.9.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "platypus-conquistador",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "platypus-conquistador",
+      "subdir": "noarch",
+      "version": "0.9.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
