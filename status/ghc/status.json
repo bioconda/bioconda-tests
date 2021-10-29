@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-29T21:01:21+00:00"}
+{
+ "started_at": "2021-10-29T21:01:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ghc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h4a049f1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "ghc",
+      "subdir": "linux-64",
+      "version": "8.10.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
