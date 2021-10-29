@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T14:16:19+00:00"}
+{
+ "started_at": "2021-10-29T14:16:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ngshmmalign",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h205c40f_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ngshmmalign",
+      "subdir": "linux-64",
+      "version": "0.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ngshmmalign",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hcc1aec9_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ngshmmalign",
+      "subdir": "osx-64",
+      "version": "0.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
