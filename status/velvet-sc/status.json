@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T18:01:32+00:00"}
+{
+ "started_at": "2021-10-29T18:01:32+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "velvet-sc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "velvet-sc",
+      "subdir": "linux-64",
+      "version": "0.7.62"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "velvet-sc",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5.22.0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "velvet-sc",
+      "subdir": "osx-64",
+      "version": "0.7.62"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
