@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T03:46:10+00:00"}
+{
+ "started_at": "2021-10-29T03:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "crispresso2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h55ae562_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "crispresso2",
+      "subdir": "linux-64",
+      "version": "2.2.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "crispresso2",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hcd883a5_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "crispresso2",
+      "subdir": "osx-64",
+      "version": "2.2.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
