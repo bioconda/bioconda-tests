@@ -1,8 +1,8 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpx581_9ti/linux-64/lohhla-20171108-1.tar.bz2
+TEST START: /tmp/tmpg77022jt/linux-64/lohhla-20171108-1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpkyejdky3/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmp579so1b3/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                               Version  Build                Channel                         Size
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -30,7 +30,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + bioconductor-zlibbioc                1.38.0  r41hd029910_0        bioconda/linux-64             113 KB
   + bwidget                              1.9.14  ha770c72_1           conda-forge/linux-64          120 KB
   + bzip2                                 1.0.8  h7f98852_4           conda-forge/linux-64          Cached
-  + c-ares                               1.17.2  h7f98852_0           conda-forge/linux-64          Cached
+  + c-ares                               1.18.1  h7f98852_0           conda-forge/linux-64          Cached
   + ca-certificates                   2021.10.8  ha878542_0           conda-forge/linux-64          Cached
   + cairo                                1.16.0  h6cf1ce9_1008        conda-forge/linux-64            1 MB
   + curl                                 7.79.1  h2574ce0_1           conda-forge/linux-64          153 KB
@@ -54,8 +54,8 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + gxx_impl_linux-64                     9.4.0  h03d3576_11          conda-forge/linux-64           11 MB
   + gxx_linux-64                          9.4.0  h0316aca_1           conda-forge/linux-64           23 KB
   + harfbuzz                              2.9.1  h83ec7ef_1           conda-forge/linux-64            2 MB
-  + htslib                                 1.13  h9093b5e_0           bioconda/linux-64               2 MB
-  + icu                                    68.1  h58526e2_0           conda-forge/linux-64          Cached
+  + htslib                                 1.14  h9093b5e_0           bioconda/linux-64               2 MB
+  + icu                                    68.2  h9c3ff4c_0           conda-forge/linux-64           13 MB
   + jbig                                    2.1  h7f98852_2003        conda-forge/linux-64           43 KB
   + jpeg                                     9d  h36c2ea0_0           conda-forge/linux-64          264 KB
   + kernel-headers_linux-64              2.6.32  he073ed8_14          conda-forge/noarch            708 KB
@@ -74,7 +74,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libgcc-ng                            11.2.0  h1d223b6_11          conda-forge/linux-64          Cached
   + libgfortran-ng                       11.2.0  h69a702a_11          conda-forge/linux-64           19 KB
   + libgfortran5                         11.2.0  h5c6108e_11          conda-forge/linux-64            2 MB
-  + libglib                              2.68.4  h174f98d_1           conda-forge/linux-64            3 MB
+  + libglib                              2.70.0  h174f98d_1           conda-forge/linux-64            3 MB
   + libgomp                              11.2.0  h1d223b6_11          conda-forge/linux-64          Cached
   + libiconv                               1.16  h516909a_0           conda-forge/linux-64          Cached
   + liblapack                             3.9.0  12_linux64_openblas  conda-forge/linux-64           12 KB
@@ -89,9 +89,9 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libuuid                              2.32.1  h7f98852_1000        conda-forge/linux-64           28 KB
   + libwebp-base                          1.2.1  h7f98852_0           conda-forge/linux-64          845 KB
   + libxcb                                 1.13  h7f98852_1003        conda-forge/linux-64          395 KB
-  + libxml2                              2.9.12  h72842e0_0           conda-forge/linux-64          Cached
+  + libxml2                              2.9.12  h72842e0_0           conda-forge/linux-64          772 KB
   + libzlib                              1.2.11  h36c2ea0_1013        conda-forge/linux-64          Cached
-  + lohhla                             20171108  1                    /tmp/tmpx581_9ti/linux-64      20 KB
+  + lohhla                             20171108  1                    /tmp/tmpg77022jt/linux-64      20 KB
   + lz4-c                                 1.9.3  h9c3ff4c_1           conda-forge/linux-64          Cached
   + make                                    4.3  hd18ef5c_1           conda-forge/linux-64          507 KB
   + ncurses                                 6.2  h58526e2_4           conda-forge/linux-64          Cached
@@ -101,7 +101,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + pango                               1.48.10  hb8ff022_1           conda-forge/linux-64          400 KB
   + pcre                                   8.45  h9c3ff4c_0           conda-forge/linux-64          253 KB
   + pcre2                                 10.37  h032f7d1_0           conda-forge/linux-64            1 MB
-  + picard                               2.26.3  hdfd78af_0           bioconda/noarch                16 MB
+  + picard                               2.26.4  hdfd78af_0           bioconda/noarch                16 MB
   + pixman                               0.40.0  h36c2ea0_0           conda-forge/linux-64          627 KB
   + pthread-stubs                           0.4  h36c2ea0_1001        conda-forge/linux-64            5 KB
   + r-ade4                               1.7_18  r41he454529_0        conda-forge/linux-64            5 MB
@@ -130,15 +130,15 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + r-progress                            1.2.2  r41hc72bb7e_2        conda-forge/noarch             91 KB
   + r-r6                                  2.5.1  r41hc72bb7e_0        conda-forge/noarch             89 KB
   + r-rcurl                            1.98_1.5  r41hcfec24a_0        conda-forge/linux-64          989 KB
-  + r-rlang                              0.4.11  r41hcfec24a_0        conda-forge/linux-64            1 MB
+  + r-rlang                              0.4.12  r41hcfec24a_0        conda-forge/linux-64            1 MB
   + r-segmented                           1.3_4  r41hc72bb7e_0        conda-forge/noarch            550 KB
   + r-seqinr                              4.2_8  r41hcfec24a_0        conda-forge/linux-64            4 MB
-  + r-snow                                0.4_3  r41hc72bb7e_1002     conda-forge/noarch            124 KB
+  + r-snow                                0.4_4  r41hc72bb7e_0        conda-forge/noarch            113 KB
   + r-sp                                  1.4_5  r41hcfec24a_0        conda-forge/linux-64            2 MB
   + r-vctrs                               0.3.8  r41hcfec24a_1        conda-forge/linux-64            1 MB
   + r-zoo                                 1.8_9  r41hcfec24a_1        conda-forge/linux-64            1 MB
   + readline                                8.1  h46c0cb4_0           conda-forge/linux-64          Cached
-  + samtools                               1.13  h8c37831_0           bioconda/linux-64             397 KB
+  + samtools                               1.14  hb421002_0           bioconda/linux-64             411 KB
   + sed                                     4.8  he412f7d_0           conda-forge/linux-64          264 KB
   + sysroot_linux-64                       2.12  he073ed8_14          conda-forge/noarch             32 MB
   + tk                                   8.6.11  h27826a3_1           conda-forge/linux-64          Cached
@@ -169,14 +169,14 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
   Install: 155 packages
 
-  Total download: 499 MB
+  Total download: 513 MB
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/lohhla_1634515402429/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+  environment location: /home/vsts/conda/conda-bld/lohhla_1635511670209/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
 
 
 The following NEW packages will be INSTALLED:
@@ -202,7 +202,7 @@ The following NEW packages will be INSTALLED:
     bioconductor-zlibbioc:         1.38.0-r41hd029910_0       bioconda               
     bwidget:                       1.9.14-ha770c72_1          conda-forge            
     bzip2:                         1.0.8-h7f98852_4           conda-forge            
-    c-ares:                        1.17.2-h7f98852_0          conda-forge            
+    c-ares:                        1.18.1-h7f98852_0          conda-forge            
     ca-certificates:               2021.10.8-ha878542_0       conda-forge            
     cairo:                         1.16.0-h6cf1ce9_1008       conda-forge            
     curl:                          7.79.1-h2574ce0_1          conda-forge            
@@ -226,8 +226,8 @@ The following NEW packages will be INSTALLED:
     gxx_impl_linux-64:             9.4.0-h03d3576_11          conda-forge            
     gxx_linux-64:                  9.4.0-h0316aca_1           conda-forge            
     harfbuzz:                      2.9.1-h83ec7ef_1           conda-forge            
-    htslib:                        1.13-h9093b5e_0            bioconda               
-    icu:                           68.1-h58526e2_0            conda-forge            
+    htslib:                        1.14-h9093b5e_0            bioconda               
+    icu:                           68.2-h9c3ff4c_0            conda-forge            
     jbig:                          2.1-h7f98852_2003          conda-forge            
     jpeg:                          9d-h36c2ea0_0              conda-forge            
     kernel-headers_linux-64:       2.6.32-he073ed8_14         conda-forge            
@@ -246,7 +246,7 @@ The following NEW packages will be INSTALLED:
     libgcc-ng:                     11.2.0-h1d223b6_11         conda-forge            
     libgfortran-ng:                11.2.0-h69a702a_11         conda-forge            
     libgfortran5:                  11.2.0-h5c6108e_11         conda-forge            
-    libglib:                       2.68.4-h174f98d_1          conda-forge            
+    libglib:                       2.70.0-h174f98d_1          conda-forge            
     libgomp:                       11.2.0-h1d223b6_11         conda-forge            
     libiconv:                      1.16-h516909a_0            conda-forge            
     liblapack:                     3.9.0-12_linux64_openblas  conda-forge            
@@ -263,7 +263,7 @@ The following NEW packages will be INSTALLED:
     libxcb:                        1.13-h7f98852_1003         conda-forge            
     libxml2:                       2.9.12-h72842e0_0          conda-forge            
     libzlib:                       1.2.11-h36c2ea0_1013       conda-forge            
-    lohhla:                        20171108-1                 file:///tmp/tmpx581_9ti
+    lohhla:                        20171108-1                 file:///tmp/tmpg77022jt
     lz4-c:                         1.9.3-h9c3ff4c_1           conda-forge            
     make:                          4.3-hd18ef5c_1             conda-forge            
     ncurses:                       6.2-h58526e2_4             conda-forge            
@@ -273,7 +273,7 @@ The following NEW packages will be INSTALLED:
     pango:                         1.48.10-hb8ff022_1         conda-forge            
     pcre:                          8.45-h9c3ff4c_0            conda-forge            
     pcre2:                         10.37-h032f7d1_0           conda-forge            
-    picard:                        2.26.3-hdfd78af_0          bioconda               
+    picard:                        2.26.4-hdfd78af_0          bioconda               
     pixman:                        0.40.0-h36c2ea0_0          conda-forge            
     pthread-stubs:                 0.4-h36c2ea0_1001          conda-forge            
     r-ade4:                        1.7_18-r41he454529_0       conda-forge            
@@ -302,15 +302,15 @@ The following NEW packages will be INSTALLED:
     r-progress:                    1.2.2-r41hc72bb7e_2        conda-forge            
     r-r6:                          2.5.1-r41hc72bb7e_0        conda-forge            
     r-rcurl:                       1.98_1.5-r41hcfec24a_0     conda-forge            
-    r-rlang:                       0.4.11-r41hcfec24a_0       conda-forge            
+    r-rlang:                       0.4.12-r41hcfec24a_0       conda-forge            
     r-segmented:                   1.3_4-r41hc72bb7e_0        conda-forge            
     r-seqinr:                      4.2_8-r41hcfec24a_0        conda-forge            
-    r-snow:                        0.4_3-r41hc72bb7e_1002     conda-forge            
+    r-snow:                        0.4_4-r41hc72bb7e_0        conda-forge            
     r-sp:                          1.4_5-r41hcfec24a_0        conda-forge            
     r-vctrs:                       0.3.8-r41hcfec24a_1        conda-forge            
     r-zoo:                         1.8_9-r41hcfec24a_1        conda-forge            
     readline:                      8.1-h46c0cb4_0             conda-forge            
-    samtools:                      1.13-h8c37831_0            bioconda               
+    samtools:                      1.14-hb421002_0            bioconda               
     sed:                           4.8-he412f7d_0             conda-forge            
     sysroot_linux-64:              2.12-he073ed8_14           conda-forge            
     tk:                            8.6.11-h27826a3_1          conda-forge            
@@ -342,7 +342,7 @@ Verifying transaction: ...working... done
 Executing transaction: ...working... 
 ========================= Novoalign information ===========================================
 Novoalign is installed. Documentation installed in
-/home/vsts/conda/conda-bld/lohhla_1634515402429/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/share/doc/novoalign
+/home/vsts/conda/conda-bld/lohhla_1635511670209/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/share/doc/novoalign
 
 Commercial use requires a license; contact sales@novocraft.com.
 License also adds multi-threading and other features.
@@ -361,8 +361,8 @@ You must include a copy of this license if you share any Novocraft programs.
 ======================== End of novoalign information ======================================
 
 done
-export PREFIX=/home/vsts/conda/conda-bld/lohhla_1634515402429/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
-export SRC_DIR=/home/vsts/conda/conda-bld/lohhla_1634515402429/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/lohhla_1635511670209/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/lohhla_1635511670209/test_tmp
 INFO: activate-binutils_linux-64.sh made the following environmental changes:
 +ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
 +AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
@@ -385,7 +385,7 @@ INFO: activate-gcc_linux-64.sh made the following environmental changes:
 +CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/lohhla-20171108 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
-+CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/lohhla_1634515402429/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/lohhla_1635511670209/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
 +CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
 +CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
 +CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
