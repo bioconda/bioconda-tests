@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-29T14:46:13+00:00"}
+{
+ "started_at": "2021-10-29T14:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pblaa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pblaa",
+      "subdir": "linux-64",
+      "version": "2.4.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pblaa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pblaa",
+      "subdir": "noarch",
+      "version": "2.4.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
