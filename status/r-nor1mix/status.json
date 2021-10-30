@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T15:31:10+00:00"}
+{
+ "started_at": "2021-10-30T15:31:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-nor1mix",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-nor1mix",
+      "subdir": "noarch",
+      "version": "1.3_0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-nor1mix",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-nor1mix",
+      "subdir": "noarch",
+      "version": "1.3_0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
