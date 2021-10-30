@@ -1,6 +1,6 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpeiibzt16/osx-64/phylocsf-1.0.1-h48c43c4_0.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpk6uqcqcl/osx-64/phylocsf-1.0.1-h48c43c4_0.tar.bz2
 Reloading output folder: /Users/runner/conda/conda-bld
   Package                 Version  Build               Channel                                                                   Size
 ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -30,7 +30,7 @@ Reloading output folder: /Users/runner/conda/conda-bld
   + llvm-openmp            12.0.1  hda6cdc1_1          conda-forge/osx-64                                                      Cached
   + llvm-tools             11.1.0  hd011deb_2          conda-forge/osx-64                                                       12 MB
   + ocaml                  4.11.2  h0d85af4_2          conda-forge/osx-64                                                      138 MB
-  + phylocsf                1.0.1  h48c43c4_0          /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpeiibzt16/osx-64       1 MB
+  + phylocsf                1.0.1  h48c43c4_0          /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpk6uqcqcl/osx-64       1 MB
   + tapi                1100.0.11  h9ce4665_0          conda-forge/osx-64                                                      Cached
   + zlib                   1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
 
@@ -45,7 +45,7 @@ Reloading output folder: /Users/runner/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/phylocsf_1634607634449/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+  environment location: /Users/runner/conda/conda-bld/phylocsf_1635616533971/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
 
 
 The following NEW packages will be INSTALLED:
@@ -73,15 +73,15 @@ The following NEW packages will be INSTALLED:
     llvm-openmp:        12.0.1-hda6cdc1_1         conda-forge                                                        
     llvm-tools:         11.1.0-hd011deb_2         conda-forge                                                        
     ocaml:              4.11.2-h0d85af4_2         conda-forge                                                        
-    phylocsf:           1.0.1-h48c43c4_0          file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpeiibzt16
+    phylocsf:           1.0.1-h48c43c4_0          file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpk6uqcqcl
     tapi:               1100.0.11-h9ce4665_0      conda-forge                                                        
     zlib:               1.2.11-h9173be1_1013      conda-forge                                                        
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/phylocsf_1634607634449/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
-export SRC_DIR=/Users/runner/conda/conda-bld/phylocsf_1634607634449/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/phylocsf_1635616533971/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/phylocsf_1635616533971/test_tmp
 INFO: activate_clang_osx-64.sh made the following environmental changes:
 +AR=x86_64-apple-darwin13.4.0-ar
 +AS=x86_64-apple-darwin13.4.0-as
@@ -90,9 +90,9 @@ INFO: activate_clang_osx-64.sh made the following environmental changes:
 +CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/phylocsf-1.0.1 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
 +CHECKSYMS=x86_64-apple-darwin13.4.0-checksyms
 +CLANG=x86_64-apple-darwin13.4.0-clang
-+CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-apple-darwin13.4.0-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-apple-darwin13.4.0-strip -DCMAKE_INSTALL_NAME_TOOL=$PREFIX/bin/x86_64-apple-darwin13.4.0-install_name_tool -DCMAKE_LIBTOOL=$PREFIX/bin/x86_64-apple-darwin13.4.0-libtool -DCMAKE_OSX_DEPLOYMENT_TARGET=10.9 -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode_12.5.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-apple-darwin13.4.0-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-apple-darwin13.4.0-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-apple-darwin13.4.0-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-apple-darwin13.4.0-strip -DCMAKE_INSTALL_NAME_TOOL=$PREFIX/bin/x86_64-apple-darwin13.4.0-install_name_tool -DCMAKE_LIBTOOL=$PREFIX/bin/x86_64-apple-darwin13.4.0-libtool -DCMAKE_OSX_DEPLOYMENT_TARGET=10.9 -DCMAKE_BUILD_TYPE=Release -DCMAKE_OSX_SYSROOT=/Applications/Xcode_13.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
 +CMAKE_PREFIX_PATH=:$PREFIX
-+CONDA_BUILD_SYSROOT=/Applications/Xcode_12.5.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
++CONDA_BUILD_SYSROOT=/Applications/Xcode_13.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 +CONDA_TOOLCHAIN_BUILD=x86_64-apple-darwin13.4.0
 +CONDA_TOOLCHAIN_HOST=x86_64-apple-darwin13.4.0
 +CPPFLAGS=-D_FORTIFY_SOURCE=2 -isystem $PREFIX/include -mmacosx-version-min=10.9
@@ -113,7 +113,7 @@ INFO: activate_clang_osx-64.sh made the following environmental changes:
 +PAGESTUFF=x86_64-apple-darwin13.4.0-pagestuff
 +RANLIB=x86_64-apple-darwin13.4.0-ranlib
 +REDO_PREBINDING=x86_64-apple-darwin13.4.0-redo_prebinding
-+SDKROOT=/Applications/Xcode_12.5.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
++SDKROOT=/Applications/Xcode_13.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 +SEGEDIT=x86_64-apple-darwin13.4.0-segedit
 +SEG_ADDR_TABLE=x86_64-apple-darwin13.4.0-seg_addr_table
 +SEG_HACK=x86_64-apple-darwin13.4.0-seg_hack
