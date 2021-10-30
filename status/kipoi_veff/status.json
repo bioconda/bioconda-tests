@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T21:01:50+00:00"}
+{
+ "started_at": "2021-10-30T21:01:50+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "kipoi_veff",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh145b6a8_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kipoi_veff",
+      "subdir": "noarch",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "kipoi_veff",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh145b6a8_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kipoi_veff",
+      "subdir": "noarch",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
