@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T14:16:07+00:00"}
+{
+ "started_at": "2021-10-30T14:16:07+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "kleborate",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kleborate",
+      "subdir": "noarch",
+      "version": "2.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "kleborate",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kleborate",
+      "subdir": "noarch",
+      "version": "2.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
