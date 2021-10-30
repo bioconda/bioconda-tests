@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T23:01:10+00:00"}
+{
+ "started_at": "2021-10-30T23:01:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastml",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc9558a2_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fastml",
+      "subdir": "linux-64",
+      "version": "3.11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
