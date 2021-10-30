@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T05:46:13+00:00"}
+{
+ "started_at": "2021-10-30T05:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "migrate-n",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h796e4a5_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "migrate-n",
+      "subdir": "linux-64",
+      "version": "3.6.11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
