@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T03:01:17+00:00"}
+{
+ "started_at": "2021-10-30T03:01:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-ngsplotdb-hg38",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-ngsplotdb-hg38",
+      "subdir": "linux-64",
+      "version": "3.00"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-ngsplotdb-hg38",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-ngsplotdb-hg38",
+      "subdir": "osx-64",
+      "version": "3.00"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
