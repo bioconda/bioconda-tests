@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T01:31:24+00:00"}
+{
+ "started_at": "2021-10-30T01:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bloocoo",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bloocoo",
+      "subdir": "linux-64",
+      "version": "1.0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bloocoo",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfd59bb5_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bloocoo",
+      "subdir": "osx-64",
+      "version": "1.0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

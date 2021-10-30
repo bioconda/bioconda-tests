@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T01:31:24+00:00"}
+{
+ "started_at": "2021-10-30T01:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "lambda",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h33c0355_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "lambda",
+      "subdir": "linux-64",
+      "version": "2.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
