@@ -1,10 +1,10 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpftl7v56r/linux-64/crb-blast-0.6.6-1.tar.bz2
+TEST START: /tmp/tmpo9a47n26/linux-64/crb-blast-0.6.6-1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpelu9g1sl/info/recipe/conda_build_config.yaml
-Renaming work directory '/home/vsts/conda/conda-bld/work' to '/home/vsts/conda/conda-bld/crb-blast_1634617452217/work_moved_crb-blast-0.6.6-1_linux-64'
-shutil.move(work)=/home/vsts/conda/conda-bld/work, dest=/home/vsts/conda/conda-bld/crb-blast_1634617452217/work_moved_crb-blast-0.6.6-1_linux-64)
+Adding in variants from /tmp/tmpgr1yspoc/info/recipe/conda_build_config.yaml
+Renaming work directory '/home/vsts/conda/conda-bld/work' to '/home/vsts/conda/conda-bld/crb-blast_1635625446800/work_moved_crb-blast-0.6.6-1_linux-64'
+shutil.move(work)=/home/vsts/conda/conda-bld/work, dest=/home/vsts/conda/conda-bld/crb-blast_1635625446800/work_moved_crb-blast-0.6.6-1_linux-64)
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                         Version  Build             Channel                         Size
 ───────────────────────────────────────────────────────────────────────────────────────────────────
@@ -15,9 +15,9 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + _openmp_mutex                     4.5  1_gnu             conda-forge/linux-64          Cached
   + blast                          2.12.0  pl5262h3289130_0  bioconda/linux-64              22 MB
   + bzip2                           1.0.8  h7f98852_4        conda-forge/linux-64          Cached
-  + c-ares                         1.17.2  h7f98852_0        conda-forge/linux-64          Cached
+  + c-ares                         1.18.1  h7f98852_0        conda-forge/linux-64          Cached
   + ca-certificates             2021.10.8  ha878542_0        conda-forge/linux-64          Cached
-  + crb-blast                       0.6.6  1                 /tmp/tmpftl7v56r/linux-64       4 MB
+  + crb-blast                       0.6.6  1                 /tmp/tmpo9a47n26/linux-64       4 MB
   + curl                           7.79.1  h2574ce0_1        conda-forge/linux-64          153 KB
   + entrez-direct                    15.6  he881be0_1        bioconda/linux-64               8 MB
   + gdbm                             1.18  h0a1914f_2        conda-forge/linux-64          190 KB
@@ -72,7 +72,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/crb-blast_1634617452217/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+  environment location: /home/vsts/conda/conda-bld/crb-blast_1635625446800/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
 
 
 The following NEW packages will be INSTALLED:
@@ -81,9 +81,9 @@ The following NEW packages will be INSTALLED:
     _openmp_mutex:           4.5-1_gnu               conda-forge            
     blast:                   2.12.0-pl5262h3289130_0 bioconda               
     bzip2:                   1.0.8-h7f98852_4        conda-forge            
-    c-ares:                  1.17.2-h7f98852_0       conda-forge            
+    c-ares:                  1.18.1-h7f98852_0       conda-forge            
     ca-certificates:         2021.10.8-ha878542_0    conda-forge            
-    crb-blast:               0.6.6-1                 file:///tmp/tmpftl7v56r
+    crb-blast:               0.6.6-1                 file:///tmp/tmpo9a47n26
     curl:                    7.79.1-h2574ce0_1       conda-forge            
     entrez-direct:           15.6-he881be0_1         bioconda               
     gdbm:                    1.18-h0a1914f_2         conda-forge            
@@ -130,8 +130,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/crb-blast_1634617452217/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
-export SRC_DIR=/home/vsts/conda/conda-bld/crb-blast_1634617452217/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/crb-blast_1635625446800/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/crb-blast_1635625446800/test_tmp
 
 Leaving build/test directories:
   Work:
