@@ -1,8 +1,8 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp_86uiepw/linux-64/mmvc-1.0.2-1.tar.bz2
+TEST START: /tmp/tmp1boab_zh/linux-64/mmvc-1.0.2-1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpbp4hi9mv/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmpuo2b_pmp/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                 Version  Build                      Channel                         Size
 ────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -13,7 +13,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + _openmp_mutex             4.5  1_gnu                      conda-forge/linux-64          Cached
   + arpack                  3.5.0  blas_openblas_202          conda-forge/linux-64          218 KB
   + blas                      1.1  openblas                   conda-forge/linux-64            1 KB
-  + c-ares                 1.17.2  h7f98852_0                 conda-forge/linux-64          Cached
+  + c-ares                 1.18.1  h7f98852_0                 conda-forge/linux-64          Cached
   + ca-certificates     2021.10.8  ha878542_0                 conda-forge/linux-64          Cached
   + curl                   7.79.1  h2574ce0_1                 conda-forge/linux-64          Cached
   + fftw                   3.3.10  nompi_h74d3f13_101         conda-forge/linux-64            6 MB
@@ -38,7 +38,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + libstdcxx-ng           11.2.0  he4da1e4_11                conda-forge/linux-64          Cached
   + libzlib                1.2.11  h36c2ea0_1013              conda-forge/linux-64          Cached
   + metis                   5.1.0  h58526e2_1006              conda-forge/linux-64            4 MB
-  + mmvc                    1.0.2  1                          /tmp/tmp_86uiepw/linux-64       3 MB
+  + mmvc                    1.0.2  1                          /tmp/tmp1boab_zh/linux-64       3 MB
   + mpfr                    4.1.0  h9202a9a_1                 conda-forge/linux-64            3 MB
   + ncurses                   6.2  h58526e2_4                 conda-forge/linux-64          Cached
   + openblas               0.2.20  8                          conda-forge/linux-64           17 MB
@@ -47,7 +47,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + openssl                1.1.1l  h7f98852_0                 conda-forge/linux-64          Cached
   + pcre2                   10.23  2                          conda-forge/linux-64          829 KB
   + suitesparse            5.10.1  h9e50725_1                 conda-forge/linux-64            2 MB
-  + tbb                  2021.3.0  h4bd325d_0                 conda-forge/linux-64            2 MB
+  + tbb                  2021.4.0  h4bd325d_0                 conda-forge/linux-64            2 MB
   + tk                     8.6.11  h27826a3_1                 conda-forge/linux-64          Cached
   + zlib                   1.2.11  h36c2ea0_1013              conda-forge/linux-64          Cached
 
@@ -55,14 +55,14 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
   Install: 41 packages
 
-  Total download: 89 MB
+  Total download: 88 MB
 
 ────────────────────────────────────────────────────────────────────────────────────────────────────
 
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/mmvc_1634573174158/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+  environment location: /home/vsts/conda/conda-bld/mmvc_1635577559203/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
 
 
 The following NEW packages will be INSTALLED:
@@ -71,7 +71,7 @@ The following NEW packages will be INSTALLED:
     _openmp_mutex:   4.5-1_gnu                       conda-forge            
     arpack:          3.5.0-blas_openblas_202         conda-forge             [blas_openblas]
     blas:            1.1-openblas                    conda-forge            
-    c-ares:          1.17.2-h7f98852_0               conda-forge            
+    c-ares:          1.18.1-h7f98852_0               conda-forge            
     ca-certificates: 2021.10.8-ha878542_0            conda-forge            
     curl:            7.79.1-h2574ce0_1               conda-forge            
     fftw:            3.3.10-nompi_h74d3f13_101       conda-forge            
@@ -96,7 +96,7 @@ The following NEW packages will be INSTALLED:
     libstdcxx-ng:    11.2.0-he4da1e4_11              conda-forge            
     libzlib:         1.2.11-h36c2ea0_1013            conda-forge            
     metis:           5.1.0-h58526e2_1006             conda-forge            
-    mmvc:            1.0.2-1                         file:///tmp/tmp_86uiepw
+    mmvc:            1.0.2-1                         file:///tmp/tmp1boab_zh
     mpfr:            4.1.0-h9202a9a_1                conda-forge            
     ncurses:         6.2-h58526e2_4                  conda-forge            
     openblas:        0.2.20-8                        conda-forge            
@@ -105,13 +105,13 @@ The following NEW packages will be INSTALLED:
     openssl:         1.1.1l-h7f98852_0               conda-forge            
     pcre2:           10.23-2                         conda-forge            
     suitesparse:     5.10.1-h9e50725_1               conda-forge            
-    tbb:             2021.3.0-h4bd325d_0             conda-forge            
+    tbb:             2021.4.0-h4bd325d_0             conda-forge            
     tk:              8.6.11-h27826a3_1               conda-forge            
     zlib:            1.2.11-h36c2ea0_1013            conda-forge            
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
-Executing transaction: ...working... INFO: Initializing package repository /home/vsts/conda/conda-bld/mmvc_1634573174158/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/julia/site/v0.6
+Executing transaction: ...working... INFO: Initializing package repository /home/vsts/conda/conda-bld/mmvc_1635577559203/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/share/julia/site/v0.6
 INFO: Cloning METADATA from https://github.com/JuliaLang/METADATA.jl
 ERROR: GitError(Code:ERROR, Class:Invalid, invalid version 0 on git_proxy_options)
 Stacktrace:
