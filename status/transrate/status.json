@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T18:01:16+00:00"}
+{
+ "started_at": "2021-10-30T18:01:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "transrate",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "transrate",
+      "subdir": "linux-64",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
