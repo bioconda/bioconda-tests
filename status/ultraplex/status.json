@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T11:46:16+00:00"}
+{
+ "started_at": "2021-10-30T11:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ultraplex",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h779adbc_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ultraplex",
+      "subdir": "linux-64",
+      "version": "1.2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ultraplex",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hb4d813b_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ultraplex",
+      "subdir": "osx-64",
+      "version": "1.2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
