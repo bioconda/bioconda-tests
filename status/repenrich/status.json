@@ -39,6 +39,44 @@
      "test": "success"
     }
    ]
+  },
+  {
+   "name": "repenrich",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "repenrich",
+      "subdir": "linux-64",
+      "version": "1.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "repenrich",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "repenrich",
+      "subdir": "osx-64",
+      "version": "1.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
   }
  ]
 }

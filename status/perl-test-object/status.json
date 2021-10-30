@@ -39,6 +39,44 @@
      "test": "success"
     }
    ]
+  },
+  {
+   "name": "perl-test-object",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-test-object",
+      "subdir": "linux-64",
+      "version": "0.08"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-test-object",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-test-object",
+      "subdir": "osx-64",
+      "version": "0.08"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
   }
  ]
 }

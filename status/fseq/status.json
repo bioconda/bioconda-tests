@@ -39,6 +39,44 @@
      "test": "success"
     }
    ]
+  },
+  {
+   "name": "fseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36pl5.22.0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fseq",
+      "subdir": "linux-64",
+      "version": "1.84"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fseq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36pl5.22.0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "fseq",
+      "subdir": "osx-64",
+      "version": "1.84"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
   }
  ]
 }
