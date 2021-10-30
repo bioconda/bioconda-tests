@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T14:01:57+00:00"}
+{
+ "started_at": "2021-10-30T14:01:57+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pypgatk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pypgatk",
+      "subdir": "noarch",
+      "version": "0.0.19"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pypgatk",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pypgatk",
+      "subdir": "noarch",
+      "version": "0.0.19"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
