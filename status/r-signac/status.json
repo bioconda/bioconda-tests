@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T07:16:14+00:00"}
+{
+ "started_at": "2021-10-30T07:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-signac",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h52a8340_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-signac",
+      "subdir": "linux-64",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-signac",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdb58930_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-signac",
+      "subdir": "osx-64",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
