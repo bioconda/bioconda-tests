@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T07:31:13+00:00"}
+{
+ "started_at": "2021-10-30T07:31:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-file-pushd",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-file-pushd",
+      "subdir": "linux-64",
+      "version": "1.016"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-file-pushd",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-file-pushd",
+      "subdir": "osx-64",
+      "version": "1.016"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
