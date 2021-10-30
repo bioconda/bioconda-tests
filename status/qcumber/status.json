@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-10-30T05:16:14+00:00"}
+{
+ "started_at": "2021-10-30T05:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "qcumber",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "qcumber",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
