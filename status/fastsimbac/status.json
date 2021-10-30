@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T09:16:12+00:00"}
+{
+ "started_at": "2021-10-30T09:16:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastsimbac",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h795f8d8_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fastsimbac",
+      "subdir": "linux-64",
+      "version": "1.0.1_bd3ad13d8f79"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fastsimbac",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "heb9f3b0_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "fastsimbac",
+      "subdir": "osx-64",
+      "version": "1.0.1_bd3ad13d8f79"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
