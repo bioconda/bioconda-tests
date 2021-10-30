@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T16:46:08+00:00"}
+{
+ "started_at": "2021-10-30T16:46:08+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "anndata2ri",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "anndata2ri",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "anndata2ri",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "anndata2ri",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
