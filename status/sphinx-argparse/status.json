@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T06:01:24+00:00"}
+{
+ "started_at": "2021-10-30T06:01:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "sphinx-argparse",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhd8ed1ab_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "sphinx-argparse",
+      "subdir": "noarch",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "sphinx-argparse",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhd8ed1ab_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "sphinx-argparse",
+      "subdir": "noarch",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
