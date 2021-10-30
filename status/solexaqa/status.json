@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T08:01:14+00:00"}
+{
+ "started_at": "2021-10-30T08:01:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "solexaqa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc7320fa_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "solexaqa",
+      "subdir": "linux-64",
+      "version": "3.1.7.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

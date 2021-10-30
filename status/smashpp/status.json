@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-10-30T08:01:14+00:00"}
+{
+ "started_at": "2021-10-30T08:01:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "smashpp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "smashpp",
+      "subdir": "linux-64",
+      "version": "20.04"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
