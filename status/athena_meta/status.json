@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-10-30T00:16:29+00:00"}
+{
+ "started_at": "2021-10-30T00:16:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "athena_meta",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "athena_meta",
+      "subdir": "linux-64",
+      "version": "1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "athena_meta",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
