@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-30T15:46:11+00:00"}
+{
+ "started_at": "2021-10-30T15:46:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tb_variant_filter",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "tb_variant_filter",
+      "subdir": "noarch",
+      "version": "0.3.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "tb_variant_filter",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "tb_variant_filter",
+      "subdir": "noarch",
+      "version": "0.3.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
