@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-31T19:16:10+00:00"}
+{
+ "started_at": "2021-10-31T19:16:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gvcf2coverage",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h14cfee4_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "gvcf2coverage",
+      "subdir": "linux-64",
+      "version": "0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "gvcf2coverage",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hcdf1ead_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "gvcf2coverage",
+      "subdir": "osx-64",
+      "version": "0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
