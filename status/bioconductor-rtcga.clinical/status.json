@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-31T00:02:18+00:00"}
+{
+ "started_at": "2021-10-31T00:02:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-rtcga.clinical",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-rtcga.clinical",
+      "subdir": "noarch",
+      "version": "20151101.22.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-rtcga.clinical",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-rtcga.clinical",
+      "subdir": "noarch",
+      "version": "20151101.22.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
