@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-10-31T21:01:13+00:00"}
+{
+ "started_at": "2021-10-31T21:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bird_tool_utils_python",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bird_tool_utils_python",
+      "subdir": "noarch",
+      "version": "0.2.17"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bird_tool_utils_python",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bird_tool_utils_python",
+      "subdir": "noarch",
+      "version": "0.2.17"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
