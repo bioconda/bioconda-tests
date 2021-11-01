@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T04:16:21+00:00"}
+{
+ "started_at": "2021-11-01T04:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-srgnet",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-srgnet",
+      "subdir": "noarch",
+      "version": "1.16.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-srgnet",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-srgnet",
+      "subdir": "noarch",
+      "version": "1.16.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
