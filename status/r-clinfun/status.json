@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T04:01:51+00:00"}
+{
+ "started_at": "2021-11-01T04:01:51+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-clinfun",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h859d828_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-clinfun",
+      "subdir": "linux-64",
+      "version": "1.0.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-clinfun",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h749f5a1_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-clinfun",
+      "subdir": "osx-64",
+      "version": "1.0.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
