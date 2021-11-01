@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-01T17:16:12+00:00"}
+{
+ "started_at": "2021-11-01T17:16:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bamaddrg",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha89c123_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bamaddrg",
+      "subdir": "linux-64",
+      "version": "9baba65f88228e55639689a3cea38dd150e6284f"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
