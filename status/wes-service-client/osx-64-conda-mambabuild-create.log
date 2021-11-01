@@ -1,8 +1,8 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1pajh3lh/noarch/wes-service-client-2.7-py_1.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpwp0ci2sn/noarch/wes-service-client-2.7-py_1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpyn22rzgn/info/recipe/conda_build_config.yaml
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpfif_dm53/info/recipe/conda_build_config.yaml
 Reloading output folder: /Users/runner/conda/conda-bld
   Package                          Version  Build               Channel                                                                   Size
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -31,10 +31,10 @@ Reloading output folder: /Users/runner/conda/conda-bld
   + mistune                          0.7.3  py36_1              conda-forge/osx-64                                                       24 KB
   + ncurses                            6.2  h2e338ed_4          conda-forge/osx-64                                                      Cached
   + openssl                         1.1.1l  h0d85af4_0          conda-forge/osx-64                                                      Cached
-  + pip                               21.3  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
+  + pip                             21.3.1  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
   + pycparser                         2.20  pyh9f0ad1d_2        conda-forge/noarch                                                      Cached
   + pyopenssl                       21.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + pyparsing                        2.4.7  pyh9f0ad1d_0        conda-forge/noarch                                                      Cached
+  + pyparsing                        3.0.4  pyhd8ed1ab_0        conda-forge/noarch                                                       78 KB
   + pysocks                          1.7.1  py36h79c6626_3      conda-forge/osx-64                                                       27 KB
   + python                          3.6.13  haf480d7_2_cpython  conda-forge/osx-64                                                       21 MB
   + python_abi                         3.6  2_cp36m             conda-forge/osx-64                                                        4 KB
@@ -53,7 +53,7 @@ Reloading output folder: /Users/runner/conda/conda-bld
   + typing                        3.10.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                        7 KB
   + urllib3                         1.26.7  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
   + webencodings                     0.5.1  py36_0              conda-forge/osx-64                                                       19 KB
-  + wes-service-client                 2.7  py_1                /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1pajh3lh/noarch      21 KB
+  + wes-service-client                 2.7  py_1                /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpwp0ci2sn/noarch      21 KB
   + wheel                           0.37.0  pyhd8ed1ab_1        conda-forge/noarch                                                      Cached
   + xz                               5.2.5  haf1e3a3_1          conda-forge/osx-64                                                      Cached
   + zlib                            1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
@@ -69,7 +69,7 @@ Reloading output folder: /Users/runner/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/wes-service-client_1634806710280/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+  environment location: /Users/runner/conda/conda-bld/wes-service-client_1635810195762/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
 
 
 The following NEW packages will be INSTALLED:
@@ -96,10 +96,10 @@ The following NEW packages will be INSTALLED:
     mistune:            0.7.3-py36_1              conda-forge                                                        
     ncurses:            6.2-h2e338ed_4            conda-forge                                                        
     openssl:            1.1.1l-h0d85af4_0         conda-forge                                                        
-    pip:                21.3-pyhd8ed1ab_0         conda-forge                                                        
+    pip:                21.3.1-pyhd8ed1ab_0       conda-forge                                                        
     pycparser:          2.20-pyh9f0ad1d_2         conda-forge                                                        
     pyopenssl:          21.0.0-pyhd8ed1ab_0       conda-forge                                                        
-    pyparsing:          2.4.7-pyh9f0ad1d_0        conda-forge                                                        
+    pyparsing:          3.0.4-pyhd8ed1ab_0        conda-forge                                                        
     pysocks:            1.7.1-py36h79c6626_3      conda-forge                                                        
     python:             3.6.13-haf480d7_2_cpython conda-forge                                                        
     python_abi:         3.6-2_cp36m               conda-forge                                                        
@@ -118,7 +118,7 @@ The following NEW packages will be INSTALLED:
     typing:             3.10.0.0-pyhd8ed1ab_0     conda-forge                                                        
     urllib3:            1.26.7-pyhd8ed1ab_0       conda-forge                                                        
     webencodings:       0.5.1-py36_0              conda-forge                                                        
-    wes-service-client: 2.7-py_1                  file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1pajh3lh
+    wes-service-client: 2.7-py_1                  file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpwp0ci2sn
     wheel:              0.37.0-pyhd8ed1ab_1       conda-forge                                                        
     xz:                 5.2.5-haf1e3a3_1          conda-forge                                                        
     zlib:               1.2.11-h9173be1_1013      conda-forge                                                        
@@ -126,8 +126,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/wes-service-client_1634806710280/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
-export SRC_DIR=/Users/runner/conda/conda-bld/wes-service-client_1634806710280/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/wes-service-client_1635810195762/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_
+export SRC_DIR=/Users/runner/conda/conda-bld/wes-service-client_1635810195762/test_tmp
 
 Leaving build/test directories:
   Work:
