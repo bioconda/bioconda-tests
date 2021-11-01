@@ -1,8 +1,8 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpctq8qwci/linux-64/hicbrowser-1.0-py27_1.tar.bz2
+TEST START: /tmp/tmpxlgywo56/linux-64/hicbrowser-1.0-py27_1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpknu_mkui/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmp2z1z9u7_/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
   Package                               Version  Build                   Channel                          Size
 ────────────────────────────────────────────────────────────────────────────────────────────────────────────────
@@ -20,7 +20,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + bokeh                                 1.4.0  py27_0                  conda-forge/linux-64            13 MB
   + bx-python                             0.8.9  py27h54ae540_2          bioconda/linux-64             1021 KB
   + bzip2                                 1.0.8  h7f98852_4              conda-forge/linux-64           Cached
-  + c-ares                               1.17.2  h7f98852_0              conda-forge/linux-64           Cached
+  + c-ares                               1.18.1  h7f98852_0              conda-forge/linux-64           Cached
   + ca-certificates                   2021.10.8  ha878542_0              conda-forge/linux-64           Cached
   + certifi                          2019.11.28  py27h8c360ce_1          conda-forge/linux-64           149 KB
   + click                                 7.1.2  pyh9f0ad1d_0            conda-forge/noarch              64 KB
@@ -51,10 +51,10 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + hdf5                                 1.10.5  nompi_h7c3c948_1111     conda-forge/linux-64             3 MB
   + heapdict                              1.0.1  py_0                    conda-forge/noarch               7 KB
   + hic2cool                              0.6.0  py_0                    bioconda/noarch                 22 KB
-  + hicbrowser                              1.0  py27_1                  /tmp/tmpctq8qwci/linux-64        2 MB
+  + hicbrowser                              1.0  py27_1                  /tmp/tmpxlgywo56/linux-64        2 MB
   + hicexplorer                           2.2.3  py_0                    bioconda/noarch                104 KB
   + hicmatrix                                 7  pyh24bf2e0_0            bioconda/noarch                 21 KB
-  + htslib                                 1.13  h9093b5e_0              bioconda/linux-64                2 MB
+  + htslib                                 1.14  h9093b5e_0              bioconda/linux-64                2 MB
   + icu                                    64.2  he1b5a44_1              conda-forge/linux-64            13 MB
   + intervaltree                          3.0.2  py_0                    conda-forge/noarch              23 KB
   + itsdangerous                          1.1.0  py_0                    conda-forge/noarch              16 KB
@@ -104,8 +104,8 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + msgpack-python                        0.6.2  py27hc9558a2_0          conda-forge/linux-64            87 KB
   + multiprocess                         0.70.9  py27hdf8410d_1          conda-forge/linux-64           126 KB
   + ncurses                                 6.2  h58526e2_4              conda-forge/linux-64           Cached
-  + nspr                                   4.30  h9c3ff4c_0              conda-forge/linux-64           233 KB
-  + nss                                    3.69  hb5efdd6_1              conda-forge/linux-64             2 MB
+  + nspr                                   4.32  h9c3ff4c_0              conda-forge/linux-64           231 KB
+  + nss                                    3.71  hb5efdd6_0              conda-forge/linux-64             2 MB
   + numexpr                               2.7.1  py27hb3f55d8_0          conda-forge/linux-64           195 KB
   + numpy                                1.16.5  py27h95a1406_0          conda-forge/linux-64             4 MB
   + olefile                                0.46  pyh9f0ad1d_1            conda-forge/noarch              32 KB
@@ -120,7 +120,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
   + psutil                                5.7.0  py27hdf8410d_1          conda-forge/linux-64           318 KB
   + pthread-stubs                           0.4  h36c2ea0_1001           conda-forge/linux-64           Cached
   + pybigwig                             0.3.18  py27hc0f3e68_1          bioconda/linux-64               79 KB
-  + pyfaidx                               0.6.2  pyh5e36f6f_0            bioconda/noarch                 29 KB
+  + pyfaidx                             0.6.3.1  pyh5e36f6f_0            bioconda/noarch                 29 KB
   + pygenometracks                          2.1  py27_1                  bioconda/linux-64               67 KB
   + pyparsing                             2.4.7  pyh9f0ad1d_0            conda-forge/noarch              60 KB
   + pyqt                                 5.12.3  py27hcca6a23_1          conda-forge/linux-64             6 MB
@@ -169,7 +169,7 @@ Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/hicbrowser_1634748813746/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /home/vsts/conda/conda-bld/hicbrowser_1635758761400/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
@@ -185,7 +185,7 @@ The following NEW packages will be INSTALLED:
     bokeh:                         1.4.0-py27_0                  conda-forge            
     bx-python:                     0.8.9-py27h54ae540_2          bioconda               
     bzip2:                         1.0.8-h7f98852_4              conda-forge            
-    c-ares:                        1.17.2-h7f98852_0             conda-forge            
+    c-ares:                        1.18.1-h7f98852_0             conda-forge            
     ca-certificates:               2021.10.8-ha878542_0          conda-forge            
     certifi:                       2019.11.28-py27h8c360ce_1     conda-forge            
     click:                         7.1.2-pyh9f0ad1d_0            conda-forge            
@@ -216,10 +216,10 @@ The following NEW packages will be INSTALLED:
     hdf5:                          1.10.5-nompi_h7c3c948_1111    conda-forge            
     heapdict:                      1.0.1-py_0                    conda-forge            
     hic2cool:                      0.6.0-py_0                    bioconda               
-    hicbrowser:                    1.0-py27_1                    file:///tmp/tmpctq8qwci
+    hicbrowser:                    1.0-py27_1                    file:///tmp/tmpxlgywo56
     hicexplorer:                   2.2.3-py_0                    bioconda               
     hicmatrix:                     7-pyh24bf2e0_0                bioconda               
-    htslib:                        1.13-h9093b5e_0               bioconda               
+    htslib:                        1.14-h9093b5e_0               bioconda               
     icu:                           64.2-he1b5a44_1               conda-forge            
     intervaltree:                  3.0.2-py_0                    conda-forge            
     itsdangerous:                  1.1.0-py_0                    conda-forge            
@@ -269,8 +269,8 @@ The following NEW packages will be INSTALLED:
     msgpack-python:                0.6.2-py27hc9558a2_0          conda-forge            
     multiprocess:                  0.70.9-py27hdf8410d_1         conda-forge            
     ncurses:                       6.2-h58526e2_4                conda-forge            
-    nspr:                          4.30-h9c3ff4c_0               conda-forge            
-    nss:                           3.69-hb5efdd6_1               conda-forge            
+    nspr:                          4.32-h9c3ff4c_0               conda-forge            
+    nss:                           3.71-hb5efdd6_0               conda-forge            
     numexpr:                       2.7.1-py27hb3f55d8_0          conda-forge            
     numpy:                         1.16.5-py27h95a1406_0         conda-forge            
     olefile:                       0.46-pyh9f0ad1d_1             conda-forge            
@@ -285,7 +285,7 @@ The following NEW packages will be INSTALLED:
     psutil:                        5.7.0-py27hdf8410d_1          conda-forge            
     pthread-stubs:                 0.4-h36c2ea0_1001             conda-forge            
     pybigwig:                      0.3.18-py27hc0f3e68_1         bioconda               
-    pyfaidx:                       0.6.2-pyh5e36f6f_0            bioconda               
+    pyfaidx:                       0.6.3.1-pyh5e36f6f_0          bioconda               
     pygenometracks:                2.1-py27_1                    bioconda               
     pyparsing:                     2.4.7-pyh9f0ad1d_0            conda-forge            
     pyqt:                          5.12.3-py27hcca6a23_1         conda-forge            
@@ -326,8 +326,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/hicbrowser_1634748813746/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/home/vsts/conda/conda-bld/hicbrowser_1634748813746/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/hicbrowser_1635758761400/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/home/vsts/conda/conda-bld/hicbrowser_1635758761400/test_tmp
 import: 'hicbrowser'
 
 Leaving build/test directories:
