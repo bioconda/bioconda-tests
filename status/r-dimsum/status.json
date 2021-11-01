@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T02:01:20+00:00"}
+{
+ "started_at": "2021-11-01T02:01:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-dimsum",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-dimsum",
+      "subdir": "noarch",
+      "version": "1.2.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-dimsum",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-dimsum",
+      "subdir": "noarch",
+      "version": "1.2.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

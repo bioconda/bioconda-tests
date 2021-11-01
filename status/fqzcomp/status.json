@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-01T02:01:20+00:00"}
+{
+ "started_at": "2021-11-01T02:01:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fqzcomp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fqzcomp",
+      "subdir": "linux-64",
+      "version": "4.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
