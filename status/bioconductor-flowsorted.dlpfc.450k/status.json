@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T00:31:12+00:00"}
+{
+ "started_at": "2021-11-01T00:31:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-flowsorted.dlpfc.450k",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-flowsorted.dlpfc.450k",
+      "subdir": "noarch",
+      "version": "1.28.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-flowsorted.dlpfc.450k",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-flowsorted.dlpfc.450k",
+      "subdir": "noarch",
+      "version": "1.28.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
