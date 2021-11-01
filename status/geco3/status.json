@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-01T08:46:18+00:00"}
+{
+ "started_at": "2021-11-01T08:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "geco3",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "geco3",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
