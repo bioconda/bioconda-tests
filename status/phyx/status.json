@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T10:46:13+00:00"}
+{
+ "started_at": "2021-11-01T10:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "phyx",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7021e79_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "phyx",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "phyx",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h78c1c00_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "phyx",
+      "subdir": "osx-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
