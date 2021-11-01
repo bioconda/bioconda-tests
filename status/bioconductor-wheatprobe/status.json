@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T19:31:17+00:00"}
+{
+ "started_at": "2021-11-01T19:31:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-wheatprobe",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-wheatprobe",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-wheatprobe",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-wheatprobe",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
