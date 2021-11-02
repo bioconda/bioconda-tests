@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-02T00:31:14+00:00"}
+{
+ "started_at": "2021-11-02T00:31:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-airr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-airr",
+      "subdir": "noarch",
+      "version": "1.3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-airr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-airr",
+      "subdir": "noarch",
+      "version": "1.3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
