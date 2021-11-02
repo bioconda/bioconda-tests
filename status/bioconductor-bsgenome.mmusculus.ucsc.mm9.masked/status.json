@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-02T13:01:23+00:00"}
+{
+ "started_at": "2021-11-02T13:01:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-bsgenome.mmusculus.ucsc.mm9.masked",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bsgenome.mmusculus.ucsc.mm9.masked",
+      "subdir": "noarch",
+      "version": "1.3.99"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-bsgenome.mmusculus.ucsc.mm9.masked",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bsgenome.mmusculus.ucsc.mm9.masked",
+      "subdir": "noarch",
+      "version": "1.3.99"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
