@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-02T14:31:19+00:00"}
+{
+ "started_at": "2021-11-02T14:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-ccube",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h6bcf2b7_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-ccube",
+      "subdir": "linux-64",
+      "version": "1.0_beta.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-ccube",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hd82f627_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-ccube",
+      "subdir": "osx-64",
+      "version": "1.0_beta.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
