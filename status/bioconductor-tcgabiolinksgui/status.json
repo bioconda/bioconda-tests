@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-01T23:46:14+00:00"}
+{
+ "started_at": "2021-11-01T23:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-tcgabiolinksgui",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-tcgabiolinksgui",
+      "subdir": "noarch",
+      "version": "1.18.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-tcgabiolinksgui",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-tcgabiolinksgui",
+      "subdir": "noarch",
+      "version": "1.18.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
