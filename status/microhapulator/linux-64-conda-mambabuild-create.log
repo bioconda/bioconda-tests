@@ -1,106 +1,13 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpccd5evpx/noarch/microhapulator-0.4.1-py_0.tar.bz2
+TEST START: /tmp/tmpat19t3_2/noarch/microhapulator-0.4.1-py_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpu4sn7cy8/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmp015keigz/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                    Version  Build                Channel                       Size
-───────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-───────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                0.1  conda_forge          conda-forge/linux-64        Cached
-  + _openmp_mutex                4.5  1_gnu                conda-forge/linux-64        Cached
-  + attrs                     21.2.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + biopython                   1.78  py39h3811e60_2       conda-forge/linux-64          3 MB
-  + brotlipy                   0.7.0  py39h3811e60_1001    conda-forge/linux-64        Cached
-  + bzip2                      1.0.8  h7f98852_4           conda-forge/linux-64        Cached
-  + c-ares                    1.17.2  h7f98852_0           conda-forge/linux-64        Cached
-  + ca-certificates        2021.10.8  ha878542_0           conda-forge/linux-64        Cached
-  + certifi                2021.10.8  py39hf3d152e_0       conda-forge/linux-64        Cached
-  + cffi                      1.14.6  py39h4bc2ebd_1       conda-forge/linux-64        Cached
-  + chardet                    4.0.0  py39hf3d152e_1       conda-forge/linux-64        Cached
-  + charset-normalizer         2.0.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + coverage                   6.0.2  py39h3811e60_0       conda-forge/linux-64        284 KB
-  + cryptography              35.0.0  py39hbca0aa6_0       conda-forge/linux-64        Cached
-  + future                    0.18.2  py39hf3d152e_3       conda-forge/linux-64        Cached
-  + happer                     0.1.1  py_0                 bioconda/noarch              15 KB
-  + idna                         3.1  pyhd3deb0d_0         conda-forge/noarch          Cached
-  + importlib-metadata         4.8.1  py39hf3d152e_0       conda-forge/linux-64        Cached
-  + iniconfig                  1.1.1  pyh9f0ad1d_0         conda-forge/noarch            8 KB
-  + insilicoseq                1.5.4  pyh5e36f6f_0         bioconda/noarch               1 MB
-  + joblib                     1.1.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + jsonschema                 4.1.2  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + krb5                      1.19.2  hcc1bbae_2           conda-forge/linux-64        Cached
-  + ld_impl_linux-64          2.36.1  hea4e1c9_2           conda-forge/linux-64        Cached
-  + libblas                    3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libcblas                   3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libcurl                   7.79.1  h2574ce0_1           conda-forge/linux-64        Cached
-  + libdeflate                   1.7  h7f98852_5           conda-forge/linux-64         67 KB
-  + libedit             3.1.20191231  he28a2e2_2           conda-forge/linux-64        Cached
-  + libev                       4.33  h516909a_1           conda-forge/linux-64        Cached
-  + libffi                     3.4.2  h9c3ff4c_4           conda-forge/linux-64        Cached
-  + libgcc-ng                 11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libgfortran-ng            11.2.0  h69a702a_11          conda-forge/linux-64        Cached
-  + libgfortran5              11.2.0  h5c6108e_11          conda-forge/linux-64        Cached
-  + libgomp                   11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + liblapack                  3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libnghttp2                1.43.0  h812cca2_1           conda-forge/linux-64        Cached
-  + libopenblas               0.3.18  pthreads_h8fe5266_0  conda-forge/linux-64        Cached
-  + libssh2                   1.10.0  ha56f1ee_2           conda-forge/linux-64        Cached
-  + libstdcxx-ng              11.2.0  he4da1e4_11          conda-forge/linux-64        Cached
-  + libzlib                   1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + microhapdb                   0.6  py_0                 bioconda/noarch             678 KB
-  + microhapulator             0.4.1  py_0                 /tmp/tmpccd5evpx/noarch       3 MB
-  + more-itertools            8.10.0  pyhd8ed1ab_0         conda-forge/noarch           44 KB
-  + ncurses                      6.2  h58526e2_4           conda-forge/linux-64        Cached
-  + numpy                     1.21.3  py39hdbf815f_0       conda-forge/linux-64          6 MB
-  + openssl                   1.1.1l  h7f98852_0           conda-forge/linux-64        Cached
-  + packaging                   21.0  pyhd8ed1ab_0         conda-forge/noarch           35 KB
-  + pandas                     1.3.4  py39hde0f152_0       conda-forge/linux-64         13 MB
-  + pip                         21.3  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + pluggy                     1.0.0  py39hf3d152e_1       conda-forge/linux-64         25 KB
-  + py                        1.10.0  pyhd3deb0d_0         conda-forge/noarch           73 KB
-  + pycparser                   2.20  pyh9f0ad1d_2         conda-forge/noarch          Cached
-  + pyopenssl                 21.0.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + pyparsing                  2.4.7  pyh9f0ad1d_0         conda-forge/noarch           60 KB
-  + pyrsistent                0.17.3  py39h3811e60_2       conda-forge/linux-64        Cached
-  + pysam                     0.17.0  py39h051187c_0       bioconda/linux-64             3 MB
-  + pysocks                    1.7.1  py39hf3d152e_3       conda-forge/linux-64        Cached
-  + pytest                     6.2.5  py39hf3d152e_0       conda-forge/linux-64        433 KB
-  + pytest-cov                 3.0.0  pyhd8ed1ab_0         conda-forge/noarch           21 KB
-  + python                     3.9.7  hb7a2778_3_cpython   conda-forge/linux-64        Cached
-  + python-dateutil            2.8.2  pyhd8ed1ab_0         conda-forge/noarch          240 KB
-  + python_abi                   3.9  2_cp39               conda-forge/linux-64        Cached
-  + pytz                      2021.3  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + readline                     8.1  h46c0cb4_0           conda-forge/linux-64        Cached
-  + requests                  2.26.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + scipy                      1.7.1  py39hee8e79c_0       conda-forge/linux-64         22 MB
-  + setuptools                58.2.0  py39hf3d152e_0       conda-forge/linux-64        Cached
-  + six                       1.16.0  pyh6c4a22f_0         conda-forge/noarch          Cached
-  + sqlite                    3.36.0  h9cd32fc_2           conda-forge/linux-64        Cached
-  + tk                        8.6.11  h27826a3_1           conda-forge/linux-64        Cached
-  + toml                      0.10.2  pyhd8ed1ab_0         conda-forge/noarch           18 KB
-  + tomli                      1.2.1  pyhd8ed1ab_0         conda-forge/noarch           15 KB
-  + tzdata                     2021d  he74cb21_0           conda-forge/noarch          Cached
-  + urllib3                   1.26.7  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + wheel                     0.37.0  pyhd8ed1ab_1         conda-forge/noarch          Cached
-  + xz                         5.2.5  h516909a_1           conda-forge/linux-64        Cached
-  + zipp                       3.6.0  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + zlib                      1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-
-  Summary:
-
-  Install: 79 packages
-
-  Total download: 53 MB
-
-───────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/microhapulator_1634874139837/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+  environment location: /home/vsts/conda/conda-bld/microhapulator_1635893044896/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
 
 
 The following NEW packages will be INSTALLED:
@@ -109,20 +16,20 @@ The following NEW packages will be INSTALLED:
     _openmp_mutex:      4.5-1_gnu                  conda-forge            
     attrs:              21.2.0-pyhd8ed1ab_0        conda-forge            
     biopython:          1.78-py39h3811e60_2        conda-forge            
-    brotlipy:           0.7.0-py39h3811e60_1001    conda-forge            
+    brotlipy:           0.7.0-py39h3811e60_1002    conda-forge            
     bzip2:              1.0.8-h7f98852_4           conda-forge            
-    c-ares:             1.17.2-h7f98852_0          conda-forge            
+    c-ares:             1.18.1-h7f98852_0          conda-forge            
     ca-certificates:    2021.10.8-ha878542_0       conda-forge            
-    certifi:            2021.10.8-py39hf3d152e_0   conda-forge            
-    cffi:               1.14.6-py39h4bc2ebd_1      conda-forge            
-    chardet:            4.0.0-py39hf3d152e_1       conda-forge            
+    certifi:            2021.10.8-py39hf3d152e_1   conda-forge            
+    cffi:               1.14.6-py39h4bc2ebd_2      conda-forge            
+    chardet:            4.0.0-py39hf3d152e_2       conda-forge            
     charset-normalizer: 2.0.0-pyhd8ed1ab_0         conda-forge            
-    coverage:           6.0.2-py39h3811e60_0       conda-forge            
-    cryptography:       35.0.0-py39hbca0aa6_0      conda-forge            
-    future:             0.18.2-py39hf3d152e_3      conda-forge            
+    coverage:           6.1.1-py39h3811e60_1       conda-forge            
+    cryptography:       35.0.0-py39h95dcef6_1      conda-forge            
+    future:             0.18.2-py39hf3d152e_4      conda-forge            
     happer:             0.1.1-py_0                 bioconda               
     idna:               3.1-pyhd3deb0d_0           conda-forge            
-    importlib-metadata: 4.8.1-py39hf3d152e_0       conda-forge            
+    importlib-metadata: 4.8.1-py39hf3d152e_1       conda-forge            
     iniconfig:          1.1.1-pyh9f0ad1d_0         conda-forge            
     insilicoseq:        1.5.4-pyh5e36f6f_0         bioconda               
     joblib:             1.1.0-pyhd8ed1ab_0         conda-forge            
@@ -147,23 +54,23 @@ The following NEW packages will be INSTALLED:
     libstdcxx-ng:       11.2.0-he4da1e4_11         conda-forge            
     libzlib:            1.2.11-h36c2ea0_1013       conda-forge            
     microhapdb:         0.6-py_0                   bioconda               
-    microhapulator:     0.4.1-py_0                 file:///tmp/tmpccd5evpx
+    microhapulator:     0.4.1-py_0                 file:///tmp/tmpat19t3_2
     more-itertools:     8.10.0-pyhd8ed1ab_0        conda-forge            
     ncurses:            6.2-h58526e2_4             conda-forge            
     numpy:              1.21.3-py39hdbf815f_0      conda-forge            
     openssl:            1.1.1l-h7f98852_0          conda-forge            
-    packaging:          21.0-pyhd8ed1ab_0          conda-forge            
+    packaging:          21.2-pyhd8ed1ab_1          conda-forge            
     pandas:             1.3.4-py39hde0f152_0       conda-forge            
-    pip:                21.3-pyhd8ed1ab_0          conda-forge            
-    pluggy:             1.0.0-py39hf3d152e_1       conda-forge            
+    pip:                21.3.1-pyhd8ed1ab_0        conda-forge            
+    pluggy:             1.0.0-py39hf3d152e_2       conda-forge            
     py:                 1.10.0-pyhd3deb0d_0        conda-forge            
     pycparser:          2.20-pyh9f0ad1d_2          conda-forge            
     pyopenssl:          21.0.0-pyhd8ed1ab_0        conda-forge            
-    pyparsing:          2.4.7-pyh9f0ad1d_0         conda-forge            
-    pyrsistent:         0.17.3-py39h3811e60_2      conda-forge            
+    pyparsing:          2.4.7-pyhd8ed1ab_1         conda-forge            
+    pyrsistent:         0.17.3-py39h3811e60_3      conda-forge            
     pysam:              0.17.0-py39h051187c_0      bioconda               
-    pysocks:            1.7.1-py39hf3d152e_3       conda-forge            
-    pytest:             6.2.5-py39hf3d152e_0       conda-forge            
+    pysocks:            1.7.1-py39hf3d152e_4       conda-forge            
+    pytest:             6.2.5-py39hf3d152e_1       conda-forge            
     pytest-cov:         3.0.0-pyhd8ed1ab_0         conda-forge            
     python:             3.9.7-hb7a2778_3_cpython   conda-forge            
     python-dateutil:    2.8.2-pyhd8ed1ab_0         conda-forge            
@@ -172,13 +79,13 @@ The following NEW packages will be INSTALLED:
     readline:           8.1-h46c0cb4_0             conda-forge            
     requests:           2.26.0-pyhd8ed1ab_0        conda-forge            
     scipy:              1.7.1-py39hee8e79c_0       conda-forge            
-    setuptools:         58.2.0-py39hf3d152e_0      conda-forge            
+    setuptools:         58.4.0-py39hf3d152e_1      conda-forge            
     six:                1.16.0-pyh6c4a22f_0        conda-forge            
     sqlite:             3.36.0-h9cd32fc_2          conda-forge            
     tk:                 8.6.11-h27826a3_1          conda-forge            
     toml:               0.10.2-pyhd8ed1ab_0        conda-forge            
-    tomli:              1.2.1-pyhd8ed1ab_0         conda-forge            
-    tzdata:             2021d-he74cb21_0           conda-forge            
+    tomli:              1.2.2-pyhd8ed1ab_0         conda-forge            
+    tzdata:             2021e-he74cb21_0           conda-forge            
     urllib3:            1.26.7-pyhd8ed1ab_0        conda-forge            
     wheel:              0.37.0-pyhd8ed1ab_1        conda-forge            
     xz:                 5.2.5-h516909a_1           conda-forge            
@@ -188,8 +95,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/microhapulator_1634874139837/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
-export SRC_DIR=/home/vsts/conda/conda-bld/microhapulator_1634874139837/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/microhapulator_1635893044896/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho
+export SRC_DIR=/home/vsts/conda/conda-bld/microhapulator_1635893044896/test_tmp
 import: 'microhapulator'
 import: 'microhapulator'
 ============================= test session starts ==============================
@@ -232,10 +139,10 @@ testfile = 'red-reads-relaxed.fastq'
             microhapulator.seq.main(args)
 >           assert filecmp.cmp(outfile.name, data_file(testfile))
 E           AssertionError: assert False
-E            +  where False = <function cmp at 0x7ff62939a1f0>('/tmp/tmpbqn_eywc.fastq', '/home/vsts/conda/conda-bld/microhapulator_1634874139837/_test_env_placehold_placehold_placehold_placehold_placehold_p...ld_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/data/red-reads-relaxed.fastq')
-E            +    where <function cmp at 0x7ff62939a1f0> = filecmp.cmp
-E            +    and   '/tmp/tmpbqn_eywc.fastq' = <tempfile._TemporaryFileWrapper object at 0x7ff629396040>.name
-E            +    and   '/home/vsts/conda/conda-bld/microhapulator_1634874139837/_test_env_placehold_placehold_placehold_placehold_placehold_p...ld_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/data/red-reads-relaxed.fastq' = data_file('red-reads-relaxed.fastq')
+E            +  where False = <function cmp at 0x7f5a81f6c790>('/tmp/tmpwo86y6y4.fastq', '/home/vsts/conda/conda-bld/microhapulator_1635893044896/_test_env_placehold_placehold_placehold_placehold_placehold_p...ld_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/data/red-reads-relaxed.fastq')
+E            +    where <function cmp at 0x7f5a81f6c790> = filecmp.cmp
+E            +    and   '/tmp/tmpwo86y6y4.fastq' = <tempfile._TemporaryFileWrapper object at 0x7f5a81efcaf0>.name
+E            +    and   '/home/vsts/conda/conda-bld/microhapulator_1635893044896/_test_env_placehold_placehold_placehold_placehold_placehold_p...ld_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/data/red-reads-relaxed.fastq' = data_file('red-reads-relaxed.fastq')
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/test_seq.py:122: AssertionError
 ----------------------------- Captured stderr call -----------------------------
@@ -295,7 +202,7 @@ relaxmode = True, testfile = 'red-relaxed-profile.json'
         )
         testprofile = SimulatedProfile(fromfile=data_file(testfile))
 >       assert profile == testprofile
-E       assert <microhapulator.profile.SimulatedProfile object at 0x7ff628fe9f10> == <microhapulator.profile.SimulatedProfile object at 0x7ff62941a2e0>
+E       assert <microhapulator.profile.SimulatedProfile object at 0x7f5a81f69520> == <microhapulator.profile.SimulatedProfile object at 0x7f5a81f69160>
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/test_sim.py:35: AssertionError
 ----------------------------- Captured stderr call -----------------------------
@@ -397,13 +304,13 @@ _____________________________ test_main_haplo_seq ______________________________
             p = SimulatedProfile(fromfile=tempdir + '/profile.json')
             testp = SimulatedProfile(fromfile=data_file('orange-sim-profile.json'))
 >           assert p == testp
-E           assert <microhapulator.profile.SimulatedProfile object at 0x7ff6291e4df0> == <microhapulator.profile.SimulatedProfile object at 0x7ff6291e4e80>
+E           assert <microhapulator.profile.SimulatedProfile object at 0x7f5a81f87cd0> == <microhapulator.profile.SimulatedProfile object at 0x7f5a81f875b0>
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/python3.9/site-packages/microhapulator/tests/test_sim.py:63: AssertionError
 ----------------------------- Captured stderr call -----------------------------
 [MicroHapulator::sim] simulated microhaplotype variation at 2 markers
-[MicroHapulator::sim] profile JSON written to /tmp/tmp72w2o6id/profile.json
-[MicroHapulator::sim] haplotype sequences written to /tmp/tmp72w2o6id/haplo.fasta
+[MicroHapulator::sim] profile JSON written to /tmp/tmpdbl9gk2p/profile.json
+[MicroHapulator::sim] haplotype sequences written to /tmp/tmpdbl9gk2p/haplo.fasta
 
 ----------- coverage: platform linux, python 3.9.7-final-0 -----------
 Name                                                                                                                                                                                                                                                                                                                             Stmts   Miss  Cover
@@ -456,7 +363,7 @@ FAILED tests/test_sim.py::test_meaning_of_life - AttributeError: 'DataFrame' ...
 FAILED tests/test_sim.py::test_sim_relaxed[True-red-relaxed-profile.json] - a...
 FAILED tests/test_sim.py::test_main - KeyError: 'AvgAe'
 FAILED tests/test_sim.py::test_main_haplo_seq - assert <microhapulator.profil...
-=================== 5 failed, 75 passed in 95.15s (0:01:35) ====================
+=================== 5 failed, 75 passed in 91.29s (0:01:31) ====================
 
 Leaving build/test directories:
   Work:
