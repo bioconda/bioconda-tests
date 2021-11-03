@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T02:16:13+00:00"}
+{
+ "started_at": "2021-11-03T02:16:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-loose.rock",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-loose.rock",
+      "subdir": "linux-64",
+      "version": "1.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-loose.rock",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hbe3e9c8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-loose.rock",
+      "subdir": "osx-64",
+      "version": "1.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
