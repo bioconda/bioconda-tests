@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T18:31:15+00:00"}
+{
+ "started_at": "2021-11-03T18:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "autodock",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "autodock",
+      "subdir": "linux-64",
+      "version": "4.2.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "autodock",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb280591_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "autodock",
+      "subdir": "osx-64",
+      "version": "4.2.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
