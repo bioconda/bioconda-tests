@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T01:46:05+00:00"}
+{
+ "started_at": "2021-11-03T01:46:05+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "srax",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262ha8f3691_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "srax",
+      "subdir": "noarch",
+      "version": "1.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "srax",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262ha8f3691_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "srax",
+      "subdir": "noarch",
+      "version": "1.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
