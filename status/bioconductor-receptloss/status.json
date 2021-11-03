@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T07:16:12+00:00"}
+{
+ "started_at": "2021-11-03T07:16:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-receptloss",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-receptloss",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-receptloss",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-receptloss",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
