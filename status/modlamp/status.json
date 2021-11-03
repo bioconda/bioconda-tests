@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T12:16:18+00:00"}
+{
+ "started_at": "2021-11-03T12:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "modlamp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh9f0ad1d_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "modlamp",
+      "subdir": "noarch",
+      "version": "4.2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "modlamp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh9f0ad1d_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "modlamp",
+      "subdir": "noarch",
+      "version": "4.2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
