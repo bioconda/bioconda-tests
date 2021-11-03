@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T10:46:23+00:00"}
+{
+ "started_at": "2021-11-03T10:46:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "eukulele",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh723bec7_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "eukulele",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "eukulele",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh723bec7_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "eukulele",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "timeout"
+    }
+   ]
+  }
+ ]
+}
