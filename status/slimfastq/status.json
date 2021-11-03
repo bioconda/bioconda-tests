@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T13:16:14+00:00"}
+{
+ "started_at": "2021-11-03T13:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "slimfastq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "slimfastq",
+      "subdir": "linux-64",
+      "version": "2.04"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "slimfastq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "slimfastq",
+      "subdir": "osx-64",
+      "version": "2.04"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
