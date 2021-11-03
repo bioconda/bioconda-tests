@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T15:46:16+00:00"}
+{
+ "started_at": "2021-11-03T15:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyrpipe",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyrpipe",
+      "subdir": "noarch",
+      "version": "0.0.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyrpipe",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pyrpipe",
+      "subdir": "noarch",
+      "version": "0.0.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

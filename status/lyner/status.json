@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T15:46:16+00:00"}
+{
+ "started_at": "2021-11-03T15:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "lyner",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "lyner",
+      "subdir": "noarch",
+      "version": "0.4.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "lyner",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "lyner",
+      "subdir": "noarch",
+      "version": "0.4.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

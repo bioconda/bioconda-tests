@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-03T15:46:16+00:00"}
+{
+ "started_at": "2021-11-03T15:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "deepmod",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "deepmod",
+      "subdir": "noarch",
+      "version": "0.1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "deepmod",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
