@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T16:46:10+00:00"}
+{
+ "started_at": "2021-11-03T16:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bold-identification",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bold-identification",
+      "subdir": "noarch",
+      "version": "0.0.27"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bold-identification",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bold-identification",
+      "subdir": "noarch",
+      "version": "0.0.27"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
