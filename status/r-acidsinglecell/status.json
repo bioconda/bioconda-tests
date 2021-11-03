@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T20:31:22+00:00"}
+{
+ "started_at": "2021-11-03T20:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-acidsinglecell",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-acidsinglecell",
+      "subdir": "noarch",
+      "version": "0.1.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-acidsinglecell",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-acidsinglecell",
+      "subdir": "noarch",
+      "version": "0.1.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
