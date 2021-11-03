@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T14:16:18+00:00"}
+{
+ "started_at": "2021-11-03T14:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastg2protlib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fastg2protlib",
+      "subdir": "noarch",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fastg2protlib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fastg2protlib",
+      "subdir": "noarch",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
