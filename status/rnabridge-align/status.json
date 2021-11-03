@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T00:16:16+00:00"}
+{
+ "started_at": "2021-11-03T00:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rnabridge-align",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hbce0939_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rnabridge-align",
+      "subdir": "linux-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "rnabridge-align",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h381b8fc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "rnabridge-align",
+      "subdir": "osx-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
