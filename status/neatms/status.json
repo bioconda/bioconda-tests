@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-03T08:16:15+00:00"}
+{
+ "started_at": "2021-11-03T08:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "neatms",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "neatms",
+      "subdir": "noarch",
+      "version": "0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "neatms",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "neatms",
+      "subdir": "noarch",
+      "version": "0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
