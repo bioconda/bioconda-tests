@@ -1,193 +1,107 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1mzebh2a/noarch/docking_py-0.2.3-py_0.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp9jpxvbcw/noarch/docking_py-0.2.3-py_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpls2flitr/info/recipe/conda_build_config.yaml
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpuwcehxm0/info/recipe/conda_build_config.yaml
 Reloading output folder: /Users/runner/conda/conda-bld
-  Package                     Version  Build               Channel                                                                   Size
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + attrs                      21.2.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + autodock-vina               1.1.2  2                   bioconda/osx-64                                                         829 KB
-  + boost-cpp                  1.74.0  hff03dee_4          conda-forge/osx-64                                                      Cached
-  + brotlipy                    0.7.0  py39h89e85a6_1001   conda-forge/osx-64                                                      Cached
-  + bzip2                       1.0.8  h0d85af4_4          conda-forge/osx-64                                                      Cached
-  + ca-certificates         2021.10.8  h033912b_0          conda-forge/osx-64                                                      Cached
-  + cairo                      1.16.0  he43a7df_1008       conda-forge/osx-64                                                      Cached
-  + certifi                 2021.10.8  py39h6e9494a_0      conda-forge/osx-64                                                      Cached
-  + cffi                       1.14.6  py39he338e87_1      conda-forge/osx-64                                                      Cached
-  + chardet                     4.0.0  py39h6e9494a_1      conda-forge/osx-64                                                      Cached
-  + charset-normalizer          2.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + cryptography               35.0.0  py39heaea23e_0      conda-forge/osx-64                                                      Cached
-  + docking_py                  0.2.3  py_0                /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1mzebh2a/noarch     107 KB
-  + fontconfig                 2.13.1  h10f422b_1005       conda-forge/osx-64                                                      Cached
-  + freetype                   2.10.4  h4cff582_1          conda-forge/osx-64                                                      Cached
-  + gettext                  0.19.8.1  hd1a6beb_1008       conda-forge/osx-64                                                      Cached
-  + icu                          68.1  h74dc148_0          conda-forge/osx-64                                                      Cached
-  + idna                          3.1  pyhd3deb0d_0        conda-forge/noarch                                                      Cached
-  + iniconfig                   1.1.1  pyh9f0ad1d_0        conda-forge/noarch                                                        8 KB
-  + libblas                     3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libcblas                    3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libcxx                     12.0.1  habf9029_0          conda-forge/osx-64                                                      Cached
-  + libffi                      3.4.2  he49afe7_4          conda-forge/osx-64                                                      Cached
-  + libgfortran                 5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                                                      Cached
-  + libgfortran5                9.3.0  h6c81a4c_23         conda-forge/osx-64                                                      Cached
-  + libglib                    2.70.0  hf1fb8c0_0          conda-forge/osx-64                                                      Cached
-  + libiconv                     1.16  haf1e3a3_0          conda-forge/osx-64                                                      Cached
-  + liblapack                   3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libopenblas                0.3.18  openmp_h3351f45_0   conda-forge/osx-64                                                      Cached
-  + libpng                     1.6.37  h7cec526_2          conda-forge/osx-64                                                      Cached
-  + libxml2                    2.9.12  h93ec3fd_0          conda-forge/osx-64                                                      Cached
-  + libzlib                    1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
-  + llvm-openmp                12.0.1  hda6cdc1_1          conda-forge/osx-64                                                      Cached
-  + lz4-c                       1.9.3  he49afe7_1          conda-forge/osx-64                                                      Cached
-  + mgltools                    1.5.6  1                   bioconda/osx-64                                                          65 MB
-  + mmcif_pdbx                  2.0.0  pyh44b312d_0        conda-forge/noarch                                                       24 KB
-  + more-itertools             8.10.0  pyhd8ed1ab_0        conda-forge/noarch                                                       44 KB
-  + ncurses                       6.2  h2e338ed_4          conda-forge/osx-64                                                      Cached
-  + numpy                      1.21.3  py39h7eed0ac_0      conda-forge/osx-64                                                      Cached
-  + openbabel                   3.1.1  py39hb4f85b1_2      conda-forge/osx-64                                                        5 MB
-  + openssl                    1.1.1l  h0d85af4_0          conda-forge/osx-64                                                      Cached
-  + os_command_py               1.1.0  py_0                conda-forge/noarch                                                       43 KB
-  + packaging                    21.0  pyhd8ed1ab_0        conda-forge/noarch                                                       35 KB
-  + pandas                      1.3.4  py39h4d6be9b_0      conda-forge/osx-64                                                      Cached
-  + pcre                         8.45  he49afe7_0          conda-forge/osx-64                                                      Cached
-  + pdb2pqr                     3.2.0  pyhd8ed1ab_0        conda-forge/noarch                                                      152 KB
-  + pdb2pqr_htmd_propka30       0.0.4  py_0                conda-forge/noarch                                                      278 KB
-  + pdb_manip_py                1.4.1  pyhd8ed1ab_0        conda-forge/noarch                                                      324 KB
-  + pip                        21.3.1  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + pixman                     0.40.0  hbcb3906_0          conda-forge/osx-64                                                      Cached
-  + pluggy                      1.0.0  py39h6e9494a_1      conda-forge/osx-64                                                       25 KB
-  + propka                      3.4.0  py39h71a6800_1      conda-forge/osx-64                                                      144 KB
-  + py                         1.10.0  pyhd3deb0d_0        conda-forge/noarch                                                       73 KB
-  + pycparser                    2.20  pyh9f0ad1d_2        conda-forge/noarch                                                      Cached
-  + pyopenssl                  21.0.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + pyparsing                   2.4.7  pyh9f0ad1d_0        conda-forge/noarch                                                       60 KB
-  + pysocks                     1.7.1  py39h6e9494a_3      conda-forge/osx-64                                                      Cached
-  + pytest                      6.2.5  py39h6e9494a_0      conda-forge/osx-64                                                      432 KB
-  + python                      3.9.7  h1248fe1_3_cpython  conda-forge/osx-64                                                      Cached
-  + python-dateutil             2.8.2  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + python_abi                    3.9  2_cp39              conda-forge/osx-64                                                      Cached
-  + pytz                       2021.3  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + qvina                       2.1.0  h593f164_2          conda-forge/osx-64                                                        1 MB
-  + readline                      8.1  h05e3726_0          conda-forge/osx-64                                                      Cached
-  + requests                   2.26.0  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + scipy                       1.7.1  py39h056f1c0_0      conda-forge/osx-64                                                      Cached
-  + setuptools                 58.2.0  py39h6e9494a_0      conda-forge/osx-64                                                      Cached
-  + six                        1.16.0  pyh6c4a22f_0        conda-forge/noarch                                                      Cached
-  + smina                  2020.12.10  hfcb3d6c_0          conda-forge/osx-64                                                      572 KB
-  + sqlite                     3.36.0  h23a322b_2          conda-forge/osx-64                                                      Cached
-  + tk                         8.6.11  h5dbffcc_1          conda-forge/osx-64                                                      Cached
-  + toml                       0.10.2  pyhd8ed1ab_0        conda-forge/noarch                                                       18 KB
-  + tzdata                      2021e  he74cb21_0          conda-forge/noarch                                                      Cached
-  + urllib3                    1.26.7  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + wheel                      0.37.0  pyhd8ed1ab_1        conda-forge/noarch                                                      Cached
-  + xz                          5.2.5  haf1e3a3_1          conda-forge/osx-64                                                      Cached
-  + zlib                       1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
-  + zstd                        1.5.0  h582d3a0_0          conda-forge/osx-64                                                      Cached
-
-  Summary:
-
-  Install: 78 packages
-
-  Total download: 75 MB
-
-───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/docking_py_1634986766175/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+  environment location: /Users/runner/conda/conda-bld/docking_py_1635994855986/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
 
 
 The following NEW packages will be INSTALLED:
 
-    attrs:                 21.2.0-pyhd8ed1ab_0      conda-forge                                                        
-    autodock-vina:         1.1.2-2                  bioconda                                                           
-    boost-cpp:             1.74.0-hff03dee_4        conda-forge                                                        
-    brotlipy:              0.7.0-py39h89e85a6_1001  conda-forge                                                        
-    bzip2:                 1.0.8-h0d85af4_4         conda-forge                                                        
-    ca-certificates:       2021.10.8-h033912b_0     conda-forge                                                        
-    cairo:                 1.16.0-he43a7df_1008     conda-forge                                                        
-    certifi:               2021.10.8-py39h6e9494a_0 conda-forge                                                        
-    cffi:                  1.14.6-py39he338e87_1    conda-forge                                                        
-    chardet:               4.0.0-py39h6e9494a_1     conda-forge                                                        
-    charset-normalizer:    2.0.0-pyhd8ed1ab_0       conda-forge                                                        
-    cryptography:          35.0.0-py39heaea23e_0    conda-forge                                                        
-    docking_py:            0.2.3-py_0               file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1mzebh2a
-    fontconfig:            2.13.1-h10f422b_1005     conda-forge                                                        
-    freetype:              2.10.4-h4cff582_1        conda-forge                                                        
-    gettext:               0.19.8.1-hd1a6beb_1008   conda-forge                                                        
-    icu:                   68.1-h74dc148_0          conda-forge                                                        
-    idna:                  3.1-pyhd3deb0d_0         conda-forge                                                        
-    iniconfig:             1.1.1-pyh9f0ad1d_0       conda-forge                                                        
-    libblas:               3.9.0-12_osx64_openblas  conda-forge                                                        
-    libcblas:              3.9.0-12_osx64_openblas  conda-forge                                                        
-    libcxx:                12.0.1-habf9029_0        conda-forge                                                        
-    libffi:                3.4.2-he49afe7_4         conda-forge                                                        
-    libgfortran:           5.0.0-9_3_0_h6c81a4c_23  conda-forge                                                        
-    libgfortran5:          9.3.0-h6c81a4c_23        conda-forge                                                        
-    libglib:               2.70.0-hf1fb8c0_0        conda-forge                                                        
-    libiconv:              1.16-haf1e3a3_0          conda-forge                                                        
-    liblapack:             3.9.0-12_osx64_openblas  conda-forge                                                        
-    libopenblas:           0.3.18-openmp_h3351f45_0 conda-forge                                                        
-    libpng:                1.6.37-h7cec526_2        conda-forge                                                        
-    libxml2:               2.9.12-h93ec3fd_0        conda-forge                                                        
-    libzlib:               1.2.11-h9173be1_1013     conda-forge                                                        
-    llvm-openmp:           12.0.1-hda6cdc1_1        conda-forge                                                        
-    lz4-c:                 1.9.3-he49afe7_1         conda-forge                                                        
-    mgltools:              1.5.6-1                  bioconda                                                           
-    mmcif_pdbx:            2.0.0-pyh44b312d_0       conda-forge                                                        
-    more-itertools:        8.10.0-pyhd8ed1ab_0      conda-forge                                                        
-    ncurses:               6.2-h2e338ed_4           conda-forge                                                        
-    numpy:                 1.21.3-py39h7eed0ac_0    conda-forge                                                        
-    openbabel:             3.1.1-py39hb4f85b1_2     conda-forge                                                        
-    openssl:               1.1.1l-h0d85af4_0        conda-forge                                                        
-    os_command_py:         1.1.0-py_0               conda-forge                                                        
-    packaging:             21.0-pyhd8ed1ab_0        conda-forge                                                        
-    pandas:                1.3.4-py39h4d6be9b_0     conda-forge                                                        
-    pcre:                  8.45-he49afe7_0          conda-forge                                                        
-    pdb2pqr:               3.2.0-pyhd8ed1ab_0       conda-forge                                                        
-    pdb2pqr_htmd_propka30: 0.0.4-py_0               conda-forge                                                        
-    pdb_manip_py:          1.4.1-pyhd8ed1ab_0       conda-forge                                                        
-    pip:                   21.3.1-pyhd8ed1ab_0      conda-forge                                                        
-    pixman:                0.40.0-hbcb3906_0        conda-forge                                                        
-    pluggy:                1.0.0-py39h6e9494a_1     conda-forge                                                        
-    propka:                3.4.0-py39h71a6800_1     conda-forge                                                        
-    py:                    1.10.0-pyhd3deb0d_0      conda-forge                                                        
-    pycparser:             2.20-pyh9f0ad1d_2        conda-forge                                                        
-    pyopenssl:             21.0.0-pyhd8ed1ab_0      conda-forge                                                        
-    pyparsing:             2.4.7-pyh9f0ad1d_0       conda-forge                                                        
-    pysocks:               1.7.1-py39h6e9494a_3     conda-forge                                                        
-    pytest:                6.2.5-py39h6e9494a_0     conda-forge                                                        
-    python:                3.9.7-h1248fe1_3_cpython conda-forge                                                        
-    python-dateutil:       2.8.2-pyhd8ed1ab_0       conda-forge                                                        
-    python_abi:            3.9-2_cp39               conda-forge                                                        
-    pytz:                  2021.3-pyhd8ed1ab_0      conda-forge                                                        
-    qvina:                 2.1.0-h593f164_2         conda-forge                                                        
-    readline:              8.1-h05e3726_0           conda-forge                                                        
-    requests:              2.26.0-pyhd8ed1ab_0      conda-forge                                                        
-    scipy:                 1.7.1-py39h056f1c0_0     conda-forge                                                        
-    setuptools:            58.2.0-py39h6e9494a_0    conda-forge                                                        
-    six:                   1.16.0-pyh6c4a22f_0      conda-forge                                                        
-    smina:                 2020.12.10-hfcb3d6c_0    conda-forge                                                        
-    sqlite:                3.36.0-h23a322b_2        conda-forge                                                        
-    tk:                    8.6.11-h5dbffcc_1        conda-forge                                                        
-    toml:                  0.10.2-pyhd8ed1ab_0      conda-forge                                                        
-    tzdata:                2021e-he74cb21_0         conda-forge                                                        
-    urllib3:               1.26.7-pyhd8ed1ab_0      conda-forge                                                        
-    wheel:                 0.37.0-pyhd8ed1ab_1      conda-forge                                                        
-    xz:                    5.2.5-haf1e3a3_1         conda-forge                                                        
-    zlib:                  1.2.11-h9173be1_1013     conda-forge                                                        
-    zstd:                  1.5.0-h582d3a0_0         conda-forge                                                        
+    attrs:                     21.2.0-pyhd8ed1ab_0      conda-forge                                                        
+    autodock-vina:             1.1.2-2                  bioconda                                                           
+    boost-cpp:                 1.74.0-hf3dc895_5        conda-forge                                                        
+    brotlipy:                  0.7.0-py39h89e85a6_1002  conda-forge                                                        
+    bzip2:                     1.0.8-h0d85af4_4         conda-forge                                                        
+    ca-certificates:           2021.10.8-h033912b_0     conda-forge                                                        
+    cairo:                     1.16.0-he01c77b_1009     conda-forge                                                        
+    certifi:                   2021.10.8-py39h6e9494a_1 conda-forge                                                        
+    cffi:                      1.14.6-py39he338e87_2    conda-forge                                                        
+    chardet:                   4.0.0-py39h6e9494a_2     conda-forge                                                        
+    charset-normalizer:        2.0.0-pyhd8ed1ab_0       conda-forge                                                        
+    cryptography:              35.0.0-py39h209aa08_1    conda-forge                                                        
+    docking_py:                0.2.3-py_0               file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp9jpxvbcw
+    font-ttf-dejavu-sans-mono: 2.37-hab24e00_0          conda-forge                                                        
+    font-ttf-inconsolata:      3.000-h77eed37_0         conda-forge                                                        
+    font-ttf-source-code-pro:  2.038-h77eed37_0         conda-forge                                                        
+    font-ttf-ubuntu:           0.83-hab24e00_0          conda-forge                                                        
+    fontconfig:                2.13.1-h10f422b_1005     conda-forge                                                        
+    fonts-conda-ecosystem:     1-0                      conda-forge                                                        
+    fonts-conda-forge:         1-0                      conda-forge                                                        
+    freetype:                  2.10.4-h4cff582_1        conda-forge                                                        
+    gettext:                   0.19.8.1-hd1a6beb_1008   conda-forge                                                        
+    icu:                       69.1-he49afe7_0          conda-forge                                                        
+    idna:                      3.1-pyhd3deb0d_0         conda-forge                                                        
+    iniconfig:                 1.1.1-pyh9f0ad1d_0       conda-forge                                                        
+    libblas:                   3.9.0-12_osx64_openblas  conda-forge                                                        
+    libcblas:                  3.9.0-12_osx64_openblas  conda-forge                                                        
+    libcxx:                    12.0.1-habf9029_0        conda-forge                                                        
+    libffi:                    3.4.2-he49afe7_4         conda-forge                                                        
+    libgfortran:               5.0.0-9_3_0_h6c81a4c_23  conda-forge                                                        
+    libgfortran5:              9.3.0-h6c81a4c_23        conda-forge                                                        
+    libglib:                   2.70.0-hf1fb8c0_1        conda-forge                                                        
+    libiconv:                  1.16-haf1e3a3_0          conda-forge                                                        
+    liblapack:                 3.9.0-12_osx64_openblas  conda-forge                                                        
+    libopenblas:               0.3.18-openmp_h3351f45_0 conda-forge                                                        
+    libpng:                    1.6.37-h7cec526_2        conda-forge                                                        
+    libxml2:                   2.9.12-h7e28ab6_1        conda-forge                                                        
+    libzlib:                   1.2.11-h9173be1_1013     conda-forge                                                        
+    llvm-openmp:               12.0.1-hda6cdc1_1        conda-forge                                                        
+    lz4-c:                     1.9.3-he49afe7_1         conda-forge                                                        
+    mgltools:                  1.5.6-1                  bioconda                                                           
+    mmcif_pdbx:                2.0.0-pyh44b312d_0       conda-forge                                                        
+    more-itertools:            8.10.0-pyhd8ed1ab_0      conda-forge                                                        
+    ncurses:                   6.2-h2e338ed_4           conda-forge                                                        
+    numpy:                     1.21.3-py39h7eed0ac_1    conda-forge                                                        
+    openbabel:                 3.1.1-py39hb4f85b1_3     conda-forge                                                        
+    openssl:                   1.1.1l-h0d85af4_0        conda-forge                                                        
+    os_command_py:             1.1.0-py_0               conda-forge                                                        
+    packaging:                 21.2-pyhd8ed1ab_1        conda-forge                                                        
+    pandas:                    1.3.4-py39h4d6be9b_0     conda-forge                                                        
+    pcre:                      8.45-he49afe7_0          conda-forge                                                        
+    pdb2pqr:                   3.2.0-pyhd8ed1ab_0       conda-forge                                                        
+    pdb2pqr_htmd_propka30:     0.0.4-py_0               conda-forge                                                        
+    pdb_manip_py:              1.4.1-pyhd8ed1ab_0       conda-forge                                                        
+    pip:                       21.3.1-pyhd8ed1ab_0      conda-forge                                                        
+    pixman:                    0.40.0-hbcb3906_0        conda-forge                                                        
+    pluggy:                    1.0.0-py39h6e9494a_2     conda-forge                                                        
+    propka:                    3.4.0-py39h71a6800_1     conda-forge                                                        
+    py:                        1.10.0-pyhd3deb0d_0      conda-forge                                                        
+    pycparser:                 2.20-pyh9f0ad1d_2        conda-forge                                                        
+    pyopenssl:                 21.0.0-pyhd8ed1ab_0      conda-forge                                                        
+    pyparsing:                 2.4.7-pyhd8ed1ab_1       conda-forge                                                        
+    pysocks:                   1.7.1-py39h6e9494a_4     conda-forge                                                        
+    pytest:                    6.2.5-py39h6e9494a_1     conda-forge                                                        
+    python:                    3.9.7-h1248fe1_3_cpython conda-forge                                                        
+    python-dateutil:           2.8.2-pyhd8ed1ab_0       conda-forge                                                        
+    python_abi:                3.9-2_cp39               conda-forge                                                        
+    pytz:                      2021.3-pyhd8ed1ab_0      conda-forge                                                        
+    qvina:                     2.1.0-h593f164_2         conda-forge                                                        
+    readline:                  8.1-h05e3726_0           conda-forge                                                        
+    requests:                  2.26.0-pyhd8ed1ab_0      conda-forge                                                        
+    scipy:                     1.7.1-py39h056f1c0_0     conda-forge                                                        
+    setuptools:                58.4.0-py39h6e9494a_1    conda-forge                                                        
+    six:                       1.16.0-pyh6c4a22f_0      conda-forge                                                        
+    smina:                     2020.12.10-hfcb3d6c_0    conda-forge                                                        
+    sqlite:                    3.36.0-h23a322b_2        conda-forge                                                        
+    tk:                        8.6.11-h5dbffcc_1        conda-forge                                                        
+    toml:                      0.10.2-pyhd8ed1ab_0      conda-forge                                                        
+    tzdata:                    2021e-he74cb21_0         conda-forge                                                        
+    urllib3:                   1.26.7-pyhd8ed1ab_0      conda-forge                                                        
+    wheel:                     0.37.0-pyhd8ed1ab_1      conda-forge                                                        
+    xz:                        5.2.5-haf1e3a3_1         conda-forge                                                        
+    zlib:                      1.2.11-h9173be1_1013     conda-forge                                                        
+    zstd:                      1.5.0-h582d3a0_0         conda-forge                                                        
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/docking_py_1634986766175/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
-export SRC_DIR=/Users/runner/conda/conda-bld/docking_py_1634986766175/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/docking_py_1635994855986/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/Users/runner/conda/conda-bld/docking_py_1635994855986/test_tmp
 import: 'docking_py.docking'
 Smina ligand script is $PREFIX/bin/prepare_ligand4.py
 Smina receptor script is $PREFIX/bin/prepare_receptor4.py
@@ -328,7 +242,7 @@ $PREFIX/lib/python3.9/site-packages/docking_py/docking.py:834: DocTestFailure
 _________________________ test_prepare_ligand_recetor __________________________
 
 tmp_path = PosixPath('/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pytest-of-runner/pytest-0/test_prepare_ligand_recetor0')
-capsys = <_pytest.capture.CaptureFixture object at 0x10dc60a90>
+capsys = <_pytest.capture.CaptureFixture object at 0x1285a9a30>
 
     def test_prepare_ligand_recetor(tmp_path, capsys):
     
@@ -344,15 +258,15 @@ capsys = <_pytest.capture.CaptureFixture object at 0x10dc60a90>
                      captured.out))
 E       AssertionError: assert False
 E        +  where False = bool(None)
-E        +    where None = <function match at 0x106655310>('Succeed to read file .+input/1hsg.pdb ,  1686 atoms found\n', '')
-E        +      where <function match at 0x106655310> = re.match
+E        +    where None = <function match at 0x100e87310>('Succeed to read file .+input/1hsg.pdb ,  1686 atoms found\n', '')
+E        +      where <function match at 0x100e87310> = re.match
 E        +      and   '' = CaptureResult(out='', err='').out
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/docking_py/tests/test_docking_py.py:43: AssertionError
 _______________________________ test_smina_rigid _______________________________
 
 tmp_path = PosixPath('/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pytest-of-runner/pytest-0/test_smina_rigid0')
-capsys = <_pytest.capture.CaptureFixture object at 0x10dcbdaf0>
+capsys = <_pytest.capture.CaptureFixture object at 0x128606af0>
 
     def test_smina_rigid(tmp_path, capsys):
     
@@ -375,8 +289,8 @@ capsys = <_pytest.capture.CaptureFixture object at 0x10dcbdaf0>
                     captured.out))
 E       AssertionError: assert False
 E        +  where False = bool(None)
-E        +    where None = <function match at 0x106655310>('Succeed to read file .+/input/lig.pdbqt ,  50 atoms found\nDo a rotation of 99.71°\nCenter coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', 'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n')
-E        +      where <function match at 0x106655310> = re.match
+E        +    where None = <function match at 0x100e87310>('Succeed to read file .+/input/lig.pdbqt ,  50 atoms found\nDo a rotation of 99.71°\nCenter coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', 'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n')
+E        +      where <function match at 0x100e87310> = re.match
 E        +      and   'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n' = CaptureResult(out='Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', err='').out
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/docking_py/tests/test_docking_py.py:137: AssertionError
@@ -385,7 +299,7 @@ WARNING  pdb_manip_py.pdb_manip:pdb_manip.py:823 File name doesn't finish with .
 _______________________________ test_vina_rigid ________________________________
 
 tmp_path = PosixPath('/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/pytest-of-runner/pytest-0/test_vina_rigid0')
-capsys = <_pytest.capture.CaptureFixture object at 0x10dc483d0>
+capsys = <_pytest.capture.CaptureFixture object at 0x12855fca0>
 
     def test_vina_rigid(tmp_path, capsys):
     
@@ -408,8 +322,8 @@ capsys = <_pytest.capture.CaptureFixture object at 0x10dc483d0>
                     captured.out))
 E       AssertionError: assert False
 E        +  where False = bool(None)
-E        +    where None = <function match at 0x106655310>('Succeed to read file .+/input/lig.pdbqt ,  50 atoms found\nDo a rotation of 99.71°\nCenter coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', 'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n')
-E        +      where <function match at 0x106655310> = re.match
+E        +    where None = <function match at 0x100e87310>('Succeed to read file .+/input/lig.pdbqt ,  50 atoms found\nDo a rotation of 99.71°\nCenter coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', 'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n')
+E        +      where <function match at 0x100e87310> = re.match
 E        +      and   'Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n' = CaptureResult(out='Center coordinates is 13.1 22.5 5.5, maximum dimension is 18.0 Å\n', err='').out
 
 ../_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol/lib/python3.9/site-packages/docking_py/tests/test_docking_py.py:194: AssertionError
@@ -433,7 +347,7 @@ FAILED docking.py::docking_py.docking.Docking.random_rot_ligand
 FAILED tests/test_docking_py.py::test_prepare_ligand_recetor - AssertionError...
 FAILED tests/test_docking_py.py::test_smina_rigid - AssertionError: assert False
 FAILED tests/test_docking_py.py::test_vina_rigid - AssertionError: assert False
-=================== 10 failed, 1 passed, 2 warnings in 1.07s ===================
+=================== 10 failed, 1 passed, 2 warnings in 0.97s ===================
 
 Leaving build/test directories:
   Work:

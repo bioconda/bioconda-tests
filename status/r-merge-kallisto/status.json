@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T02:46:16+00:00"}
+{
+ "started_at": "2021-11-04T02:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-merge-kallisto",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-merge-kallisto",
+      "subdir": "noarch",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-merge-kallisto",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-merge-kallisto",
+      "subdir": "noarch",
+      "version": "0.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
