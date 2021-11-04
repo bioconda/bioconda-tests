@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-04T17:16:14+00:00"}
+{
+ "started_at": "2021-11-04T17:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ssdrippipeline",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "kuan",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ssdrippipeline",
+      "subdir": "noarch",
+      "version": "0.0.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ssdrippipeline",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
