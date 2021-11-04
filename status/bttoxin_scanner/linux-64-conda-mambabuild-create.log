@@ -1,517 +1,13 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpwyt8xuc1/noarch/bttoxin_scanner-2.0.1-0.tar.bz2
+TEST START: /tmp/tmp1jjadyxs/noarch/bttoxin_scanner-2.0.1-0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmp3j2s3kvy/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmpo_d16e3i/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                                       Version  Build                Channel                       Size
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                                   0.1  conda_forge          conda-forge/linux-64        Cached
-  + _openmp_mutex                                   4.5  1_gnu                conda-forge/linux-64        Cached
-  + _r-mutex                                      1.0.1  anacondar_1          conda-forge/noarch          Cached
-  + _sysroot_linux-64_curr_repodata_hack              3  h5bd9786_12          conda-forge/noarch           14 KB
-  + abricate                                      1.0.1  ha8f3691_1           bioconda/noarch              13 MB
-  + abyss                                         2.3.2  hd403d74_0           bioconda/linux-64             2 MB
-  + any2fasta                                     0.4.2  1                    bioconda/linux-64             6 KB
-  + aragorn                                      1.2.38  h779adbc_4           bioconda/linux-64           131 KB
-  + argparse                                      1.4.0  py36_0               bioconda/linux-64            46 KB
-  + atk                                          2.36.0  ha770c72_4           conda-forge/linux-64         12 KB
-  + atk-1.0                                      2.36.0  h3371d22_4           conda-forge/linux-64        560 KB
-  + barrnap                                         0.9  2                    bioconda/linux-64           555 KB
-  + bcftools                                       1.13  h3a49de5_0           bioconda/linux-64           873 KB
-  + bedtools                                     2.30.0  h7d7f7ad_2           bioconda/linux-64            18 MB
-  + bio_assembly_refinement                       0.5.1  py36_1               bioconda/linux-64            27 KB
-  + biopython                                      1.79  py36h8f6f2f9_0       conda-forge/linux-64          3 MB
-  + blast                                        2.12.0  pl5262h3289130_0     bioconda/linux-64            22 MB
-  + boost                                        1.70.0  py36h9de70de_1       conda-forge/linux-64        337 KB
-  + boost-cpp                                    1.70.0  h8e57a91_2           conda-forge/linux-64        Cached
-  + bowtie2                                       2.4.4  py36hd4290be_0       bioconda/linux-64            15 MB
-  + bttoxin_scanner                               2.0.1  0                    /tmp/tmpwyt8xuc1/noarch       7 MB
-  + bwa                                          0.7.17  h5bf99c6_8           bioconda/linux-64           608 KB
-  + bzip2                                         1.0.8  h7f98852_4           conda-forge/linux-64        Cached
-  + c-ares                                       1.17.2  h7f98852_0           conda-forge/linux-64        Cached
-  + ca-certificates                           2021.10.8  ha878542_0           conda-forge/linux-64        Cached
-  + cairo                                        1.16.0  hcf35c78_1003        conda-forge/linux-64          1 MB
-  + canu                                            2.2  ha47f30e_0           bioconda/linux-64            60 MB
-  + capnproto                                     0.6.1  hfc679d8_1           conda-forge/linux-64          3 MB
-  + cd-hit                                        4.8.1  h2e03b76_5           bioconda/linux-64           251 KB
-  + certifi                                   2021.5.30  py36h5fab9bb_0       conda-forge/linux-64        141 KB
-  + chrpath                                        0.16  h7f98852_1002        conda-forge/linux-64         29 KB
-  + circlator                                     1.5.5  py36_1               bioconda/linux-64             5 MB
-  + clustalw                                        2.1  h7d875b9_6           bioconda/linux-64           318 KB
-  + coreutils                                      8.31  h516909a_0           conda-forge/linux-64        Cached
-  + curl                                         7.79.1  h2574ce0_1           conda-forge/linux-64        153 KB
-  + cycler                                       0.10.0  py36_0               conda-forge/linux-64         14 KB
-  + dbus                                         1.13.6  hfdff14a_1           conda-forge/linux-64        585 KB
-  + dendropy                                      4.5.2  pyh3252c3a_0         bioconda/noarch             308 KB
-  + diamond                                       2.0.8  h56fc30b_0           bioconda/linux-64             2 MB
-  + emboss                                        6.6.0  h53bb281_3           bioconda/linux-64            94 MB
-  + entrez-direct                                  15.6  he881be0_1           bioconda/linux-64             8 MB
-  + et_xmlfile                                    1.0.1  py36_0               conda-forge/linux-64         19 KB
-  + ete3                                          3.1.2  pyh9f0ad1d_0         conda-forge/noarch            2 MB
-  + expat                                         2.4.1  h9c3ff4c_0           conda-forge/linux-64        182 KB
-  + fastani                                        1.32  he1c1bb9_0           bioconda/linux-64           Cached
-  + fastme                                      2.1.6.1  h779adbc_0           bioconda/linux-64           144 KB
-  + fasttree                                     2.1.10  h779adbc_5           bioconda/linux-64           338 KB
-  + fontconfig                                   2.13.1  hba837de_1005        conda-forge/linux-64        Cached
-  + freebayes                                     1.3.2  py36ha64edc8_2       bioconda/linux-64            16 MB
-  + freetype                                     2.10.4  h0708190_1           conda-forge/linux-64        Cached
-  + fribidi                                      1.0.10  h36c2ea0_0           conda-forge/linux-64        Cached
-  + gawk                                          5.1.0  h7f98852_0           conda-forge/linux-64          1 MB
-  + gblocks                                       0.91b  h9ee0642_2           bioconda/linux-64            34 KB
-  + gdk-pixbuf                                   2.42.2  h19a9c64_1           conda-forge/linux-64        617 KB
-  + gettext                                    0.19.8.1  hf34092f_1004        conda-forge/linux-64          4 MB
-  + giflib                                        5.2.1  h36c2ea0_2           conda-forge/linux-64         77 KB
-  + glib                                         2.66.3  h58526e2_0           conda-forge/linux-64        500 KB
-  + gmp                                           6.2.1  h58526e2_0           conda-forge/linux-64        806 KB
-  + gnuplot                                       5.2.7  h0fb2448_3           conda-forge/linux-64          1 MB
-  + gobject-introspection                        1.66.1  py36hc23f7e7_3       conda-forge/linux-64          1 MB
-  + graphite2                                    1.3.13  h58526e2_1001        conda-forge/linux-64        Cached
-  + graphviz                                     2.42.3  h0511662_0           conda-forge/linux-64          7 MB
-  + gsl                                             2.6  he838d99_2           conda-forge/linux-64          3 MB
-  + gst-plugins-base                             1.14.5  h0935bb2_2           conda-forge/linux-64          7 MB
-  + gstreamer                                    1.14.5  h36ae1b5_2           conda-forge/linux-64          4 MB
-  + gtk2                                        2.24.32  h586f36d_1           conda-forge/linux-64          7 MB
-  + gubbins                                       2.4.1  py36h30a8e3e_2       bioconda/linux-64           106 KB
-  + harfbuzz                                      2.4.0  h9f30f68_3           conda-forge/linux-64          1 MB
-  + hmmer                                         3.3.2  h1b792b2_1           bioconda/linux-64            10 MB
-  + htslib                                         1.13  h9093b5e_0           bioconda/linux-64             2 MB
-  + icu                                            64.2  he1b5a44_1           conda-forge/linux-64        Cached
-  + infernal                                      1.1.4  h779adbc_0           bioconda/linux-64             3 MB
-  + iqtree                                   2.1.4_beta  hdcc8f71_0           bioconda/linux-64             6 MB
-  + jpeg                                             9d  h36c2ea0_0           conda-forge/linux-64        Cached
-  + k8                                            0.2.5  h9a82719_1           bioconda/linux-64             2 MB
-  + kernel-headers_linux-64                      3.10.0  h4a8ded7_12          conda-forge/noarch          957 KB
-  + kiwisolver                                    1.3.1  py36h605e78d_1       conda-forge/linux-64         78 KB
-  + krb5                                         1.19.2  hcc1bbae_2           conda-forge/linux-64        Cached
-  + lcms2                                          2.11  hcbb858e_1           conda-forge/linux-64        434 KB
-  + ld_impl_linux-64                             2.36.1  hea4e1c9_2           conda-forge/linux-64        Cached
-  + libblas                                       3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libcblas                                      3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libclang                                      9.0.1  default_ha53f305_2   conda-forge/linux-64         24 MB
-  + libcurl                                      7.79.1  h2574ce0_1           conda-forge/linux-64        Cached
-  + libdb                                        6.2.32  h9c3ff4c_0           conda-forge/linux-64         23 MB
-  + libdeflate                                      1.7  h7f98852_5           conda-forge/linux-64         67 KB
-  + libedit                                3.1.20191231  he28a2e2_2           conda-forge/linux-64        Cached
-  + libev                                          4.33  h516909a_1           conda-forge/linux-64        Cached
-  + libffi                                        3.2.1  he1b5a44_1007        conda-forge/linux-64         47 KB
-  + libgcc                                        7.2.0  h69d50b8_2           conda-forge/linux-64        304 KB
-  + libgcc-ng                                    11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libgd                                         2.2.5  h307a58e_1007        conda-forge/linux-64        302 KB
-  + libgfortran-ng                               11.2.0  h69a702a_11          conda-forge/linux-64        Cached
-  + libgfortran5                                 11.2.0  h5c6108e_11          conda-forge/linux-64        Cached
-  + libglib                                      2.66.3  hbe7bbb4_0           conda-forge/linux-64          3 MB
-  + libgomp                                      11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libiconv                                       1.16  h516909a_0           conda-forge/linux-64        Cached
-  + libidn11                                       1.34  h1cef754_0           conda-forge/linux-64        227 KB
-  + libidn2                                       2.3.2  h7f98852_0           conda-forge/linux-64         98 KB
-  + liblapack                                     3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libllvm9                                      9.0.1  default_hc23dcda_4   conda-forge/linux-64         26 MB
-  + libnghttp2                                   1.43.0  h812cca2_1           conda-forge/linux-64        Cached
-  + libopenblas                                  0.3.18  pthreads_h8fe5266_0  conda-forge/linux-64        Cached
-  + libpng                                       1.6.37  h21135ba_2           conda-forge/linux-64        Cached
-  + libssh2                                      1.10.0  ha56f1ee_2           conda-forge/linux-64        Cached
-  + libstdcxx-ng                                 11.2.0  he4da1e4_11          conda-forge/linux-64        Cached
-  + libsvm                                          325  h9c3ff4c_0           conda-forge/linux-64         80 KB
-  + libtiff                                       4.1.0  hc3755c2_3           conda-forge/linux-64        568 KB
-  + libtool                                       2.4.6  h9c3ff4c_1008        conda-forge/linux-64        511 KB
-  + libunistring                                 0.9.10  h7f98852_0           conda-forge/linux-64          1 MB
-  + libuuid                                      2.32.1  h7f98852_1000        conda-forge/linux-64        Cached
-  + libwebp                                       1.0.2  h56121f0_5           conda-forge/linux-64        938 KB
-  + libxcb                                         1.13  h7f98852_1003        conda-forge/linux-64        Cached
-  + libxkbcommon                                 0.10.0  he1b5a44_0           conda-forge/linux-64        475 KB
-  + libxml2                                      2.9.10  hee79883_0           conda-forge/linux-64          1 MB
-  + libxslt                                      1.1.33  h31b3aaa_0           conda-forge/linux-64        556 KB
-  + libzlib                                      1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + llvm-openmp                                   8.0.1  hc9558a2_0           conda-forge/linux-64        439 KB
-  + lxml                                          4.6.3  py36h04a5ba7_0       conda-forge/linux-64          2 MB
-  + lz4-c                                         1.9.3  h9c3ff4c_1           conda-forge/linux-64        Cached
-  + mafft                                         7.487  h779adbc_0           bioconda/linux-64             3 MB
-  + make                                            4.3  hd18ef5c_1           conda-forge/linux-64        Cached
-  + mash                                            2.3  he348c14_1           bioconda/linux-64           584 KB
-  + matplotlib-base                               3.3.4  py36hd391965_0       conda-forge/linux-64          7 MB
-  + mcl                                          14.137  pl5262h779adbc_6     bioconda/linux-64             2 MB
-  + minced                                        0.3.2  0                    bioconda/noarch              30 KB
-  + miniasm                                    0.3_r179  h5bf99c6_2           bioconda/linux-64           134 KB
-  + minimap2                                       2.22  h5bf99c6_0           bioconda/linux-64           483 KB
-  + mmseqs2                                    13.45111  h95f258a_1           bioconda/linux-64             2 MB
-  + modeltest-ng                                  0.1.6  h19e7193_1           bioconda/linux-64             3 MB
-  + mpi                                             1.0  openmpi              conda-forge/linux-64          4 KB
-  + mummer                                         3.23  pl5262h1b792b2_12    bioconda/linux-64             3 MB
-  + muscle                                     3.8.1551  h7d875b9_6           bioconda/linux-64           262 KB
-  + ncurses                                         6.2  h58526e2_4           conda-forge/linux-64        Cached
-  + nose                                          1.3.7  py36h9f0ad1d_1004    conda-forge/linux-64        212 KB
-  + nspr                                           4.30  h9c3ff4c_0           conda-forge/linux-64        233 KB
-  + nss                                            3.69  hb5efdd6_1           conda-forge/linux-64          2 MB
-  + numpy                                        1.19.5  py36hfc0c790_2       conda-forge/linux-64          5 MB
-  + olefile                                        0.46  pyh9f0ad1d_1         conda-forge/noarch          Cached
-  + openjdk                                     8.0.302  h7f98852_0           conda-forge/linux-64         98 MB
-  + openmp                                        8.0.1  0                    conda-forge/linux-64          8 KB
-  + openmpi                                       4.1.1  hbfc84c5_0           conda-forge/linux-64          4 MB
-  + openpyxl                                      3.0.9  pyhd8ed1ab_0         conda-forge/noarch          153 KB
-  + openssl                                      1.1.1l  h7f98852_0           conda-forge/linux-64        Cached
-  + orthofinder                                   2.5.4  hdfd78af_0           bioconda/noarch             129 KB
-  + pal2nal                                        14.1  pl5262hdfd78af_2     bioconda/noarch              22 KB
-  + paml                                            4.9  h779adbc_6           bioconda/linux-64             1 MB
-  + pandas                                        1.1.5  py36h284efc9_0       conda-forge/linux-64         11 MB
-  + pango                                        1.42.4  h7062337_4           conda-forge/linux-64        521 KB
-  + parallel                                   20210822  ha770c72_0           conda-forge/linux-64          2 MB
-  + patsy                                         0.5.2  pyhd8ed1ab_0         conda-forge/noarch          188 KB
-  + pcre                                           8.45  h9c3ff4c_0           conda-forge/linux-64        Cached
-  + perl                                         5.26.2  h36c2ea0_1008        conda-forge/linux-64         15 MB
-  + perl-aceperl                                   1.92  pl526_2              bioconda/linux-64           149 KB
-  + perl-algorithm-diff                          1.1903  pl526_2              bioconda/linux-64            34 KB
-  + perl-algorithm-munkres                         0.08  pl526_1              bioconda/linux-64            11 KB
-  + perl-apache-test                               1.40  pl526_1              bioconda/linux-64           115 KB
-  + perl-app-cpanminus                           1.7044  pl526_1              bioconda/linux-64           234 KB
-  + perl-appconfig                                 1.71  pl526_1              bioconda/linux-64            42 KB
-  + perl-archive-tar                               2.32  pl526_0              bioconda/linux-64            31 KB
-  + perl-array-compare                            3.0.1  pl526_1              bioconda/linux-64            12 KB
-  + perl-array-utils                                0.5  pl526_2              bioconda/linux-64             7 KB
-  + perl-autoloader                                5.74  pl526_2              bioconda/linux-64             5 KB
-  + perl-base                                      2.23  pl526_1              bioconda/linux-64            10 KB
-  + perl-bio-asn1-entrezgene                       1.73  pl526_0              bioconda/linux-64            22 KB
-  + perl-bio-coordinate                        1.007001  pl526_0              bioconda/linux-64            33 KB
-  + perl-bio-featureio                          1.6.905  pl526_1              bioconda/linux-64            37 KB
-  + perl-bio-phylo                                 0.58  pl526_1              bioconda/linux-64           302 KB
-  + perl-bio-samtools                              1.43  pl526h1341992_1      bioconda/linux-64           172 KB
-  + perl-bio-tools-phylo-paml                     1.7.3  pl526_0              bioconda/linux-64            55 KB
-  + perl-bio-tools-run-alignment-clustalw         1.7.4  pl526_0              bioconda/linux-64            22 KB
-  + perl-bio-tools-run-alignment-tcoffee          1.7.4  pl526_1              bioconda/linux-64            23 KB
-  + perl-bioperl                                  1.7.2  pl526_10             bioconda/linux-64            13 KB
-  + perl-bioperl-core                          1.007002  pl526_1              bioconda/linux-64             3 MB
-  + perl-bioperl-run                           1.007002  pl526_3              bioconda/linux-64           424 KB
-  + perl-business-isbn                            3.004  pl526_0              bioconda/linux-64            15 KB
-  + perl-business-isbn-data                20140910.003  pl526_0              bioconda/linux-64            15 KB
-  + perl-cache-cache                               1.08  pl526_0              bioconda/linux-64            31 KB
-  + perl-capture-tiny                              0.48  pl526_0              bioconda/linux-64            17 KB
-  + perl-carp                                      1.38  pl526_3              bioconda/linux-64            15 KB
-  + perl-cgi                                       4.44  pl526h14c3975_1      bioconda/linux-64           116 KB
-  + perl-class-data-inheritable                    0.08  pl526_1              bioconda/linux-64             7 KB
-  + perl-class-inspector                           1.34  pl526_0              bioconda/linux-64            14 KB
-  + perl-class-load                                0.25  pl526_0              bioconda/linux-64            12 KB
-  + perl-class-load-xs                             0.10  pl526h6bb024c_2      bioconda/linux-64            13 KB
-  + perl-class-method-modifiers                    2.12  pl526_0              bioconda/linux-64            13 KB
-  + perl-clone                                     0.42  pl526h516909a_0      bioconda/linux-64            13 KB
-  + perl-common-sense                              3.74  pl526_2              bioconda/linux-64            11 KB
-  + perl-compress-raw-bzip2                       2.087  pl526he1b5a44_0      bioconda/linux-64            44 KB
-  + perl-compress-raw-zlib                        2.087  pl526hc9558a2_0      bioconda/linux-64            72 KB
-  + perl-constant                                  1.33  pl526_1              bioconda/linux-64            10 KB
-  + perl-convert-binary-c                          0.78  pl526h6bb024c_3      bioconda/linux-64           252 KB
-  + perl-convert-binhex                           1.125  pl526_1              bioconda/linux-64            25 KB
-  + perl-crypt-rc4                                 2.02  pl526_1              bioconda/linux-64             8 KB
-  + perl-data-dumper                              2.173  pl526_0              bioconda/linux-64            35 KB
-  + perl-data-optlist                             0.110  pl526_2              bioconda/linux-64            10 KB
-  + perl-data-stag                                 0.14  pl526_1              bioconda/linux-64            78 KB
-  + perl-date-format                               2.30  pl526_2              bioconda/linux-64            29 KB
-  + perl-db-file                                  1.855  pl526h516909a_0      bioconda/linux-64            53 KB
-  + perl-dbd-sqlite                                1.64  pl526h516909a_0      bioconda/linux-64             2 MB
-  + perl-dbi                                      1.642  pl526_0              bioconda/linux-64           549 KB
-  + perl-devel-globaldestruction                   0.14  pl526_0              bioconda/linux-64             7 KB
-  + perl-devel-overloadinfo                       0.005  pl526_0              bioconda/linux-64             8 KB
-  + perl-devel-stacktrace                          2.04  pl526_0              bioconda/noarch              16 KB
-  + perl-digest-hmac                               1.03  pl526_3              bioconda/linux-64             9 KB
-  + perl-digest-md5                                2.55  pl526_0              bioconda/linux-64            18 KB
-  + perl-digest-md5-file                           0.08  pl526_2              bioconda/linux-64            10 KB
-  + perl-digest-perl-md5                            1.9  pl526_1              bioconda/linux-64            11 KB
-  + perl-digest-sha1                               2.13  pl526h6bb024c_1      bioconda/linux-64            20 KB
-  + perl-dist-checkconflicts                       0.11  pl526_2              bioconda/linux-64            10 KB
-  + perl-dynaloader                                1.25  pl526_1              bioconda/linux-64             3 KB
-  + perl-email-date-format                        1.005  pl526_2              bioconda/linux-64             8 KB
-  + perl-encode                                    2.88  pl526_1              bioconda/linux-64             2 MB
-  + perl-encode-locale                             1.05  pl526_6              bioconda/linux-64            11 KB
-  + perl-error                                  0.17027  pl526_1              bioconda/linux-64            20 KB
-  + perl-eval-closure                              0.14  pl526h6bb024c_4      bioconda/linux-64            11 KB
-  + perl-exception-class                           1.44  pl526_0              bioconda/linux-64            19 KB
-  + perl-exporter                                  5.72  pl526_1              bioconda/linux-64            13 KB
-  + perl-exporter-tiny                         1.002001  pl526_0              bioconda/linux-64            23 KB
-  + perl-extutils-makemaker                        7.36  pl526_1              bioconda/linux-64           153 KB
-  + perl-file-find-rule                            0.34  pl526_5              bioconda/linux-64            19 KB
-  + perl-file-grep                                 0.02  pl526_3              bioconda/linux-64            10 KB
-  + perl-file-listing                              6.04  pl526_1              bioconda/linux-64             9 KB
-  + perl-file-path                                 2.16  pl526_0              bioconda/linux-64            17 KB
-  + perl-file-slurp-tiny                          0.004  pl526_1              bioconda/linux-64             8 KB
-  + perl-file-slurper                             0.012  pl526_0              bioconda/linux-64             9 KB
-  + perl-file-sort                                 1.01  pl526_2              bioconda/linux-64            18 KB
-  + perl-file-tee                                  0.07  pl526_1              bioconda/linux-64            10 KB
-  + perl-file-temp                               0.2304  pl526_2              bioconda/linux-64            26 KB
-  + perl-file-which                                1.23  pl526_0              bioconda/linux-64            12 KB
-  + perl-filesys-df                                0.92  pl526h14c3975_3      bioconda/linux-64            14 KB
-  + perl-font-afm                                  1.20  pl526_2              bioconda/linux-64            14 KB
-  + perl-font-ttf                                  1.06  pl526_0              bioconda/linux-64           200 KB
-  + perl-gd                                        2.71  pl526he860b03_0      bioconda/linux-64           114 KB
-  + perl-getopt-long                               2.50  pl526_1              bioconda/linux-64            27 KB
-  + perl-graph                                   0.9704  pl526_1              bioconda/linux-64            73 KB
-  + perl-graph-readwrite                           2.09  pl526_2              bioconda/linux-64            26 KB
-  + perl-graphviz                                  2.24  pl526h734ff71_0      bioconda/linux-64            36 KB
-  + perl-html-element-extended                     1.18  pl526_1              bioconda/linux-64            24 KB
-  + perl-html-entities-numbered                    0.04  pl526_1              bioconda/linux-64            11 KB
-  + perl-html-formatter                            2.16  pl526_0              bioconda/linux-64            30 KB
-  + perl-html-parser                               3.72  pl526h6bb024c_5      bioconda/linux-64            66 KB
-  + perl-html-tableextract                         2.13  pl526_2              bioconda/linux-64            23 KB
-  + perl-html-tagset                               3.20  pl526_3              bioconda/linux-64            12 KB
-  + perl-html-tidy                                 1.60  pl526_0              bioconda/linux-64            20 KB
-  + perl-html-tree                                 5.07  pl526_1              bioconda/linux-64           129 KB
-  + perl-html-treebuilder-xpath                    0.14  pl526_1              bioconda/linux-64            12 KB
-  + perl-http-cookies                              6.04  pl526_0              bioconda/linux-64            19 KB
-  + perl-http-daemon                               6.01  pl526_1              bioconda/linux-64            14 KB
-  + perl-http-date                                 6.02  pl526_3              bioconda/linux-64            10 KB
-  + perl-http-message                              6.18  pl526_0              bioconda/linux-64            51 KB
-  + perl-http-negotiate                            6.01  pl526_3              bioconda/linux-64            13 KB
-  + perl-image-info                                1.38  pl526_1              bioconda/linux-64            41 KB
-  + perl-image-size                               3.300  pl526_2              bioconda/linux-64            26 KB
-  + perl-io-compress                              2.087  pl526he1b5a44_0      bioconda/linux-64            81 KB
-  + perl-io-html                                  1.001  pl526_2              bioconda/linux-64            13 KB
-  + perl-io-sessiondata                            1.03  pl526_1              bioconda/linux-64             8 KB
-  + perl-io-socket-ssl                            2.066  pl526_0              bioconda/linux-64           151 KB
-  + perl-io-string                                 1.08  pl526_3              bioconda/linux-64            10 KB
-  + perl-io-stringy                               2.111  pl526_1              bioconda/linux-64            35 KB
-  + perl-io-tty                                    1.12  pl526_1              bioconda/linux-64            30 KB
-  + perl-io-zlib                                   1.10  pl526_2              bioconda/linux-64             9 KB
-  + perl-ipc-run                             20180523.0  pl526_0              bioconda/linux-64            74 KB
-  + perl-ipc-sharelite                             0.17  pl526h6bb024c_1      bioconda/linux-64            24 KB
-  + perl-jcode                                     2.07  pl526_2              bioconda/linux-64            24 KB
-  + perl-json                                      4.02  pl526_0              bioconda/linux-64            52 KB
-  + perl-json-xs                                   2.34  pl526h6bb024c_3      bioconda/linux-64            63 KB
-  + perl-lib                                       0.63  pl526_1              bioconda/linux-64             6 KB
-  + perl-libwww-perl                               6.39  pl526_0              bioconda/noarch              94 KB
-  + perl-libxml-perl                               0.08  pl526_2              bioconda/linux-64            38 KB
-  + perl-list-moreutils                           0.428  pl526_1              bioconda/linux-64            28 KB
-  + perl-list-moreutils-xs                        0.428  pl526_0              bioconda/linux-64            43 KB
-  + perl-log-log4perl                              1.49  pl526_0              bioconda/linux-64           196 KB
-  + perl-lwp-mediatypes                            6.04  pl526_0              bioconda/linux-64            22 KB
-  + perl-lwp-protocol-https                        6.07  pl526_4              bioconda/linux-64             9 KB
-  + perl-lwp-simple                                6.15  pl526h470a237_4      bioconda/linux-64           348 KB
-  + perl-mailtools                                 2.21  pl526_0              bioconda/noarch              48 KB
-  + perl-math-cdf                                   0.1  pl526h14c3975_5      bioconda/linux-64            69 KB
-  + perl-math-derivative                           1.01  pl526_0              bioconda/linux-64             9 KB
-  + perl-math-random                               0.72  pl526h14c3975_2      bioconda/linux-64            55 KB
-  + perl-math-spline                               0.02  pl526_2              bioconda/linux-64             8 KB
-  + perl-mime-base64                               3.15  pl526_1              bioconda/linux-64            15 KB
-  + perl-mime-lite                                3.030  pl526_1              bioconda/linux-64            51 KB
-  + perl-mime-tools                               5.508  pl526_1              bioconda/linux-64           113 KB
-  + perl-mime-types                                2.17  pl526_0              bioconda/linux-64            56 KB
-  + perl-mldbm                                     2.05  pl526_1              bioconda/linux-64            15 KB
-  + perl-module-implementation                     0.09  pl526_2              bioconda/linux-64             9 KB
-  + perl-module-runtime                           0.016  pl526_1              bioconda/linux-64            15 KB
-  + perl-module-runtime-conflicts                 0.003  pl526_0              bioconda/linux-64             7 KB
-  + perl-moo                                   2.003004  pl526_0              bioconda/linux-64            38 KB
-  + perl-moose                                   2.2011  pl526hf484d3e_1      bioconda/linux-64           444 KB
-  + perl-mozilla-ca                            20180117  pl526_1              bioconda/linux-64           140 KB
-  + perl-mro-compat                                0.13  pl526_0              bioconda/linux-64            10 KB
-  + perl-net-http                                  6.19  pl526_0              bioconda/noarch              19 KB
-  + perl-net-ssleay                                1.88  pl526h90d6eec_0      bioconda/linux-64           289 KB
-  + perl-ntlm                                      1.09  pl526_4              bioconda/linux-64            15 KB
-  + perl-number-compare                            0.03  pl526_2              bioconda/linux-64             7 KB
-  + perl-ole-storage_lite                          0.19  pl526_3              bioconda/linux-64            18 KB
-  + perl-package-deprecationmanager                0.17  pl526_0              bioconda/linux-64            10 KB
-  + perl-package-stash                             0.38  pl526hf484d3e_1      bioconda/linux-64            66 KB
-  + perl-package-stash-xs                          0.28  pl526hf484d3e_1      bioconda/linux-64            21 KB
-  + perl-parallel-forkmanager                      2.02  pl526_0              bioconda/linux-64            21 KB
-  + perl-params-util                               1.07  pl526h6bb024c_4      bioconda/linux-64            14 KB
-  + perl-parent                                   0.236  pl526_1              bioconda/linux-64             5 KB
-  + perl-parse-recdescent                      1.967015  pl526_0              bioconda/linux-64            71 KB
-  + perl-parse-yapp                                1.21  pl526_0              bioconda/linux-64            32 KB
-  + perl-path-tiny                                0.108  pl526_0              bioconda/linux-64            36 KB
-  + perl-pathtools                                 3.75  pl526h14c3975_1      bioconda/linux-64            41 KB
-  + perl-pdf-api2                                 2.035  pl526_0              bioconda/noarch               2 MB
-  + perl-perlio-utf8_strict                       0.007  pl526h6bb024c_1      bioconda/linux-64            13 KB
-  + perl-pod-escapes                               1.07  pl526_1              bioconda/linux-64            10 KB
-  + perl-pod-usage                                 1.69  pl526_1              bioconda/linux-64            13 KB
-  + perl-posix                                  1.38_03  pl526_1              bioconda/linux-64             3 KB
-  + perl-postscript                                0.06  pl526_2              bioconda/linux-64            22 KB
-  + perl-role-tiny                             2.000008  pl526_0              bioconda/noarch              15 KB
-  + perl-scalar-list-utils                         1.52  pl526h516909a_0      bioconda/linux-64            38 KB
-  + perl-set-scalar                                1.29  pl526_2              bioconda/linux-64            19 KB
-  + perl-soap-lite                                 1.19  pl526_1              bioconda/linux-64           117 KB
-  + perl-socket                                   2.027  pl526_1              bioconda/linux-64            31 KB
-  + perl-sort-naturally                            1.03  pl526_2              bioconda/linux-64            14 KB
-  + perl-spreadsheet-parseexcel                    0.65  pl526_2              bioconda/linux-64            63 KB
-  + perl-spreadsheet-writeexcel                    2.40  pl526_2              bioconda/linux-64           259 KB
-  + perl-statistics-descriptive                  3.0702  pl526_0              bioconda/linux-64            32 KB
-  + perl-storable                                  3.15  pl526h14c3975_0      bioconda/linux-64            63 KB
-  + perl-sub-exporter                             0.987  pl526_2              bioconda/linux-64            30 KB
-  + perl-sub-exporter-progressive              0.001013  pl526_0              bioconda/linux-64             8 KB
-  + perl-sub-identify                              0.14  pl526h14c3975_0      bioconda/linux-64            12 KB
-  + perl-sub-install                              0.928  pl526_2              bioconda/linux-64            10 KB
-  + perl-sub-name                                  0.21  pl526_1              bioconda/linux-64            13 KB
-  + perl-sub-quote                             2.006003  pl526_1              bioconda/linux-64            18 KB
-  + perl-sub-uplevel                             0.2800  pl526h14c3975_2      bioconda/linux-64            13 KB
-  + perl-svg                                       2.84  pl526_0              bioconda/linux-64            37 KB
-  + perl-svg-graph                                 0.02  pl526_3              bioconda/linux-64            26 KB
-  + perl-task-weaken                               1.06  pl526_0              bioconda/linux-64             8 KB
-  + perl-template-toolkit                          2.26  pl526_1              bioconda/linux-64           319 KB
-  + perl-test                                      1.26  pl526_1              bioconda/linux-64            14 KB
-  + perl-test-deep                                1.128  pl526_1              bioconda/linux-64            36 KB
-  + perl-test-differences                          0.67  pl526_0              bioconda/noarch              15 KB
-  + perl-test-exception                            0.43  pl526_2              bioconda/linux-64            12 KB
-  + perl-test-harness                              3.42  pl526_0              bioconda/linux-64            82 KB
-  + perl-test-leaktrace                            0.16  pl526h14c3975_2      bioconda/linux-64            23 KB
-  + perl-test-most                                 0.35  pl526_0              bioconda/linux-64            18 KB
-  + perl-test-requiresinternet                     0.05  pl526_0              bioconda/linux-64             7 KB
-  + perl-test-warn                                 0.36  pl526_1              bioconda/linux-64            13 KB
-  + perl-text-csv                                  2.00  pl526_0              bioconda/noarch              66 KB
-  + perl-text-diff                                 1.45  pl526_0              bioconda/linux-64            20 KB
-  + perl-text-glob                                 0.11  pl526_1              bioconda/linux-64             8 KB
-  + perl-tie-ixhash                                1.23  pl526_2              bioconda/linux-64            11 KB
-  + perl-time-hires                              1.9760  pl526h14c3975_1      bioconda/linux-64            25 KB
-  + perl-time-local                                1.28  pl526_1              bioconda/linux-64            10 KB
-  + perl-time-piece                                1.27  pl526_1              bioconda/linux-64             3 KB
-  + perl-timedate                                  2.30  pl526_1              bioconda/linux-64            29 KB
-  + perl-tree-dag_node                             1.31  pl526_0              bioconda/linux-64            40 KB
-  + perl-try-tiny                                  0.30  pl526_1              bioconda/linux-64            17 KB
-  + perl-type-tiny                             1.004004  pl526_0              bioconda/linux-64           119 KB
-  + perl-types-serialiser                           1.0  pl526_2              bioconda/linux-64            10 KB
-  + perl-unicode-map                              0.112  pl526h6bb024c_3      bioconda/linux-64           254 KB
-  + perl-uri                                       1.76  pl526_0              bioconda/linux-64            55 KB
-  + perl-www-robotrules                            6.02  pl526_3              bioconda/linux-64            12 KB
-  + perl-xml-dom                                   1.46  pl526_0              bioconda/linux-64            56 KB
-  + perl-xml-dom-xpath                             0.14  pl526_1              bioconda/linux-64             9 KB
-  + perl-xml-filter-buffertext                     1.01  pl526_2              bioconda/linux-64             7 KB
-  + perl-xml-libxml                              2.0132  pl526h7ec2d77_1      bioconda/linux-64           260 KB
-  + perl-xml-libxslt                               1.94  pl526_1              bioconda/linux-64            40 KB
-  + perl-xml-namespacesupport                      1.12  pl526_0              bioconda/linux-64            11 KB
-  + perl-xml-parser                             2.44_01  pl5262hc3e0081_1002  conda-forge/linux-64        165 KB
-  + perl-xml-regexp                                0.04  pl526_2              bioconda/linux-64             8 KB
-  + perl-xml-sax                                   1.02  pl526_0              bioconda/noarch              36 KB
-  + perl-xml-sax-base                              1.09  pl526_0              bioconda/linux-64            19 KB
-  + perl-xml-sax-expat                             0.51  pl526_3              bioconda/linux-64            10 KB
-  + perl-xml-sax-writer                            0.57  pl526_0              bioconda/linux-64            16 KB
-  + perl-xml-simple                                2.25  pl526_1              bioconda/linux-64            48 KB
-  + perl-xml-twig                                  3.52  pl526_2              bioconda/linux-64           144 KB
-  + perl-xml-writer                               0.625  pl526_2              bioconda/linux-64            18 KB
-  + perl-xml-xpath                                 1.44  pl526_0              bioconda/linux-64            42 KB
-  + perl-xml-xpathengine                           0.14  pl526_2              bioconda/linux-64            26 KB
-  + perl-xsloader                                  0.24  pl526_0              bioconda/linux-64             8 KB
-  + perl-yaml                                      1.29  pl526_0              bioconda/noarch              41 KB
-  + pgcgap                                       1.0.13  0                    bioconda/noarch              48 KB
-  + pillow                                        8.1.0  py36h4f9996e_1       conda-forge/linux-64        675 KB
-  + pilon                                          1.24  hdfd78af_0           bioconda/noarch              10 MB
-  + pip                                          21.3.1  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + pixman                                       0.38.0  h516909a_1003        conda-forge/linux-64        594 KB
-  + prank                                      v.170427  h7d875b9_4           bioconda/linux-64           444 KB
-  + prodigal                                      2.6.3  h779adbc_3           bioconda/linux-64           Cached
-  + prokka                                       1.14.6  pl5262hdfd78af_1     bioconda/noarch             213 MB
-  + pthread-stubs                                   0.4  h36c2ea0_1001        conda-forge/linux-64        Cached
-  + pyfastaq                                     3.17.0  py36_1               bioconda/linux-64            58 KB
-  + pymummer                                     0.11.0  py_0                 bioconda/noarch              12 KB
-  + pyparsing                                     2.4.7  pyh9f0ad1d_0         conda-forge/noarch          Cached
-  + pyqt                                         5.12.3  py36haa643ae_3       conda-forge/linux-64          7 MB
-  + pysam                                        0.17.0  py36h61e5637_0       bioconda/linux-64             3 MB
-  + python                                       3.6.11  h4d41432_2_cpython   conda-forge/linux-64         34 MB
-  + python-dateutil                               2.8.2  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + python_abi                                      3.6  2_cp36m              conda-forge/linux-64          4 KB
-  + pytz                                         2021.3  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + qt                                           5.12.5  hd8c4c69_1           conda-forge/linux-64         99 MB
-  + r                                             3.2.2  0                    pkgs/r/linux-64               2 KB
-  + r-base                                        3.2.2  0                    pkgs/r/linux-64              19 MB
-  + r-bitops                                      1.0_6  r3.2.2_1a            pkgs/r/linux-64              21 KB
-  + r-boot                                       1.3_17  r3.2.2_0a            pkgs/r/linux-64             559 KB
-  + r-catools                                    1.17.1  r3.2.2_0             bioconda/linux-64           157 KB
-  + r-class                                      7.3_14  r3.2.2_0a            pkgs/r/linux-64              78 KB
-  + r-cluster                                     2.0.3  r3.2.2_0a            pkgs/r/linux-64             447 KB
-  + r-codetools                                  0.2_14  r3.2.2_0a            pkgs/r/linux-64              44 KB
-  + r-colorspace                                  1.2_6  r3.2.2_0a            pkgs/r/linux-64             346 KB
-  + r-corrplot                                     0.73  r3.2.2_0             bioconda/linux-64             3 MB
-  + r-dichromat                                   2.0_0  r3.2.2_2a            pkgs/r/linux-64             143 KB
-  + r-digest                                      0.6.9  r3.2.2_0             bioconda/linux-64           110 KB
-  + r-foreign                                    0.8_66  r3.2.2_0a            pkgs/r/linux-64             199 KB
-  + r-gdata                                      2.17.0  r3.2.2_0a            pkgs/r/linux-64             922 KB
-  + r-ggplot2                                     2.1.0  r3.2.2_0             bioconda/linux-64             2 MB
-  + r-gplots                                     2.17.0  r3.2.2_0a            pkgs/r/linux-64             536 KB
-  + r-gtable                                      0.1.2  r3.2.2_2a            pkgs/r/linux-64              60 KB
-  + r-gtools                                      3.5.0  r3.2.2_0a            pkgs/r/linux-64             126 KB
-  + r-kernsmooth                                2.23_15  r3.2.2_0a            pkgs/r/linux-64              79 KB
-  + r-labeling                                      0.3  r3.2.2_1a            pkgs/r/linux-64              39 KB
-  + r-lattice                                   0.20_33  r3.2.2_0a            pkgs/r/linux-64             673 KB
-  + r-magrittr                                      1.5  r3.2.2_0             bioconda/linux-64           154 KB
-  + r-mass                                       7.3_45  r3.2.2_0a            pkgs/r/linux-64             989 KB
-  + r-matrix                                      1.2_2  r3.2.2_0a            pkgs/r/linux-64               3 MB
-  + r-mgcv                                        1.8_9  r3.2.2_0a            pkgs/r/linux-64               2 MB
-  + r-munsell                                     0.4.2  r3.2.2_1a            pkgs/r/linux-64             115 KB
-  + r-nlme                                      3.1_122  r3.2.2_0a            pkgs/r/linux-64               2 MB
-  + r-nnet                                       7.3_11  r3.2.2_0a            pkgs/r/linux-64              93 KB
-  + r-pheatmap                                    1.0.8  r3.2.2_0             bioconda/linux-64            40 KB
-  + r-plotrix                                     3.6_1  r3.2.2_0             bioconda/linux-64           635 KB
-  + r-plyr                                        1.8.3  r3.2.2_0a            pkgs/r/linux-64             712 KB
-  + r-rcolorbrewer                                1.1_2  r3.2.2_2a            pkgs/r/linux-64              25 KB
-  + r-rcpp                                       0.12.2  r3.2.2_0a            pkgs/r/linux-64               2 MB
-  + r-recommended                                 3.2.2  r3.2.2_0             pkgs/r/linux-64               1 KB
-  + r-reshape2                                    1.4.1  r3.2.2_1a            pkgs/r/linux-64              92 KB
-  + r-rpart                                      4.1_10  r3.2.2_0a            pkgs/r/linux-64             830 KB
-  + r-scales                                      0.3.0  r3.2.2_0a            pkgs/r/linux-64             195 KB
-  + r-spatial                                    7.3_11  r3.2.2_0a            pkgs/r/linux-64             117 KB
-  + r-stringi                                     1.0_1  r3.2.2_0a            pkgs/r/linux-64               9 MB
-  + r-stringr                                     1.0.0  r3.2.2_0a            pkgs/r/linux-64              75 KB
-  + r-survival                                   2.38_3  r3.2.2_0a            pkgs/r/linux-64               4 MB
-  + racon                                        1.4.20  h9a82719_1           bioconda/linux-64           163 KB
-  + raxml                                        8.2.12  h779adbc_3           bioconda/linux-64             3 MB
-  + raxml-ng                                      1.0.3  h32fcf60_0           bioconda/linux-64             2 MB
-  + readline                                        8.1  h46c0cb4_0           conda-forge/linux-64        Cached
-  + reportlab                                    3.5.68  py36h3e18861_0       conda-forge/linux-64          2 MB
-  + roary                                        3.13.0  pl526h516909a_0      bioconda/linux-64            88 KB
-  + samclip                                       0.4.0  hdfd78af_1           bioconda/noarch               7 KB
-  + samtools                                       1.13  h8c37831_0           bioconda/linux-64           397 KB
-  + scipy                                         1.5.3  py36h81d768a_1       conda-forge/linux-64         19 MB
-  + scoary                                       1.6.16  py36_0               bioconda/linux-64           253 KB
-  + seaborn                                      0.11.2  hd8ed1ab_0           conda-forge/noarch            4 KB
-  + seaborn-base                                 0.11.2  pyhd8ed1ab_0         conda-forge/noarch          223 KB
-  + seqtk                                           1.3  h5bf99c6_3           bioconda/linux-64            38 KB
-  + setuptools                                   58.0.4  py36h5fab9bb_2       conda-forge/linux-64        966 KB
-  + sickle-trim                                    1.33  h5bf99c6_6           bioconda/linux-64            19 KB
-  + six                                          1.16.0  pyh6c4a22f_0         conda-forge/noarch          Cached
-  + snippy                                        4.4.3  0                    bioconda/noarch              19 MB
-  + snp-sites                                     2.5.1  h5bf99c6_1           bioconda/linux-64            41 KB
-  + snpeff                                          5.0  hdfd78af_1           bioconda/noarch              23 MB
-  + spades                                       3.15.3  h95f258a_0           bioconda/linux-64            48 MB
-  + sqlite                                       3.36.0  h9cd32fc_2           conda-forge/linux-64        Cached
-  + statsmodels                                  0.12.2  py36he33b4a0_0       conda-forge/linux-64         11 MB
-  + sysroot_linux-64                               2.17  h4a8ded7_12          conda-forge/noarch           34 MB
-  + t_coffee                                     11.0.8  py36hea885bf_8       bioconda/linux-64            33 MB
-  + tbb                                          2020.2  h4bd325d_4           conda-forge/linux-64          1 MB
-  + tbl2asn-forever                             25.7.2f  h779adbc_1           bioconda/linux-64             4 MB
-  + tidyp                                          1.04  h779adbc_3           bioconda/linux-64           300 KB
-  + tk                                           8.6.11  h27826a3_1           conda-forge/linux-64        Cached
-  + tornado                                         6.1  py36h8f6f2f9_1       conda-forge/linux-64        643 KB
-  + unicycler                                     0.4.8  py36hd181a71_3       bioconda/linux-64             1 MB
-  + unzip                                           6.0  h7f98852_2           conda-forge/linux-64        143 KB
-  + util-linux                                     2.36  py36h10aa70c_1       conda-forge/linux-64          3 MB
-  + vcflib                                    1.0.0_rc2  h56106d0_2           bioconda/linux-64            27 MB
-  + vt                                       2015.11.10  he941832_3           bioconda/linux-64             1 MB
-  + wget                                         1.20.3  ha56f1ee_1           conda-forge/linux-64        804 KB
-  + wheel                                        0.37.0  pyhd8ed1ab_1         conda-forge/noarch          Cached
-  + xorg-kbproto                                  1.0.7  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-libice                                  1.0.10  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libsm                                    1.2.3  hd9c2040_1000        conda-forge/linux-64        Cached
-  + xorg-libx11                                   1.7.2  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxau                                   1.0.9  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxdmcp                                 1.1.3  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxext                                  1.3.4  h7f98852_1           conda-forge/linux-64        Cached
-  + xorg-libxpm                                  3.5.13  h7f98852_0           conda-forge/linux-64         63 KB
-  + xorg-libxrender                              0.9.10  h7f98852_1003        conda-forge/linux-64        Cached
-  + xorg-libxt                                    1.2.1  h7f98852_2           conda-forge/linux-64        Cached
-  + xorg-renderproto                             0.11.1  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-xextproto                                7.3.0  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-xproto                                  7.0.31  h7f98852_1007        conda-forge/linux-64        Cached
-  + xz                                            5.2.5  h516909a_1           conda-forge/linux-64        Cached
-  + zlib                                         1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + zstd                                          1.4.9  ha95c52a_0           conda-forge/linux-64        431 KB
-
-  Summary:
-
-  Install: 490 packages
-
-  Total download: 1 GB
-
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/bttoxin_scanner_1634970415063/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
+  environment location: /home/vsts/conda/conda-bld/bttoxin_scanner_1635990056878/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh
 
 
 The following NEW packages will be INSTALLED:
@@ -519,7 +15,7 @@ The following NEW packages will be INSTALLED:
     _libgcc_mutex:                         0.1-conda_forge             conda-forge            
     _openmp_mutex:                         4.5-1_gnu                   conda-forge            
     _r-mutex:                              1.0.1-anacondar_1           conda-forge            
-    _sysroot_linux-64_curr_repodata_hack:  3-h5bd9786_12               conda-forge            
+    _sysroot_linux-64_curr_repodata_hack:  3-h5bd9786_13               conda-forge            
     abricate:                              1.0.1-ha8f3691_1            bioconda               
     abyss:                                 2.3.2-hd403d74_0            bioconda               
     any2fasta:                             0.4.2-1                     bioconda               
@@ -528,7 +24,7 @@ The following NEW packages will be INSTALLED:
     atk:                                   2.36.0-ha770c72_4           conda-forge            
     atk-1.0:                               2.36.0-h3371d22_4           conda-forge            
     barrnap:                               0.9-2                       bioconda               
-    bcftools:                              1.13-h3a49de5_0             bioconda               
+    bcftools:                              1.14-h88f3f91_0             bioconda               
     bedtools:                              2.30.0-h7d7f7ad_2           bioconda               
     bio_assembly_refinement:               0.5.1-py36_1                bioconda               
     biopython:                             1.79-py36h8f6f2f9_0         conda-forge            
@@ -536,10 +32,10 @@ The following NEW packages will be INSTALLED:
     boost:                                 1.70.0-py36h9de70de_1       conda-forge            
     boost-cpp:                             1.70.0-h8e57a91_2           conda-forge            
     bowtie2:                               2.4.4-py36hd4290be_0        bioconda               
-    bttoxin_scanner:                       2.0.1-0                     file:///tmp/tmpwyt8xuc1
+    bttoxin_scanner:                       2.0.1-0                     file:///tmp/tmp1jjadyxs
     bwa:                                   0.7.17-h5bf99c6_8           bioconda               
     bzip2:                                 1.0.8-h7f98852_4            conda-forge            
-    c-ares:                                1.17.2-h7f98852_0           conda-forge            
+    c-ares:                                1.18.1-h7f98852_0           conda-forge            
     ca-certificates:                       2021.10.8-ha878542_0        conda-forge            
     cairo:                                 1.16.0-hcf35c78_1003        conda-forge            
     canu:                                  2.2-ha47f30e_0              bioconda               
@@ -551,7 +47,7 @@ The following NEW packages will be INSTALLED:
     clustalw:                              2.1-h7d875b9_6              bioconda               
     coreutils:                             8.31-h516909a_0             conda-forge            
     curl:                                  7.79.1-h2574ce0_1           conda-forge            
-    cycler:                                0.10.0-py36_0               conda-forge            
+    cycler:                                0.11.0-pyhd8ed1ab_0         conda-forge            
     dbus:                                  1.13.6-hfdff14a_1           conda-forge            
     dendropy:                              4.5.2-pyh3252c3a_0          bioconda               
     diamond:                               2.0.8-h56fc30b_0            bioconda               
@@ -574,7 +70,7 @@ The following NEW packages will be INSTALLED:
     giflib:                                5.2.1-h36c2ea0_2            conda-forge            
     glib:                                  2.66.3-h58526e2_0           conda-forge            
     gmp:                                   6.2.1-h58526e2_0            conda-forge            
-    gnuplot:                               5.2.7-h0fb2448_3            conda-forge            
+    gnuplot:                               5.2.7-he39d25e_2            conda-forge            
     gobject-introspection:                 1.66.1-py36hc23f7e7_3       conda-forge            
     graphite2:                             1.3.13-h58526e2_1001        conda-forge            
     graphviz:                              2.42.3-h0511662_0           conda-forge            
@@ -585,20 +81,19 @@ The following NEW packages will be INSTALLED:
     gubbins:                               2.4.1-py36h30a8e3e_2        bioconda               
     harfbuzz:                              2.4.0-h9f30f68_3            conda-forge            
     hmmer:                                 3.3.2-h1b792b2_1            bioconda               
-    htslib:                                1.13-h9093b5e_0             bioconda               
+    htslib:                                1.14-h9093b5e_0             bioconda               
     icu:                                   64.2-he1b5a44_1             conda-forge            
     infernal:                              1.1.4-h779adbc_0            bioconda               
     iqtree:                                2.1.4_beta-hdcc8f71_0       bioconda               
     jpeg:                                  9d-h36c2ea0_0               conda-forge            
     k8:                                    0.2.5-h9a82719_1            bioconda               
-    kernel-headers_linux-64:               3.10.0-h4a8ded7_12          conda-forge            
+    kernel-headers_linux-64:               3.10.0-h4a8ded7_13          conda-forge            
     kiwisolver:                            1.3.1-py36h605e78d_1        conda-forge            
-    krb5:                                  1.19.2-hcc1bbae_2           conda-forge            
+    krb5:                                  1.19.2-hcc1bbae_3           conda-forge            
     lcms2:                                 2.11-hcbb858e_1             conda-forge            
     ld_impl_linux-64:                      2.36.1-hea4e1c9_2           conda-forge            
     libblas:                               3.9.0-12_linux64_openblas   conda-forge            
     libcblas:                              3.9.0-12_linux64_openblas   conda-forge            
-    libclang:                              9.0.1-default_ha53f305_2    conda-forge            
     libcurl:                               7.79.1-h2574ce0_1           conda-forge            
     libdb:                                 6.2.32-h9c3ff4c_0           conda-forge            
     libdeflate:                            1.7-h7f98852_5              conda-forge            
@@ -616,7 +111,6 @@ The following NEW packages will be INSTALLED:
     libidn11:                              1.34-h1cef754_0             conda-forge            
     libidn2:                               2.3.2-h7f98852_0            conda-forge            
     liblapack:                             3.9.0-12_linux64_openblas   conda-forge            
-    libllvm9:                              9.0.1-default_hc23dcda_4    conda-forge            
     libnghttp2:                            1.43.0-h812cca2_1           conda-forge            
     libopenblas:                           0.3.18-pthreads_h8fe5266_0  conda-forge            
     libpng:                                1.6.37-h21135ba_2           conda-forge            
@@ -629,14 +123,13 @@ The following NEW packages will be INSTALLED:
     libuuid:                               2.32.1-h7f98852_1000        conda-forge            
     libwebp:                               1.0.2-h56121f0_5            conda-forge            
     libxcb:                                1.13-h7f98852_1003          conda-forge            
-    libxkbcommon:                          0.10.0-he1b5a44_0           conda-forge            
     libxml2:                               2.9.10-hee79883_0           conda-forge            
     libxslt:                               1.1.33-h31b3aaa_0           conda-forge            
     libzlib:                               1.2.11-h36c2ea0_1013        conda-forge            
     llvm-openmp:                           8.0.1-hc9558a2_0            conda-forge            
     lxml:                                  4.6.3-py36h04a5ba7_0        conda-forge            
     lz4-c:                                 1.9.3-h9c3ff4c_1            conda-forge            
-    mafft:                                 7.487-h779adbc_0            bioconda               
+    mafft:                                 7.490-h779adbc_0            bioconda               
     make:                                  4.3-hd18ef5c_1              conda-forge            
     mash:                                  2.3-he348c14_1              bioconda               
     matplotlib-base:                       3.3.4-py36hd391965_0        conda-forge            
@@ -651,8 +144,6 @@ The following NEW packages will be INSTALLED:
     muscle:                                3.8.1551-h7d875b9_6         bioconda               
     ncurses:                               6.2-h58526e2_4              conda-forge            
     nose:                                  1.3.7-py36h9f0ad1d_1004     conda-forge            
-    nspr:                                  4.30-h9c3ff4c_0             conda-forge            
-    nss:                                   3.69-hb5efdd6_1             conda-forge            
     numpy:                                 1.19.5-py36hfc0c790_2       conda-forge            
     olefile:                               0.46-pyh9f0ad1d_1           conda-forge            
     openjdk:                               8.0.302-h7f98852_0          conda-forge            
@@ -665,7 +156,7 @@ The following NEW packages will be INSTALLED:
     paml:                                  4.9-h779adbc_6              bioconda               
     pandas:                                1.1.5-py36h284efc9_0        conda-forge            
     pango:                                 1.42.4-h7062337_4           conda-forge            
-    parallel:                              20210822-ha770c72_0         conda-forge            
+    parallel:                              20211022-ha770c72_0         conda-forge            
     patsy:                                 0.5.2-pyhd8ed1ab_0          conda-forge            
     pcre:                                  8.45-h9c3ff4c_0             conda-forge            
     perl:                                  5.26.2-h36c2ea0_1008        conda-forge            
@@ -905,14 +396,14 @@ The following NEW packages will be INSTALLED:
     pthread-stubs:                         0.4-h36c2ea0_1001           conda-forge            
     pyfastaq:                              3.17.0-py36_1               bioconda               
     pymummer:                              0.11.0-py_0                 bioconda               
-    pyparsing:                             2.4.7-pyh9f0ad1d_0          conda-forge            
-    pyqt:                                  5.12.3-py36haa643ae_3       conda-forge            
+    pyparsing:                             3.0.4-pyhd8ed1ab_0          conda-forge            
+    pyqt:                                  5.9.2-py36hcca6a23_4        conda-forge            
     pysam:                                 0.17.0-py36h61e5637_0       bioconda               
     python:                                3.6.11-h4d41432_2_cpython   conda-forge            
     python-dateutil:                       2.8.2-pyhd8ed1ab_0          conda-forge            
     python_abi:                            3.6-2_cp36m                 conda-forge            
     pytz:                                  2021.3-pyhd8ed1ab_0         conda-forge            
-    qt:                                    5.12.5-hd8c4c69_1           conda-forge            
+    qt:                                    5.9.7-h0c104cb_3            conda-forge            
     r:                                     3.2.2-0                                            
     r-base:                                3.2.2-0                                            
     r-bitops:                              1.0_6-r3.2.2_1a                                    
@@ -961,7 +452,7 @@ The following NEW packages will be INSTALLED:
     reportlab:                             3.5.68-py36h3e18861_0       conda-forge            
     roary:                                 3.13.0-pl526h516909a_0      bioconda               
     samclip:                               0.4.0-hdfd78af_1            bioconda               
-    samtools:                              1.13-h8c37831_0             bioconda               
+    samtools:                              1.14-hb421002_0             bioconda               
     scipy:                                 1.5.3-py36h81d768a_1        conda-forge            
     scoary:                                1.6.16-py36_0               bioconda               
     seaborn:                               0.11.2-hd8ed1ab_0           conda-forge            
@@ -969,6 +460,7 @@ The following NEW packages will be INSTALLED:
     seqtk:                                 1.3-h5bf99c6_3              bioconda               
     setuptools:                            58.0.4-py36h5fab9bb_2       conda-forge            
     sickle-trim:                           1.33-h5bf99c6_6             bioconda               
+    sip:                                   4.19.8-py36hf484d3e_1000    conda-forge            
     six:                                   1.16.0-pyh6c4a22f_0         conda-forge            
     snippy:                                4.4.3-0                     bioconda               
     snp-sites:                             2.5.1-h5bf99c6_1            bioconda               
@@ -976,7 +468,7 @@ The following NEW packages will be INSTALLED:
     spades:                                3.15.3-h95f258a_0           bioconda               
     sqlite:                                3.36.0-h9cd32fc_2           conda-forge            
     statsmodels:                           0.12.2-py36he33b4a0_0       conda-forge            
-    sysroot_linux-64:                      2.17-h4a8ded7_12            conda-forge            
+    sysroot_linux-64:                      2.17-h4a8ded7_13            conda-forge            
     t_coffee:                              11.0.8-py36hea885bf_8       bioconda               
     tbb:                                   2020.2-h4bd325d_4           conda-forge            
     tbl2asn-forever:                       25.7.2f-h779adbc_1          bioconda               
