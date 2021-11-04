@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T05:31:17+00:00"}
+{
+ "started_at": "2021-11-04T05:31:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-bsgenome.ggallus.ucsc.galgal4",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bsgenome.ggallus.ucsc.galgal4",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-bsgenome.ggallus.ucsc.galgal4",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bsgenome.ggallus.ucsc.galgal4",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
