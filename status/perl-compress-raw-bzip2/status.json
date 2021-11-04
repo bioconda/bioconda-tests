@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T17:31:17+00:00"}
+{
+ "started_at": "2021-11-04T17:31:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-compress-raw-bzip2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526he1b5a44_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-compress-raw-bzip2",
+      "subdir": "linux-64",
+      "version": "2.087"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-compress-raw-bzip2",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h6de7cb9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-compress-raw-bzip2",
+      "subdir": "osx-64",
+      "version": "2.087"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
