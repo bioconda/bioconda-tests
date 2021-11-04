@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T21:46:20+00:00"}
+{
+ "started_at": "2021-11-04T21:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "delly",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he03298f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "delly",
+      "subdir": "linux-64",
+      "version": "0.8.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "delly",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h6d7b568_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "delly",
+      "subdir": "osx-64",
+      "version": "0.8.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
