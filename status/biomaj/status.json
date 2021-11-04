@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T04:46:13+00:00"}
+{
+ "started_at": "2021-11-04T04:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "biomaj",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "biomaj",
+      "subdir": "linux-64",
+      "version": "3.0.19"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "biomaj",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "biomaj",
+      "subdir": "osx-64",
+      "version": "3.0.19"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
