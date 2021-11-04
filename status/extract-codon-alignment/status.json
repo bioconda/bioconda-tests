@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T02:01:55+00:00"}
+{
+ "started_at": "2021-11-04T02:01:55+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "extract-codon-alignment",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "extract-codon-alignment",
+      "subdir": "noarch",
+      "version": "0.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "extract-codon-alignment",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "extract-codon-alignment",
+      "subdir": "noarch",
+      "version": "0.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
