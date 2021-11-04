@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-04T00:31:25+00:00"}
+{
+ "started_at": "2021-11-04T00:31:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "minigraph",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "minigraph",
+      "subdir": "linux-64",
+      "version": "0.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "minigraph",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h188c3c3_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "minigraph",
+      "subdir": "osx-64",
+      "version": "0.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
