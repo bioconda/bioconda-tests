@@ -1,89 +1,13 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpy6c7sy8f/noarch/crypto_typer-1.0.0-py_0.tar.bz2
+TEST START: /tmp/tmpa1nd4ycs/noarch/crypto_typer-1.0.0-py_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpu46v_ag8/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmpoh0sqvi3/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                         Version  Build                Channel                       Size
-────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                     0.1  conda_forge          conda-forge/linux-64        Cached
-  + _openmp_mutex                     4.5  1_gnu                conda-forge/linux-64        Cached
-  + biopython                        1.79  py39h3811e60_0       conda-forge/linux-64        Cached
-  + blast                           2.9.0  pl526he19e7b1_7      bioconda/linux-64            19 MB
-  + bzip2                           1.0.8  h7f98852_4           conda-forge/linux-64        Cached
-  + c-ares                         1.17.2  h7f98852_0           conda-forge/linux-64        Cached
-  + ca-certificates             2021.10.8  ha878542_0           conda-forge/linux-64        Cached
-  + crypto_typer                    1.0.0  py_0                 /tmp/tmpy6c7sy8f/noarch      16 KB
-  + curl                           7.79.1  h494985f_1           conda-forge/linux-64        Cached
-  + entrez-direct                    15.6  he881be0_1           bioconda/linux-64             8 MB
-  + krb5                           1.19.2  h48eae69_2           conda-forge/linux-64        Cached
-  + ld_impl_linux-64               2.36.1  hea4e1c9_2           conda-forge/linux-64        Cached
-  + libblas                         3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libcblas                        3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libcurl                        7.79.1  h494985f_1           conda-forge/linux-64        Cached
-  + libedit                  3.1.20191231  he28a2e2_2           conda-forge/linux-64        Cached
-  + libev                            4.33  h516909a_1           conda-forge/linux-64        Cached
-  + libffi                          3.4.2  h9c3ff4c_4           conda-forge/linux-64        Cached
-  + libgcc-ng                      11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libgfortran-ng                 11.2.0  h69a702a_11          conda-forge/linux-64        Cached
-  + libgfortran5                   11.2.0  h5c6108e_11          conda-forge/linux-64        Cached
-  + libgomp                        11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + liblapack                       3.9.0  12_linux64_openblas  conda-forge/linux-64        Cached
-  + libnghttp2                     1.43.0  ha19adfc_1           conda-forge/linux-64        Cached
-  + libopenblas                    0.3.18  pthreads_h8fe5266_0  conda-forge/linux-64        Cached
-  + libssh2                        1.10.0  ha35d2d1_2           conda-forge/linux-64        Cached
-  + libstdcxx-ng                   11.2.0  he4da1e4_11          conda-forge/linux-64        Cached
-  + libzlib                        1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + ncurses                           6.2  h58526e2_4           conda-forge/linux-64        Cached
-  + numpy                          1.21.3  py39hdbf815f_0       conda-forge/linux-64        Cached
-  + openssl                         3.0.0  h7f98852_1           conda-forge/linux-64        Cached
-  + pcre                             8.45  h9c3ff4c_0           conda-forge/linux-64        Cached
-  + perl                           5.26.2  h36c2ea0_1008        conda-forge/linux-64         15 MB
-  + perl-archive-tar                 2.32  pl526_0              bioconda/linux-64            31 KB
-  + perl-carp                        1.38  pl526_3              bioconda/linux-64            15 KB
-  + perl-common-sense                3.74  pl526_2              bioconda/linux-64            11 KB
-  + perl-compress-raw-bzip2         2.087  pl526he1b5a44_0      bioconda/linux-64            44 KB
-  + perl-compress-raw-zlib          2.087  pl526hc9558a2_0      bioconda/linux-64            72 KB
-  + perl-exporter                    5.72  pl526_1              bioconda/linux-64            13 KB
-  + perl-exporter-tiny           1.002001  pl526_0              bioconda/linux-64            23 KB
-  + perl-extutils-makemaker          7.36  pl526_1              bioconda/linux-64           153 KB
-  + perl-io-compress                2.087  pl526he1b5a44_0      bioconda/linux-64            81 KB
-  + perl-io-zlib                     1.10  pl526_2              bioconda/linux-64             9 KB
-  + perl-json                        4.02  pl526_0              bioconda/linux-64            52 KB
-  + perl-json-xs                     2.34  pl526h6bb024c_3      bioconda/linux-64            63 KB
-  + perl-list-moreutils             0.428  pl526_1              bioconda/linux-64            28 KB
-  + perl-list-moreutils-xs          0.428  pl526_0              bioconda/linux-64            43 KB
-  + perl-pathtools                   3.75  pl526h14c3975_1      bioconda/linux-64            41 KB
-  + perl-scalar-list-utils           1.52  pl526h516909a_0      bioconda/linux-64            38 KB
-  + perl-types-serialiser             1.0  pl526_2              bioconda/linux-64            10 KB
-  + perl-xsloader                    0.24  pl526_0              bioconda/linux-64             8 KB
-  + pip                            21.3.1  pyhd8ed1ab_0         conda-forge/noarch          Cached
-  + python                          3.9.7  hf930737_3_cpython   conda-forge/linux-64         28 MB
-  + python_abi                        3.9  2_cp39               conda-forge/linux-64        Cached
-  + readline                          8.1  h46c0cb4_0           conda-forge/linux-64        Cached
-  + setuptools                     58.2.0  py39hf3d152e_0       conda-forge/linux-64        Cached
-  + sqlite                         3.36.0  h9cd32fc_2           conda-forge/linux-64        Cached
-  + tk                             8.6.11  h27826a3_1           conda-forge/linux-64        Cached
-  + tzdata                          2021e  he74cb21_0           conda-forge/noarch          Cached
-  + wheel                          0.37.0  pyhd8ed1ab_1         conda-forge/noarch          Cached
-  + xz                              5.2.5  h516909a_1           conda-forge/linux-64        Cached
-  + zlib                           1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-
-  Summary:
-
-  Install: 62 packages
-
-  Total download: 71 MB
-
-────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/crypto_typer_1634982275035/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+  environment location: /home/vsts/conda/conda-bld/crypto_typer_1635994131844/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
 
 
 The following NEW packages will be INSTALLED:
@@ -93,12 +17,12 @@ The following NEW packages will be INSTALLED:
     biopython:               1.79-py39h3811e60_0        conda-forge            
     blast:                   2.9.0-pl526he19e7b1_7      bioconda               
     bzip2:                   1.0.8-h7f98852_4           conda-forge            
-    c-ares:                  1.17.2-h7f98852_0          conda-forge            
+    c-ares:                  1.18.1-h7f98852_0          conda-forge            
     ca-certificates:         2021.10.8-ha878542_0       conda-forge            
-    crypto_typer:            1.0.0-py_0                 file:///tmp/tmpy6c7sy8f
+    crypto_typer:            1.0.0-py_0                 file:///tmp/tmpa1nd4ycs
     curl:                    7.79.1-h494985f_1          conda-forge            
     entrez-direct:           15.6-he881be0_1            bioconda               
-    krb5:                    1.19.2-h48eae69_2          conda-forge            
+    krb5:                    1.19.2-h48eae69_3          conda-forge            
     ld_impl_linux-64:        2.36.1-hea4e1c9_2          conda-forge            
     libblas:                 3.9.0-12_linux64_openblas  conda-forge            
     libcblas:                3.9.0-12_linux64_openblas  conda-forge            
@@ -117,8 +41,8 @@ The following NEW packages will be INSTALLED:
     libstdcxx-ng:            11.2.0-he4da1e4_11         conda-forge            
     libzlib:                 1.2.11-h36c2ea0_1013       conda-forge            
     ncurses:                 6.2-h58526e2_4             conda-forge            
-    numpy:                   1.21.3-py39hdbf815f_0      conda-forge            
-    openssl:                 3.0.0-h7f98852_1           conda-forge            
+    numpy:                   1.21.3-py39hdbf815f_1      conda-forge            
+    openssl:                 3.0.0-h7f98852_2           conda-forge            
     pcre:                    8.45-h9c3ff4c_0            conda-forge            
     perl:                    5.26.2-h36c2ea0_1008       conda-forge            
     perl-archive-tar:        2.32-pl526_0               bioconda               
@@ -143,7 +67,7 @@ The following NEW packages will be INSTALLED:
     python:                  3.9.7-hf930737_3_cpython   conda-forge            
     python_abi:              3.9-2_cp39                 conda-forge            
     readline:                8.1-h46c0cb4_0             conda-forge            
-    setuptools:              58.2.0-py39hf3d152e_0      conda-forge            
+    setuptools:              58.4.0-py39hf3d152e_1      conda-forge            
     sqlite:                  3.36.0-h9cd32fc_2          conda-forge            
     tk:                      8.6.11-h27826a3_1          conda-forge            
     tzdata:                  2021e-he74cb21_0           conda-forge            
@@ -154,8 +78,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/crypto_typer_1634982275035/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
-export SRC_DIR=/home/vsts/conda/conda-bld/crypto_typer_1634982275035/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/crypto_typer_1635994131844/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold
+export SRC_DIR=/home/vsts/conda/conda-bld/crypto_typer_1635994131844/test_tmp
 
 Leaving build/test directories:
   Work:
