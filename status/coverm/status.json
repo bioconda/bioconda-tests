@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-05T21:01:30+00:00"}
+{
+ "started_at": "2021-11-05T21:01:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "coverm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha1d52fc_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "coverm",
+      "subdir": "linux-64",
+      "version": "0.6.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
