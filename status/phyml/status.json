@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T05:46:24+00:00"}
+{
+ "started_at": "2021-11-05T05:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "phyml",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9133d3a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "phyml",
+      "subdir": "linux-64",
+      "version": "3.3.20200621"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "phyml",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1ed0f4f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "phyml",
+      "subdir": "osx-64",
+      "version": "3.3.20200621"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
