@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T20:16:25+00:00"}
+{
+ "started_at": "2021-11-05T20:16:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ciso8601",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h6acc77f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "ciso8601",
+      "subdir": "linux-64",
+      "version": "2.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ciso8601",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310he24745e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "ciso8601",
+      "subdir": "osx-64",
+      "version": "2.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
