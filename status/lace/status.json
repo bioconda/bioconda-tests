@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T16:31:15+00:00"}
+{
+ "started_at": "2021-11-05T16:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "lace",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "lace",
+      "subdir": "noarch",
+      "version": "1.14.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "lace",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "lace",
+      "subdir": "noarch",
+      "version": "1.14.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
