@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T06:16:14+00:00"}
+{
+ "started_at": "2021-11-05T06:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-pd.rabgene.1.0.st",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-pd.rabgene.1.0.st",
+      "subdir": "noarch",
+      "version": "3.12.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-pd.rabgene.1.0.st",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-pd.rabgene.1.0.st",
+      "subdir": "noarch",
+      "version": "3.12.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
