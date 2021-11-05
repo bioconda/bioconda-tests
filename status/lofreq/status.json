@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T02:16:18+00:00"}
+{
+ "started_at": "2021-11-05T02:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "lofreq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h2dde2f4_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "lofreq",
+      "subdir": "linux-64",
+      "version": "2.1.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "lofreq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hf4c0fae_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "lofreq",
+      "subdir": "osx-64",
+      "version": "2.1.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
