@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-05T07:46:16+00:00"}
+{
+ "started_at": "2021-11-05T07:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ete2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h24bf2e0_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ete2",
+      "subdir": "linux-64",
+      "version": "2.3.10"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ete2",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
