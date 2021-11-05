@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T02:46:15+00:00"}
+{
+ "started_at": "2021-11-05T02:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "galaxy-util",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "galaxy-util",
+      "subdir": "noarch",
+      "version": "21.9.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "galaxy-util",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "galaxy-util",
+      "subdir": "noarch",
+      "version": "21.9.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
