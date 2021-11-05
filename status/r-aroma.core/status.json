@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T15:31:19+00:00"}
+{
+ "started_at": "2021-11-05T15:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-aroma.core",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3121a25_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-aroma.core",
+      "subdir": "noarch",
+      "version": "3.2.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-aroma.core",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3121a25_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-aroma.core",
+      "subdir": "noarch",
+      "version": "3.2.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
