@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T18:31:20+00:00"}
+{
+ "started_at": "2021-11-05T18:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pybel",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pybel",
+      "subdir": "noarch",
+      "version": "0.13.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pybel",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pybel",
+      "subdir": "noarch",
+      "version": "0.13.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

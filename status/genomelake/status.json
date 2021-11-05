@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T18:31:20+00:00"}
+{
+ "started_at": "2021-11-05T18:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "genomelake",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h0213d0e_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "genomelake",
+      "subdir": "linux-64",
+      "version": "0.1.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "genomelake",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h771b250_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "genomelake",
+      "subdir": "osx-64",
+      "version": "0.1.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
