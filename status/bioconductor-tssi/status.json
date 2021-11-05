@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T15:01:29+00:00"}
+{
+ "started_at": "2021-11-05T15:01:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-tssi",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36h516909a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-tssi",
+      "subdir": "linux-64",
+      "version": "1.29.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-tssi",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36h01d97ff_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-tssi",
+      "subdir": "osx-64",
+      "version": "1.29.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
