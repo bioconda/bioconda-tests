@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T01:31:29+00:00"}
+{
+ "started_at": "2021-11-05T01:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "python-edlib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h7cff6ad_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "python-edlib",
+      "subdir": "linux-64",
+      "version": "1.3.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "python-edlib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hcf0ab7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "python-edlib",
+      "subdir": "osx-64",
+      "version": "1.3.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
