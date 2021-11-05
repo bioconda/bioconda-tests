@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T02:01:19+00:00"}
+{
+ "started_at": "2021-11-05T02:01:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pbbam",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h058f120_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pbbam",
+      "subdir": "linux-64",
+      "version": "1.7.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pbbam",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb6ef429_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pbbam",
+      "subdir": "osx-64",
+      "version": "1.7.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
