@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-05T09:01:31+00:00"}
+{
+ "started_at": "2021-11-05T09:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ucsc-psltochain",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h516baf0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ucsc-psltochain",
+      "subdir": "osx-64",
+      "version": "377"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
