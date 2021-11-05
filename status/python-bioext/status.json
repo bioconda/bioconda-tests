@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T21:46:18+00:00"}
+{
+ "started_at": "2021-11-05T21:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "python-bioext",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h9085599_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "python-bioext",
+      "subdir": "linux-64",
+      "version": "0.20.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "python-bioext",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h047c6e6_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "python-bioext",
+      "subdir": "osx-64",
+      "version": "0.20.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
