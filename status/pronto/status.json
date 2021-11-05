@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-05T14:46:20+00:00"}
+{
+ "started_at": "2021-11-05T14:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pronto",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pronto",
+      "subdir": "noarch",
+      "version": "2.4.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pronto",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pronto",
+      "subdir": "noarch",
+      "version": "0.12.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
