@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-06T15:46:11+00:00"}
+{
+ "started_at": "2021-11-06T15:46:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "plant_tribes_kaks_analysis",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "plant_tribes_kaks_analysis",
+      "subdir": "noarch",
+      "version": "1.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "plant_tribes_kaks_analysis",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
