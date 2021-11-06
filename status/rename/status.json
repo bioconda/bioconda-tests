@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T17:46:10+00:00"}
+{
+ "started_at": "2021-11-06T17:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rename",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "rename",
+      "subdir": "noarch",
+      "version": "1.601"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "rename",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "rename",
+      "subdir": "noarch",
+      "version": "1.601"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
