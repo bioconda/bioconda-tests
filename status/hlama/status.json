@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-06T15:01:18+00:00"}
+{
+ "started_at": "2021-11-06T15:01:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hlama",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py35_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "hlama",
+      "subdir": "linux-64",
+      "version": "3.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
