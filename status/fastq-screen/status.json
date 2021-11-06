@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T18:16:18+00:00"}
+{
+ "started_at": "2021-11-06T18:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastq-screen",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fastq-screen",
+      "subdir": "noarch",
+      "version": "0.14.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fastq-screen",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fastq-screen",
+      "subdir": "noarch",
+      "version": "0.14.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
