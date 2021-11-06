@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T20:16:10+00:00"}
+{
+ "started_at": "2021-11-06T20:16:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tophat",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "tophat",
+      "subdir": "linux-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "tophat",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "tophat",
+      "subdir": "osx-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
