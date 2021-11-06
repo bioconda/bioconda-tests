@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-06T15:16:14+00:00"}
+{
+ "started_at": "2021-11-06T15:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "amos",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36pl5.22.0_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "amos",
+      "subdir": "linux-64",
+      "version": "3.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
