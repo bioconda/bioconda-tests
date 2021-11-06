@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T04:31:14+00:00"}
+{
+ "started_at": "2021-11-06T04:31:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-inline-c",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h14c3975_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-inline-c",
+      "subdir": "linux-64",
+      "version": "0.78"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-inline-c",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h1de35cc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-inline-c",
+      "subdir": "osx-64",
+      "version": "0.78"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
