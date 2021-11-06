@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T00:08:13+00:00"}
+{
+ "started_at": "2021-11-06T00:08:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "crisprme",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "crisprme",
+      "subdir": "noarch",
+      "version": "1.9.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "crisprme",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "crisprme",
+      "subdir": "noarch",
+      "version": "1.9.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
