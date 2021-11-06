@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-06T10:02:04+00:00"}
+{
+ "started_at": "2021-11-06T10:02:04+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "viennarna",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h98c8e45_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "viennarna",
+      "subdir": "linux-64",
+      "version": "2.4.18"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
