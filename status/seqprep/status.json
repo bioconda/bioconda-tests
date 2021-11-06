@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-06T12:46:17+00:00"}
+{
+ "started_at": "2021-11-06T12:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "seqprep",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "seqprep",
+      "subdir": "linux-64",
+      "version": "1.3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
