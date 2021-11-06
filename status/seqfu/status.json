@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T10:46:15+00:00"}
+{
+ "started_at": "2021-11-06T10:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "seqfu",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h38613fd_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "seqfu",
+      "subdir": "linux-64",
+      "version": "1.8.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "seqfu",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfa5225b_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "seqfu",
+      "subdir": "osx-64",
+      "version": "1.8.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
