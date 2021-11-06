@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T06:16:09+00:00"}
+{
+ "started_at": "2021-11-06T06:16:09+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-mergemaid",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mergemaid",
+      "subdir": "noarch",
+      "version": "2.59.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-mergemaid",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mergemaid",
+      "subdir": "noarch",
+      "version": "2.59.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
