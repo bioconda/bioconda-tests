@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-06T21:46:12+00:00"}
+{
+ "started_at": "2021-11-06T21:46:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "exonerate",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7c8e0dd_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "exonerate",
+      "subdir": "linux-64",
+      "version": "2.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "exonerate",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he2bc75b_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "exonerate",
+      "subdir": "osx-64",
+      "version": "2.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
