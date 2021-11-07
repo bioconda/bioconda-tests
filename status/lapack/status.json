@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-07T20:31:16+00:00"}
+{
+ "started_at": "2021-11-07T20:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "lapack",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "netlib",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "lapack",
+      "subdir": "linux-64",
+      "version": "3.9.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

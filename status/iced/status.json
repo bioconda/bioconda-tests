@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T20:31:16+00:00"}
+{
+ "started_at": "2021-11-07T20:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "iced",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h70b41aa_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "iced",
+      "subdir": "linux-64",
+      "version": "0.5.10"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "iced",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hdd6a155_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "iced",
+      "subdir": "osx-64",
+      "version": "0.5.10"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
