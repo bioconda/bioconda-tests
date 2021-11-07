@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T08:46:13+00:00"}
+{
+ "started_at": "2021-11-07T08:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "uropa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "uropa",
+      "subdir": "noarch",
+      "version": "4.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "uropa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "uropa",
+      "subdir": "noarch",
+      "version": "4.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
