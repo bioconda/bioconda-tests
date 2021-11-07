@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T00:16:15+00:00"}
+{
+ "started_at": "2021-11-07T00:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bmtool",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he1b5a44_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bmtool",
+      "subdir": "linux-64",
+      "version": "3.101"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bmtool",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bmtool",
+      "subdir": "osx-64",
+      "version": "3.101"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
