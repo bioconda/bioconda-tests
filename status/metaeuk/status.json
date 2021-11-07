@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T11:16:15+00:00"}
+{
+ "started_at": "2021-11-07T11:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metaeuk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h95f258a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "metaeuk",
+      "subdir": "linux-64",
+      "version": "5.34c21f2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "metaeuk",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h14b862d_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "metaeuk",
+      "subdir": "osx-64",
+      "version": "5.34c21f2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
