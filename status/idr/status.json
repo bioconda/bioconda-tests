@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T01:31:19+00:00"}
+{
+ "started_at": "2021-11-07T01:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "idr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hcbe4a3b_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "idr",
+      "subdir": "linux-64",
+      "version": "2.0.4.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "idr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hb75ba9e_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "idr",
+      "subdir": "osx-64",
+      "version": "2.0.4.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
