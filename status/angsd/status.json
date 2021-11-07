@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-07T12:46:10+00:00"}
+{
+ "started_at": "2021-11-07T12:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "angsd",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he28291e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "angsd",
+      "subdir": "linux-64",
+      "version": "0.935"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
