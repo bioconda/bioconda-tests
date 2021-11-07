@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T13:01:45+00:00"}
+{
+ "started_at": "2021-11-07T13:01:45+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fastq_utils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h270b39a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fastq_utils",
+      "subdir": "linux-64",
+      "version": "0.25.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fastq_utils",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h365c1c9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "fastq_utils",
+      "subdir": "osx-64",
+      "version": "0.25.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
