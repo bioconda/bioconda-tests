@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T20:01:17+00:00"}
+{
+ "started_at": "2021-11-07T20:01:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fitter",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh145b6a8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fitter",
+      "subdir": "noarch",
+      "version": "1.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fitter",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh145b6a8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fitter",
+      "subdir": "noarch",
+      "version": "1.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
