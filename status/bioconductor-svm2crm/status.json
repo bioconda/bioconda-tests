@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T06:31:23+00:00"}
+{
+ "started_at": "2021-11-07T06:31:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-svm2crm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-svm2crm",
+      "subdir": "noarch",
+      "version": "1.16.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-svm2crm",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-svm2crm",
+      "subdir": "noarch",
+      "version": "1.16.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
