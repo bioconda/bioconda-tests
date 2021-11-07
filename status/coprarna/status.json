@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-07T17:46:14+00:00"}
+{
+ "started_at": "2021-11-07T17:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "coprarna",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "coprarna",
+      "subdir": "linux-64",
+      "version": "2.1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "coprarna",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
