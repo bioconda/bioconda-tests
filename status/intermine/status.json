@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T01:46:15+00:00"}
+{
+ "started_at": "2021-11-07T01:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "intermine",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "intermine",
+      "subdir": "noarch",
+      "version": "1.11.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "intermine",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "intermine",
+      "subdir": "noarch",
+      "version": "1.11.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
