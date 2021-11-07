@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-07T07:16:18+00:00"}
+{
+ "started_at": "2021-11-07T07:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "sga",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha89c123_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "sga",
+      "subdir": "linux-64",
+      "version": "0.10.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "sga",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h0d9c8f9_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "sga",
+      "subdir": "osx-64",
+      "version": "0.10.15"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
