@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T22:16:21+00:00"}
+{
+ "started_at": "2021-11-08T22:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "megan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9ee0642_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "megan",
+      "subdir": "linux-64",
+      "version": "6.21.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
