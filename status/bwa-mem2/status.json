@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T01:02:04+00:00"}
+{
+ "started_at": "2021-11-08T01:02:04+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bwa-mem2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bwa-mem2",
+      "subdir": "linux-64",
+      "version": "2.2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
