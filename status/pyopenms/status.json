@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-08T03:01:56+00:00"}
+{
+ "started_at": "2021-11-08T03:01:56+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyopenms",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h1e763ca_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pyopenms",
+      "subdir": "linux-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyopenms",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h09a4c79_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pyopenms",
+      "subdir": "osx-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
