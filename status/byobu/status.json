@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T08:16:17+00:00"}
+{
+ "started_at": "2021-11-08T08:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "byobu",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "byobu",
+      "subdir": "linux-64",
+      "version": "5.133"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
