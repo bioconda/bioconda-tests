@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T13:01:29+00:00"}
+{
+ "started_at": "2021-11-08T13:01:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pb-falcon",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h1bd3507_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pb-falcon",
+      "subdir": "linux-64",
+      "version": "2.2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
