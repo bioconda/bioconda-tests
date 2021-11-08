@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T23:16:14+00:00"}
+{
+ "started_at": "2021-11-08T23:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "isescan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h516909a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "isescan",
+      "subdir": "linux-64",
+      "version": "1.7.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
