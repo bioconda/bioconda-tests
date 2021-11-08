@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T19:01:18+00:00"}
+{
+ "started_at": "2021-11-08T19:01:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "snp-pileup",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h3198e80_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "snp-pileup",
+      "subdir": "linux-64",
+      "version": "0.6.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
