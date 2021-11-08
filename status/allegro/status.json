@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-08T04:31:14+00:00"}
+{
+ "started_at": "2021-11-08T04:31:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "allegro",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "allegro",
+      "subdir": "linux-64",
+      "version": "3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "allegro",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7475705_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "allegro",
+      "subdir": "osx-64",
+      "version": "3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
