@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-08T17:31:10+00:00"}
+{
+ "started_at": "2021-11-08T17:31:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-pod-elemental",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h14c3975_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-pod-elemental",
+      "subdir": "linux-64",
+      "version": "0.103004"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-pod-elemental",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h1de35cc_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-pod-elemental",
+      "subdir": "osx-64",
+      "version": "0.103004"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
