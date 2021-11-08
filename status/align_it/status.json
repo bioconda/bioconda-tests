@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-08T15:31:22+00:00"}
+{
+ "started_at": "2021-11-08T15:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "align_it",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "align_it",
+      "subdir": "linux-64",
+      "version": "1.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
