@@ -1,91 +1,51 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0r7953t6/noarch/kcalign-0.5.13-py38_0.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpu7wub_hr/noarch/kcalign-0.5.13-py38_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpjjgqpw3m/info/recipe/conda_build_config.yaml
+Adding in variants from /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp1mtwja2h/info/recipe/conda_build_config.yaml
 Reloading output folder: /Users/runner/conda/conda-bld
-  Package              Version  Build               Channel                                                                   Size
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + biopython             1.79  py39h89e85a6_0      conda-forge/osx-64                                                        3 MB
-  + ca-certificates  2021.10.8  h033912b_0          conda-forge/osx-64                                                      Cached
-  + kcalign             0.5.13  py38_0              /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0r7953t6/noarch      13 KB
-  + libblas              3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libcblas             3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libcxx              12.0.1  habf9029_0          conda-forge/osx-64                                                      Cached
-  + libffi               3.4.2  he49afe7_4          conda-forge/osx-64                                                      Cached
-  + libgfortran          5.0.0  9_3_0_h6c81a4c_23   conda-forge/osx-64                                                      Cached
-  + libgfortran5         9.3.0  h6c81a4c_23         conda-forge/osx-64                                                      Cached
-  + liblapack            3.9.0  12_osx64_openblas   conda-forge/osx-64                                                      Cached
-  + libopenblas         0.3.18  openmp_h3351f45_0   conda-forge/osx-64                                                      Cached
-  + libzlib             1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
-  + llvm-openmp         12.0.1  hda6cdc1_1          conda-forge/osx-64                                                      Cached
-  + ncurses                6.2  h2e338ed_4          conda-forge/osx-64                                                      Cached
-  + numpy               1.21.3  py39h7eed0ac_0      conda-forge/osx-64                                                        6 MB
-  + openssl              3.0.0  h0d85af4_1          conda-forge/osx-64                                                      Cached
-  + pip                 21.3.1  pyhd8ed1ab_0        conda-forge/noarch                                                      Cached
-  + python               3.9.7  h38b4d05_3_cpython  conda-forge/osx-64                                                       13 MB
-  + python_abi             3.9  2_cp39              conda-forge/osx-64                                                      Cached
-  + readline               8.1  h05e3726_0          conda-forge/osx-64                                                      Cached
-  + setuptools          58.2.0  py39h6e9494a_0      conda-forge/osx-64                                                      Cached
-  + sqlite              3.36.0  h23a322b_2          conda-forge/osx-64                                                      Cached
-  + tk                  8.6.11  h5dbffcc_1          conda-forge/osx-64                                                      Cached
-  + tzdata               2021e  he74cb21_0          conda-forge/noarch                                                      Cached
-  + wheel               0.37.0  pyhd8ed1ab_1        conda-forge/noarch                                                      Cached
-  + xz                   5.2.5  haf1e3a3_1          conda-forge/osx-64                                                      Cached
-  + zlib                1.2.11  h9173be1_1013       conda-forge/osx-64                                                      Cached
-
-  Summary:
-
-  Install: 27 packages
-
-  Total download: 21 MB
-
-────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/kcalign_1635452161638/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+  environment location: /Users/runner/conda/conda-bld/kcalign_1636489677272/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
 
 
 The following NEW packages will be INSTALLED:
 
-    biopython:       1.79-py39h89e85a6_0      conda-forge                                                        
-    ca-certificates: 2021.10.8-h033912b_0     conda-forge                                                        
-    kcalign:         0.5.13-py38_0            file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0r7953t6
-    libblas:         3.9.0-12_osx64_openblas  conda-forge                                                        
-    libcblas:        3.9.0-12_osx64_openblas  conda-forge                                                        
-    libcxx:          12.0.1-habf9029_0        conda-forge                                                        
-    libffi:          3.4.2-he49afe7_4         conda-forge                                                        
-    libgfortran:     5.0.0-9_3_0_h6c81a4c_23  conda-forge                                                        
-    libgfortran5:    9.3.0-h6c81a4c_23        conda-forge                                                        
-    liblapack:       3.9.0-12_osx64_openblas  conda-forge                                                        
-    libopenblas:     0.3.18-openmp_h3351f45_0 conda-forge                                                        
-    libzlib:         1.2.11-h9173be1_1013     conda-forge                                                        
-    llvm-openmp:     12.0.1-hda6cdc1_1        conda-forge                                                        
-    ncurses:         6.2-h2e338ed_4           conda-forge                                                        
-    numpy:           1.21.3-py39h7eed0ac_0    conda-forge                                                        
-    openssl:         3.0.0-h0d85af4_1         conda-forge                                                        
-    pip:             21.3.1-pyhd8ed1ab_0      conda-forge                                                        
-    python:          3.9.7-h38b4d05_3_cpython conda-forge                                                        
-    python_abi:      3.9-2_cp39               conda-forge                                                        
-    readline:        8.1-h05e3726_0           conda-forge                                                        
-    setuptools:      58.2.0-py39h6e9494a_0    conda-forge                                                        
-    sqlite:          3.36.0-h23a322b_2        conda-forge                                                        
-    tk:              8.6.11-h5dbffcc_1        conda-forge                                                        
-    tzdata:          2021e-he74cb21_0         conda-forge                                                        
-    wheel:           0.37.0-pyhd8ed1ab_1      conda-forge                                                        
-    xz:              5.2.5-haf1e3a3_1         conda-forge                                                        
-    zlib:            1.2.11-h9173be1_1013     conda-forge                                                        
+    biopython:       1.79-py310he24745e_1      conda-forge                                                        
+    bzip2:           1.0.8-h0d85af4_4          conda-forge                                                        
+    ca-certificates: 2021.10.8-h033912b_0      conda-forge                                                        
+    kcalign:         0.5.13-py38_0             file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpu7wub_hr
+    libblas:         3.9.0-12_osx64_openblas   conda-forge                                                        
+    libcblas:        3.9.0-12_osx64_openblas   conda-forge                                                        
+    libcxx:          12.0.1-habf9029_0         conda-forge                                                        
+    libffi:          3.4.2-he49afe7_4          conda-forge                                                        
+    libgfortran:     5.0.0-9_3_0_h6c81a4c_23   conda-forge                                                        
+    libgfortran5:    9.3.0-h6c81a4c_23         conda-forge                                                        
+    liblapack:       3.9.0-12_osx64_openblas   conda-forge                                                        
+    libopenblas:     0.3.18-openmp_h3351f45_0  conda-forge                                                        
+    libzlib:         1.2.11-h9173be1_1013      conda-forge                                                        
+    llvm-openmp:     12.0.1-hda6cdc1_1         conda-forge                                                        
+    ncurses:         6.2-h2e338ed_4            conda-forge                                                        
+    numpy:           1.21.4-py310hd5a656b_0    conda-forge                                                        
+    openssl:         3.0.0-h0d85af4_2          conda-forge                                                        
+    pip:             21.3.1-pyhd8ed1ab_0       conda-forge                                                        
+    python:          3.10.0-h38b4d05_2_cpython conda-forge                                                        
+    python_abi:      3.10-2_cp310              conda-forge                                                        
+    readline:        8.1-h05e3726_0            conda-forge                                                        
+    setuptools:      58.5.3-py310h2ec42d9_0    conda-forge                                                        
+    sqlite:          3.36.0-h23a322b_2         conda-forge                                                        
+    tk:              8.6.11-h5dbffcc_1         conda-forge                                                        
+    tzdata:          2021e-he74cb21_0          conda-forge                                                        
+    wheel:           0.37.0-pyhd8ed1ab_1       conda-forge                                                        
+    xz:              5.2.5-haf1e3a3_1          conda-forge                                                        
+    zlib:            1.2.11-h9173be1_1013      conda-forge                                                        
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/kcalign_1635452161638/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
-export SRC_DIR=/Users/runner/conda/conda-bld/kcalign_1635452161638/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/kcalign_1636489677272/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p
+export SRC_DIR=/Users/runner/conda/conda-bld/kcalign_1636489677272/test_tmp
 import: 'kcalign'
 
 Leaving build/test directories:
