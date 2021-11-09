@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T10:31:27+00:00"}
+{
+ "started_at": "2021-11-09T10:31:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "diamond_add_taxonomy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "diamond_add_taxonomy",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
