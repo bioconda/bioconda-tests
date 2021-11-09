@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-09T15:31:29+00:00"}
+{
+ "started_at": "2021-11-09T15:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "azure-cli",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "azure-cli",
+      "subdir": "linux-64",
+      "version": "0.10.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "azure-cli",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "azure-cli",
+      "subdir": "osx-64",
+      "version": "0.10.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
