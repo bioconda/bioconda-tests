@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T03:46:12+00:00"}
+{
+ "started_at": "2021-11-09T03:46:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libdeflate",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "libdeflate",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
