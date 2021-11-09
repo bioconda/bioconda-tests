@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-09T19:46:15+00:00"}
+{
+ "started_at": "2021-11-09T19:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-xml-regexp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-xml-regexp",
+      "subdir": "linux-64",
+      "version": "0.04"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-xml-regexp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-xml-regexp",
+      "subdir": "osx-64",
+      "version": "0.04"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
