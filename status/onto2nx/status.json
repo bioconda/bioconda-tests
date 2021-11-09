@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T06:31:23+00:00"}
+{
+ "started_at": "2021-11-09T06:31:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "onto2nx",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "onto2nx",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
