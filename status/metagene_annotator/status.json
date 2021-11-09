@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T08:46:22+00:00"}
+{
+ "started_at": "2021-11-09T08:46:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metagene_annotator",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "metagene_annotator",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
