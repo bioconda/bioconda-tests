@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-09T02:31:20+00:00"}
+{
+ "started_at": "2021-11-09T02:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-data-uuid",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h6bb024c_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-data-uuid",
+      "subdir": "linux-64",
+      "version": "1.224"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-data-uuid",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h04f5b5a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-data-uuid",
+      "subdir": "osx-64",
+      "version": "1.224"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
