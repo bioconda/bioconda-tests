@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-09T22:46:22+00:00"}
+{
+ "started_at": "2021-11-09T22:46:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "plant_tribes_assembly_post_processor",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9ee0642_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "plant_tribes_assembly_post_processor",
+      "subdir": "linux-64",
+      "version": "1.0.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
