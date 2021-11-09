@@ -1,0 +1,103 @@
+{
+  "command": "/home/vsts/conda/bin/mamba create --dry-run --name=solve --json centrosome",
+  "conda_info": {
+    "GID": 121,
+    "UID": 1001,
+    "active_prefix": "/home/vsts/conda",
+    "active_prefix_name": "base",
+    "av_data_dir": "/home/vsts/conda/etc/conda",
+    "av_metadata_url_base": null,
+    "channels": [
+      "https://conda.anaconda.org/conda-forge/linux-64",
+      "https://conda.anaconda.org/conda-forge/noarch",
+      "https://conda.anaconda.org/bioconda/linux-64",
+      "https://conda.anaconda.org/bioconda/noarch",
+      "https://repo.anaconda.com/pkgs/main/linux-64",
+      "https://repo.anaconda.com/pkgs/main/noarch",
+      "https://repo.anaconda.com/pkgs/r/linux-64",
+      "https://repo.anaconda.com/pkgs/r/noarch"
+    ],
+    "conda_build_version": "3.21.4",
+    "conda_env_version": "4.10.3",
+    "conda_location": "/home/vsts/conda/lib/python3.9/site-packages/conda",
+    "conda_prefix": "/home/vsts/conda",
+    "conda_private": false,
+    "conda_shlvl": 1,
+    "conda_version": "4.10.3",
+    "config_files": [
+      "/home/vsts/conda/.condarc"
+    ],
+    "default_prefix": "/home/vsts/conda",
+    "env_vars": {
+      "BUILD_REPOSITORY_LOCALPATH": "/home/vsts/work/1/s",
+      "CIO_TEST": "<not set>",
+      "CONDA": "/usr/share/miniconda",
+      "CONDA_DEFAULT_ENV": "base",
+      "CONDA_EXE": "/home/vsts/conda/bin/conda",
+      "CONDA_PREFIX": "/home/vsts/conda",
+      "CONDA_PROMPT_MODIFIER": "(base) ",
+      "CONDA_PYTHON_EXE": "/home/vsts/conda/bin/python",
+      "CONDA_QUIET": "1",
+      "CONDA_RC": "/home/vsts/solve_only_condarc",
+      "CONDA_ROOT": "/home/vsts/conda",
+      "CONDA_SHLVL": "1",
+      "CURL_CA_BUNDLE": "<not set>",
+      "PATH": "/home/vsts/conda/bin:/home/vsts/conda/condabin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/home/vsts/.local/bin:/opt/pipx_bin:/usr/share/rust/.cargo/bin:/home/vsts/.config/composer/vendor/bin:/usr/local/.ghcup/bin:/home/vsts/.dotnet/tools:/snap/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin",
+      "PYTHONPATH": "/home/vsts/work/1/s/src",
+      "REQUESTS_CA_BUNDLE": "<not set>",
+      "SELENIUM_JAR_PATH": "/usr/share/java/selenium-server-standalone.jar",
+      "SSL_CERT_FILE": "<not set>",
+      "SWIFT_PATH": "/usr/share/swift/usr/bin"
+    },
+    "envs": [],
+    "envs_dirs": [
+      "/home/vsts/conda/envs",
+      "/home/vsts/.conda/envs"
+    ],
+    "netrc_file": null,
+    "offline": false,
+    "pkgs_dirs": [
+      "/home/vsts/conda/pkgs",
+      "/home/vsts/.conda/pkgs"
+    ],
+    "platform": "linux-64",
+    "python_version": "3.9.7.final.0",
+    "rc_path": "/home/vsts/.condarc",
+    "requests_version": "2.26.0",
+    "root_prefix": "/home/vsts/conda",
+    "root_writable": true,
+    "site_dirs": [],
+    "sys.executable": "/home/vsts/conda/bin/python",
+    "sys.prefix": "/home/vsts/conda",
+    "sys.version": "3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 19:20:46) \n[GCC 9.4.0]",
+    "sys_rc_path": "/home/vsts/conda/.condarc",
+    "user_agent": "conda/4.10.3 requests/2.26.0 CPython/3.9.7 Linux/5.11.0-1020-azure ubuntu/20.04.3 glibc/2.31",
+    "user_rc_path": "/home/vsts/.condarc",
+    "virtual_pkgs": [
+      [
+        "__linux",
+        "5.11.0",
+        "0"
+      ],
+      [
+        "__glibc",
+        "2.31",
+        "0"
+      ],
+      [
+        "__unix",
+        "0",
+        "0"
+      ],
+      [
+        "__archspec",
+        "1",
+        "x86_64"
+      ]
+    ]
+  },
+  "error": "RuntimeError('Multi-download failed.')",
+  "exception_name": "RuntimeError",
+  "exception_type": "<class 'RuntimeError'>",
+  "traceback": "Traceback (most recent call last):\n  File \"/home/vsts/conda/lib/python3.9/site-packages/conda/exceptions.py\", line 1079, in __call__\n    return func(*args, **kwargs)\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 926, in exception_converter\n    raise e\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 920, in exception_converter\n    exit_code = _wrapped_main(*args, **kwargs)\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 878, in _wrapped_main\n    result = do_call(args, p)\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 757, in do_call\n    exit_code = create(args, parser)\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 660, in create\n    return install(args, parser, \"create\")\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 532, in install\n    index = load_channels(pool, channels, repos)\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/utils.py\", line 129, in load_channels\n    index = get_index(\n  File \"/home/vsts/conda/lib/python3.9/site-packages/mamba/utils.py\", line 110, in get_index\n    is_downloaded = dlist.download(True)\nRuntimeError: Multi-download failed.\n"
+}
