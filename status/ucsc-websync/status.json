@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T11:46:19+00:00"}
+{
+ "started_at": "2021-11-09T11:46:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ucsc-websync",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "ucsc-websync",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
