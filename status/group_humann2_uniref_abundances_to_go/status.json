@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T09:31:25+00:00"}
+{
+ "started_at": "2021-11-09T09:31:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "group_humann2_uniref_abundances_to_go",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "group_humann2_uniref_abundances_to_go",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
