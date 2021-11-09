@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-09T02:46:18+00:00"}
+{
+ "started_at": "2021-11-09T02:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mauvealigner",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h6bcf2b7_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mauvealigner",
+      "subdir": "linux-64",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
