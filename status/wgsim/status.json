@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T09:16:17+00:00"}
+{
+ "started_at": "2021-11-09T09:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "wgsim",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "wgsim",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
