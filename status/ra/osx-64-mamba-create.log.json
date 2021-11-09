@@ -1,0 +1,98 @@
+{
+  "command": "/Users/runner/conda/bin/mamba create --dry-run --name=solve --json ra",
+  "conda_info": {
+    "GID": 20,
+    "UID": 501,
+    "active_prefix": "/Users/runner/conda",
+    "active_prefix_name": "base",
+    "av_data_dir": "/Users/runner/conda/etc/conda",
+    "av_metadata_url_base": null,
+    "channels": [
+      "https://conda.anaconda.org/conda-forge/osx-64",
+      "https://conda.anaconda.org/conda-forge/noarch",
+      "https://conda.anaconda.org/bioconda/osx-64",
+      "https://conda.anaconda.org/bioconda/noarch",
+      "https://repo.anaconda.com/pkgs/main/osx-64",
+      "https://repo.anaconda.com/pkgs/main/noarch",
+      "https://repo.anaconda.com/pkgs/r/osx-64",
+      "https://repo.anaconda.com/pkgs/r/noarch"
+    ],
+    "conda_build_version": "3.21.4",
+    "conda_env_version": "4.10.3",
+    "conda_location": "/Users/runner/conda/lib/python3.9/site-packages/conda",
+    "conda_prefix": "/Users/runner/conda",
+    "conda_private": false,
+    "conda_shlvl": 1,
+    "conda_version": "4.10.3",
+    "config_files": [
+      "/Users/runner/conda/.condarc"
+    ],
+    "default_prefix": "/Users/runner/conda",
+    "env_vars": {
+      "BUILD_REPOSITORY_LOCALPATH": "/Users/runner/work/1/s",
+      "CIO_TEST": "<not set>",
+      "CONDA": "/usr/local/miniconda",
+      "CONDA_DEFAULT_ENV": "base",
+      "CONDA_EXE": "/Users/runner/conda/bin/conda",
+      "CONDA_PREFIX": "/Users/runner/conda",
+      "CONDA_PROMPT_MODIFIER": "(base) ",
+      "CONDA_PYTHON_EXE": "/Users/runner/conda/bin/python",
+      "CONDA_QUIET": "1",
+      "CONDA_RC": "/Users/runner/solve_only_condarc",
+      "CONDA_ROOT": "/Users/runner/conda",
+      "CONDA_SHLVL": "1",
+      "CURL_CA_BUNDLE": "<not set>",
+      "NUNIT3_PATH": "/Library/Developer/nunit/3.6.0",
+      "NUNIT_BASE_PATH": "/Library/Developer/nunit",
+      "PATH": "/Users/runner/conda/bin:/Users/runner/conda/condabin:/usr/local/lib/ruby/gems/2.7.0/bin:/usr/local/opt/ruby@2.7/bin:/usr/local/opt/pipx_bin:/Users/runner/.cargo/bin:/usr/local/opt/curl/bin:/usr/local/bin:/usr/local/sbin:/Users/runner/bin:/Users/runner/.yarn/bin:/Users/runner/Library/Android/sdk/tools:/Users/runner/Library/Android/sdk/platform-tools:/Users/runner/Library/Android/sdk/ndk-bundle:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/usr/bin:/bin:/usr/sbin:/sbin:/Users/runner/.dotnet/tools:/Users/runner/.ghcup/bin:/Users/runner/hostedtoolcache/stack/2.7.3/x64",
+      "PYTHONPATH": "/Users/runner/work/1/s/src",
+      "REQUESTS_CA_BUNDLE": "<not set>",
+      "SSL_CERT_FILE": "<not set>"
+    },
+    "envs": [],
+    "envs_dirs": [
+      "/Users/runner/conda/envs",
+      "/Users/runner/.conda/envs"
+    ],
+    "netrc_file": null,
+    "offline": false,
+    "pkgs_dirs": [
+      "/Users/runner/conda/pkgs",
+      "/Users/runner/.conda/pkgs"
+    ],
+    "platform": "osx-64",
+    "python_version": "3.9.7.final.0",
+    "rc_path": "/Users/runner/.condarc",
+    "requests_version": "2.26.0",
+    "root_prefix": "/Users/runner/conda",
+    "root_writable": true,
+    "site_dirs": [],
+    "sys.executable": "/Users/runner/conda/bin/python",
+    "sys.prefix": "/Users/runner/conda",
+    "sys.version": "3.9.7 | packaged by conda-forge | (default, Sep 29 2021, 20:33:18) \n[Clang 11.1.0 ]",
+    "sys_rc_path": "/Users/runner/conda/.condarc",
+    "user_agent": "conda/4.10.3 requests/2.26.0 CPython/3.9.7 Darwin/20.6.0 OSX/11.6.1",
+    "user_rc_path": "/Users/runner/.condarc",
+    "virtual_pkgs": [
+      [
+        "__osx",
+        "11.6.1",
+        "0"
+      ],
+      [
+        "__unix",
+        "0",
+        "0"
+      ],
+      [
+        "__archspec",
+        "1",
+        "x86_64"
+      ]
+    ]
+  },
+  "error": "RuntimeError('Multi-download failed.')",
+  "exception_name": "RuntimeError",
+  "exception_type": "<class 'RuntimeError'>",
+  "traceback": "Traceback (most recent call last):\n  File \"/Users/runner/conda/lib/python3.9/site-packages/conda/exceptions.py\", line 1079, in __call__\n    return func(*args, **kwargs)\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 926, in exception_converter\n    raise e\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 920, in exception_converter\n    exit_code = _wrapped_main(*args, **kwargs)\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 878, in _wrapped_main\n    result = do_call(args, p)\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 757, in do_call\n    exit_code = create(args, parser)\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 660, in create\n    return install(args, parser, \"create\")\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/mamba.py\", line 532, in install\n    index = load_channels(pool, channels, repos)\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/utils.py\", line 129, in load_channels\n    index = get_index(\n  File \"/Users/runner/conda/lib/python3.9/site-packages/mamba/utils.py\", line 110, in get_index\n    is_downloaded = dlist.download(True)\nRuntimeError: Multi-download failed.\n"
+}
