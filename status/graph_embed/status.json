@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-09T01:16:17+00:00"}
+{
+ "started_at": "2021-11-09T01:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "graph_embed",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "graph_embed",
+      "subdir": "noarch",
+      "version": "2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "graph_embed",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "graph_embed",
+      "subdir": "noarch",
+      "version": "2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
