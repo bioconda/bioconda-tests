@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T11:31:21+00:00"}
+{
+ "started_at": "2021-11-09T11:31:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-gmd",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "r-gmd",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
