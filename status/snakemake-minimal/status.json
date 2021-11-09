@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-09T18:01:23+00:00"}
+{
+ "started_at": "2021-11-09T18:01:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "snakemake-minimal",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snakemake-minimal",
+      "subdir": "noarch",
+      "version": "6.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "snakemake-minimal",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snakemake-minimal",
+      "subdir": "noarch",
+      "version": "6.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
