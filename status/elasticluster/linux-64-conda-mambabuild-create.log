@@ -1,138 +1,13 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp5q7jcu93/linux-64/elasticluster-0.1.3bcbio-py27_12.tar.bz2
+TEST START: /tmp/tmpnyxmocb_/linux-64/elasticluster-0.1.3bcbio-py27_12.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmp1z7dy6ck/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmpwnaepniw/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                              Version  Build                  Channel                         Size
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                          0.1  conda_forge            conda-forge/linux-64          Cached
-  + _openmp_mutex                          4.5  1_gnu                  conda-forge/linux-64          Cached
-  + ansible                              2.9.6  py27_0                 conda-forge/linux-64           18 MB
-  + appdirs                              1.4.4  pyh9f0ad1d_0           conda-forge/noarch             13 KB
-  + azure                                4.0.0  py_0                   conda-forge/noarch              6 KB
-  + azure-common                        1.1.24  py_0                   conda-forge/noarch             12 KB
-  + azure-mgmt                          0.20.1  py27_0                 conda-forge/linux-64            3 KB
-  + azure-mgmt-common                   0.20.0  py27_0                 conda-forge/linux-64            8 KB
-  + azure-mgmt-compute                  0.20.1  py27_0                 conda-forge/linux-64           79 KB
-  + azure-mgmt-network                  0.20.1  py27_0                 conda-forge/linux-64           91 KB
-  + azure-mgmt-nspkg                     1.0.0  py27_0                 conda-forge/linux-64            2 KB
-  + azure-mgmt-resource                 0.20.1  py27_0                 conda-forge/linux-64           42 KB
-  + azure-mgmt-storage                  0.20.0  py27_0                 conda-forge/linux-64           24 KB
-  + azure-nspkg                          3.0.2  py_0                   conda-forge/noarch              4 KB
-  + azure-servicebus                    0.20.1  py27_0                 conda-forge/linux-64           43 KB
-  + azure-servicemanagement-legacy      0.20.1  py27_0                 conda-forge/linux-64           97 KB
-  + azure-storage                       0.20.3  py27_0                 conda-forge/linux-64           85 KB
-  + babel                                2.9.1  pyh44b312d_0           conda-forge/noarch              6 MB
-  + bcrypt                               3.1.7  py27h516909a_0         conda-forge/linux-64           43 KB
-  + boto                                2.49.0  py_0                   conda-forge/noarch            838 KB
-  + brotlipy                             0.7.0  py27h516909a_1000      conda-forge/linux-64          345 KB
-  + ca-certificates                  2021.10.8  ha878542_0             conda-forge/linux-64          Cached
-  + cachetools                           3.1.1  py_0                   conda-forge/noarch             11 KB
-  + certifi                         2019.11.28  py27h8c360ce_1         conda-forge/linux-64          149 KB
-  + cffi                                1.14.0  py27hd463f26_0         conda-forge/linux-64          217 KB
-  + chardet                              3.0.4  py27h8c360ce_1006      conda-forge/linux-64          180 KB
-  + configobj                            5.0.6  py_0                   conda-forge/noarch             31 KB
-  + cryptography                           2.8  py27h2c19f6a_2         conda-forge/linux-64          609 KB
-  + debtcollector                       1.21.0  py27_0                 conda-forge/linux-64           30 KB
-  + decorator                            4.4.2  py_0                   conda-forge/noarch             11 KB
-  + dogpile.cache                        0.9.2  pyh9f0ad1d_0           conda-forge/noarch             36 KB
-  + elasticluster                   0.1.3bcbio  py27_12                /tmp/tmp5q7jcu93/linux-64     201 KB
-  + enum34                              1.1.10  py27h8c360ce_1         conda-forge/linux-64           49 KB
-  + extras                               1.0.0  py27_0                 conda-forge/linux-64            8 KB
-  + fixtures                             3.0.0  py27_0                 conda-forge/linux-64           52 KB
-  + funcsigs                             1.0.2  py27_0                 conda-forge/linux-64           17 KB
-  + futures                              3.3.0  py27h8c360ce_1         conda-forge/linux-64           26 KB
-  + google-api-core                     1.16.0  py27_1                 conda-forge/linux-64           81 KB
-  + google-api-python-client             1.9.1  pyh9f0ad1d_0           conda-forge/noarch             46 KB
-  + google-auth                         1.16.1  pyh9f0ad1d_0           conda-forge/noarch             55 KB
-  + google-auth-httplib2                 0.0.4  pyh9f0ad1d_0           conda-forge/noarch             13 KB
-  + googleapis-common-protos            1.51.0  py27_1                 conda-forge/linux-64           66 KB
-  + httplib2                            0.18.1  pyh9f0ad1d_0           conda-forge/noarch             94 KB
-  + idna                                  2.10  pyh9f0ad1d_0           conda-forge/noarch             52 KB
-  + ipaddress                           1.0.23  py_0                   conda-forge/noarch             19 KB
-  + iso8601                             0.1.13  pyh9f0ad1d_0           conda-forge/noarch             12 KB
-  + jinja2                              2.11.3  pyh44b312d_0           conda-forge/noarch             93 KB
-  + jmespath                            0.10.0  pyh9f0ad1d_0           conda-forge/noarch             21 KB
-  + jsonpatch                             1.24  py_0                   conda-forge/noarch             13 KB
-  + jsonpointer                            2.0  py_0                   conda-forge/noarch              9 KB
-  + keystoneauth1                       3.15.0  py_0                   conda-forge/noarch            177 KB
-  + ld_impl_linux-64                    2.36.1  hea4e1c9_2             conda-forge/linux-64          Cached
-  + libffi                               3.2.1  he1b5a44_1007          conda-forge/linux-64           47 KB
-  + libgcc-ng                           11.2.0  h1d223b6_11            conda-forge/linux-64          Cached
-  + libgomp                             11.2.0  h1d223b6_11            conda-forge/linux-64          Cached
-  + libprotobuf                         3.11.4  h8b12597_0             conda-forge/linux-64            5 MB
-  + libstdcxx-ng                        11.2.0  he4da1e4_11            conda-forge/linux-64          Cached
-  + libzlib                             1.2.11  h36c2ea0_1013          conda-forge/linux-64          Cached
-  + markupsafe                           1.1.1  py27hdf8410d_1         conda-forge/linux-64           26 KB
-  + monotonic                              1.5  py_0                   conda-forge/noarch              9 KB
-  + munch                                2.5.0  py_0                   conda-forge/noarch             12 KB
-  + ncurses                                6.2  h58526e2_4             conda-forge/linux-64          Cached
-  + netaddr                             0.7.19  py_0                   conda-forge/noarch              1 MB
-  + netifaces                           0.10.9  py27hdf8410d_1002      conda-forge/linux-64           17 KB
-  + oauth2client                         4.1.3  py_0                   conda-forge/noarch             66 KB
-  + openssl                             1.1.1l  h7f98852_0             conda-forge/linux-64          Cached
-  + os-client-config                    1.29.0  py_0                   conda-forge/noarch             37 KB
-  + os-service-types                     1.7.0  pyh9f0ad1d_0           conda-forge/noarch             20 KB
-  + oslo.i18n                           3.23.1  py_0                   conda-forge/noarch             27 KB
-  + oslo.serialization                   3.0.0  py27_0                 conda-forge/linux-64           36 KB
-  + oslo.utils                          3.41.0  py27_0                 conda-forge/linux-64          130 KB
-  + paramiko                             2.7.2  pyh9f0ad1d_0           conda-forge/noarch            135 KB
-  + pbr                                  5.5.1  pyh9f0ad1d_0           conda-forge/noarch             74 KB
-  + pip                                 20.1.1  pyh9f0ad1d_0           conda-forge/noarch              1 MB
-  + prettytable                          0.7.2  py27_1                 conda-forge/linux-64           25 KB
-  + protobuf                            3.11.4  py27he1b5a44_0         conda-forge/linux-64          696 KB
-  + pyasn1                               0.4.8  py_0                   conda-forge/noarch             53 KB
-  + pyasn1-modules                       0.2.7  py_0                   conda-forge/noarch             60 KB
-  + pycli                                2.0.3  py27_0                 bioconda/linux-64              67 KB
-  + pycparser                             2.20  pyh9f0ad1d_2           conda-forge/noarch            Cached
-  + pycrypto                             2.6.1  py27hdf8410d_1004      conda-forge/linux-64          496 KB
-  + pynacl                               1.3.0  py27h516909a_1001      conda-forge/linux-64            1 MB
-  + pyopenssl                           19.1.0  py27_0                 conda-forge/linux-64           81 KB
-  + pyparsing                            2.4.7  pyh9f0ad1d_0           conda-forge/noarch             60 KB
-  + pysocks                              1.7.1  py27h8c360ce_1         conda-forge/linux-64           26 KB
-  + python                              2.7.15  h5a48372_1011_cpython  conda-forge/linux-64           12 MB
-  + python-dateutil                      2.8.1  py_0                   conda-forge/noarch            220 KB
-  + python-gflags                        3.1.2  py_0                   conda-forge/noarch             41 KB
-  + python-ironicclient                  3.1.1  py27_0                 conda-forge/linux-64          285 KB
-  + python_abi                             2.7  1_cp27mu               conda-forge/linux-64            4 KB
-  + pytz                                2020.1  pyh9f0ad1d_0           conda-forge/noarch            227 KB
-  + pyyaml                               5.3.1  py27hdf8410d_0         conda-forge/linux-64          174 KB
-  + readline                               8.1  h46c0cb4_0             conda-forge/linux-64          Cached
-  + requests                            2.25.1  pyhd3deb0d_0           conda-forge/noarch             51 KB
-  + requestsexceptions                   1.4.0  py_0                   conda-forge/noarch              9 KB
-  + rsa                                    4.0  py_0                   conda-forge/noarch             27 KB
-  + setuptools                          44.0.0  py27_0                 conda-forge/linux-64          663 KB
-  + shade                               1.33.0  py27_0                 conda-forge/linux-64          494 KB
-  + simplejson                          3.17.0  py27hdf8410d_1         conda-forge/linux-64          102 KB
-  + six                                 1.16.0  pyh6c4a22f_0           conda-forge/noarch            Cached
-  + sqlite                              3.36.0  h9cd32fc_2             conda-forge/linux-64          Cached
-  + stevedore                           1.30.1  py_0                   conda-forge/noarch             24 KB
-  + testtools                            2.3.0  py27_0                 conda-forge/linux-64          268 KB
-  + tk                                  8.6.11  h27826a3_1             conda-forge/linux-64          Cached
-  + uritemplate                          3.0.1  py_0                   conda-forge/noarch             16 KB
-  + urllib3                             1.26.7  pyhd8ed1ab_0           conda-forge/noarch            Cached
-  + voluptuous                          0.12.1  pyhd3deb0d_0           conda-forge/noarch             28 KB
-  + wheel                               0.37.0  pyhd8ed1ab_1           conda-forge/noarch            Cached
-  + wrapt                               1.12.1  py27hdf8410d_1         conda-forge/linux-64           45 KB
-  + yaml                                 0.2.5  h516909a_0             conda-forge/linux-64          Cached
-  + zlib                                1.2.11  h36c2ea0_1013          conda-forge/linux-64          Cached
-
-  Summary:
-
-  Install: 111 packages
-
-  Total download: 53 MB
-
-─────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/elasticluster_1635458377372/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+  environment location: /home/vsts/conda/conda-bld/elasticluster_1636494208376/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
 
 
 The following NEW packages will be INSTALLED:
@@ -168,7 +43,7 @@ The following NEW packages will be INSTALLED:
     debtcollector:                  1.21.0-py27_0                conda-forge            
     decorator:                      4.4.2-py_0                   conda-forge            
     dogpile.cache:                  0.9.2-pyh9f0ad1d_0           conda-forge            
-    elasticluster:                  0.1.3bcbio-py27_12           file:///tmp/tmp5q7jcu93
+    elasticluster:                  0.1.3bcbio-py27_12           file:///tmp/tmpnyxmocb_
     enum34:                         1.1.10-py27h8c360ce_1        conda-forge            
     extras:                         1.0.0-py27_0                 conda-forge            
     fixtures:                       3.0.0-py27_0                 conda-forge            
@@ -216,7 +91,7 @@ The following NEW packages will be INSTALLED:
     pyasn1:                         0.4.8-py_0                   conda-forge            
     pyasn1-modules:                 0.2.7-py_0                   conda-forge            
     pycli:                          2.0.3-py27_0                 bioconda               
-    pycparser:                      2.20-pyh9f0ad1d_2            conda-forge            
+    pycparser:                      2.21-pyhd8ed1ab_0            conda-forge            
     pycrypto:                       2.6.1-py27hdf8410d_1004      conda-forge            
     pynacl:                         1.3.0-py27h516909a_1001      conda-forge            
     pyopenssl:                      19.1.0-py27_0                conda-forge            
@@ -252,8 +127,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/elasticluster_1635458377372/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
-export SRC_DIR=/home/vsts/conda/conda-bld/elasticluster_1635458377372/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/elasticluster_1636494208376/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol
+export SRC_DIR=/home/vsts/conda/conda-bld/elasticluster_1636494208376/test_tmp
 import: 'elasticluster'
 
 Leaving build/test directories:
