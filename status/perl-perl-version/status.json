@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T07:31:24+00:00"}
+{
+ "started_at": "2021-11-09T07:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-perl-version",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "perl-perl-version",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,30 @@
-{"state":"running","started_at":"2021-11-09T07:31:24+00:00"}
+{
+ "started_at": "2021-11-09T07:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-amap",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  },
+  {
+   "name": "r-amap",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
