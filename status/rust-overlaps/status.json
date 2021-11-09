@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-09T20:46:21+00:00"}
+{
+ "started_at": "2021-11-09T20:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rust-overlaps",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rust-overlaps",
+      "subdir": "linux-64",
+      "version": "0.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
