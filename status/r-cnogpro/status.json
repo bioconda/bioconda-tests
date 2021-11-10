@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T02:16:12+00:00"}
+{
+ "started_at": "2021-11-10T02:16:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-cnogpro",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.4.1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-cnogpro",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-cnogpro",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.4.1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-cnogpro",
+      "subdir": "osx-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
