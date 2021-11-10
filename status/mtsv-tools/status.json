@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T19:31:31+00:00"}
+{
+ "started_at": "2021-11-10T19:31:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mtsv-tools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mtsv-tools",
+      "subdir": "linux-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
