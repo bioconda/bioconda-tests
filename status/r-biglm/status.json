@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T11:46:20+00:00"}
+{
+ "started_at": "2021-11-10T11:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-biglm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h859d828_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-biglm",
+      "subdir": "linux-64",
+      "version": "0.9_2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
