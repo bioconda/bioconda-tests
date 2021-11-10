@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T18:01:22+00:00"}
+{
+ "started_at": "2021-11-10T18:01:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pbwt",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h22771d5_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pbwt",
+      "subdir": "linux-64",
+      "version": "3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pbwt",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h05cf09b_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pbwt",
+      "subdir": "osx-64",
+      "version": "3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

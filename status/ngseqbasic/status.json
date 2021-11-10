@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T18:01:22+00:00"}
+{
+ "started_at": "2021-11-10T18:01:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ngseqbasic",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5.22.0.1_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ngseqbasic",
+      "subdir": "linux-64",
+      "version": "2.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
