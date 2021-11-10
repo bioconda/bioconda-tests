@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T21:46:17+00:00"}
+{
+ "started_at": "2021-11-10T21:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-tie-hash-indexed",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-tie-hash-indexed",
+      "subdir": "linux-64",
+      "version": "0.05"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-tie-hash-indexed",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-tie-hash-indexed",
+      "subdir": "osx-64",
+      "version": "0.05"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
