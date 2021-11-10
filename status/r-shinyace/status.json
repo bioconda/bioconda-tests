@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T07:01:27+00:00"}
+{
+ "started_at": "2021-11-10T07:01:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-shinyace",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-shinyace",
+      "subdir": "noarch",
+      "version": "0.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-shinyace",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-shinyace",
+      "subdir": "noarch",
+      "version": "0.4.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
