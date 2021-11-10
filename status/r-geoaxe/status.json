@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T13:46:23+00:00"}
+{
+ "started_at": "2021-11-10T13:46:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-geoaxe",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-geoaxe",
+      "subdir": "noarch",
+      "version": "0.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-geoaxe",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-geoaxe",
+      "subdir": "noarch",
+      "version": "0.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
