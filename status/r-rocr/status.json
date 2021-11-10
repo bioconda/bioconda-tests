@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T17:16:25+00:00"}
+{
+ "started_at": "2021-11-10T17:16:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-rocr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-rocr",
+      "subdir": "linux-64",
+      "version": "1.0_11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-rocr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hbe3e9c8_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-rocr",
+      "subdir": "osx-64",
+      "version": "1.0_11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
