@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T18:16:21+00:00"}
+{
+ "started_at": "2021-11-10T18:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ibdseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ibdseq",
+      "subdir": "linux-64",
+      "version": "r1206"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ibdseq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ibdseq",
+      "subdir": "osx-64",
+      "version": "r1206"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

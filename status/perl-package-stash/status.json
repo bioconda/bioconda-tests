@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T18:16:21+00:00"}
+{
+ "started_at": "2021-11-10T18:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-package-stash",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526hf484d3e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-package-stash",
+      "subdir": "linux-64",
+      "version": "0.38"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-package-stash",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h0a44026_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-package-stash",
+      "subdir": "osx-64",
+      "version": "0.38"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
