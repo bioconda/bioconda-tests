@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T01:46:10+00:00"}
+{
+ "started_at": "2021-11-10T01:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "chainmap",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "chainmap",
+      "subdir": "noarch",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "chainmap",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "chainmap",
+      "subdir": "noarch",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
