@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T02:31:20+00:00"}
+{
+ "started_at": "2021-11-10T02:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dbgraph",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc9558a2_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "dbgraph",
+      "subdir": "linux-64",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T02:31:20+00:00"}
+{
+ "started_at": "2021-11-10T02:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rseg",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he941832_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rseg",
+      "subdir": "linux-64",
+      "version": "0.4.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
