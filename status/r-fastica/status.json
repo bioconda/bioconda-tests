@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T03:31:15+00:00"}
+{
+ "started_at": "2021-11-10T03:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-fastica",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41he454529_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-fastica",
+      "subdir": "linux-64",
+      "version": "1.2_3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-fastica",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc2c5f09_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-fastica",
+      "subdir": "osx-64",
+      "version": "1.2_3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
