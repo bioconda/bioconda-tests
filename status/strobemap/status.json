@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T05:01:39+00:00"}
+{
+ "started_at": "2021-11-10T05:01:39+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "strobemap",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "strobemap",
+      "subdir": "linux-64",
+      "version": "0.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "strobemap",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h87af4ef_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "strobemap",
+      "subdir": "osx-64",
+      "version": "0.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
