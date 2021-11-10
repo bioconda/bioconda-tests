@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T18:46:22+00:00"}
+{
+ "started_at": "2021-11-10T18:46:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "jellyfish",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h6acc77f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "jellyfish",
+      "subdir": "linux-64",
+      "version": "0.8.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "jellyfish",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310he24745e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "jellyfish",
+      "subdir": "osx-64",
+      "version": "0.8.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

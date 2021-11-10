@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T18:46:22+00:00"}
+{
+ "started_at": "2021-11-10T18:46:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyasn1-modules",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "pyasn1-modules",
+      "subdir": "noarch",
+      "version": "0.2.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyasn1-modules",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "pyasn1-modules",
+      "subdir": "noarch",
+      "version": "0.2.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
