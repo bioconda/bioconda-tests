@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T04:46:18+00:00"}
+{
+ "started_at": "2021-11-10T04:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "netifaces",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h6acc77f_1004",
+      "build_number": 1004,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "netifaces",
+      "subdir": "linux-64",
+      "version": "0.10.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "netifaces",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310he24745e_1004",
+      "build_number": 1004,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "netifaces",
+      "subdir": "osx-64",
+      "version": "0.10.9"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
