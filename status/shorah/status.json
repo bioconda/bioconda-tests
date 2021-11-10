@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T04:31:19+00:00"}
+{
+ "started_at": "2021-11-10T04:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "shorah",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39he1f734c_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "shorah",
+      "subdir": "linux-64",
+      "version": "1.99.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "shorah",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h07ed5b9_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "shorah",
+      "subdir": "osx-64",
+      "version": "1.99.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
