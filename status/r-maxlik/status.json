@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-10T19:46:16+00:00"}
+{
+ "started_at": "2021-11-10T19:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-maxlik",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-maxlik",
+      "subdir": "noarch",
+      "version": "1.5_2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
