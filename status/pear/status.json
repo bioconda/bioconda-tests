@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T16:46:13+00:00"}
+{
+ "started_at": "2021-11-10T16:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pear",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h36cd882_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pear",
+      "subdir": "linux-64",
+      "version": "0.9.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pear",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he23eb85_7",
+      "build_number": 7,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pear",
+      "subdir": "osx-64",
+      "version": "0.9.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
