@@ -1,78 +1,15 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpo9a47n26/linux-64/crb-blast-0.6.6-1.tar.bz2
+TEST START: /tmp/tmporf1u7mn/linux-64/crb-blast-0.6.6-1.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpgr1yspoc/info/recipe/conda_build_config.yaml
-Renaming work directory '/home/vsts/conda/conda-bld/work' to '/home/vsts/conda/conda-bld/crb-blast_1635625446800/work_moved_crb-blast-0.6.6-1_linux-64'
-shutil.move(work)=/home/vsts/conda/conda-bld/work, dest=/home/vsts/conda/conda-bld/crb-blast_1635625446800/work_moved_crb-blast-0.6.6-1_linux-64)
+Adding in variants from /tmp/tmpssw0ynk0/info/recipe/conda_build_config.yaml
+Renaming work directory '/home/vsts/conda/conda-bld/work' to '/home/vsts/conda/conda-bld/crb-blast_1636659582119/work_moved_crb-blast-0.6.6-1_linux-64'
+shutil.move(work)=/home/vsts/conda/conda-bld/work, dest=/home/vsts/conda/conda-bld/crb-blast_1636659582119/work_moved_crb-blast-0.6.6-1_linux-64)
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                         Version  Build             Channel                         Size
-───────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-───────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                     0.1  conda_forge       conda-forge/linux-64          Cached
-  + _openmp_mutex                     4.5  1_gnu             conda-forge/linux-64          Cached
-  + blast                          2.12.0  pl5262h3289130_0  bioconda/linux-64              22 MB
-  + bzip2                           1.0.8  h7f98852_4        conda-forge/linux-64          Cached
-  + c-ares                         1.18.1  h7f98852_0        conda-forge/linux-64          Cached
-  + ca-certificates             2021.10.8  ha878542_0        conda-forge/linux-64          Cached
-  + crb-blast                       0.6.6  1                 /tmp/tmpo9a47n26/linux-64       4 MB
-  + curl                           7.79.1  h2574ce0_1        conda-forge/linux-64          153 KB
-  + entrez-direct                    15.6  he881be0_1        bioconda/linux-64               8 MB
-  + gdbm                             1.18  h0a1914f_2        conda-forge/linux-64          190 KB
-  + gmp                             6.2.1  h58526e2_0        conda-forge/linux-64          Cached
-  + krb5                           1.19.2  hcc1bbae_2        conda-forge/linux-64          Cached
-  + libcurl                        7.79.1  h2574ce0_1        conda-forge/linux-64          Cached
-  + libedit                  3.1.20191231  he28a2e2_2        conda-forge/linux-64          Cached
-  + libev                            4.33  h516909a_1        conda-forge/linux-64          Cached
-  + libffi                          3.4.2  h9c3ff4c_4        conda-forge/linux-64          Cached
-  + libgcc-ng                      11.2.0  h1d223b6_11       conda-forge/linux-64          Cached
-  + libgomp                        11.2.0  h1d223b6_11       conda-forge/linux-64          Cached
-  + libnghttp2                     1.43.0  h812cca2_1        conda-forge/linux-64          Cached
-  + libssh2                        1.10.0  ha56f1ee_2        conda-forge/linux-64          Cached
-  + libstdcxx-ng                   11.2.0  he4da1e4_11       conda-forge/linux-64          Cached
-  + libzlib                        1.2.11  h36c2ea0_1013     conda-forge/linux-64          Cached
-  + ncurses                           6.2  h58526e2_4        conda-forge/linux-64          Cached
-  + openssl                        1.1.1l  h7f98852_0        conda-forge/linux-64          Cached
-  + pcre                             8.45  h9c3ff4c_0        conda-forge/linux-64          Cached
-  + perl                           5.26.2  h36c2ea0_1008     conda-forge/linux-64           15 MB
-  + perl-archive-tar                 2.32  pl526_0           bioconda/linux-64              31 KB
-  + perl-carp                        1.38  pl526_3           bioconda/linux-64              15 KB
-  + perl-common-sense                3.74  pl526_2           bioconda/linux-64              11 KB
-  + perl-compress-raw-bzip2         2.087  pl526he1b5a44_0   bioconda/linux-64              44 KB
-  + perl-compress-raw-zlib          2.087  pl526hc9558a2_0   bioconda/linux-64              72 KB
-  + perl-exporter                    5.72  pl526_1           bioconda/linux-64              13 KB
-  + perl-exporter-tiny           1.002001  pl526_0           bioconda/linux-64              23 KB
-  + perl-extutils-makemaker          7.36  pl526_1           bioconda/linux-64             153 KB
-  + perl-io-compress                2.087  pl526he1b5a44_0   bioconda/linux-64              81 KB
-  + perl-io-zlib                     1.10  pl526_2           bioconda/linux-64               9 KB
-  + perl-json                        4.02  pl526_0           bioconda/linux-64              52 KB
-  + perl-json-xs                     2.34  pl526h6bb024c_3   bioconda/linux-64              63 KB
-  + perl-list-moreutils             0.428  pl526_1           bioconda/linux-64              28 KB
-  + perl-list-moreutils-xs          0.428  pl526_0           bioconda/linux-64              43 KB
-  + perl-pathtools                   3.75  pl526h14c3975_1   bioconda/linux-64              41 KB
-  + perl-scalar-list-utils           1.52  pl526h516909a_0   bioconda/linux-64              38 KB
-  + perl-types-serialiser             1.0  pl526_2           bioconda/linux-64              10 KB
-  + perl-xsloader                    0.24  pl526_0           bioconda/linux-64               8 KB
-  + readline                          8.1  h46c0cb4_0        conda-forge/linux-64          Cached
-  + ruby                            2.7.2  h86e321c_5        conda-forge/linux-64            6 MB
-  + tk                             8.6.11  h27826a3_1        conda-forge/linux-64          Cached
-  + yaml                            0.2.5  h516909a_0        conda-forge/linux-64          Cached
-  + zlib                           1.2.11  h36c2ea0_1013     conda-forge/linux-64          Cached
-
-  Summary:
-
-  Install: 49 packages
-
-  Total download: 56 MB
-
-───────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/crb-blast_1635625446800/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+  environment location: /home/vsts/conda/conda-bld/crb-blast_1636659582119/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
 
 
 The following NEW packages will be INSTALLED:
@@ -83,16 +20,16 @@ The following NEW packages will be INSTALLED:
     bzip2:                   1.0.8-h7f98852_4        conda-forge            
     c-ares:                  1.18.1-h7f98852_0       conda-forge            
     ca-certificates:         2021.10.8-ha878542_0    conda-forge            
-    crb-blast:               0.6.6-1                 file:///tmp/tmpo9a47n26
-    curl:                    7.79.1-h2574ce0_1       conda-forge            
-    entrez-direct:           15.6-he881be0_1         bioconda               
+    crb-blast:               0.6.6-1                 file:///tmp/tmporf1u7mn
+    curl:                    7.80.0-h2574ce0_0       conda-forge            
+    entrez-direct:           16.2-he881be0_0         bioconda               
     gdbm:                    1.18-h0a1914f_2         conda-forge            
     gmp:                     6.2.1-h58526e2_0        conda-forge            
-    krb5:                    1.19.2-hcc1bbae_2       conda-forge            
-    libcurl:                 7.79.1-h2574ce0_1       conda-forge            
+    krb5:                    1.19.2-hcc1bbae_3       conda-forge            
+    libcurl:                 7.80.0-h2574ce0_0       conda-forge            
     libedit:                 3.1.20191231-he28a2e2_2 conda-forge            
     libev:                   4.33-h516909a_1         conda-forge            
-    libffi:                  3.4.2-h9c3ff4c_4        conda-forge            
+    libffi:                  3.4.2-h7f98852_5        conda-forge            
     libgcc-ng:               11.2.0-h1d223b6_11      conda-forge            
     libgomp:                 11.2.0-h1d223b6_11      conda-forge            
     libnghttp2:              1.43.0-h812cca2_1       conda-forge            
@@ -122,7 +59,7 @@ The following NEW packages will be INSTALLED:
     perl-types-serialiser:   1.0-pl526_2             bioconda               
     perl-xsloader:           0.24-pl526_0            bioconda               
     readline:                8.1-h46c0cb4_0          conda-forge            
-    ruby:                    2.7.2-h86e321c_5        conda-forge            
+    ruby:                    2.7.2-h86e321c_6        conda-forge            
     tk:                      8.6.11-h27826a3_1       conda-forge            
     yaml:                    0.2.5-h516909a_0        conda-forge            
     zlib:                    1.2.11-h36c2ea0_1013    conda-forge            
@@ -130,8 +67,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/crb-blast_1635625446800/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
-export SRC_DIR=/home/vsts/conda/conda-bld/crb-blast_1635625446800/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/crb-blast_1636659582119/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/home/vsts/conda/conda-bld/crb-blast_1636659582119/test_tmp
 
 Leaving build/test directories:
   Work:
