@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T04:16:14+00:00"}
+{
+ "started_at": "2021-11-11T04:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "biscuit",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h81a5ba2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "biscuit",
+      "subdir": "linux-64",
+      "version": "1.0.1.20211018"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "biscuit",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h0c44752_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "biscuit",
+      "subdir": "osx-64",
+      "version": "1.0.1.20211018"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
