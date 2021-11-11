@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T18:46:20+00:00"}
+{
+ "started_at": "2021-11-11T18:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gencore",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha5c49de_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "gencore",
+      "subdir": "linux-64",
+      "version": "0.17.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "gencore",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdb1a901_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "gencore",
+      "subdir": "osx-64",
+      "version": "0.17.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
