@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T12:46:21+00:00"}
+{
+ "started_at": "2021-11-11T12:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ucsc-ave",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ucsc-ave",
+      "subdir": "osx-64",
+      "version": "357"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
