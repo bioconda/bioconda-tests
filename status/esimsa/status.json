@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T07:46:14+00:00"}
+{
+ "started_at": "2021-11-11T07:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "esimsa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h470a237_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "esimsa",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "esimsa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "esimsa",
+      "subdir": "osx-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
