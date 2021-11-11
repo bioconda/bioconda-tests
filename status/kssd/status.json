@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T05:01:25+00:00"}
+{
+ "started_at": "2021-11-11T05:01:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "kssd",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "kssd",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
