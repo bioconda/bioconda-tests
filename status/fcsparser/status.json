@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T14:16:16+00:00"}
+{
+ "started_at": "2021-11-11T14:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fcsparser",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhfa5458b_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fcsparser",
+      "subdir": "noarch",
+      "version": "0.2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fcsparser",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhfa5458b_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fcsparser",
+      "subdir": "noarch",
+      "version": "0.2.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
