@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T21:31:15+00:00"}
+{
+ "started_at": "2021-11-11T21:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bindash",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bindash",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
