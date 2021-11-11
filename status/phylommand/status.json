@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T15:16:19+00:00"}
+{
+ "started_at": "2021-11-11T15:16:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "phylommand",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc5cd53e_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "phylommand",
+      "subdir": "linux-64",
+      "version": "1.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "phylommand",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1884647_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "phylommand",
+      "subdir": "osx-64",
+      "version": "1.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
