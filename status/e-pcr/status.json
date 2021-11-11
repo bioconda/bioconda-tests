@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T00:46:15+00:00"}
+{
+ "started_at": "2021-11-11T00:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "e-pcr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "e-pcr",
+      "subdir": "linux-64",
+      "version": "2.3.12"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
