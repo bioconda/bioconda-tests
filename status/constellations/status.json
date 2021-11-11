@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T17:16:19+00:00"}
+{
+ "started_at": "2021-11-11T17:16:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "constellations",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "constellations",
+      "subdir": "noarch",
+      "version": "0.0.21"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "constellations",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "constellations",
+      "subdir": "noarch",
+      "version": "0.0.21"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
