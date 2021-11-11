@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T10:46:27+00:00"}
+{
+ "started_at": "2021-11-11T10:46:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-breakaway",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-breakaway",
+      "subdir": "noarch",
+      "version": "3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-breakaway",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-breakaway",
+      "subdir": "noarch",
+      "version": "3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
