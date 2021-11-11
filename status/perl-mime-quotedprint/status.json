@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T03:46:19+00:00"}
+{
+ "started_at": "2021-11-11T03:46:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-mime-quotedprint",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-mime-quotedprint",
+      "subdir": "linux-64",
+      "version": "3.13"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-mime-quotedprint",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-mime-quotedprint",
+      "subdir": "osx-64",
+      "version": "3.13"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

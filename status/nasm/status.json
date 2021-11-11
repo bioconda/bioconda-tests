@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T03:46:19+00:00"}
+{
+ "started_at": "2021-11-11T03:46:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "nasm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7f98852_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "nasm",
+      "subdir": "linux-64",
+      "version": "2.15.05"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
