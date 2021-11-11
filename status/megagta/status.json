@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T04:46:12+00:00"}
+{
+ "started_at": "2021-11-11T04:46:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "megagta",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "megagta",
+      "subdir": "linux-64",
+      "version": "0.1_alpha"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
