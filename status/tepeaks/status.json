@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-11T20:01:19+00:00"}
+{
+ "started_at": "2021-11-11T20:01:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tepeaks",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5a43b1b_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "tepeaks",
+      "subdir": "linux-64",
+      "version": "0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
