@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T01:02:22+00:00"}
+{
+ "started_at": "2021-11-11T01:02:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-file-remove",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h2d50403_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-file-remove",
+      "subdir": "linux-64",
+      "version": "1.57"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-file-remove",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h2d50403_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-file-remove",
+      "subdir": "osx-64",
+      "version": "1.57"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
