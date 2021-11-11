@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-11T20:46:10+00:00"}
+{
+ "started_at": "2021-11-11T20:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-raceid",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h03ef668_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-raceid",
+      "subdir": "linux-64",
+      "version": "0.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-raceid",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h9951f98_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-raceid",
+      "subdir": "osx-64",
+      "version": "0.2.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
