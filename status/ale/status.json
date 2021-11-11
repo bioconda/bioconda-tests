@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-10T23:46:15+00:00"}
+{
+ "started_at": "2021-11-10T23:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ale",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h1a9c180_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "ale",
+      "subdir": "linux-64",
+      "version": "0.8.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ale",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hf018cea_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "ale",
+      "subdir": "osx-64",
+      "version": "0.8.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
