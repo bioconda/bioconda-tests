@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-12T21:01:17+00:00"}
+{
+ "started_at": "2021-11-12T21:01:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "qax",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he9e07be_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "qax",
+      "subdir": "linux-64",
+      "version": "0.9.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "qax",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h3c9b3b8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "qax",
+      "subdir": "osx-64",
+      "version": "0.9.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
