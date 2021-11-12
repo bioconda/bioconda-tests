@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-12T21:31:18+00:00"}
+{
+ "started_at": "2021-11-12T21:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "protk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc9114bc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "protk",
+      "subdir": "linux-64",
+      "version": "1.4.4a"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
