@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-12T08:46:15+00:00"}
+{
+ "started_at": "2021-11-12T08:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "clame",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he1b5a44_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "clame",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
