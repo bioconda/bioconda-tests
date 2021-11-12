@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-12T17:46:17+00:00"}
+{
+ "started_at": "2021-11-12T17:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dialign2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "dialign2",
+      "subdir": "linux-64",
+      "version": "2.2.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

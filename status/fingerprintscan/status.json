@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-12T17:46:17+00:00"}
+{
+ "started_at": "2021-11-12T17:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fingerprintscan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fingerprintscan",
+      "subdir": "linux-64",
+      "version": "3_597"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fingerprintscan",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb280591_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "fingerprintscan",
+      "subdir": "osx-64",
+      "version": "3_597"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
