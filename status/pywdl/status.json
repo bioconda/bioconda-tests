@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-12T05:46:20+00:00"}
+{
+ "started_at": "2021-11-12T05:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pywdl",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pywdl",
+      "subdir": "linux-64",
+      "version": "1.0.22"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pywdl",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pywdl",
+      "subdir": "osx-64",
+      "version": "1.0.22"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
