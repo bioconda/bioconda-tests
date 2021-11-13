@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-13T09:46:13+00:00"}
+{
+ "started_at": "2021-11-13T09:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "watchdog",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310hff52083_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "watchdog",
+      "subdir": "linux-64",
+      "version": "2.1.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "watchdog",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310hda895ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "watchdog",
+      "subdir": "osx-64",
+      "version": "2.1.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
