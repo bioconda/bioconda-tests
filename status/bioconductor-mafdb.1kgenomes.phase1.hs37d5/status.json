@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-13T19:31:22+00:00"}
+{
+ "started_at": "2021-11-13T19:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-mafdb.1kgenomes.phase1.hs37d5",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mafdb.1kgenomes.phase1.hs37d5",
+      "subdir": "noarch",
+      "version": "3.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-mafdb.1kgenomes.phase1.hs37d5",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mafdb.1kgenomes.phase1.hs37d5",
+      "subdir": "noarch",
+      "version": "3.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
