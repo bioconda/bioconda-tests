@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-13T04:16:13+00:00"}
+{
+ "started_at": "2021-11-13T04:16:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "necat",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "necat",
+      "subdir": "linux-64",
+      "version": "0.0.1_update20200803"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
