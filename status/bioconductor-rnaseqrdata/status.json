@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-13T18:31:09+00:00"}
+{
+ "started_at": "2021-11-13T18:31:09+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-rnaseqrdata",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-rnaseqrdata",
+      "subdir": "noarch",
+      "version": "1.12.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-rnaseqrdata",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-rnaseqrdata",
+      "subdir": "noarch",
+      "version": "1.12.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
