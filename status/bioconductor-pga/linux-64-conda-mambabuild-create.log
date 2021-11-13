@@ -1,249 +1,13 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpd18bkwdj/noarch/bioconductor-pga-1.18.0-r40_0.tar.bz2
+TEST START: /tmp/tmpdjv5wnjp/noarch/bioconductor-pga-1.18.0-r40_0.tar.bz2
 Adding in variants from internal_defaults
-Adding in variants from /tmp/tmpxqyts0w2/info/recipe/conda_build_config.yaml
+Adding in variants from /tmp/tmp3nwax2k4/info/recipe/conda_build_config.yaml
 Reloading output folder: /home/vsts/conda/conda-bld
-  Package                                   Version  Build                Channel                       Size
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────
-  Install:
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
-  + _libgcc_mutex                               0.1  conda_forge          conda-forge/linux-64        Cached
-  + _openmp_mutex                               4.5  1_gnu                conda-forge/linux-64        Cached
-  + _r-mutex                                  1.0.1  anacondar_1          conda-forge/noarch          Cached
-  + binutils_impl_linux-64                   2.36.1  h193b22a_2           conda-forge/linux-64        Cached
-  + binutils_linux-64                          2.36  hf3e587d_1           conda-forge/linux-64        Cached
-  + bioconductor-annotationdbi               1.50.0  r40_0                bioconda/noarch               5 MB
-  + bioconductor-biobase                     2.48.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-biocfilecache               1.12.0  r40_0                bioconda/noarch             561 KB
-  + bioconductor-biocgenerics                0.34.0  r40_0                bioconda/noarch             690 KB
-  + bioconductor-biocparallel                1.22.0  r40h5f743cb_0        bioconda/linux-64             1 MB
-  + bioconductor-biomart                     2.44.0  r40_0                bioconda/noarch             982 KB
-  + bioconductor-biostrings                  2.56.0  r40h037d062_0        bioconda/linux-64            14 MB
-  + bioconductor-bsgenome                    1.56.0  r40_0                bioconda/noarch               7 MB
-  + bioconductor-customprodb                 1.28.0  r40_0                bioconda/noarch             814 KB
-  + bioconductor-delayedarray                0.14.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-genomeinfodb                1.24.0  r40_0                bioconda/noarch               4 MB
-  + bioconductor-genomeinfodbdata             1.2.4  r40hdfd78af_2        bioconda/noarch               7 KB
-  + bioconductor-genomicalignments           1.24.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-genomicfeatures             1.40.0  r40_0                bioconda/noarch               2 MB
-  + bioconductor-genomicranges               1.40.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-iranges                     2.22.1  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-pga                         1.18.0  r40_0                /tmp/tmpd18bkwdj/noarch       4 MB
-  + bioconductor-rhtslib                     1.20.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-rsamtools                    2.4.0  r40h5f743cb_0        bioconda/linux-64             4 MB
-  + bioconductor-rtandem                     1.27.0  r40h1090f8d_0        bioconda/linux-64             2 MB
-  + bioconductor-rtracklayer                 1.48.0  r40h037d062_0        bioconda/linux-64             5 MB
-  + bioconductor-s4vectors                   0.26.0  r40h037d062_0        bioconda/linux-64             2 MB
-  + bioconductor-summarizedexperiment        1.18.1  r40_0                bioconda/noarch               3 MB
-  + bioconductor-variantannotation           1.34.0  r40h037d062_0        bioconda/linux-64             4 MB
-  + bioconductor-xvector                     0.28.0  r40h037d062_0        bioconda/linux-64           737 KB
-  + bioconductor-zlibbioc                    1.34.0  r40h037d062_0        bioconda/linux-64           113 KB
-  + bwidget                                  1.9.14  ha770c72_1           conda-forge/linux-64        Cached
-  + bzip2                                     1.0.8  h7f98852_4           conda-forge/linux-64        Cached
-  + c-ares                                   1.18.1  h7f98852_0           conda-forge/linux-64        Cached
-  + ca-certificates                       2021.10.8  ha878542_0           conda-forge/linux-64        Cached
-  + cairo                                    1.16.0  h6cf1ce9_1008        conda-forge/linux-64        Cached
-  + curl                                     7.79.1  h494985f_1           conda-forge/linux-64        Cached
-  + expat                                    2.2.10  h9c3ff4c_0           conda-forge/linux-64        164 KB
-  + font-ttf-dejavu-sans-mono                  2.37  hab24e00_0           conda-forge/noarch          Cached
-  + font-ttf-inconsolata                      3.000  h77eed37_0           conda-forge/noarch          Cached
-  + font-ttf-source-code-pro                  2.038  h77eed37_0           conda-forge/noarch          Cached
-  + font-ttf-ubuntu                            0.83  hab24e00_0           conda-forge/noarch          Cached
-  + fontconfig                               2.13.1  hba837de_1005        conda-forge/linux-64        Cached
-  + fonts-conda-ecosystem                         1  0                    conda-forge/noarch          Cached
-  + fonts-conda-forge                             1  0                    conda-forge/noarch          Cached
-  + freetype                                 2.10.4  h0708190_1           conda-forge/linux-64        Cached
-  + fribidi                                  1.0.10  h36c2ea0_0           conda-forge/linux-64        Cached
-  + gcc_impl_linux-64                         9.4.0  h03d3576_11          conda-forge/linux-64        Cached
-  + gcc_linux-64                              9.4.0  h391b98a_1           conda-forge/linux-64        Cached
-  + gettext                                0.19.8.1  h73d1719_1008        conda-forge/linux-64        Cached
-  + gfortran_impl_linux-64                    9.4.0  h0003116_11          conda-forge/linux-64        Cached
-  + gfortran_linux-64                         9.4.0  hf0ab688_1           conda-forge/linux-64        Cached
-  + graphite2                                1.3.13  h58526e2_1001        conda-forge/linux-64        Cached
-  + gsl                                         2.7  he838d99_0           conda-forge/linux-64        Cached
-  + gxx_impl_linux-64                         9.4.0  h03d3576_11          conda-forge/linux-64        Cached
-  + gxx_linux-64                              9.4.0  h0316aca_1           conda-forge/linux-64        Cached
-  + harfbuzz                                  3.0.0  h83ec7ef_1           conda-forge/linux-64        Cached
-  + icu                                        68.2  h9c3ff4c_0           conda-forge/linux-64        Cached
-  + jbig                                        2.1  h7f98852_2003        conda-forge/linux-64        Cached
-  + jpeg                                         9d  h36c2ea0_0           conda-forge/linux-64        Cached
-  + kernel-headers_linux-64                  2.6.32  he073ed8_15          conda-forge/noarch          Cached
-  + krb5                                     1.19.2  h48eae69_2           conda-forge/linux-64        Cached
-  + ld_impl_linux-64                         2.36.1  hea4e1c9_2           conda-forge/linux-64        Cached
-  + lerc                                        3.0  h9c3ff4c_0           conda-forge/linux-64        Cached
-  + libblas                                   3.8.0  17_openblas          conda-forge/linux-64         11 KB
-  + libcblas                                  3.8.0  17_openblas          conda-forge/linux-64         11 KB
-  + libcurl                                  7.79.1  h494985f_1           conda-forge/linux-64        Cached
-  + libdeflate                                  1.8  h7f98852_0           conda-forge/linux-64        Cached
-  + libedit                            3.1.20191231  he28a2e2_2           conda-forge/linux-64        Cached
-  + libev                                      4.33  h516909a_1           conda-forge/linux-64        Cached
-  + libffi                                    3.4.2  h9c3ff4c_4           conda-forge/linux-64        Cached
-  + libgcc-devel_linux-64                     9.4.0  hd854feb_11          conda-forge/linux-64        Cached
-  + libgcc-ng                                11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libgfortran-ng                           11.2.0  h69a702a_11          conda-forge/linux-64        Cached
-  + libgfortran5                             11.2.0  h5c6108e_11          conda-forge/linux-64        Cached
-  + libglib                                  2.70.0  h174f98d_1           conda-forge/linux-64        Cached
-  + libgomp                                  11.2.0  h1d223b6_11          conda-forge/linux-64        Cached
-  + libiconv                                   1.16  h516909a_0           conda-forge/linux-64        Cached
-  + liblapack                                 3.8.0  17_openblas          conda-forge/linux-64         11 KB
-  + libnghttp2                               1.43.0  ha19adfc_1           conda-forge/linux-64        Cached
-  + libopenblas                              0.3.10  pthreads_h4812303_5  conda-forge/linux-64          8 MB
-  + libpng                                   1.6.37  h21135ba_2           conda-forge/linux-64        Cached
-  + libsanitizer                              9.4.0  h79bfe98_11          conda-forge/linux-64        Cached
-  + libssh2                                  1.10.0  ha35d2d1_2           conda-forge/linux-64        Cached
-  + libstdcxx-devel_linux-64                  9.4.0  hd854feb_11          conda-forge/linux-64        Cached
-  + libstdcxx-ng                             11.2.0  he4da1e4_11          conda-forge/linux-64        Cached
-  + libtiff                                   4.3.0  h6f004c6_2           conda-forge/linux-64        Cached
-  + libuuid                                  2.32.1  h7f98852_1000        conda-forge/linux-64        Cached
-  + libwebp-base                              1.2.1  h7f98852_0           conda-forge/linux-64        Cached
-  + libxcb                                     1.13  h7f98852_1003        conda-forge/linux-64        Cached
-  + libxml2                                  2.9.12  h72842e0_0           conda-forge/linux-64        Cached
-  + libzlib                                  1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + lz4-c                                     1.9.3  h9c3ff4c_1           conda-forge/linux-64        Cached
-  + make                                        4.3  hd18ef5c_1           conda-forge/linux-64        Cached
-  + ncurses                                     6.2  h58526e2_4           conda-forge/linux-64        Cached
-  + openssl                                   3.0.0  h7f98852_1           conda-forge/linux-64        Cached
-  + pango                                   1.48.10  h54213e6_2           conda-forge/linux-64        Cached
-  + pcre                                       8.45  h9c3ff4c_0           conda-forge/linux-64        Cached
-  + pcre2                                     10.37  h032f7d1_0           conda-forge/linux-64        Cached
-  + pixman                                   0.40.0  h36c2ea0_0           conda-forge/linux-64        Cached
-  + pthread-stubs                               0.4  h36c2ea0_1001        conda-forge/linux-64        Cached
-  + r-ade4                                   1.7_18  r40he454529_0        conda-forge/linux-64          5 MB
-  + r-ahocorasicktrie                         0.1.2  r40h03ef668_0        conda-forge/linux-64         85 KB
-  + r-askpass                                   1.1  r40hcfec24a_2        conda-forge/linux-64         28 KB
-  + r-assertthat                              0.2.1  r40hc72bb7e_2        conda-forge/noarch           70 KB
-  + r-backports                               1.3.0  r40hcfec24a_0        conda-forge/linux-64        104 KB
-  + r-base                                    4.0.5  hb93adac_3           conda-forge/linux-64         24 MB
-  + r-bh                                   1.75.0_0  r40hc72bb7e_0        conda-forge/noarch           11 MB
-  + r-bit                                     4.0.4  r40hcfec24a_0        conda-forge/linux-64        619 KB
-  + r-bit64                                   4.0.5  r40hcfec24a_0        conda-forge/linux-64        506 KB
-  + r-bitops                                  1.0_7  r40hcfec24a_0        conda-forge/linux-64         44 KB
-  + r-blob                                    1.2.2  r40hc72bb7e_0        conda-forge/noarch           64 KB
-  + r-brio                                    1.1.2  r40hcfec24a_0        conda-forge/linux-64         38 KB
-  + r-cachem                                  1.0.6  r40hcfec24a_0        conda-forge/linux-64         72 KB
-  + r-callr                                   3.7.0  r40hc72bb7e_0        conda-forge/noarch          437 KB
-  + r-cli                                     3.1.0  r40h03ef668_0        conda-forge/linux-64          1 MB
-  + r-clipr                                   0.7.1  r40hc72bb7e_0        conda-forge/noarch           65 KB
-  + r-colorspace                              2.0_2  r40hcfec24a_0        conda-forge/linux-64          3 MB
-  + r-cpp11                                   0.4.0  r40hc72bb7e_0        conda-forge/noarch          245 KB
-  + r-crayon                                  1.4.2  r40hc72bb7e_0        conda-forge/noarch          161 KB
-  + r-curl                                    4.3.2  r40hcfec24a_0        conda-forge/linux-64        777 KB
-  + r-data.table                             1.14.2  r40hcfec24a_0        conda-forge/linux-64          2 MB
-  + r-dbi                                     1.1.1  r40hc72bb7e_0        conda-forge/noarch          685 KB
-  + r-dbplyr                                  2.1.1  r40hc72bb7e_0        conda-forge/noarch          822 KB
-  + r-desc                                    1.4.0  r40hc72bb7e_0        conda-forge/noarch          554 KB
-  + r-diffobj                                 0.3.5  r40hcfec24a_0        conda-forge/linux-64          1 MB
-  + r-digest                                 0.6.28  r40h03ef668_0        conda-forge/linux-64        211 KB
-  + r-dplyr                                   1.0.7  r40h03ef668_0        conda-forge/linux-64          1 MB
-  + r-ellipsis                                0.3.2  r40hcfec24a_0        conda-forge/linux-64         42 KB
-  + r-evaluate                                 0.14  r40hc72bb7e_2        conda-forge/noarch           81 KB
-  + r-fansi                                   0.5.0  r40hcfec24a_0        conda-forge/linux-64        221 KB
-  + r-farver                                  2.1.0  r40h03ef668_0        conda-forge/linux-64          1 MB
-  + r-fastmap                                 1.1.0  r40h03ef668_0        conda-forge/linux-64         69 KB
-  + r-formatr                                  1.11  r40hc72bb7e_0        conda-forge/noarch          165 KB
-  + r-futile.logger                           1.4.3  r40hc72bb7e_1003     conda-forge/noarch          108 KB
-  + r-futile.options                          1.0.1  r40hc72bb7e_1002     conda-forge/noarch           27 KB
-  + r-generics                                0.1.1  r40hc72bb7e_0        conda-forge/noarch           88 KB
-  + r-ggplot2                                 3.3.5  r40hc72bb7e_0        conda-forge/noarch            4 MB
-  + r-glue                                    1.4.2  r40hcfec24a_0        conda-forge/linux-64        141 KB
-  + r-gtable                                  0.3.0  r40hc72bb7e_3        conda-forge/noarch          416 KB
-  + r-hms                                     1.1.1  r40hc72bb7e_0        conda-forge/noarch          106 KB
-  + r-httr                                    1.4.2  r40hc72bb7e_0        conda-forge/noarch          494 KB
-  + r-isoband                                 0.2.5  r40h03ef668_0        conda-forge/linux-64          2 MB
-  + r-jsonlite                                1.7.2  r40hcfec24a_0        conda-forge/linux-64        462 KB
-  + r-labeling                                0.4.2  r40hc72bb7e_0        conda-forge/noarch           67 KB
-  + r-lambda.r                                1.2.4  r40hc72bb7e_1        conda-forge/noarch          120 KB
-  + r-lattice                               0.20_45  r40hcfec24a_0        conda-forge/linux-64          1 MB
-  + r-lifecycle                               1.0.1  r40hc72bb7e_0        conda-forge/noarch          109 KB
-  + r-magrittr                                2.0.1  r40hcfec24a_1        conda-forge/linux-64        211 KB
-  + r-mass                                   7.3_54  r40hcfec24a_0        conda-forge/linux-64          1 MB
-  + r-matrix                                  1.3_4  r40he454529_0        conda-forge/linux-64          4 MB
-  + r-matrixstats                            0.61.0  r40hcfec24a_0        conda-forge/linux-64        468 KB
-  + r-memoise                                 2.0.0  r40hc72bb7e_0        conda-forge/noarch           56 KB
-  + r-mgcv                                   1.8_38  r40he454529_0        conda-forge/linux-64          3 MB
-  + r-mime                                     0.12  r40hcfec24a_0        conda-forge/linux-64         51 KB
-  + r-munsell                                 0.5.0  r40hc72bb7e_1003     conda-forge/noarch          246 KB
-  + r-nlme                                  3.1_153  r40h859d828_0        conda-forge/linux-64          2 MB
-  + r-nozzle.r1                               1.1_1  r40ha770c72_1003     conda-forge/noarch          377 KB
-  + r-openssl                                 1.4.5  r40he82ab30_1        conda-forge/linux-64          1 MB
-  + r-pheatmap                               1.0.12  r40hc72bb7e_2        conda-forge/noarch           89 KB
-  + r-pillar                                  1.6.4  r40hc72bb7e_0        conda-forge/noarch          997 KB
-  + r-pixmap                                 0.4_12  r40hc72bb7e_0        conda-forge/noarch          228 KB
-  + r-pkgconfig                               2.0.3  r40hc72bb7e_1        conda-forge/noarch           25 KB
-  + r-pkgload                                 1.2.3  r40h03ef668_0        conda-forge/linux-64        170 KB
-  + r-plogr                                   0.2.0  r40hc72bb7e_1003     conda-forge/noarch           20 KB
-  + r-plyr                                    1.8.6  r40h03ef668_1        conda-forge/linux-64        832 KB
-  + r-praise                                  1.0.0  r40hc72bb7e_1004     conda-forge/noarch           23 KB
-  + r-prettyunits                             1.1.1  r40hc72bb7e_1        conda-forge/noarch           41 KB
-  + r-processx                                3.5.2  r40hcfec24a_0        conda-forge/linux-64        314 KB
-  + r-progress                                1.2.2  r40hc72bb7e_2        conda-forge/noarch           91 KB
-  + r-ps                                      1.6.0  r40hcfec24a_0        conda-forge/linux-64        300 KB
-  + r-purrr                                   0.3.4  r40hcfec24a_1        conda-forge/linux-64        410 KB
-  + r-r6                                      2.5.1  r40hc72bb7e_0        conda-forge/noarch           89 KB
-  + r-rappdirs                                0.3.3  r40hcfec24a_0        conda-forge/linux-64         50 KB
-  + r-rcolorbrewer                            1.1_2  r40h785f33e_1003     conda-forge/noarch           64 KB
-  + r-rcpp                                    1.0.7  r40h03ef668_0        conda-forge/linux-64          2 MB
-  + r-rcurl                                1.98_1.5  r40hcfec24a_0        conda-forge/linux-64        946 KB
-  + r-readr                                   2.0.2  r40h03ef668_0        conda-forge/linux-64        891 KB
-  + r-rematch2                                2.1.2  r40hc72bb7e_1        conda-forge/noarch           52 KB
-  + r-rlang                                  0.4.12  r40hcfec24a_0        conda-forge/linux-64          1 MB
-  + r-rprojroot                               2.0.2  r40hc72bb7e_0        conda-forge/noarch          110 KB
-  + r-rsqlite                                 2.2.8  r40h03ef668_0        conda-forge/linux-64          1 MB
-  + r-rstudioapi                               0.13  r40hc72bb7e_0        conda-forge/noarch          281 KB
-  + r-scales                                  1.1.1  r40hc72bb7e_0        conda-forge/noarch          556 KB
-  + r-segmented                               1.3_4  r40hc72bb7e_0        conda-forge/noarch          550 KB
-  + r-seqinr                                  4.2_8  r40hcfec24a_0        conda-forge/linux-64          4 MB
-  + r-snow                                    0.4_4  r40hc72bb7e_0        conda-forge/noarch          113 KB
-  + r-sp                                      1.4_5  r40hcfec24a_0        conda-forge/linux-64          2 MB
-  + r-stringi                                 1.7.5  r40hcabe038_0        conda-forge/linux-64        881 KB
-  + r-stringr                                 1.4.0  r40hc72bb7e_2        conda-forge/noarch          210 KB
-  + r-sys                                       3.4  r40hcfec24a_0        conda-forge/linux-64         48 KB
-  + r-testthat                                3.1.0  r40h03ef668_0        conda-forge/linux-64          2 MB
-  + r-tibble                                  3.1.5  r40hcfec24a_0        conda-forge/linux-64        763 KB
-  + r-tidyselect                              1.1.1  r40hc72bb7e_0        conda-forge/linux-64        196 KB
-  + r-tzdb                                    0.2.0  r40h03ef668_0        conda-forge/linux-64        517 KB
-  + r-utf8                                    1.2.2  r40hcfec24a_0        conda-forge/linux-64        162 KB
-  + r-vctrs                                   0.3.8  r40hcfec24a_1        conda-forge/linux-64          1 MB
-  + r-viridislite                             0.4.0  r40hc72bb7e_0        conda-forge/noarch            1 MB
-  + r-vroom                                   1.5.5  r40h03ef668_1        conda-forge/linux-64        978 KB
-  + r-waldo                                   0.3.1  r40hc72bb7e_0        conda-forge/noarch          103 KB
-  + r-withr                                   2.4.2  r40hc72bb7e_0        conda-forge/noarch          220 KB
-  + r-xml                                  3.99_0.8  r40hcfec24a_0        conda-forge/linux-64          2 MB
-  + readline                                    8.1  h46c0cb4_0           conda-forge/linux-64        Cached
-  + sed                                         4.8  he412f7d_0           conda-forge/linux-64        Cached
-  + sysroot_linux-64                           2.12  he073ed8_15          conda-forge/noarch          Cached
-  + tk                                       8.6.11  h27826a3_1           conda-forge/linux-64        Cached
-  + tktable                                    2.10  hb7b940f_3           conda-forge/linux-64        Cached
-  + xorg-kbproto                              1.0.7  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-libice                              1.0.10  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libsm                                1.2.3  hd9c2040_1000        conda-forge/linux-64        Cached
-  + xorg-libx11                               1.7.2  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxau                               1.0.9  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxdmcp                             1.1.3  h7f98852_0           conda-forge/linux-64        Cached
-  + xorg-libxext                              1.3.4  h7f98852_1           conda-forge/linux-64        Cached
-  + xorg-libxrender                          0.9.10  h7f98852_1003        conda-forge/linux-64        Cached
-  + xorg-libxt                                1.2.1  h7f98852_2           conda-forge/linux-64        Cached
-  + xorg-renderproto                         0.11.1  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-xextproto                            7.3.0  h7f98852_1002        conda-forge/linux-64        Cached
-  + xorg-xproto                              7.0.31  h7f98852_1007        conda-forge/linux-64        Cached
-  + xz                                        5.2.5  h516909a_1           conda-forge/linux-64        Cached
-  + zlib                                     1.2.11  h36c2ea0_1013        conda-forge/linux-64        Cached
-  + zstd                                      1.5.0  ha95c52a_0           conda-forge/linux-64        Cached
-
-  Summary:
-
-  Install: 222 packages
-
-  Total download: 187 MB
-
-──────────────────────────────────────────────────────────────────────────────────────────────────────────────
-
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/bioconductor-pga_1635749495195/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+  environment location: /home/vsts/conda/conda-bld/bioconductor-pga_1636781917365/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
 
 
 The following NEW packages will be INSTALLED:
@@ -269,7 +33,7 @@ The following NEW packages will be INSTALLED:
     bioconductor-genomicfeatures:      1.40.0-r40_0               bioconda               
     bioconductor-genomicranges:        1.40.0-r40h037d062_0       bioconda               
     bioconductor-iranges:              2.22.1-r40h037d062_0       bioconda               
-    bioconductor-pga:                  1.18.0-r40_0               file:///tmp/tmpd18bkwdj
+    bioconductor-pga:                  1.18.0-r40_0               file:///tmp/tmpdjv5wnjp
     bioconductor-rhtslib:              1.20.0-r40h037d062_0       bioconda               
     bioconductor-rsamtools:            2.4.0-r40h5f743cb_0        bioconda               
     bioconductor-rtandem:              1.27.0-r40h1090f8d_0       bioconda               
@@ -284,7 +48,7 @@ The following NEW packages will be INSTALLED:
     c-ares:                            1.18.1-h7f98852_0          conda-forge            
     ca-certificates:                   2021.10.8-ha878542_0       conda-forge            
     cairo:                             1.16.0-h6cf1ce9_1008       conda-forge            
-    curl:                              7.79.1-h494985f_1          conda-forge            
+    curl:                              7.80.0-h494985f_0          conda-forge            
     expat:                             2.2.10-h9c3ff4c_0          conda-forge            
     font-ttf-dejavu-sans-mono:         2.37-hab24e00_0            conda-forge            
     font-ttf-inconsolata:              3.000-h77eed37_0           conda-forge            
@@ -304,21 +68,21 @@ The following NEW packages will be INSTALLED:
     gsl:                               2.7-he838d99_0             conda-forge            
     gxx_impl_linux-64:                 9.4.0-h03d3576_11          conda-forge            
     gxx_linux-64:                      9.4.0-h0316aca_1           conda-forge            
-    harfbuzz:                          3.0.0-h83ec7ef_1           conda-forge            
+    harfbuzz:                          3.1.1-h83ec7ef_0           conda-forge            
     icu:                               68.2-h9c3ff4c_0            conda-forge            
     jbig:                              2.1-h7f98852_2003          conda-forge            
     jpeg:                              9d-h36c2ea0_0              conda-forge            
     kernel-headers_linux-64:           2.6.32-he073ed8_15         conda-forge            
-    krb5:                              1.19.2-h48eae69_2          conda-forge            
+    krb5:                              1.19.2-h48eae69_3          conda-forge            
     ld_impl_linux-64:                  2.36.1-hea4e1c9_2          conda-forge            
     lerc:                              3.0-h9c3ff4c_0             conda-forge            
     libblas:                           3.8.0-17_openblas          conda-forge            
     libcblas:                          3.8.0-17_openblas          conda-forge            
-    libcurl:                           7.79.1-h494985f_1          conda-forge            
+    libcurl:                           7.80.0-h494985f_0          conda-forge            
     libdeflate:                        1.8-h7f98852_0             conda-forge            
     libedit:                           3.1.20191231-he28a2e2_2    conda-forge            
     libev:                             4.33-h516909a_1            conda-forge            
-    libffi:                            3.4.2-h9c3ff4c_4           conda-forge            
+    libffi:                            3.4.2-h7f98852_5           conda-forge            
     libgcc-devel_linux-64:             9.4.0-hd854feb_11          conda-forge            
     libgcc-ng:                         11.2.0-h1d223b6_11         conda-forge            
     libgfortran-ng:                    11.2.0-h69a702a_11         conda-forge            
@@ -337,13 +101,13 @@ The following NEW packages will be INSTALLED:
     libtiff:                           4.3.0-h6f004c6_2           conda-forge            
     libuuid:                           2.32.1-h7f98852_1000       conda-forge            
     libwebp-base:                      1.2.1-h7f98852_0           conda-forge            
-    libxcb:                            1.13-h7f98852_1003         conda-forge            
+    libxcb:                            1.13-h7f98852_1004         conda-forge            
     libxml2:                           2.9.12-h72842e0_0          conda-forge            
     libzlib:                           1.2.11-h36c2ea0_1013       conda-forge            
     lz4-c:                             1.9.3-h9c3ff4c_1           conda-forge            
     make:                              4.3-hd18ef5c_1             conda-forge            
     ncurses:                           6.2-h58526e2_4             conda-forge            
-    openssl:                           3.0.0-h7f98852_1           conda-forge            
+    openssl:                           3.0.0-h7f98852_2           conda-forge            
     pango:                             1.48.10-h54213e6_2         conda-forge            
     pcre:                              8.45-h9c3ff4c_0            conda-forge            
     pcre2:                             10.37-h032f7d1_0           conda-forge            
@@ -366,7 +130,7 @@ The following NEW packages will be INSTALLED:
     r-cli:                             3.1.0-r40h03ef668_0        conda-forge            
     r-clipr:                           0.7.1-r40hc72bb7e_0        conda-forge            
     r-colorspace:                      2.0_2-r40hcfec24a_0        conda-forge            
-    r-cpp11:                           0.4.0-r40hc72bb7e_0        conda-forge            
+    r-cpp11:                           0.4.1-r40hc72bb7e_0        conda-forge            
     r-crayon:                          1.4.2-r40hc72bb7e_0        conda-forge            
     r-curl:                            4.3.2-r40hcfec24a_0        conda-forge            
     r-data.table:                      1.14.2-r40hcfec24a_0       conda-forge            
@@ -386,7 +150,7 @@ The following NEW packages will be INSTALLED:
     r-futile.options:                  1.0.1-r40hc72bb7e_1002     conda-forge            
     r-generics:                        0.1.1-r40hc72bb7e_0        conda-forge            
     r-ggplot2:                         3.3.5-r40hc72bb7e_0        conda-forge            
-    r-glue:                            1.4.2-r40hcfec24a_0        conda-forge            
+    r-glue:                            1.5.0-r40hcfec24a_0        conda-forge            
     r-gtable:                          0.3.0-r40hc72bb7e_3        conda-forge            
     r-hms:                             1.1.1-r40hc72bb7e_0        conda-forge            
     r-httr:                            1.4.2-r40hc72bb7e_0        conda-forge            
@@ -425,7 +189,7 @@ The following NEW packages will be INSTALLED:
     r-rcolorbrewer:                    1.1_2-r40h785f33e_1003     conda-forge            
     r-rcpp:                            1.0.7-r40h03ef668_0        conda-forge            
     r-rcurl:                           1.98_1.5-r40hcfec24a_0     conda-forge            
-    r-readr:                           2.0.2-r40h03ef668_0        conda-forge            
+    r-readr:                           2.1.0-r40h03ef668_0        conda-forge            
     r-rematch2:                        2.1.2-r40hc72bb7e_1        conda-forge            
     r-rlang:                           0.4.12-r40hcfec24a_0       conda-forge            
     r-rprojroot:                       2.0.2-r40hc72bb7e_0        conda-forge            
@@ -440,13 +204,13 @@ The following NEW packages will be INSTALLED:
     r-stringr:                         1.4.0-r40hc72bb7e_2        conda-forge            
     r-sys:                             3.4-r40hcfec24a_0          conda-forge            
     r-testthat:                        3.1.0-r40h03ef668_0        conda-forge            
-    r-tibble:                          3.1.5-r40hcfec24a_0        conda-forge            
+    r-tibble:                          3.1.6-r40hcfec24a_0        conda-forge            
     r-tidyselect:                      1.1.1-r40hc72bb7e_0        conda-forge            
     r-tzdb:                            0.2.0-r40h03ef668_0        conda-forge            
     r-utf8:                            1.2.2-r40hcfec24a_0        conda-forge            
     r-vctrs:                           0.3.8-r40hcfec24a_1        conda-forge            
     r-viridislite:                     0.4.0-r40hc72bb7e_0        conda-forge            
-    r-vroom:                           1.5.5-r40h03ef668_1        conda-forge            
+    r-vroom:                           1.5.6-r40h03ef668_0        conda-forge            
     r-waldo:                           0.3.1-r40hc72bb7e_0        conda-forge            
     r-withr:                           2.4.2-r40hc72bb7e_0        conda-forge            
     r-xml:                             3.99_0.8-r40hcfec24a_0     conda-forge            
@@ -474,8 +238,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/bioconductor-pga_1635749495195/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
-export SRC_DIR=/home/vsts/conda/conda-bld/bioconductor-pga_1635749495195/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/bioconductor-pga_1636781917365/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/bioconductor-pga_1636781917365/test_tmp
 INFO: activate-binutils_linux-64.sh made the following environmental changes:
 +ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
 +AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
@@ -498,7 +262,7 @@ INFO: activate-gcc_linux-64.sh made the following environmental changes:
 +CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/bioconductor-pga-1.18.0 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
-+CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/bioconductor-pga_1635749495195/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/bioconductor-pga_1636781917365/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
 +CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
 +CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
 +CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
