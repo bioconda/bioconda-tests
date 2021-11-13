@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-13T18:16:14+00:00"}
+{
+ "started_at": "2021-11-13T18:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "impute2",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h527b516_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "impute2",
+      "subdir": "osx-64",
+      "version": "2.3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
