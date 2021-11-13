@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-13T12:01:13+00:00"}
+{
+ "started_at": "2021-11-13T12:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "vsclust",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36h4333106_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "vsclust",
+      "subdir": "linux-64",
+      "version": "0.87"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "vsclust",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36h400a6bc_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "vsclust",
+      "subdir": "osx-64",
+      "version": "0.87"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
