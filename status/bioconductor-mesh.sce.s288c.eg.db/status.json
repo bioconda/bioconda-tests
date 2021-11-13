@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-13T09:01:16+00:00"}
+{
+ "started_at": "2021-11-13T09:01:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-mesh.sce.s288c.eg.db",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mesh.sce.s288c.eg.db",
+      "subdir": "noarch",
+      "version": "1.15.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-mesh.sce.s288c.eg.db",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mesh.sce.s288c.eg.db",
+      "subdir": "noarch",
+      "version": "1.15.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
