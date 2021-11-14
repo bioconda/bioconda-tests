@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T16:16:13+00:00"}
+{
+ "started_at": "2021-11-14T16:16:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-test1cdf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-test1cdf",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-test1cdf",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-test1cdf",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
