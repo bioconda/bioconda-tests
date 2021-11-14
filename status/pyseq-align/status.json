@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T06:16:20+00:00"}
+{
+ "started_at": "2021-11-14T06:16:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyseq-align",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h38f01e4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pyseq-align",
+      "subdir": "linux-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pyseq-align",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39ha492530_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pyseq-align",
+      "subdir": "osx-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
