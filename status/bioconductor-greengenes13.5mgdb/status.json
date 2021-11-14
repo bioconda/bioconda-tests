@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T18:31:11+00:00"}
+{
+ "started_at": "2021-11-14T18:31:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-greengenes13.5mgdb",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-greengenes13.5mgdb",
+      "subdir": "noarch",
+      "version": "2.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-greengenes13.5mgdb",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-greengenes13.5mgdb",
+      "subdir": "noarch",
+      "version": "2.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
