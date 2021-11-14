@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T18:46:10+00:00"}
+{
+ "started_at": "2021-11-14T18:46:10+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-hcaexplorer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-hcaexplorer",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-hcaexplorer",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-hcaexplorer",
+      "subdir": "noarch",
+      "version": "1.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
