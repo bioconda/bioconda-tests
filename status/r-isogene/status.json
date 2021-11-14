@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T01:31:08+00:00"}
+{
+ "started_at": "2021-11-14T01:31:08+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-isogene",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-isogene",
+      "subdir": "noarch",
+      "version": "1.0_24"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-isogene",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-isogene",
+      "subdir": "noarch",
+      "version": "1.0_24"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

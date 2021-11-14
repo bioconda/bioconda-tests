@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-14T01:31:08+00:00"}
+{
+ "started_at": "2021-11-14T01:31:08+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bttcmp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bttcmp",
+      "subdir": "noarch",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bttcmp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
