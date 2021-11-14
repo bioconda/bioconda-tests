@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-14T21:46:15+00:00"}
+{
+ "started_at": "2021-11-14T21:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "snp-mutator",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh24bf2e0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snp-mutator",
+      "subdir": "noarch",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "snp-mutator",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh24bf2e0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snp-mutator",
+      "subdir": "noarch",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
