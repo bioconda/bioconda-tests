@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T21:31:16+00:00"}
+{
+ "started_at": "2021-11-15T21:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pathracer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2d02072_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pathracer",
+      "subdir": "linux-64",
+      "version": "3.15.0.dev"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pathracer",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he641558_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pathracer",
+      "subdir": "osx-64",
+      "version": "3.15.0.dev"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
