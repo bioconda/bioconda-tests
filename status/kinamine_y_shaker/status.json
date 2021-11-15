@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T23:16:08+00:00"}
+{
+ "started_at": "2021-11-15T23:16:08+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "kinamine_y_shaker",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kinamine_y_shaker",
+      "subdir": "noarch",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "kinamine_y_shaker",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "kinamine_y_shaker",
+      "subdir": "noarch",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
