@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T05:46:12+00:00"}
+{
+ "started_at": "2021-11-15T05:46:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-htscluster",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-htscluster",
+      "subdir": "noarch",
+      "version": "2.0.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-htscluster",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-htscluster",
+      "subdir": "noarch",
+      "version": "2.0.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
