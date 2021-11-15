@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T21:46:13+00:00"}
+{
+ "started_at": "2021-11-15T21:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fegenie",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310r40hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fegenie",
+      "subdir": "noarch",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "fegenie",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310r40hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "fegenie",
+      "subdir": "noarch",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
