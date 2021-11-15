@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T14:01:24+00:00"}
+{
+ "started_at": "2021-11-15T14:01:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-ensembl-compara",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "perl-ensembl-compara",
+      "subdir": "noarch",
+      "version": "98"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-ensembl-compara",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "perl-ensembl-compara",
+      "subdir": "noarch",
+      "version": "98"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
