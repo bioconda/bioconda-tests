@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-15T23:31:09+00:00"}
+{
+ "started_at": "2021-11-15T23:31:09+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mirnature",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262r35hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "mirnature",
+      "subdir": "noarch",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "mirnature",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
