@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T09:16:22+00:00"}
+{
+ "started_at": "2021-11-15T09:16:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-mmpalatemirna",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mmpalatemirna",
+      "subdir": "noarch",
+      "version": "1.37.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-mmpalatemirna",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-mmpalatemirna",
+      "subdir": "noarch",
+      "version": "1.37.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
