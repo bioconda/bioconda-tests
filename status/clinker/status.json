@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T01:16:11+00:00"}
+{
+ "started_at": "2021-11-15T01:16:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "clinker",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "clinker",
+      "subdir": "noarch",
+      "version": "1.32"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "clinker",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "clinker",
+      "subdir": "osx-64",
+      "version": "1.32"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
