@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T20:01:20+00:00"}
+{
+ "started_at": "2021-11-15T20:01:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tinyfasta",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "tinyfasta",
+      "subdir": "noarch",
+      "version": "0.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "tinyfasta",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "tinyfasta",
+      "subdir": "noarch",
+      "version": "0.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
