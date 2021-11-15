@@ -1,20 +1,22 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpmnk5r7ru/noarch/perl-ensembl-api-98-hdfd78af_1.tar.bz2
-Renaming work directory '/Users/runner/conda/conda-bld/work' to '/Users/runner/conda/conda-bld/perl-ensembl-api_1635973163125/work_moved_perl-ensembl-api-98-hdfd78af_1_noarch'
-shutil.move(work)=/Users/runner/conda/conda-bld/work, dest=/Users/runner/conda/conda-bld/perl-ensembl-api_1635973163125/work_moved_perl-ensembl-api-98-hdfd78af_1_noarch)
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0gj2uz2o/noarch/perl-ensembl-api-98-hdfd78af_1.tar.bz2
+Renaming work directory '/Users/runner/conda/conda-bld/work' to '/Users/runner/conda/conda-bld/perl-ensembl-api_1636999338837/work_moved_perl-ensembl-api-98-hdfd78af_1_noarch'
+shutil.move(work)=/Users/runner/conda/conda-bld/work, dest=/Users/runner/conda/conda-bld/perl-ensembl-api_1636999338837/work_moved_perl-ensembl-api-98-hdfd78af_1_noarch)
 Reloading output folder: /Users/runner/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/perl-ensembl-api_1635973163125/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+  environment location: /Users/runner/conda/conda-bld/perl-ensembl-api_1636999338837/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
 
 
 The following NEW packages will be INSTALLED:
 
+    atk-1.0:                               2.36.0-he69c4ee_4           conda-forge                                                        
     bzip2:                                 1.0.8-h0d85af4_4            conda-forge                                                        
     c-ares:                                1.18.1-h0d85af4_0           conda-forge                                                        
     ca-certificates:                       2021.10.8-h033912b_0        conda-forge                                                        
+    cairo:                                 1.16.0-he01c77b_1009        conda-forge                                                        
     clustalw:                              2.1-hb280591_6              bioconda                                                           
     cyrus-sasl:                            2.1.27-ha724b88_4           conda-forge                                                        
     expat:                                 2.4.1-he49afe7_0            conda-forge                                                        
@@ -26,29 +28,40 @@ The following NEW packages will be INSTALLED:
     fonts-conda-ecosystem:                 1-0                         conda-forge                                                        
     fonts-conda-forge:                     1-0                         conda-forge                                                        
     freetype:                              2.10.4-h4cff582_1           conda-forge                                                        
+    fribidi:                               1.0.10-hbcb3906_0           conda-forge                                                        
+    gdk-pixbuf:                            2.42.6-h2e6141f_0           conda-forge                                                        
+    gettext:                               0.19.8.1-hd1a6beb_1008      conda-forge                                                        
     giflib:                                5.2.1-hbcb3906_2            conda-forge                                                        
-    graphviz:                              2.42.3-h98dfb87_0           conda-forge                                                        
+    graphite2:                             1.3.13-h2e338ed_1001        conda-forge                                                        
+    graphviz:                              2.49.3-h77de9ca_0           conda-forge                                                        
+    gtk2:                                  2.24.33-h675d97a_1          conda-forge                                                        
+    gts:                                   0.7.6-hccb3bdf_2            conda-forge                                                        
+    harfbuzz:                              3.1.1-h447b35c_1            conda-forge                                                        
     htslib:                                1.12-hc38c3fb_1             bioconda                                                           
     icu:                                   69.1-he49afe7_0             conda-forge                                                        
     jbig:                                  2.1-h0d85af4_2003           conda-forge                                                        
     jpeg:                                  9d-hbcb3906_0               conda-forge                                                        
     krb5:                                  1.19.2-hcfbf3a7_3           conda-forge                                                        
     lerc:                                  2.2.1-h046ec9c_0            conda-forge                                                        
-    libcurl:                               7.79.1-hf45b732_1           conda-forge                                                        
+    libcurl:                               7.80.0-hf45b732_0           conda-forge                                                        
     libcxx:                                12.0.1-habf9029_0           conda-forge                                                        
     libdb:                                 6.2.32-he49afe7_0           conda-forge                                                        
     libdeflate:                            1.7-h35c211d_5              conda-forge                                                        
     libedit:                               3.1.20191231-h0678c8f_2     conda-forge                                                        
     libev:                                 4.33-haf1e3a3_1             conda-forge                                                        
     libevent:                              2.1.10-h815e4d9_4           conda-forge                                                        
+    libffi:                                3.4.2-h0d85af4_5            conda-forge                                                        
     libgd:                                 2.3.3-hb8742e1_1            conda-forge                                                        
+    libglib:                               2.70.0-hf1fb8c0_1           conda-forge                                                        
     libiconv:                              1.16-haf1e3a3_0             conda-forge                                                        
     libnghttp2:                            1.43.0-h6f36284_1           conda-forge                                                        
     libntlm:                               1.4-h35c211d_1002           conda-forge                                                        
     libpng:                                1.6.37-h7cec526_2           conda-forge                                                        
     libprotobuf:                           3.18.1-hcf210ce_0           conda-forge                                                        
+    librsvg:                               2.52.3-h02b643e_0           conda-forge                                                        
     libssh2:                               1.10.0-h52ee1ee_2           conda-forge                                                        
     libtiff:                               4.3.0-h1167814_1            conda-forge                                                        
+    libtool:                               2.4.6-he49afe7_1008         conda-forge                                                        
     libwebp:                               1.2.1-h28dabe5_0            conda-forge                                                        
     libwebp-base:                          1.2.1-h0d85af4_0            conda-forge                                                        
     libxml2:                               2.9.12-h7e28ab6_1           conda-forge                                                        
@@ -65,6 +78,8 @@ The following NEW packages will be INSTALLED:
     ncurses:                               6.2-h2e338ed_4              conda-forge                                                        
     openssl:                               1.1.1l-h0d85af4_0           conda-forge                                                        
     paml:                                  4.9-hb4d813b_6              bioconda                                                           
+    pango:                                 1.48.10-h056538c_2          conda-forge                                                        
+    pcre:                                  8.45-he49afe7_0             conda-forge                                                        
     perl:                                  5.26.2-hbcb3906_1008        conda-forge                                                        
     perl-aceperl:                          1.92-pl526_2                bioconda                                                           
     perl-algorithm-diff:                   1.1903-pl526_2              bioconda                                                           
@@ -126,7 +141,7 @@ The following NEW packages will be INSTALLED:
     perl-email-date-format:                1.005-pl526_2               bioconda                                                           
     perl-encode:                           2.88-pl526_1                bioconda                                                           
     perl-encode-locale:                    1.05-pl526_6                bioconda                                                           
-    perl-ensembl-api:                      98-hdfd78af_1               file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpmnk5r7ru
+    perl-ensembl-api:                      98-hdfd78af_1               file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp0gj2uz2o
     perl-ensembl-compara:                  98-0                        bioconda                                                           
     perl-ensembl-core:                     98-hdfd78af_1               bioconda                                                           
     perl-ensembl-funcgen:                  98-0                        bioconda                                                           
@@ -292,6 +307,7 @@ The following NEW packages will be INSTALLED:
     perl-xml-xpathengine:                  0.14-pl526_2                bioconda                                                           
     perl-xsloader:                         0.24-pl526_0                bioconda                                                           
     perl-yaml:                             1.29-pl526_0                bioconda                                                           
+    pixman:                                0.40.0-hbcb3906_0           conda-forge                                                        
     tidyp:                                 1.04-hb4d813b_3             bioconda                                                           
     tk:                                    8.6.11-h5dbffcc_1           conda-forge                                                        
     xz:                                    5.2.5-haf1e3a3_1            conda-forge                                                        
@@ -300,9 +316,11 @@ The following NEW packages will be INSTALLED:
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
-Executing transaction: ...working... done
-export PREFIX=/Users/runner/conda/conda-bld/perl-ensembl-api_1635973163125/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
-export SRC_DIR=/Users/runner/conda/conda-bld/perl-ensembl-api_1635973163125/test_tmp
+Executing transaction: ...working... 
+
+done
+export PREFIX=/Users/runner/conda/conda-bld/perl-ensembl-api_1636999338837/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl
+export SRC_DIR=/Users/runner/conda/conda-bld/perl-ensembl-api_1636999338837/test_tmp
 
 Leaving build/test directories:
   Work:
