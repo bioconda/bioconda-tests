@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T12:31:18+00:00"}
+{
+ "started_at": "2021-11-15T12:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hmftools-isofox",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "hmftools-isofox",
+      "subdir": "noarch",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "hmftools-isofox",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "hmftools-isofox",
+      "subdir": "noarch",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
