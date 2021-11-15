@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-15T06:02:37+00:00"}
+{
+ "started_at": "2021-11-15T06:02:37+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "noresm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39pl5262hab58d13_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "noresm",
+      "subdir": "linux-64",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "timeout"
+    }
+   ]
+  }
+ ]
+}

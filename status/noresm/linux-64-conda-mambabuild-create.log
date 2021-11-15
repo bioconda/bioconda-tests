@@ -1,11 +1,11 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmp200z48cq/linux-64/noresm-2.0.2-py39pl5262hab58d13_0.tar.bz2
+TEST START: /tmp/tmpjsg0b1sr/linux-64/noresm-2.0.2-py39pl5262hab58d13_0.tar.bz2
 Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/noresm_1635926048084/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+  environment location: /home/vsts/conda/conda-bld/noresm_1636956550226/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
 
 
 The following NEW packages will be INSTALLED:
@@ -19,7 +19,7 @@ The following NEW packages will be INSTALLED:
     c-ares:                    1.18.1-h7f98852_0           conda-forge            
     ca-certificates:           2021.10.8-ha878542_0        conda-forge            
     cmake:                     3.21.3-h8897547_0           conda-forge            
-    curl:                      7.79.1-h2574ce0_1           conda-forge            
+    curl:                      7.80.0-h2574ce0_0           conda-forge            
     cyrus-sasl:                2.1.27-h230043b_4           conda-forge            
     expat:                     2.4.1-h9c3ff4c_0            conda-forge            
     gcc_impl_linux-64:         9.4.0-h03d3576_11           conda-forge            
@@ -38,11 +38,11 @@ The following NEW packages will be INSTALLED:
     libapr:                    1.7.0-h7f98852_5            conda-forge            
     libaprutil:                1.6.1-h975c496_5            conda-forge            
     libassuan:                 2.5.5-h9c3ff4c_0            conda-forge            
-    libcurl:                   7.79.1-h2574ce0_1           conda-forge            
+    libcurl:                   7.80.0-h2574ce0_0           conda-forge            
     libdb:                     6.2.32-h9c3ff4c_0           conda-forge            
     libedit:                   3.1.20191231-he28a2e2_2     conda-forge            
     libev:                     4.33-h516909a_1             conda-forge            
-    libffi:                    3.4.2-h9c3ff4c_4            conda-forge            
+    libffi:                    3.4.2-h7f98852_5            conda-forge            
     libgcc-devel_linux-64:     9.4.0-hd854feb_11           conda-forge            
     libgcc-ng:                 11.2.0-h1d223b6_11          conda-forge            
     libgcrypt:                 1.9.4-h7f98852_0            conda-forge            
@@ -74,7 +74,7 @@ The following NEW packages will be INSTALLED:
     mpich:                     3.4.2-h846660c_100          conda-forge            
     ncurses:                   6.2-h58526e2_4              conda-forge            
     netcdf-fortran:            4.5.3-mpi_mpich_h1364a43_6  conda-forge            
-    noresm:                    2.0.2-py39pl5262hab58d13_0  file:///tmp/tmp200z48cq
+    noresm:                    2.0.2-py39pl5262hab58d13_0  file:///tmp/tmpjsg0b1sr
     npth:                      1.6-hf484d3e_1000           conda-forge            
     ntbtls:                    0.1.2-hdbcaa40_1000         conda-forge            
     openssl:                   1.1.1l-h7f98852_0           conda-forge            
@@ -97,7 +97,7 @@ The following NEW packages will be INSTALLED:
     readline:                  8.1-h46c0cb4_0              conda-forge            
     rhash:                     1.4.1-h7f98852_0            conda-forge            
     serf:                      1.3.9-ha107898_0            conda-forge            
-    setuptools:                58.4.0-py39hf3d152e_1       conda-forge            
+    setuptools:                58.5.3-py39hf3d152e_0       conda-forge            
     sqlite:                    3.36.0-h9cd32fc_2           conda-forge            
     subversion:                1.14.1-h818a5c0_0           conda-forge            
     sysroot_linux-64:          2.12-he073ed8_15            conda-forge            
@@ -114,8 +114,8 @@ The following NEW packages will be INSTALLED:
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/noresm_1635926048084/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
-export SRC_DIR=/home/vsts/conda/conda-bld/noresm_1635926048084/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/noresm_1636956550226/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place
+export SRC_DIR=/home/vsts/conda/conda-bld/noresm_1636956550226/test_tmp
 INFO: activate-binutils_linux-64.sh made the following environmental changes:
 +ADDR2LINE=$PREFIX/bin/x86_64-conda-linux-gnu-addr2line
 +AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar
@@ -138,7 +138,7 @@ INFO: activate-gcc_linux-64.sh made the following environmental changes:
 +CC=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CC_FOR_BUILD=$PREFIX/bin/x86_64-conda-linux-gnu-cc
 +CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem $PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/noresm-2.0.2 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
-+CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/noresm_1635926048084/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
++CMAKE_ARGS=-DCMAKE_AR=$PREFIX/bin/x86_64-conda-linux-gnu-ar -DCMAKE_CXX_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_C_COMPILER_AR=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ar -DCMAKE_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-ranlib -DCMAKE_CXX_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_C_COMPILER_RANLIB=$PREFIX/bin/x86_64-conda-linux-gnu-gcc-ranlib -DCMAKE_LINKER=$PREFIX/bin/x86_64-conda-linux-gnu-ld -DCMAKE_STRIP=$PREFIX/bin/x86_64-conda-linux-gnu-strip -DCMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER -DCMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY -DCMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY -DCMAKE_FIND_ROOT_PATH=$PREFIX;/home/vsts/conda/conda-bld/noresm_1636956550226/_build_env/x86_64-conda-linux-gnu/sysroot -DCMAKE_INSTALL_PREFIX=$PREFIX -DCMAKE_INSTALL_LIBDIR=lib
 +CMAKE_PREFIX_PATH=$PREFIX:$PREFIX/x86_64-conda-linux-gnu/sysroot/usr
 +CONDA_BUILD_SYSROOT=$PREFIX/x86_64-conda-linux-gnu/sysroot
 +CONDA_TOOLCHAIN_BUILD=x86_64-conda-linux-gnu
