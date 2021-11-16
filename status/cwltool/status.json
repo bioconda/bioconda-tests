@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T18:01:16+00:00"}
+{
+ "started_at": "2021-11-16T18:01:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cwltool",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhc268e32_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "cwltool",
+      "subdir": "noarch",
+      "version": "3.1.20211107152837"
+     },
+     "solve": "success",
+     "test": "timeout"
+    }
+   ]
+  },
+  {
+   "name": "cwltool",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhc268e32_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "cwltool",
+      "subdir": "noarch",
+      "version": "3.1.20211107152837"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
