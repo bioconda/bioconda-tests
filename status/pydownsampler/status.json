@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T03:01:15+00:00"}
+{
+ "started_at": "2021-11-16T03:01:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pydownsampler",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pydownsampler",
+      "subdir": "noarch",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "pydownsampler",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "pydownsampler",
+      "subdir": "noarch",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
