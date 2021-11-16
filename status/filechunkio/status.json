@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T16:16:20+00:00"}
+{
+ "started_at": "2021-11-16T16:16:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "filechunkio",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "filechunkio",
+      "subdir": "linux-64",
+      "version": "1.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "filechunkio",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "filechunkio",
+      "subdir": "osx-64",
+      "version": "1.8"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
