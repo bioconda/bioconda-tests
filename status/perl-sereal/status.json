@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T22:01:23+00:00"}
+{
+ "started_at": "2021-11-16T22:01:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-sereal",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "perl-sereal",
+      "subdir": "noarch",
+      "version": "4.007"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-sereal",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "perl-sereal",
+      "subdir": "noarch",
+      "version": "4.007"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
