@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T13:46:19+00:00"}
+{
+ "started_at": "2021-11-16T13:46:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "singlecellnet-cli",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "singlecellnet-cli",
+      "subdir": "noarch",
+      "version": "0.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "singlecellnet-cli",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "singlecellnet-cli",
+      "subdir": "noarch",
+      "version": "0.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
