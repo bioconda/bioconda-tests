@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T18:31:18+00:00"}
+{
+ "started_at": "2021-11-16T18:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "vcflib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h3198e80_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "vcflib",
+      "subdir": "linux-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "vcflib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9954cba_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "vcflib",
+      "subdir": "osx-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

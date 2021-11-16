@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-16T18:31:18+00:00"}
+{
+ "started_at": "2021-11-16T18:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "qiime",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "qiime",
+      "subdir": "noarch",
+      "version": "1.9.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "qiime",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
