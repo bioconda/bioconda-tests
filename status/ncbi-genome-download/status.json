@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T21:16:14+00:00"}
+{
+ "started_at": "2021-11-16T21:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ncbi-genome-download",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ncbi-genome-download",
+      "subdir": "noarch",
+      "version": "0.3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ncbi-genome-download",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ncbi-genome-download",
+      "subdir": "noarch",
+      "version": "0.3.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
