@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T20:01:13+00:00"}
+{
+ "started_at": "2021-11-16T20:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "snippy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snippy",
+      "subdir": "noarch",
+      "version": "4.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "snippy",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "snippy",
+      "subdir": "noarch",
+      "version": "4.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

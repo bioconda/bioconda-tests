@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T20:01:13+00:00"}
+{
+ "started_at": "2021-11-16T20:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "schema-salad",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h3811e60_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "schema-salad",
+      "subdir": "linux-64",
+      "version": "8.2.20211104054942"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "schema-salad",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h89e85a6_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "schema-salad",
+      "subdir": "osx-64",
+      "version": "8.2.20211104054942"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

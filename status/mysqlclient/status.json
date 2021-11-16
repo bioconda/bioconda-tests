@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T20:01:13+00:00"}
+{
+ "started_at": "2021-11-16T20:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mysqlclient",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h122e73d_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "mysqlclient",
+      "subdir": "linux-64",
+      "version": "2.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "mysqlclient",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310hba3363e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "mysqlclient",
+      "subdir": "osx-64",
+      "version": "2.0.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
