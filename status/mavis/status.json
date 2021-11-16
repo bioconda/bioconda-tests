@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-15T23:46:15+00:00"}
+{
+ "started_at": "2021-11-15T23:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mavis",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "mavis",
+      "subdir": "noarch",
+      "version": "2.2.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "mavis",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "mavis",
+      "subdir": "noarch",
+      "version": "2.2.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
