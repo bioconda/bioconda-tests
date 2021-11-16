@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T17:01:21+00:00"}
+{
+ "started_at": "2021-11-16T17:01:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gmap",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262h36cd882_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "gmap",
+      "subdir": "linux-64",
+      "version": "2021.08.25"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "gmap",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262he23eb85_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "gmap",
+      "subdir": "osx-64",
+      "version": "2021.08.25"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
