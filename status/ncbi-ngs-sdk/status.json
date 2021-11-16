@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T21:46:17+00:00"}
+{
+ "started_at": "2021-11-16T21:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ncbi-ngs-sdk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hff44eed_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ncbi-ngs-sdk",
+      "subdir": "linux-64",
+      "version": "2.11.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "ncbi-ngs-sdk",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h247ad82_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ncbi-ngs-sdk",
+      "subdir": "osx-64",
+      "version": "2.11.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
