@@ -1,11 +1,11 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpj4pk81zi/noarch/vadr-1.3-pl5262hdfd78af_3.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp8ruyklna/noarch/vadr-1.3-pl5262hdfd78af_3.tar.bz2
 Reloading output folder: /Users/runner/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/vadr_1635997083251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+  environment location: /Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
 
 
 The following NEW packages will be INSTALLED:
@@ -23,10 +23,10 @@ The following NEW packages will be INSTALLED:
     clangxx_osx-64:             8.0.1-h22b1bf0_22       conda-forge                                                        
     compiler-rt:                8.0.1-hef50cfd_0        conda-forge                                                        
     compilers:                  1.0.3-0                 conda-forge                                                        
-    curl:                       7.79.1-h97da3c1_1       conda-forge                                                        
+    curl:                       7.80.0-h97da3c1_0       conda-forge                                                        
     cxx-compiler:               1.0.3-h066b697_0        conda-forge                                                        
     easel:                      0.48-hb4d813b_0         bioconda                                                           
-    entrez-direct:              15.6-h193322a_1         bioconda                                                           
+    entrez-direct:              16.2-h193322a_0         bioconda                                                           
     fasta3:                     36.3.8-hb4d813b_6       bioconda                                                           
     fortran-compiler:           1.0.3-h4f947d3_0        conda-forge                                                        
     gettext:                    0.19.8.1-hd1a6beb_1008  conda-forge                                                        
@@ -35,11 +35,11 @@ The following NEW packages will be INSTALLED:
     infernal:                   1.1.4-hb4d813b_0        bioconda                                                           
     krb5:                       1.19.2-h289aae4_3       conda-forge                                                        
     ld64:                       409.12-h22b1bf0_2       conda-forge                                                        
-    libcurl:                    7.79.1-h97da3c1_1       conda-forge                                                        
+    libcurl:                    7.80.0-h97da3c1_0       conda-forge                                                        
     libcxx:                     12.0.1-habf9029_0       conda-forge                                                        
     libedit:                    3.1.20191231-h0678c8f_2 conda-forge                                                        
     libev:                      4.33-haf1e3a3_1         conda-forge                                                        
-    libffi:                     3.4.2-he49afe7_4        conda-forge                                                        
+    libffi:                     3.4.2-h0d85af4_5        conda-forge                                                        
     libgcc:                     4.8.5-hdbeacc1_10       conda-forge                                                        
     libgfortran:                3.0.1-0                 conda-forge                                                        
     libiconv:                   1.16-haf1e3a3_0         conda-forge                                                        
@@ -121,7 +121,7 @@ The following NEW packages will be INSTALLED:
     sequip:                     0.08-hdfd78af_0         bioconda                                                           
     tapi:                       1000.10.8-h879752b_4    conda-forge                                                        
     tk:                         8.6.11-h5dbffcc_1       conda-forge                                                        
-    vadr:                       1.3-pl5262hdfd78af_3    file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpj4pk81zi
+    vadr:                       1.3-pl5262hdfd78af_3    file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp8ruyklna
     wget:                       1.20.3-hd3787cc_1       conda-forge                                                        
     zlib:                       1.2.11-h9173be1_1013    conda-forge                                                        
 
@@ -129,15 +129,15 @@ Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... 
 Please run 'download-vadr-models.sh MODELNAME' (e.g. 'download-vadr-models.sh sarscov2')
-to download the models required to run VADR. These files will be downloaded to /Users/runner/conda/conda-bld/vadr_1635997083251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/share/vadr-1.3/vadr-models. 
+to download the models required to run VADR. These files will be downloaded to /Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/share/vadr-1.3/vadr-models. 
 A list of avaialble models can be found at https://ftp.ncbi.nlm.nih.gov/pub/nawrocki/vadr-models/ 
 If you have a database in a custom path, please change the VADRMODELDIR environment variable.
 
 
 
 done
-export PREFIX=/Users/runner/conda/conda-bld/vadr_1635997083251/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
-export SRC_DIR=/Users/runner/conda/conda-bld/vadr_1635997083251/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/vadr_1637025643143/test_tmp
 INFO: activate-gfortran_osx-64.sh made the following environmental changes:
 +DEBUG_FFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -I$PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/vadr-1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
 +DEBUG_FORTRANFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -I$PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/vadr-1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
@@ -189,7 +189,7 @@ INFO: activate_clangxx_osx-64.sh made the following environmental changes:
 # v-annotate.pl :: classify and annotate sequences using a model library
 # VADR 1.3 (Aug 2021)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# date:    Thu Nov  4 03:40:22 2021
+# date:    Tue Nov 16 01:23:13 2021
 #
 Usage: v-annotate.pl [-options] <fasta file to annotate> <output directory to create>
 
