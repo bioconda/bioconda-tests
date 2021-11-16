@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T12:01:22+00:00"}
+{
+ "started_at": "2021-11-16T12:01:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "serotypefinder",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "serotypefinder",
+      "subdir": "noarch",
+      "version": "2.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "serotypefinder",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "serotypefinder",
+      "subdir": "noarch",
+      "version": "2.0.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
