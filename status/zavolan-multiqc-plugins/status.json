@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-16T03:46:08+00:00"}
+{
+ "started_at": "2021-11-16T03:46:08+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "zavolan-multiqc-plugins",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "zavolan-multiqc-plugins",
+      "subdir": "noarch",
+      "version": "1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "zavolan-multiqc-plugins",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "zavolan-multiqc-plugins",
+      "subdir": "noarch",
+      "version": "1.3"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
