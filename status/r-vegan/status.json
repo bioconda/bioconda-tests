@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T02:16:24+00:00"}
+{
+ "started_at": "2021-11-17T02:16:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-vegan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h52d45c5_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-vegan",
+      "subdir": "linux-64",
+      "version": "2.5_7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-vegan",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h30cbcce_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-vegan",
+      "subdir": "osx-64",
+      "version": "2.5_7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
