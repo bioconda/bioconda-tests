@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T04:31:18+00:00"}
+{
+ "started_at": "2021-11-17T04:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "tardis",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h53fee03_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "tardis",
+      "subdir": "linux-64",
+      "version": "1.0.19"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "tardis",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h917cbba_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "tardis",
+      "subdir": "osx-64",
+      "version": "1.0.19"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
