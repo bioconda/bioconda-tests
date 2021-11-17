@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T21:16:40+00:00"}
+{
+ "started_at": "2021-11-17T21:16:40+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "paste-bio",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "paste-bio",
+      "subdir": "noarch",
+      "version": "1.1.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "paste-bio",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh5e36f6f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "paste-bio",
+      "subdir": "noarch",
+      "version": "1.1.4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
