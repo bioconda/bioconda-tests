@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T09:31:27+00:00"}
+{
+ "started_at": "2021-11-17T09:31:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rust-ncbitaxonomy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hd83938f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rust-ncbitaxonomy",
+      "subdir": "linux-64",
+      "version": "1.0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "rust-ncbitaxonomy",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hab2f440_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "rust-ncbitaxonomy",
+      "subdir": "osx-64",
+      "version": "1.0.7"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
