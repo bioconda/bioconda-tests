@@ -1,11 +1,11 @@
 Updating build index: /home/vsts/conda/conda-bld
 
-TEST START: /tmp/tmpw2smym9c/noarch/yamllint-1.26.3-pyhd8ed1ab_0.tar.bz2
+TEST START: /tmp/tmpoj6uusl_/noarch/yamllint-1.26.3-pyhd8ed1ab_0.tar.bz2
 Reloading output folder: /home/vsts/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /home/vsts/conda/conda-bld/yamllint_1636081051633/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+  environment location: /home/vsts/conda/conda-bld/yamllint_1637111650998/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
 
 
 The following NEW packages will be INSTALLED:
@@ -15,32 +15,31 @@ The following NEW packages will be INSTALLED:
     attrs:            21.2.0-pyhd8ed1ab_0       conda-forge            
     bzip2:            1.0.8-h7f98852_4          conda-forge            
     ca-certificates:  2021.10.8-ha878542_0      conda-forge            
-    coverage:         6.1.1-py310h6acc77f_1     conda-forge            
+    coverage:         6.1.2-py310h6acc77f_0     conda-forge            
     iniconfig:        1.1.1-pyh9f0ad1d_0        conda-forge            
     ld_impl_linux-64: 2.36.1-hea4e1c9_2         conda-forge            
-    libffi:           3.4.2-h9c3ff4c_4          conda-forge            
+    libffi:           3.4.2-h7f98852_5          conda-forge            
     libgcc-ng:        11.2.0-h1d223b6_11        conda-forge            
     libgomp:          11.2.0-h1d223b6_11        conda-forge            
     libnsl:           2.0.0-h7f98852_0          conda-forge            
-    libstdcxx-ng:     11.2.0-he4da1e4_11        conda-forge            
     libuuid:          2.32.1-h7f98852_1000      conda-forge            
     libzlib:          1.2.11-h36c2ea0_1013      conda-forge            
-    more-itertools:   8.10.0-pyhd8ed1ab_0       conda-forge            
+    more-itertools:   8.11.0-pyhd8ed1ab_0       conda-forge            
     ncurses:          6.2-h58526e2_4            conda-forge            
     openssl:          3.0.0-h7f98852_2          conda-forge            
     packaging:        21.2-pyhd8ed1ab_1         conda-forge            
     pathspec:         0.9.0-pyhd8ed1ab_0        conda-forge            
     pip:              21.3.1-pyhd8ed1ab_0       conda-forge            
     pluggy:           1.0.0-py310hff52083_2     conda-forge            
-    py:               1.10.0-pyhd3deb0d_0       conda-forge            
+    py:               1.11.0-pyh6c4a22f_0       conda-forge            
     pyparsing:        2.4.7-pyhd8ed1ab_1        conda-forge            
     pytest:           6.2.5-py310hff52083_1     conda-forge            
     pytest-cov:       3.0.0-pyhd8ed1ab_0        conda-forge            
     python:           3.10.0-h543edf9_2_cpython conda-forge            
     python_abi:       3.10-2_cp310              conda-forge            
-    pyyaml:           6.0-py310h6acc77f_2       conda-forge            
+    pyyaml:           6.0-py310h6acc77f_3       conda-forge            
     readline:         8.1-h46c0cb4_0            conda-forge            
-    setuptools:       58.5.2-py310hff52083_0    conda-forge            
+    setuptools:       59.1.1-py310hff52083_0    conda-forge            
     sqlite:           3.36.0-h9cd32fc_2         conda-forge            
     tk:               8.6.11-h27826a3_1         conda-forge            
     toml:             0.10.2-pyhd8ed1ab_0       conda-forge            
@@ -49,14 +48,14 @@ The following NEW packages will be INSTALLED:
     wheel:            0.37.0-pyhd8ed1ab_1       conda-forge            
     xz:               5.2.5-h516909a_1          conda-forge            
     yaml:             0.2.5-h516909a_0          conda-forge            
-    yamllint:         1.26.3-pyhd8ed1ab_0       file:///tmp/tmpw2smym9c
+    yamllint:         1.26.3-pyhd8ed1ab_0       file:///tmp/tmpoj6uusl_
     zlib:             1.2.11-h36c2ea0_1013      conda-forge            
 
 Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... done
-export PREFIX=/home/vsts/conda/conda-bld/yamllint_1636081051633/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
-export SRC_DIR=/home/vsts/conda/conda-bld/yamllint_1636081051633/test_tmp
+export PREFIX=/home/vsts/conda/conda-bld/yamllint_1637111650998/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla
+export SRC_DIR=/home/vsts/conda/conda-bld/yamllint_1637111650998/test_tmp
 import: 'yamllint'
 import: 'yamllint'
 No broken requirements found.
@@ -87,7 +86,7 @@ options:
   -v, --version         show program's version number and exit
 yamllint 1.26.3
 ============================= test session starts ==============================
-platform linux -- Python 3.10.0, pytest-6.2.5, py-1.10.0, pluggy-1.0.0
+platform linux -- Python 3.10.0, pytest-6.2.5, py-1.11.0, pluggy-1.0.0
 rootdir: $SRC_DIR
 plugins: cov-3.0.0
 collected 356 items
@@ -188,7 +187,7 @@ TOTAL                                                                           
 Required test coverage of 97% reached. Total coverage: 97.86%
 =========================== short test summary info ============================
 FAILED tests/test_cli.py::CommandLineTestCase::test_run_with_user_global_config_file
-======================== 1 failed, 355 passed in 16.79s ========================
+======================== 1 failed, 355 passed in 14.95s ========================
 
 Leaving build/test directories:
   Work:

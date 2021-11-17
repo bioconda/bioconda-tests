@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T01:02:09+00:00"}
+{
+ "started_at": "2021-11-17T01:02:09+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rmblast",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2d02072_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rmblast",
+      "subdir": "linux-64",
+      "version": "2.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "rmblast",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he211f80_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "rmblast",
+      "subdir": "osx-64",
+      "version": "2.10.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
