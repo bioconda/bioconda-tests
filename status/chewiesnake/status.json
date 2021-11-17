@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T17:31:22+00:00"}
+{
+ "started_at": "2021-11-17T17:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "chewiesnake",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "chewiesnake",
+      "subdir": "noarch",
+      "version": "3.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "chewiesnake",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "chewiesnake",
+      "subdir": "noarch",
+      "version": "3.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
