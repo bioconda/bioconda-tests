@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T08:31:31+00:00"}
+{
+ "started_at": "2021-11-17T08:31:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cortexpy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h8c62d01_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "cortexpy",
+      "subdir": "linux-64",
+      "version": "0.46.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "cortexpy",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38ha7c6429_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "cortexpy",
+      "subdir": "osx-64",
+      "version": "0.46.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
