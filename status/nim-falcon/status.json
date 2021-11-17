@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T02:46:20+00:00"}
+{
+ "started_at": "2021-11-17T02:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "nim-falcon",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h18d090a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "nim-falcon",
+      "subdir": "linux-64",
+      "version": "3.0.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "nim-falcon",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "nim-falcon",
+      "subdir": "osx-64",
+      "version": "0.0.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
