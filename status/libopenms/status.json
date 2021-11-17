@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T04:02:00+00:00"}
+{
+ "started_at": "2021-11-17T04:02:00+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libopenms",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h4afb90d_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "libopenms",
+      "subdir": "linux-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "libopenms",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h97bd754_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "libopenms",
+      "subdir": "osx-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
