@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T05:16:18+00:00"}
+{
+ "started_at": "2021-11-17T05:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "seqan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "seqan",
+      "subdir": "linux-64",
+      "version": "2.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "seqan",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "seqan",
+      "subdir": "osx-64",
+      "version": "2.4.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
