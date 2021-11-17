@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T02:01:30+00:00"}
+{
+ "started_at": "2021-11-17T02:01:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gappa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "gappa",
+      "subdir": "linux-64",
+      "version": "0.7.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "gappa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h87af4ef_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "gappa",
+      "subdir": "osx-64",
+      "version": "0.7.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
