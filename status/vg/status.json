@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-17T12:01:31+00:00"}
+{
+ "started_at": "2021-11-17T12:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "vg",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9ee0642_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "vg",
+      "subdir": "linux-64",
+      "version": "1.36.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
