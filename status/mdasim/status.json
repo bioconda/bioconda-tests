@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-17T11:16:21+00:00"}
+{
+ "started_at": "2021-11-17T11:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mdasim",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h19e7193_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mdasim",
+      "subdir": "linux-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
