@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T20:01:50+00:00"}
+{
+ "started_at": "2021-11-17T20:01:50+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "spectrum_utils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "spectrum_utils",
+      "subdir": "noarch",
+      "version": "0.3.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "spectrum_utils",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "spectrum_utils",
+      "subdir": "noarch",
+      "version": "0.3.5"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
