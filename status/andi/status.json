@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T19:31:16+00:00"}
+{
+ "started_at": "2021-11-17T19:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "andi",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1d3628b_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "andi",
+      "subdir": "linux-64",
+      "version": "0.13"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "andi",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h556b040_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "andi",
+      "subdir": "osx-64",
+      "version": "0.13"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
