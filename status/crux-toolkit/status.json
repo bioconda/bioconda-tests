@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T05:01:30+00:00"}
+{
+ "started_at": "2021-11-17T05:01:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "crux-toolkit",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "crux-toolkit",
+      "subdir": "linux-64",
+      "version": "3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "crux-toolkit",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "crux-toolkit",
+      "subdir": "osx-64",
+      "version": "3.2"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
