@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T08:01:36+00:00"}
+{
+ "started_at": "2021-11-17T08:01:36+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-bionet",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bionet",
+      "subdir": "noarch",
+      "version": "1.54.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-bionet",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bionet",
+      "subdir": "noarch",
+      "version": "1.54.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

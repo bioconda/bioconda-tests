@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-17T08:01:36+00:00"}
+{
+ "started_at": "2021-11-17T08:01:36+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-rchemcpp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36he1b5a44_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-rchemcpp",
+      "subdir": "linux-64",
+      "version": "2.21.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-rchemcpp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h0a44026_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-rchemcpp",
+      "subdir": "osx-64",
+      "version": "2.20.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
