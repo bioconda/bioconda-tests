@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T05:16:33+00:00"}
+{
+ "started_at": "2021-11-18T05:16:33+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hts-nim-tools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hbeb723e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "hts-nim-tools",
+      "subdir": "linux-64",
+      "version": "0.3.11"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
