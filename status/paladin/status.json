@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T12:16:16+00:00"}
+{
+ "started_at": "2021-11-18T12:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "paladin",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b8c3c0_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "paladin",
+      "subdir": "linux-64",
+      "version": "1.4.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "paladin",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7b56a33_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "paladin",
+      "subdir": "osx-64",
+      "version": "1.4.6"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T12:16:16+00:00"}
+{
+ "started_at": "2021-11-18T12:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-splicer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h470a237_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-splicer",
+      "subdir": "linux-64",
+      "version": "1.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-splicer",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h470a237_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-splicer",
+      "subdir": "osx-64",
+      "version": "1.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

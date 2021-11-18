@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T12:16:16+00:00"}
+{
+ "started_at": "2021-11-18T12:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bumbershoot",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bumbershoot",
+      "subdir": "linux-64",
+      "version": "3_0_21142_0e4f4a4"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
