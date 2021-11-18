@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T21:46:28+00:00"}
+{
+ "started_at": "2021-11-18T21:46:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-gkmsvm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h1b792b2_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-gkmsvm",
+      "subdir": "linux-64",
+      "version": "0.81.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-gkmsvm",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h589c0e0_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-gkmsvm",
+      "subdir": "osx-64",
+      "version": "0.81.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
