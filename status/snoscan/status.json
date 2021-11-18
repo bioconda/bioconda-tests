@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T05:01:32+00:00"}
+{
+ "started_at": "2021-11-18T05:01:32+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "snoscan",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262h779adbc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "snoscan",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "snoscan",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262hb4d813b_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "snoscan",
+      "subdir": "osx-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}

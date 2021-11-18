@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T05:01:32+00:00"}
+{
+ "started_at": "2021-11-18T05:01:32+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "python-msgpack",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h7cff6ad_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "python-msgpack",
+      "subdir": "linux-64",
+      "version": "0.6.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "python-msgpack",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hcf0ab7e_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "python-msgpack",
+      "subdir": "osx-64",
+      "version": "0.6.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
