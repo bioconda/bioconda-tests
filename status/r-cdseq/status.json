@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T03:46:24+00:00"}
+{
+ "started_at": "2021-11-18T03:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-cdseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h7d875b9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-cdseq",
+      "subdir": "linux-64",
+      "version": "0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-cdseq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hb280591_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-cdseq",
+      "subdir": "osx-64",
+      "version": "0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
