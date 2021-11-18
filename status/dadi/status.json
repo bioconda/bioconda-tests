@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T16:46:14+00:00"}
+{
+ "started_at": "2021-11-18T16:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dadi",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h293c751_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "dadi",
+      "subdir": "linux-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "dadi",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h2132740_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "dadi",
+      "subdir": "osx-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
