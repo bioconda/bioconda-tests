@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T09:46:30+00:00"}
+{
+ "started_at": "2021-11-18T09:46:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cromwell",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha770c72_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "cromwell",
+      "subdir": "linux-64",
+      "version": "71"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "cromwell",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h694c41f_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "cromwell",
+      "subdir": "osx-64",
+      "version": "71"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
