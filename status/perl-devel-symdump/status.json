@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T02:02:23+00:00"}
+{
+ "started_at": "2021-11-18T02:02:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-devel-symdump",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-devel-symdump",
+      "subdir": "linux-64",
+      "version": "2.18"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "perl-devel-symdump",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-devel-symdump",
+      "subdir": "osx-64",
+      "version": "2.18"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
