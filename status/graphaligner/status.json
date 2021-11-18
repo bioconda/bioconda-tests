@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T22:01:59+00:00"}
+{
+ "started_at": "2021-11-18T22:01:59+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "graphaligner",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he1c1bb9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "graphaligner",
+      "subdir": "linux-64",
+      "version": "1.0.13"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
