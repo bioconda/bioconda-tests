@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T20:16:14+00:00"}
+{
+ "started_at": "2021-11-18T20:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bamread",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h38f01e4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bamread",
+      "subdir": "linux-64",
+      "version": "0.0.9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bamread",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39ha492530_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bamread",
+      "subdir": "osx-64",
+      "version": "0.0.9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

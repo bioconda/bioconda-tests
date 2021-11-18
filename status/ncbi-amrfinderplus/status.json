@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T20:16:14+00:00"}
+{
+ "started_at": "2021-11-18T20:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ncbi-amrfinderplus",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h17dc2d4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ncbi-amrfinderplus",
+      "subdir": "linux-64",
+      "version": "3.10.18"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "ncbi-amrfinderplus",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb09ee88_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ncbi-amrfinderplus",
+      "subdir": "osx-64",
+      "version": "3.10.18"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

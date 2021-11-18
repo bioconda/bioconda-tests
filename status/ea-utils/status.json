@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T20:16:14+00:00"}
+{
+ "started_at": "2021-11-18T20:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ea-utils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h543ed2d_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ea-utils",
+      "subdir": "linux-64",
+      "version": "1.1.2.779"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

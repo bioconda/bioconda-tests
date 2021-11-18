@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T20:16:14+00:00"}
+{
+ "started_at": "2021-11-18T20:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pbipa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hf336ff9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pbipa",
+      "subdir": "linux-64",
+      "version": "1.5.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
