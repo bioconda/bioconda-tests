@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T14:01:31+00:00"}
+{
+ "started_at": "2021-11-18T14:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "msgf_plus",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "msgf_plus",
+      "subdir": "noarch",
+      "version": "2021.09.06"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "msgf_plus",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "msgf_plus",
+      "subdir": "noarch",
+      "version": "2021.09.06"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
