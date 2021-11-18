@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-18T23:31:22+00:00"}
+{
+ "started_at": "2021-11-18T23:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "telr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "telr",
+      "subdir": "noarch",
+      "version": "0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "telr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
