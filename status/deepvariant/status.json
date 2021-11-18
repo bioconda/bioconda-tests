@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T16:31:20+00:00"}
+{
+ "started_at": "2021-11-18T16:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "deepvariant",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36hf3e76ba_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "deepvariant",
+      "subdir": "linux-64",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
