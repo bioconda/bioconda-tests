@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T19:31:15+00:00"}
+{
+ "started_at": "2021-11-18T19:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-bio-cigar",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-bio-cigar",
+      "subdir": "linux-64",
+      "version": "1.01"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-bio-cigar",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-bio-cigar",
+      "subdir": "osx-64",
+      "version": "1.01"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

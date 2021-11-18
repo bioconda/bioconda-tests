@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T19:31:15+00:00"}
+{
+ "started_at": "2021-11-18T19:31:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-ipc-system-simple",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-ipc-system-simple",
+      "subdir": "linux-64",
+      "version": "1.25"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-ipc-system-simple",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-ipc-system-simple",
+      "subdir": "osx-64",
+      "version": "1.25"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
