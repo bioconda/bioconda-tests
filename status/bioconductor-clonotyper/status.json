@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T23:01:22+00:00"}
+{
+ "started_at": "2021-11-18T23:01:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-clonotyper",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-clonotyper",
+      "subdir": "noarch",
+      "version": "1.32.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-clonotyper",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-clonotyper",
+      "subdir": "noarch",
+      "version": "1.32.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
