@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-18T12:01:24+00:00"}
+{
+ "started_at": "2021-11-18T12:01:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-probmetab",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r3.4.1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "r-probmetab",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  },
+  {
+   "name": "r-probmetab",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
