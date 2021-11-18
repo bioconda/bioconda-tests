@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-18T23:16:20+00:00"}
+{
+ "started_at": "2021-11-18T23:16:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "platypus-variant",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h4a7f997_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "platypus-variant",
+      "subdir": "linux-64",
+      "version": "0.8.1.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "platypus-variant",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h037c91a_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "platypus-variant",
+      "subdir": "osx-64",
+      "version": "0.8.1.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
