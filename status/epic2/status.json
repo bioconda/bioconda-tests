@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-18T19:01:27+00:00"}
+{
+ "started_at": "2021-11-18T19:01:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "epic2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39hb920225_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "epic2",
+      "subdir": "linux-64",
+      "version": "0.0.52"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
