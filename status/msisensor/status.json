@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T05:16:36+00:00"}
+{
+ "started_at": "2021-11-19T05:16:36+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "msisensor",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc755212_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "msisensor",
+      "subdir": "linux-64",
+      "version": "0.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
