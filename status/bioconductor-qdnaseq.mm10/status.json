@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T15:16:15+00:00"}
+{
+ "started_at": "2021-11-19T15:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-qdnaseq.mm10",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-qdnaseq.mm10",
+      "subdir": "noarch",
+      "version": "1.24.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-qdnaseq.mm10",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-qdnaseq.mm10",
+      "subdir": "noarch",
+      "version": "1.24.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
