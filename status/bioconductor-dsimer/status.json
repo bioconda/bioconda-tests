@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T08:16:26+00:00"}
+{
+ "started_at": "2021-11-19T08:16:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-dsimer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351hfc679d8_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-dsimer",
+      "subdir": "linux-64",
+      "version": "1.6.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-dsimer",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h0a44026_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-dsimer",
+      "subdir": "osx-64",
+      "version": "1.8.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
