@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T15:31:21+00:00"}
+{
+ "started_at": "2021-11-19T15:31:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-mba",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h03ef668_1005",
+      "build_number": 1005,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-mba",
+      "subdir": "linux-64",
+      "version": "0.0_9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-mba",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h9951f98_1005",
+      "build_number": 1005,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-mba",
+      "subdir": "osx-64",
+      "version": "0.0_9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T15:31:21+00:00"}
+{
+ "started_at": "2021-11-19T15:31:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pbdagcon",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "boost1.60_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pbdagcon",
+      "subdir": "linux-64",
+      "version": "0.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
