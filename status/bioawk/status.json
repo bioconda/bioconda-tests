@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T01:02:30+00:00"}
+{
+ "started_at": "2021-11-19T01:02:30+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioawk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioawk",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioawk",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h188c3c3_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioawk",
+      "subdir": "osx-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
