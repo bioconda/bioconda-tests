@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T20:01:31+00:00"}
+{
+ "started_at": "2021-11-19T20:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-cytoml",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41ha3a4146_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-cytoml",
+      "subdir": "linux-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-cytoml",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hebb2ace_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-cytoml",
+      "subdir": "osx-64",
+      "version": "2.6.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

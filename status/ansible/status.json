@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T20:01:31+00:00"}
+{
+ "started_at": "2021-11-19T20:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ansible",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310hff52083_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "ansible",
+      "subdir": "linux-64",
+      "version": "4.8.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "ansible",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h2ec42d9_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "ansible",
+      "subdir": "osx-64",
+      "version": "4.8.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T20:01:31+00:00"}
+{
+ "started_at": "2021-11-19T20:01:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-reportingtools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-reportingtools",
+      "subdir": "noarch",
+      "version": "2.34.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-reportingtools",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-reportingtools",
+      "subdir": "noarch",
+      "version": "2.34.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
