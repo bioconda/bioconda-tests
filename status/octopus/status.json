@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T00:31:22+00:00"}
+{
+ "started_at": "2021-11-19T00:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "octopus",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h40a150c_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "octopus",
+      "subdir": "linux-64",
+      "version": "0.7.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "octopus",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5d33b56_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "octopus",
+      "subdir": "osx-64",
+      "version": "0.6.3b"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
