@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T18:01:19+00:00"}
+{
+ "started_at": "2021-11-19T18:01:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cytocad",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h38f01e4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "cytocad",
+      "subdir": "linux-64",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
