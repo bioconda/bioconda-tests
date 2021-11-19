@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T09:16:21+00:00"}
+{
+ "started_at": "2021-11-19T09:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "moreutils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7f98852_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "moreutils",
+      "subdir": "linux-64",
+      "version": "0.65"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
