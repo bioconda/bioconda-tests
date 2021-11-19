@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T17:31:39+00:00"}
+{
+ "started_at": "2021-11-19T17:31:39+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "variantbam",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d7f7ad_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "variantbam",
+      "subdir": "linux-64",
+      "version": "1.4.4a"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
