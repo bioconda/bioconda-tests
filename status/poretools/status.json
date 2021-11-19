@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T08:46:26+00:00"}
+{
+ "started_at": "2021-11-19T08:46:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "poretools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h8b68c5b_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "poretools",
+      "subdir": "linux-64",
+      "version": "0.6.1a1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "poretools",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h8b68c5b_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "poretools",
+      "subdir": "osx-64",
+      "version": "0.6.1a1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
