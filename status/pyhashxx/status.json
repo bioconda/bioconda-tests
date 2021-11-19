@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T18:31:17+00:00"}
+{
+ "started_at": "2021-11-19T18:31:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyhashxx",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pyhashxx",
+      "subdir": "linux-64",
+      "version": "0.1.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "pyhashxx",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pyhashxx",
+      "subdir": "osx-64",
+      "version": "0.1.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
