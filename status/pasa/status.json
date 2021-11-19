@@ -1,1 +1,37 @@
-{"state":"running","started_at":"2021-11-19T19:01:37+00:00"}
+{
+ "started_at": "2021-11-19T19:01:37+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pasa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pasa",
+      "subdir": "linux-64",
+      "version": "2.4.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "pasa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": null,
+     "solve": "failed",
+     "test": "not run"
+    }
+   ]
+  }
+ ]
+}
