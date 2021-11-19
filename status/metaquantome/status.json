@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T14:01:19+00:00"}
+{
+ "started_at": "2021-11-19T14:01:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metaquantome",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "metaquantome",
+      "subdir": "noarch",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "metaquantome",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "metaquantome",
+      "subdir": "noarch",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
