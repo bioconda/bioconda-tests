@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T17:01:37+00:00"}
+{
+ "started_at": "2021-11-19T17:01:37+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "python-hyphy-python",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h837a663_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "python-hyphy-python",
+      "subdir": "linux-64",
+      "version": "0.1.10"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "python-hyphy-python",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h5649aa1_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "python-hyphy-python",
+      "subdir": "osx-64",
+      "version": "0.1.10"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
