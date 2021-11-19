@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T02:31:11+00:00"}
+{
+ "started_at": "2021-11-19T02:31:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "trf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "trf",
+      "subdir": "linux-64",
+      "version": "4.09.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "trf",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb4d813b_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "trf",
+      "subdir": "osx-64",
+      "version": "4.09.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
