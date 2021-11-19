@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T14:46:22+00:00"}
+{
+ "started_at": "2021-11-19T14:46:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mapsplice",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py37h07887db_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mapsplice",
+      "subdir": "linux-64",
+      "version": "2.2.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
