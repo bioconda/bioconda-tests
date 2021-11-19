@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T22:16:17+00:00"}
+{
+ "started_at": "2021-11-19T22:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ctat-mutations",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ctat-mutations",
+      "subdir": "noarch",
+      "version": "2.0.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "ctat-mutations",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ctat-mutations",
+      "subdir": "osx-64",
+      "version": "2.1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
