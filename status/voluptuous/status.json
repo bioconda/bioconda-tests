@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T23:01:26+00:00"}
+{
+ "started_at": "2021-11-19T23:01:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "voluptuous",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhd8ed1ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "voluptuous",
+      "subdir": "noarch",
+      "version": "0.12.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "voluptuous",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhd8ed1ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "voluptuous",
+      "subdir": "noarch",
+      "version": "0.12.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

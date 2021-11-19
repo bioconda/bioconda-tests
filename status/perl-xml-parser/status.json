@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T23:01:26+00:00"}
+{
+ "started_at": "2021-11-19T23:01:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-xml-parser",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5321hc3e0081_1003",
+      "build_number": 1003,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "perl-xml-parser",
+      "subdir": "linux-64",
+      "version": "2.44_01"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-xml-parser",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5321h06ef574_1003",
+      "build_number": 1003,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "perl-xml-parser",
+      "subdir": "osx-64",
+      "version": "2.44_01"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
