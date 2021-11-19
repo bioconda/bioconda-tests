@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T14:16:26+00:00"}
+{
+ "started_at": "2021-11-19T14:16:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-starr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40h037d062_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-starr",
+      "subdir": "linux-64",
+      "version": "1.43.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-starr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40h8909d69_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-starr",
+      "subdir": "osx-64",
+      "version": "1.43.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
