@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T02:46:14+00:00"}
+{
+ "started_at": "2021-11-19T02:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-do.db",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-do.db",
+      "subdir": "linux-64",
+      "version": "2.9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-do.db",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-do.db",
+      "subdir": "osx-64",
+      "version": "2.9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

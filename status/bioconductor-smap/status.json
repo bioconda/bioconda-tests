@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T02:46:14+00:00"}
+{
+ "started_at": "2021-11-19T02:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-smap",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hd029910_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-smap",
+      "subdir": "linux-64",
+      "version": "1.58.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-smap",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h68a2ddb_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-smap",
+      "subdir": "osx-64",
+      "version": "1.58.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
