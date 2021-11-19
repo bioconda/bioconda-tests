@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T09:01:33+00:00"}
+{
+ "started_at": "2021-11-19T09:01:33+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "python-levenshtein",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h6acc77f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "python-levenshtein",
+      "subdir": "linux-64",
+      "version": "0.12.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "python-levenshtein",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310he24745e_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "python-levenshtein",
+      "subdir": "osx-64",
+      "version": "0.12.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

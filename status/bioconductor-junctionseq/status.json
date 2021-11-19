@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-19T09:01:33+00:00"}
+{
+ "started_at": "2021-11-19T09:01:33+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-junctionseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40h5f743cb_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-junctionseq",
+      "subdir": "linux-64",
+      "version": "1.17.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-junctionseq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40h64ad5ed_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-junctionseq",
+      "subdir": "osx-64",
+      "version": "1.17.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
