@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-19T13:16:15+00:00"}
+{
+ "started_at": "2021-11-19T13:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "unitig-caller",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h86f0cff_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "unitig-caller",
+      "subdir": "linux-64",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
