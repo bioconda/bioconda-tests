@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T02:16:22+00:00"}
+{
+ "started_at": "2021-11-20T02:16:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-digest-sha1",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h6bb024c_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-digest-sha1",
+      "subdir": "linux-64",
+      "version": "2.13"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-digest-sha1",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h04f5b5a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-digest-sha1",
+      "subdir": "osx-64",
+      "version": "2.13"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
