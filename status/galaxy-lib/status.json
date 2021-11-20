@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T11:01:27+00:00"}
+{
+ "started_at": "2021-11-20T11:01:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "galaxy-lib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "galaxy-lib",
+      "subdir": "noarch",
+      "version": "19.5.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "galaxy-lib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "galaxy-lib",
+      "subdir": "noarch",
+      "version": "19.5.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
