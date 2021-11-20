@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T16:46:18+00:00"}
+{
+ "started_at": "2021-11-20T16:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "biobb_remote",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "biobb_remote",
+      "subdir": "noarch",
+      "version": "1.2.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "biobb_remote",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "biobb_remote",
+      "subdir": "noarch",
+      "version": "1.2.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
