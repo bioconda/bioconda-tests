@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T12:31:16+00:00"}
+{
+ "started_at": "2021-11-20T12:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-pathprint",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-pathprint",
+      "subdir": "noarch",
+      "version": "1.17.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-pathprint",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-pathprint",
+      "subdir": "noarch",
+      "version": "1.17.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
