@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T09:46:18+00:00"}
+{
+ "started_at": "2021-11-20T09:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-hdrcde",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h859d828_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-hdrcde",
+      "subdir": "linux-64",
+      "version": "3.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-hdrcde",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h749f5a1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-hdrcde",
+      "subdir": "osx-64",
+      "version": "3.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
