@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T06:46:23+00:00"}
+{
+ "started_at": "2021-11-20T06:46:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-blma",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-blma",
+      "subdir": "noarch",
+      "version": "1.18.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
