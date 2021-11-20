@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T11:16:31+00:00"}
+{
+ "started_at": "2021-11-20T11:16:31+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-file-listing",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-file-listing",
+      "subdir": "linux-64",
+      "version": "6.04"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-file-listing",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-file-listing",
+      "subdir": "osx-64",
+      "version": "6.04"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
