@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T19:16:16+00:00"}
+{
+ "started_at": "2021-11-20T19:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "visceral-evaluatesegmentation",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc9558a2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "visceral-evaluatesegmentation",
+      "subdir": "linux-64",
+      "version": "2015.07.03"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
