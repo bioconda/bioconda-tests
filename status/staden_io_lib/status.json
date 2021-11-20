@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T22:01:52+00:00"}
+{
+ "started_at": "2021-11-20T22:01:52+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "staden_io_lib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7c09d56_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "staden_io_lib",
+      "subdir": "linux-64",
+      "version": "1.14.14"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
