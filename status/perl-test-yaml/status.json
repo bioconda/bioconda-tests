@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T12:16:16+00:00"}
+{
+ "started_at": "2021-11-20T12:16:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-test-yaml",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-test-yaml",
+      "subdir": "linux-64",
+      "version": "1.07"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-test-yaml",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-test-yaml",
+      "subdir": "osx-64",
+      "version": "1.07"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
