@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T17:16:29+00:00"}
+{
+ "started_at": "2021-11-20T17:16:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gemini",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h7787144_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "gemini",
+      "subdir": "linux-64",
+      "version": "0.30.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "gemini",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27hdeb2a81_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "gemini",
+      "subdir": "osx-64",
+      "version": "0.30.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
