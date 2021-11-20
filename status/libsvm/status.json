@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T01:31:18+00:00"}
+{
+ "started_at": "2021-11-20T01:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libsvm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9c3ff4c_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "libsvm",
+      "subdir": "linux-64",
+      "version": "325"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

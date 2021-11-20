@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T01:31:18+00:00"}
+{
+ "started_at": "2021-11-20T01:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-heap-simple-xs",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h14c3975_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-heap-simple-xs",
+      "subdir": "linux-64",
+      "version": "0.10"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-heap-simple-xs",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h1de35cc_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-heap-simple-xs",
+      "subdir": "osx-64",
+      "version": "0.10"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
