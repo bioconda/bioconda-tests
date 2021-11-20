@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T16:31:29+00:00"}
+{
+ "started_at": "2021-11-20T16:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pygraphviz",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h91c62ca_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "pygraphviz",
+      "subdir": "linux-64",
+      "version": "1.7"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "pygraphviz",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h669a9c7_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "pygraphviz",
+      "subdir": "osx-64",
+      "version": "1.7"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

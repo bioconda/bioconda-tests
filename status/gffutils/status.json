@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T16:31:29+00:00"}
+{
+ "started_at": "2021-11-20T16:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "gffutils",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "gffutils",
+      "subdir": "noarch",
+      "version": "0.10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "gffutils",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh864c0ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "gffutils",
+      "subdir": "noarch",
+      "version": "0.10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
