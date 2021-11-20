@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T12:46:13+00:00"}
+{
+ "started_at": "2021-11-20T12:46:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "2pg_cartesian",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "2pg_cartesian",
+      "subdir": "linux-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
