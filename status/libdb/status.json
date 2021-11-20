@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T13:46:24+00:00"}
+{
+ "started_at": "2021-11-20T13:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libdb",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9c3ff4c_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "libdb",
+      "subdir": "linux-64",
+      "version": "6.2.32"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "libdb",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he49afe7_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "libdb",
+      "subdir": "osx-64",
+      "version": "6.2.32"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
