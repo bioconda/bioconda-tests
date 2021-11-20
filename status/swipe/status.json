@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T23:31:20+00:00"}
+{
+ "started_at": "2021-11-20T23:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "swipe",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2152503_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "swipe",
+      "subdir": "linux-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "swipe",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfa01b30_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "swipe",
+      "subdir": "osx-64",
+      "version": "2.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
