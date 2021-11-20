@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T13:16:14+00:00"}
+{
+ "started_at": "2021-11-20T13:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "soapec",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "soapec",
+      "subdir": "linux-64",
+      "version": "2.03"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
