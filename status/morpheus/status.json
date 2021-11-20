@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-20T03:31:28+00:00"}
+{
+ "started_at": "2021-11-20T03:31:28+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "morpheus",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9ee0642_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "morpheus",
+      "subdir": "linux-64",
+      "version": "287"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
