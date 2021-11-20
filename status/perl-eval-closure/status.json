@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T16:01:23+00:00"}
+{
+ "started_at": "2021-11-20T16:01:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-eval-closure",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h6bb024c_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-eval-closure",
+      "subdir": "linux-64",
+      "version": "0.14"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-eval-closure",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h04f5b5a_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-eval-closure",
+      "subdir": "osx-64",
+      "version": "0.14"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
