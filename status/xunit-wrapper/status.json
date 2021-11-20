@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T17:46:21+00:00"}
+{
+ "started_at": "2021-11-20T17:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "xunit-wrapper",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "xunit-wrapper",
+      "subdir": "linux-64",
+      "version": "0.12"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "xunit-wrapper",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "xunit-wrapper",
+      "subdir": "osx-64",
+      "version": "0.12"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
