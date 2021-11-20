@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-20T10:31:21+00:00"}
+{
+ "started_at": "2021-11-20T10:31:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "diamond",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdcc8f71_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "diamond",
+      "subdir": "linux-64",
+      "version": "2.0.13"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "diamond",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h4de6764_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "diamond",
+      "subdir": "osx-64",
+      "version": "2.0.13"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
