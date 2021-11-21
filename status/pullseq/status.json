@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T00:16:12+00:00"}
+{
+ "started_at": "2021-11-21T00:16:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pullseq",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h38613fd_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pullseq",
+      "subdir": "linux-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "pullseq",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfa5225b_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pullseq",
+      "subdir": "osx-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
