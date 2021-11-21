@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T06:31:18+00:00"}
+{
+ "started_at": "2021-11-21T06:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "newt",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py310h6acc77f_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "newt",
+      "subdir": "linux-64",
+      "version": "0.52.21"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

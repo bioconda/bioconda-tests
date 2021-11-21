@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T06:31:18+00:00"}
+{
+ "started_at": "2021-11-21T06:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "capc-map",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36ha6c1a3c_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "capc-map",
+      "subdir": "linux-64",
+      "version": "1.1.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "capc-map",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36h004b657_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "capc-map",
+      "subdir": "osx-64",
+      "version": "1.1.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
