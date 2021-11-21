@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T04:16:13+00:00"}
+{
+ "started_at": "2021-11-21T04:16:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-tcga2stat",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h6115d3f_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "r-tcga2stat",
+      "subdir": "osx-64",
+      "version": "1.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

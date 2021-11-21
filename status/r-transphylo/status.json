@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T04:16:13+00:00"}
+{
+ "started_at": "2021-11-21T04:16:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-transphylo",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h9951f98_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-transphylo",
+      "subdir": "osx-64",
+      "version": "1.4.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
