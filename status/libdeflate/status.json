@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T00:31:11+00:00"}
+{
+ "started_at": "2021-11-21T00:31:11+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libdeflate",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7f98852_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "libdeflate",
+      "subdir": "linux-64",
+      "version": "1.8"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "libdeflate",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h0d85af4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "libdeflate",
+      "subdir": "osx-64",
+      "version": "1.8"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
