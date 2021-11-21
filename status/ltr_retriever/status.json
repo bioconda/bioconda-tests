@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T08:16:18+00:00"}
+{
+ "started_at": "2021-11-21T08:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ltr_retriever",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "ltr_retriever",
+      "subdir": "noarch",
+      "version": "2.9.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

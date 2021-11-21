@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T08:16:18+00:00"}
+{
+ "started_at": "2021-11-21T08:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "arcs",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h8b3aa4e_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "arcs",
+      "subdir": "osx-64",
+      "version": "1.2.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
