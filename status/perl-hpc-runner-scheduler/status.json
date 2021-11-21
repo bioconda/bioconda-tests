@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T02:31:22+00:00"}
+{
+ "started_at": "2021-11-21T02:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-hpc-runner-scheduler",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-hpc-runner-scheduler",
+      "subdir": "linux-64",
+      "version": "0.09"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
