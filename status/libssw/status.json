@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T00:46:16+00:00"}
+{
+ "started_at": "2021-11-21T00:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libssw",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27h8eb80aa_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "libssw",
+      "subdir": "linux-64",
+      "version": "1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

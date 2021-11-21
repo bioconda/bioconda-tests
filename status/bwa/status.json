@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T00:46:16+00:00"}
+{
+ "started_at": "2021-11-21T00:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bwa",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h5bf99c6_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bwa",
+      "subdir": "linux-64",
+      "version": "0.7.17"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bwa",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h188c3c3_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bwa",
+      "subdir": "osx-64",
+      "version": "0.7.17"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

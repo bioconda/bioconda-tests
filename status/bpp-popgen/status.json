@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T00:46:16+00:00"}
+{
+ "started_at": "2021-11-21T00:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bpp-popgen",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bpp-popgen",
+      "subdir": "linux-64",
+      "version": "2.4.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bpp-popgen",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb280591_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bpp-popgen",
+      "subdir": "osx-64",
+      "version": "2.4.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
