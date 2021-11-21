@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T04:02:13+00:00"}
+{
+ "started_at": "2021-11-21T04:02:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hurry.filesize",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh8c360ce_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "hurry.filesize",
+      "subdir": "noarch",
+      "version": "0.9"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
