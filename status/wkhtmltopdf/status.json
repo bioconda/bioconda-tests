@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T16:46:21+00:00"}
+{
+ "started_at": "2021-11-21T16:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "wkhtmltopdf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "wkhtmltopdf",
+      "subdir": "linux-64",
+      "version": "0.12.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
