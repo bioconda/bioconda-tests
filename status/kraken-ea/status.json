@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T15:02:06+00:00"}
+{
+ "started_at": "2021-11-21T15:02:06+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "kraken-ea",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526ha92aebf_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "kraken-ea",
+      "subdir": "linux-64",
+      "version": "0.10.5ea.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "kraken-ea",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5.22.0_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "kraken-ea",
+      "subdir": "osx-64",
+      "version": "0.10.5ea.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
