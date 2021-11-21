@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T06:46:15+00:00"}
+{
+ "started_at": "2021-11-21T06:46:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "scala",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "scala",
+      "subdir": "linux-64",
+      "version": "2.11.8"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "scala",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "scala",
+      "subdir": "osx-64",
+      "version": "2.11.8"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
