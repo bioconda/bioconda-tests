@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T01:01:45+00:00"}
+{
+ "started_at": "2021-11-21T01:01:45+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metabinkit",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r40h38613fd_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "metabinkit",
+      "subdir": "linux-64",
+      "version": "0.2.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
