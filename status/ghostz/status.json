@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T06:02:12+00:00"}
+{
+ "started_at": "2021-11-21T06:02:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ghostz",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ghostz",
+      "subdir": "linux-64",
+      "version": "1.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "ghostz",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "ghostz",
+      "subdir": "osx-64",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
