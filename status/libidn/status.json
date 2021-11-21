@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T01:16:21+00:00"}
+{
+ "started_at": "2021-11-21T01:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libidn",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "libidn",
+      "subdir": "linux-64",
+      "version": "7.45.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "libidn",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "libidn",
+      "subdir": "osx-64",
+      "version": "7.45.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T01:16:21+00:00"}
+{
+ "started_at": "2021-11-21T01:16:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "khmer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38h89e3216_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "khmer",
+      "subdir": "linux-64",
+      "version": "3.0.0a3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "khmer",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py38ha8ac59a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "khmer",
+      "subdir": "osx-64",
+      "version": "3.0.0a3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
