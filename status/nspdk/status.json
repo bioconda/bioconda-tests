@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-21T10:46:21+00:00"}
+{
+ "started_at": "2021-11-21T10:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "nspdk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "nspdk",
+      "subdir": "linux-64",
+      "version": "9.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
