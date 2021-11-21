@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T13:31:24+00:00"}
+{
+ "started_at": "2021-11-21T13:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "muse",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "muse",
+      "subdir": "linux-64",
+      "version": "1.0.rc"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "muse",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfd59bb5_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "muse",
+      "subdir": "osx-64",
+      "version": "1.0.rc"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

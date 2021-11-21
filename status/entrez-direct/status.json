@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T13:31:24+00:00"}
+{
+ "started_at": "2021-11-21T13:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "entrez-direct",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he881be0_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "entrez-direct",
+      "subdir": "linux-64",
+      "version": "16.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "entrez-direct",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h193322a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "entrez-direct",
+      "subdir": "osx-64",
+      "version": "16.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
