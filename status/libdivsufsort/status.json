@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T10:01:49+00:00"}
+{
+ "started_at": "2021-11-21T10:01:49+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "libdivsufsort",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "libdivsufsort",
+      "subdir": "linux-64",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "libdivsufsort",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb4d813b_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "libdivsufsort",
+      "subdir": "osx-64",
+      "version": "2.0.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
