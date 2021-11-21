@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T03:31:17+00:00"}
+{
+ "started_at": "2021-11-21T03:31:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "modeltest-ng",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h19e7193_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "modeltest-ng",
+      "subdir": "linux-64",
+      "version": "0.1.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "modeltest-ng",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h3fcd44b_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "modeltest-ng",
+      "subdir": "osx-64",
+      "version": "0.1.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
