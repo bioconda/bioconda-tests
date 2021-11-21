@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-21T17:01:52+00:00"}
+{
+ "started_at": "2021-11-21T17:01:52+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "justbackoff",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "justbackoff",
+      "subdir": "linux-64",
+      "version": "0.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "justbackoff",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "justbackoff",
+      "subdir": "osx-64",
+      "version": "0.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
