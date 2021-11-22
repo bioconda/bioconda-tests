@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T23:16:15+00:00"}
+{
+ "started_at": "2021-11-22T23:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ncbi-util-legacy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1ccca8c_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ncbi-util-legacy",
+      "subdir": "linux-64",
+      "version": "6.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
