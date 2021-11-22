@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T22:31:12+00:00"}
+{
+ "started_at": "2021-11-22T22:31:12+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-file-copy-recursive-reduced",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-file-copy-recursive-reduced",
+      "subdir": "linux-64",
+      "version": "0.006"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-file-copy-recursive-reduced",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-file-copy-recursive-reduced",
+      "subdir": "osx-64",
+      "version": "0.006"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
