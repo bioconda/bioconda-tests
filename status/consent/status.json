@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T14:31:29+00:00"}
+{
+ "started_at": "2021-11-22T14:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "consent",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "consent",
+      "subdir": "linux-64",
+      "version": "2.2.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
