@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T12:46:29+00:00"}
+{
+ "started_at": "2021-11-22T12:46:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cdbtools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9a82719_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "cdbtools",
+      "subdir": "linux-64",
+      "version": "0.99"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "cdbtools",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h87af4ef_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "cdbtools",
+      "subdir": "osx-64",
+      "version": "0.99"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
