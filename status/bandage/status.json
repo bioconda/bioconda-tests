@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T12:16:15+00:00"}
+{
+ "started_at": "2021-11-22T12:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bandage",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hc9558a2_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bandage",
+      "subdir": "linux-64",
+      "version": "0.8.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

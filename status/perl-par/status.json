@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T12:16:15+00:00"}
+{
+ "started_at": "2021-11-22T12:16:15+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-par",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-par",
+      "subdir": "linux-64",
+      "version": "1.014"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-par",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-par",
+      "subdir": "osx-64",
+      "version": "1.014"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
