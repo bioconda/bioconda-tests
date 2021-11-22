@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T14:01:51+00:00"}
+{
+ "started_at": "2021-11-22T14:01:51+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-classdiscovery",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-classdiscovery",
+      "subdir": "noarch",
+      "version": "3.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-classdiscovery",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-classdiscovery",
+      "subdir": "noarch",
+      "version": "3.4.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
