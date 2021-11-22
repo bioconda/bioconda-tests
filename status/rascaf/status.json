@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T06:01:45+00:00"}
+{
+ "started_at": "2021-11-22T06:01:45+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "rascaf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e03b76_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "rascaf",
+      "subdir": "linux-64",
+      "version": "20161129"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "rascaf",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hd174df1_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "rascaf",
+      "subdir": "osx-64",
+      "version": "20161129"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
