@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T19:46:24+00:00"}
+{
+ "started_at": "2021-11-22T19:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-unicode-utf8",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h6bb024c_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-unicode-utf8",
+      "subdir": "linux-64",
+      "version": "0.62"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-unicode-utf8",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526h04f5b5a_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-unicode-utf8",
+      "subdir": "osx-64",
+      "version": "0.62"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
