@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T10:46:21+00:00"}
+{
+ "started_at": "2021-11-22T10:46:21+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "ac-diamond",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h6bcf2b7_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "ac-diamond",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
