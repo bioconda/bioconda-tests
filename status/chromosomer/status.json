@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T16:31:25+00:00"}
+{
+ "started_at": "2021-11-22T16:31:25+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "chromosomer",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "chromosomer",
+      "subdir": "linux-64",
+      "version": "0.1.4a"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
