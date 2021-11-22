@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T21:31:18+00:00"}
+{
+ "started_at": "2021-11-22T21:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-propcis",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h6115d3f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-propcis",
+      "subdir": "linux-64",
+      "version": "0.3_0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-propcis",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351h6115d3f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-propcis",
+      "subdir": "osx-64",
+      "version": "0.3_0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
