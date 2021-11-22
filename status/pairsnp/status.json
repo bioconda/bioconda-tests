@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T20:02:02+00:00"}
+{
+ "started_at": "2021-11-22T20:02:02+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pairsnp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hf22980b_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pairsnp",
+      "subdir": "linux-64",
+      "version": "0.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "pairsnp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb2c5905_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "pairsnp",
+      "subdir": "osx-64",
+      "version": "0.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
