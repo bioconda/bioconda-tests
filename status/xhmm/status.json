@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T17:31:22+00:00"}
+{
+ "started_at": "2021-11-22T17:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "xhmm",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "had19f2a_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "xhmm",
+      "subdir": "linux-64",
+      "version": "0.0.0.2016_01_04.cc14e52"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
