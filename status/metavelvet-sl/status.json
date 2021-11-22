@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T00:46:17+00:00"}
+{
+ "started_at": "2021-11-22T00:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metavelvet-sl",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5.22.0_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "metavelvet-sl",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
