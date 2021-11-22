@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T11:46:26+00:00"}
+{
+ "started_at": "2021-11-22T11:46:26+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "arvados-cli",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "arvados-cli",
+      "subdir": "linux-64",
+      "version": "0.1.20151207150126"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
