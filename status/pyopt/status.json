@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T14:16:18+00:00"}
+{
+ "started_at": "2021-11-22T14:16:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "pyopt",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "pyopt",
+      "subdir": "linux-64",
+      "version": "1.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
