@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T20:46:18+00:00"}
+{
+ "started_at": "2021-11-22T20:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dcplib",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "dcplib",
+      "subdir": "noarch",
+      "version": "3.12.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "dcplib",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "dcplib",
+      "subdir": "noarch",
+      "version": "3.12.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
