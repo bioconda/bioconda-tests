@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T02:02:01+00:00"}
+{
+ "started_at": "2021-11-22T02:02:01+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-interactivedisplay",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-interactivedisplay",
+      "subdir": "noarch",
+      "version": "1.32.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-interactivedisplay",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-interactivedisplay",
+      "subdir": "noarch",
+      "version": "1.32.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
