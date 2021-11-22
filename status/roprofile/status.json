@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T18:31:23+00:00"}
+{
+ "started_at": "2021-11-22T18:31:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "roprofile",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "roprofile",
+      "subdir": "linux-64",
+      "version": "1.4.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "roprofile",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "roprofile",
+      "subdir": "osx-64",
+      "version": "1.4.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
