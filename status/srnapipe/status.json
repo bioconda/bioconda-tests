@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T19:01:36+00:00"}
+{
+ "started_at": "2021-11-22T19:01:36+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "srnapipe",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262r35hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "srnapipe",
+      "subdir": "noarch",
+      "version": "1.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "srnapipe",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262r35hdfd78af_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "srnapipe",
+      "subdir": "noarch",
+      "version": "1.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
