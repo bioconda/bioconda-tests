@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T18:46:17+00:00"}
+{
+ "started_at": "2021-11-22T18:46:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-cairo",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526haf251e0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-cairo",
+      "subdir": "linux-64",
+      "version": "1.106"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "perl-cairo",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526haf251e0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "perl-cairo",
+      "subdir": "osx-64",
+      "version": "1.106"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
