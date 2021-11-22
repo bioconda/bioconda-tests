@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-22T03:16:14+00:00"}
+{
+ "started_at": "2021-11-22T03:16:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-lumihumanall.db",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bioconductor-lumihumanall.db",
+      "subdir": "linux-64",
+      "version": "1.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-lumihumanall.db",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r351_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bioconductor-lumihumanall.db",
+      "subdir": "osx-64",
+      "version": "1.22.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
