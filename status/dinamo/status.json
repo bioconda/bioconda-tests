@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T11:01:52+00:00"}
+{
+ "started_at": "2021-11-22T11:01:52+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "dinamo",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hee3b9ab_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "dinamo",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
