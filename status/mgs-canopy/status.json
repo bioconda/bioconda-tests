@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T00:31:19+00:00"}
+{
+ "started_at": "2021-11-22T00:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mgs-canopy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hee3b9ab_4",
+      "build_number": 4,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mgs-canopy",
+      "subdir": "linux-64",
+      "version": "1.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
