@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-22T03:46:18+00:00"}
+{
+ "started_at": "2021-11-22T03:46:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "metaphyler",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h779adbc_5",
+      "build_number": 5,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "metaphyler",
+      "subdir": "linux-64",
+      "version": "1.25"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
