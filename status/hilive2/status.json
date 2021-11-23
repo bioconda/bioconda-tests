@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-23T03:46:20+00:00"}
+{
+ "started_at": "2021-11-23T03:46:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hilive2",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h2e6a766_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "hilive2",
+      "subdir": "linux-64",
+      "version": "2.0a"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
