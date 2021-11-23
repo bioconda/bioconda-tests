@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T20:31:20+00:00"}
+{
+ "started_at": "2021-11-23T20:31:20+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "orna",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "he52c88d_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "orna",
+      "subdir": "linux-64",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "orna",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "ha0d0bf1_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "orna",
+      "subdir": "osx-64",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
