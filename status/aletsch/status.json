@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T19:01:51+00:00"}
+{
+ "started_at": "2021-11-23T19:01:51+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "aletsch",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hbce0939_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "aletsch",
+      "subdir": "linux-64",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "aletsch",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h381b8fc_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "aletsch",
+      "subdir": "osx-64",
+      "version": "1.0.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
