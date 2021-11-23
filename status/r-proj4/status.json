@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T13:46:24+00:00"}
+{
+ "started_at": "2021-11-23T13:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-proj4",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hf10e4f1_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+      "name": "r-proj4",
+      "subdir": "linux-64",
+      "version": "1.0_10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-proj4",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hd936d55_3",
+      "build_number": 3,
+      "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+      "name": "r-proj4",
+      "subdir": "osx-64",
+      "version": "1.0_10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
