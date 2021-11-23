@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T00:46:24+00:00"}
+{
+ "started_at": "2021-11-23T00:46:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "hopla",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "hopla",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "hopla",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "hopla",
+      "subdir": "noarch",
+      "version": "1.0.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
