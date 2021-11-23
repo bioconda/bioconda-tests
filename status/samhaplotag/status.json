@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T11:31:22+00:00"}
+{
+ "started_at": "2021-11-23T11:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "samhaplotag",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "samhaplotag",
+      "subdir": "linux-64",
+      "version": "0.0.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "samhaplotag",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hb280591_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "samhaplotag",
+      "subdir": "osx-64",
+      "version": "0.0.4"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
