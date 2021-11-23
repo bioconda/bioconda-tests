@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T03:31:19+00:00"}
+{
+ "started_at": "2021-11-23T03:31:19+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "carnac-lr",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h1b792b2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "carnac-lr",
+      "subdir": "linux-64",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "carnac-lr",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "carnac-lr",
+      "subdir": "osx-64",
+      "version": "1.0.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
