@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T05:31:16+00:00"}
+{
+ "started_at": "2021-11-23T05:31:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "quickmerge",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl5262h1b792b2_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "quickmerge",
+      "subdir": "linux-64",
+      "version": "0.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "quickmerge",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h589c0e0_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "quickmerge",
+      "subdir": "osx-64",
+      "version": "0.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
