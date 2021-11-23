@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-23T07:31:18+00:00"}
+{
+ "started_at": "2021-11-23T07:31:18+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "cnvnator",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h9c7f56d_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "cnvnator",
+      "subdir": "linux-64",
+      "version": "0.4.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
