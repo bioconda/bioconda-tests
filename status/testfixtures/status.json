@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-23T00:16:17+00:00"}
+{
+ "started_at": "2021-11-23T00:16:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "testfixtures",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhd8ed1ab_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "testfixtures",
+      "subdir": "noarch",
+      "version": "6.18.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
