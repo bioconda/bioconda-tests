@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T18:46:14+00:00"}
+{
+ "started_at": "2021-11-23T18:46:14+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "arboreto",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh3252c3a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "arboreto",
+      "subdir": "noarch",
+      "version": "0.1.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "arboreto",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyh3252c3a_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "arboreto",
+      "subdir": "noarch",
+      "version": "0.1.6"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
