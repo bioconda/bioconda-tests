@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-23T00:31:24+00:00"}
+{
+ "started_at": "2021-11-23T00:31:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mlpy",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36hae55d0a_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mlpy",
+      "subdir": "linux-64",
+      "version": "3.5.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
