@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T09:46:23+00:00"}
+{
+ "started_at": "2021-11-23T09:46:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "data_hacks",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "data_hacks",
+      "subdir": "linux-64",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "data_hacks",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "data_hacks",
+      "subdir": "noarch",
+      "version": "0.3.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
