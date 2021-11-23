@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-23T01:46:16+00:00"}
+{
+ "started_at": "2021-11-23T01:46:16+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bamtocov",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h38613fd_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "bamtocov",
+      "subdir": "linux-64",
+      "version": "2.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bamtocov",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hfa5225b_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "bamtocov",
+      "subdir": "osx-64",
+      "version": "2.2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
