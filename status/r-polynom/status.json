@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T10:16:22+00:00"}
+{
+ "started_at": "2021-11-24T10:16:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-polynom",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-polynom",
+      "subdir": "noarch",
+      "version": "1.4_0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-polynom",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hc72bb7e_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/conda-forge/noarch",
+      "name": "r-polynom",
+      "subdir": "noarch",
+      "version": "1.4_0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
