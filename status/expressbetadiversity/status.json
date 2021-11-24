@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-24T18:16:24+00:00"}
+{
+ "started_at": "2021-11-24T18:16:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "expressbetadiversity",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h7d875b9_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "expressbetadiversity",
+      "subdir": "linux-64",
+      "version": "1.0.10"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
