@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T12:31:22+00:00"}
+{
+ "started_at": "2021-11-24T12:31:22+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "svtk",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39h38f01e4_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "svtk",
+      "subdir": "linux-64",
+      "version": "0.0.20190615"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "svtk",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py39ha492530_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "svtk",
+      "subdir": "osx-64",
+      "version": "0.0.20190615"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
