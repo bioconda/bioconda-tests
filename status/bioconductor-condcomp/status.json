@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T21:16:24+00:00"}
+{
+ "started_at": "2021-11-24T21:16:24+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-condcomp",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-condcomp",
+      "subdir": "noarch",
+      "version": "1.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-condcomp",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r36_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-condcomp",
+      "subdir": "noarch",
+      "version": "1.1.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
