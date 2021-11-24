@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T11:31:23+00:00"}
+{
+ "started_at": "2021-11-24T11:31:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "r-imputelcmd",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-imputelcmd",
+      "subdir": "noarch",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "r-imputelcmd",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41h3342da4_6",
+      "build_number": 6,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "r-imputelcmd",
+      "subdir": "noarch",
+      "version": "2.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
