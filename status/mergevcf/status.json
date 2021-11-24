@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T08:16:32+00:00"}
+{
+ "started_at": "2021-11-24T08:16:32+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "mergevcf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "mergevcf",
+      "subdir": "linux-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "mergevcf",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py27_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "mergevcf",
+      "subdir": "osx-64",
+      "version": "1.0.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
