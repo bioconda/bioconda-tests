@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T23:01:38+00:00"}
+{
+ "started_at": "2021-11-24T23:01:38+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-lumihumanidmapping",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-lumihumanidmapping",
+      "subdir": "noarch",
+      "version": "1.10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-lumihumanidmapping",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-lumihumanidmapping",
+      "subdir": "noarch",
+      "version": "1.10.1"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
