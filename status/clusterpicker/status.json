@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T12:16:27+00:00"}
+{
+ "started_at": "2021-11-24T12:16:27+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "clusterpicker",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "clusterpicker",
+      "subdir": "noarch",
+      "version": "1.2.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "clusterpicker",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "clusterpicker",
+      "subdir": "noarch",
+      "version": "1.2.5"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
