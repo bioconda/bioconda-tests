@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T20:31:29+00:00"}
+{
+ "started_at": "2021-11-24T20:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "qtip",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py36h7eb728f_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "qtip",
+      "subdir": "linux-64",
+      "version": "1.6.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "qtip",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "py37h10e2902_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/osx-64",
+      "name": "qtip",
+      "subdir": "osx-64",
+      "version": "1.6.2"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
