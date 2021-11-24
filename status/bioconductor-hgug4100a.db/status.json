@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-24T15:31:29+00:00"}
+{
+ "started_at": "2021-11-24T15:31:29+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-hgug4100a.db",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_9",
+      "build_number": 9,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-hgug4100a.db",
+      "subdir": "noarch",
+      "version": "3.2.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-hgug4100a.db",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_9",
+      "build_number": 9,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-hgug4100a.db",
+      "subdir": "noarch",
+      "version": "3.2.3"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
