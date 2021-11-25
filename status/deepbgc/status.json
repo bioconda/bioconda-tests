@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-25T01:16:23+00:00"}
+{
+ "started_at": "2021-11-25T01:16:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "deepbgc",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhb7b1952_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "deepbgc",
+      "subdir": "noarch",
+      "version": "0.1.29"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "deepbgc",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pyhb7b1952_0",
+      "build_number": 0,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "deepbgc",
+      "subdir": "noarch",
+      "version": "0.1.29"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}

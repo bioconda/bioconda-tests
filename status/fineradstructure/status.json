@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-25T01:16:23+00:00"}
+{
+ "started_at": "2021-11-25T01:16:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "fineradstructure",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "h972bdcb_2",
+      "build_number": 2,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "fineradstructure",
+      "subdir": "linux-64",
+      "version": "0.3.2r109"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
