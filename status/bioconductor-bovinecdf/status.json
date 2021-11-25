@@ -1,1 +1,44 @@
-{"state":"running","started_at":"2021-11-25T05:16:23+00:00"}
+{
+ "started_at": "2021-11-25T05:16:23+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "bioconductor-bovinecdf",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bovinecdf",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  },
+  {
+   "name": "bioconductor-bovinecdf",
+   "platform": "osx-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "r41hdfd78af_8",
+      "build_number": 8,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "bioconductor-bovinecdf",
+      "subdir": "noarch",
+      "version": "2.18.0"
+     },
+     "solve": "success",
+     "test": "failed"
+    }
+   ]
+  }
+ ]
+}
