@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-26T23:01:13+00:00"}
+{
+ "started_at": "2021-11-26T23:01:13+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "perl-module-load",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "pl526_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/linux-64",
+      "name": "perl-module-load",
+      "subdir": "linux-64",
+      "version": "0.32"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
