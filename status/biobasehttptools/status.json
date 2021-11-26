@@ -1,1 +1,25 @@
-{"state":"running","started_at":"2021-11-26T17:01:17+00:00"}
+{
+ "started_at": "2021-11-26T17:01:17+00:00",
+ "state": "completed",
+ "status": [
+  {
+   "name": "biobasehttptools",
+   "platform": "linux-64",
+   "status": [
+    {
+     "implementation": "mamba",
+     "package": {
+      "build": "hdfd78af_1",
+      "build_number": 1,
+      "channel": "https://conda.anaconda.org/bioconda/noarch",
+      "name": "biobasehttptools",
+      "subdir": "noarch",
+      "version": "1.1.0"
+     },
+     "solve": "success",
+     "test": "success"
+    }
+   ]
+  }
+ ]
+}
