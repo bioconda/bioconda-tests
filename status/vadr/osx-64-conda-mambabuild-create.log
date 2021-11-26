@@ -1,11 +1,11 @@
 Updating build index: /Users/runner/conda/conda-bld
 
-TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp8ruyklna/noarch/vadr-1.3-pl5262hdfd78af_3.tar.bz2
+TEST START: /var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpx5ze749l/noarch/vadr-1.3-pl5262hdfd78af_3.tar.bz2
 Reloading output folder: /Users/runner/conda/conda-bld
 
 ## Package Plan ##
 
-  environment location: /Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+  environment location: /Users/runner/conda/conda-bld/vadr_1637929199592/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
 
 
 The following NEW packages will be INSTALLED:
@@ -121,7 +121,7 @@ The following NEW packages will be INSTALLED:
     sequip:                     0.08-hdfd78af_0         bioconda                                                           
     tapi:                       1000.10.8-h879752b_4    conda-forge                                                        
     tk:                         8.6.11-h5dbffcc_1       conda-forge                                                        
-    vadr:                       1.3-pl5262hdfd78af_3    file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmp8ruyklna
+    vadr:                       1.3-pl5262hdfd78af_3    file:///var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/tmpx5ze749l
     wget:                       1.20.3-hd3787cc_1       conda-forge                                                        
     zlib:                       1.2.11-h9173be1_1013    conda-forge                                                        
 
@@ -129,15 +129,15 @@ Preparing transaction: ...working... done
 Verifying transaction: ...working... done
 Executing transaction: ...working... 
 Please run 'download-vadr-models.sh MODELNAME' (e.g. 'download-vadr-models.sh sarscov2')
-to download the models required to run VADR. These files will be downloaded to /Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/share/vadr-1.3/vadr-models. 
+to download the models required to run VADR. These files will be downloaded to /Users/runner/conda/conda-bld/vadr_1637929199592/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/share/vadr-1.3/vadr-models. 
 A list of avaialble models can be found at https://ftp.ncbi.nlm.nih.gov/pub/nawrocki/vadr-models/ 
 If you have a database in a custom path, please change the VADRMODELDIR environment variable.
 
 
 
 done
-export PREFIX=/Users/runner/conda/conda-bld/vadr_1637025643143/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
-export SRC_DIR=/Users/runner/conda/conda-bld/vadr_1637025643143/test_tmp
+export PREFIX=/Users/runner/conda/conda-bld/vadr_1637929199592/_test_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac
+export SRC_DIR=/Users/runner/conda/conda-bld/vadr_1637929199592/test_tmp
 INFO: activate-gfortran_osx-64.sh made the following environmental changes:
 +DEBUG_FFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -I$PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/vadr-1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
 +DEBUG_FORTRANFLAGS=-march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -I$PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/vadr-1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix -march=nocona -mtune=core2 -ftree-vectorize -fPIC -fstack-protector -O2 -pipe -Og -g -Wall -Wextra -fcheck=all -fbacktrace -fimplicit-none -fvar-tracking-assignments
@@ -158,7 +158,7 @@ INFO: activate_clang_osx-64.sh made the following environmental changes:
 +CLANG=$PREFIX/bin/x86_64-apple-darwin13.4.0-clang
 +CMAKE_PREFIX_PATH=:$PREFIX
 +CODESIGN_ALLOCATE=$PREFIX/bin/x86_64-apple-darwin13.4.0-codesign_allocate
-+CONDA_BUILD_SYSROOT=/Applications/Xcode_13.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
++CONDA_BUILD_SYSROOT=/Applications/Xcode_13.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk
 +CPPFLAGS=-D_FORTIFY_SOURCE=2 -mmacosx-version-min=10.9 -I$PREFIX/include
 +DEBUG_CFLAGS=-march=core2 -mtune=haswell -mssse3 -ftree-vectorize -fPIC -fPIE -fstack-protector-strong -O2 -pipe -Og -g -Wall -Wextra -I$PREFIX/include -fdebug-prefix-map=$SRC_DIR=/usr/local/src/conda/vadr-1.3 -fdebug-prefix-map=$PREFIX=/usr/local/src/conda-prefix
 +INDR=$PREFIX/bin/x86_64-apple-darwin13.4.0-indr
@@ -189,7 +189,7 @@ INFO: activate_clangxx_osx-64.sh made the following environmental changes:
 # v-annotate.pl :: classify and annotate sequences using a model library
 # VADR 1.3 (Aug 2021)
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-# date:    Tue Nov 16 01:23:13 2021
+# date:    Fri Nov 26 12:22:04 2021
 #
 Usage: v-annotate.pl [-options] <fasta file to annotate> <output directory to create>
 
